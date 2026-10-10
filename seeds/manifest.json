@@ -1,0 +1,11 @@
+{
+  "content_version": 1,
+  "description": "SkillVerse questions and demo player seed data",
+  "entities": {
+    "questions": [
+      "seeds/questions/accounting/mcq.json",
+      "seeds/questions/accounting/sudden_death.json"
+    ],
+    "users": ["seeds/users/demo_user.json"]
+  }
+}

@@ -1,0 +1,19 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+*.out
+
+# Environments and secrets
+.env
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db

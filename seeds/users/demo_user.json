@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "username": "quizmaster",
+      "email": "player@example.com",
+      "phone": "+1-555-0199",
+      "password_hash": "$2a$12$NqLpY1qMsn43K7F7z9sEa.YfR9N8hJj7XbE0jO6o8s4eH1uV5mK0K",
+      "raw_password": "secretpassword123",
+      "status": "active",
+      "profile": {
+        "full_name": "Pro Quiz Champion",
+        "avatar_id": "user",
+        "class": "Grade 11",
+        "board": "CBSE",
+        "subjects": "[\"Accounting\"]",
+        "is_onboarded": true,
+        "coins": 250,
+        "gems": 50,
+        "experience": 120,
+        "level": 2,
+        "current_streak": 3,
+        "highest_streak": 7,
+        "weekly_score": 450
+      }
+    }
+  ]
+}

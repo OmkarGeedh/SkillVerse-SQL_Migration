@@ -1,0 +1,49 @@
+name: Deploy Database
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-database-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Migrate and Seed Production
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Download dependencies
+        run: go mod download
+
+      - name: Run tests
+        run: go test -race ./...
+
+      - name: Build database CLI
+        run: go build -o bin/game-db ./cmd/db
+
+      - name: Validate seed data
+        run: ./bin/game-db seed validate
+
+      - name: Apply database migrations
+        run: ./bin/game-db migrate up
+        env:
+          DB_URL: ${{ secrets.DATABASE_URL }}
+
+      - name: Upsert game content and initial seed
+        run: ./bin/game-db seed -format all
+        env:
+          DB_URL: ${{ secrets.DATABASE_URL }}
