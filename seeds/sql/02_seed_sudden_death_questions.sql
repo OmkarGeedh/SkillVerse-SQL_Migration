@@ -1,6 +1,6 @@
 -- Seeds: Sudden Death questions (10 items)
 
-INSERT INTO questions (
+INSERT INTO mcq_questions (
     question_code, question_type, topic_id, prompt,
     option_a, option_b, option_c, option_d,
     correct_option, difficulty, points, hint, explanation

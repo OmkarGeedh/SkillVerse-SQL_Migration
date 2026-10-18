@@ -69,6 +69,12 @@ func RunDataQualitySuite(questions []seeder.QuestionSeed, users []seeder.UserSee
 	// 8. Integrity: Sudden Death Two-Option Contract
 	checkSuddenDeathTwoOptionContract(questions, report)
 
+	// 8b. Integrity: Sort It Out Contract
+	checkSortItOutContract(questions, report)
+
+	// 8c. Integrity: Match the Following Pairs Contract
+	checkMatchPairsContract(questions, report)
+
 	// 9. Uniqueness: User Accounts (Email & Username)
 	checkUserUniqueness(users, report)
 
@@ -133,14 +139,21 @@ func checkQuestionCompleteness(questions []seeder.QuestionSeed, report *QualityR
 		if strings.TrimSpace(q.TopicID) == "" {
 			missing = append(missing, "topic_id")
 		}
-		if strings.TrimSpace(q.OptionA) == "" {
-			missing = append(missing, "option_a")
-		}
-		if strings.TrimSpace(q.OptionB) == "" {
-			missing = append(missing, "option_b")
-		}
-		if strings.TrimSpace(q.CorrectOption) == "" {
-			missing = append(missing, "correct_option")
+		qType := strings.ToLower(strings.TrimSpace(q.QuestionType))
+		if qType == "match_the_following" {
+			if len(q.MatchPairs) < 2 {
+				missing = append(missing, "match_pairs")
+			}
+		} else {
+			if strings.TrimSpace(q.OptionA) == "" {
+				missing = append(missing, "option_a")
+			}
+			if strings.TrimSpace(q.OptionB) == "" {
+				missing = append(missing, "option_b")
+			}
+			if strings.TrimSpace(q.CorrectOption) == "" {
+				missing = append(missing, "correct_option")
+			}
 		}
 
 		if len(missing) > 0 {
@@ -164,8 +177,10 @@ func checkQuestionTypeDomain(questions []seeder.QuestionSeed, report *QualityRep
 	}
 
 	validTypes := map[string]bool{
-		"mcq":          true,
-		"sudden_death": true,
+		"mcq":                 true,
+		"sudden_death":        true,
+		"sort_it_out":         true,
+		"match_the_following": true,
 	}
 
 	for _, q := range questions {
@@ -194,12 +209,15 @@ func checkCorrectOptionBounds(questions []seeder.QuestionSeed, report *QualityRe
 	}
 
 	for _, q := range questions {
-		opt := strings.ToUpper(strings.TrimSpace(q.CorrectOption))
 		qType := strings.ToLower(strings.TrimSpace(q.QuestionType))
-		if qType == "sudden_death" {
+		if qType == "match_the_following" {
+			continue // Match the following validates via match_pairs contract
+		}
+		opt := strings.ToUpper(strings.TrimSpace(q.CorrectOption))
+		if qType == "sudden_death" || qType == "sort_it_out" {
 			if opt != "A" && opt != "B" {
 				result.FailedCount++
-				result.Errors = append(result.Errors, fmt.Sprintf("sudden_death question '%s' correct_option must be 'A' or 'B' (got '%s')", q.QuestionCode, opt))
+				result.Errors = append(result.Errors, fmt.Sprintf("%s question '%s' correct_option must be 'A' or 'B' (got '%s')", qType, q.QuestionCode, opt))
 			}
 		} else {
 			if opt != "A" && opt != "B" && opt != "C" && opt != "D" {
@@ -266,6 +284,9 @@ func checkOptionDeduplication(questions []seeder.QuestionSeed, report *QualityRe
 	}
 
 	for _, q := range questions {
+		if strings.ToLower(strings.TrimSpace(q.QuestionType)) == "match_the_following" {
+			continue // Match the following uses match_pairs rather than options
+		}
 		opts := []string{
 			strings.TrimSpace(strings.ToLower(q.OptionA)),
 			strings.TrimSpace(strings.ToLower(q.OptionB)),
@@ -312,6 +333,64 @@ func checkSuddenDeathTwoOptionContract(questions []seeder.QuestionSeed, report *
 		if strings.TrimSpace(q.OptionC) != "" || strings.TrimSpace(q.OptionD) != "" {
 			result.FailedCount++
 			result.Errors = append(result.Errors, fmt.Sprintf("sudden_death question '%s' must not have option_c or option_d populated (got C='%s', D='%s')", q.QuestionCode, q.OptionC, q.OptionD))
+		}
+	}
+
+	if result.FailedCount > 0 {
+		result.Status = "FAIL"
+	}
+	report.Results = append(report.Results, result)
+}
+
+func checkSortItOutContract(questions []seeder.QuestionSeed, report *QualityReport) {
+	result := QualityCheckResult{
+		Name:         "test_sort_it_out_contract",
+		Category:     CategoryIntegrity,
+		TotalChecked: len(questions),
+		Status:       "PASS",
+	}
+
+	for _, q := range questions {
+		if strings.ToLower(strings.TrimSpace(q.QuestionType)) != "sort_it_out" {
+			continue
+		}
+		if strings.TrimSpace(q.PairType) == "" {
+			result.FailedCount++
+			result.Errors = append(result.Errors, fmt.Sprintf("sort_it_out question '%s' must have pair_type populated", q.QuestionCode))
+		}
+		if strings.TrimSpace(q.OptionC) != "" || strings.TrimSpace(q.OptionD) != "" {
+			result.FailedCount++
+			result.Errors = append(result.Errors, fmt.Sprintf("sort_it_out question '%s' must not have option_c or option_d populated (got C='%s', D='%s')", q.QuestionCode, q.OptionC, q.OptionD))
+		}
+	}
+
+	if result.FailedCount > 0 {
+		result.Status = "FAIL"
+	}
+	report.Results = append(report.Results, result)
+}
+
+func checkMatchPairsContract(questions []seeder.QuestionSeed, report *QualityReport) {
+	result := QualityCheckResult{
+		Name:         "test_match_the_following_pairs_contract",
+		Category:     CategoryIntegrity,
+		TotalChecked: len(questions),
+		Status:       "PASS",
+	}
+
+	for _, q := range questions {
+		if strings.ToLower(strings.TrimSpace(q.QuestionType)) != "match_the_following" {
+			continue
+		}
+		if len(q.MatchPairs) < 2 {
+			result.FailedCount++
+			result.Errors = append(result.Errors, fmt.Sprintf("match_the_following question '%s' must have at least 2 match pairs (got %d)", q.QuestionCode, len(q.MatchPairs)))
+		}
+		for idx, p := range q.MatchPairs {
+			if strings.TrimSpace(p.LeftText) == "" || strings.TrimSpace(p.RightText) == "" {
+				result.FailedCount++
+				result.Errors = append(result.Errors, fmt.Sprintf("match_the_following question '%s' pair %d must have non-empty left_text and right_text", q.QuestionCode, idx+1))
+			}
 		}
 	}
 

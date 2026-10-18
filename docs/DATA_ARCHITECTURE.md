@@ -16,15 +16,18 @@ flowchart TD
 
     subgraph DataEngineeringLayer["2. Data Engineering & Quality Layer (game-db)"]
         Extract["Extractor<br/>(Multi-format Parser)"]
-        DQGate["Data Quality Gate (DQ)<br/>- test_code_uniqueness<br/>- test_fields_not_null<br/>- test_option_integrity<br/>- test_bounds_and_domains"]
-        Profiler["Dataset Profiler<br/>- Difficulty breakdown<br/>- Word/char NLP stats<br/>- Hint/explanation coverage"]
+        DQGate["Data Quality Gate (DQ)<br/>- test_code_uniqueness<br/>- test_fields_not_null<br/>- test_option_integrity<br/>- test_bounds_and_domains<br/>- test_mode_contracts"]
+        Profiler["Dataset Profiler<br/>- Difficulty breakdown<br/>- Mode & topic breakdown<br/>- Word/char NLP stats<br/>- Hint/explanation coverage"]
         Transformer["Transformer & Hasher<br/>- Whitespace normalization<br/>- SHA-256 Checksum"]
-        Loader["Batch Upsert Loader<br/>(Idempotent ON CONFLICT)"]
+        Loader["Batch Upsert Loader<br/>(Dedicated Table Partitioning)"]
     end
 
     subgraph StorageLayer["3. Target Storage Layer (PostgreSQL 16)"]
-        PG_Q["questions (MCQ & Sudden Death)"]
-        PG_U["clients & client_profiles"]
+        PG_MCQ["mcq_questions (MCQ & Sudden Death)"]
+        PG_SIO["sort_it_out_questions (Swipe Game)"]
+        PG_MTF["match_the_following_questions & match_pairs"]
+        PG_U["clients, client_profiles & client_streak_activities"]
+        PG_H["user_question_history & wallet_ledger"]
         PG_A["data_pipeline_runs (Audit & Lineage)"]
         PG_M["schema_migrations (DDL Versions)"]
     end
@@ -44,45 +47,26 @@ flowchart TD
     DQGate -.->|Analysis| Profiler
     Transformer --> Loader
 
-    Loader -->|Upsert Questions| PG_Q
+    Loader -->|Upsert MCQs| PG_MCQ
+    Loader -->|Upsert Sort It Out| PG_SIO
+    Loader -->|Upsert Matching Boards| PG_MTF
     Loader -->|Upsert Demo Accounts| PG_U
     Loader -->|Record Pipeline Run| PG_A
 
-    PG_Q --> Backend
+    PG_MCQ --> Backend
+    PG_SIO --> Backend
+    PG_MTF --> Backend
     PG_U --> Backend
     Backend --> Mobile
-    PG_Q --> Analytics
+    PG_MCQ --> Analytics
 ```
 
 ---
 
 ## 2. Pipeline Execution Stages
 
-### Stage 1: Extraction & Ingestion
-- Ingests structured JSON seeds (`seeds/questions/accounting/*.json`).
-- Ingests raw CSV exports from content authoring tools (`Sheets Dump/*.csv`).
-- Ingests user account fixtures (`seeds/users/*.json`).
-
-### Stage 2: Data Quality (DQ) Testing Gate
-Automated contract tests run against every record before insertion:
-- **Uniqueness**: `question_code` must be globally distinct across topics.
-- **Completeness**: `prompt`, `option_a`, `option_b`, `correct_option` cannot be empty.
-- **Domain Constraints**: `question_type IN ('mcq', 'sudden_death')`, `difficulty BETWEEN 1 AND 5`, `points > 0`.
-- **Integrity Constraints**: Sudden Death enforces the 2-option contract (`option_c` and `option_d` must be empty).
-- **Option Deduplication**: No duplicate option text within the same question.
-
-### Stage 3: Transformation & Cryptographic Checksum
-- Sanitizes and trims whitespace from prompts, options, and explanations.
-- Calculates deterministic SHA-256 hash for dataset versioning and drift detection.
-
-### Stage 4: Idempotent Batch Loading
-- Loads records in transactional batches with `ON CONFLICT (question_code) DO UPDATE`.
-- Zero data loss, zero duplicate row generation on repeated executions.
-
-### Stage 5: Lineage & Audit Logging
-Every execution logs operational metadata into `data_pipeline_runs`:
-- `run_id`: Unique run identifier.
-- `records_processed` / `records_inserted`: Row-level throughput metrics.
-- `duration_ms`: Execution latency.
-- `checksum`: Cryptographic fingerprint of the dataset version.
-- `status`: Execution state (`SUCCESS` or `FAILED`).
+1. **Extract**: Parses JSON authoring seeds and optional Sheets dumps (`ExtractAllSources`).
+2. **Data Quality Gate**: Runs 11 validation checks before any database touch (`quality.RunDataQualitySuite`).
+3. **Transform & Fingerprint**: Computes deterministic SHA-256 dataset checksum (`pipeline.ComputeChecksum`).
+4. **Idempotent Partitioned Load**: Batch upserts questions into dedicated tables (`mcq_questions`, `sort_it_out_questions`, `match_the_following_questions`, `match_pairs`).
+5. **Audit Ledger**: Commits pipeline lineage metrics and duration to `data_pipeline_runs`.

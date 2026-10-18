@@ -221,3 +221,19 @@ func MigrateVersion(ctx context.Context, db *sql.DB, migrationsDir string) error
 
 	return nil
 }
+
+// MigrateDropAll drops all tables in the public schema and recreates a clean public schema.
+func MigrateDropAll(ctx context.Context, db *sql.DB) error {
+	log.Println("==> Dropping all database tables (testing/reset environment)...")
+	query := `
+	DROP SCHEMA public CASCADE;
+	CREATE SCHEMA public;
+	GRANT ALL ON SCHEMA public TO CURRENT_USER;
+	GRANT ALL ON SCHEMA public TO public;
+	`
+	if _, err := db.ExecContext(ctx, query); err != nil {
+		return fmt.Errorf("failed dropping database tables: %w", err)
+	}
+	log.Println("==> All database tables dropped successfully. Clean schema initialized.")
+	return nil
+}

@@ -214,10 +214,17 @@ func ExtractCSVQuestions(csvPath string) ([]seeder.QuestionSeed, error) {
 			qType = "mcq"
 		}
 
+		pairType := getVal("pair_type")
+		var matchPairs []seeder.MatchPairSeed
+		if mpStr := getVal("match_pairs"); mpStr != "" {
+			_ = json.Unmarshal([]byte(mpStr), &matchPairs)
+		}
+
 		q := seeder.QuestionSeed{
 			QuestionCode:  code,
 			QuestionType:  qType,
 			TopicID:       getVal("topic_id"),
+			PairType:      pairType,
 			Prompt:        getVal("prompt"),
 			OptionA:       getVal("option_a"),
 			OptionB:       getVal("option_b"),
@@ -228,6 +235,7 @@ func ExtractCSVQuestions(csvPath string) ([]seeder.QuestionSeed, error) {
 			Points:        pts,
 			Hint:          hint,
 			Explanation:   explanation,
+			MatchPairs:    matchPairs,
 		}
 		_ = rowIdx
 		questions = append(questions, q)
@@ -241,6 +249,9 @@ func ComputeChecksum(questions []seeder.QuestionSeed) string {
 	h := sha256.New()
 	for _, q := range questions {
 		io.WriteString(h, q.QuestionCode)
+		io.WriteString(h, q.QuestionType)
+		io.WriteString(h, q.TopicID)
+		io.WriteString(h, q.PairType)
 		io.WriteString(h, q.Prompt)
 		io.WriteString(h, q.OptionA)
 		io.WriteString(h, q.OptionB)
@@ -249,6 +260,11 @@ func ComputeChecksum(questions []seeder.QuestionSeed) string {
 		io.WriteString(h, q.CorrectOption)
 		io.WriteString(h, strconv.Itoa(q.Difficulty))
 		io.WriteString(h, strconv.Itoa(q.Points))
+		for _, p := range q.MatchPairs {
+			io.WriteString(h, strconv.Itoa(p.PairOrder))
+			io.WriteString(h, p.LeftText)
+			io.WriteString(h, p.RightText)
+		}
 	}
 	return hex.EncodeToString(h.Sum(nil))
 }
@@ -265,8 +281,8 @@ func LoadQuestionsBatch(ctx context.Context, db *sql.DB, questions []seeder.Ques
 	}
 	defer tx.Rollback()
 
-	query := `
-	INSERT INTO questions (
+	mcqQuery := `
+	INSERT INTO mcq_questions (
 		question_code, question_type, topic_id, prompt,
 		option_a, option_b, option_c, option_d,
 		correct_option, difficulty, points, hint, explanation
@@ -283,29 +299,125 @@ func LoadQuestionsBatch(ctx context.Context, db *sql.DB, questions []seeder.Ques
 		difficulty = EXCLUDED.difficulty,
 		points = EXCLUDED.points,
 		hint = EXCLUDED.hint,
-		explanation = EXCLUDED.explanation;`
+		explanation = EXCLUDED.explanation,
+		updated_at = CURRENT_TIMESTAMP;`
 
-	stmt, err := tx.PrepareContext(ctx, query)
+	mcqStmt, err := tx.PrepareContext(ctx, mcqQuery)
 	if err != nil {
-		return 0, fmt.Errorf("failed preparing upsert stmt: %w", err)
+		return 0, fmt.Errorf("failed preparing mcq upsert stmt: %w", err)
 	}
-	defer stmt.Close()
+	defer mcqStmt.Close()
+
+	sioQuery := `
+	INSERT INTO sort_it_out_questions (
+		question_code, topic_id, pair_type, prompt,
+		option_a, option_b, correct_option, difficulty, points, hint, explanation
+	) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+	ON CONFLICT (question_code) DO UPDATE SET
+		topic_id = EXCLUDED.topic_id,
+		pair_type = EXCLUDED.pair_type,
+		prompt = EXCLUDED.prompt,
+		option_a = EXCLUDED.option_a,
+		option_b = EXCLUDED.option_b,
+		correct_option = EXCLUDED.correct_option,
+		difficulty = EXCLUDED.difficulty,
+		points = EXCLUDED.points,
+		hint = EXCLUDED.hint,
+		explanation = EXCLUDED.explanation,
+		updated_at = CURRENT_TIMESTAMP;`
+
+	sioStmt, err := tx.PrepareContext(ctx, sioQuery)
+	if err != nil {
+		return 0, fmt.Errorf("failed preparing sort_it_out upsert stmt: %w", err)
+	}
+	defer sioStmt.Close()
+
+	mtfQuery := `
+	INSERT INTO match_the_following_questions (
+		question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+	) VALUES ($1, $2, $3, 25, $4, $5, $6, $7)
+	ON CONFLICT (question_code) DO UPDATE SET
+		topic_id = EXCLUDED.topic_id,
+		prompt = EXCLUDED.prompt,
+		time_limit_sec = EXCLUDED.time_limit_sec,
+		difficulty = EXCLUDED.difficulty,
+		points = EXCLUDED.points,
+		hint = EXCLUDED.hint,
+		explanation = EXCLUDED.explanation,
+		updated_at = CURRENT_TIMESTAMP
+	RETURNING id;`
+
+	mtfStmt, err := tx.PrepareContext(ctx, mtfQuery)
+	if err != nil {
+		return 0, fmt.Errorf("failed preparing match_the_following upsert stmt: %w", err)
+	}
+	defer mtfStmt.Close()
+
+	pairInsertQuery := `
+	INSERT INTO match_pairs (question_id, pair_order, left_text, right_text)
+	VALUES ($1, $2, $3, $4);`
+
+	pairStmt, err := tx.PrepareContext(ctx, pairInsertQuery)
+	if err != nil {
+		return 0, fmt.Errorf("failed preparing match_pairs insert stmt: %w", err)
+	}
+	defer pairStmt.Close()
 
 	upserted := 0
 	for _, q := range questions {
 		qType := strings.ToLower(strings.TrimSpace(q.QuestionType))
-		if qType == "" {
-			qType = "mcq"
+		switch qType {
+		case "sort_it_out":
+			_, err := sioStmt.ExecContext(ctx,
+				q.QuestionCode, q.TopicID, q.PairType, q.Prompt,
+				q.OptionA, q.OptionB, strings.ToLower(q.CorrectOption),
+				q.Difficulty, q.Points, q.Hint, q.Explanation,
+			)
+			if err != nil {
+				return upserted, fmt.Errorf("failed upserting sort_it_out question %s: %w", q.QuestionCode, err)
+			}
+			upserted++
+
+		case "match_the_following":
+			pts := q.Points
+			if pts <= 0 {
+				pts = 40
+			}
+			var qID string
+			err := mtfStmt.QueryRowContext(ctx,
+				q.QuestionCode, q.TopicID, q.Prompt,
+				q.Difficulty, pts, q.Hint, q.Explanation,
+			).Scan(&qID)
+			if err != nil {
+				return upserted, fmt.Errorf("failed upserting match_the_following question %s: %w", q.QuestionCode, err)
+			}
+			_, _ = tx.ExecContext(ctx, "DELETE FROM match_pairs WHERE question_id = $1", qID)
+			for pIdx, p := range q.MatchPairs {
+				order := p.PairOrder
+				if order <= 0 {
+					order = pIdx + 1
+				}
+				if _, err := pairStmt.ExecContext(ctx, qID, order, p.LeftText, p.RightText); err != nil {
+					return upserted, fmt.Errorf("failed inserting pair for %s: %w", q.QuestionCode, err)
+				}
+			}
+			upserted++
+
+		default: // "mcq", "sudden_death"
+			effectiveType := qType
+			if effectiveType == "" {
+				effectiveType = "mcq"
+			}
+			_, err := mcqStmt.ExecContext(ctx,
+				q.QuestionCode, effectiveType, q.TopicID, q.Prompt,
+				q.OptionA, q.OptionB, q.OptionC, q.OptionD,
+				strings.ToLower(q.CorrectOption), q.Difficulty, q.Points, q.Hint, q.Explanation,
+			)
+			if err != nil {
+				return upserted, fmt.Errorf("failed upserting mcq question %s: %w", q.QuestionCode, err)
+			}
+			upserted++
 		}
-		_, err := stmt.ExecContext(ctx,
-			q.QuestionCode, qType, q.TopicID, q.Prompt,
-			q.OptionA, q.OptionB, q.OptionC, q.OptionD,
-			q.CorrectOption, q.Difficulty, q.Points, q.Hint, q.Explanation,
-		)
-		if err != nil {
-			return upserted, fmt.Errorf("failed upserting question %s: %w", q.QuestionCode, err)
-		}
-		upserted++
 	}
 
 	if err := tx.Commit(); err != nil {
@@ -331,9 +443,9 @@ func ExportToCSV(questions []seeder.QuestionSeed, destPath string) error {
 	defer w.Flush()
 
 	headers := []string{
-		"question_code", "question_type", "topic_id", "prompt",
+		"question_code", "question_type", "topic_id", "pair_type", "prompt",
 		"option_a", "option_b", "option_c", "option_d",
-		"correct_option", "difficulty", "points", "hint", "explanation",
+		"correct_option", "difficulty", "points", "hint", "explanation", "match_pairs",
 	}
 	if err := w.Write(headers); err != nil {
 		return err
@@ -348,11 +460,18 @@ func ExportToCSV(questions []seeder.QuestionSeed, destPath string) error {
 		if q.Explanation != nil {
 			expl = *q.Explanation
 		}
+		pairsJSON := ""
+		if len(q.MatchPairs) > 0 {
+			if b, err := json.Marshal(q.MatchPairs); err == nil {
+				pairsJSON = string(b)
+			}
+		}
 
 		row := []string{
 			q.QuestionCode,
 			q.QuestionType,
 			q.TopicID,
+			q.PairType,
 			q.Prompt,
 			q.OptionA,
 			q.OptionB,
@@ -363,6 +482,7 @@ func ExportToCSV(questions []seeder.QuestionSeed, destPath string) error {
 			strconv.Itoa(q.Points),
 			hint,
 			expl,
+			pairsJSON,
 		}
 		if err := w.Write(row); err != nil {
 			return err

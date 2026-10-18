@@ -241,6 +241,17 @@ func handleMigrate(args []string) {
 		if err := migrator.MigrateVersion(ctx, sqlDB, *dirFlag); err != nil {
 			log.Fatalf("Migrate version failed: %v\n", err)
 		}
+	case "drop", "clean":
+		if err := migrator.MigrateDropAll(ctx, sqlDB); err != nil {
+			log.Fatalf("Migrate drop failed: %v\n", err)
+		}
+	case "reset":
+		if err := migrator.MigrateDropAll(ctx, sqlDB); err != nil {
+			log.Fatalf("Migrate reset (drop) failed: %v\n", err)
+		}
+		if _, err := migrator.MigrateUp(ctx, sqlDB, *dirFlag); err != nil {
+			log.Fatalf("Migrate reset (up) failed: %v\n", err)
+		}
 	default:
 		fmt.Fprintf(os.Stderr, "Unknown migrate sub-command: %s\n", subCmd)
 		os.Exit(2)

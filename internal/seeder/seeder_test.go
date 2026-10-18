@@ -19,8 +19,8 @@ func TestValidateSeeds(t *testing.T) {
 		t.Fatalf("ValidateSeeds returned unexpected error: %v, errors: %v", err, res.Errors)
 	}
 
-	if res.TotalQuestions != 110 {
-		t.Errorf("Expected 110 questions, got %d", res.TotalQuestions)
+	if res.TotalQuestions != 150 {
+		t.Errorf("Expected 150 questions, got %d", res.TotalQuestions)
 	}
 	if res.TotalUsers < 1 {
 		t.Errorf("Expected at least 1 user, got %d", res.TotalUsers)
@@ -44,7 +44,9 @@ func TestExportSQL(t *testing.T) {
 	expected := []string{
 		"01_seed_mcq_questions.sql",
 		"02_seed_sudden_death_questions.sql",
-		"03_seed_demo_user.sql",
+		"03_seed_sort_it_out_questions.sql",
+		"04_seed_match_the_following_questions.sql",
+		"05_seed_demo_user.sql",
 	}
 
 	for _, f := range expected {

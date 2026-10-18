@@ -41,6 +41,12 @@ migrate-down:
 migrate-version:
 	go run ./cmd/db migrate version
 
+migrate-drop:
+	go run ./cmd/db migrate drop
+
+migrate-reset:
+	go run ./cmd/db migrate reset
+
 # ── Seeds & Backwards Compatibility ──
 seed:
 	go run ./cmd/db seed

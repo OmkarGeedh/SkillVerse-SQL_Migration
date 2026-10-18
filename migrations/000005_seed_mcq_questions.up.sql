@@ -1,9 +1,9 @@
 -- Migration: 000005_seed_mcq_questions.up.sql
--- Description: Seed 100 accounting MCQ questions and demo user
+-- Description: Seed all quiz questions (MCQ, Sudden Death, Sort It Out, Match the Following) and demo user
 
 -- Seeds: MCQ questions (100 items)
 
-INSERT INTO questions (
+INSERT INTO mcq_questions (
     question_code, question_type, topic_id, prompt,
     option_a, option_b, option_c, option_d,
     correct_option, difficulty, points, hint, explanation
@@ -273,7 +273,7 @@ ON CONFLICT (question_code) DO UPDATE SET
     explanation = EXCLUDED.explanation,
     updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO questions (
+INSERT INTO mcq_questions (
     question_code, question_type, topic_id, prompt,
     option_a, option_b, option_c, option_d,
     correct_option, difficulty, points, hint, explanation
@@ -545,10 +545,439 @@ ON CONFLICT (question_code) DO UPDATE SET
 
 
 
+-- Seeds: Sudden Death questions (10 items)
+
+INSERT INTO mcq_questions (
+    question_code, question_type, topic_id, prompt,
+    option_a, option_b, option_c, option_d,
+    correct_option, difficulty, points, hint, explanation
+) VALUES
+(
+    'sd_acc_001', 'sudden_death', 'accounting', 'Which account is debited when goods are purchased for cash?',
+    'Purchases Account', 'Cash Account', '', '',
+    'a', 1, 10, 'Think about which account records goods bought for resale.', 'Purchases Account is debited when goods are purchased for cash.'
+),
+(
+    'sd_acc_002', 'sudden_death', 'accounting', 'What type of account is Cash Account?',
+    'Real Account', 'Personal Account', '', '',
+    'a', 1, 10, 'Tangible business assets are classified under this rule.', 'Cash Account is a Real Account since it represents a tangible asset of the business.'
+),
+(
+    'sd_acc_003', 'sudden_death', 'accounting', 'Which golden rule states ''Debit the receiver, Credit the giver''?',
+    'Real Account', 'Personal Account', '', '',
+    'b', 1, 10, 'This rule applies to persons, firms, and institutions.', 'The golden rule ''Debit the receiver, Credit the giver'' applies to Personal Accounts.'
+),
+(
+    'sd_acc_004', 'sudden_death', 'accounting', 'What is the primary book of original entry called?',
+    'Journal', 'Ledger', '', '',
+    'a', 1, 10, 'Transactions are recorded here chronologically first.', 'The Journal is the primary book of original entry where financial transactions are first recorded in chronological order.'
+),
+(
+    'sd_acc_005', 'sudden_death', 'accounting', 'When rent is paid in cash, which account is credited?',
+    'Rent Account', 'Cash Account', '', '',
+    'b', 2, 10, 'Credit what goes out of the business.', 'When rent is paid in cash, cash goes out of the business, so Cash Account is credited.'
+),
+(
+    'sd_acc_006', 'sudden_death', 'accounting', 'Depreciation charged on machinery is debited to which account?',
+    'Depreciation Account', 'Machinery Account', '', '',
+    'a', 2, 10, 'Debit all expenses and losses under the nominal rule.', 'Depreciation is an expense, so Depreciation Account is debited under the nominal rule.'
+),
+(
+    'sd_acc_007', 'sudden_death', 'accounting', 'Which statement verifies the arithmetical accuracy of ledger accounts?',
+    'Balance Sheet', 'Trial Balance', '', '',
+    'b', 2, 10, 'It lists debit and credit totals before final accounts.', 'A Trial Balance is prepared to check and verify the arithmetical accuracy of ledger account balances.'
+),
+(
+    'sd_acc_008', 'sudden_death', 'accounting', 'Goods returned by a customer are recorded in which book?',
+    'Sales Returns Book', 'Purchases Returns Book', '', '',
+    'a', 2, 10, 'Also known as the return inwards book.', 'Goods returned by customers are recorded in the Sales Returns Book (Return Inwards Book).'
+),
+(
+    'sd_acc_009', 'sudden_death', 'accounting', 'An error of omission occurs when a transaction is:',
+    'Recorded in the wrong subsidiary book', 'Completely or partially not recorded', '', '',
+    'b', 3, 10, 'The transaction was forgotten or left out entirely.', 'An error of omission happens when a transaction is completely or partially omitted from entry in the accounting books.'
+),
+(
+    'sd_acc_010', 'sudden_death', 'accounting', 'According to the Dual Aspect concept, Total Assets always equal:',
+    'Total Liabilities plus Capital', 'Capital minus Liabilities', '', '',
+    'a', 3, 10, 'This forms the fundamental accounting balance sheet equation.', 'Under the Dual Aspect concept, Total Assets = Total Liabilities + Capital.'
+)
+ON CONFLICT (question_code) DO UPDATE SET
+    question_type = EXCLUDED.question_type,
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    option_a = EXCLUDED.option_a,
+    option_b = EXCLUDED.option_b,
+    option_c = EXCLUDED.option_c,
+    option_d = EXCLUDED.option_d,
+    correct_option = EXCLUDED.correct_option,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+
+
+-- Seeds: Sort It Out questions (30 items)
+
+INSERT INTO sort_it_out_questions (
+    question_code, topic_id, pair_type, prompt,
+    option_a, option_b, correct_option, difficulty, points, hint, explanation
+) VALUES
+(
+    'sio_cd_001', 'accounting', 'credit_debit', 'An increase in Cash Account is recorded as a:',
+    'Debit', 'Credit', 'a', 1, 10, 'Assets increase on the left side of the ledger.', 'Cash is an asset account. According to standard accounting rules, increases in assets are recorded as debits.'
+),
+(
+    'sio_cd_002', 'accounting', 'credit_debit', 'An increase in Accounts Payable is recorded as a:',
+    'Debit', 'Credit', 'b', 1, 10, 'Liabilities increase on the right side of the ledger.', 'Accounts Payable is a liability account. Increases in liabilities are recorded as credits.'
+),
+(
+    'sio_cd_003', 'accounting', 'credit_debit', 'Rent Expense incurred and paid in cash is recorded as a:',
+    'Debit', 'Credit', 'a', 1, 10, 'Expenses reduce equity and carry normal debit balances.', 'Rent Expense is an expense account. Increases in expenses are recorded as debits.'
+),
+(
+    'sio_cd_004', 'accounting', 'credit_debit', 'Sales Revenue earned from customers is recorded as a:',
+    'Debit', 'Credit', 'b', 1, 10, 'Revenues increase equity on the right side.', 'Sales Revenue is a revenue account that increases owner''s equity, so increases are credited.'
+),
+(
+    'sio_cd_005', 'accounting', 'credit_debit', 'Owner draws cash for personal use. The Drawings account is:',
+    'Debit', 'Credit', 'a', 2, 10, 'Drawings contra-account reduces equity and has a debit normal balance.', 'Drawings represent capital withdrawals by the owner and carry a normal debit balance.'
+),
+(
+    'sio_cd_006', 'accounting', 'credit_debit', 'Capital contributed to the business by the proprietor is a:',
+    'Debit', 'Credit', 'b', 1, 10, 'Equity contributions increase on the credit side.', 'Capital represents owner equity invested in the enterprise; increases in capital are credited.'
+),
+(
+    'sio_cd_007', 'accounting', 'credit_debit', 'Purchase of Office Equipment for operations is recorded as a:',
+    'Debit', 'Credit', 'a', 1, 10, 'Equipment is a tangible non-current asset.', 'Office Equipment is a fixed asset account. An increase in equipment is recorded as a debit.'
+),
+(
+    'sio_cd_008', 'accounting', 'credit_debit', 'Obtaining a bank loan increases the Bank Loan account as a:',
+    'Debit', 'Credit', 'b', 2, 10, 'Loans represent liabilities owed to financial institutions.', 'Bank Loan is a liability account. Borrowing funds increases the loan balance via a credit.'
+),
+(
+    'sio_cd_009', 'accounting', 'credit_debit', 'Depreciation Expense recognized for the period is recorded as a:',
+    'Debit', 'Credit', 'a', 2, 10, 'Depreciation is an operating expense.', 'Depreciation Expense is charged to the Income Statement and is recorded as a debit.'
+),
+(
+    'sio_cd_010', 'accounting', 'credit_debit', 'Accumulated Depreciation contra-asset account normally carries a:',
+    'Debit', 'Credit', 'b', 2, 10, 'Contra-assets offset the asset balance on the opposite side.', 'Accumulated Depreciation is a contra-asset account and carries a normal credit balance to offset asset cost.'
+),
+(
+    'sio_al_001', 'accounting', 'asset_liability', 'Cash and Cash Equivalents in bank accounts:',
+    'Asset', 'Liability', 'a', 1, 10, 'Highly liquid economic resource owned by the business.', 'Cash is a current asset representing funds available for immediate business transactions.'
+),
+(
+    'sio_al_002', 'accounting', 'asset_liability', 'Accounts Payable owed to trade vendors for supplies:',
+    'Asset', 'Liability', 'b', 1, 10, 'Money owed to outside suppliers for credit purchases.', 'Accounts Payable is a current liability representing obligations to pay suppliers within a short period.'
+),
+(
+    'sio_al_003', 'accounting', 'asset_liability', 'Accounts Receivable due from clients for delivered goods:',
+    'Asset', 'Liability', 'a', 1, 10, 'Future cash inflows expected from billed customers.', 'Accounts Receivable is a current asset representing claims for payment from clients for sales on credit.'
+),
+(
+    'sio_al_004', 'accounting', 'asset_liability', 'Bank Overdraft balance on the company checking account:',
+    'Asset', 'Liability', 'b', 2, 10, 'Negative bank balance owed to the financial institution.', 'A Bank Overdraft is a short-term liability representing funds borrowed from the bank beyond the account balance.'
+),
+(
+    'sio_al_005', 'accounting', 'asset_liability', 'Patents and Trademarks providing legal rights and future revenues:',
+    'Asset', 'Liability', 'a', 2, 10, 'Intangible economic resources owned by the firm.', 'Patents and trademarks are intangible non-current assets expected to generate economic benefits over multiple periods.'
+),
+(
+    'sio_al_006', 'accounting', 'asset_liability', 'Unearned Revenue received in advance of performing services:',
+    'Asset', 'Liability', 'b', 2, 10, 'An obligation to deliver goods or services in the future.', 'Unearned Revenue is a liability because the enterprise owes performance or a refund until the service is delivered.'
+),
+(
+    'sio_al_007', 'accounting', 'asset_liability', 'Prepaid Rent paid 6 months in advance:',
+    'Asset', 'Liability', 'a', 2, 10, 'A future economic benefit that has already been paid for.', 'Prepaid Rent is a current asset representing the right to occupy premises over future months.'
+),
+(
+    'sio_al_008', 'accounting', 'asset_liability', 'Salaries Payable accrued at month-end for worked hours:',
+    'Asset', 'Liability', 'b', 1, 10, 'An unpaid debt owed to employees for past labor.', 'Salaries Payable is a current liability representing wages earned by staff that have not yet been disbursed.'
+),
+(
+    'sio_al_009', 'accounting', 'asset_liability', 'Merchandise Inventory held for sale in store:',
+    'Asset', 'Liability', 'a', 1, 10, 'Goods held to be sold in normal business operations.', 'Merchandise Inventory is a current asset expected to be converted into cash through sales.'
+),
+(
+    'sio_al_010', 'accounting', 'asset_liability', 'Long-Term Mortgage Note payable on warehouse real estate:',
+    'Asset', 'Liability', 'b', 2, 10, 'A debt obligation with payments extending over multiple years.', 'A Mortgage Note is a non-current liability secured by real property that must be repaid over time.'
+),
+(
+    'sio_tf_001', 'accounting', 'true_false', 'Under Accrual Accounting, revenue is recognized when earned, regardless of cash receipt.',
+    'True', 'False', 'a', 1, 10, 'Think about the revenue recognition principle.', 'Under the accrual basis of accounting, revenue is recognized when goods or services are delivered, not when cash changes hands.'
+),
+(
+    'sio_tf_002', 'accounting', 'true_false', 'A Trial Balance proves that no bookkeeping errors or omissions were made in the ledger.',
+    'True', 'False', 'b', 2, 10, 'Errors of omission or principle don''t upset debit-credit equality.', 'A Trial Balance only proves mathematical equality of debits and credits. Errors of omission, commission, and principle can still exist.'
+),
+(
+    'sio_tf_003', 'accounting', 'true_false', 'The accounting equation states that Total Assets = Total Liabilities + Owner''s Equity.',
+    'True', 'False', 'a', 1, 10, 'This is the cornerstone equation of double-entry bookkeeping.', 'The fundamental accounting equation is Assets = Liabilities + Owner''s Equity, reflecting balance sheet equilibrium.'
+),
+(
+    'sio_tf_004', 'accounting', 'true_false', 'Goodwill is classified as a tangible current asset on the Balance Sheet.',
+    'True', 'False', 'b', 2, 10, 'Can you touch or physically hold Goodwill?', 'Goodwill is an intangible non-current asset that arises when a company acquires another business for more than its fair net asset value.'
+),
+(
+    'sio_tf_005', 'accounting', 'true_false', 'The Prudence / Conservatism concept advises anticipating no profit but providing for all possible losses.',
+    'True', 'False', 'a', 2, 10, 'A cautious approach to reporting financial performance and asset values.', 'The Conservatism principle ensures assets and income are not overstated and liabilities and expenses are not understated.'
+),
+(
+    'sio_tf_006', 'accounting', 'true_false', 'Depreciation is recorded to show the current secondhand liquidation value of fixed assets.',
+    'True', 'False', 'b', 2, 10, 'Is depreciation cost allocation or asset valuation?', 'Depreciation is the systematic allocation of the depreciable cost of an asset over its useful life, not a market valuation mechanism.'
+),
+(
+    'sio_tf_007', 'accounting', 'true_false', 'Under double-entry bookkeeping, every financial transaction impacts at least two accounts.',
+    'True', 'False', 'a', 1, 10, 'Every debit must have a corresponding credit.', 'The dual aspect concept requires that every transaction has equal and opposite debit and credit effects on at least two accounts.'
+),
+(
+    'sio_tf_008', 'accounting', 'true_false', 'Cash Dividends paid to corporate stockholders are reported as operating expenses on the Income Statement.',
+    'True', 'False', 'b', 2, 10, 'Dividends are a distribution of earned profits.', 'Dividends represent distributions of profits to shareholders from Retained Earnings, not operating expenses of the firm.'
+),
+(
+    'sio_tf_009', 'accounting', 'true_false', 'The Going Concern assumption presumes an enterprise will continue operations for the foreseeable future.',
+    'True', 'False', 'a', 1, 10, 'The business is assumed to not liquidate or drastically scale down.', 'Under the Going Concern assumption, financial statements are prepared assuming the entity will operate indefinitely unless evidence suggests otherwise.'
+),
+(
+    'sio_tf_010', 'accounting', 'true_false', 'Drawings made by the business owner increase Owner''s Equity at the end of the fiscal year.',
+    'True', 'False', 'b', 1, 10, 'When an owner withdraws money, does their stake in the business grow or shrink?', 'Drawings are withdrawals of cash or assets by the owner for personal use and directly reduce total Owner''s Equity.'
+)
+ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    pair_type = EXCLUDED.pair_type,
+    prompt = EXCLUDED.prompt,
+    option_a = EXCLUDED.option_a,
+    option_b = EXCLUDED.option_b,
+    correct_option = EXCLUDED.correct_option,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+
+
+-- Seeds: Match The Following questions (10 items)
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_001', 'accounting', 'Match each Account with its Nature/Classification:', 25, 1, 40, 'Recall the three traditional categories: Personal, Real, and Nominal accounts.', 'Cash and Machinery are assets (Real Accounts), Salary is an expense (Nominal Account), and Ram''s A/c represents an individual person (Personal Account).'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_001');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_001'), 1, 'Cash', 'Real Account'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_001'), 2, 'Salary', 'Nominal Account'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_001'), 3, 'Ram''s A/c', 'Personal Account'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_001'), 4, 'Machinery', 'Real Account');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_002', 'accounting', 'Match each Financial Statement with its Core Purpose:', 25, 1, 40, 'Consider the primary financial insight each statement delivers to stakeholders.', 'Balance Sheet reflects financial position, Profit & Loss shows net profit or loss, Cash Flow tracks cash inflows and outflows, and Trial Balance checks arithmetical accuracy of ledger postings.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_002');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_002'), 1, 'Balance Sheet', 'Financial Position'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_002'), 2, 'Profit & Loss', 'Net Profit/Loss'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_002'), 3, 'Cash Flow', 'Inflows & Outflows'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_002'), 4, 'Trial Balance', 'Arithmetical Accuracy');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_003', 'accounting', 'Match each Asset with its Accounting Category:', 25, 1, 40, 'Classify by physical existence, liquidity, and operational lifespan.', 'Goodwill has no physical form (Intangible), Stock turns to cash in under a year (Current), Building lasts multiple periods (Fixed), and Preliminary Expenses represent unwritten-off fictitious items.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_003');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_003'), 1, 'Goodwill', 'Intangible Asset'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_003'), 2, 'Stock/Inventory', 'Current Asset'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_003'), 3, 'Building', 'Fixed Asset'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_003'), 4, 'Preliminary Expenses', 'Fictitious Asset');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_004', 'accounting', 'Match each Liability / Equity item with its Balance Sheet Classification:', 25, 1, 40, 'Differentiate between short-term obligations, long-term borrowings, and equity ownership.', 'Creditors and Bank Overdraft are short-term liabilities payable within a year, Debentures are long-term borrowings, and Share Capital represents shareholders'' equity.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_004');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_004'), 1, 'Creditors', 'Current Liability'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_004'), 2, 'Debentures', 'Long-term Liability'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_004'), 3, 'Bank Overdraft', 'Current Liability'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_004'), 4, 'Share Capital', 'Shareholders'' Equity');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_005', 'accounting', 'Match each Fundamental Accounting Concept with its Definition:', 25, 2, 40, 'These core GAAP conventions guide the valuation and reporting of accounts.', 'Dual Aspect dictates total Debits must equal Credits, Going Concern presumes indefinite entity life, Money Measurement only records events quantifiable in money, and Conservatism anticipates potential losses.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_005');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_005'), 1, 'Dual Aspect', 'Debit equals Credit'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_005'), 2, 'Going Concern', 'Indefinite Life'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_005'), 3, 'Money Measurement', 'Financial Terms Only'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_005'), 4, 'Conservatism', 'Anticipate Losses');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_006', 'accounting', 'Match each Golden Rule / Concept with its Core Principle:', 25, 1, 40, 'Recall the classic double-entry rules for personal, real, and nominal accounts.', 'Personal Account: Debit the receiver, Credit the giver. Real Account: Debit what comes in, Credit what goes out. Nominal Account: Debit all expenses, Credit all incomes. Capital represents a liability of the business entity to its proprietor.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_006');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_006'), 1, 'Personal Account', 'Debit receiver Credit giver'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_006'), 2, 'Real Account', 'Debit what comes in Credit what goes out'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_006'), 3, 'Nominal Account', 'Debit expenses Credit incomes'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_006'), 4, 'Capital', 'Liability to the business');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_007', 'accounting', 'Match each Banking Term / Instrument with its Description:', 25, 1, 40, 'Identify typical commercial banking instruments and records.', 'A cheque is a negotiable instrument, passbook is a bank-issued copy of customer''s account, overdraft is an approved credit line facility, and ATM stands for Automated Teller Machine.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_007');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_007'), 1, 'Cheque', 'Negotiable Instrument'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_007'), 2, 'Passbook', 'Bank Statement'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_007'), 3, 'Overdraft', 'Credit facility'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_007'), 4, 'ATM', 'Automated Teller Machine');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_008', 'accounting', 'Match each Type of Accounting Error with its Characteristic:', 25, 2, 40, 'Consider how trial balance errors arise in recording, posting, and classification.', 'Error of Omission means a transaction was left out completely, Error of Commission involves clerical mistakes like wrong amounts or cast errors, Error of Principle misapplies capital/revenue distinctions, and Compensating Errors offset each other.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_008');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_008'), 1, 'Error of Omission', 'Completely left out'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_008'), 2, 'Error of Commission', 'Wrong amount entered'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_008'), 3, 'Error of Principle', 'Capital treated as Revenue'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_008'), 4, 'Compensating Error', 'One error offsets another');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_009', 'accounting', 'Match each Form of Business Organization with its Key Attribute:', 25, 1, 40, 'Look at ownership structure, legal status, and mutual association requirements.', 'Sole Proprietorship is run by a single owner, Partnership requires a minimum of 2 partners, a Company is an incorporated separate legal entity, and Cooperatives are voluntary associations for mutual help.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_009');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_009'), 1, 'Sole Proprietorship', 'Single Owner'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_009'), 2, 'Partnership', 'Minimum 2 Partners'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_009'), 3, 'Company', 'Separate Legal Entity'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_009'), 4, 'Cooperative', 'Mutual Help');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_acc_010', 'accounting', 'Match each Depreciation Method with its Distinguishing Trait:', 25, 2, 40, 'Examine how depreciation expense is allocated across the asset''s useful life.', 'Straight Line charges equal amounts each year, Written Down Value charges decreasing amounts on book value, Sinking Fund accumulates investments to replace the asset, and Annuity Method includes interest on capital outlay.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_010');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_010'), 1, 'Straight Line', 'Equal annual charge'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_010'), 2, 'Written Down Value', 'Decreasing annual charge'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_010'), 3, 'Sinking Fund', 'Asset replacement fund'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_010'), 4, 'Annuity Method', 'Interest on investment considered');
+
+
+
 -- Seeds: Demo Users and Profiles
 
 INSERT INTO clients (username, email, phone, password, status)
-VALUES ('quizmaster', 'player@example.com', '+1-555-0199', '$2a$12$NqLpY1qMsn43K7F7z9sEa.YfR9N8hJj7XbE0jO6o8s4eH1uV5mK0K', 'active')
+VALUES ('quizmaster', 'player@example.com', '+1-555-0199', '$2a$12$FDChY3DB1CCaXYANYZi1iegRKal5QXEZFTQfsavE6D4MHDl1ZKw2C', 'active')
 ON CONFLICT (email) DO UPDATE SET
     username = EXCLUDED.username,
     password = EXCLUDED.password,
@@ -578,5 +1007,17 @@ ON CONFLICT (client_id) DO UPDATE SET
     highest_streak = EXCLUDED.highest_streak,
     weekly_score = EXCLUDED.weekly_score,
     updated_at = CURRENT_TIMESTAMP;
+
+INSERT INTO client_streak_activities (client_id, activity_date, completed)
+SELECT id, (CURRENT_DATE - INTERVAL '2 day')::date::text, true FROM clients WHERE email = 'player@example.com'
+ON CONFLICT (client_id, activity_date) DO NOTHING;
+
+INSERT INTO client_streak_activities (client_id, activity_date, completed)
+SELECT id, (CURRENT_DATE - INTERVAL '1 day')::date::text, true FROM clients WHERE email = 'player@example.com'
+ON CONFLICT (client_id, activity_date) DO NOTHING;
+
+INSERT INTO client_streak_activities (client_id, activity_date, completed)
+SELECT id, CURRENT_DATE::text, true FROM clients WHERE email = 'player@example.com'
+ON CONFLICT (client_id, activity_date) DO NOTHING;
 
 

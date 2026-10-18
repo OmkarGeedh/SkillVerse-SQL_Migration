@@ -4,7 +4,9 @@
   "entities": {
     "questions": [
       "seeds/questions/accounting/mcq.json",
-      "seeds/questions/accounting/sudden_death.json"
+      "seeds/questions/accounting/sudden_death.json",
+      "seeds/questions/accounting/sort_it_out.json",
+      "seeds/questions/accounting/match_the_following.json"
     ],
     "users": ["seeds/users/demo_user.json"]
   }

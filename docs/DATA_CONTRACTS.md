@@ -17,9 +17,6 @@ Every question record ingested via JSON or CSV must adhere to the following cont
     "question_type",
     "topic_id",
     "prompt",
-    "option_a",
-    "option_b",
-    "correct_option",
     "difficulty",
     "points"
   ],
@@ -31,7 +28,7 @@ Every question record ingested via JSON or CSV must adhere to the following cont
     },
     "question_type": {
       "type": "string",
-      "enum": ["mcq", "sudden_death"],
+      "enum": ["mcq", "sudden_death", "sort_it_out", "match_the_following"],
       "description": "Game mode type"
     },
     "topic_id": {
@@ -39,19 +36,22 @@ Every question record ingested via JSON or CSV must adhere to the following cont
       "minLength": 1,
       "description": "Topic or subject key"
     },
+    "pair_type": {
+      "type": "string",
+      "description": "Classification pair type for sort_it_out (e.g. credit_debit, asset_liability)"
+    },
     "prompt": {
       "type": "string",
-      "minLength": 5,
+      "minLength": 2,
       "description": "Question prompt text"
     },
-    "option_a": { "type": "string", "minLength": 1 },
-    "option_b": { "type": "string", "minLength": 1 },
+    "option_a": { "type": "string" },
+    "option_b": { "type": "string" },
     "option_c": { "type": "string" },
     "option_d": { "type": "string" },
     "correct_option": {
       "type": "string",
-      "enum": ["A", "B", "C", "D"],
-      "description": "Letter of the correct option"
+      "description": "Letter of the correct option ('a', 'b', 'c', 'd')"
     },
     "difficulty": {
       "type": "integer",
@@ -63,36 +63,42 @@ Every question record ingested via JSON or CSV must adhere to the following cont
       "minimum": 1
     },
     "hint": { "type": "string" },
-    "explanation": { "type": "string" }
+    "explanation": { "type": "string" },
+    "match_pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["left_text", "right_text"],
+        "properties": {
+          "pair_order": { "type": "integer" },
+          "left_text": { "type": "string", "minLength": 1 },
+          "right_text": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
   }
 }
 ```
 
-### Business Invariants & Ingestion Rules
-
-1. **Uniqueness**: `question_code` must be unique across the entire platform. Duplicate codes cause immediate pipeline failure.
-2. **Sudden Death Mode Contract**:
-   - `question_type` must be `"sudden_death"`.
-   - `option_c` and `option_d` MUST be empty or null.
-   - `correct_option` must be `"A"` or `"B"`.
-3. **MCQ Mode Contract**:
-   - `option_a`, `option_b`, `option_c`, `option_d` must be non-empty.
-   - `correct_option` must be one of `"A"`, `"B"`, `"C"`, or `"D"`.
-4. **Option Distinctness**: Within a single question, all provided options must have distinct text (e.g. `option_a != option_b`).
-5. **Idempotence**: Re-ingesting an existing `question_code` must update attributes without altering surrogate primary keys.
-
 ---
 
-## 2. Ingestion Format Contracts
+## 2. Invariant Rules per Game Mode
 
-### Supported Ingestion Formats
-1. **JSON Seeds**: `seeds/questions/<topic>/*.json` with top-level `{"questions": [...]}` array.
-2. **CSV / Sheets Dumps**: `Sheets Dump/*.csv` with standardized header row:
-   ```csv
-   question_code,question_type,topic_id,prompt,option_a,option_b,option_c,option_d,correct_option,difficulty,points,hint,explanation
-   ```
+1. **MCQ (`mcq`)**:
+   - `option_a`, `option_b`, `option_c`, `option_d` must be non-empty and unique.
+   - `correct_option` must be one of `['a', 'b', 'c', 'd']`.
 
-### Quality Assurance Gate in CI/CD
-In pull requests and automated deployments:
-- `game-db dq`: Returns exit code `0` on 100% test pass; returns exit code `1` on any failure.
-- `game-db profile`: Prints dataset distribution metrics to build logs for verification.
+2. **Sudden Death (`sudden_death`)**:
+   - Strictly 2 options (`option_a`, `option_b`).
+   - `option_c` and `option_d` must be empty strings.
+   - `correct_option` must be `'a'` or `'b'`.
+
+3. **Sort It Out (`sort_it_out`)**:
+   - Binary swipe swipe classification with `pair_type` defined.
+   - Strictly 2 options (`option_a`, `option_b`).
+   - `option_c` and `option_d` must be empty strings.
+   - `correct_option` must be `'a'` or `'b'`.
+
+4. **Match The Following (`match_the_following`)**:
+   - Minimum 2 matching pairs in `match_pairs`.
+   - Each pair must have valid `left_text` and `right_text`.

@@ -1,6 +1,6 @@
 -- Seeds: MCQ questions (100 items)
 
-INSERT INTO questions (
+INSERT INTO mcq_questions (
     question_code, question_type, topic_id, prompt,
     option_a, option_b, option_c, option_d,
     correct_option, difficulty, points, hint, explanation
@@ -270,7 +270,7 @@ ON CONFLICT (question_code) DO UPDATE SET
     explanation = EXCLUDED.explanation,
     updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO questions (
+INSERT INTO mcq_questions (
     question_code, question_type, topic_id, prompt,
     option_a, option_b, option_c, option_d,
     correct_option, difficulty, points, hint, explanation

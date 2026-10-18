@@ -1,5 +1,5 @@
--- Migration: 000004_create_game_sessions_and_wallet.up.sql
--- Description: Create client_profiles, client_streak_activities, game_sessions, user_question_history, and wallet_ledger tables
+-- Migration: 000002_create_profiles_and_wallet.up.sql
+-- Description: Create client_profiles, client_streak_activities, and wallet_ledger tables
 
 CREATE TABLE IF NOT EXISTS client_profiles (
     id SERIAL PRIMARY KEY,
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS client_profiles (
 );
 
 CREATE INDEX IF NOT EXISTS idx_client_profiles_onboarded ON client_profiles(is_onboarded);
-CREATE INDEX IF NOT EXISTS idx_client_profiles_weekly_score ON client_profiles(weekly_score);
+CREATE INDEX IF NOT EXISTS idx_client_profiles_weekly_score ON client_profiles(weekly_score DESC);
 
 CREATE TABLE IF NOT EXISTS client_streak_activities (
     id SERIAL PRIMARY KEY,
@@ -38,44 +38,6 @@ CREATE TABLE IF NOT EXISTS client_streak_activities (
 );
 
 CREATE INDEX IF NOT EXISTS idx_client_streak_activities_client_id ON client_streak_activities(client_id);
-
-CREATE TABLE IF NOT EXISTS game_sessions (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    client_id INT NOT NULL REFERENCES clients(id) ON DELETE CASCADE,
-    topic_id VARCHAR(64) NOT NULL DEFAULT 'general',
-    game_mode VARCHAR(20) NOT NULL DEFAULT 'mcq',
-    total_questions INT NOT NULL DEFAULT 10,
-    current_idx INT NOT NULL DEFAULT 0,
-    score INT NOT NULL DEFAULT 0,
-    correct_count INT NOT NULL DEFAULT 0,
-    combo_streak INT NOT NULL DEFAULT 0,
-    best_streak INT NOT NULL DEFAULT 0,
-    status VARCHAR(20) NOT NULL DEFAULT 'in_progress',
-    questions_state TEXT,
-    started_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    ended_at TIMESTAMPTZ,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE INDEX IF NOT EXISTS idx_game_sessions_client ON game_sessions(client_id);
-CREATE INDEX IF NOT EXISTS idx_game_sessions_client_status ON game_sessions(client_id, status);
-
-CREATE TABLE IF NOT EXISTS user_question_history (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    client_id INT NOT NULL REFERENCES clients(id) ON DELETE CASCADE,
-    session_id UUID NOT NULL REFERENCES game_sessions(id) ON DELETE CASCADE,
-    question_code VARCHAR(32) NOT NULL,
-    selected_option VARCHAR(10) NOT NULL,
-    is_correct BOOLEAN NOT NULL DEFAULT FALSE,
-    time_taken_ms INT NOT NULL DEFAULT 0,
-    points_awarded INT NOT NULL DEFAULT 0,
-    coins_awarded INT NOT NULL DEFAULT 0,
-    answered_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE INDEX IF NOT EXISTS idx_uqh_client ON user_question_history(client_id);
-CREATE INDEX IF NOT EXISTS idx_uqh_session ON user_question_history(session_id);
 
 CREATE TABLE IF NOT EXISTS wallet_ledger (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

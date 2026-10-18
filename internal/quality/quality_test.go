@@ -34,6 +34,30 @@ func TestRunDataQualitySuite_ValidData(t *testing.T) {
 			Difficulty:    1,
 			Points:        15,
 		},
+		{
+			QuestionCode:  "ACC_SIO_001",
+			QuestionType:  "sort_it_out",
+			TopicID:       "accounting",
+			PairType:      "asset_liability",
+			Prompt:        "Accounts Receivable is classified as:",
+			OptionA:       "Asset",
+			OptionB:       "Liability",
+			CorrectOption: "A",
+			Difficulty:    1,
+			Points:        10,
+		},
+		{
+			QuestionCode: "ACC_MTF_001",
+			QuestionType: "match_the_following",
+			TopicID:      "accounting",
+			Prompt:       "Match the accounts:",
+			Difficulty:   1,
+			Points:       40,
+			MatchPairs: []seeder.MatchPairSeed{
+				{PairOrder: 1, LeftText: "Cash", RightText: "Asset"},
+				{PairOrder: 2, LeftText: "Rent", RightText: "Expense"},
+			},
+		},
 	}
 
 	users := []seeder.UserSeed{
@@ -47,10 +71,10 @@ func TestRunDataQualitySuite_ValidData(t *testing.T) {
 	report := RunDataQualitySuite(questions, users)
 
 	if report.Failed != 0 {
-		t.Fatalf("expected 0 failures, got %d", report.Failed)
+		t.Fatalf("expected 0 failures, got %d (errors: %v)", report.Failed, report.Results)
 	}
-	if report.Passed != 9 {
-		t.Fatalf("expected 9 passed checks, got %d", report.Passed)
+	if report.Passed != 11 {
+		t.Fatalf("expected 11 passed checks, got %d", report.Passed)
 	}
 
 	var buf bytes.Buffer

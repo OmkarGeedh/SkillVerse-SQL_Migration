@@ -32,21 +32,30 @@ type ChapterFile struct {
 	Chapters []ChapterSeed `json:"chapters"`
 }
 
+// MatchPairSeed defines a pair in Match the Following boards.
+type MatchPairSeed struct {
+	PairOrder int    `json:"pair_order"`
+	LeftText  string `json:"left_text"`
+	RightText string `json:"right_text"`
+}
+
 // QuestionSeed defines an MCQ, Sudden Death, or other game-mode question.
 type QuestionSeed struct {
-	QuestionCode  string  `json:"question_code"`
-	QuestionType  string  `json:"question_type"`
-	TopicID       string  `json:"topic_id"`
-	Prompt        string  `json:"prompt"`
-	OptionA       string  `json:"option_a"`
-	OptionB       string  `json:"option_b"`
-	OptionC       string  `json:"option_c"`
-	OptionD       string  `json:"option_d"`
-	CorrectOption string  `json:"correct_option"`
-	Difficulty    int     `json:"difficulty"`
-	Points        int     `json:"points"`
-	Hint          *string `json:"hint,omitempty"`
-	Explanation   *string `json:"explanation,omitempty"`
+	QuestionCode  string          `json:"question_code"`
+	QuestionType  string          `json:"question_type"`
+	TopicID       string          `json:"topic_id"`
+	PairType      string          `json:"pair_type,omitempty"`
+	Prompt        string          `json:"prompt"`
+	OptionA       string          `json:"option_a"`
+	OptionB       string          `json:"option_b"`
+	OptionC       string          `json:"option_c"`
+	OptionD       string          `json:"option_d"`
+	CorrectOption string          `json:"correct_option"`
+	Difficulty    int             `json:"difficulty"`
+	Points        int             `json:"points"`
+	Hint          *string         `json:"hint,omitempty"`
+	Explanation   *string         `json:"explanation,omitempty"`
+	MatchPairs    []MatchPairSeed `json:"match_pairs,omitempty"`
 }
 
 // QuestionFile represents the JSON structure for a questions file.

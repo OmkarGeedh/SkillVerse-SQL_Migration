@@ -1,7 +1,7 @@
 -- Seeds: Demo Users and Profiles
 
 INSERT INTO clients (username, email, phone, password, status)
-VALUES ('quizmaster', 'player@example.com', '+1-555-0199', '$2a$12$NqLpY1qMsn43K7F7z9sEa.YfR9N8hJj7XbE0jO6o8s4eH1uV5mK0K', 'active')
+VALUES ('quizmaster', 'player@example.com', '+1-555-0199', '$2a$12$FDChY3DB1CCaXYANYZi1iegRKal5QXEZFTQfsavE6D4MHDl1ZKw2C', 'active')
 ON CONFLICT (email) DO UPDATE SET
     username = EXCLUDED.username,
     password = EXCLUDED.password,
@@ -31,4 +31,16 @@ ON CONFLICT (client_id) DO UPDATE SET
     highest_streak = EXCLUDED.highest_streak,
     weekly_score = EXCLUDED.weekly_score,
     updated_at = CURRENT_TIMESTAMP;
+
+INSERT INTO client_streak_activities (client_id, activity_date, completed)
+SELECT id, (CURRENT_DATE - INTERVAL '2 day')::date::text, true FROM clients WHERE email = 'player@example.com'
+ON CONFLICT (client_id, activity_date) DO NOTHING;
+
+INSERT INTO client_streak_activities (client_id, activity_date, completed)
+SELECT id, (CURRENT_DATE - INTERVAL '1 day')::date::text, true FROM clients WHERE email = 'player@example.com'
+ON CONFLICT (client_id, activity_date) DO NOTHING;
+
+INSERT INTO client_streak_activities (client_id, activity_date, completed)
+SELECT id, CURRENT_DATE::text, true FROM clients WHERE email = 'player@example.com'
+ON CONFLICT (client_id, activity_date) DO NOTHING;
 

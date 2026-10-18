@@ -1,6 +1,8 @@
 name: Deploy Database
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -37,6 +39,9 @@ jobs:
 
       - name: Validate seed data
         run: ./bin/game-db seed validate
+
+      - name: Run Data Quality Suite (DQ Gate)
+        run: ./bin/game-db dq
 
       - name: Apply database migrations
         run: ./bin/game-db migrate up

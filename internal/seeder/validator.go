@@ -152,12 +152,33 @@ func validateJSONFile(path string, res *ValidationResult, knownTopics, knownChap
 			if strings.TrimSpace(q.Prompt) == "" {
 				res.Errors = append(res.Errors, fmt.Sprintf("%s: question[%d] missing prompt", path, i))
 			}
-			if strings.TrimSpace(q.OptionA) == "" || strings.TrimSpace(q.OptionB) == "" {
-				res.Errors = append(res.Errors, fmt.Sprintf("%s: question[%d] must define at least option_a and option_b", path, i))
+			qType := strings.ToLower(strings.TrimSpace(q.QuestionType))
+			if qType == "" {
+				qType = "mcq"
 			}
-			corr := strings.ToLower(strings.TrimSpace(q.CorrectOption))
-			if corr != "a" && corr != "b" && corr != "c" && corr != "d" {
-				res.Errors = append(res.Errors, fmt.Sprintf("%s: question[%d] correct_option must be 'a', 'b', 'c', or 'd', got '%s'", path, i, q.CorrectOption))
+			if qType == "match_the_following" {
+				if len(q.MatchPairs) < 2 {
+					res.Errors = append(res.Errors, fmt.Sprintf("%s: question[%d] match_the_following must define at least 2 match_pairs", path, i))
+				}
+				for pIdx, p := range q.MatchPairs {
+					if strings.TrimSpace(p.LeftText) == "" || strings.TrimSpace(p.RightText) == "" {
+						res.Errors = append(res.Errors, fmt.Sprintf("%s: question[%d] pair[%d] must have left_text and right_text", path, i, pIdx))
+					}
+				}
+			} else {
+				if strings.TrimSpace(q.OptionA) == "" || strings.TrimSpace(q.OptionB) == "" {
+					res.Errors = append(res.Errors, fmt.Sprintf("%s: question[%d] must define at least option_a and option_b", path, i))
+				}
+				corr := strings.ToLower(strings.TrimSpace(q.CorrectOption))
+				if qType == "sort_it_out" || qType == "sudden_death" {
+					if corr != "a" && corr != "b" {
+						res.Errors = append(res.Errors, fmt.Sprintf("%s: question[%d] correct_option for %s must be 'a' or 'b', got '%s'", path, i, qType, q.CorrectOption))
+					}
+				} else {
+					if corr != "a" && corr != "b" && corr != "c" && corr != "d" {
+						res.Errors = append(res.Errors, fmt.Sprintf("%s: question[%d] correct_option must be 'a', 'b', 'c', or 'd', got '%s'", path, i, q.CorrectOption))
+					}
+				}
 			}
 			res.TotalQuestions++
 		}
