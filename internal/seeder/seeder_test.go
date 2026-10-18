@@ -19,8 +19,8 @@ func TestValidateSeeds(t *testing.T) {
 		t.Fatalf("ValidateSeeds returned unexpected error: %v, errors: %v", err, res.Errors)
 	}
 
-	if res.TotalQuestions != 266 {
-		t.Errorf("Expected 266 questions, got %d", res.TotalQuestions)
+	if res.TotalQuestions != 281 {
+		t.Errorf("Expected 281 questions, got %d", res.TotalQuestions)
 	}
 	if res.TotalUsers < 1 {
 		t.Errorf("Expected at least 1 user, got %d", res.TotalUsers)

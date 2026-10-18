@@ -369,6 +369,561 @@
           "right_text": "Interest on investment considered"
         }
       ]
+    },
+    {
+      "question_code": "mtf_acc_011",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Type of Personal Account with its Representative Example:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 1,
+      "points": 40,
+      "hint": "Distinguish between human beings, legal entities/institutions, and accounts representing a group.",
+      "explanation": "Sunita is a natural human person; Bank of Maharashtra is an artificial person created by law; Outstanding Salary represents employees due payments; Drawings is personal account of the owner.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Natural Personal Account",
+          "right_text": "Sunita's A/c"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Artificial Personal Account",
+          "right_text": "Bank of Maharashtra A/c"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Representative Personal Account",
+          "right_text": "Outstanding Salary A/c"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Proprietor Account",
+          "right_text": "Drawings A/c"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_012",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Real Account Asset with its Precise Sub-Category:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 1,
+      "points": 40,
+      "hint": "Consider physical tangibility and how quickly the asset converts to cash.",
+      "explanation": "Motor Car has physical existence and long life; Copyright has no physical form but legal value; Stock is held for trade; Cash is the most liquid asset.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Motor Car",
+          "right_text": "Tangible Fixed Asset"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Copyright",
+          "right_text": "Intangible Asset"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Stock in Trade",
+          "right_text": "Tangible Current Asset"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Cash in Hand",
+          "right_text": "Liquid Asset"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_013",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Transaction Type with its Defining Feature:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 1,
+      "points": 40,
+      "hint": "Focus on the timing of cash settlement and whether currency is involved.",
+      "explanation": "Cash transactions settle immediately; credit transactions create debtor/creditor relationships; non-cash transactions include depreciation or fire loss; barter trades goods directly.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Cash Transaction",
+          "right_text": "Immediate cash settlement"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Credit Transaction",
+          "right_text": "Payment postponed to future date"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Non-Cash Transaction",
+          "right_text": "Exchange without direct cash movement"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Barter Transaction",
+          "right_text": "Direct exchange of goods for goods"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_014",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Accounting Document / Voucher with its Commercial Function:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 2,
+      "points": 40,
+      "hint": "Think about buyer-seller communications when buying, selling, or returning merchandise.",
+      "explanation": "Cash memo records cash transactions; tax invoice bills credit sales; debit note debits the supplier account on purchase returns; credit note credits customer account on sales returns.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Cash Memo",
+          "right_text": "Proof of cash sale/purchase"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Tax Invoice",
+          "right_text": "Proof of credit sale/purchase"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Debit Note",
+          "right_text": "Sent when returning goods to supplier"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Credit Note",
+          "right_text": "Sent when receiving returned goods"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_015",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Accounting Equation Element with its Calculation / Formula:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 1,
+      "points": 40,
+      "hint": "Use the fundamental dual-aspect equation: Assets = Liabilities + Capital.",
+      "explanation": "The balance sheet equation balances resources (assets) against obligations (liabilities) and owner investments (capital).",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Total Assets",
+          "right_text": "Liabilities + Capital"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Capital",
+          "right_text": "Total Assets - Total Liabilities"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Total Liabilities",
+          "right_text": "Total Assets - Capital"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Net Worth",
+          "right_text": "Capital + Retained Profits - Drawings"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_016",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each System / Basis of Accounting with its Underlying Principle:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 2,
+      "points": 40,
+      "hint": "Compare strict cash timing versus period matching and single versus dual entry.",
+      "explanation": "Cash basis waits for cash movements; accrual basis reflects economic events when incurred; single entry is incomplete; double entry systematically records both sides of every transaction.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Cash Basis",
+          "right_text": "Records revenue on cash realization"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Accrual Basis",
+          "right_text": "Matches revenues/expenses when earned/incurred"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Single Entry System",
+          "right_text": "Incomplete and unscientific records"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Double Entry System",
+          "right_text": "Dual aspect with equal debit and credit"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_017",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Term related to Solvency with its Definition:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 1,
+      "points": 40,
+      "hint": "Examine financial capability to meet commercial liabilities and debt collection risks.",
+      "explanation": "A solvent person can honor debts; an insolvent person cannot; bad debts are confirmed uncollectible; doubtful debts represent estimated recovery risk.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Solvent Person",
+          "right_text": "Assets exceed liabilities"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Insolvent Person",
+          "right_text": "Liabilities exceed assets"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Bad Debts",
+          "right_text": "Irrecoverable debt written off as loss"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Doubtful Debts",
+          "right_text": "Recovery uncertain at year end"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_018",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Branch of Accounting with its Primary Target Objective:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 2,
+      "points": 40,
+      "hint": "Consider who consumes the information and for what purpose.",
+      "explanation": "Financial accounting serves banks/investors; cost accounting guides factory/pricing managers; management accounting aids strategic planning; social accounting measures CSR.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Financial Accounting",
+          "right_text": "Historical reports for external stakeholders"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Cost Accounting",
+          "right_text": "Ascertaining unit cost and cost control"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Management Accounting",
+          "right_text": "Internal decision-making for leadership"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Social Responsibility Accounting",
+          "right_text": "Measuring community and environmental impact"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_019",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Subsidiary Book with the Nature of Entries it Contains:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 2,
+      "points": 40,
+      "hint": "Remember that special journals handle high-volume routine transactions while Journal Proper catches the rest.",
+      "explanation": "Purchases and Sales books record trade goods on credit; Cash book logs all liquid cash flows; Journal Proper handles adjustments and non-cash asset trades.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Purchases Book",
+          "right_text": "Credit purchases of trade goods only"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Sales Book",
+          "right_text": "Credit sales of trade goods only"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Cash Book",
+          "right_text": "All cash receipts and disbursements"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Journal Proper",
+          "right_text": "Opening, closing, and non-routine entries"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_020",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Accounting Standard (AS / Ind AS) with its Regulatory Subject:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 3,
+      "points": 40,
+      "hint": "Standardized disclosure and valuation guidance issued by ICAI.",
+      "explanation": "AS 1 mandates policy disclosure; AS 2 guides inventory cost vs NRV; AS 9 governs revenue timing; AS 10 governs fixed asset capitalization and depreciation.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "AS 1",
+          "right_text": "Disclosure of Accounting Policies"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "AS 2",
+          "right_text": "Valuation of Inventories"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "AS 9",
+          "right_text": "Revenue Recognition"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "AS 10",
+          "right_text": "Property, Plant and Equipment"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_021",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Account Balance Behavior with its Standard Ledger Classification:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 1,
+      "points": 40,
+      "hint": "Recall the modern classification of accounts and ledger rules for increases/decreases.",
+      "explanation": "Assets and expenses naturally hold debit balances; liabilities, revenues, and capital hold credit balances; increases follow the normal balance side.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Normal Debit Balance",
+          "right_text": "Assets, Expenses, and Losses"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Normal Credit Balance",
+          "right_text": "Liabilities, Capital, and Revenues"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Increase via Debit",
+          "right_text": "Tangible Assets and Operating Expenses"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Increase via Credit",
+          "right_text": "Sundry Creditors and Sales Incomes"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_022",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Golden Rule of Accounting with its Applicable Account Class:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 1,
+      "points": 40,
+      "hint": "Link each traditional 3-part Golden Rule to Personal, Real, or Nominal accounts.",
+      "explanation": "Personal accounts track receivers/givers; Real accounts track asset inflows/outflows; Nominal accounts track expenses and earnings.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Debit receiver, Credit giver",
+          "right_text": "Personal Accounts"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Debit what comes in, Credit what goes out",
+          "right_text": "Real Accounts"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Debit expenses/losses, Credit incomes/gains",
+          "right_text": "Nominal Accounts"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Dual Aspect Balancing Rule",
+          "right_text": "All Double Entry Transactions"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_023",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Discount Type with its Bookkeeping Recording Rule:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 2,
+      "points": 40,
+      "hint": "Determine whether the concession appears explicitly as a ledger entry in financial accounts.",
+      "explanation": "Trade discounts reduce catalogue prices without journal entry; cash and settlement discounts incentivize early liquidation and are explicitly ledger-posted.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Trade Discount",
+          "right_text": "Deducted from invoice, no ledger entry"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Cash Discount",
+          "right_text": "Separate ledger account in Cash Book"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Quantity Rebate",
+          "right_text": "Concession granted for bulk purchases"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Settlement Allowance",
+          "right_text": "Awarded for prompt cash settlement"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_024",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Commercial Entity Type with its Distinct Characteristic:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 2,
+      "points": 40,
+      "hint": "Classification based on legal identity and institutional formation.",
+      "explanation": "Sole traders are natural persons; companies and banks are artificial corporate persons; prepaid/outstanding accounts are representative; clubs are non-profit service bodies.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Natural Person",
+          "right_text": "Living human being trading as owner"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "Artificial Person",
+          "right_text": "Body corporate created by law"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Representative Person",
+          "right_text": "Group account like Salaries Payable"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Not-For-Profit Entity",
+          "right_text": "Sports club or social welfare trust"
+        }
+      ]
+    },
+    {
+      "question_code": "mtf_acc_025",
+      "question_type": "match_the_following",
+      "topic_id": "accounting",
+      "prompt": "Match each Trial Balance Error with its Trial Balance Detection Outcome:",
+      "option_a": "",
+      "option_b": "",
+      "option_c": "",
+      "option_d": "",
+      "correct_option": "a",
+      "difficulty": 3,
+      "points": 40,
+      "hint": "Check whether the error affects only one side or both debit and credit equally.",
+      "explanation": "Trial balance only catches arithmetical one-sided errors; complete omissions, errors of principle, and compensating errors still leave debits equal to credits.",
+      "match_pairs": [
+        {
+          "pair_order": 1,
+          "left_text": "Complete Omission",
+          "right_text": "Trial Balance still agrees"
+        },
+        {
+          "pair_order": 2,
+          "left_text": "One-sided Posting Error",
+          "right_text": "Causes Trial Balance disagreement"
+        },
+        {
+          "pair_order": 3,
+          "left_text": "Compensating Error",
+          "right_text": "Errors neutralize, Trial Balance agrees"
+        },
+        {
+          "pair_order": 4,
+          "left_text": "Error of Principle",
+          "right_text": "Capital/revenue mixup, Trial Balance agrees"
+        }
+      ]
     }
   ]
 }
