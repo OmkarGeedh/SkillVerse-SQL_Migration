@@ -43,12 +43,21 @@ jobs:
       - name: Run Data Quality Suite (DQ Gate)
         run: ./bin/game-db dq
 
+      - name: Verify database connection secret is present
+        run: |
+          if [ -z "${DB_URL}" ]; then
+            echo "::error::Missing database secret! Please configure 'DATABASE_URL' or 'DB_URL' in GitHub repository or 'production' environment secrets."
+            exit 1
+          fi
+        env:
+          DB_URL: ${{ secrets.DATABASE_URL || secrets.DB_URL }}
+
       - name: Apply database migrations
         run: ./bin/game-db migrate up
         env:
-          DB_URL: ${{ secrets.DATABASE_URL }}
+          DB_URL: ${{ secrets.DATABASE_URL || secrets.DB_URL }}
 
       - name: Upsert game content and initial seed
         run: ./bin/game-db seed -format all
         env:
-          DB_URL: ${{ secrets.DATABASE_URL }}
+          DB_URL: ${{ secrets.DATABASE_URL || secrets.DB_URL }}
