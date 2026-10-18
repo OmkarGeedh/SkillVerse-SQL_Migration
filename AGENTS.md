@@ -8,7 +8,7 @@ PostgreSQL schema migration, data engineering ETL pipeline, and data quality rep
 - **`internal/pipeline/`**: ETL pipeline orchestrator, CSV/Sheets parser, batch upsert loader, and audit logger (`data_pipeline_runs`).
 - **`internal/quality/`**: Data Quality & Contracts testing suite (uniqueness, not-null, enum domains, option integrity).
 - **`internal/profile/`**: Statistical profiler (difficulty distribution, word/char length, hint/explanation coverage).
-- **`migrations/`**: Sequenced migrations (`000001` - `000005`) with paired `.up.sql` and `.down.sql`.
+- **`migrations/`**: Sequenced migrations (`000001` - `000006`) with paired `.up.sql` and `.down.sql`.
 - **`seeds/`**: Authoring JSON files (`manifest.json`, `questions/`, `users/`).
 - **`seeds/sql/`**: Auto-generated idempotent SQL seed scripts compiled from JSON.
 - **`Sheets Dump/`**: CSV exports for Google Sheets & Excel content authoring workflows.
