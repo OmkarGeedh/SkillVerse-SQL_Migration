@@ -1,0 +1,85 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Annual details,B,3,10,Accountancy provides details for the entire year.
+2,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Business decisions,B,3,10,Accountancy information supports critical management decisions.
+3,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Profit and Loss A/c,B,1,3,Profit and Loss Account is an outcome of accountancy.
+4,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Recording day-to-day transactions,A,1,3,Recording daily business transactions is the primary function of book-keeping.
+5,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Analysis and interpretation,B,1,3,Accountancy includes analysing and interpreting financial data.
+6,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Daily details,A,2,5,Book-keeping provides day-to-day details of transactions.
+7,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Financial statements,B,1,3,Accountancy prepares financial statements to communicate financial information.
+8,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Primary stage,A,1,3,Book-keeping is the primary stage of the accounting process.
+9,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Junior staff,A,2,5,Junior staff are responsible for maintaining book-keeping records.
+10,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Journal and Ledger,A,1,3,Book-keeping primarily produces journal and ledger records.
+11,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,Senior staff,B,2,5,Senior staff are responsible for keeping accounts at the accountancy stage.
+12,Accountancy,Introduction to Book-keeping and Accountancy,SORT-001,Accounting Function,Book-keeping,Accountancy,No analytical skill,A,2,5,Book-keeping does not require analytical skill.
+13,Accountancy,Introduction to Book-keeping and Accountancy,SORT-002,Accounting Basis Example,Accrual Basis,Cash Basis,Expenses payable,A,3,10,Accrual basis includes expenses incurred but not yet paid.
+14,Accountancy,Introduction to Book-keeping and Accountancy,SORT-002,Accounting Basis Example,Accrual Basis,Cash Basis,Receipts on collection,B,1,3,Cash basis records actual cash receipts.
+15,Accountancy,Introduction to Book-keeping and Accountancy,SORT-002,Accounting Basis Example,Accrual Basis,Cash Basis,Income earned unpaid,A,2,5,Accrual basis records income when earned even if cash is not received.
+16,Accountancy,Introduction to Book-keeping and Accountancy,SORT-002,Accounting Basis Example,Accrual Basis,Cash Basis,Revenue accrued,A,3,10,Accrual basis recognises revenue when it is earned or accrued.
+17,Accountancy,Introduction to Book-keeping and Accountancy,SORT-002,Accounting Basis Example,Accrual Basis,Cash Basis,Payments on settlement,B,1,3,Cash basis records actual cash payments.
+18,Accountancy,Introduction to Book-keeping and Accountancy,SORT-002,Accounting Basis Example,Accrual Basis,Cash Basis,Income received,B,1,3,Cash basis records revenue when cash is received.
+19,Accountancy,Introduction to Book-keeping and Accountancy,SORT-002,Accounting Basis Example,Accrual Basis,Cash Basis,Expense incurred unpaid,A,2,5,Accrual basis records expenses when incurred even if unpaid.
+20,Accountancy,Introduction to Book-keeping and Accountancy,SORT-002,Accounting Basis Example,Accrual Basis,Cash Basis,Expense paid,B,1,3,Cash basis records expenses when cash is paid.
+21,Accountancy,Introduction to Book-keeping and Accountancy,SORT-003,Transaction Type,Non-Monetary,Monetary,Credit sale,B,2,5,A credit sale involves money or money’s worth payable later.
+22,Accountancy,Introduction to Book-keeping and Accountancy,SORT-003,Transaction Type,Non-Monetary,Monetary,Machinery on credit,B,3,10,A credit sale of machinery involves money’s worth.
+23,Accountancy,Introduction to Book-keeping and Accountancy,SORT-003,Transaction Type,Non-Monetary,Monetary,Management efficiency,A,3,10,Management efficiency is not recorded under money measurement when it cannot be expressed in money.
+24,Accountancy,Introduction to Book-keeping and Accountancy,SORT-003,Transaction Type,Non-Monetary,Monetary,Workplace conditions,A,3,10,Workplace conditions cannot be expressed in monetary terms.
+25,Accountancy,Introduction to Book-keeping and Accountancy,SORT-003,Transaction Type,Non-Monetary,Monetary,Salary payment,B,1,3,A salary payment involves an exchange of money.
+26,Accountancy,Introduction to Book-keeping and Accountancy,SORT-003,Transaction Type,Non-Monetary,Monetary,Barter exchange,A,1,3,Barter exchanges one thing for another without money or money’s worth.
+27,Accountancy,Introduction to Book-keeping and Accountancy,SORT-003,Transaction Type,Non-Monetary,Monetary,Goods for goods,A,1,3,Exchanging goods directly for other goods is a barter transaction.
+28,Accountancy,Introduction to Book-keeping and Accountancy,SORT-003,Transaction Type,Non-Monetary,Monetary,Immediate goods purchase,B,1,3,A cash purchase directly involves money.
+29,Accountancy,Introduction to Book-keeping and Accountancy,SORT-004,Transaction Timing,Cash Transaction,Credit Transaction,Receipt at later date,B,3,10,A credit transaction may be settled after the transaction date.
+30,Accountancy,Introduction to Book-keeping and Accountancy,SORT-004,Transaction Timing,Cash Transaction,Credit Transaction,Payment next month,B,2,5,Payment deferred until a later date is characteristic of a credit transaction.
+31,Accountancy,Introduction to Book-keeping and Accountancy,SORT-004,Transaction Timing,Cash Transaction,Credit Transaction,Immediate receipt,A,1,3,A cash transaction involves immediate receipt of cash.
+32,Accountancy,Introduction to Book-keeping and Accountancy,SORT-004,Transaction Timing,Cash Transaction,Credit Transaction,Payment at purchase,A,2,5,Payment made at the time of purchase makes the transaction a cash transaction.
+33,Accountancy,Introduction to Book-keeping and Accountancy,SORT-004,Transaction Timing,Cash Transaction,Credit Transaction,Machinery sold on credit,B,2,5,The machinery payment is received at a later date in a credit transaction.
+34,Accountancy,Introduction to Book-keeping and Accountancy,SORT-004,Transaction Timing,Cash Transaction,Credit Transaction,Goods purchase paid immediately,A,1,3,A cash purchase involves immediate payment.
+35,Accountancy,Introduction to Book-keeping and Accountancy,SORT-004,Transaction Timing,Cash Transaction,Credit Transaction,Goods sold on credit,B,1,3,A credit sale does not involve immediate cash receipt.
+36,Accountancy,Introduction to Book-keeping and Accountancy,SORT-004,Transaction Timing,Cash Transaction,Credit Transaction,Salary paid,A,1,3,Salary paid immediately is a cash transaction.
+37,Accountancy,Introduction to Book-keeping and Accountancy,SORT-005,Expenditure,Capital Expenditure,Revenue Expenditure,Computer purchase,A,1,3,Purchasing a computer provides a long-term business benefit.
+38,Accountancy,Introduction to Book-keeping and Accountancy,SORT-005,Expenditure,Capital Expenditure,Revenue Expenditure,Salary paid,B,1,3,Salary is a routine operating expense with short-term benefit.
+39,Accountancy,Introduction to Book-keeping and Accountancy,SORT-005,Expenditure,Capital Expenditure,Revenue Expenditure,Purchase of machinery,A,1,3,Machinery is a fixed asset acquired through capital expenditure.
+40,Accountancy,Introduction to Book-keeping and Accountancy,SORT-005,Expenditure,Capital Expenditure,Revenue Expenditure,Building extension,A,1,3,Extending a building increases the value of a fixed asset.
+41,Accountancy,Introduction to Book-keeping and Accountancy,SORT-005,Expenditure,Capital Expenditure,Revenue Expenditure,Wages paid,B,1,3,Wages are normal operating expenses.
+42,Accountancy,Introduction to Book-keeping and Accountancy,SORT-005,Expenditure,Capital Expenditure,Revenue Expenditure,Fixed asset improvement,A,2,5,Spending to increase a fixed asset’s value is capital expenditure.
+43,Accountancy,Introduction to Book-keeping and Accountancy,SORT-005,Expenditure,Capital Expenditure,Revenue Expenditure,Rent paid,B,1,3,Rent is a normal day-to-day operating expense.
+44,Accountancy,Introduction to Book-keeping and Accountancy,SORT-005,Expenditure,Capital Expenditure,Revenue Expenditure,Daily operating costs,B,3,10,Routine costs with immediate or short-term benefit are revenue expenditure.
+45,Accountancy,Introduction to Book-keeping and Accountancy,SORT-006,Discount Type,Cash Discount,Trade Discount,Spot payment allowance,A,3,10,Cash discount may be given for spot payment.
+46,Accountancy,Introduction to Book-keeping and Accountancy,SORT-006,Discount Type,Cash Discount,Trade Discount,Net goods value,B,2,5,Goods are recorded at their value after deducting trade discount.
+47,Accountancy,Introduction to Book-keeping and Accountancy,SORT-006,Discount Type,Cash Discount,Trade Discount,Prompt payment concession,A,1,3,Cash discount encourages prompt payment.
+48,Accountancy,Introduction to Book-keeping and Accountancy,SORT-006,Discount Type,Cash Discount,Trade Discount,Appears in accounts,A,2,5,Cash discount appears in the books of accounts.
+49,Accountancy,Introduction to Book-keeping and Accountancy,SORT-006,Discount Type,Cash Discount,Trade Discount,List price reduction,B,1,3,Trade discount reduces the list price used to calculate the recorded net value.
+50,Accountancy,Introduction to Book-keeping and Accountancy,SORT-006,Discount Type,Cash Discount,Trade Discount,Catalogue price allowance,B,1,3,Trade discount is allowed on the catalogue or list price of goods.
+51,Accountancy,Introduction to Book-keeping and Accountancy,SORT-006,Discount Type,Cash Discount,Trade Discount,Deduction when paid,A,1,3,Cash discount is deducted from the final amount due at receipt.
+52,Accountancy,Introduction to Book-keeping and Accountancy,SORT-006,Discount Type,Cash Discount,Trade Discount,Not separately recorded,B,2,5,Trade discount does not appear separately in the books of accounts.
+53,Accountancy,Introduction to Book-keeping and Accountancy,SORT-007,Asset Type,Fixed Assets,Current Assets,Cash at bank,B,1,3,Cash at bank is a current asset readily available for use.
+54,Accountancy,Introduction to Book-keeping and Accountancy,SORT-007,Asset Type,Fixed Assets,Current Assets,Bills receivable,B,2,5,Bills receivable are classified as current assets.
+55,Accountancy,Introduction to Book-keeping and Accountancy,SORT-007,Asset Type,Fixed Assets,Current Assets,Plant and machinery,A,1,3,Plant and machinery are fixed assets providing long-term benefit.
+56,Accountancy,Introduction to Book-keeping and Accountancy,SORT-007,Asset Type,Fixed Assets,Current Assets,Debtors,B,2,5,Debtors are listed among current assets.
+57,Accountancy,Introduction to Book-keeping and Accountancy,SORT-007,Asset Type,Fixed Assets,Current Assets,Land and building,A,1,3,Land and building provide long-term benefit to the business.
+58,Accountancy,Introduction to Book-keeping and Accountancy,SORT-007,Asset Type,Fixed Assets,Current Assets,Stock,B,1,3,Stock is held for the operating year and is a current asset.
+59,Accountancy,Introduction to Book-keeping and Accountancy,SORT-007,Asset Type,Fixed Assets,Current Assets,Goodwill,A,3,10,Goodwill is identified as an intangible fixed asset.
+60,Accountancy,Introduction to Book-keeping and Accountancy,SORT-007,Asset Type,Fixed Assets,Current Assets,Cash in hand,B,1,3,Cash in hand can be used immediately and is a current asset.
+61,Accountancy,Introduction to Book-keeping and Accountancy,SORT-008,Financial Position Item,Liabilities,Assets,Outstanding expenses,A,3,10,Outstanding expenses are amounts due from the business to others.
+62,Accountancy,Introduction to Book-keeping and Accountancy,SORT-008,Financial Position Item,Liabilities,Assets,Loan taken,A,1,3,A loan taken is an amount payable by the business.
+63,Accountancy,Introduction to Book-keeping and Accountancy,SORT-008,Financial Position Item,Liabilities,Assets,Patents,B,2,5,Patents are rights with monetary value and are assets.
+64,Accountancy,Introduction to Book-keeping and Accountancy,SORT-008,Financial Position Item,Liabilities,Assets,Land,B,1,3,Land owned by the business has monetary value and is an asset.
+65,Accountancy,Introduction to Book-keeping and Accountancy,SORT-008,Financial Position Item,Liabilities,Assets,Creditors,A,1,3,Creditors are parties to whom the business owes money.
+66,Accountancy,Introduction to Book-keeping and Accountancy,SORT-008,Financial Position Item,Liabilities,Assets,Goodwill,B,1,3,Goodwill is an intangible asset of the business.
+67,Accountancy,Introduction to Book-keeping and Accountancy,SORT-008,Financial Position Item,Liabilities,Assets,Bank overdraft,A,2,5,A bank overdraft is an amount payable by the business.
+68,Accountancy,Introduction to Book-keeping and Accountancy,SORT-008,Financial Position Item,Liabilities,Assets,Cash at bank,B,1,3,Cash at bank is a resource owned by the business.
+69,Accountancy,Introduction to Book-keeping and Accountancy,SORT-009,Organisation Type,Not-for-Profit Concern,Trading Concern,Profit-making business,B,1,3,A trading concern is established to earn profit.
+70,Accountancy,Introduction to Book-keeping and Accountancy,SORT-009,Organisation Type,Not-for-Profit Concern,Trading Concern,Goods sold for profit,B,1,3,A trading concern sells goods with the objective of earning profit.
+71,Accountancy,Introduction to Book-keeping and Accountancy,SORT-009,Organisation Type,Not-for-Profit Concern,Trading Concern,Service to society,A,3,10,A not-for-profit concern is established to render services to society.
+72,Accountancy,Introduction to Book-keeping and Accountancy,SORT-009,Organisation Type,Not-for-Profit Concern,Trading Concern,Sports club,A,1,3,A sports club is given as an example of a not-for-profit concern.
+73,Accountancy,Introduction to Book-keeping and Accountancy,SORT-009,Organisation Type,Not-for-Profit Concern,Trading Concern,Commercial organisation,B,1,3,A trading concern is also called a commercial organisation.
+74,Accountancy,Introduction to Book-keeping and Accountancy,SORT-009,Organisation Type,Not-for-Profit Concern,Trading Concern,Retail goods business,B,2,5,A business established to earn profit by selling goods is a trading concern.
+75,Accountancy,Introduction to Book-keeping and Accountancy,SORT-009,Organisation Type,Not-for-Profit Concern,Trading Concern,Charity organisation,A,1,3,A charity organisation serves a useful social purpose rather than seeking profit.
+76,Accountancy,Introduction to Book-keeping and Accountancy,SORT-009,Organisation Type,Not-for-Profit Concern,Trading Concern,School,A,1,3,Schools are listed as examples of not-for-profit concerns.
+77,Accountancy,Introduction to Book-keeping and Accountancy,SORT-010,Business Result,Profit,Loss,Capital increases,A,1,3,Profit increases the capital of the business.
+78,Accountancy,Introduction to Book-keeping and Accountancy,SORT-010,Business Result,Profit,Loss,Capital decreases,B,1,3,Loss decreases the capital of the business.
+79,Accountancy,Introduction to Book-keeping and Accountancy,SORT-010,Business Result,Profit,Loss,"Sale ₹50,000; expenses ₹60,000",B,3,10,"The stated expenses exceed the sale amount, resulting in a loss."
+80,Accountancy,Introduction to Book-keeping and Accountancy,SORT-010,Business Result,Profit,Loss,Cost exceeds selling price,B,1,3,Loss occurs when the cost price is greater than the selling price.
+81,Accountancy,Introduction to Book-keeping and Accountancy,SORT-010,Business Result,Profit,Loss,Selling price exceeds cost,A,1,3,Profit occurs when the selling price is greater than the cost price.
+82,Accountancy,Introduction to Book-keeping and Accountancy,SORT-010,Business Result,Profit,Loss,Income exceeds expenses,A,2,5,A surplus of income over expenses indicates profit.
+83,Accountancy,Introduction to Book-keeping and Accountancy,SORT-010,Business Result,Profit,Loss,"Sale ₹50,000; expenses ₹30,000",A,2,5,"The sale amount exceeds the stated expenses, leaving a profit."
+84,Accountancy,Introduction to Book-keeping and Accountancy,SORT-010,Business Result,Profit,Loss,Expenses exceed income,B,2,5,"When expenses exceed income, the business incurs a loss."

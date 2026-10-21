@@ -1,0 +1,213 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"1, -2, 4, -8",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+2,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"1, 3, 5, 7",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+3,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"2, 5, 8, 11",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+4,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"2, 6, 18, 54",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+5,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"3, 6, 12, 24",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+6,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"16, 8, 4, 2",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+7,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"3, 9, 15, 21",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+8,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"1, 3, 9, 27",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+9,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"4, 8, 12, 16",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+10,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"10, 8, 6, 4",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+11,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"1, 4, 7, 10",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+12,Mathematics,4. Sequences and Series,SORT-001,Progression Pattern,Arithmetic Progression,Geometric Progression,"1, 2, 4, 8",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+13,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"1/2, 1/5, 1/8",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+14,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"10, 8, 6, 4",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+15,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"1, 4, 7, 10",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+16,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"1, 3, 5, 7",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+17,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"1/6, 1/9, 1/12",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+18,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"4, 8, 12, 16",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+19,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"1/3, 1/5, 1/7",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+20,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"1/4, 1/7, 1/10",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+21,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"2, 5, 8, 11",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+22,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"1/2, 1/4, 1/6",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+23,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"3, 9, 15, 21",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+24,Mathematics,4. Sequences and Series,SORT-002,Progression Pattern,Harmonic Progression,Arithmetic Progression,"1/5, 1/8, 1/11",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+25,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"1, -2, 4, -8",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+26,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"1/3, 1/5, 1/7",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+27,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"3, 6, 12, 24",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+28,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"1/2, 1/5, 1/8",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+29,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"1/6, 1/9, 1/12",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+30,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"1, 3, 9, 27",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+31,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"1/4, 1/7, 1/10",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+32,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"16, 8, 4, 2",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+33,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"1/2, 1/4, 1/6",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+34,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"1, 2, 4, 8",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+35,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"1/5, 1/8, 1/11",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+36,Mathematics,4. Sequences and Series,SORT-003,Progression Pattern,Geometric Progression,Harmonic Progression,"2, 6, 18, 54",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+37,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"20, 16, 12, 8",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+38,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"81, 27, 9, 3",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+39,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"4, 12, 36, 108",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+40,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"3, -6, 12, -24",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+41,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"12, 9, 6, 3",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+42,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"2, -4, 8, -16",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+43,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"2, 9, 16, 23",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+44,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"5, 10, 20, 40",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+45,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"7, 11, 15, 19",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+46,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"1, 4, 16, 64",A,2,5,"Successive ratios are constant, so this is a geometric progression."
+47,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"5, 10, 15, 20",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+48,Mathematics,4. Sequences and Series,SORT-004,Progression Pattern,Geometric Progression,Arithmetic Progression,"6, 12, 18, 24",B,2,5,"Successive differences are constant, so this is an arithmetic progression."
+49,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"5, 10, 15, 20",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+50,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"2, 9, 16, 23",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+51,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"1/3, 1/7, 1/11",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+52,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"1/3, 1/6, 1/9",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+53,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"1/7, 1/10, 1/13",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+54,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"7, 11, 15, 19",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+55,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"1/2, 1/6, 1/10",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+56,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"1/4, 1/6, 1/8",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+57,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"12, 9, 6, 3",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+58,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"1/5, 1/9, 1/13",B,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+59,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"20, 16, 12, 8",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+60,Mathematics,4. Sequences and Series,SORT-005,Progression Pattern,Arithmetic Progression,Harmonic Progression,"6, 12, 18, 24",A,2,5,"Successive differences are constant, so this is an arithmetic progression."
+61,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"1/2, 1/6, 1/10",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+62,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"1/4, 1/6, 1/8",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+63,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"1/3, 1/7, 1/11",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+64,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"1, 4, 16, 64",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+65,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"4, 12, 36, 108",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+66,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"1/5, 1/9, 1/13",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+67,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"81, 27, 9, 3",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+68,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"2, -4, 8, -16",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+69,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"1/3, 1/6, 1/9",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+70,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"5, 10, 20, 40",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+71,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"1/7, 1/10, 1/13",A,2,5,"Taking reciprocals produces equally spaced terms, so this is a harmonic progression."
+72,Mathematics,4. Sequences and Series,SORT-006,Progression Pattern,Harmonic Progression,Geometric Progression,"3, -6, 12, -24",B,2,5,"Successive ratios are constant, so this is a geometric progression."
+73,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Specified last term,A,1,3,"A finite sequence contains a fixed, limited number of terms."
+74,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Terms for every positive index,B,1,3,An infinite sequence continues without a final term.
+75,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,No terminal position,B,2,5,An infinite sequence continues without a final term.
+76,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Ten indexed terms,A,2,5,"A finite sequence contains a fixed, limited number of terms."
+77,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Limited number of terms,A,2,5,"A finite sequence contains a fixed, limited number of terms."
+78,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Exactly 5 terms,A,1,3,"A finite sequence contains a fixed, limited number of terms."
+79,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Indefinitely continuing terms,B,2,5,An infinite sequence continues without a final term.
+80,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Ends after 4 terms,A,2,5,"A finite sequence contains a fixed, limited number of terms."
+81,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Unending ordered terms,B,2,5,An infinite sequence continues without a final term.
+82,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Continues without end,B,1,3,An infinite sequence continues without a final term.
+83,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,No final term,B,1,3,An infinite sequence continues without a final term.
+84,Mathematics,4. Sequences and Series,SORT-007,Sequence Feature,Finite Sequence,Infinite Sequence,Stops at 8th term,A,1,3,"A finite sequence contains a fixed, limited number of terms."
+85,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio 1/3,B,2,5,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+86,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio 1,A,2,5,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+87,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio -1/2,B,2,5,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+88,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio 1/2,B,2,5,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+89,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio -1/3,B,2,5,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+90,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio -1,A,2,5,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+91,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio -3,A,2,5,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+92,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio -2/3,B,2,5,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+93,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio 2/3,B,2,5,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+94,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio 2,A,2,5,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+95,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio -2,A,2,5,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+96,Mathematics,4. Sequences and Series,SORT-008,Infinite G.P. Case,No Finite Infinite Sum,Finite Infinite Sum,Ratio 3,A,2,5,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+97,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"3, 1, 1/3",A,3,10,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+98,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"2, 1, 1/2",A,3,10,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+99,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"1, 1/2, 1/4",A,3,10,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+100,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"2, -2, 2",B,3,10,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+101,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"4, 2, 1",A,3,10,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+102,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"3, 3, 3",B,3,10,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+103,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"1, 3, 9",B,3,10,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+104,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"2, -4, 8",B,3,10,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+105,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"9, 3, 1",A,3,10,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+106,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"1, 2, 4",B,3,10,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+107,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"4, 8, 16",B,3,10,"The common ratio has absolute value at least 1, so the infinite geometric sum does not exist."
+108,Mathematics,4. Sequences and Series,SORT-009,Infinite G.P. Case,Finite Infinite Sum,No Finite Infinite Sum,"1, -1/2, 1/4",A,3,10,"The common ratio has absolute value below 1, so the infinite geometric sum exists."
+109,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"2, 8 → 4",A,2,5,4 is the square root of the product of 2 and 8.
+110,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"2, 18 → 10",B,2,5,10 is the sum of 2 and 18 divided by 2.
+111,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"2, 18 → 6",A,2,5,6 is the square root of the product of 2 and 18.
+112,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"3, 12 → 15/2",B,2,5,15/2 is the sum of 3 and 12 divided by 2.
+113,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"5, 20 → 25/2",B,2,5,25/2 is the sum of 5 and 20 divided by 2.
+114,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"4, 16 → 8",A,2,5,8 is the square root of the product of 4 and 16.
+115,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"5, 20 → 10",A,2,5,10 is the square root of the product of 5 and 20.
+116,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"2, 8 → 5",B,2,5,5 is the sum of 2 and 8 divided by 2.
+117,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"1, 9 → 3",A,2,5,3 is the square root of the product of 1 and 9.
+118,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"1, 9 → 5",B,2,5,5 is the sum of 1 and 9 divided by 2.
+119,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"3, 12 → 6",A,2,5,6 is the square root of the product of 3 and 12.
+120,Mathematics,4. Sequences and Series,SORT-010,Mean of Two Numbers,Geometric Mean,Arithmetic Mean,"4, 16 → 10",B,2,5,10 is the sum of 4 and 16 divided by 2.
+121,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"3, 27 → 9",B,2,5,9 is the square root of the product of 3 and 27.
+122,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"1, 25 → 13",A,2,5,13 is the sum of 1 and 25 divided by 2.
+123,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"6, 24 → 12",B,2,5,12 is the square root of the product of 6 and 24.
+124,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"8, 18 → 13",A,2,5,13 is the sum of 8 and 18 divided by 2.
+125,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"2, 32 → 8",B,2,5,8 is the square root of the product of 2 and 32.
+126,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"2, 32 → 17",A,2,5,17 is the sum of 2 and 32 divided by 2.
+127,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"8, 18 → 12",B,2,5,12 is the square root of the product of 8 and 18.
+128,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"4, 36 → 20",A,2,5,20 is the sum of 4 and 36 divided by 2.
+129,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"4, 36 → 12",B,2,5,12 is the square root of the product of 4 and 36.
+130,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"6, 24 → 15",A,2,5,15 is the sum of 6 and 24 divided by 2.
+131,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"3, 27 → 15",A,2,5,15 is the sum of 3 and 27 divided by 2.
+132,Mathematics,4. Sequences and Series,SORT-011,Mean of Two Numbers,Arithmetic Mean,Geometric Mean,"1, 25 → 5",B,2,5,5 is the square root of the product of 1 and 25.
+133,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"1, 9 → 9/5",A,3,10,9/5 equals twice the product divided by the sum of 1 and 9.
+134,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"5, 20 → 8",A,3,10,8 equals twice the product divided by the sum of 5 and 20.
+135,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"2, 8 → 5",B,2,5,5 is the sum of 2 and 8 divided by 2.
+136,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"1, 9 → 5",B,2,5,5 is the sum of 1 and 9 divided by 2.
+137,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"5, 20 → 25/2",B,2,5,25/2 is the sum of 5 and 20 divided by 2.
+138,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"2, 8 → 16/5",A,3,10,16/5 equals twice the product divided by the sum of 2 and 8.
+139,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"3, 12 → 15/2",B,2,5,15/2 is the sum of 3 and 12 divided by 2.
+140,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"2, 18 → 10",B,2,5,10 is the sum of 2 and 18 divided by 2.
+141,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"4, 16 → 32/5",A,3,10,32/5 equals twice the product divided by the sum of 4 and 16.
+142,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"4, 16 → 10",B,2,5,10 is the sum of 4 and 16 divided by 2.
+143,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"3, 12 → 24/5",A,3,10,24/5 equals twice the product divided by the sum of 3 and 12.
+144,Mathematics,4. Sequences and Series,SORT-012,Mean of Two Numbers,Harmonic Mean,Arithmetic Mean,"2, 18 → 18/5",A,3,10,18/5 equals twice the product divided by the sum of 2 and 18.
+145,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"3, 27 → 15",A,2,5,15 is the sum of 3 and 27 divided by 2.
+146,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"2, 32 → 64/17",B,3,10,64/17 equals twice the product divided by the sum of 2 and 32.
+147,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"2, 32 → 17",A,2,5,17 is the sum of 2 and 32 divided by 2.
+148,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"8, 18 → 13",A,2,5,13 is the sum of 8 and 18 divided by 2.
+149,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"1, 25 → 13",A,2,5,13 is the sum of 1 and 25 divided by 2.
+150,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"8, 18 → 144/13",B,3,10,144/13 equals twice the product divided by the sum of 8 and 18.
+151,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"4, 36 → 20",A,2,5,20 is the sum of 4 and 36 divided by 2.
+152,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"1, 25 → 25/13",B,3,10,25/13 equals twice the product divided by the sum of 1 and 25.
+153,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"4, 36 → 36/5",B,3,10,36/5 equals twice the product divided by the sum of 4 and 36.
+154,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"6, 24 → 15",A,2,5,15 is the sum of 6 and 24 divided by 2.
+155,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"6, 24 → 48/5",B,3,10,48/5 equals twice the product divided by the sum of 6 and 24.
+156,Mathematics,4. Sequences and Series,SORT-013,Mean of Two Numbers,Arithmetic Mean,Harmonic Mean,"3, 27 → 27/5",B,3,10,27/5 equals twice the product divided by the sum of 3 and 27.
+157,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"2, 8 → 4",B,2,5,4 is the square root of the product of 2 and 8.
+158,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"2, 18 → 18/5",A,3,10,18/5 equals twice the product divided by the sum of 2 and 18.
+159,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"2, 18 → 6",B,2,5,6 is the square root of the product of 2 and 18.
+160,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"1, 9 → 9/5",A,3,10,9/5 equals twice the product divided by the sum of 1 and 9.
+161,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"2, 8 → 16/5",A,3,10,16/5 equals twice the product divided by the sum of 2 and 8.
+162,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"5, 20 → 8",A,3,10,8 equals twice the product divided by the sum of 5 and 20.
+163,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"5, 20 → 10",B,2,5,10 is the square root of the product of 5 and 20.
+164,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"3, 12 → 24/5",A,3,10,24/5 equals twice the product divided by the sum of 3 and 12.
+165,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"4, 16 → 8",B,2,5,8 is the square root of the product of 4 and 16.
+166,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"1, 9 → 3",B,2,5,3 is the square root of the product of 1 and 9.
+167,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"4, 16 → 32/5",A,3,10,32/5 equals twice the product divided by the sum of 4 and 16.
+168,Mathematics,4. Sequences and Series,SORT-014,Mean of Two Numbers,Harmonic Mean,Geometric Mean,"3, 12 → 6",B,2,5,6 is the square root of the product of 3 and 12.
+169,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"1, 25 → 5",A,2,5,5 is the square root of the product of 1 and 25.
+170,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"3, 27 → 27/5",B,3,10,27/5 equals twice the product divided by the sum of 3 and 27.
+171,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"2, 32 → 8",A,2,5,8 is the square root of the product of 2 and 32.
+172,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"6, 24 → 48/5",B,3,10,48/5 equals twice the product divided by the sum of 6 and 24.
+173,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"1, 25 → 25/13",B,3,10,25/13 equals twice the product divided by the sum of 1 and 25.
+174,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"4, 36 → 12",A,2,5,12 is the square root of the product of 4 and 36.
+175,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"3, 27 → 9",A,2,5,9 is the square root of the product of 3 and 27.
+176,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"4, 36 → 36/5",B,3,10,36/5 equals twice the product divided by the sum of 4 and 36.
+177,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"8, 18 → 12",A,2,5,12 is the square root of the product of 8 and 18.
+178,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"2, 32 → 64/17",B,3,10,64/17 equals twice the product divided by the sum of 2 and 32.
+179,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"8, 18 → 144/13",B,3,10,144/13 equals twice the product divided by the sum of 8 and 18.
+180,Mathematics,4. Sequences and Series,SORT-015,Mean of Two Numbers,Geometric Mean,Harmonic Mean,"6, 24 → 12",A,2,5,12 is the square root of the product of 6 and 24.
+181,Mathematics,4. Sequences and Series,SORT-016,Mean Property,Geometric Mean,Arithmetic Mean,Half the endpoint sum,B,1,3,The arithmetic mean is obtained by dividing the sum by the number of values.
+182,Mathematics,4. Sequences and Series,SORT-016,Mean Property,Geometric Mean,Arithmetic Mean,Sum divided by count,B,1,3,The arithmetic mean is obtained by dividing the sum by the number of values.
+183,Mathematics,4. Sequences and Series,SORT-016,Mean Property,Geometric Mean,Arithmetic Mean,Square root of product,A,1,3,The geometric mean is based on the product and its square root for two numbers.
+184,Mathematics,4. Sequences and Series,SORT-016,Mean Property,Geometric Mean,Arithmetic Mean,Middle term of a G.P.,A,1,3,The geometric mean is based on the product and its square root for two numbers.
+185,Mathematics,4. Sequences and Series,SORT-016,Mean Property,Geometric Mean,Arithmetic Mean,Average of equally spaced endpoints,B,1,3,The arithmetic mean is obtained by dividing the sum by the number of values.
+186,Mathematics,4. Sequences and Series,SORT-016,Mean Property,Geometric Mean,Arithmetic Mean,Equal successive ratios,A,1,3,The geometric mean is based on the product and its square root for two numbers.
+187,Mathematics,4. Sequences and Series,SORT-016,Mean Property,Geometric Mean,Arithmetic Mean,Product-based central value,A,1,3,The geometric mean is based on the product and its square root for two numbers.
+188,Mathematics,4. Sequences and Series,SORT-016,Mean Property,Geometric Mean,Arithmetic Mean,Middle term of an A.P.,B,1,3,The arithmetic mean is obtained by dividing the sum by the number of values.
+189,Mathematics,4. Sequences and Series,SORT-017,Mean Property,Arithmetic Mean,Harmonic Mean,Half the endpoint sum,A,1,3,The arithmetic mean uses the sum divided by the count.
+190,Mathematics,4. Sequences and Series,SORT-017,Mean Property,Arithmetic Mean,Harmonic Mean,Sum divided by count,A,1,3,The arithmetic mean uses the sum divided by the count.
+191,Mathematics,4. Sequences and Series,SORT-017,Mean Property,Arithmetic Mean,Harmonic Mean,Reciprocal of average reciprocals,B,1,3,The harmonic mean uses the reciprocal average.
+192,Mathematics,4. Sequences and Series,SORT-017,Mean Property,Arithmetic Mean,Harmonic Mean,Middle term of an H.P.,B,1,3,The harmonic mean uses the reciprocal average.
+193,Mathematics,4. Sequences and Series,SORT-017,Mean Property,Arithmetic Mean,Harmonic Mean,Twice product over sum,B,1,3,The harmonic mean uses the reciprocal average.
+194,Mathematics,4. Sequences and Series,SORT-017,Mean Property,Arithmetic Mean,Harmonic Mean,Equal successive differences,A,1,3,The arithmetic mean uses the sum divided by the count.
+195,Mathematics,4. Sequences and Series,SORT-017,Mean Property,Arithmetic Mean,Harmonic Mean,Middle term of an A.P.,A,1,3,The arithmetic mean uses the sum divided by the count.
+196,Mathematics,4. Sequences and Series,SORT-017,Mean Property,Arithmetic Mean,Harmonic Mean,Reciprocals equally spaced,B,1,3,The harmonic mean uses the reciprocal average.
+197,Mathematics,4. Sequences and Series,SORT-018,Mean Property,Harmonic Mean,Geometric Mean,Middle term of an H.P.,A,1,3,The harmonic mean is the middle term of a harmonic progression.
+198,Mathematics,4. Sequences and Series,SORT-018,Mean Property,Harmonic Mean,Geometric Mean,Reciprocals equally spaced,A,1,3,The harmonic mean is the middle term of a harmonic progression.
+199,Mathematics,4. Sequences and Series,SORT-018,Mean Property,Harmonic Mean,Geometric Mean,Twice product over sum,A,1,3,The harmonic mean is the middle term of a harmonic progression.
+200,Mathematics,4. Sequences and Series,SORT-018,Mean Property,Harmonic Mean,Geometric Mean,Middle term of a G.P.,B,1,3,The geometric mean is the middle term of a geometric progression.
+201,Mathematics,4. Sequences and Series,SORT-018,Mean Property,Harmonic Mean,Geometric Mean,Square root of product,B,1,3,The geometric mean is the middle term of a geometric progression.
+202,Mathematics,4. Sequences and Series,SORT-018,Mean Property,Harmonic Mean,Geometric Mean,Equal successive ratios,B,1,3,The geometric mean is the middle term of a geometric progression.
+203,Mathematics,4. Sequences and Series,SORT-018,Mean Property,Harmonic Mean,Geometric Mean,Reciprocal of average reciprocals,A,1,3,The harmonic mean is the middle term of a harmonic progression.
+204,Mathematics,4. Sequences and Series,SORT-018,Mean Property,Harmonic Mean,Geometric Mean,Product-based central value,B,1,3,The geometric mean is the middle term of a geometric progression.
+205,Mathematics,4. Sequences and Series,SORT-019,Progression Feature,Arithmetic Progression,Geometric Progression,Add a fixed amount,A,1,3,Successive terms have the same difference.
+206,Mathematics,4. Sequences and Series,SORT-019,Progression Feature,Arithmetic Progression,Geometric Progression,Constant successive difference,A,1,3,Successive terms have the same difference.
+207,Mathematics,4. Sequences and Series,SORT-019,Progression Feature,Arithmetic Progression,Geometric Progression,Multiply by fixed factor,B,1,3,Successive nonzero terms have the same ratio.
+208,Mathematics,4. Sequences and Series,SORT-019,Progression Feature,Arithmetic Progression,Geometric Progression,Constant successive ratio,B,1,3,Successive nonzero terms have the same ratio.
+209,Mathematics,4. Sequences and Series,SORT-019,Progression Feature,Arithmetic Progression,Geometric Progression,Subtract a fixed amount,A,1,3,Successive terms have the same difference.
+210,Mathematics,4. Sequences and Series,SORT-019,Progression Feature,Arithmetic Progression,Geometric Progression,Divide by fixed factor,B,1,3,Successive nonzero terms have the same ratio.
+211,Mathematics,4. Sequences and Series,SORT-019,Progression Feature,Arithmetic Progression,Geometric Progression,Exponential term growth,B,1,3,Successive nonzero terms have the same ratio.
+212,Mathematics,4. Sequences and Series,SORT-019,Progression Feature,Arithmetic Progression,Geometric Progression,Linear term growth,A,1,3,Successive terms have the same difference.

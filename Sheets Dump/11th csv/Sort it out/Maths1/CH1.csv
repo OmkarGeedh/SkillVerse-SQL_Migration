@@ -1,0 +1,153 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,1. Sets and Relations,SORT-001,Collection Property,Well-defined,Not well-defined,Unclear membership criteria,B,1,3,Unclear membership criteria describes not well-defined.
+2,Mathematics,1. Sets and Relations,SORT-001,Collection Property,Well-defined,Not well-defined,Objective inclusion test,A,1,3,Objective inclusion test describes well-defined.
+3,Mathematics,1. Sets and Relations,SORT-001,Collection Property,Well-defined,Not well-defined,Clear membership rule,A,1,3,Clear membership rule describes well-defined.
+4,Mathematics,1. Sets and Relations,SORT-001,Collection Property,Well-defined,Not well-defined,Precisely specified objects,A,1,3,Precisely specified objects describes well-defined.
+5,Mathematics,1. Sets and Relations,SORT-001,Collection Property,Well-defined,Not well-defined,Vague inclusion rule,B,1,3,Vague inclusion rule describes not well-defined.
+6,Mathematics,1. Sets and Relations,SORT-001,Collection Property,Well-defined,Not well-defined,Membership is decidable,A,1,3,Membership is decidable describes well-defined.
+7,Mathematics,1. Sets and Relations,SORT-001,Collection Property,Well-defined,Not well-defined,Personal judgement required,B,1,3,Personal judgement required describes not well-defined.
+8,Mathematics,1. Sets and Relations,SORT-001,Collection Property,Well-defined,Not well-defined,Subjective membership test,B,1,3,Subjective membership test describes not well-defined.
+9,Mathematics,1. Sets and Relations,SORT-002,Set Representation,Set-Builder Method,Roster Method,Property determines elements,A,1,3,Property determines elements describes set-builder method.
+10,Mathematics,1. Sets and Relations,SORT-002,Set Representation,Set-Builder Method,Roster Method,Defining property specified,A,1,3,Defining property specified describes set-builder method.
+11,Mathematics,1. Sets and Relations,SORT-002,Set Representation,Set-Builder Method,Roster Method,Elements explicitly listed,B,1,3,Elements explicitly listed describes roster method.
+12,Mathematics,1. Sets and Relations,SORT-002,Set Representation,Set-Builder Method,Roster Method,Rule describes members,A,1,3,Rule describes members describes set-builder method.
+13,Mathematics,1. Sets and Relations,SORT-002,Set Representation,Set-Builder Method,Roster Method,Members individually enumerated,B,1,3,Members individually enumerated describes roster method.
+14,Mathematics,1. Sets and Relations,SORT-002,Set Representation,Set-Builder Method,Roster Method,Listing without repetition,B,1,3,Listing without repetition describes roster method.
+15,Mathematics,1. Sets and Relations,SORT-002,Set Representation,Set-Builder Method,Roster Method,Membership condition stated,A,1,3,Membership condition stated describes set-builder method.
+16,Mathematics,1. Sets and Relations,SORT-002,Set Representation,Set-Builder Method,Roster Method,Comma-separated entries,B,1,3,Comma-separated entries describes roster method.
+17,Mathematics,1. Sets and Relations,SORT-003,Interval Property,Open Interval,Closed Interval,Strict bounds at both ends,A,1,3,Strict bounds at both ends describes open interval.
+18,Mathematics,1. Sets and Relations,SORT-003,Interval Property,Open Interval,Closed Interval,Both boundary points excluded,A,1,3,Both boundary points excluded describes open interval.
+19,Mathematics,1. Sets and Relations,SORT-003,Interval Property,Open Interval,Closed Interval,Inclusive bounds at both ends,B,1,3,Inclusive bounds at both ends describes closed interval.
+20,Mathematics,1. Sets and Relations,SORT-003,Interval Property,Open Interval,Closed Interval,Boundary points both included,B,1,3,Boundary points both included describes closed interval.
+21,Mathematics,1. Sets and Relations,SORT-003,Interval Property,Open Interval,Closed Interval,Neither endpoint included,A,1,3,Neither endpoint included describes open interval.
+22,Mathematics,1. Sets and Relations,SORT-003,Interval Property,Open Interval,Closed Interval,Endpoints belong to interval,B,1,3,Endpoints belong to interval describes closed interval.
+23,Mathematics,1. Sets and Relations,SORT-003,Interval Property,Open Interval,Closed Interval,Both endpoints included,B,1,3,Both endpoints included describes closed interval.
+24,Mathematics,1. Sets and Relations,SORT-003,Interval Property,Open Interval,Closed Interval,Only interior points included,A,1,3,Only interior points included describes open interval.
+25,Mathematics,1. Sets and Relations,SORT-004,Interval Property,Semi-open Interval,Semi-closed Interval,Right endpoint included,A,1,3,Right endpoint included describes semi-open interval.
+26,Mathematics,1. Sets and Relations,SORT-004,Interval Property,Semi-open Interval,Semi-closed Interval,Right endpoint excluded,B,1,3,Right endpoint excluded describes semi-closed interval.
+27,Mathematics,1. Sets and Relations,SORT-004,Interval Property,Semi-open Interval,Semi-closed Interval,Strict upper bound,B,1,3,Strict upper bound describes semi-closed interval.
+28,Mathematics,1. Sets and Relations,SORT-004,Interval Property,Semi-open Interval,Semi-closed Interval,Strict lower bound,A,1,3,Strict lower bound describes semi-open interval.
+29,Mathematics,1. Sets and Relations,SORT-004,Interval Property,Semi-open Interval,Semi-closed Interval,Inclusive upper bound,A,1,3,Inclusive upper bound describes semi-open interval.
+30,Mathematics,1. Sets and Relations,SORT-004,Interval Property,Semi-open Interval,Semi-closed Interval,Left endpoint included,B,1,3,Left endpoint included describes semi-closed interval.
+31,Mathematics,1. Sets and Relations,SORT-004,Interval Property,Semi-open Interval,Semi-closed Interval,Left endpoint excluded,A,1,3,Left endpoint excluded describes semi-open interval.
+32,Mathematics,1. Sets and Relations,SORT-004,Interval Property,Semi-open Interval,Semi-closed Interval,Inclusive lower bound,B,1,3,Inclusive lower bound describes semi-closed interval.
+33,Mathematics,1. Sets and Relations,SORT-005,Set Property,Finite Set,Infinite Set,All integer numbers,B,1,3,All integer numbers describes infinite set.
+34,Mathematics,1. Sets and Relations,SORT-005,Set Property,Finite Set,Infinite Set,Fixed finite cardinality,A,1,3,Fixed finite cardinality describes finite set.
+35,Mathematics,1. Sets and Relations,SORT-005,Set Property,Finite Set,Infinite Set,Unending distinct elements,B,1,3,Unending distinct elements describes infinite set.
+36,Mathematics,1. Sets and Relations,SORT-005,Set Property,Finite Set,Infinite Set,Natural numbers collection,B,1,3,Natural numbers collection describes infinite set.
+37,Mathematics,1. Sets and Relations,SORT-005,Set Property,Finite Set,Infinite Set,Limited distinct elements,A,1,3,Limited distinct elements describes finite set.
+38,Mathematics,1. Sets and Relations,SORT-005,Set Property,Finite Set,Infinite Set,Zero elements possible,A,1,3,Zero elements possible describes finite set.
+39,Mathematics,1. Sets and Relations,SORT-005,Set Property,Finite Set,Infinite Set,Counting never terminates,B,1,3,Counting never terminates describes infinite set.
+40,Mathematics,1. Sets and Relations,SORT-005,Set Property,Finite Set,Infinite Set,Counting eventually stops,A,1,3,Counting eventually stops describes finite set.
+41,Mathematics,1. Sets and Relations,SORT-006,Set Property,Singleton Set,Empty Set,No members present,B,1,3,No members present describes empty set.
+42,Mathematics,1. Sets and Relations,SORT-006,Set Property,Singleton Set,Empty Set,Only one member,A,1,3,Only one member describes singleton set.
+43,Mathematics,1. Sets and Relations,SORT-006,Set Property,Singleton Set,Empty Set,Cardinality equals one,A,1,3,Cardinality equals one describes singleton set.
+44,Mathematics,1. Sets and Relations,SORT-006,Set Property,Singleton Set,Empty Set,Contains exactly one element,A,1,3,Contains exactly one element describes singleton set.
+45,Mathematics,1. Sets and Relations,SORT-006,Set Property,Singleton Set,Empty Set,Contains nothing,B,1,3,Contains nothing describes empty set.
+46,Mathematics,1. Sets and Relations,SORT-006,Set Property,Singleton Set,Empty Set,Single distinct member,A,1,3,Single distinct member describes singleton set.
+47,Mathematics,1. Sets and Relations,SORT-006,Set Property,Singleton Set,Empty Set,Contains no elements,B,1,3,Contains no elements describes empty set.
+48,Mathematics,1. Sets and Relations,SORT-006,Set Property,Singleton Set,Empty Set,Cardinality equals zero,B,1,3,Cardinality equals zero describes empty set.
+49,Mathematics,1. Sets and Relations,SORT-007,Set Comparison,Equal Sets,Equivalent Sets,Mutual subset condition,A,2,5,Mutual subset condition describes equal sets.
+50,Mathematics,1. Sets and Relations,SORT-007,Set Comparison,Equal Sets,Equivalent Sets,Same number of members,B,2,5,Same number of members describes equivalent sets.
+51,Mathematics,1. Sets and Relations,SORT-007,Set Comparison,Equal Sets,Equivalent Sets,Identical member collections,A,2,5,Identical member collections describes equal sets.
+52,Mathematics,1. Sets and Relations,SORT-007,Set Comparison,Equal Sets,Equivalent Sets,Matching element counts,B,2,5,Matching element counts describes equivalent sets.
+53,Mathematics,1. Sets and Relations,SORT-007,Set Comparison,Equal Sets,Equivalent Sets,Every member shared,A,2,5,Every member shared describes equal sets.
+54,Mathematics,1. Sets and Relations,SORT-007,Set Comparison,Equal Sets,Equivalent Sets,Same elements regardless order,A,2,5,Same elements regardless order describes equal sets.
+55,Mathematics,1. Sets and Relations,SORT-007,Set Comparison,Equal Sets,Equivalent Sets,Equal finite cardinalities,B,2,5,Equal finite cardinalities describes equivalent sets.
+56,Mathematics,1. Sets and Relations,SORT-007,Set Comparison,Equal Sets,Equivalent Sets,Membership may differ,B,2,5,Membership may differ describes equivalent sets.
+57,Mathematics,1. Sets and Relations,SORT-008,Set Inclusion,Proper Subset,Subset,Equality is excluded,A,2,5,Equality is excluded describes proper subset.
+58,Mathematics,1. Sets and Relations,SORT-008,Set Inclusion,Proper Subset,Subset,Can equal containing set,B,2,5,Can equal containing set describes subset.
+59,Mathematics,1. Sets and Relations,SORT-008,Set Inclusion,Proper Subset,Subset,Strictly smaller collection,A,2,5,Strictly smaller collection describes proper subset.
+60,Mathematics,1. Sets and Relations,SORT-008,Set Inclusion,Proper Subset,Subset,Containment allows equality,B,2,5,Containment allows equality describes subset.
+61,Mathematics,1. Sets and Relations,SORT-008,Set Inclusion,Proper Subset,Subset,May contain identical elements,B,2,5,May contain identical elements describes subset.
+62,Mathematics,1. Sets and Relations,SORT-008,Set Inclusion,Proper Subset,Subset,At least one extra member,A,2,5,At least one extra member describes proper subset.
+63,Mathematics,1. Sets and Relations,SORT-008,Set Inclusion,Proper Subset,Subset,Equality is permitted,B,2,5,Equality is permitted describes subset.
+64,Mathematics,1. Sets and Relations,SORT-008,Set Inclusion,Proper Subset,Subset,Some containing members absent,A,2,5,Some containing members absent describes proper subset.
+65,Mathematics,1. Sets and Relations,SORT-009,Set Operation,Union,Intersection,Includes noncommon members,A,1,3,Includes noncommon members describes union.
+66,Mathematics,1. Sets and Relations,SORT-009,Set Operation,Union,Intersection,Inclusive either-or membership,A,1,3,Inclusive either-or membership describes union.
+67,Mathematics,1. Sets and Relations,SORT-009,Set Operation,Union,Intersection,Members in either set,A,1,3,Members in either set describes union.
+68,Mathematics,1. Sets and Relations,SORT-009,Set Operation,Union,Intersection,Common members only,B,1,3,Common members only describes intersection.
+69,Mathematics,1. Sets and Relations,SORT-009,Set Operation,Union,Intersection,Shared elements selected,B,1,3,Shared elements selected describes intersection.
+70,Mathematics,1. Sets and Relations,SORT-009,Set Operation,Union,Intersection,Combines all distinct members,A,1,3,Combines all distinct members describes union.
+71,Mathematics,1. Sets and Relations,SORT-009,Set Operation,Union,Intersection,Requires simultaneous membership,B,1,3,Requires simultaneous membership describes intersection.
+72,Mathematics,1. Sets and Relations,SORT-009,Set Operation,Union,Intersection,Members in both sets,B,1,3,Members in both sets describes intersection.
+73,Mathematics,1. Sets and Relations,SORT-010,Set Operation,Difference,Intersection,Belongs to both operands,B,2,5,Belongs to both operands describes intersection.
+74,Mathematics,1. Sets and Relations,SORT-010,Set Operation,Difference,Intersection,Second-set members excluded,A,2,5,Second-set members excluded describes difference.
+75,Mathematics,1. Sets and Relations,SORT-010,Set Operation,Difference,Intersection,Common portion selected,B,2,5,Common portion selected describes intersection.
+76,Mathematics,1. Sets and Relations,SORT-010,Set Operation,Difference,Intersection,First-only members retained,A,2,5,First-only members retained describes difference.
+77,Mathematics,1. Sets and Relations,SORT-010,Set Operation,Difference,Intersection,Asymmetric removal operation,A,2,5,Asymmetric removal operation describes difference.
+78,Mathematics,1. Sets and Relations,SORT-010,Set Operation,Difference,Intersection,Removes overlapping elements,A,2,5,Removes overlapping elements describes difference.
+79,Mathematics,1. Sets and Relations,SORT-010,Set Operation,Difference,Intersection,Mutual membership required,B,2,5,Mutual membership required describes intersection.
+80,Mathematics,1. Sets and Relations,SORT-010,Set Operation,Difference,Intersection,Shared elements retained,B,2,5,Shared elements retained describes intersection.
+81,Mathematics,1. Sets and Relations,SORT-011,Set Operation,Complement,Difference,All excluded universal members,A,2,5,All excluded universal members describes complement.
+82,Mathematics,1. Sets and Relations,SORT-011,Set Operation,Complement,Difference,Retain first-only elements,B,2,5,Retain first-only elements describes difference.
+83,Mathematics,1. Sets and Relations,SORT-011,Set Operation,Complement,Difference,Relative to first operand,B,2,5,Relative to first operand describes difference.
+84,Mathematics,1. Sets and Relations,SORT-011,Set Operation,Complement,Difference,Remove second-set overlap,B,2,5,Remove second-set overlap describes difference.
+85,Mathematics,1. Sets and Relations,SORT-011,Set Operation,Complement,Difference,Universal remainder,A,2,5,Universal remainder describes complement.
+86,Mathematics,1. Sets and Relations,SORT-011,Set Operation,Complement,Difference,Outside selected set,A,2,5,Outside selected set describes complement.
+87,Mathematics,1. Sets and Relations,SORT-011,Set Operation,Complement,Difference,Subtract second operand,B,2,5,Subtract second operand describes difference.
+88,Mathematics,1. Sets and Relations,SORT-011,Set Operation,Complement,Difference,Relative to universal set,A,2,5,Relative to universal set describes complement.
+89,Mathematics,1. Sets and Relations,SORT-012,Set Relationship,Overlapping Sets,Disjoint Sets,Shared element exists,A,2,5,Shared element exists describes overlapping sets.
+90,Mathematics,1. Sets and Relations,SORT-012,Set Relationship,Overlapping Sets,Disjoint Sets,Empty common portion,B,2,5,Empty common portion describes disjoint sets.
+91,Mathematics,1. Sets and Relations,SORT-012,Set Relationship,Overlapping Sets,Disjoint Sets,No common members,B,2,5,No common members describes disjoint sets.
+92,Mathematics,1. Sets and Relations,SORT-012,Set Relationship,Overlapping Sets,Disjoint Sets,At least one common member,A,2,5,At least one common member describes overlapping sets.
+93,Mathematics,1. Sets and Relations,SORT-012,Set Relationship,Overlapping Sets,Disjoint Sets,Zero shared elements,B,2,5,Zero shared elements describes disjoint sets.
+94,Mathematics,1. Sets and Relations,SORT-012,Set Relationship,Overlapping Sets,Disjoint Sets,Intersection contains nothing,B,2,5,Intersection contains nothing describes disjoint sets.
+95,Mathematics,1. Sets and Relations,SORT-012,Set Relationship,Overlapping Sets,Disjoint Sets,Intersection has members,A,2,5,Intersection has members describes overlapping sets.
+96,Mathematics,1. Sets and Relations,SORT-012,Set Relationship,Overlapping Sets,Disjoint Sets,Nonempty common portion,A,2,5,Nonempty common portion describes overlapping sets.
+97,Mathematics,1. Sets and Relations,SORT-013,Relation Component,Domain,Range,All second components,B,1,3,All second components describes range.
+98,Mathematics,1. Sets and Relations,SORT-013,Relation Component,Domain,Range,First entries collected,A,1,3,First entries collected describes domain.
+99,Mathematics,1. Sets and Relations,SORT-013,Relation Component,Domain,Range,Pre-images appearing in relation,A,1,3,Pre-images appearing in relation describes domain.
+100,Mathematics,1. Sets and Relations,SORT-013,Relation Component,Domain,Range,Images appearing in relation,B,1,3,Images appearing in relation describes range.
+101,Mathematics,1. Sets and Relations,SORT-013,Relation Component,Domain,Range,Outputs appearing in pairs,B,1,3,Outputs appearing in pairs describes range.
+102,Mathematics,1. Sets and Relations,SORT-013,Relation Component,Domain,Range,Inputs appearing in pairs,A,1,3,Inputs appearing in pairs describes domain.
+103,Mathematics,1. Sets and Relations,SORT-013,Relation Component,Domain,Range,All first components,A,1,3,All first components describes domain.
+104,Mathematics,1. Sets and Relations,SORT-013,Relation Component,Domain,Range,Second entries collected,B,1,3,Second entries collected describes range.
+105,Mathematics,1. Sets and Relations,SORT-014,Relation Component,Co-domain,Range,May include unused elements,A,2,5,May include unused elements describes co-domain.
+106,Mathematics,1. Sets and Relations,SORT-014,Relation Component,Co-domain,Range,Actual second components,B,2,5,Actual second components describes range.
+107,Mathematics,1. Sets and Relations,SORT-014,Relation Component,Co-domain,Range,All possible target members,A,2,5,All possible target members describes co-domain.
+108,Mathematics,1. Sets and Relations,SORT-014,Relation Component,Co-domain,Range,Images actually occurring,B,2,5,Images actually occurring describes range.
+109,Mathematics,1. Sets and Relations,SORT-014,Relation Component,Co-domain,Range,Specified receiving set,A,2,5,Specified receiving set describes co-domain.
+110,Mathematics,1. Sets and Relations,SORT-014,Relation Component,Co-domain,Range,Entire target set,A,2,5,Entire target set describes co-domain.
+111,Mathematics,1. Sets and Relations,SORT-014,Relation Component,Co-domain,Range,Only attained outputs,B,2,5,Only attained outputs describes range.
+112,Mathematics,1. Sets and Relations,SORT-014,Relation Component,Co-domain,Range,May omit target elements,B,2,5,May omit target elements describes range.
+113,Mathematics,1. Sets and Relations,SORT-015,Relation Property,One-One Relation,Many-One Relation,No shared images,A,2,5,No shared images describes one-one relation.
+114,Mathematics,1. Sets and Relations,SORT-015,Relation Property,One-One Relation,Many-One Relation,Repeated output possible,B,2,5,Repeated output possible describes many-one relation.
+115,Mathematics,1. Sets and Relations,SORT-015,Relation Property,One-One Relation,Many-One Relation,Different inputs share image,B,2,5,Different inputs share image describes many-one relation.
+116,Mathematics,1. Sets and Relations,SORT-015,Relation Property,One-One Relation,Many-One Relation,Multiple pre-images same image,B,2,5,Multiple pre-images same image describes many-one relation.
+117,Mathematics,1. Sets and Relations,SORT-015,Relation Property,One-One Relation,Many-One Relation,Images never coincide,A,2,5,Images never coincide describes one-one relation.
+118,Mathematics,1. Sets and Relations,SORT-015,Relation Property,One-One Relation,Many-One Relation,Common image for inputs,B,2,5,Common image for inputs describes many-one relation.
+119,Mathematics,1. Sets and Relations,SORT-015,Relation Property,One-One Relation,Many-One Relation,Distinct inputs distinct outputs,A,2,5,Distinct inputs distinct outputs describes one-one relation.
+120,Mathematics,1. Sets and Relations,SORT-015,Relation Property,One-One Relation,Many-One Relation,Different pre-images distinct images,A,2,5,Different pre-images distinct images describes one-one relation.
+121,Mathematics,1. Sets and Relations,SORT-016,Relation Property,Onto Relation,Into Relation,Range is proper subset,B,2,5,Range is proper subset describes into relation.
+122,Mathematics,1. Sets and Relations,SORT-016,Relation Property,Onto Relation,Into Relation,No target left unused,A,2,5,No target left unused describes onto relation.
+123,Mathematics,1. Sets and Relations,SORT-016,Relation Property,Onto Relation,Into Relation,Some target lacks pre-image,B,2,5,Some target lacks pre-image describes into relation.
+124,Mathematics,1. Sets and Relations,SORT-016,Relation Property,Onto Relation,Into Relation,Unused target element exists,B,2,5,Unused target element exists describes into relation.
+125,Mathematics,1. Sets and Relations,SORT-016,Relation Property,Onto Relation,Into Relation,Every target attained,A,2,5,Every target attained describes onto relation.
+126,Mathematics,1. Sets and Relations,SORT-016,Relation Property,Onto Relation,Into Relation,Range equals target set,A,2,5,Range equals target set describes onto relation.
+127,Mathematics,1. Sets and Relations,SORT-016,Relation Property,Onto Relation,Into Relation,All targets have pre-images,A,2,5,All targets have pre-images describes onto relation.
+128,Mathematics,1. Sets and Relations,SORT-016,Relation Property,Onto Relation,Into Relation,Not every target attained,B,2,5,Not every target attained describes into relation.
+129,Mathematics,1. Sets and Relations,SORT-017,Relation Property,Reflexive,Symmetric,Pairs occur with reverses,B,2,5,Pairs occur with reverses describes symmetric.
+130,Mathematics,1. Sets and Relations,SORT-017,Relation Property,Reflexive,Symmetric,Reverse pair always present,B,2,5,Reverse pair always present describes symmetric.
+131,Mathematics,1. Sets and Relations,SORT-017,Relation Property,Reflexive,Symmetric,Relationships work both directions,B,2,5,Relationships work both directions describes symmetric.
+132,Mathematics,1. Sets and Relations,SORT-017,Relation Property,Reflexive,Symmetric,All self-pairs present,A,2,5,All self-pairs present describes reflexive.
+133,Mathematics,1. Sets and Relations,SORT-017,Relation Property,Reflexive,Symmetric,Reversing preserves membership,B,2,5,Reversing preserves membership describes symmetric.
+134,Mathematics,1. Sets and Relations,SORT-017,Relation Property,Reflexive,Symmetric,Every member relates itself,A,2,5,Every member relates itself describes reflexive.
+135,Mathematics,1. Sets and Relations,SORT-017,Relation Property,Reflexive,Symmetric,Self-related throughout set,A,2,5,Self-related throughout set describes reflexive.
+136,Mathematics,1. Sets and Relations,SORT-017,Relation Property,Reflexive,Symmetric,Every diagonal pair included,A,2,5,Every diagonal pair included describes reflexive.
+137,Mathematics,1. Sets and Relations,SORT-018,Relation Property,Transitive,Symmetric,Reverse pairs required,B,2,5,Reverse pairs required describes symmetric.
+138,Mathematics,1. Sets and Relations,SORT-018,Relation Property,Transitive,Symmetric,Linked pairs imply shortcut,A,2,5,Linked pairs imply shortcut describes transitive.
+139,Mathematics,1. Sets and Relations,SORT-018,Relation Property,Transitive,Symmetric,Chained links imply direct link,A,2,5,Chained links imply direct link describes transitive.
+140,Mathematics,1. Sets and Relations,SORT-018,Relation Property,Transitive,Symmetric,Both directions included,B,2,5,Both directions included describes symmetric.
+141,Mathematics,1. Sets and Relations,SORT-018,Relation Property,Transitive,Symmetric,Two-step relation closes,A,2,5,Two-step relation closes describes transitive.
+142,Mathematics,1. Sets and Relations,SORT-018,Relation Property,Transitive,Symmetric,Indirect chain forces direct pair,A,2,5,Indirect chain forces direct pair describes transitive.
+143,Mathematics,1. Sets and Relations,SORT-018,Relation Property,Transitive,Symmetric,Swapped pairs remain related,B,2,5,Swapped pairs remain related describes symmetric.
+144,Mathematics,1. Sets and Relations,SORT-018,Relation Property,Transitive,Symmetric,Every link reciprocated,B,2,5,Every link reciprocated describes symmetric.
+145,Mathematics,1. Sets and Relations,SORT-019,Relation Property,Empty Relation,Universal Relation,All combinations related,B,1,3,All combinations related describes universal relation.
+146,Mathematics,1. Sets and Relations,SORT-019,Relation Property,Empty Relation,Universal Relation,All self-pairs included,B,1,3,All self-pairs included describes universal relation.
+147,Mathematics,1. Sets and Relations,SORT-019,Relation Property,Empty Relation,Universal Relation,No pair is related,A,1,3,No pair is related describes empty relation.
+148,Mathematics,1. Sets and Relations,SORT-019,Relation Property,Empty Relation,Universal Relation,Contains no ordered pairs,A,1,3,Contains no ordered pairs describes empty relation.
+149,Mathematics,1. Sets and Relations,SORT-019,Relation Property,Empty Relation,Universal Relation,Zero related pairs,A,1,3,Zero related pairs describes empty relation.
+150,Mathematics,1. Sets and Relations,SORT-019,Relation Property,Empty Relation,Universal Relation,Entire self-product relation,B,1,3,Entire self-product relation describes universal relation.
+151,Mathematics,1. Sets and Relations,SORT-019,Relation Property,Empty Relation,Universal Relation,No connections present,A,1,3,No connections present describes empty relation.
+152,Mathematics,1. Sets and Relations,SORT-019,Relation Property,Empty Relation,Universal Relation,Every possible pair included,B,1,3,Every possible pair included describes universal relation.

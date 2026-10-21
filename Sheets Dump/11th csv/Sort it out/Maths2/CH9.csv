@@ -1,0 +1,143 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 15, cost 10",A,3,10,Selling price exceeds cost price.
+2,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 8, cost 12",B,2,5,Selling price is below cost price.
+3,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 7, cost 14",B,2,5,Selling price is below cost price.
+4,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 9, cost 6",A,2,5,Selling price exceeds cost price.
+5,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 12, cost 18",B,2,5,Selling price is below cost price.
+6,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 14, cost 7",A,2,5,Selling price exceeds cost price.
+7,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 20, cost 16",A,2,5,Selling price exceeds cost price.
+8,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 10, cost 15",B,3,10,Selling price is below cost price.
+9,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 6, cost 9",B,2,5,Selling price is below cost price.
+10,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 12, cost 8",A,2,5,Selling price exceeds cost price.
+11,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 16, cost 20",B,2,5,Selling price is below cost price.
+12,Mathematics,9. Commercial Mathematics,SORT-001,Trading Outcome,Profit,Loss,"Sale 18, cost 12",A,2,5,Selling price exceeds cost price.
+13,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,18 to 15,A,3,10,The final quantity is smaller than the original quantity.
+14,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,100 to 80,A,2,5,The final quantity is smaller than the original quantity.
+15,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,15 to 18,B,2,5,The final quantity exceeds the original quantity.
+16,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,15 to 12,A,2,5,The final quantity is smaller than the original quantity.
+17,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,12 to 10,A,2,5,The final quantity is smaller than the original quantity.
+18,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,40 to 50,B,2,5,The final quantity exceeds the original quantity.
+19,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,10 to 12,B,2,5,The final quantity exceeds the original quantity.
+20,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,80 to 100,B,3,10,The final quantity exceeds the original quantity.
+21,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,12 to 15,B,2,5,The final quantity exceeds the original quantity.
+22,Mathematics,9. Commercial Mathematics,SORT-002,Percentage Change,Percentage Decrease,Percentage Increase,50 to 40,A,2,5,The final quantity is smaller than the original quantity.
+23,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,Original principal only,A,2,5,Simple interest is calculated only on the original principal.
+24,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,Interest on growing balance,B,1,3,Compound interest includes accumulated interest from earlier periods.
+25,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,Accumulated interest included,B,1,3,Compound interest includes accumulated interest from earlier periods.
+26,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,Interest earns interest,B,1,3,Compound interest includes accumulated interest from earlier periods.
+27,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,No interest on interest,A,1,3,Simple interest is calculated only on the original principal.
+28,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,Previous interest added,B,1,3,Compound interest includes accumulated interest from earlier periods.
+29,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,Linear interest growth,A,1,3,Simple interest is calculated only on the original principal.
+30,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,Same annual addition,A,2,5,Simple interest is calculated only on the original principal.
+31,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,Increasing yearly interest,B,1,3,Compound interest includes accumulated interest from earlier periods.
+32,Mathematics,9. Commercial Mathematics,SORT-003,Interest Feature,Simple Interest,Compound Interest,Unchanged yearly interest,A,1,3,Simple interest is calculated only on the original principal.
+33,Mathematics,9. Commercial Mathematics,SORT-004,Interest Case,Compound Interest,Simple Interest,"200 at 5%: 10, 10",B,3,10,Equal annual interest amounts indicate simple interest.
+34,Mathematics,9. Commercial Mathematics,SORT-004,Interest Case,Compound Interest,Simple Interest,"100 at 10%: 10, 11",A,2,5,The second year earns interest on accumulated interest.
+35,Mathematics,9. Commercial Mathematics,SORT-004,Interest Case,Compound Interest,Simple Interest,"100 at 10%: 10, 10",B,2,5,Equal annual interest amounts indicate simple interest.
+36,Mathematics,9. Commercial Mathematics,SORT-004,Interest Case,Compound Interest,Simple Interest,"100 at 5%: 5, 5",B,2,5,Equal annual interest amounts indicate simple interest.
+37,Mathematics,9. Commercial Mathematics,SORT-004,Interest Case,Compound Interest,Simple Interest,"50 at 20%: 10, 12",A,2,5,The second year earns interest on accumulated interest.
+38,Mathematics,9. Commercial Mathematics,SORT-004,Interest Case,Compound Interest,Simple Interest,"200 at 10%: 20, 22",A,2,5,The second year earns interest on accumulated interest.
+39,Mathematics,9. Commercial Mathematics,SORT-004,Interest Case,Compound Interest,Simple Interest,"50 at 10%: 5, 5",B,2,5,Equal annual interest amounts indicate simple interest.
+40,Mathematics,9. Commercial Mathematics,SORT-004,Interest Case,Compound Interest,Simple Interest,"100 at 20%: 20, 24",A,3,10,The second year earns interest on accumulated interest.
+41,Mathematics,9. Commercial Mathematics,SORT-005,Partner Role,Working Partner,Sleeping Partner,Runs business affairs,A,2,5,A working partner invests money and manages the business.
+42,Mathematics,9. Commercial Mathematics,SORT-005,Partner Role,Working Partner,Sleeping Partner,Capital plus management,A,1,3,A working partner invests money and manages the business.
+43,Mathematics,9. Commercial Mathematics,SORT-005,Partner Role,Working Partner,Sleeping Partner,Handles daily operations,A,1,3,A working partner invests money and manages the business.
+44,Mathematics,9. Commercial Mathematics,SORT-005,Partner Role,Working Partner,Sleeping Partner,No daily involvement,B,1,3,A sleeping partner invests but does not manage daily affairs.
+45,Mathematics,9. Commercial Mathematics,SORT-005,Partner Role,Working Partner,Sleeping Partner,Passive business involvement,B,1,3,A sleeping partner invests but does not manage daily affairs.
+46,Mathematics,9. Commercial Mathematics,SORT-005,Partner Role,Working Partner,Sleeping Partner,Invests and manages,A,1,3,A working partner invests money and manages the business.
+47,Mathematics,9. Commercial Mathematics,SORT-005,Partner Role,Working Partner,Sleeping Partner,Capital contribution only,B,1,3,A sleeping partner invests but does not manage daily affairs.
+48,Mathematics,9. Commercial Mathematics,SORT-005,Partner Role,Working Partner,Sleeping Partner,Invests without managing,B,2,5,A sleeping partner invests but does not manage daily affairs.
+49,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,Tax on purchased goods,B,2,5,Input tax is GST paid when purchasing goods.
+50,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,Tax on sold goods,A,1,3,Output tax is GST collected when selling goods.
+51,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,Tax eligible for credit,B,1,3,Input tax is GST paid when purchasing goods.
+52,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,Tax paid on purchase,B,1,3,Input tax is GST paid when purchasing goods.
+53,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,Purchase-stage GST,B,1,3,Input tax is GST paid when purchasing goods.
+54,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,Tax collected from customer,A,1,3,Output tax is GST collected when selling goods.
+55,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,Tax collected on sale,A,1,3,Output tax is GST collected when selling goods.
+56,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,GST charged to buyer,A,2,5,Output tax is GST collected when selling goods.
+57,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,GST paid to supplier,B,1,3,Input tax is GST paid when purchasing goods.
+58,Mathematics,9. Commercial Mathematics,SORT-006,GST Transaction,Output Tax,Input Tax,Sale-stage GST,A,1,3,Output tax is GST collected when selling goods.
+59,Mathematics,9. Commercial Mathematics,SORT-007,Classification Feature,HSN,SAC,Classification of goods,A,2,5,HSN is used to classify goods.
+60,Mathematics,9. Commercial Mathematics,SORT-007,Classification Feature,HSN,SAC,Services classification system,B,1,3,SAC is used to classify services.
+61,Mathematics,9. Commercial Mathematics,SORT-007,Classification Feature,HSN,SAC,Product nomenclature,A,1,3,HSN is used to classify goods.
+62,Mathematics,9. Commercial Mathematics,SORT-007,Classification Feature,HSN,SAC,Goods tracking code,A,1,3,HSN is used to classify goods.
+63,Mathematics,9. Commercial Mathematics,SORT-007,Classification Feature,HSN,SAC,Classification of services,B,1,3,SAC is used to classify services.
+64,Mathematics,9. Commercial Mathematics,SORT-007,Classification Feature,HSN,SAC,Goods identification system,A,1,3,HSN is used to classify goods.
+65,Mathematics,9. Commercial Mathematics,SORT-007,Classification Feature,HSN,SAC,Service identification code,B,1,3,SAC is used to classify services.
+66,Mathematics,9. Commercial Mathematics,SORT-007,Classification Feature,HSN,SAC,Service accounting system,B,2,5,SAC is used to classify services.
+67,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Unchanged share value,B,2,5,Face value is printed on the share certificate and remains fixed.
+68,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Changes with trading,A,1,3,Market value is the price at which a share trades in the market.
+69,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Stock exchange price,A,1,3,Market value is the price at which a share trades in the market.
+70,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Fixed share denomination,B,1,3,Face value is printed on the share certificate and remains fixed.
+71,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Current trading price,A,1,3,Market value is the price at which a share trades in the market.
+72,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Open-market quotation,A,1,3,Market value is the price at which a share trades in the market.
+73,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Nominal share amount,B,1,3,Face value is printed on the share certificate and remains fixed.
+74,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Printed on certificate,B,2,5,Face value is printed on the share certificate and remains fixed.
+75,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Brokered purchase price,A,1,3,Market value is the price at which a share trades in the market.
+76,Mathematics,9. Commercial Mathematics,SORT-008,Share Value Feature,Market Value,Face Value,Basis for dividend,B,1,3,Face value is printed on the share certificate and remains fixed.
+77,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 50, market 40",B,3,10,"Market value is below face value, so the share is at discount."
+78,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 20, market 25",A,2,5,"Market value exceeds face value, so the share is at premium."
+79,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 20, market 15",B,2,5,"Market value is below face value, so the share is at discount."
+80,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 10, market 8",B,2,5,"Market value is below face value, so the share is at discount."
+81,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 40, market 36",B,2,5,"Market value is below face value, so the share is at discount."
+82,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 10, market 12",A,2,5,"Market value exceeds face value, so the share is at premium."
+83,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 40, market 44",A,2,5,"Market value exceeds face value, so the share is at premium."
+84,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 50, market 60",A,3,10,"Market value exceeds face value, so the share is at premium."
+85,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 10, market 5",B,2,5,"Market value is below face value, so the share is at discount."
+86,Mathematics,9. Commercial Mathematics,SORT-009,Share Price Position,Premium,Discount,"Face 10, market 15",A,2,5,"Market value exceeds face value, so the share is at premium."
+87,Mathematics,9. Commercial Mathematics,SORT-010,GST Authority,SGST,CGST,Tax levied by Centre,B,2,5,CGST is levied by the Central Government.
+88,Mathematics,9. Commercial Mathematics,SORT-010,GST Authority,SGST,CGST,State tax component,A,1,3,SGST is levied by the State Government.
+89,Mathematics,9. Commercial Mathematics,SORT-010,GST Authority,SGST,CGST,Central government share,B,1,3,CGST is levied by the Central Government.
+90,Mathematics,9. Commercial Mathematics,SORT-010,GST Authority,SGST,CGST,Tax levied by State,A,1,3,SGST is levied by the State Government.
+91,Mathematics,9. Commercial Mathematics,SORT-010,GST Authority,SGST,CGST,Central government levy,B,1,3,CGST is levied by the Central Government.
+92,Mathematics,9. Commercial Mathematics,SORT-010,GST Authority,SGST,CGST,Central tax component,B,1,3,CGST is levied by the Central Government.
+93,Mathematics,9. Commercial Mathematics,SORT-010,GST Authority,SGST,CGST,State government levy,A,1,3,SGST is levied by the State Government.
+94,Mathematics,9. Commercial Mathematics,SORT-010,GST Authority,SGST,CGST,State government share,A,2,5,SGST is levied by the State Government.
+95,Mathematics,9. Commercial Mathematics,SORT-011,GST Authority,UTGST,IGST,Territory government tax,A,2,5,UTGST is levied by the Union Territory Government.
+96,Mathematics,9. Commercial Mathematics,SORT-011,GST Authority,UTGST,IGST,Combined GST levy,B,2,5,IGST is a combined levy collected by the Central Government.
+97,Mathematics,9. Commercial Mathematics,SORT-011,GST Authority,UTGST,IGST,Central collection of combined levy,B,2,5,IGST is a combined levy collected by the Central Government.
+98,Mathematics,9. Commercial Mathematics,SORT-011,GST Authority,UTGST,IGST,Combined levy collection,B,2,5,IGST is a combined levy collected by the Central Government.
+99,Mathematics,9. Commercial Mathematics,SORT-011,GST Authority,UTGST,IGST,Union territory levy,A,1,3,UTGST is levied by the Union Territory Government.
+100,Mathematics,9. Commercial Mathematics,SORT-011,GST Authority,UTGST,IGST,Integrated tax component,B,2,5,IGST is a combined levy collected by the Central Government.
+101,Mathematics,9. Commercial Mathematics,SORT-011,GST Authority,UTGST,IGST,Union territory component,A,1,3,UTGST is levied by the Union Territory Government.
+102,Mathematics,9. Commercial Mathematics,SORT-011,GST Authority,UTGST,IGST,Territory-level GST,A,2,5,UTGST is levied by the Union Territory Government.
+103,Mathematics,9. Commercial Mathematics,SORT-012,GST Authority,UTGST,CGST,Union territory levy,A,2,5,UTGST is levied by the Union Territory Government.
+104,Mathematics,9. Commercial Mathematics,SORT-012,GST Authority,UTGST,CGST,Union territory component,A,1,3,UTGST is levied by the Union Territory Government.
+105,Mathematics,9. Commercial Mathematics,SORT-012,GST Authority,UTGST,CGST,Central tax component,B,1,3,CGST is levied by the Central Government.
+106,Mathematics,9. Commercial Mathematics,SORT-012,GST Authority,UTGST,CGST,Territory government tax,A,1,3,UTGST is levied by the Union Territory Government.
+107,Mathematics,9. Commercial Mathematics,SORT-012,GST Authority,UTGST,CGST,Tax levied by Centre,B,1,3,CGST is levied by the Central Government.
+108,Mathematics,9. Commercial Mathematics,SORT-012,GST Authority,UTGST,CGST,Central government share,B,1,3,CGST is levied by the Central Government.
+109,Mathematics,9. Commercial Mathematics,SORT-012,GST Authority,UTGST,CGST,Central government levy,B,1,3,CGST is levied by the Central Government.
+110,Mathematics,9. Commercial Mathematics,SORT-012,GST Authority,UTGST,CGST,Territory-level GST,A,2,5,UTGST is levied by the Union Territory Government.
+111,Mathematics,9. Commercial Mathematics,SORT-013,GST Authority,SGST,UTGST,Union territory component,B,2,5,UTGST is levied by the Union Territory Government.
+112,Mathematics,9. Commercial Mathematics,SORT-013,GST Authority,SGST,UTGST,Tax levied by State,A,1,3,SGST is levied by the State Government.
+113,Mathematics,9. Commercial Mathematics,SORT-013,GST Authority,SGST,UTGST,Territory-level GST,B,1,3,UTGST is levied by the Union Territory Government.
+114,Mathematics,9. Commercial Mathematics,SORT-013,GST Authority,SGST,UTGST,Territory government tax,B,1,3,UTGST is levied by the Union Territory Government.
+115,Mathematics,9. Commercial Mathematics,SORT-013,GST Authority,SGST,UTGST,State government levy,A,1,3,SGST is levied by the State Government.
+116,Mathematics,9. Commercial Mathematics,SORT-013,GST Authority,SGST,UTGST,State tax component,A,1,3,SGST is levied by the State Government.
+117,Mathematics,9. Commercial Mathematics,SORT-013,GST Authority,SGST,UTGST,State government share,A,1,3,SGST is levied by the State Government.
+118,Mathematics,9. Commercial Mathematics,SORT-013,GST Authority,SGST,UTGST,Union territory levy,B,2,5,UTGST is levied by the Union Territory Government.
+119,Mathematics,9. Commercial Mathematics,SORT-014,GST Authority,IGST,CGST,Central tax component,B,2,5,CGST is levied by the Central Government.
+120,Mathematics,9. Commercial Mathematics,SORT-014,GST Authority,IGST,CGST,Tax levied by Centre,B,1,3,CGST is levied by the Central Government.
+121,Mathematics,9. Commercial Mathematics,SORT-014,GST Authority,IGST,CGST,Central collection of combined levy,A,2,5,IGST is a combined levy collected by the Central Government.
+122,Mathematics,9. Commercial Mathematics,SORT-014,GST Authority,IGST,CGST,Central government levy,B,1,3,CGST is levied by the Central Government.
+123,Mathematics,9. Commercial Mathematics,SORT-014,GST Authority,IGST,CGST,Combined levy collection,A,2,5,IGST is a combined levy collected by the Central Government.
+124,Mathematics,9. Commercial Mathematics,SORT-014,GST Authority,IGST,CGST,Combined GST levy,A,2,5,IGST is a combined levy collected by the Central Government.
+125,Mathematics,9. Commercial Mathematics,SORT-014,GST Authority,IGST,CGST,Central government share,B,1,3,CGST is levied by the Central Government.
+126,Mathematics,9. Commercial Mathematics,SORT-014,GST Authority,IGST,CGST,Integrated tax component,A,3,10,IGST is a combined levy collected by the Central Government.
+127,Mathematics,9. Commercial Mathematics,SORT-015,GST Authority,SGST,IGST,State government share,A,2,5,SGST is levied by the State Government.
+128,Mathematics,9. Commercial Mathematics,SORT-015,GST Authority,SGST,IGST,Combined levy collection,B,2,5,IGST is a combined levy collected by the Central Government.
+129,Mathematics,9. Commercial Mathematics,SORT-015,GST Authority,SGST,IGST,State government levy,A,1,3,SGST is levied by the State Government.
+130,Mathematics,9. Commercial Mathematics,SORT-015,GST Authority,SGST,IGST,State tax component,A,1,3,SGST is levied by the State Government.
+131,Mathematics,9. Commercial Mathematics,SORT-015,GST Authority,SGST,IGST,Integrated tax component,B,2,5,IGST is a combined levy collected by the Central Government.
+132,Mathematics,9. Commercial Mathematics,SORT-015,GST Authority,SGST,IGST,Combined GST levy,B,2,5,IGST is a combined levy collected by the Central Government.
+133,Mathematics,9. Commercial Mathematics,SORT-015,GST Authority,SGST,IGST,Tax levied by State,A,1,3,SGST is levied by the State Government.
+134,Mathematics,9. Commercial Mathematics,SORT-015,GST Authority,SGST,IGST,Central collection of combined levy,B,3,10,IGST is a combined levy collected by the Central Government.
+135,Mathematics,9. Commercial Mathematics,SORT-016,Trading Outcome,Loss,Profit,"Sale 12, cost 15",A,3,10,Selling price is below cost price.
+136,Mathematics,9. Commercial Mathematics,SORT-016,Trading Outcome,Loss,Profit,"Sale 14, cost 10",B,2,5,Selling price exceeds cost price.
+137,Mathematics,9. Commercial Mathematics,SORT-016,Trading Outcome,Loss,Profit,"Sale 16, cost 8",B,2,5,Selling price exceeds cost price.
+138,Mathematics,9. Commercial Mathematics,SORT-016,Trading Outcome,Loss,Profit,"Sale 10, cost 14",A,2,5,Selling price is below cost price.
+139,Mathematics,9. Commercial Mathematics,SORT-016,Trading Outcome,Loss,Profit,"Sale 8, cost 16",A,2,5,Selling price is below cost price.
+140,Mathematics,9. Commercial Mathematics,SORT-016,Trading Outcome,Loss,Profit,"Sale 18, cost 9",B,2,5,Selling price exceeds cost price.
+141,Mathematics,9. Commercial Mathematics,SORT-016,Trading Outcome,Loss,Profit,"Sale 15, cost 12",B,2,5,Selling price exceeds cost price.
+142,Mathematics,9. Commercial Mathematics,SORT-016,Trading Outcome,Loss,Profit,"Sale 9, cost 18",A,3,10,Selling price is below cost price.

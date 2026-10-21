@@ -1,0 +1,57 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Rent collected,A,2,5,Rent collected by the bank is an incoming amount.
+2,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Bank commission,B,3,10,Commission charged by the bank is deducted from the account.
+3,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Cheque deposit,A,1,3,A deposited cheque represents money received into the account.
+4,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Telephone bill,B,2,5,A telephone bill paid through the bank is a payment.
+5,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Cash deposit,A,1,3,Depositing cash increases the amount held in the bank account.
+6,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Cash withdrawal,B,1,3,Withdrawing cash takes money out of the bank account.
+7,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Loan instalment,B,2,5,A loan instalment paid by the bank is an outgoing amount.
+8,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Direct deposit,A,2,5,Money deposited directly by a customer is a receipt.
+9,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Dividend collected,A,2,5,Dividend collected by the bank adds money to the account.
+10,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Insurance premium,B,1,3,Payment of insurance premium is an outgoing amount.
+11,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Interest received,A,1,3,Interest allowed by the bank is a receipt.
+12,Accountancy,6 - Bank Reconciliation Statement,SORT-001,Bank Transaction,Receipts,Payments,Electricity bill,B,1,3,Payment of an electricity bill reduces the bank account.
+13,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Uncleared cheque,B,1,3,A deposited cheque enters the Cash Book before bank clearance.
+14,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Interest allowed,A,1,3,Interest credited by the bank may await entry in the Cash Book.
+15,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Uncollected deposit,B,2,5,A cheque awaiting collection has not yet been credited by the bank.
+16,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Direct rent collection,A,2,5,Rent collected directly by the bank is first recorded in its books.
+17,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Unpresented cheque,B,1,3,An issued cheque is recorded before it is presented to the bank.
+18,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Direct bill payment,A,2,5,A bill paid under standing instructions is first recorded by the bank.
+19,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Bank charges,A,1,3,Bank charges appear in the bank record before customer intimation.
+20,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Overdraft interest,A,3,10,Interest charged on overdraft is first debited by the bank.
+21,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Cheque awaiting presentation,B,2,5,An issued cheque awaiting presentation is not yet entered by the bank.
+22,Accountancy,6 - Bank Reconciliation Statement,SORT-002,Unmatched Transaction,Pass Book Only,Cash Book Only,Debtor direct deposit,A,2,5,A debtor’s direct deposit is recorded by the bank before intimation.
+23,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Unpresented cheque,A,1,3,An unpresented issued cheque leaves the Pass Book balance higher.
+24,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Debtor deposit,A,2,5,A direct deposit by a debtor increases the Pass Book balance.
+25,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Interest allowed,A,1,3,Interest credited by the bank increases its recorded balance.
+26,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Uncleared cheque,B,1,3,An uncleared deposit leaves the Pass Book balance lower.
+27,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Dividend collection,A,2,5,Dividend collected directly by the bank increases its recorded balance.
+28,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Overdraft interest,B,2,5,Interest charged on overdraft reduces the Pass Book balance.
+29,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Customer direct deposit,A,2,5,A customer’s direct bank deposit raises the Pass Book balance.
+30,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Telephone payment,B,2,5,A telephone bill paid by the bank reduces its recorded balance.
+31,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Rent collection,A,2,5,Rent collected by the bank increases its recorded balance.
+32,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Insurance payment,B,1,3,An insurance premium paid by the bank reduces the Pass Book balance.
+33,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Dishonoured deposit,B,3,10,Dishonour of a deposited cheque reverses its earlier bank credit.
+34,Accountancy,6 - Bank Reconciliation Statement,SORT-003,Pass Book Effect,Increase,Decrease,Bank charges,B,1,3,Bank charges debited by the bank reduce its recorded balance.
+35,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Debtor deposit,A,2,5,A direct deposit by a debtor is added to Cash Book balance.
+36,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Bank charges,B,1,3,Unrecorded bank charges are deducted from Cash Book balance.
+37,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Interest allowed,A,1,3,Interest credited by the bank is added to Cash Book balance.
+38,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Insurance premium,B,1,3,Insurance paid directly by the bank is deducted from Cash Book balance.
+39,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Dividend collected,A,2,5,Dividend collected by the bank is added to Cash Book balance.
+40,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Rent collected,A,2,5,Rent collected directly by the bank is added.
+41,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Uncleared cheque,B,1,3,An uncleared cheque is deducted when reconciling from Cash Book balance.
+42,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Unpresented cheque,A,1,3,An unpresented issued cheque is added to Cash Book balance.
+43,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Overdraft interest,B,2,5,Interest debited by the bank is deducted from Cash Book balance.
+44,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Dishonoured deposit,B,3,10,A dishonoured deposited cheque is deducted from Cash Book balance.
+45,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Commission collected,A,3,10,Commission collected by the bank is added to Cash Book balance.
+46,Accountancy,6 - Bank Reconciliation Statement,SORT-004,Cash Book Adjustment,Add,Less,Electricity payment,B,2,5,An unrecorded electricity payment by the bank is deducted.
+47,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Wrong amount,B,1,3,Recording an incorrect amount causes a discrepancy.
+48,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Wrong totalling,B,2,5,An incorrect total creates a difference between balances.
+49,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Standing instruction payment,A,2,5,A bank payment can precede its entry in the Cash Book.
+50,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Double recording,B,2,5,Recording a transaction twice causes a discrepancy.
+51,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Omitted transaction,B,3,10,Failure to record a transaction causes a discrepancy.
+52,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Unpresented cheque,A,1,3,The bank records an issued cheque only when presented.
+53,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Direct collection pending,A,2,5,Direct collections reach the Cash Book after customer intimation.
+54,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Wrong side,B,1,3,Posting a transaction on the wrong side creates an error.
+55,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Uncleared cheque,A,1,3,The bank credits a deposited cheque only after collection.
+56,Accountancy,6 - Bank Reconciliation Statement,SORT-005,Discrepancy Cause,Time Difference,Errors and Omission,Interest intimation pending,A,2,5,Bank interest may reach the Cash Book after the bank entry.

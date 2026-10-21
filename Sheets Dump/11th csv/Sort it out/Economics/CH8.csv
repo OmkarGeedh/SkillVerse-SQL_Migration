@@ -1,0 +1,63 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Eggs,A,1,3,Eggs is a food item in the consumption basket.
+2,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Fuel and light,B,1,3,Fuel and light is a non-food consumption item.
+3,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Cereals,A,1,3,Cereals is a food item in the consumption basket.
+4,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Bedding,B,1,3,Bedding is a non-food consumption item.
+5,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Fruits,A,1,3,Fruits is a food item in the consumption basket.
+6,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Durable goods,B,1,3,Durable goods is a non-food consumption item.
+7,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Milk products,A,1,3,Milk products is a food item in the consumption basket.
+8,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Footwear,B,1,3,Footwear is a non-food consumption item.
+9,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Edible oil,A,1,3,Edible oil is a food item in the consumption basket.
+10,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Toilet articles,B,1,3,Toilet articles is a non-food consumption item.
+11,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Spices,A,1,3,Spices is a food item in the consumption basket.
+12,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Conveyance,B,1,3,Conveyance is a non-food consumption item.
+13,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Pulses,A,1,3,Pulses is a food item in the consumption basket.
+14,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Medical care,B,1,3,Medical care is a non-food consumption item.
+15,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Vegetables,A,1,3,Vegetables is a food item in the consumption basket.
+16,Economics,Chapter 8: Poverty in India,SORT-001,Consumption Item,Food Items,Non Food Items,Rent,B,1,3,Rent is a non-food consumption item.
+17,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,Marginal farmers,A,1,3,Marginal farmers are vulnerable to rural poverty.
+18,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,Rural-to-urban migration,B,2,5,Migration of rural poor contributes to urban poverty.
+19,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,Rural indebtedness,A,2,5,Rural indebtedness aggravates rural poverty.
+20,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,Slow industrial growth,B,2,5,Slow industrial growth contributes to urban poverty.
+21,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,Low agricultural productivity,A,2,5,Low farm productivity aggravates rural poverty.
+22,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,Slum growth,B,1,3,Slum growth is an outcome of poverty in towns and cities.
+23,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,Drought,A,2,5,Drought aggravates rural poverty.
+24,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,Unaffordable city housing,B,2,5,Lack of affordable housing contributes to urban poverty.
+25,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,Landless labourers,A,1,3,Landless labourers are identified as a group experiencing rural poverty.
+26,Economics,Chapter 8: Poverty in India,SORT-002,Poverty Feature,Rural Poverty,Urban Poverty,City infrastructure shortage,B,2,5,Lack of urban infrastructure aggravates urban poverty.
+27,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Inflation,A,1,3,Rising essential prices reduce purchasing power and aggravate poverty.
+28,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Affordable housing,B,1,3,Affordable housing helps poor rural and urban households.
+29,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Population explosion,A,1,3,Rapid population growth puts pressure on resources and causes poverty.
+30,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Skill development,B,1,3,Skill development supports job creation and self-employment.
+31,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Regional imbalance,A,1,3,Uneven regional development contributes to poverty.
+32,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Bank nationalization,B,2,5,Bank nationalization expands access to affordable credit.
+33,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Underemployment,A,2,5,Insufficient employment contributes to poverty.
+34,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Rural works,B,2,5,Rural works create employment through infrastructure projects.
+35,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Slow economic growth,A,1,3,Slow growth of national and per capita income contributes to poverty.
+36,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Minimum wages,B,1,3,Minimum wages aim to provide fair wages to workers.
+37,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Economic inequalities,A,1,3,Unequal distribution of resources contributes to poverty.
+38,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Population control,B,1,3,Population control limits pressure on resources.
+39,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Natural disasters,A,2,5,Recurring natural disasters contribute to poverty.
+40,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Rural industrialization,B,1,3,Rural industrialization promotes employment.
+41,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Administrative corruption,A,2,5,Corruption is identified as a factor contributing to poverty.
+42,Economics,Chapter 8: Poverty in India,SORT-003,Poverty Factor,Causes of Poverty,Poverty Measures,Progressive taxation,B,2,5,Progressive taxation reduces income inequalities.
+43,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Unequal opportunities,A,2,5,Poverty leads to unequal opportunities.
+44,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Unequal landholdings,B,2,5,Unequal agricultural landholdings contribute to poverty.
+45,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Environmental deterioration,A,2,5,Poverty contributes to environmental deterioration.
+46,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Food price inflation,B,2,5,Rising food prices reduce purchasing power and aggravate poverty.
+47,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Class conflicts,A,1,3,Poverty creates conflicts between rich and poor.
+48,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Lack of purchasing power,B,2,5,Inadequate purchasing power limits access to basic facilities.
+49,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Anti-social activities,A,2,5,Poverty contributes to rising anti-social activities.
+50,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Insufficient food supply,B,2,5,Insufficient food supply raises food prices and aggravates poverty.
+51,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Low savings,A,2,5,Poverty results in low savings and capital formation.
+52,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Religious discrimination,B,2,5,Religious discrimination is identified as a factor contributing to poverty.
+53,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Economic hardships,A,2,5,Poverty makes people vulnerable to economic hardships.
+54,Economics,Chapter 8: Poverty in India,SORT-004,Poverty Impact,Effects of Poverty,Causes of Poverty,Public distribution leakages,B,3,10,Leakages in the public distribution system perpetuate poverty.
+55,Economics,Chapter 8: Poverty in India,SORT-005,Poverty Characteristic,Absolute Poverty,Relative Poverty,Minimum income insufficiency,A,2,5,Absolute poverty arises when income cannot support minimum calorie intake.
+56,Economics,Chapter 8: Poverty in India,SORT-005,Poverty Characteristic,Absolute Poverty,Relative Poverty,Universal phenomenon,B,2,5,Relative poverty occurs in all countries.
+57,Economics,Chapter 8: Poverty in India,SORT-005,Poverty Characteristic,Absolute Poverty,Relative Poverty,Minimum calorie shortfall,A,1,3,Absolute poverty concerns inability to meet minimum calorie requirements.
+58,Economics,Chapter 8: Poverty in India,SORT-005,Poverty Characteristic,Absolute Poverty,Relative Poverty,Differences in wealth,B,1,3,Relative poverty considers differences in wealth.
+59,Economics,Chapter 8: Poverty in India,SORT-005,Poverty Characteristic,Absolute Poverty,Relative Poverty,Basic food deprivation,A,2,5,Absolute poverty reflects inadequate income to satisfy essential food needs.
+60,Economics,Chapter 8: Poverty in India,SORT-005,Poverty Characteristic,Absolute Poverty,Relative Poverty,Not completely eradicable,B,3,10,Relative poverty can be reduced but not completely eradicated.
+61,Economics,Chapter 8: Poverty in India,SORT-005,Poverty Characteristic,Absolute Poverty,Relative Poverty,Eradicable through alleviation,A,3,10,Effective poverty alleviation can eradicate absolute poverty.
+62,Economics,Chapter 8: Poverty in India,SORT-005,Poverty Characteristic,Absolute Poverty,Relative Poverty,Living-standard comparison,B,1,3,Relative poverty compares living standards across sections of society.

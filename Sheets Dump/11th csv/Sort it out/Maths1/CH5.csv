@@ -1,0 +1,191 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,Parallel to X-axis,A,1,3,A horizontal line has constant y and zero slope.
+2,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,Constant x-coordinate,B,1,3,A vertical line has constant x and undefined slope.
+3,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,y = -3,A,1,3,A horizontal line has constant y and zero slope.
+4,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,Undefined slope,B,2,5,A vertical line has constant x and undefined slope.
+5,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,y = 4,A,1,3,A horizontal line has constant y and zero slope.
+6,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,Constant y-coordinate,A,1,3,A horizontal line has constant y and zero slope.
+7,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,Parallel to Y-axis,B,1,3,A vertical line has constant x and undefined slope.
+8,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,x = -2,B,1,3,A vertical line has constant x and undefined slope.
+9,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,Zero inclination,A,1,3,A horizontal line has constant y and zero slope.
+10,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,x = 5,B,1,3,A vertical line has constant x and undefined slope.
+11,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,90° inclination,B,1,3,A vertical line has constant x and undefined slope.
+12,Mathematics,5. Locus and Straight Line,SORT-001,Line Property,Horizontal Lines,Vertical Lines,Zero slope,A,2,5,A horizontal line has constant y and zero slope.
+13,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,120° inclination,A,1,3,"The line falls as x increases, giving a negative slope."
+14,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,30° inclination,B,1,3,"The line rises as x increases, giving a positive slope."
+15,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,"(0,4) to (2,0)",A,1,3,"The line falls as x increases, giving a negative slope."
+16,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,Falls left to right,A,1,3,"The line falls as x increases, giving a negative slope."
+17,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,Rises left to right,B,1,3,"The line rises as x increases, giving a positive slope."
+18,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,135° inclination,A,1,3,"The line falls as x increases, giving a negative slope."
+19,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,150° inclination,A,2,5,"The line falls as x increases, giving a negative slope."
+20,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,60° inclination,B,2,5,"The line rises as x increases, giving a positive slope."
+21,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,"(1,5) to (3,3)",A,1,3,"The line falls as x increases, giving a negative slope."
+22,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,"(0,0) to (2,4)",B,1,3,"The line rises as x increases, giving a positive slope."
+23,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,45° inclination,B,1,3,"The line rises as x increases, giving a positive slope."
+24,Mathematics,5. Locus and Straight Line,SORT-002,Slope Case,Negative Slope,Positive Slope,"(1,1) to (3,2)",B,1,3,"The line rises as x increases, giving a positive slope."
+25,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,y = 6,A,2,5,Equal y-coordinates give zero slope.
+26,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,x = 3,B,2,5,Equal x-coordinates make the slope undefined.
+27,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,"(0,5) to (2,5)",A,1,3,Equal y-coordinates give zero slope.
+28,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,0° inclination,A,1,3,Equal y-coordinates give zero slope.
+29,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,"(2,1) to (2,4)",B,1,3,Equal x-coordinates make the slope undefined.
+30,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,x = -5,B,1,3,Equal x-coordinates make the slope undefined.
+31,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,90° inclination,B,1,3,Equal x-coordinates make the slope undefined.
+32,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,"(2,-1) to (5,-1)",A,1,3,Equal y-coordinates give zero slope.
+33,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,"(-1,0) to (-1,3)",B,1,3,Equal x-coordinates make the slope undefined.
+34,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,"(1,3) to (4,3)",A,1,3,Equal y-coordinates give zero slope.
+35,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,y = -4,A,1,3,Equal y-coordinates give zero slope.
+36,Mathematics,5. Locus and Straight Line,SORT-003,Slope Case,Zero Slope,Undefined Slope,"(5,2) to (5,6)",B,1,3,Equal x-coordinates make the slope undefined.
+37,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,Slopes 1 and 1,B,2,5,Parallel lines have equal slopes or are distinct vertical lines.
+38,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,Slopes 2 and -1/2,A,1,3,"Perpendicular lines have slope product -1, including horizontal and vertical lines."
+39,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,Slopes 3 and -1/3,A,2,5,"Perpendicular lines have slope product -1, including horizontal and vertical lines."
+40,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,Slopes -1 and 1,A,1,3,"Perpendicular lines have slope product -1, including horizontal and vertical lines."
+41,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,Slopes 2 and 2,B,1,3,Parallel lines have equal slopes or are distinct vertical lines.
+42,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,x=2; y=3,A,1,3,"Perpendicular lines have slope product -1, including horizontal and vertical lines."
+43,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,Slopes 0 and 0,B,1,3,Parallel lines have equal slopes or are distinct vertical lines.
+44,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,x=2; x=5,B,1,3,Parallel lines have equal slopes or are distinct vertical lines.
+45,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,y=2x+1; y=2x-3,B,1,3,Parallel lines have equal slopes or are distinct vertical lines.
+46,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,Slopes -2 and 1/2,A,1,3,"Perpendicular lines have slope product -1, including horizontal and vertical lines."
+47,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,Slopes -3 and -3,B,1,3,Parallel lines have equal slopes or are distinct vertical lines.
+48,Mathematics,5. Locus and Straight Line,SORT-004,Line Pair,Perpendicular Lines,Parallel Lines,Slopes 1 and -1,A,1,3,"Perpendicular lines have slope product -1, including horizontal and vertical lines."
+49,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,-c/a in general form,A,1,3,The x-intercept is where the line meets the X-axis.
+50,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,Meets horizontal axis,A,1,3,The x-intercept is where the line meets the X-axis.
+51,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,"Point (0,-2)",B,1,3,The y-intercept is where the line meets the Y-axis.
+52,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,"Point (4,0)",A,1,3,The x-intercept is where the line meets the X-axis.
+53,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,"Point (0,5)",B,1,3,The y-intercept is where the line meets the Y-axis.
+54,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,-c/b in general form,B,1,3,The y-intercept is where the line meets the Y-axis.
+55,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,"Point (-3,0)",A,1,3,The x-intercept is where the line meets the X-axis.
+56,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,"Point (7,0)",A,2,5,The x-intercept is where the line meets the X-axis.
+57,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,"Point (0,7)",B,2,5,The y-intercept is where the line meets the Y-axis.
+58,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,Where x = 0,B,1,3,The y-intercept is where the line meets the Y-axis.
+59,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,Meets vertical axis,B,1,3,The y-intercept is where the line meets the Y-axis.
+60,Mathematics,5. Locus and Straight Line,SORT-005,Intercept Feature,X-intercept,Y-intercept,Where y = 0,A,1,3,The x-intercept is where the line meets the X-axis.
+61,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,"x-value of (-2,5)",B,2,5,The abscissa is the x-coordinate of a point.
+62,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,Horizontal coordinate,B,1,3,The abscissa is the x-coordinate of a point.
+63,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,"y-value of (3,7)",A,1,3,The ordinate is the y-coordinate of a point.
+64,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,First coordinate,B,1,3,The abscissa is the x-coordinate of a point.
+65,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,Second coordinate,A,1,3,The ordinate is the y-coordinate of a point.
+66,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,"y-value of (-2,5)",A,2,5,The ordinate is the y-coordinate of a point.
+67,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,Distance along Y-direction,A,1,3,The ordinate is the y-coordinate of a point.
+68,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,Distance along X-direction,B,1,3,The abscissa is the x-coordinate of a point.
+69,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,Vertical coordinate,A,1,3,The ordinate is the y-coordinate of a point.
+70,Mathematics,5. Locus and Straight Line,SORT-006,Coordinate Feature,Ordinate,Abscissa,"x-value of (3,7)",B,1,3,The abscissa is the x-coordinate of a point.
+71,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,y-3=4(x+1),A,1,3,The slope-point form uses a known point and the slope.
+72,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,Given slope and y-intercept,B,1,3,The slope-intercept form gives slope and the y-intercept.
+73,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,y=4x-1,B,2,5,The slope-intercept form gives slope and the y-intercept.
+74,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,y+1=2(x-4),A,1,3,The slope-point form uses a known point and the slope.
+75,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,Given slope and point,A,1,3,The slope-point form uses a known point and the slope.
+76,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,y-5=-(x+2),A,2,5,The slope-point form uses a known point and the slope.
+77,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,y=x+6,B,1,3,The slope-intercept form gives slope and the y-intercept.
+78,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,Uses a fixed point,A,1,3,The slope-point form uses a known point and the slope.
+79,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,y-2=3(x-1),A,1,3,The slope-point form uses a known point and the slope.
+80,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,Uses intercept c,B,1,3,The slope-intercept form gives slope and the y-intercept.
+81,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,y=-2x+5,B,1,3,The slope-intercept form gives slope and the y-intercept.
+82,Mathematics,5. Locus and Straight Line,SORT-007,Equation Feature,Slope-Point Form,Slope-Intercept Form,y=3x+2,B,1,3,The slope-intercept form gives slope and the y-intercept.
+83,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,Two known line points,B,1,3,The two-points form determines a line using two points.
+84,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,x/4+y/5=1,A,1,3,The double-intercept form uses the two nonzero axis intercepts.
+85,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,Given two axis intercepts,A,1,3,The double-intercept form uses the two nonzero axis intercepts.
+86,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,"Through (1,2),(3,4)",B,1,3,The two-points form determines a line using two points.
+87,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,x/3+y/2=1,A,2,5,The double-intercept form uses the two nonzero axis intercepts.
+88,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,x/5+y/6=1,A,1,3,The double-intercept form uses the two nonzero axis intercepts.
+89,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,x/2+y/3=1,A,1,3,The double-intercept form uses the two nonzero axis intercepts.
+90,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,"Through (0,1),(2,3)",B,1,3,The two-points form determines a line using two points.
+91,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,Nonzero axis intercepts,A,1,3,The double-intercept form uses the two nonzero axis intercepts.
+92,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,Given two points,B,1,3,The two-points form determines a line using two points.
+93,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,"Through (2,5),(4,1)",B,1,3,The two-points form determines a line using two points.
+94,Mathematics,5. Locus and Straight Line,SORT-008,Equation Feature,Double-Intercept Form,Two-Points Form,"Through (-1,2),(1,4)",B,2,5,The two-points form determines a line using two points.
+95,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,Perpendicular from origin,A,1,3,Normal form uses the perpendicular length and its angle from the origin.
+96,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,Normal length p,A,2,5,Normal form uses the perpendicular length and its angle from the origin.
+97,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,ax+by+c=0 structure,B,1,3,General form places the linear terms and constant on one side equal to zero.
+98,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,4x-y-2=0,B,1,3,General form places the linear terms and constant on one side equal to zero.
+99,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,x cos60°+y sin60°=3,A,1,3,Normal form uses the perpendicular length and its angle from the origin.
+100,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,3x+2y+1=0,B,2,5,General form places the linear terms and constant on one side equal to zero.
+101,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,x cos30°+y sin30°=2,A,1,3,Normal form uses the perpendicular length and its angle from the origin.
+102,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,"Coefficients a,b,c",B,1,3,General form places the linear terms and constant on one side equal to zero.
+103,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,x-y+4=0,B,1,3,General form places the linear terms and constant on one side equal to zero.
+104,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,Normal angle α,A,1,3,Normal form uses the perpendicular length and its angle from the origin.
+105,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,2x+3y-5=0,B,1,3,General form places the linear terms and constant on one side equal to zero.
+106,Mathematics,5. Locus and Straight Line,SORT-009,Equation Feature,Normal Form,General Form,x cos45°+y sin45°=4,A,1,3,Normal form uses the perpendicular length and its angle from the origin.
+107,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,Two point coordinates,A,1,3,Two-points form uses the coordinates of two points on the line.
+108,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,"Through (-2,1),(1,4)",A,1,3,Two-points form uses the coordinates of two points on the line.
+109,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,y-4=-(x-2),B,2,5,Slope-point form uses a specified point and slope.
+110,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,y-1=2(x-3),B,1,3,Slope-point form uses a specified point and slope.
+111,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,Coordinates of two points,A,1,3,Two-points form uses the coordinates of two points on the line.
+112,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,"Through (2,0),(4,2)",A,2,5,Two-points form uses the coordinates of two points on the line.
+113,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,Point and gradient,B,1,3,Slope-point form uses a specified point and slope.
+114,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,"Through (1,1),(2,3)",A,1,3,Two-points form uses the coordinates of two points on the line.
+115,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,y-3=5(x+1),B,1,3,Slope-point form uses a specified point and slope.
+116,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,Slope with one point,B,1,3,Slope-point form uses a specified point and slope.
+117,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,y+2=3(x-1),B,1,3,Slope-point form uses a specified point and slope.
+118,Mathematics,5. Locus and Straight Line,SORT-010,Equation Feature,Two-Points Form,Slope-Point Form,"Through (0,2),(3,5)",A,1,3,Two-points form uses the coordinates of two points on the line.
+119,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,Slope and vertical intercept,A,1,3,Slope-intercept form specifies the slope and Y-axis intercept.
+120,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,x/4+y/2=1,B,1,3,Double-intercept form specifies intercepts on both coordinate axes.
+121,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,y=-x+4,A,1,3,Slope-intercept form specifies the slope and Y-axis intercept.
+122,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,y=5x-2,A,2,5,Slope-intercept form specifies the slope and Y-axis intercept.
+123,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,Both nonzero intercepts,B,1,3,Double-intercept form specifies intercepts on both coordinate axes.
+124,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,"Intercept at (0,6)",A,1,3,Slope-intercept form specifies the slope and Y-axis intercept.
+125,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,x/3+y/4=1,B,1,3,Double-intercept form specifies intercepts on both coordinate axes.
+126,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,y=3x+1,A,1,3,Slope-intercept form specifies the slope and Y-axis intercept.
+127,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,x/6+y/3=1,B,2,5,Double-intercept form specifies intercepts on both coordinate axes.
+128,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,x/2+y/5=1,B,1,3,Double-intercept form specifies intercepts on both coordinate axes.
+129,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,y=2x+3,A,1,3,Slope-intercept form specifies the slope and Y-axis intercept.
+130,Mathematics,5. Locus and Straight Line,SORT-011,Equation Feature,Slope-Intercept Form,Double-Intercept Form,"Intercepts (3,0),(0,2)",B,1,3,Double-intercept form specifies intercepts on both coordinate axes.
+131,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,x cos60°+y sin60°=2,B,2,5,Normal form describes a line through its normal angle and distance.
+132,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,x/2+y/4=1,A,1,3,Double-intercept form uses the two nonzero axis intercepts.
+133,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,x cos30°+y sin30°=3,B,1,3,Normal form describes a line through its normal angle and distance.
+134,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,Normal length 4,B,1,3,Normal form describes a line through its normal angle and distance.
+135,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,"X-intercept 2, Y-intercept 3",A,2,5,Double-intercept form uses the two nonzero axis intercepts.
+136,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,x/3+y/5=1,A,1,3,Double-intercept form uses the two nonzero axis intercepts.
+137,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,Normal angle 45°,B,1,3,Normal form describes a line through its normal angle and distance.
+138,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,x/5+y/3=1,A,1,3,Double-intercept form uses the two nonzero axis intercepts.
+139,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,x/4+y/6=1,A,1,3,Double-intercept form uses the two nonzero axis intercepts.
+140,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,Intercepts on both axes,A,1,3,Double-intercept form uses the two nonzero axis intercepts.
+141,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,Origin-to-line normal,B,1,3,Normal form describes a line through its normal angle and distance.
+142,Mathematics,5. Locus and Straight Line,SORT-012,Equation Feature,Double-Intercept Form,Normal Form,Normal angle 30°,B,1,3,Normal form describes a line through its normal angle and distance.
+143,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(0,-1)",B,2,5,The x-coordinate is zero for a point on the Y-axis.
+144,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(2,0)",A,1,3,The y-coordinate is zero for a point on the X-axis.
+145,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(-3,0)",A,1,3,The y-coordinate is zero for a point on the X-axis.
+146,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(5,0)",A,1,3,The y-coordinate is zero for a point on the X-axis.
+147,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(0,5)",B,1,3,The x-coordinate is zero for a point on the Y-axis.
+148,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(7,0)",A,1,3,The y-coordinate is zero for a point on the X-axis.
+149,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(-1,0)",A,2,5,The y-coordinate is zero for a point on the X-axis.
+150,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(0,-3)",B,1,3,The x-coordinate is zero for a point on the Y-axis.
+151,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(0,7)",B,1,3,The x-coordinate is zero for a point on the Y-axis.
+152,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(0,2)",B,1,3,The x-coordinate is zero for a point on the Y-axis.
+153,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(4,0)",A,1,3,The y-coordinate is zero for a point on the X-axis.
+154,Mathematics,5. Locus and Straight Line,SORT-013,Coordinate Point,On X-axis,On Y-axis,"(0,4)",B,1,3,The x-coordinate is zero for a point on the Y-axis.
+155,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(2,4)",A,2,5,"The squared coordinates do not add to 25, so the point is outside the circle locus."
+156,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(2,2)",A,2,5,"The squared coordinates do not add to 25, so the point is outside the circle locus."
+157,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(3,3)",A,2,5,"The squared coordinates do not add to 25, so the point is outside the circle locus."
+158,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(4,3)",B,2,5,"The squared coordinates add to 25, so the point is on the circle."
+159,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(-3,4)",B,2,5,"The squared coordinates add to 25, so the point is on the circle."
+160,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(5,0)",B,2,5,"The squared coordinates add to 25, so the point is on the circle."
+161,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(0,4)",A,2,5,"The squared coordinates do not add to 25, so the point is outside the circle locus."
+162,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(3,-4)",B,2,5,"The squared coordinates add to 25, so the point is on the circle."
+163,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(0,5)",B,2,5,"The squared coordinates add to 25, so the point is on the circle."
+164,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(3,4)",B,2,5,"The squared coordinates add to 25, so the point is on the circle."
+165,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(1,3)",A,2,5,"The squared coordinates do not add to 25, so the point is outside the circle locus."
+166,Mathematics,5. Locus and Straight Line,SORT-014,Locus Point,Off Circle,On Circle,"(1,2)",A,2,5,"The squared coordinates do not add to 25, so the point is outside the circle locus."
+167,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,100°,B,1,3,An inclination above 90° and below 180° is obtuse.
+168,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,45°,A,1,3,An inclination below 90° is acute.
+169,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,150°,B,1,3,An inclination above 90° and below 180° is obtuse.
+170,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,30°,A,1,3,An inclination below 90° is acute.
+171,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,60°,A,2,5,An inclination below 90° is acute.
+172,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,120°,B,1,3,An inclination above 90° and below 180° is obtuse.
+173,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,135°,B,2,5,An inclination above 90° and below 180° is obtuse.
+174,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,110°,B,1,3,An inclination above 90° and below 180° is obtuse.
+175,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,75°,A,1,3,An inclination below 90° is acute.
+176,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,170°,B,1,3,An inclination above 90° and below 180° is obtuse.
+177,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,80°,A,1,3,An inclination below 90° is acute.
+178,Mathematics,5. Locus and Straight Line,SORT-015,Inclination Case,Acute Inclination,Obtuse Inclination,15°,A,1,3,An inclination below 90° is acute.
+179,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,30° and 60°,A,1,3,Different slopes or angles mean different inclinations.
+180,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,Slopes 1 and 1,B,1,3,Equal slopes or inclinations mean the lines have the same inclination.
+181,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,Slopes -1 and 1,A,1,3,Different slopes or angles mean different inclinations.
+182,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,Slopes 3 and 3,B,2,5,Equal slopes or inclinations mean the lines have the same inclination.
+183,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,120° and 120°,B,1,3,Equal slopes or inclinations mean the lines have the same inclination.
+184,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,30° and 30°,B,1,3,Equal slopes or inclinations mean the lines have the same inclination.
+185,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,45° and 135°,A,1,3,Different slopes or angles mean different inclinations.
+186,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,Slopes 0 and 2,A,2,5,Different slopes or angles mean different inclinations.
+187,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,Slopes 1 and 2,A,1,3,Different slopes or angles mean different inclinations.
+188,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,Slopes -1 and -1,B,1,3,Equal slopes or inclinations mean the lines have the same inclination.
+189,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,Slopes 2 and 2,B,1,3,Equal slopes or inclinations mean the lines have the same inclination.
+190,Mathematics,5. Locus and Straight Line,SORT-016,Line Pair,Different Inclination,Same Inclination,Slopes 2 and 3,A,1,3,Different slopes or angles mean different inclinations.

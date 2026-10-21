@@ -1,0 +1,57 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,6. Determinants,SORT-001,2×2 Determinant,Zero Determinant,Nonzero Determinant,"[[0,1],[2,0]]",B,2,5,The determinant is 0 − 1×2 = −2.
+2,Mathematics,6. Determinants,SORT-001,2×2 Determinant,Zero Determinant,Nonzero Determinant,"[[2,1],[1,2]]",B,2,5,The determinant is 2×2 − 1×1 = 3.
+3,Mathematics,6. Determinants,SORT-001,2×2 Determinant,Zero Determinant,Nonzero Determinant,"[[0,2],[0,5]]",A,1,3,"The first column is zero, so the determinant is zero."
+4,Mathematics,6. Determinants,SORT-001,2×2 Determinant,Zero Determinant,Nonzero Determinant,"[[3,1],[1,1]]",B,2,5,The determinant is 3×1 − 1×1 = 2.
+5,Mathematics,6. Determinants,SORT-001,2×2 Determinant,Zero Determinant,Nonzero Determinant,"[[1,0],[0,2]]",B,1,3,"The diagonal product is 1×2 = 2, which is nonzero."
+6,Mathematics,6. Determinants,SORT-001,2×2 Determinant,Zero Determinant,Nonzero Determinant,"[[1,2],[2,4]]",A,1,3,"The second row is twice the first, so the determinant is zero."
+7,Mathematics,6. Determinants,SORT-001,2×2 Determinant,Zero Determinant,Nonzero Determinant,"[[2,4],[1,2]]",A,2,5,"The rows are proportional, giving 2×2 − 4×1 = 0."
+8,Mathematics,6. Determinants,SORT-001,2×2 Determinant,Zero Determinant,Nonzero Determinant,"[[3,3],[3,3]]",A,1,3,Identical rows make the determinant zero.
+9,Mathematics,6. Determinants,SORT-002,2×2 Determinant,Negative Determinant,Positive Determinant,"[[3,1],[1,2]]",B,2,5,"The determinant is 3×2 − 1×1 = 5, which is positive."
+10,Mathematics,6. Determinants,SORT-002,2×2 Determinant,Negative Determinant,Positive Determinant,"[[1,2],[2,1]]",A,2,5,"The determinant is 1×1 − 2×2 = -3, which is negative."
+11,Mathematics,6. Determinants,SORT-002,2×2 Determinant,Negative Determinant,Positive Determinant,"[[4,2],[1,1]]",B,2,5,"The determinant is 4×1 − 2×1 = 2, which is positive."
+12,Mathematics,6. Determinants,SORT-002,2×2 Determinant,Negative Determinant,Positive Determinant,"[[0,2],[1,0]]",A,2,5,"The determinant is 0×0 − 2×1 = -2, which is negative."
+13,Mathematics,6. Determinants,SORT-002,2×2 Determinant,Negative Determinant,Positive Determinant,"[[1,0],[2,3]]",B,2,5,"The determinant is 1×3 − 0×2 = 3, which is positive."
+14,Mathematics,6. Determinants,SORT-002,2×2 Determinant,Negative Determinant,Positive Determinant,"[[1,3],[2,1]]",A,2,5,"The determinant is 1×1 − 3×2 = -5, which is negative."
+15,Mathematics,6. Determinants,SORT-002,2×2 Determinant,Negative Determinant,Positive Determinant,"[[2,3],[2,2]]",A,2,5,"The determinant is 2×2 − 3×2 = -2, which is negative."
+16,Mathematics,6. Determinants,SORT-002,2×2 Determinant,Negative Determinant,Positive Determinant,"[[2,1],[1,2]]",B,2,5,"The determinant is 2×2 − 1×1 = 3, which is positive."
+17,Mathematics,6. Determinants,SORT-003,Determinant Operation,Unchanged Value,Sign Reversed,Swap rows 2 and 3,B,1,3,Interchanging two rows reverses the determinant sign.
+18,Mathematics,6. Determinants,SORT-003,Determinant Operation,Unchanged Value,Sign Reversed,Add 2×row2 to row1,A,2,5,Adding a multiple of another row preserves the determinant.
+19,Mathematics,6. Determinants,SORT-003,Determinant Operation,Unchanged Value,Sign Reversed,Exchange columns 1 and 3,B,1,3,Interchanging two columns reverses the determinant sign.
+20,Mathematics,6. Determinants,SORT-003,Determinant Operation,Unchanged Value,Sign Reversed,Add row 3 to row 2,A,2,5,Adding one row to another preserves the determinant.
+21,Mathematics,6. Determinants,SORT-003,Determinant Operation,Unchanged Value,Sign Reversed,Transpose rows and columns,A,1,3,Transposing a determinant leaves its value unchanged.
+22,Mathematics,6. Determinants,SORT-003,Determinant Operation,Unchanged Value,Sign Reversed,Subtract col1 from col2,A,2,5,Adding a negative multiple of another column preserves the determinant.
+23,Mathematics,6. Determinants,SORT-003,Determinant Operation,Unchanged Value,Sign Reversed,Exchange columns 1 and 2,B,1,3,Interchanging two columns reverses the determinant sign.
+24,Mathematics,6. Determinants,SORT-003,Determinant Operation,Unchanged Value,Sign Reversed,Swap rows 1 and 2,B,1,3,Interchanging two rows reverses the determinant sign.
+25,Mathematics,6. Determinants,SORT-004,3×3 Determinant,Nonzero Determinant,Zero Determinant,"[[2,0,0],[2,0,0],[0,1,3]]",B,1,3,Two identical rows make the determinant zero.
+26,Mathematics,6. Determinants,SORT-004,3×3 Determinant,Nonzero Determinant,Zero Determinant,"[[1,0,0],[0,2,0],[0,0,3]]",A,1,3,The diagonal product 1×2×3 = 6 is nonzero.
+27,Mathematics,6. Determinants,SORT-004,3×3 Determinant,Nonzero Determinant,Zero Determinant,"[[1,2,3],[0,2,1],[0,0,2]]",A,2,5,The triangular determinant is 1×2×2 = 4.
+28,Mathematics,6. Determinants,SORT-004,3×3 Determinant,Nonzero Determinant,Zero Determinant,"[[1,0,0],[0,0,0],[0,0,2]]",B,1,3,A zero row makes the determinant zero.
+29,Mathematics,6. Determinants,SORT-004,3×3 Determinant,Nonzero Determinant,Zero Determinant,"[[3,0,0],[1,1,0],[2,4,2]]",A,2,5,The triangular determinant is 3×1×2 = 6.
+30,Mathematics,6. Determinants,SORT-004,3×3 Determinant,Nonzero Determinant,Zero Determinant,"[[1,0,0],[0,2,0],[0,4,0]]",B,2,5,"The second and third rows are proportional, so the determinant is zero."
+31,Mathematics,6. Determinants,SORT-004,3×3 Determinant,Nonzero Determinant,Zero Determinant,"[[1,0,0],[0,2,0],[0,0,0]]",B,1,3,A zero row makes the determinant zero.
+32,Mathematics,6. Determinants,SORT-004,3×3 Determinant,Nonzero Determinant,Zero Determinant,"[[2,0,0],[1,3,0],[4,2,1]]",A,2,5,The triangular determinant is 2×3×1 = 6.
+33,Mathematics,6. Determinants,SORT-005,Three-Point Arrangement,Collinear,Noncollinear,"(0,0),(1,1),(2,2)",A,1,3,All three points lie on the line y = x.
+34,Mathematics,6. Determinants,SORT-005,Three-Point Arrangement,Collinear,Noncollinear,"(0,1),(1,0),(2,2)",B,3,10,The three points do not share a single straight line.
+35,Mathematics,6. Determinants,SORT-005,Three-Point Arrangement,Collinear,Noncollinear,"(0,0),(2,0),(1,1)",B,2,5,The third point is off the horizontal line through the first two.
+36,Mathematics,6. Determinants,SORT-005,Three-Point Arrangement,Collinear,Noncollinear,"(0,0),(1,2),(2,4)",A,2,5,Each point lies on the line y = 2x.
+37,Mathematics,6. Determinants,SORT-005,Three-Point Arrangement,Collinear,Noncollinear,"(0,0),(1,0),(0,1)",B,1,3,These points form a triangle with nonzero area.
+38,Mathematics,6. Determinants,SORT-005,Three-Point Arrangement,Collinear,Noncollinear,"(2,0),(2,1),(2,3)",A,1,3,All three points have the same x-coordinate.
+39,Mathematics,6. Determinants,SORT-005,Three-Point Arrangement,Collinear,Noncollinear,"(0,1),(1,1),(2,1)",A,1,3,All three points have the same y-coordinate.
+40,Mathematics,6. Determinants,SORT-005,Three-Point Arrangement,Collinear,Noncollinear,"(1,1),(2,2),(3,4)",B,2,5,The slopes between consecutive points differ.
+41,Mathematics,6. Determinants,SORT-006,3×3 Arrangement,Lower Triangular,Upper Triangular,"[[3,2,1],[0,1,2],[0,0,2]]",B,1,3,All entries below the main diagonal are zero.
+42,Mathematics,6. Determinants,SORT-006,3×3 Arrangement,Lower Triangular,Upper Triangular,"[[2,0,0],[1,4,0],[0,3,5]]",A,1,3,Every entry above the main diagonal is zero.
+43,Mathematics,6. Determinants,SORT-006,3×3 Arrangement,Lower Triangular,Upper Triangular,"[[1,0,0],[0,2,0],[3,1,4]]",A,2,5,All entries above the main diagonal are zero.
+44,Mathematics,6. Determinants,SORT-006,3×3 Arrangement,Lower Triangular,Upper Triangular,"[[1,0,0],[2,3,0],[4,5,6]]",A,1,3,Every entry above the main diagonal is zero.
+45,Mathematics,6. Determinants,SORT-006,3×3 Arrangement,Lower Triangular,Upper Triangular,"[[2,1,0],[0,3,4],[0,0,1]]",B,1,3,Every entry below the main diagonal is zero.
+46,Mathematics,6. Determinants,SORT-006,3×3 Arrangement,Lower Triangular,Upper Triangular,"[[3,0,0],[2,1,0],[4,2,2]]",A,1,3,All entries above the main diagonal are zero.
+47,Mathematics,6. Determinants,SORT-006,3×3 Arrangement,Lower Triangular,Upper Triangular,"[[1,2,3],[0,4,5],[0,0,6]]",B,1,3,Every entry below the main diagonal is zero.
+48,Mathematics,6. Determinants,SORT-006,3×3 Arrangement,Lower Triangular,Upper Triangular,"[[1,0,2],[0,2,3],[0,0,4]]",B,2,5,All entries below the main diagonal are zero.
+49,Mathematics,6. Determinants,SORT-007,Determinant Property,Zero Determinant,Nonzero Determinant,"Diagonal 2,3,4; triangular",B,2,5,The triangular determinant equals 2×3×4 = 24.
+50,Mathematics,6. Determinants,SORT-007,Determinant Property,Zero Determinant,Nonzero Determinant,"Diagonal 2,2,2; triangular",B,2,5,The triangular determinant equals 2×2×2 = 8.
+51,Mathematics,6. Determinants,SORT-007,Determinant Property,Zero Determinant,Nonzero Determinant,One entire zero row,A,1,3,A zero row makes the determinant zero.
+52,Mathematics,6. Determinants,SORT-007,Determinant Property,Zero Determinant,Nonzero Determinant,Two proportional columns,A,1,3,Proportional columns force a zero determinant.
+53,Mathematics,6. Determinants,SORT-007,Determinant Property,Zero Determinant,Nonzero Determinant,"Diagonal 1,2,3; triangular",B,2,5,The triangular determinant equals 1×2×3 = 6.
+54,Mathematics,6. Determinants,SORT-007,Determinant Property,Zero Determinant,Nonzero Determinant,Two identical rows,A,1,3,Identical rows force a zero determinant.
+55,Mathematics,6. Determinants,SORT-007,Determinant Property,Zero Determinant,Nonzero Determinant,"Diagonal 1,3,5; triangular",B,2,5,The triangular determinant equals 1×3×5 = 15.
+56,Mathematics,6. Determinants,SORT-007,Determinant Property,Zero Determinant,Nonzero Determinant,Two identical columns,A,1,3,Identical columns force a zero determinant.

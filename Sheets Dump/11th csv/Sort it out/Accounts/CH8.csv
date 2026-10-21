@@ -1,0 +1,39 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Accountancy,8 - Rectification of Errors,SORT-001,Omission Pattern,Complete Omission,Partial Omission,Unposted cash receipt,B,2,5,The receipt is recorded in the cash book but not posted to the ledger.
+2,Accountancy,8 - Rectification of Errors,SORT-001,Omission Pattern,Complete Omission,Partial Omission,Unrecorded credit sale,A,1,3,The entire credit sale is absent from the original books.
+3,Accountancy,8 - Rectification of Errors,SORT-001,Omission Pattern,Complete Omission,Partial Omission,Unrecorded credit purchase,A,1,3,Neither side of the credit purchase has been recorded.
+4,Accountancy,8 - Rectification of Errors,SORT-001,Omission Pattern,Complete Omission,Partial Omission,Unrecorded sales return,A,2,5,The sales return transaction has not been entered in the books.
+5,Accountancy,8 - Rectification of Errors,SORT-001,Omission Pattern,Complete Omission,Partial Omission,Unposted creditor credit,B,1,3,The purchase is recorded but the creditor account lacks its credit.
+6,Accountancy,8 - Rectification of Errors,SORT-001,Omission Pattern,Complete Omission,Partial Omission,Unposted debtor debit,B,1,3,The sale is recorded but the debtor account lacks its debit.
+7,Accountancy,8 - Rectification of Errors,SORT-001,Omission Pattern,Complete Omission,Partial Omission,Unrecorded purchase return,A,2,5,The purchase return transaction has been omitted entirely.
+8,Accountancy,8 - Rectification of Errors,SORT-001,Omission Pattern,Complete Omission,Partial Omission,Unposted sales total,B,2,5,The sales book is recorded but its total is not posted to the ledger.
+9,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Machinery purchase expensed,A,1,3,A machinery purchase charged to expenses wrongly treats capital expenditure as revenue.
+10,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Ledger balance miscalculated,B,2,5,Incorrect balancing of a ledger account is an error of commission.
+11,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Wrong amount posting,B,1,3,Posting an incorrect amount is an error of commission.
+12,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Installation wages expensed,A,2,5,Wages for machinery installation form part of its capital cost.
+13,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Wrong account posting,B,1,3,Posting a transaction to the wrong account is an error of commission.
+14,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Wrong carry forward,B,2,5,Carrying forward an incorrect total is an error of commission.
+15,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Repairs capitalised,A,1,3,Ordinary repairs charged to an asset account violate capital and revenue classification.
+16,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Building extension expensed,A,2,5,"An extension of a building is capital expenditure, not ordinary wages expense."
+17,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Proprietor drawings expensed,A,3,10,Personal drawings are not business expenses and should not reduce business profit.
+18,Accountancy,8 - Rectification of Errors,SORT-002,Error Pattern,Principle,Commission,Subsidiary book undercast,B,2,5,Incorrect totalling of a subsidiary book is an error of commission.
+19,Accountancy,8 - Rectification of Errors,SORT-003,Error Pattern,One Sided,Two Sided,Salary to personal account,B,2,5,Debiting salary to a personal account affects two ledger accounts.
+20,Accountancy,8 - Rectification of Errors,SORT-003,Error Pattern,One Sided,Two Sided,Credit sale unrecorded,B,1,3,A wholly omitted credit sale affects both sales and debtor accounts.
+21,Accountancy,8 - Rectification of Errors,SORT-003,Error Pattern,One Sided,Two Sided,Furniture sale as goods,B,2,5,Treating a furniture sale as goods sales affects two accounts.
+22,Accountancy,8 - Rectification of Errors,SORT-003,Error Pattern,One Sided,Two Sided,Sales book undercast,A,1,3,An incorrect sales book total affects the sales account only.
+23,Accountancy,8 - Rectification of Errors,SORT-003,Error Pattern,One Sided,Two Sided,Purchase book overcast,A,1,3,An incorrect purchase book total affects the purchases account only.
+24,Accountancy,8 - Rectification of Errors,SORT-003,Error Pattern,One Sided,Two Sided,Repairs wrongly capitalised,B,1,3,Charging repairs to machinery affects both repairs and machinery accounts.
+25,Accountancy,8 - Rectification of Errors,SORT-003,Error Pattern,One Sided,Two Sided,Debtor posting omitted,A,1,3,Failure to post a debtor entry affects only the debtor account.
+26,Accountancy,8 - Rectification of Errors,SORT-003,Error Pattern,One Sided,Two Sided,Rent debit understated,A,2,5,An understated debit posting to rent affects only the rent account.
+27,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Machinery purchase,B,1,3,Purchasing machinery creates a capital asset.
+28,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Machinery purchase carriage,B,2,5,Carriage paid to acquire machinery forms part of its capital cost.
+29,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Machinery repairs,A,1,3,Ordinary machinery repairs are revenue expenditure.
+30,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Advertisement expenses,A,2,5,Advertising costs are charged as business expenses.
+31,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Building repairs,A,1,3,Routine building repairs are revenue expenditure.
+32,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Computer purchase,B,1,3,A computer purchased for business use is a capital item.
+33,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Machinery installation wages,B,2,5,Installation wages are part of the machinery acquisition cost.
+34,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Factory electricity,A,2,5,Factory electricity is an operating expense.
+35,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Secondhand machinery overhauling,B,3,10,Initial overhauling of purchased second-hand machinery is treated as capital expenditure.
+36,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Building extension,B,1,3,Extending a building adds to the capital asset.
+37,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Salary paid,A,1,3,Salary is a recurring business expense.
+38,Accountancy,8 - Rectification of Errors,SORT-004,Expenditure Type,Revenue,Capital,Office stationery,A,1,3,Office stationery used in business is a revenue expense.

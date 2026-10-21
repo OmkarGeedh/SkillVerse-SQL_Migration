@@ -1,0 +1,83 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,Either route option,A,2,5,Choosing one of disjoint route options uses addition.
+2,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,5 + 2,A,2,5,Seven exclusive choices are counted by addition.
+3,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,One choice per category,B,2,5,Selecting an option from each category uses multiplication.
+4,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,3 choices then 4,B,2,5,Two successive choices give 3 × 4 = 12 outcomes.
+5,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,5 × 2,B,2,5,Two stages with five and two choices give ten outcomes.
+6,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,2 + 3 + 4,A,2,5,Nine mutually exclusive possibilities are added.
+7,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,2 × 3 × 4,B,2,5,Three successive stages yield 24 possible outcomes.
+8,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,3 choices or 4,A,2,5,"The alternatives are exclusive, giving 3 + 4 = 7 ways."
+9,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,Both operations,B,1,3,Carrying out both operations uses the multiplication principle.
+10,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,One of three activities,A,1,3,Choosing one of disjoint activities requires adding their possibilities.
+11,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,Successive decisions,B,1,3,Successive choices are counted by multiplication.
+12,Mathematics,6. Permutations and Combinations,SORT-001,Counting Situation,Addition Principle,Multiplication Principle,Either of two events,A,1,3,Choosing either disjoint event uses the addition principle.
+13,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Choose a team,A,1,3,Selecting team members ignores their order.
+14,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Order changes outcome,B,1,3,Permutations distinguish different orders.
+15,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Order immaterial,A,1,3,Combinations count selections regardless of order.
+16,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Rearrange distinct letters,B,1,3,Different letter orders are permutations.
+17,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Fill numbered positions,B,2,5,Assigning objects to distinct positions uses permutations.
+18,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Select a committee,A,1,3,A committee is a selection without regard to order.
+19,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Rank three winners,B,2,5,Different ranks make order important in a permutation.
+20,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Select three objects,A,1,3,An unordered selection of objects is a combination.
+21,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Arrange objects in order,B,1,3,A permutation counts ordered arrangements.
+22,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Choose a subset,A,2,5,A subset is selected without arranging its elements.
+23,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Assign first and second,B,2,5,Distinct positions make this an ordered arrangement.
+24,Mathematics,6. Permutations and Combinations,SORT-002,Counting Task,Combinations,Permutations,Select two members,A,2,5,Selecting members without positions is a combination.
+25,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,No repeated digits,A,1,3,The restriction prevents using a digit twice.
+26,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,Draw without replacement,A,2,5,"Without replacement, a selected object cannot recur."
+27,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,Choices stay constant,B,2,5,Repetition preserves the number of choices for every position.
+28,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,5 × 5 × 5,B,2,5,Five choices remain available at each of three positions.
+29,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,Choices decrease each place,A,2,5,"Without replacement, fewer objects remain for later positions."
+30,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,Every place has n choices,B,2,5,"With repetition, all n objects remain available at every place."
+31,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,Same object reused,B,1,3,Repetition allows an object to appear more than once.
+32,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,Each object used once,A,1,3,"Without repetition, an object cannot be used again."
+33,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,Draw with replacement,B,2,5,Replacement makes a selected object available again.
+34,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,Distinct entries only,A,1,3,Distinct entries prevent repetition.
+35,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,Repeated digits permitted,B,1,3,Allowing repeated digits permits repetition.
+36,Mathematics,6. Permutations and Combinations,SORT-003,Selection Condition,Without Repetition,With Repetition,5 × 4 × 3,A,2,5,Five choices fall to four and three without repetition.
+37,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,5 distinct in row,B,2,5,Five distinct objects in a row have 5! = 120 arrangements.
+38,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,Straight-line seating,B,1,3,A row gives linear arrangements.
+39,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,Arrange on a shelf,B,1,3,Shelf positions form a linear order.
+40,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,No fixed starting point,A,2,5,Circular arrangements have no fixed starting position.
+41,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,5 distinct around circle,A,2,5,Five distinct objects around a circle have 4! = 24 arrangements.
+42,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,4 distinct around circle,A,2,5,Four distinct objects around a circle have 3! = 6 arrangements.
+43,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,Fixed first position,B,2,5,A linear arrangement has a distinguishable first position.
+44,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,4 distinct in row,B,2,5,Four distinct objects in a row have 4! = 24 arrangements.
+45,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,Round-table seating,A,1,3,Round-table seating is a circular arrangement.
+46,Mathematics,6. Permutations and Combinations,SORT-004,Arrangement Feature,Circular Permutations,Linear Permutations,Rotations coincide,A,2,5,Rotations of a circular arrangement represent the same order.
+47,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,No matching objects,A,1,3,A collection without identical objects has distinct members.
+48,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,Same-type identical books,B,2,5,Identical books are indistinguishable objects.
+49,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,Equal indistinguishable items,B,2,5,Indistinguishable items are treated as identical objects.
+50,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,Separately identifiable books,A,2,5,Individually identifiable books are distinct.
+51,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,Matching copies,B,2,5,Matching indistinguishable copies are identical objects.
+52,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,Indistinguishable copies,B,1,3,Identical objects cannot be distinguished from one another.
+53,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,Unique letters,A,1,3,Different letters are distinct objects.
+54,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,Repeated letters,B,1,3,Repeated copies of a letter are identical objects.
+55,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,Different numbered cards,A,2,5,Different numbers distinguish the cards.
+56,Mathematics,6. Permutations and Combinations,SORT-005,Object Property,Distinct Objects,Identical Objects,All objects different,A,1,3,Distinct objects can be individually distinguished.
+57,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,Order of selected objects,B,1,3,A permutation counts the order of selected objects.
+58,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,4 objects ordered 2,B,2,5,Ordering two of four objects gives 4 × 3 = 12 permutations.
+59,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,4 objects chosen 2,A,2,5,Choosing two from four without order gives six combinations.
+60,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,5 objects chosen 2,A,2,5,Choosing two from five without order gives ten combinations.
+61,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,3 objects ordered 3,B,2,5,Ordering all three objects gives 3! = 6 permutations.
+62,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,Selection without arrangement,A,1,3,A combination does not distinguish arrangements of the same selection.
+63,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,5 objects ordered 2,B,2,5,Ordering two of five objects gives 5 × 4 = 20 permutations.
+64,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,6 objects ordered 1,B,1,3,One ordered place can be filled in six ways.
+65,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,3 objects chosen 3,A,2,5,Choosing all three objects gives one combination.
+66,Mathematics,6. Permutations and Combinations,SORT-006,Counting Result,Combinations,Permutations,6 objects chosen 1,A,1,3,Choosing one from six gives six combinations.
+67,Mathematics,6. Permutations and Combinations,SORT-007,Counting Expression,Addition Principle,Multiplication Principle,7 × 3,B,1,3,Two stages with seven and three choices give 21 outcomes.
+68,Mathematics,6. Permutations and Combinations,SORT-007,Counting Expression,Addition Principle,Multiplication Principle,4 + 4 + 2,A,2,5,Three mutually exclusive cases contribute ten outcomes.
+69,Mathematics,6. Permutations and Combinations,SORT-007,Counting Expression,Addition Principle,Multiplication Principle,2 + 6 + 3,A,2,5,Adding disjoint possibilities gives eleven choices.
+70,Mathematics,6. Permutations and Combinations,SORT-007,Counting Expression,Addition Principle,Multiplication Principle,4 × 5,B,1,3,Two successive choices with four and five options give 20 outcomes.
+71,Mathematics,6. Permutations and Combinations,SORT-007,Counting Expression,Addition Principle,Multiplication Principle,2 × 6 × 3,B,2,5,Three successive choices give 36 outcomes.
+72,Mathematics,6. Permutations and Combinations,SORT-007,Counting Expression,Addition Principle,Multiplication Principle,7 + 3,A,1,3,Either of two exclusive choices gives ten possibilities.
+73,Mathematics,6. Permutations and Combinations,SORT-007,Counting Expression,Addition Principle,Multiplication Principle,4 + 5,A,1,3,Exclusive alternatives with four and five choices give nine outcomes.
+74,Mathematics,6. Permutations and Combinations,SORT-007,Counting Expression,Addition Principle,Multiplication Principle,4 × 4 × 2,B,2,5,"Three stages with four, four and two choices give 32 outcomes."
+75,Mathematics,6. Permutations and Combinations,SORT-008,Arrangement Count,With Repetition,Without Repetition,"6 options, 2 places: 30",B,2,5,"Without repetition, six options fill two places in 6 × 5 = 30 ways."
+76,Mathematics,6. Permutations and Combinations,SORT-008,Arrangement Count,With Repetition,Without Repetition,"4 options, 2 places: 12",B,2,5,"Without repetition, four options fill two places in 4 × 3 = 12 ways."
+77,Mathematics,6. Permutations and Combinations,SORT-008,Arrangement Count,With Repetition,Without Repetition,"4 options, 2 places: 16",A,2,5,"With repetition, four options fill two places in 4 × 4 = 16 ways."
+78,Mathematics,6. Permutations and Combinations,SORT-008,Arrangement Count,With Repetition,Without Repetition,"5 options, 2 places: 20",B,2,5,"Without repetition, five options fill two places in 5 × 4 = 20 ways."
+79,Mathematics,6. Permutations and Combinations,SORT-008,Arrangement Count,With Repetition,Without Repetition,"3 options, 2 places: 6",B,2,5,"Without repetition, three options fill two places in 3 × 2 = 6 ways."
+80,Mathematics,6. Permutations and Combinations,SORT-008,Arrangement Count,With Repetition,Without Repetition,"3 options, 2 places: 9",A,2,5,"With repetition, three options fill two places in 3 × 3 = 9 ways."
+81,Mathematics,6. Permutations and Combinations,SORT-008,Arrangement Count,With Repetition,Without Repetition,"5 options, 2 places: 25",A,2,5,"With repetition, five options fill two places in 5 × 5 = 25 ways."
+82,Mathematics,6. Permutations and Combinations,SORT-008,Arrangement Count,With Repetition,Without Repetition,"6 options, 2 places: 36",A,2,5,"With repetition, six options fill two places in 6 × 6 = 36 ways."

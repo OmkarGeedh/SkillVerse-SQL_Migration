@@ -1,0 +1,801 @@
+S.No,Subject,Chapter,Concept/Based On,Question Type,Question,Option A,Option B,Option C,Option D,Correct Option,Difficulty,Points,Hint,Explanation
+1,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^3. Here n=3.",3x^2,2x^3,x^3,3x^1,A,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^3. By first principle, f′(x)=lim[h→0](((x+h)^3−x^3)/h). Using the power-difference simplification gives 3x^2.
+Option B: Using n−1 as the coefficient while leaving the exponent unchanged.
+Option C: Failing to apply the power rule's coefficient and exponent decrease.
+Option D: Reducing the exponent by two instead of one."
+2,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^4. Here n=4.",4x^2,4x^3,3x^4,x^4,B,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^4. By first principle, f′(x)=lim[h→0](((x+h)^4−x^4)/h). Using the power-difference simplification gives 4x^3.
+Option A: Reducing the exponent by two instead of one.
+Option C: Using n−1 as the coefficient while leaving the exponent unchanged.
+Option D: Failing to apply the power rule's coefficient and exponent decrease."
+3,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^5. Here n=5.",5x^3,5x^4,x^5,4x^5,B,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^5. By first principle, f′(x)=lim[h→0](((x+h)^5−x^5)/h). Using the power-difference simplification gives 5x^4.
+Option A: Reducing the exponent by two instead of one.
+Option C: Failing to apply the power rule's coefficient and exponent decrease.
+Option D: Using n−1 as the coefficient while leaving the exponent unchanged."
+4,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^6. Here n=6.",6x^4,5x^6,x^6,6x^5,D,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^6. By first principle, f′(x)=lim[h→0](((x+h)^6−x^6)/h). Using the power-difference simplification gives 6x^5.
+Option A: Reducing the exponent by two instead of one.
+Option B: Using n−1 as the coefficient while leaving the exponent unchanged.
+Option C: Failing to apply the power rule's coefficient and exponent decrease."
+5,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^7. Here n=7.",7x^5,7x^6,6x^7,x^7,B,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^7. By first principle, f′(x)=lim[h→0](((x+h)^7−x^7)/h). Using the power-difference simplification gives 7x^6.
+Option A: Reducing the exponent by two instead of one.
+Option C: Using n−1 as the coefficient while leaving the exponent unchanged.
+Option D: Failing to apply the power rule's coefficient and exponent decrease."
+6,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^8. Here n=8.",8x^6,7x^8,8x^7,x^8,C,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^8. By first principle, f′(x)=lim[h→0](((x+h)^8−x^8)/h). Using the power-difference simplification gives 8x^7.
+Option A: Reducing the exponent by two instead of one.
+Option B: Using n−1 as the coefficient while leaving the exponent unchanged.
+Option D: Failing to apply the power rule's coefficient and exponent decrease."
+7,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^9. Here n=9.",9x^7,8x^9,9x^8,x^9,C,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^9. By first principle, f′(x)=lim[h→0](((x+h)^9−x^9)/h). Using the power-difference simplification gives 9x^8.
+Option A: Reducing the exponent by two instead of one.
+Option B: Using n−1 as the coefficient while leaving the exponent unchanged.
+Option D: Failing to apply the power rule's coefficient and exponent decrease."
+8,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^10. Here n=10.",10x^9,10x^8,9x^10,x^10,A,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^10. By first principle, f′(x)=lim[h→0](((x+h)^10−x^10)/h). Using the power-difference simplification gives 10x^9.
+Option B: Reducing the exponent by two instead of one.
+Option C: Using n−1 as the coefficient while leaving the exponent unchanged.
+Option D: Failing to apply the power rule's coefficient and exponent decrease."
+9,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^11. Here n=11.",11x^10,11x^9,10x^11,x^11,A,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^11. By first principle, f′(x)=lim[h→0](((x+h)^11−x^11)/h). Using the power-difference simplification gives 11x^10.
+Option B: Reducing the exponent by two instead of one.
+Option C: Using n−1 as the coefficient while leaving the exponent unchanged.
+Option D: Failing to apply the power rule's coefficient and exponent decrease."
+10,Mathematics,9. Differentiation,Example 1: derivative of x^n by first principle,Solved-Example Variation,"Using the first-principle definition of the derivative, find d/dx of x^12. Here n=12.",12x^10,x^12,11x^12,12x^11,D,1,3,Use f′(x)=lim[h→0](f(x+h)−f(x))/h and simplify the resulting power difference.,"Let f(x)=x^12. By first principle, f′(x)=lim[h→0](((x+h)^12−x^12)/h). Using the power-difference simplification gives 12x^11.
+Option A: Reducing the exponent by two instead of one.
+Option B: Failing to apply the power rule's coefficient and exponent decrease.
+Option C: Using n−1 as the coefficient while leaving the exponent unchanged."
+11,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 2^x.",2^x - 1 log 2,x·2^x - 1,2^x,2^x log 2,D,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=2^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 2^x log 2.
+Option A: Decreasing the exponential exponent by one.
+Option B: Applying the power rule x^n to an exponential.
+Option C: Forgetting the factor log(a)."
+12,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 3^x.",x·3^x - 1,3^x,3^x log 3,3^x - 1 log 3,C,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=3^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 3^x log 3.
+Option A: Applying the power rule x^n to an exponential.
+Option B: Forgetting the factor log(a).
+Option D: Decreasing the exponential exponent by one."
+13,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 4^x.",4^x - 1 log 4,x·4^x - 1,4^x,4^x log 4,D,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=4^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 4^x log 4.
+Option A: Decreasing the exponential exponent by one.
+Option B: Applying the power rule x^n to an exponential.
+Option C: Forgetting the factor log(a)."
+14,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 5^x.",5^x,5^x - 1 log 5,5^x log 5,x·5^x - 1,C,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=5^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 5^x log 5.
+Option A: Forgetting the factor log(a).
+Option B: Decreasing the exponential exponent by one.
+Option D: Applying the power rule x^n to an exponential."
+15,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 6^x.",6^x - 1 log 6,x·6^x - 1,6^x log 6,6^x,C,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=6^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 6^x log 6.
+Option A: Decreasing the exponential exponent by one.
+Option B: Applying the power rule x^n to an exponential.
+Option D: Forgetting the factor log(a)."
+16,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 7^x.",x·7^x - 1,7^x - 1 log 7,7^x log 7,7^x,C,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=7^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 7^x log 7.
+Option A: Applying the power rule x^n to an exponential.
+Option B: Decreasing the exponential exponent by one.
+Option D: Forgetting the factor log(a)."
+17,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 8^x.",8^x log 8,8^x,x·8^x - 1,8^x - 1 log 8,A,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=8^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 8^x log 8.
+Option B: Forgetting the factor log(a).
+Option C: Applying the power rule x^n to an exponential.
+Option D: Decreasing the exponential exponent by one."
+18,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 9^x.",9^x log 9,x·9^x - 1,9^x,9^x - 1 log 9,A,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=9^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 9^x log 9.
+Option B: Applying the power rule x^n to an exponential.
+Option C: Forgetting the factor log(a).
+Option D: Decreasing the exponential exponent by one."
+19,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 10^x.",10^x log 10,10^x - 1 log 10,10^x,x·10^x - 1,A,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=10^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 10^x log 10.
+Option B: Decreasing the exponential exponent by one.
+Option C: Forgetting the factor log(a).
+Option D: Applying the power rule x^n to an exponential."
+20,Mathematics,9. Differentiation,Example 2: derivative of a^x by first principle,Solved-Example Variation,"Using the first-principle result for exponential functions, find d/dx of 11^x.",x·11^x - 1,11^x log 11,11^x,11^x - 1 log 11,B,1,3,"For a positive constant base a, use the exponential derivative involving log(a).","For f(x)=11^x, the first-principle derivation gives f′(x)=a^x log(a). Therefore the derivative is 11^x log 11.
+Option A: Applying the power rule x^n to an exponential.
+Option C: Forgetting the factor log(a).
+Option D: Decreasing the exponential exponent by one."
+21,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+5.",x,0,1,5,C,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+5. Thus [f(x+h)−f(x)]/h=((x+h+5)−(x+5))/h=1, so f′(x)=1.
+Option A: Stopping with the original function instead of taking its derivative.
+Option B: Treating the entire expression x+k as a constant.
+Option D: Differentiating the constant term k and incorrectly dropping the derivative of x."
+22,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+7.",x,0,1,7,C,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+7. Thus [f(x+h)−f(x)]/h=((x+h+7)−(x+7))/h=1, so f′(x)=1.
+Option A: Stopping with the original function instead of taking its derivative.
+Option B: Treating the entire expression x+k as a constant.
+Option D: Differentiating the constant term k and incorrectly dropping the derivative of x."
+23,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+9.",1,x,0,9,A,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+9. Thus [f(x+h)−f(x)]/h=((x+h+9)−(x+9))/h=1, so f′(x)=1.
+Option B: Stopping with the original function instead of taking its derivative.
+Option C: Treating the entire expression x+k as a constant.
+Option D: Differentiating the constant term k and incorrectly dropping the derivative of x."
+24,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+11.",11,1,0,x,B,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+11. Thus [f(x+h)−f(x)]/h=((x+h+11)−(x+11))/h=1, so f′(x)=1.
+Option A: Differentiating the constant term k and incorrectly dropping the derivative of x.
+Option C: Treating the entire expression x+k as a constant.
+Option D: Stopping with the original function instead of taking its derivative."
+25,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+13.",0,13,x,1,D,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+13. Thus [f(x+h)−f(x)]/h=((x+h+13)−(x+13))/h=1, so f′(x)=1.
+Option A: Treating the entire expression x+k as a constant.
+Option B: Differentiating the constant term k and incorrectly dropping the derivative of x.
+Option C: Stopping with the original function instead of taking its derivative."
+26,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+15.",15,0,1,x,C,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+15. Thus [f(x+h)−f(x)]/h=((x+h+15)−(x+15))/h=1, so f′(x)=1.
+Option A: Differentiating the constant term k and incorrectly dropping the derivative of x.
+Option B: Treating the entire expression x+k as a constant.
+Option D: Stopping with the original function instead of taking its derivative."
+27,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+17.",1,0,x,17,A,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+17. Thus [f(x+h)−f(x)]/h=((x+h+17)−(x+17))/h=1, so f′(x)=1.
+Option B: Treating the entire expression x+k as a constant.
+Option C: Stopping with the original function instead of taking its derivative.
+Option D: Differentiating the constant term k and incorrectly dropping the derivative of x."
+28,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+19.",19,x,0,1,D,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+19. Thus [f(x+h)−f(x)]/h=((x+h+19)−(x+19))/h=1, so f′(x)=1.
+Option A: Differentiating the constant term k and incorrectly dropping the derivative of x.
+Option B: Stopping with the original function instead of taking its derivative.
+Option C: Treating the entire expression x+k as a constant."
+29,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+21.",0,x,21,1,D,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+21. Thus [f(x+h)−f(x)]/h=((x+h+21)−(x+21))/h=1, so f′(x)=1.
+Option A: Treating the entire expression x+k as a constant.
+Option B: Stopping with the original function instead of taking its derivative.
+Option C: Differentiating the constant term k and incorrectly dropping the derivative of x."
+30,Mathematics,9. Differentiation,Example 3(i): derivative of x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=x+23.",1,0,23,x,A,1,3,Separate the variable term from the constant; the constant contributes zero.,"f(x+h)=(x+h)+23. Thus [f(x+h)−f(x)]/h=((x+h+23)−(x+23))/h=1, so f′(x)=1.
+Option B: Treating the entire expression x+k as a constant.
+Option C: Differentiating the constant term k and incorrectly dropping the derivative of x.
+Option D: Stopping with the original function instead of taking its derivative."
+31,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=2x.",4,0,2x,2,D,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=2(x+h)=2x+2h. Hence [f(x+h)−f(x)]/h=2h/h=2, so f′(x)=2.
+Option A: Using the coefficient from the original worked function instead of the changed coefficient.
+Option B: Treating the linear function as constant.
+Option C: Stopping before differentiating."
+32,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=3x.",0,3,3x,4,B,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=3(x+h)=3x+3h. Hence [f(x+h)−f(x)]/h=3h/h=3, so f′(x)=3.
+Option A: Treating the linear function as constant.
+Option C: Stopping before differentiating.
+Option D: Using the coefficient from the original worked function instead of the changed coefficient."
+33,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=5x.",5,0,5x,4,A,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=5(x+h)=5x+5h. Hence [f(x+h)−f(x)]/h=5h/h=5, so f′(x)=5.
+Option B: Treating the linear function as constant.
+Option C: Stopping before differentiating.
+Option D: Using the coefficient from the original worked function instead of the changed coefficient."
+34,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=6x.",0,6,4,6x,B,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=6(x+h)=6x+6h. Hence [f(x+h)−f(x)]/h=6h/h=6, so f′(x)=6.
+Option A: Treating the linear function as constant.
+Option C: Using the coefficient from the original worked function instead of the changed coefficient.
+Option D: Stopping before differentiating."
+35,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=7x.",7,7x,4,0,A,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=7(x+h)=7x+7h. Hence [f(x+h)−f(x)]/h=7h/h=7, so f′(x)=7.
+Option B: Stopping before differentiating.
+Option C: Using the coefficient from the original worked function instead of the changed coefficient.
+Option D: Treating the linear function as constant."
+36,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=8x.",8,8x,4,0,A,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=8(x+h)=8x+8h. Hence [f(x+h)−f(x)]/h=8h/h=8, so f′(x)=8.
+Option B: Stopping before differentiating.
+Option C: Using the coefficient from the original worked function instead of the changed coefficient.
+Option D: Treating the linear function as constant."
+37,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=9x.",9,4,0,9x,A,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=9(x+h)=9x+9h. Hence [f(x+h)−f(x)]/h=9h/h=9, so f′(x)=9.
+Option B: Using the coefficient from the original worked function instead of the changed coefficient.
+Option C: Treating the linear function as constant.
+Option D: Stopping before differentiating."
+38,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=10x.",10x,4,10,0,C,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=10(x+h)=10x+10h. Hence [f(x+h)−f(x)]/h=10h/h=10, so f′(x)=10.
+Option A: Stopping before differentiating.
+Option B: Using the coefficient from the original worked function instead of the changed coefficient.
+Option D: Treating the linear function as constant."
+39,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=11x.",0,11x,4,11,D,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=11(x+h)=11x+11h. Hence [f(x+h)−f(x)]/h=11h/h=11, so f′(x)=11.
+Option A: Treating the linear function as constant.
+Option B: Stopping before differentiating.
+Option C: Using the coefficient from the original worked function instead of the changed coefficient."
+40,Mathematics,9. Differentiation,Example 3(ii): derivative of 4x by first principle,Solved-Example Variation,"Using first principles, find the derivative of f(x)=12x.",0,12,12x,4,B,1,3,"For f(x)=kx, form the difference quotient; the h terms cancel.","f(x+h)=12(x+h)=12x+12h. Hence [f(x+h)−f(x)]/h=12h/h=12, so f′(x)=12.
+Option A: Treating the linear function as constant.
+Option C: Stopping before differentiating.
+Option D: Using the coefficient from the original worked function instead of the changed coefficient."
+41,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(2).",1,2,1/2,1/4,C,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=2, f′(2)=1/2.
+Option A: Failing to substitute the specified point after finding 1/x.
+Option B: Using x instead of the reciprocal of the evaluation point.
+Option D: Squaring the denominator one extra time."
+42,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(3).",1/9,1/3,1,3,B,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=3, f′(3)=1/3.
+Option A: Squaring the denominator one extra time.
+Option C: Failing to substitute the specified point after finding 1/x.
+Option D: Using x instead of the reciprocal of the evaluation point."
+43,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(5).",5,1/25,1/5,1,C,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=5, f′(5)=1/5.
+Option A: Using x instead of the reciprocal of the evaluation point.
+Option B: Squaring the denominator one extra time.
+Option D: Failing to substitute the specified point after finding 1/x."
+44,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(6).",1,1/36,1/6,6,C,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=6, f′(6)=1/6.
+Option A: Failing to substitute the specified point after finding 1/x.
+Option B: Squaring the denominator one extra time.
+Option D: Using x instead of the reciprocal of the evaluation point."
+45,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(7).",1,7,1/49,1/7,D,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=7, f′(7)=1/7.
+Option A: Failing to substitute the specified point after finding 1/x.
+Option B: Using x instead of the reciprocal of the evaluation point.
+Option C: Squaring the denominator one extra time."
+46,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(8).",1/64,1/8,1,8,B,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=8, f′(8)=1/8.
+Option A: Squaring the denominator one extra time.
+Option C: Failing to substitute the specified point after finding 1/x.
+Option D: Using x instead of the reciprocal of the evaluation point."
+47,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(9).",1,9,1/9,1/81,C,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=9, f′(9)=1/9.
+Option A: Failing to substitute the specified point after finding 1/x.
+Option B: Using x instead of the reciprocal of the evaluation point.
+Option D: Squaring the denominator one extra time."
+48,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(10).",1/100,1/10,10,1,B,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=10, f′(10)=1/10.
+Option A: Squaring the denominator one extra time.
+Option C: Using x instead of the reciprocal of the evaluation point.
+Option D: Failing to substitute the specified point after finding 1/x."
+49,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(11).",1/121,1,1/11,11,C,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=11, f′(11)=1/11.
+Option A: Squaring the denominator one extra time.
+Option B: Failing to substitute the specified point after finding 1/x.
+Option D: Using x instead of the reciprocal of the evaluation point."
+50,Mathematics,9. Differentiation,Example 3(iii): derivative of log x by first principle,Solved-Example Variation,"Using the first-principle result for f(x)=log x, find f′(13).",1/169,13,1,1/13,D,1,3,"First obtain f′(x)=1/x, then substitute the specified value of x.","For f(x)=log x, the first-principle result is f′(x)=1/x. At x=13, f′(13)=1/13.
+Option A: Squaring the denominator one extra time.
+Option B: Using x instead of the reciprocal of the evaluation point.
+Option C: Failing to substitute the specified point after finding 1/x."
+51,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(3)x+(2). Using the first-principle definition, find f′(-4).",-8,-4,-5,-1,C,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+3x+2, so the first-principle simplification gives f′(x)=2x+3. At x=-4, f′(-4)=2(-4)+(3)=-5.
+Option A: Forgetting the linear term b.
+Option B: Adding the constant contribution incorrectly as +1.
+Option D: Failing to multiply the x² term by 2."
+52,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(5)x+(-1). Using the first-principle definition, find f′(-2).",-4,2,1,3,C,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+5x+-1, so the first-principle simplification gives f′(x)=2x+5. At x=-2, f′(-2)=2(-2)+(5)=1.
+Option A: Forgetting the linear term b.
+Option B: Adding the constant contribution incorrectly as +1.
+Option D: Failing to multiply the x² term by 2."
+53,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(4)x+(3). Using the first-principle definition, find f′(1).",5,7,6,2,C,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+4x+3, so the first-principle simplification gives f′(x)=2x+4. At x=1, f′(1)=2(1)+(4)=6.
+Option A: Failing to multiply the x² term by 2.
+Option B: Adding the constant contribution incorrectly as +1.
+Option D: Forgetting the linear term b."
+54,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(-3)x+(7). Using the first-principle definition, find f′(2).",2,4,1,-1,C,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+-3x+7, so the first-principle simplification gives f′(x)=2x+-3. At x=2, f′(2)=2(2)+(-3)=1.
+Option A: Adding the constant contribution incorrectly as +1.
+Option B: Forgetting the linear term b.
+Option D: Failing to multiply the x² term by 2."
+55,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(2)x+(-5). Using the first-principle definition, find f′(3).",8,6,5,9,A,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+2x+-5, so the first-principle simplification gives f′(x)=2x+2. At x=3, f′(3)=2(3)+(2)=8.
+Option B: Forgetting the linear term b.
+Option C: Failing to multiply the x² term by 2.
+Option D: Adding the constant contribution incorrectly as +1."
+56,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(-1)x+(6). Using the first-principle definition, find f′(4).",8,8,7,3,C,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+-1x+6, so the first-principle simplification gives f′(x)=2x+-1. At x=4, f′(4)=2(4)+(-1)=7.
+Option A: Forgetting the linear term b.
+Option B: Adding the constant contribution incorrectly as +1.
+Option D: Failing to multiply the x² term by 2."
+57,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(3)x+(-2). Using the first-principle definition, find f′(5).",14,13,8,10,B,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+3x+-2, so the first-principle simplification gives f′(x)=2x+3. At x=5, f′(5)=2(5)+(3)=13.
+Option A: Adding the constant contribution incorrectly as +1.
+Option C: Failing to multiply the x² term by 2.
+Option D: Forgetting the linear term b."
+58,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(2)x+(4). Using the first-principle definition, find f′(6).",15,14,8,12,B,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+2x+4, so the first-principle simplification gives f′(x)=2x+2. At x=6, f′(6)=2(6)+(2)=14.
+Option A: Adding the constant contribution incorrectly as +1.
+Option C: Failing to multiply the x² term by 2.
+Option D: Forgetting the linear term b."
+59,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(-4)x+(1). Using the first-principle definition, find f′(7).",3,11,14,10,D,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+-4x+1, so the first-principle simplification gives f′(x)=2x+-4. At x=7, f′(7)=2(7)+(-4)=10.
+Option A: Failing to multiply the x² term by 2.
+Option B: Adding the constant contribution incorrectly as +1.
+Option C: Forgetting the linear term b."
+60,Mathematics,9. Differentiation,Example 2: derivative of a quadratic at a specified point,Solved-Example Variation,"Let f(x)=x²+(5)x+(-3). Using the first-principle definition, find f′(8).",16,21,13,22,B,2,5,Use f′(a)=lim[h→0](f(a+h)−f(a))/h; simplify before taking the limit.,"f(x)=x²+5x+-3, so the first-principle simplification gives f′(x)=2x+5. At x=8, f′(8)=2(8)+(5)=21.
+Option A: Forgetting the linear term b.
+Option C: Failing to multiply the x² term by 2.
+Option D: Adding the constant contribution incorrectly as +1."
+61,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−2x³+3√x−4/x²−5 with respect to x.,4x^3 − 6x^2 + (3/2)x^(-1/2) − 8x^(-3),4x^3 − 2x^2 + (3/2)x^(-1/2) + 8x^(-3),4x^3 − 6x^2 + (3/2)x^(-1/2) + 8x^(-3),4x^3 − 6x^2 + 3x^(-1/2) + 8x^(-3),C,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−2x³+3x^(1/2)−4x^(−2)−5. Term-by-term differentiation gives 4x³−6x²+(3/2)x^(−1/2)+8x^(−3).
+Option A: Losing the negative sign from differentiating −C x^(−2).
+Option B: Failing to multiply the −A x³ term by its exponent 3.
+Option D: Forgetting the 1/2 factor when differentiating x^(1/2)."
+62,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−3x³+2√x−5/x²−7 with respect to x.,4x^3 − 9x^2 + (2/2)x^(-1/2) − 10x^(-3),4x^3 − 9x^2 + 2x^(-1/2) + 10x^(-3),4x^3 − 9x^2 + (2/2)x^(-1/2) + 10x^(-3),4x^3 − 3x^2 + (2/2)x^(-1/2) + 10x^(-3),C,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−3x³+2x^(1/2)−5x^(−2)−7. Term-by-term differentiation gives 4x³−9x²+(2/2)x^(−1/2)+10x^(−3).
+Option A: Losing the negative sign from differentiating −C x^(−2).
+Option B: Forgetting the 1/2 factor when differentiating x^(1/2).
+Option D: Failing to multiply the −A x³ term by its exponent 3."
+63,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−4x³+5√x−2/x²−9 with respect to x.,4x^3 − 12x^2 + (5/2)x^(-1/2) − 4x^(-3),4x^3 − 12x^2 + (5/2)x^(-1/2) + 4x^(-3),4x^3 − 4x^2 + (5/2)x^(-1/2) + 4x^(-3),4x^3 − 12x^2 + 5x^(-1/2) + 4x^(-3),B,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−4x³+5x^(1/2)−2x^(−2)−9. Term-by-term differentiation gives 4x³−12x²+(5/2)x^(−1/2)+4x^(−3).
+Option A: Losing the negative sign from differentiating −C x^(−2).
+Option C: Failing to multiply the −A x³ term by its exponent 3.
+Option D: Forgetting the 1/2 factor when differentiating x^(1/2)."
+64,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−5x³+4√x−3/x²−11 with respect to x.,4x^3 − 15x^2 + (4/2)x^(-1/2) + 6x^(-3),4x^3 − 15x^2 + (4/2)x^(-1/2) − 6x^(-3),4x^3 − 15x^2 + 4x^(-1/2) + 6x^(-3),4x^3 − 5x^2 + (4/2)x^(-1/2) + 6x^(-3),A,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−5x³+4x^(1/2)−3x^(−2)−11. Term-by-term differentiation gives 4x³−15x²+(4/2)x^(−1/2)+6x^(−3).
+Option B: Losing the negative sign from differentiating −C x^(−2).
+Option C: Forgetting the 1/2 factor when differentiating x^(1/2).
+Option D: Failing to multiply the −A x³ term by its exponent 3."
+65,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−6x³+2√x−7/x²−13 with respect to x.,4x^3 − 18x^2 + (2/2)x^(-1/2) + 14x^(-3),4x^3 − 18x^2 + 2x^(-1/2) + 14x^(-3),4x^3 − 6x^2 + (2/2)x^(-1/2) + 14x^(-3),4x^3 − 18x^2 + (2/2)x^(-1/2) − 14x^(-3),A,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−6x³+2x^(1/2)−7x^(−2)−13. Term-by-term differentiation gives 4x³−18x²+(2/2)x^(−1/2)+14x^(−3).
+Option B: Forgetting the 1/2 factor when differentiating x^(1/2).
+Option C: Failing to multiply the −A x³ term by its exponent 3.
+Option D: Losing the negative sign from differentiating −C x^(−2)."
+66,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−7x³+3√x−5/x²−15 with respect to x.,4x^3 − 7x^2 + (3/2)x^(-1/2) + 10x^(-3),4x^3 − 21x^2 + (3/2)x^(-1/2) + 10x^(-3),4x^3 − 21x^2 + 3x^(-1/2) + 10x^(-3),4x^3 − 21x^2 + (3/2)x^(-1/2) − 10x^(-3),B,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−7x³+3x^(1/2)−5x^(−2)−15. Term-by-term differentiation gives 4x³−21x²+(3/2)x^(−1/2)+10x^(−3).
+Option A: Failing to multiply the −A x³ term by its exponent 3.
+Option C: Forgetting the 1/2 factor when differentiating x^(1/2).
+Option D: Losing the negative sign from differentiating −C x^(−2)."
+67,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−8x³+4√x−2/x²−17 with respect to x.,4x^3 − 24x^2 + (4/2)x^(-1/2) − 4x^(-3),4x^3 − 24x^2 + 4x^(-1/2) + 4x^(-3),4x^3 − 8x^2 + (4/2)x^(-1/2) + 4x^(-3),4x^3 − 24x^2 + (4/2)x^(-1/2) + 4x^(-3),D,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−8x³+4x^(1/2)−2x^(−2)−17. Term-by-term differentiation gives 4x³−24x²+(4/2)x^(−1/2)+4x^(−3).
+Option A: Losing the negative sign from differentiating −C x^(−2).
+Option B: Forgetting the 1/2 factor when differentiating x^(1/2).
+Option C: Failing to multiply the −A x³ term by its exponent 3."
+68,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−9x³+5√x−3/x²−19 with respect to x.,4x^3 − 27x^2 + (5/2)x^(-1/2) − 6x^(-3),4x^3 − 9x^2 + (5/2)x^(-1/2) + 6x^(-3),4x^3 − 27x^2 + 5x^(-1/2) + 6x^(-3),4x^3 − 27x^2 + (5/2)x^(-1/2) + 6x^(-3),D,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−9x³+5x^(1/2)−3x^(−2)−19. Term-by-term differentiation gives 4x³−27x²+(5/2)x^(−1/2)+6x^(−3).
+Option A: Losing the negative sign from differentiating −C x^(−2).
+Option B: Failing to multiply the −A x³ term by its exponent 3.
+Option C: Forgetting the 1/2 factor when differentiating x^(1/2)."
+69,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−10x³+2√x−4/x²−21 with respect to x.,4x^3 − 30x^2 + (2/2)x^(-1/2) + 8x^(-3),4x^3 − 30x^2 + 2x^(-1/2) + 8x^(-3),4x^3 − 30x^2 + (2/2)x^(-1/2) − 8x^(-3),4x^3 − 10x^2 + (2/2)x^(-1/2) + 8x^(-3),A,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−10x³+2x^(1/2)−4x^(−2)−21. Term-by-term differentiation gives 4x³−30x²+(2/2)x^(−1/2)+8x^(−3).
+Option B: Forgetting the 1/2 factor when differentiating x^(1/2).
+Option C: Losing the negative sign from differentiating −C x^(−2).
+Option D: Failing to multiply the −A x³ term by its exponent 3."
+70,Mathematics,9. Differentiation,Example 1(i): differentiation of an algebraic sum,Solved-Example Variation,Differentiate y=x⁴−11x³+3√x−6/x²−23 with respect to x.,4x^3 − 33x^2 + 3x^(-1/2) + 12x^(-3),4x^3 − 11x^2 + (3/2)x^(-1/2) + 12x^(-3),4x^3 − 33x^2 + (3/2)x^(-1/2) − 12x^(-3),4x^3 − 33x^2 + (3/2)x^(-1/2) + 12x^(-3),D,2,5,"Rewrite √x as x^(1/2) and 1/x² as x^(−2), then differentiate term by term.","Rewrite y=x⁴−11x³+3x^(1/2)−6x^(−2)−23. Term-by-term differentiation gives 4x³−33x²+(3/2)x^(−1/2)+12x^(−3).
+Option A: Forgetting the 1/2 factor when differentiating x^(1/2).
+Option B: Failing to multiply the −A x³ term by its exponent 3.
+Option C: Losing the negative sign from differentiating −C x^(−2)."
+71,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(1x+2)(x³−3x+4) with respect to x.,3 x^{3} + 6 x^{2} - 3 x - 6,x^{3} + 2 x^{2} - 2 x - 2,x^{3} - 3 x + 4,4 x^{3} + 6 x^{2} - 6 x - 2,D,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=1x+2 and v=x³−3x+4. Then u′=1 and v′=3x²−3. Thus y′=u v′+v u′, which simplifies to 4 x^{3} + 6 x^{2} - 6 x - 2.
+Option A: Using only the derivative of the second factor and omitting the first-factor contribution.
+Option B: Using 2x instead of 3x² for the derivative of x³.
+Option C: Differentiating only the first factor and omitting the second-factor contribution."
+72,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(2x+1)(x³−4x+5) with respect to x.,2 x^{3} + 4 x^{2} - 14 x + 6,2 x^{3} - 8 x + 10,6 x^{3} + 3 x^{2} - 8 x - 4,8 x^{3} + 3 x^{2} - 16 x + 6,D,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=2x+1 and v=x³−4x+5. Then u′=2 and v′=3x²−4. Thus y′=u v′+v u′, which simplifies to 8 x^{3} + 3 x^{2} - 16 x + 6.
+Option A: Using 2x instead of 3x² for the derivative of x³.
+Option B: Differentiating only the first factor and omitting the second-factor contribution.
+Option C: Using only the derivative of the second factor and omitting the first-factor contribution."
+73,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(3x+2)(x³−5x+6) with respect to x.,9 x^{3} + 6 x^{2} - 15 x - 10,3 x^{3} + 6 x^{2} - 26 x + 8,12 x^{3} + 6 x^{2} - 30 x + 8,3 x^{3} - 15 x + 18,C,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=3x+2 and v=x³−5x+6. Then u′=3 and v′=3x²−5. Thus y′=u v′+v u′, which simplifies to 12 x^{3} + 6 x^{2} - 30 x + 8.
+Option A: Using only the derivative of the second factor and omitting the first-factor contribution.
+Option B: Using 2x instead of 3x² for the derivative of x³.
+Option D: Differentiating only the first factor and omitting the second-factor contribution."
+74,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(4x+3)(x³−2x+7) with respect to x.,16 x^{3} + 9 x^{2} - 16 x + 22,4 x^{3} - 8 x + 28,12 x^{3} + 9 x^{2} - 8 x - 6,4 x^{3} + 8 x^{2} - 10 x + 22,A,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=4x+3 and v=x³−2x+7. Then u′=4 and v′=3x²−2. Thus y′=u v′+v u′, which simplifies to 16 x^{3} + 9 x^{2} - 16 x + 22.
+Option B: Differentiating only the first factor and omitting the second-factor contribution.
+Option C: Using only the derivative of the second factor and omitting the first-factor contribution.
+Option D: Using 2x instead of 3x² for the derivative of x³."
+75,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(5x+1)(x³−3x+8) with respect to x.,15 x^{3} + 3 x^{2} - 15 x - 3,20 x^{3} + 3 x^{2} - 30 x + 37,5 x^{3} + 10 x^{2} - 28 x + 37,5 x^{3} - 15 x + 40,B,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=5x+1 and v=x³−3x+8. Then u′=5 and v′=3x²−3. Thus y′=u v′+v u′, which simplifies to 20 x^{3} + 3 x^{2} - 30 x + 37.
+Option A: Using only the derivative of the second factor and omitting the first-factor contribution.
+Option C: Using 2x instead of 3x² for the derivative of x³.
+Option D: Differentiating only the first factor and omitting the second-factor contribution."
+76,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(6x+2)(x³−4x+9) with respect to x.,6 x^{3} + 12 x^{2} - 44 x + 46,18 x^{3} + 6 x^{2} - 24 x - 8,24 x^{3} + 6 x^{2} - 48 x + 46,6 x^{3} - 24 x + 54,C,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=6x+2 and v=x³−4x+9. Then u′=6 and v′=3x²−4. Thus y′=u v′+v u′, which simplifies to 24 x^{3} + 6 x^{2} - 48 x + 46.
+Option A: Using 2x instead of 3x² for the derivative of x³.
+Option B: Using only the derivative of the second factor and omitting the first-factor contribution.
+Option D: Differentiating only the first factor and omitting the second-factor contribution."
+77,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(7x+3)(x³−5x+10) with respect to x.,21 x^{3} + 9 x^{2} - 35 x - 15,7 x^{3} + 14 x^{2} - 64 x + 55,7 x^{3} - 35 x + 70,28 x^{3} + 9 x^{2} - 70 x + 55,D,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=7x+3 and v=x³−5x+10. Then u′=7 and v′=3x²−5. Thus y′=u v′+v u′, which simplifies to 28 x^{3} + 9 x^{2} - 70 x + 55.
+Option A: Using only the derivative of the second factor and omitting the first-factor contribution.
+Option B: Using 2x instead of 3x² for the derivative of x³.
+Option C: Differentiating only the first factor and omitting the second-factor contribution."
+78,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(8x+1)(x³−2x+11) with respect to x.,8 x^{3} - 16 x + 88,24 x^{3} + 3 x^{2} - 16 x - 2,32 x^{3} + 3 x^{2} - 32 x + 86,8 x^{3} + 16 x^{2} - 30 x + 86,C,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=8x+1 and v=x³−2x+11. Then u′=8 and v′=3x²−2. Thus y′=u v′+v u′, which simplifies to 32 x^{3} + 3 x^{2} - 32 x + 86.
+Option A: Differentiating only the first factor and omitting the second-factor contribution.
+Option B: Using only the derivative of the second factor and omitting the first-factor contribution.
+Option D: Using 2x instead of 3x² for the derivative of x³."
+79,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(9x+2)(x³−3x+12) with respect to x.,9 x^{3} - 27 x + 108,9 x^{3} + 18 x^{2} - 50 x + 102,27 x^{3} + 6 x^{2} - 27 x - 6,36 x^{3} + 6 x^{2} - 54 x + 102,D,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=9x+2 and v=x³−3x+12. Then u′=9 and v′=3x²−3. Thus y′=u v′+v u′, which simplifies to 36 x^{3} + 6 x^{2} - 54 x + 102.
+Option A: Differentiating only the first factor and omitting the second-factor contribution.
+Option B: Using 2x instead of 3x² for the derivative of x³.
+Option C: Using only the derivative of the second factor and omitting the first-factor contribution."
+80,Mathematics,9. Differentiation,Example 1(ii): product rule for two polynomial factors,Solved-Example Variation,Differentiate y=(10x+3)(x³−4x+13) with respect to x.,10 x^{3} - 40 x + 130,10 x^{3} + 20 x^{2} - 74 x + 118,40 x^{3} + 9 x^{2} - 80 x + 118,30 x^{3} + 9 x^{2} - 40 x - 12,C,2,5,"For y=uv, use dy/dx=u(dv/dx)+v(du/dx).","Let u=10x+3 and v=x³−4x+13. Then u′=10 and v′=3x²−4. Thus y′=u v′+v u′, which simplifies to 40 x^{3} + 9 x^{2} - 80 x + 118.
+Option A: Differentiating only the first factor and omitting the second-factor contribution.
+Option B: Using 2x instead of 3x² for the derivative of x³.
+Option D: Using only the derivative of the second factor and omitting the first-factor contribution."
+81,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(2x+3)log x with respect to x.,2log x,2+(2x+3)/x,2x·(1/x)+log x,2log x + (2x+3)/x,D,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=2x+3, v=log x, u′=2, v′=1/x. Therefore y′=u v′+v u′=(2x+3)/x+2log x.
+Option A: Omitting the derivative contribution from the linear factor.
+Option B: Replacing log x by its derivative 1 instead of 1/x.
+Option C: Using the original x factor instead of ax+b."
+82,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(3x+4)log x with respect to x.,3log x + (3x+4)/x,3+(3x+4)/x,3x·(1/x)+log x,3log x,A,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=3x+4, v=log x, u′=3, v′=1/x. Therefore y′=u v′+v u′=(3x+4)/x+3log x.
+Option B: Replacing log x by its derivative 1 instead of 1/x.
+Option C: Using the original x factor instead of ax+b.
+Option D: Omitting the derivative contribution from the linear factor."
+83,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(4x+5)log x with respect to x.,4log x,4log x + (4x+5)/x,4+(4x+5)/x,4x·(1/x)+log x,B,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=4x+5, v=log x, u′=4, v′=1/x. Therefore y′=u v′+v u′=(4x+5)/x+4log x.
+Option A: Omitting the derivative contribution from the linear factor.
+Option C: Replacing log x by its derivative 1 instead of 1/x.
+Option D: Using the original x factor instead of ax+b."
+84,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(5x+6)log x with respect to x.,5log x,5x·(1/x)+log x,5+(5x+6)/x,5log x + (5x+6)/x,D,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=5x+6, v=log x, u′=5, v′=1/x. Therefore y′=u v′+v u′=(5x+6)/x+5log x.
+Option A: Omitting the derivative contribution from the linear factor.
+Option B: Using the original x factor instead of ax+b.
+Option C: Replacing log x by its derivative 1 instead of 1/x."
+85,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(6x+7)log x with respect to x.,6+(6x+7)/x,6x·(1/x)+log x,6log x + (6x+7)/x,6log x,C,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=6x+7, v=log x, u′=6, v′=1/x. Therefore y′=u v′+v u′=(6x+7)/x+6log x.
+Option A: Replacing log x by its derivative 1 instead of 1/x.
+Option B: Using the original x factor instead of ax+b.
+Option D: Omitting the derivative contribution from the linear factor."
+86,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(7x+8)log x with respect to x.,7log x + (7x+8)/x,7+(7x+8)/x,7log x,7x·(1/x)+log x,A,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=7x+8, v=log x, u′=7, v′=1/x. Therefore y′=u v′+v u′=(7x+8)/x+7log x.
+Option B: Replacing log x by its derivative 1 instead of 1/x.
+Option C: Omitting the derivative contribution from the linear factor.
+Option D: Using the original x factor instead of ax+b."
+87,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(8x+9)log x with respect to x.,8log x + (8x+9)/x,8+(8x+9)/x,8log x,8x·(1/x)+log x,A,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=8x+9, v=log x, u′=8, v′=1/x. Therefore y′=u v′+v u′=(8x+9)/x+8log x.
+Option B: Replacing log x by its derivative 1 instead of 1/x.
+Option C: Omitting the derivative contribution from the linear factor.
+Option D: Using the original x factor instead of ax+b."
+88,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(9x+10)log x with respect to x.,9log x,9+(9x+10)/x,9log x + (9x+10)/x,9x·(1/x)+log x,C,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=9x+10, v=log x, u′=9, v′=1/x. Therefore y′=u v′+v u′=(9x+10)/x+9log x.
+Option A: Omitting the derivative contribution from the linear factor.
+Option B: Replacing log x by its derivative 1 instead of 1/x.
+Option D: Using the original x factor instead of ax+b."
+89,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(10x+11)log x with respect to x.,10log x,10+(10x+11)/x,10log x + (10x+11)/x,10x·(1/x)+log x,C,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=10x+11, v=log x, u′=10, v′=1/x. Therefore y′=u v′+v u′=(10x+11)/x+10log x.
+Option A: Omitting the derivative contribution from the linear factor.
+Option B: Replacing log x by its derivative 1 instead of 1/x.
+Option D: Using the original x factor instead of ax+b."
+90,Mathematics,9. Differentiation,Example 1(iii): product rule with a logarithm,Solved-Example Variation,Differentiate y=(11x+12)log x with respect to x.,11x·(1/x)+log x,11log x,11+(11x+12)/x,11log x + (11x+12)/x,D,2,5,Treat the linear expression and log x as the two factors and use the product rule.,"With u=11x+12, v=log x, u′=11, v′=1/x. Therefore y′=u v′+v u′=(11x+12)/x+11log x.
+Option A: Using the original x factor instead of ax+b.
+Option B: Omitting the derivative contribution from the linear factor.
+Option C: Replacing log x by its derivative 1 instead of 1/x."
+91,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+2x) with respect to x.,log x(e^x+2x) + 1/x,log x(e^x+2) + (e^x+2x)/x,log x(e^x+2x) + (e^x+2x)/x,(e^x+2x)/x,C,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+2x. Then u′=1/x and v′=e^x+2. Hence y′=log x(e^x+2)+(e^x+2x)/x.
+Option A: Omitting the derivative of the exponential-plus-linear factor.
+Option B: Differentiating ax as a constant plus one instead of a.
+Option D: Omitting the log x times derivative-factor term."
+92,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+3x) with respect to x.,log x(e^x+3x) + (e^x+3x)/x,log x(e^x+3x) + 1/x,(e^x+3x)/x,log x(e^x+3) + (e^x+3x)/x,A,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+3x. Then u′=1/x and v′=e^x+3. Hence y′=log x(e^x+3)+(e^x+3x)/x.
+Option B: Omitting the derivative of the exponential-plus-linear factor.
+Option C: Omitting the log x times derivative-factor term.
+Option D: Differentiating ax as a constant plus one instead of a."
+93,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+4x) with respect to x.,log x(e^x+4x) + (e^x+4x)/x,(e^x+4x)/x,log x(e^x+4x) + 1/x,log x(e^x+4) + (e^x+4x)/x,A,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+4x. Then u′=1/x and v′=e^x+4. Hence y′=log x(e^x+4)+(e^x+4x)/x.
+Option B: Omitting the log x times derivative-factor term.
+Option C: Omitting the derivative of the exponential-plus-linear factor.
+Option D: Differentiating ax as a constant plus one instead of a."
+94,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+5x) with respect to x.,(e^x+5x)/x,log x(e^x+5) + (e^x+5x)/x,log x(e^x+5x) + 1/x,log x(e^x+5x) + (e^x+5x)/x,D,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+5x. Then u′=1/x and v′=e^x+5. Hence y′=log x(e^x+5)+(e^x+5x)/x.
+Option A: Omitting the log x times derivative-factor term.
+Option B: Differentiating ax as a constant plus one instead of a.
+Option C: Omitting the derivative of the exponential-plus-linear factor."
+95,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+6x) with respect to x.,log x(e^x+6x) + (e^x+6x)/x,log x(e^x+6) + (e^x+6x)/x,log x(e^x+6x) + 1/x,(e^x+6x)/x,A,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+6x. Then u′=1/x and v′=e^x+6. Hence y′=log x(e^x+6)+(e^x+6x)/x.
+Option B: Differentiating ax as a constant plus one instead of a.
+Option C: Omitting the derivative of the exponential-plus-linear factor.
+Option D: Omitting the log x times derivative-factor term."
+96,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+7x) with respect to x.,log x(e^x+7x) + (e^x+7x)/x,log x(e^x+7x) + 1/x,log x(e^x+7) + (e^x+7x)/x,(e^x+7x)/x,A,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+7x. Then u′=1/x and v′=e^x+7. Hence y′=log x(e^x+7)+(e^x+7x)/x.
+Option B: Omitting the derivative of the exponential-plus-linear factor.
+Option C: Differentiating ax as a constant plus one instead of a.
+Option D: Omitting the log x times derivative-factor term."
+97,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+8x) with respect to x.,log x(e^x+8) + (e^x+8x)/x,log x(e^x+8x) + (e^x+8x)/x,log x(e^x+8x) + 1/x,(e^x+8x)/x,B,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+8x. Then u′=1/x and v′=e^x+8. Hence y′=log x(e^x+8)+(e^x+8x)/x.
+Option A: Differentiating ax as a constant plus one instead of a.
+Option C: Omitting the derivative of the exponential-plus-linear factor.
+Option D: Omitting the log x times derivative-factor term."
+98,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+9x) with respect to x.,log x(e^x+9) + (e^x+9x)/x,(e^x+9x)/x,log x(e^x+9x) + 1/x,log x(e^x+9x) + (e^x+9x)/x,D,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+9x. Then u′=1/x and v′=e^x+9. Hence y′=log x(e^x+9)+(e^x+9x)/x.
+Option A: Differentiating ax as a constant plus one instead of a.
+Option B: Omitting the log x times derivative-factor term.
+Option C: Omitting the derivative of the exponential-plus-linear factor."
+99,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+10x) with respect to x.,log x(e^x+10) + (e^x+10x)/x,(e^x+10x)/x,log x(e^x+10x) + 1/x,log x(e^x+10x) + (e^x+10x)/x,D,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+10x. Then u′=1/x and v′=e^x+10. Hence y′=log x(e^x+10)+(e^x+10x)/x.
+Option A: Differentiating ax as a constant plus one instead of a.
+Option B: Omitting the log x times derivative-factor term.
+Option C: Omitting the derivative of the exponential-plus-linear factor."
+100,Mathematics,9. Differentiation,Example 1(iv): product rule with log x and an exponential expression,Solved-Example Variation,Differentiate y=log x(e^x+11x) with respect to x.,log x(e^x+11x) + 1/x,log x(e^x+11) + (e^x+11x)/x,log x(e^x+11x) + (e^x+11x)/x,(e^x+11x)/x,C,2,5,"Use the product rule and d(log x)/dx=1/x, d(e^x)/dx=e^x.","Let u=log x and v=e^x+11x. Then u′=1/x and v′=e^x+11. Hence y′=log x(e^x+11)+(e^x+11x)/x.
+Option A: Omitting the derivative of the exponential-plus-linear factor.
+Option B: Differentiating ax as a constant plus one instead of a.
+Option D: Omitting the log x times derivative-factor term."
+101,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+2x−5)/(x²−3) with respect to x.,\frac{2 x \left(x^{2} + 2 x - 5\right)}{\left(x^{2} - 3\right)^{2}},\frac{2 \left(2 x^{3} + 3 x^{2} - 8 x - 3\right)}{\left(x^{2} - 3\right)^{2}},\frac{2 \left(x + 1\right)}{x^{2} - 3},\frac{2 \left(- x^{2} + 2 x - 3\right)}{\left(x^{2} - 3\right)^{2}},D,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+2x−5, D=x²−3. Then N′=2x+2, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{2 \left(- x^{2} + 2 x - 3\right)}{\left(x^{2} - 3\right)^{2}}.
+Option A: Keeping only the −N D′ contribution.
+Option B: Adding N D′ instead of subtracting it.
+Option C: Omitting the −N D′ term in the quotient rule."
+102,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+3x−4)/(x²−2) with respect to x.,\frac{- 3 x^{2} + 4 x - 6}{\left(x^{2} - 2\right)^{2}},\frac{2 x + 3}{x^{2} - 2},\frac{2 x \left(x - 1\right) \left(x + 4\right)}{\left(x^{2} - 2\right)^{2}},\frac{4 x^{3} + 9 x^{2} - 12 x - 6}{\left(x^{2} - 2\right)^{2}},A,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+3x−4, D=x²−2. Then N′=2x+3, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{- 3 x^{2} + 4 x - 6}{\left(x^{2} - 2\right)^{2}}.
+Option B: Omitting the −N D′ term in the quotient rule.
+Option C: Keeping only the −N D′ contribution.
+Option D: Adding N D′ instead of subtracting it."
+103,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+4x−7)/(x²−5) with respect to x.,\frac{2 x \left(x^{2} + 4 x - 7\right)}{\left(x^{2} - 5\right)^{2}},\frac{4 \left(x^{3} + 3 x^{2} - 6 x - 5\right)}{\left(x^{2} - 5\right)^{2}},\frac{2 \left(x + 2\right)}{x^{2} - 5},\frac{4 \left(- x^{2} + x - 5\right)}{\left(x^{2} - 5\right)^{2}},D,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+4x−7, D=x²−5. Then N′=2x+4, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{4 \left(- x^{2} + x - 5\right)}{\left(x^{2} - 5\right)^{2}}.
+Option A: Keeping only the −N D′ contribution.
+Option B: Adding N D′ instead of subtracting it.
+Option C: Omitting the −N D′ term in the quotient rule."
+104,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+5x−6)/(x²−2) with respect to x.,\frac{- 5 x^{2} + 8 x - 10}{\left(x^{2} - 2\right)^{2}},\frac{2 x + 5}{x^{2} - 2},\frac{2 x \left(x - 1\right) \left(x + 6\right)}{\left(x^{2} - 2\right)^{2}},\frac{4 x^{3} + 15 x^{2} - 16 x - 10}{\left(x^{2} - 2\right)^{2}},A,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+5x−6, D=x²−2. Then N′=2x+5, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{- 5 x^{2} + 8 x - 10}{\left(x^{2} - 2\right)^{2}}.
+Option B: Omitting the −N D′ term in the quotient rule.
+Option C: Keeping only the −N D′ contribution.
+Option D: Adding N D′ instead of subtracting it."
+105,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+6x−8)/(x²−3) with respect to x.,\frac{2 \left(x + 3\right)}{x^{2} - 3},\frac{2 \left(- 3 x^{2} + 5 x - 9\right)}{\left(x^{2} - 3\right)^{2}},\frac{2 x \left(x^{2} + 6 x - 8\right)}{\left(x^{2} - 3\right)^{2}},\frac{2 \left(2 x^{3} + 9 x^{2} - 11 x - 9\right)}{\left(x^{2} - 3\right)^{2}},B,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+6x−8, D=x²−3. Then N′=2x+6, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{2 \left(- 3 x^{2} + 5 x - 9\right)}{\left(x^{2} - 3\right)^{2}}.
+Option A: Omitting the −N D′ term in the quotient rule.
+Option C: Keeping only the −N D′ contribution.
+Option D: Adding N D′ instead of subtracting it."
+106,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+7x−5)/(x²−4) with respect to x.,\frac{- 7 x^{2} + 2 x - 28}{\left(x - 2\right)^{2} \left(x + 2\right)^{2}},\frac{4 x^{3} + 21 x^{2} - 18 x - 28}{\left(x - 2\right)^{2} \left(x + 2\right)^{2}},\frac{2 x \left(x^{2} + 7 x - 5\right)}{\left(x - 2\right)^{2} \left(x + 2\right)^{2}},\frac{2 x + 7}{x^{2} - 4},A,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+7x−5, D=x²−4. Then N′=2x+7, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{- 7 x^{2} + 2 x - 28}{\left(x - 2\right)^{2} \left(x + 2\right)^{2}}.
+Option B: Adding N D′ instead of subtracting it.
+Option C: Keeping only the −N D′ contribution.
+Option D: Omitting the −N D′ term in the quotient rule."
+107,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+8x−9)/(x²−2) with respect to x.,\frac{2 x \left(x - 1\right) \left(x + 9\right)}{\left(x^{2} - 2\right)^{2}},\frac{2 \left(x + 4\right)}{x^{2} - 2},\frac{2 \left(2 x^{3} + 12 x^{2} - 11 x - 8\right)}{\left(x^{2} - 2\right)^{2}},\frac{2 \left(- 4 x^{2} + 7 x - 8\right)}{\left(x^{2} - 2\right)^{2}},D,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+8x−9, D=x²−2. Then N′=2x+8, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{2 \left(- 4 x^{2} + 7 x - 8\right)}{\left(x^{2} - 2\right)^{2}}.
+Option A: Keeping only the −N D′ contribution.
+Option B: Omitting the −N D′ term in the quotient rule.
+Option C: Adding N D′ instead of subtracting it."
+108,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+9x−4)/(x²−5) with respect to x.,\frac{2 x \left(x^{2} + 9 x - 4\right)}{\left(x^{2} - 5\right)^{2}},\frac{4 x^{3} + 27 x^{2} - 18 x - 45}{\left(x^{2} - 5\right)^{2}},\frac{2 x + 9}{x^{2} - 5},\frac{- 9 x^{2} - 2 x - 45}{\left(x^{2} - 5\right)^{2}},D,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+9x−4, D=x²−5. Then N′=2x+9, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{- 9 x^{2} - 2 x - 45}{\left(x^{2} - 5\right)^{2}}.
+Option A: Keeping only the −N D′ contribution.
+Option B: Adding N D′ instead of subtracting it.
+Option C: Omitting the −N D′ term in the quotient rule."
+109,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+10x−7)/(x²−3) with respect to x.,\frac{2 x \left(x^{2} + 10 x - 7\right)}{\left(x^{2} - 3\right)^{2}},\frac{2 \left(2 x^{3} + 15 x^{2} - 10 x - 15\right)}{\left(x^{2} - 3\right)^{2}},\frac{2 \left(x + 5\right)}{x^{2} - 3},\frac{2 \left(- 5 x^{2} + 4 x - 15\right)}{\left(x^{2} - 3\right)^{2}},D,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+10x−7, D=x²−3. Then N′=2x+10, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{2 \left(- 5 x^{2} + 4 x - 15\right)}{\left(x^{2} - 3\right)^{2}}.
+Option A: Keeping only the −N D′ contribution.
+Option B: Adding N D′ instead of subtracting it.
+Option C: Omitting the −N D′ term in the quotient rule."
+110,Mathematics,9. Differentiation,Example 2(i): quotient rule for a rational function,Solved-Example Variation,Differentiate y=(x²+11x−6)/(x²−4) with respect to x.,\frac{4 x^{3} + 33 x^{2} - 20 x - 44}{\left(x - 2\right)^{2} \left(x + 2\right)^{2}},\frac{2 x + 11}{x^{2} - 4},\frac{2 x \left(x^{2} + 11 x - 6\right)}{\left(x - 2\right)^{2} \left(x + 2\right)^{2}},\frac{- 11 x^{2} + 4 x - 44}{\left(x - 2\right)^{2} \left(x + 2\right)^{2}},D,2,5,"Use y′=(D N′−N D′)/D², where N is the numerator and D the denominator.","Let N=x²+11x−6, D=x²−4. Then N′=2x+11, D′=2x. Substitution into (D N′−N D′)/D² and simplification gives \frac{- 11 x^{2} + 4 x - 44}{\left(x - 2\right)^{2} \left(x + 2\right)^{2}}.
+Option A: Adding N D′ instead of subtracting it.
+Option B: Omitting the −N D′ term in the quotient rule.
+Option C: Keeping only the −N D′ contribution."
+111,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+2) with respect to x.,1/(x+2)²,2/(x+2),-2/(x+2)²,2/(x+2)²,D,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+2, N′=1 and D′=1. Hence y′=((x+2)·1−x·1)/(x+2)²=2/(x+2)².
+Option A: Forgetting the numerator contribution a in the quotient-rule simplification.
+Option B: Failing to square the denominator.
+Option C: Introducing an incorrect negative sign."
+112,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+4) with respect to x.,1/(x+4)²,-4/(x+4)²,4/(x+4),4/(x+4)²,D,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+4, N′=1 and D′=1. Hence y′=((x+4)·1−x·1)/(x+4)²=4/(x+4)².
+Option A: Forgetting the numerator contribution a in the quotient-rule simplification.
+Option B: Introducing an incorrect negative sign.
+Option C: Failing to square the denominator."
+113,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+5) with respect to x.,1/(x+5)²,5/(x+5)²,-5/(x+5)²,5/(x+5),B,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+5, N′=1 and D′=1. Hence y′=((x+5)·1−x·1)/(x+5)²=5/(x+5)².
+Option A: Forgetting the numerator contribution a in the quotient-rule simplification.
+Option C: Introducing an incorrect negative sign.
+Option D: Failing to square the denominator."
+114,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+6) with respect to x.,-6/(x+6)²,6/(x+6),1/(x+6)²,6/(x+6)²,D,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+6, N′=1 and D′=1. Hence y′=((x+6)·1−x·1)/(x+6)²=6/(x+6)².
+Option A: Introducing an incorrect negative sign.
+Option B: Failing to square the denominator.
+Option C: Forgetting the numerator contribution a in the quotient-rule simplification."
+115,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+7) with respect to x.,1/(x+7)²,-7/(x+7)²,7/(x+7),7/(x+7)²,D,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+7, N′=1 and D′=1. Hence y′=((x+7)·1−x·1)/(x+7)²=7/(x+7)².
+Option A: Forgetting the numerator contribution a in the quotient-rule simplification.
+Option B: Introducing an incorrect negative sign.
+Option C: Failing to square the denominator."
+116,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+8) with respect to x.,-8/(x+8)²,8/(x+8),8/(x+8)²,1/(x+8)²,C,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+8, N′=1 and D′=1. Hence y′=((x+8)·1−x·1)/(x+8)²=8/(x+8)².
+Option A: Introducing an incorrect negative sign.
+Option B: Failing to square the denominator.
+Option D: Forgetting the numerator contribution a in the quotient-rule simplification."
+117,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+9) with respect to x.,9/(x+9),9/(x+9)²,1/(x+9)²,-9/(x+9)²,B,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+9, N′=1 and D′=1. Hence y′=((x+9)·1−x·1)/(x+9)²=9/(x+9)².
+Option A: Failing to square the denominator.
+Option C: Forgetting the numerator contribution a in the quotient-rule simplification.
+Option D: Introducing an incorrect negative sign."
+118,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+10) with respect to x.,10/(x+10),-10/(x+10)²,10/(x+10)²,1/(x+10)²,C,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+10, N′=1 and D′=1. Hence y′=((x+10)·1−x·1)/(x+10)²=10/(x+10)².
+Option A: Failing to square the denominator.
+Option B: Introducing an incorrect negative sign.
+Option D: Forgetting the numerator contribution a in the quotient-rule simplification."
+119,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+11) with respect to x.,1/(x+11)²,-11/(x+11)²,11/(x+11),11/(x+11)²,D,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+11, N′=1 and D′=1. Hence y′=((x+11)·1−x·1)/(x+11)²=11/(x+11)².
+Option A: Forgetting the numerator contribution a in the quotient-rule simplification.
+Option B: Introducing an incorrect negative sign.
+Option C: Failing to square the denominator."
+120,Mathematics,9. Differentiation,Example 2(ii): quotient rule for x/(x+a),Solved-Example Variation,Differentiate y=x/(x+12) with respect to x.,12/(x+12)²,12/(x+12),1/(x+12)²,-12/(x+12)²,A,1,3,Apply the quotient rule with numerator x and denominator x+a.,"With N=x and D=x+12, N′=1 and D′=1. Hence y′=((x+12)·1−x·1)/(x+12)²=12/(x+12)².
+Option B: Failing to square the denominator.
+Option C: Forgetting the numerator contribution a in the quotient-rule simplification.
+Option D: Introducing an incorrect negative sign."
+121,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(2+log x)/x with respect to x.,(2−1+log x)/x²,(2−log x)/x²,(2+log x)/x²,(2−1−log x)/x²,D,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(2+log x)(1)]/x²=[2−1−log x]/x².
+Option A: Changing the sign of the logarithmic term.
+Option B: Omitting the −1 produced when differentiating the denominator.
+Option C: Failing to differentiate the quotient at all and simply dividing by x²."
+122,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(3+log x)/x with respect to x.,(3−1+log x)/x²,(3+log x)/x²,(3−1−log x)/x²,(3−log x)/x²,C,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(3+log x)(1)]/x²=[3−1−log x]/x².
+Option A: Changing the sign of the logarithmic term.
+Option B: Failing to differentiate the quotient at all and simply dividing by x².
+Option D: Omitting the −1 produced when differentiating the denominator."
+123,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(4+log x)/x with respect to x.,(4−1+log x)/x²,(4+log x)/x²,(4−1−log x)/x²,(4−log x)/x²,C,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(4+log x)(1)]/x²=[4−1−log x]/x².
+Option A: Changing the sign of the logarithmic term.
+Option B: Failing to differentiate the quotient at all and simply dividing by x².
+Option D: Omitting the −1 produced when differentiating the denominator."
+124,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(5+log x)/x with respect to x.,(5−1−log x)/x²,(5−log x)/x²,(5−1+log x)/x²,(5+log x)/x²,A,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(5+log x)(1)]/x²=[5−1−log x]/x².
+Option B: Omitting the −1 produced when differentiating the denominator.
+Option C: Changing the sign of the logarithmic term.
+Option D: Failing to differentiate the quotient at all and simply dividing by x²."
+125,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(6+log x)/x with respect to x.,(6−1−log x)/x²,(6−1+log x)/x²,(6+log x)/x²,(6−log x)/x²,A,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(6+log x)(1)]/x²=[6−1−log x]/x².
+Option B: Changing the sign of the logarithmic term.
+Option C: Failing to differentiate the quotient at all and simply dividing by x².
+Option D: Omitting the −1 produced when differentiating the denominator."
+126,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(7+log x)/x with respect to x.,(7−1−log x)/x²,(7−log x)/x²,(7+log x)/x²,(7−1+log x)/x²,A,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(7+log x)(1)]/x²=[7−1−log x]/x².
+Option B: Omitting the −1 produced when differentiating the denominator.
+Option C: Failing to differentiate the quotient at all and simply dividing by x².
+Option D: Changing the sign of the logarithmic term."
+127,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(8+log x)/x with respect to x.,(8+log x)/x²,(8−log x)/x²,(8−1+log x)/x²,(8−1−log x)/x²,D,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(8+log x)(1)]/x²=[8−1−log x]/x².
+Option A: Failing to differentiate the quotient at all and simply dividing by x².
+Option B: Omitting the −1 produced when differentiating the denominator.
+Option C: Changing the sign of the logarithmic term."
+128,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(9+log x)/x with respect to x.,(9−1+log x)/x²,(9+log x)/x²,(9−log x)/x²,(9−1−log x)/x²,D,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(9+log x)(1)]/x²=[9−1−log x]/x².
+Option A: Changing the sign of the logarithmic term.
+Option B: Failing to differentiate the quotient at all and simply dividing by x².
+Option C: Omitting the −1 produced when differentiating the denominator."
+129,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(10+log x)/x with respect to x.,(10+log x)/x²,(10−log x)/x²,(10−1−log x)/x²,(10−1+log x)/x²,C,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(10+log x)(1)]/x²=[10−1−log x]/x².
+Option A: Failing to differentiate the quotient at all and simply dividing by x².
+Option B: Omitting the −1 produced when differentiating the denominator.
+Option D: Changing the sign of the logarithmic term."
+130,Mathematics,9. Differentiation,Example 2(iii): quotient rule with a logarithm,Solved-Example Variation,Differentiate y=(11+log x)/x with respect to x.,(11−1−log x)/x²,(11−1+log x)/x²,(11−log x)/x²,(11+log x)/x²,A,2,5,Use the quotient rule with N={b}+log x and D=x.,"N′=1/x and D′=1. Thus y′=[x(1/x)−(11+log x)(1)]/x²=[11−1−log x]/x².
+Option B: Changing the sign of the logarithmic term.
+Option C: Omitting the −1 produced when differentiating the denominator.
+Option D: Failing to differentiate the quotient at all and simply dividing by x²."
+131,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+18/P. Find the marginal demand when P=3.,6,4,9,8,B,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−18/P². At P=3, dD/dP=2(3)−18/3²=4.
+Option A: Differentiating only p² and forgetting the B/p term.
+Option C: Using the demand value p²+B/p as if it were the marginal demand.
+Option D: Using the wrong sign for the derivative of B/p."
+132,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+24/P. Find the marginal demand when P=4.,\frac{19}{2},\frac{13}{2},16,8,B,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−24/P². At P=4, dD/dP=2(4)−24/4²=\frac{13}{2}.
+Option A: Using the wrong sign for the derivative of B/p.
+Option C: Using the demand value p²+B/p as if it were the marginal demand.
+Option D: Differentiating only p² and forgetting the B/p term."
+133,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+40/P. Find the marginal demand when P=5.,\frac{42}{5},10,\frac{58}{5},25,A,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−40/P². At P=5, dD/dP=2(5)−40/5²=\frac{42}{5}.
+Option B: Differentiating only p² and forgetting the B/p term.
+Option C: Using the wrong sign for the derivative of B/p.
+Option D: Using the demand value p²+B/p as if it were the marginal demand."
+134,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+45/P. Find the marginal demand when P=6.,12,\frac{43}{4},36,\frac{53}{4},B,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−45/P². At P=6, dD/dP=2(6)−45/6²=\frac{43}{4}.
+Option A: Differentiating only p² and forgetting the B/p term.
+Option C: Using the demand value p²+B/p as if it were the marginal demand.
+Option D: Using the wrong sign for the derivative of B/p."
+135,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+54/P. Find the marginal demand when P=7.,49,\frac{740}{49},\frac{632}{49},14,C,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−54/P². At P=7, dD/dP=2(7)−54/7²=\frac{632}{49}.
+Option A: Using the demand value p²+B/p as if it were the marginal demand.
+Option B: Using the wrong sign for the derivative of B/p.
+Option D: Differentiating only p² and forgetting the B/p term."
+136,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+63/P. Find the marginal demand when P=8.,\frac{1087}{64},\frac{961}{64},16,64,B,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−63/P². At P=8, dD/dP=2(8)−63/8²=\frac{961}{64}.
+Option A: Using the wrong sign for the derivative of B/p.
+Option C: Differentiating only p² and forgetting the B/p term.
+Option D: Using the demand value p²+B/p as if it were the marginal demand."
+137,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+80/P. Find the marginal demand when P=9.,\frac{1378}{81},18,81,\frac{1538}{81},A,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−80/P². At P=9, dD/dP=2(9)−80/9²=\frac{1378}{81}.
+Option B: Differentiating only p² and forgetting the B/p term.
+Option C: Using the demand value p²+B/p as if it were the marginal demand.
+Option D: Using the wrong sign for the derivative of B/p."
+138,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+72/P. Find the marginal demand when P=10.,\frac{518}{25},20,\frac{482}{25},100,C,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−72/P². At P=10, dD/dP=2(10)−72/10²=\frac{482}{25}.
+Option A: Using the wrong sign for the derivative of B/p.
+Option B: Differentiating only p² and forgetting the B/p term.
+Option D: Using the demand value p²+B/p as if it were the marginal demand."
+139,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+90/P. Find the marginal demand when P=11.,\frac{2752}{121},22,121,\frac{2572}{121},D,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−90/P². At P=11, dD/dP=2(11)−90/11²=\frac{2572}{121}.
+Option A: Using the wrong sign for the derivative of B/p.
+Option B: Differentiating only p² and forgetting the B/p term.
+Option C: Using the demand value p²+B/p as if it were the marginal demand."
+140,Mathematics,9. Differentiation,Example 1: marginal demand from a demand function,Solved-Example Variation,The demand function is D=P²+99/P. Find the marginal demand when P=12.,\frac{395}{16},24,144,\frac{373}{16},D,2,5,"Differentiate D with respect to P first, then substitute the stated price.","dD/dP=2P−99/P². At P=12, dD/dP=2(12)−99/12²=\frac{373}{16}.
+Option A: Using the wrong sign for the derivative of B/p.
+Option B: Differentiating only p² and forgetting the B/p term.
+Option C: Using the demand value p²+B/p as if it were the marginal demand."
+141,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=2x³+15x²+(-12)x+30. Find the rate of change of cost when x=2.,30,82,72,84,C,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=6x²+30x+(-12). At x=2, the marginal cost is 6(2)²+30(2)+(-12)=72.
+Option A: Using x rather than x² in the cubic derivative.
+Option B: Using total cost C(x) instead of its derivative.
+Option D: Forgetting the linear term's contribution C."
+142,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=3x³+12x²+(-9)x+25. Find the rate of change of cost when x=3.,153,42,144,187,C,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=9x²+24x+(-9). At x=3, the marginal cost is 9(3)²+24(3)+(-9)=144.
+Option A: Forgetting the linear term's contribution C.
+Option B: Using x rather than x² in the cubic derivative.
+Option D: Using total cost C(x) instead of its derivative."
+143,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=4x³+10x²+(-8)x+20. Find the rate of change of cost when x=2.,80,76,88,36,A,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=12x²+20x+(-8). At x=2, the marginal cost is 12(2)²+20(2)+(-8)=80.
+Option B: Using total cost C(x) instead of its derivative.
+Option C: Forgetting the linear term's contribution C.
+Option D: Using x rather than x² in the cubic derivative."
+144,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=5x³+8x²+(-6)x+18. Find the rate of change of cost when x=3.,183,177,55,207,B,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=15x²+16x+(-6). At x=3, the marginal cost is 15(3)²+16(3)+(-6)=177.
+Option A: Forgetting the linear term's contribution C.
+Option C: Using x rather than x² in the cubic derivative.
+Option D: Using total cost C(x) instead of its derivative."
+145,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=6x³+7x²+(-5)x+16. Find the rate of change of cost when x=4.,344,81,339,492,C,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=18x²+14x+(-5). At x=4, the marginal cost is 18(4)²+14(4)+(-5)=339.
+Option A: Forgetting the linear term's contribution C.
+Option B: Using x rather than x² in the cubic derivative.
+Option D: Using total cost C(x) instead of its derivative."
+146,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=2x³+18x²+(-10)x+40. Find the rate of change of cost when x=3.,44,226,162,152,D,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=6x²+36x+(-10). At x=3, the marginal cost is 6(3)²+36(3)+(-10)=152.
+Option A: Using x rather than x² in the cubic derivative.
+Option B: Using total cost C(x) instead of its derivative.
+Option C: Forgetting the linear term's contribution C."
+147,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=3x³+14x²+(-7)x+35. Find the rate of change of cost when x=2.,92,39,101,85,D,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=9x²+28x+(-7). At x=2, the marginal cost is 9(2)²+28(2)+(-7)=85.
+Option A: Forgetting the linear term's contribution C.
+Option B: Using x rather than x² in the cubic derivative.
+Option C: Using total cost C(x) instead of its derivative."
+148,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=4x³+16x²+(-12)x+28. Find the rate of change of cost when x=4.,308,492,68,320,A,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=12x²+32x+(-12). At x=4, the marginal cost is 12(4)²+32(4)+(-12)=308.
+Option B: Using total cost C(x) instead of its derivative.
+Option C: Using x rather than x² in the cubic derivative.
+Option D: Forgetting the linear term's contribution C."
+149,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=5x³+11x²+(-9)x+22. Find the rate of change of cost when x=5.,88,877,485,476,D,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=15x²+22x+(-9). At x=5, the marginal cost is 15(5)²+22(5)+(-9)=476.
+Option A: Using x rather than x² in the cubic derivative.
+Option B: Using total cost C(x) instead of its derivative.
+Option C: Forgetting the linear term's contribution C."
+150,Mathematics,9. Differentiation,Example 2: rate of change of total cost,Solved-Example Variation,A total cost function is C(x)=6x³+13x²+(-8)x+26. Find the rate of change of cost when x=3.,281,72,232,240,C,2,5,"Find dC/dx term by term, then substitute x={xx}.","dC/dx=18x²+26x+(-8). At x=3, the marginal cost is 18(3)²+26(3)+(-8)=232.
+Option A: Using total cost C(x) instead of its derivative.
+Option B: Using x rather than x² in the cubic derivative.
+Option D: Forgetting the linear term's contribution C."
+151,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 3 when P=2, find the marginal demand when P=2.",- \frac{3}{2},3,-3,- \frac{3}{2},C,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=3 at P=2, k=3(2)²=12. Thus dD/dP=−2k/P³. At P=2, this becomes -3.
+Option A: Forgetting the factor 2 from differentiating P^(-2).
+Option B: Dropping the negative sign when differentiating P^(-2).
+Option D: Using P² in the denominator one extra time when substituting."
+152,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 4 when P=3, find the marginal demand when P=3.",- \frac{8}{9},\frac{8}{3},- \frac{8}{3},- \frac{4}{3},C,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=4 at P=3, k=4(3)²=36. Thus dD/dP=−2k/P³. At P=3, this becomes - \frac{8}{3}.
+Option A: Using P² in the denominator one extra time when substituting.
+Option B: Dropping the negative sign when differentiating P^(-2).
+Option D: Forgetting the factor 2 from differentiating P^(-2)."
+153,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 5 when P=4, find the marginal demand when P=4.",- \frac{5}{2},- \frac{5}{8},\frac{5}{2},- \frac{5}{4},A,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=5 at P=4, k=5(4)²=80. Thus dD/dP=−2k/P³. At P=4, this becomes - \frac{5}{2}.
+Option B: Using P² in the denominator one extra time when substituting.
+Option C: Dropping the negative sign when differentiating P^(-2).
+Option D: Forgetting the factor 2 from differentiating P^(-2)."
+154,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 6 when P=5, find the marginal demand when P=5.",- \frac{6}{5},\frac{12}{5},- \frac{12}{5},- \frac{12}{25},C,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=6 at P=5, k=6(5)²=150. Thus dD/dP=−2k/P³. At P=5, this becomes - \frac{12}{5}.
+Option A: Forgetting the factor 2 from differentiating P^(-2).
+Option B: Dropping the negative sign when differentiating P^(-2).
+Option D: Using P² in the denominator one extra time when substituting."
+155,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 7 when P=6, find the marginal demand when P=6.",- \frac{7}{3},- \frac{7}{18},\frac{7}{3},- \frac{7}{6},A,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=7 at P=6, k=7(6)²=252. Thus dD/dP=−2k/P³. At P=6, this becomes - \frac{7}{3}.
+Option B: Using P² in the denominator one extra time when substituting.
+Option C: Dropping the negative sign when differentiating P^(-2).
+Option D: Forgetting the factor 2 from differentiating P^(-2)."
+156,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 8 when P=7, find the marginal demand when P=7.",- \frac{8}{7},\frac{16}{7},- \frac{16}{7},- \frac{16}{49},C,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=8 at P=7, k=8(7)²=392. Thus dD/dP=−2k/P³. At P=7, this becomes - \frac{16}{7}.
+Option A: Forgetting the factor 2 from differentiating P^(-2).
+Option B: Dropping the negative sign when differentiating P^(-2).
+Option D: Using P² in the denominator one extra time when substituting."
+157,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 9 when P=8, find the marginal demand when P=8.",- \frac{9}{8},- \frac{9}{32},- \frac{9}{4},\frac{9}{4},C,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=9 at P=8, k=9(8)²=576. Thus dD/dP=−2k/P³. At P=8, this becomes - \frac{9}{4}.
+Option A: Forgetting the factor 2 from differentiating P^(-2).
+Option B: Using P² in the denominator one extra time when substituting.
+Option D: Dropping the negative sign when differentiating P^(-2)."
+158,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 10 when P=9, find the marginal demand when P=9.",\frac{20}{9},- \frac{20}{9},- \frac{20}{81},- \frac{10}{9},B,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=10 at P=9, k=10(9)²=810. Thus dD/dP=−2k/P³. At P=9, this becomes - \frac{20}{9}.
+Option A: Dropping the negative sign when differentiating P^(-2).
+Option C: Using P² in the denominator one extra time when substituting.
+Option D: Forgetting the factor 2 from differentiating P^(-2)."
+159,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 11 when P=10, find the marginal demand when P=10.",- \frac{11}{50},- \frac{11}{10},- \frac{11}{5},\frac{11}{5},C,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=11 at P=10, k=11(10)²=1100. Thus dD/dP=−2k/P³. At P=10, this becomes - \frac{11}{5}.
+Option A: Using P² in the denominator one extra time when substituting.
+Option B: Forgetting the factor 2 from differentiating P^(-2).
+Option D: Dropping the negative sign when differentiating P^(-2)."
+160,Mathematics,9. Differentiation,Example 3: inverse-square demand and marginal demand,Solved-Example Variation,"Demand D is inversely proportional to the square of price P. If demand is 12 when P=11, find the marginal demand when P=11.",- \frac{12}{11},- \frac{24}{11},- \frac{24}{121},\frac{24}{11},B,2,5,"Write D=k/P², use the observed pair to find k, then differentiate with respect to P.","D=k/P². Since D=12 at P=11, k=12(11)²=1452. Thus dD/dP=−2k/P³. At P=11, this becomes - \frac{24}{11}.
+Option A: Forgetting the factor 2 from differentiating P^(-2).
+Option C: Using P² in the denominator one extra time when substituting.
+Option D: Dropping the negative sign when differentiating P^(-2)."
+161,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=2P²+1P−1. Find the marginal supply when P=3.,20,7,12,13,D,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=4P+1. At P=3, marginal supply=4(3)+1=13.
+Option A: Using the supply value instead of its derivative.
+Option B: Using P instead of 2P in the quadratic derivative.
+Option C: Omitting the linear term's derivative B."
+162,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=3P²+2P−1. Find the marginal supply when P=4.,24,26,55,14,B,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=6P+2. At P=4, marginal supply=6(4)+2=26.
+Option A: Omitting the linear term's derivative B.
+Option C: Using the supply value instead of its derivative.
+Option D: Using P instead of 2P in the quadratic derivative."
+163,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=4P²+3P−1. Find the marginal supply when P=5.,43,40,114,23,A,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=8P+3. At P=5, marginal supply=8(5)+3=43.
+Option B: Omitting the linear term's derivative B.
+Option C: Using the supply value instead of its derivative.
+Option D: Using P instead of 2P in the quadratic derivative."
+164,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=5P²+1P−1. Find the marginal supply when P=6.,60,31,61,185,C,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=10P+1. At P=6, marginal supply=10(6)+1=61.
+Option A: Omitting the linear term's derivative B.
+Option B: Using P instead of 2P in the quadratic derivative.
+Option D: Using the supply value instead of its derivative."
+165,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=6P²+2P−1. Find the marginal supply when P=7.,84,44,307,86,D,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=12P+2. At P=7, marginal supply=12(7)+2=86.
+Option A: Omitting the linear term's derivative B.
+Option B: Using P instead of 2P in the quadratic derivative.
+Option C: Using the supply value instead of its derivative."
+166,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=7P²+3P−1. Find the marginal supply when P=8.,59,471,112,115,D,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=14P+3. At P=8, marginal supply=14(8)+3=115.
+Option A: Using P instead of 2P in the quadratic derivative.
+Option B: Using the supply value instead of its derivative.
+Option C: Omitting the linear term's derivative B."
+167,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=8P²+4P−1. Find the marginal supply when P=9.,148,76,683,144,A,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=16P+4. At P=9, marginal supply=16(9)+4=148.
+Option B: Using P instead of 2P in the quadratic derivative.
+Option C: Using the supply value instead of its derivative.
+Option D: Omitting the linear term's derivative B."
+168,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=9P²+2P−1. Find the marginal supply when P=10.,92,180,919,182,D,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=18P+2. At P=10, marginal supply=18(10)+2=182.
+Option A: Using P instead of 2P in the quadratic derivative.
+Option B: Omitting the linear term's derivative B.
+Option C: Using the supply value instead of its derivative."
+169,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=10P²+1P−1. Find the marginal supply when P=11.,1220,221,220,111,B,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=20P+1. At P=11, marginal supply=20(11)+1=221.
+Option A: Using the supply value instead of its derivative.
+Option C: Omitting the linear term's derivative B.
+Option D: Using P instead of 2P in the quadratic derivative."
+170,Mathematics,9. Differentiation,Example 4: marginal supply,Solved-Example Variation,Supply is S=11P²+3P−1. Find the marginal supply when P=12.,264,135,1619,267,D,1,3,"Differentiate S with respect to P, then substitute the given price.","dS/dP=22P+3. At P=12, marginal supply=22(12)+3=267.
+Option A: Omitting the linear term's derivative B.
+Option B: Using P instead of 2P in the quadratic derivative.
+Option C: Using the supply value instead of its derivative."
+171,Mathematics,9. Differentiation,Rate of change,Concept Coverage,"If a position function is s(t), which expression represents the instantaneous rate of change of position with respect to time?",s/t,ds/dt,s·t,dt/ds,B,1,3,Think of the derivative as the rate at which position changes with time.,"The instantaneous rate of change is the derivative of position with respect to time: ds/dt. A is correct. B is an average-style ratio, C is the reciprocal differential ratio, and D is multiplication rather than differentiation.
+Option A: uses s/t instead of ds/dt, so it applies the wrong formula or operation.
+Option C: uses s·t instead of ds/dt, so it applies the wrong formula or operation.
+Option D: uses dt/ds instead of ds/dt, so it applies the wrong formula or operation."
+172,Mathematics,9. Differentiation,Velocity,Concept Coverage,"When motion has a direction, which quantity represents velocity in differential notation for position s with respect to time t?",ds·dt,dt/ds,ds/dt,s+dt,B,1,3,Use the derivative of position with respect to time.,"Velocity is the rate of change of position with respect to time, ds/dt. A reverses the differential ratio, C adds unlike quantities, and D multiplies rather than differentiates.
+Option A: uses ds·dt instead of dt/ds, so it applies the wrong formula or operation.
+Option C: uses ds/dt instead of dt/ds, so it applies the wrong formula or operation.
+Option D: uses s+dt instead of dt/ds, so it applies the wrong formula or operation."
+173,Mathematics,9. Differentiation,Derivative definition,Concept Coverage,"For a function f differentiable at a, which limit represents f′(a)?",lim[h→0](f(a+h)−f(a))/h,lim[h→0](f(a+h)−f(a))/a,lim[h→0](f(a+h)+f(a))/h,lim[h→a](f(a+h)−f(a))/h,A,1,3,Use the difference quotient with h tending to zero.,"By definition, f′(a)=lim[h→0](f(a+h)−f(a))/h. B changes subtraction to addition, C divides by a instead of h, and D sends h to a rather than 0.
+Option B: uses lim[h→0](f(a+h)−f(a))/a instead of lim[h→0](f(a+h)−f(a))/h, so it applies the wrong formula or operation.
+Option C: uses lim[h→0](f(a+h)+f(a))/h instead of lim[h→0](f(a+h)−f(a))/h, so it applies the wrong formula or operation.
+Option D: uses lim[h→a](f(a+h)−f(a))/h instead of lim[h→0](f(a+h)−f(a))/h, so it applies the wrong formula or operation."
+174,Mathematics,9. Differentiation,Derivative notation,Concept Coverage,"If y=f(x), which notation is the Leibniz notation for its derivative?",dx/dy,dy/dx,y·dx,x·dy,A,1,3,Read the notation as 'change in y divided by change in x.',"The derivative of y with respect to x is written dy/dx. A is the reciprocal differential notation, while C and D are products rather than the derivative notation.
+Option B: uses dy/dx instead of dx/dy, so it applies the wrong formula or operation.
+Option C: uses y·dx instead of dx/dy, so it applies the wrong formula or operation.
+Option D: uses x·dy instead of dx/dy, so it applies the wrong formula or operation."
+175,Mathematics,9. Differentiation,Tangent slope,Concept Coverage,"For the curve y=f(x), which expression gives the slope of the tangent at x=a?",a,1/f′(a),f(a),f′(a),D,1,3,The derivative at a point equals the slope of the tangent there.,"At x=a, the derivative f′(a) is the slope of the tangent line to y=f(x).
+Option A: uses a instead of f′(a), so it applies the wrong formula or operation.
+Option B: uses 1/f′(a) instead of f′(a), so it applies the wrong formula or operation.
+Option C: uses f(a) instead of f′(a), so it applies the wrong formula or operation."
+176,Mathematics,9. Differentiation,Sum rule,Concept Coverage,"If y=u+v and both functions are differentiable, which formula gives dy/dx?",du/dx+dv/dx,(v du/dx−u dv/dx)/v²,du/dx−dv/dx,u·dv/dx+v·du/dx,C,1,3,Differentiate each addend separately.,"For a sum, differentiate each term and add: dy/dx=du/dx+dv/dx. A is the difference rule, B is the product rule, and D is the quotient rule.
+Option A: uses du/dx+dv/dx instead of du/dx−dv/dx, so it applies the wrong formula or operation.
+Option B: uses (v du/dx−u dv/dx)/v² instead of du/dx−dv/dx, so it applies the wrong formula or operation.
+Option D: uses u·dv/dx+v·du/dx instead of du/dx−dv/dx, so it applies the wrong formula or operation."
+177,Mathematics,9. Differentiation,Difference rule,Concept Coverage,"If y=u−v, which formula gives dy/dx?",du/dx−dv/dx,(v du/dx−u dv/dx)/v²,du/dx+dv/dx,u−dv/dx,C,1,3,Keep the minus sign between the derivatives.,"For a difference, dy/dx=du/dx−dv/dx. A changes subtraction to addition, C leaves u undifferentiated, and D is the quotient rule.
+Option A: uses du/dx−dv/dx instead of du/dx+dv/dx, so it applies the wrong formula or operation.
+Option B: uses (v du/dx−u dv/dx)/v² instead of du/dx+dv/dx, so it applies the wrong formula or operation.
+Option D: uses u−dv/dx instead of du/dx+dv/dx, so it applies the wrong formula or operation."
+178,Mathematics,9. Differentiation,Constant multiple rule,Concept Coverage,"If y=7u−4v, which expression is dy/dx?",7dv/dx−4du/dx,7du/dx−4dv/dx,du/dx−dv/dx,7u−4v,B,1,3,Carry each constant through differentiation.,"Constants remain as factors: dy/dx=7du/dx−4dv/dx. B drops the constant multipliers, C gives the original function, and D swaps the functions.
+Option A: uses 7dv/dx−4du/dx instead of 7du/dx−4dv/dx, so it applies the wrong formula or operation.
+Option C: uses du/dx−dv/dx instead of 7du/dx−4dv/dx, so it applies the wrong formula or operation.
+Option D: uses 7u−4v instead of 7du/dx−4dv/dx, so it applies the wrong formula or operation."
+179,Mathematics,9. Differentiation,Product rule,Concept Coverage,"If y=u·v, which formula gives dy/dx?",u(dv/dx)+v(du/dx),(du/dx)(dv/dx),u(dv/dx)−v(du/dx),u/v,A,1,3,Differentiate one factor at a time while keeping the other factor.,"For a product, dy/dx=u(dv/dx)+v(du/dx). B incorrectly subtracts the terms, C multiplies the derivatives only, and D is not a derivative formula.
+Option B: uses (du/dx)(dv/dx) instead of u(dv/dx)+v(du/dx), so it applies the wrong formula or operation.
+Option C: uses u(dv/dx)−v(du/dx) instead of u(dv/dx)+v(du/dx), so it applies the wrong formula or operation.
+Option D: uses u/v instead of u(dv/dx)+v(du/dx), so it applies the wrong formula or operation."
+180,Mathematics,9. Differentiation,Triple product rule,Concept Coverage,"If y=u·v·w, which expression gives dy/dx?",u(dv/dx)+v(du/dx),uv(dw/dx)−uw(dv/dx)+vw(du/dx),uvw,uv(dw/dx)+uw(dv/dx)+vw(du/dx),D,2,5,"There are three terms, one for the derivative of each factor.","For three factors, differentiate each factor once while keeping the other two unchanged, then add the three terms. B omits the third factor contribution, C introduces an incorrect minus sign, and D is the original product.
+Option A: uses u(dv/dx)+v(du/dx) instead of uv(dw/dx)+uw(dv/dx)+vw(du/dx), so it applies the wrong formula or operation.
+Option B: uses uv(dw/dx)−uw(dv/dx)+vw(du/dx) instead of uv(dw/dx)+uw(dv/dx)+vw(du/dx), so it applies the wrong formula or operation.
+Option C: uses uvw instead of uv(dw/dx)+uw(dv/dx)+vw(du/dx), so it applies the wrong formula or operation."
+181,Mathematics,9. Differentiation,Quotient rule,Concept Coverage,"If y=u/v with v≠0, which formula gives dy/dx?",(du/dx)/(dv/dx),(u dv/dx−v du/dx)/v²,u/v²,(v du/dx−u dv/dx)/v²,D,1,3,Start with denominator × derivative of numerator minus numerator × derivative of denominator.,"The quotient rule is (v du/dx−u dv/dx)/v². B reverses the subtraction order, C divides the derivatives, and D omits both derivative contributions.
+Option A: uses (du/dx)/(dv/dx) instead of (v du/dx−u dv/dx)/v², so it applies the wrong formula or operation.
+Option B: uses (u dv/dx−v du/dx)/v² instead of (v du/dx−u dv/dx)/v², so it applies the wrong formula or operation.
+Option C: uses u/v² instead of (v du/dx−u dv/dx)/v², so it applies the wrong formula or operation."
+182,Mathematics,9. Differentiation,Power rule,Concept Coverage,"For n∈N, what is d/dx(x^n)?",(n−1)x^n,nx^n,x^(n+1)/(n+1),nx^(n−1),D,1,3,Multiply by the exponent and reduce the exponent by one.,"The standard derivative is nx^(n−1). B is an antiderivative form, C leaves the exponent unchanged, and D uses the wrong coefficient and exponent.
+Option A: uses (n−1)x^n instead of nx^(n−1), so it applies the wrong formula or operation.
+Option B: uses nx^n instead of nx^(n−1), so it applies the wrong formula or operation.
+Option C: uses x^(n+1)/(n+1) instead of nx^(n−1), so it applies the wrong formula or operation."
+183,Mathematics,9. Differentiation,Reciprocal derivative,Concept Coverage,What is d/dx(1/x)?,1/x²,−1/x,−1/x²,1/x,A,1,3,Rewrite 1/x as x^(−1) and use the power rule.,"Since 1/x=x^(−1), the standard derivative is −1/x². A loses the negative sign, C uses the wrong power, and D is the derivative of log x.
+Option B: uses −1/x instead of 1/x², so it applies the wrong formula or operation.
+Option C: uses −1/x² instead of 1/x², so it applies the wrong formula or operation.
+Option D: uses 1/x instead of 1/x², so it applies the wrong formula or operation."
+184,Mathematics,9. Differentiation,Square-root derivative,Concept Coverage,What is d/dx(√x)?,1/(2√x),−1/(2√x),2√x,1/√x,A,1,3,Write √x as x^(1/2).,"Since √x=x^(1/2), its derivative is (1/2)x^(−1/2)=1/(2√x). B multiplies instead of differentiating, C misses the factor 1/2, and D introduces an incorrect negative sign.
+Option B: uses −1/(2√x) instead of 1/(2√x), so it applies the wrong formula or operation.
+Option C: uses 2√x instead of 1/(2√x), so it applies the wrong formula or operation.
+Option D: uses 1/√x instead of 1/(2√x), so it applies the wrong formula or operation."
+185,Mathematics,9. Differentiation,Constant derivative,Concept Coverage,"For a constant k, what is d/dx(k)?",x,k,0,1,B,1,3,A constant does not change as x changes.,"The derivative of a constant is 0. A and D leave variable dependence that is not present, while B is the derivative of x.
+Option A: uses x instead of k, so it applies the wrong formula or operation.
+Option C: uses 0 instead of k, so it applies the wrong formula or operation.
+Option D: uses 1 instead of k, so it applies the wrong formula or operation."
+186,Mathematics,9. Differentiation,Exponential derivative,Concept Coverage,What is d/dx(e^x)?,e^x,xe^(x−1),e^(x−1),1/e^x,B,1,3,The exponential e^x reproduces itself when differentiated.,"The standard derivative of e^x is e^x. A incorrectly applies the power rule, C lowers the exponent, and D takes a reciprocal.
+Option A: uses e^x instead of xe^(x−1), so it applies the wrong formula or operation.
+Option C: uses e^(x−1) instead of xe^(x−1), so it applies the wrong formula or operation.
+Option D: uses 1/e^x instead of xe^(x−1), so it applies the wrong formula or operation."
+187,Mathematics,9. Differentiation,General exponential derivative,Concept Coverage,"For a>0, what is d/dx(a^x)?",a^x,x a^(x−1),a^(x−1)log a,a^x log a,A,1,3,Use the exponential rule rather than the power rule.,"For a>0, d(a^x)/dx=a^x log a. A omits log a, C applies the power rule, and D incorrectly lowers the exponent.
+Option B: uses x a^(x−1) instead of a^x, so it applies the wrong formula or operation.
+Option C: uses a^(x−1)log a instead of a^x, so it applies the wrong formula or operation.
+Option D: uses a^x log a instead of a^x, so it applies the wrong formula or operation."
+188,Mathematics,9. Differentiation,Logarithmic derivative,Concept Coverage,What is d/dx(log x)?,1/x,x,−1/x²,log x,D,1,3,Recall the standard logarithmic derivative.,"The standard derivative is 1/x. A leaves the function unchanged, B is the derivative of x, and D is the derivative of 1/x.
+Option A: uses 1/x instead of log x, so it applies the wrong formula or operation.
+Option B: uses x instead of log x, so it applies the wrong formula or operation.
+Option C: uses −1/x² instead of log x, so it applies the wrong formula or operation."
+189,Mathematics,9. Differentiation,Marginal demand,Concept Coverage,"If demand is D=f(P), which expression defines marginal demand?",D/P,dP/dD,P/D,dD/dP,B,1,3,Differentiate demand with respect to price.,"Marginal demand is the rate of change of demand with respect to price: dD/dP=f′(P). A reverses the rate, while C and D are ordinary ratios rather than derivatives.
+Option A: uses D/P instead of dP/dD, so it applies the wrong formula or operation.
+Option C: uses P/D instead of dP/dD, so it applies the wrong formula or operation.
+Option D: uses dD/dP instead of dP/dD, so it applies the wrong formula or operation."
+190,Mathematics,9. Differentiation,Marginal supply,Concept Coverage,"If supply is S=g(P), which expression defines marginal supply?",dS/dP,P/S,S/P,dP/dS,A,1,3,Differentiate supply with respect to price.,"Marginal supply is dS/dP=g′(P). B reverses the differential ratio, while C and D are ordinary ratios.
+Option B: uses P/S instead of dS/dP, so it applies the wrong formula or operation.
+Option C: uses S/P instead of dS/dP, so it applies the wrong formula or operation.
+Option D: uses dP/dS instead of dS/dP, so it applies the wrong formula or operation."
+191,Mathematics,9. Differentiation,Marginal cost,Concept Coverage,"If total cost is C=f(x), which expression defines marginal cost?",dC/dx,x/C,d x/dC,C/x,D,1,3,Marginal cost is a derivative with respect to output.,"Marginal cost is the rate of change of cost with respect to output: dC/dx=f′(x). A is average cost, C is its reciprocal, and D reverses the differential ratio.
+Option A: uses dC/dx instead of C/x, so it applies the wrong formula or operation.
+Option B: uses x/C instead of C/x, so it applies the wrong formula or operation.
+Option C: uses d x/dC instead of C/x, so it applies the wrong formula or operation."
+192,Mathematics,9. Differentiation,Average cost,Concept Coverage,"If total cost is C for x goods, which formula gives average cost?",dC/dx,C+x,x/C,C/x,B,1,3,Average means total cost divided by number of goods.,"Average cost is cost per good, AC=C/x. A adds instead of divides, C reverses the ratio, and D is marginal cost.
+Option A: uses dC/dx instead of C+x, so it applies the wrong formula or operation.
+Option C: uses x/C instead of C+x, so it applies the wrong formula or operation.
+Option D: uses C/x instead of C+x, so it applies the wrong formula or operation."
+193,Mathematics,9. Differentiation,Marginal revenue,Concept Coverage,"If R(x) is total revenue from selling x units, which expression is marginal revenue?",dR/dx,R−x,R/x,d x/dR,C,1,3,Marginal revenue is the rate of change of total revenue with respect to units.,"Marginal revenue is the derivative R′(x)=dR/dx. A is an average-style ratio, C reverses the differential ratio, and D is not the definition.
+Option A: uses dR/dx instead of R/x, so it applies the wrong formula or operation.
+Option B: uses R−x instead of R/x, so it applies the wrong formula or operation.
+Option D: uses d x/dR instead of R/x, so it applies the wrong formula or operation."
+194,Mathematics,9. Differentiation,Total revenue,Concept Coverage,"If P is price and D is quantity demanded, which formula gives total revenue?",P+D,P·D,D/P,P/D,A,1,3,Revenue equals price per unit multiplied by quantity.,"Total revenue is R=P·D. A adds the variables, C and D are ratios.
+Option B: uses P·D instead of P+D, so it applies the wrong formula or operation.
+Option C: uses D/P instead of P+D, so it applies the wrong formula or operation.
+Option D: uses P/D instead of P+D, so it applies the wrong formula or operation."
+195,Mathematics,9. Differentiation,Average revenue,Concept Coverage,"If total revenue is R and quantity demanded is D, which expression gives average revenue?",R/D,R−D,R·D,D/R,C,1,3,Average revenue is revenue per unit.,"Average revenue is R/D, which equals P when R=P·D. A multiplies instead of dividing, C reverses the ratio, and D subtracts unrelated quantities.
+Option A: uses R/D instead of R·D, so it applies the wrong formula or operation.
+Option B: uses R−D instead of R·D, so it applies the wrong formula or operation.
+Option D: uses D/R instead of R·D, so it applies the wrong formula or operation."
+196,Mathematics,9. Differentiation,Profit,Concept Coverage,"If R is total revenue and C is total cost, which expression gives total profit?",RC,R−C,C−R,R+C,D,1,3,Profit is what remains after cost is subtracted from revenue.,"Total profit is P=R−C. A adds cost to revenue, B reverses the subtraction, and D multiplies them.
+Option A: uses RC instead of R+C, so it applies the wrong formula or operation.
+Option B: uses R−C instead of R+C, so it applies the wrong formula or operation.
+Option C: uses C−R instead of R+C, so it applies the wrong formula or operation."
+197,Mathematics,9. Differentiation,Demand function,Concept Coverage,"If demand D depends on price P through a function f, which expression represents the demand function?",f(D)=P,P=f(D),D=f(P),D=f(x),C,1,3,Write demand as a function whose input is price.,"If demand D is a function of price P, the notation is D=f(P).
+Option A: uses f(D)=P instead of D=f(P), so it applies the wrong formula or operation.
+Option B: uses P=f(D) instead of D=f(P), so it applies the wrong formula or operation.
+Option D: uses D=f(x) instead of D=f(P), so it applies the wrong formula or operation."
+198,Mathematics,9. Differentiation,Supply function,Concept Coverage,"If supply S is a function of price P, which notation represents the supply function?",g(S)=P²,S=g(P),S=P+g,P=g(S),B,1,3,Write supply as a function of price.,"Supply is expressed as S=g(P). B reverses the dependence, and C and D do not represent the stated functional form.
+Option A: uses g(S)=P² instead of S=g(P), so it applies the wrong formula or operation.
+Option C: uses S=P+g instead of S=g(P), so it applies the wrong formula or operation.
+Option D: uses P=g(S) instead of S=g(P), so it applies the wrong formula or operation."
+199,Mathematics,9. Differentiation,Differentiability condition,Concept Coverage,Which condition is required for f to be differentiable at x=a under the stated definition?,f(a+h)=0,lim[h→a](f(a+h)−f(a))/h exists,lim[h→0](f(a+h)−f(a))/h exists,f(a)=0,C,2,5,Use the difference quotient in the definition of f′(a).,"Differentiability at x=a requires the difference-quotient limit lim[h→0](f(a+h)−f(a))/h to exist.
+Option A: uses f(a+h)=0 instead of lim[h→0](f(a+h)−f(a))/h exists, so it applies the wrong formula or operation.
+Option B: uses lim[h→a](f(a+h)−f(a))/h exists instead of lim[h→0](f(a+h)−f(a))/h exists, so it applies the wrong formula or operation.
+Option D: uses f(a)=0 instead of lim[h→0](f(a+h)−f(a))/h exists, so it applies the wrong formula or operation."
+200,Mathematics,9. Differentiation,First-principle notation,Concept Coverage,"If y=f(x), which first-principle formula represents f′(x)?",lim[h→0](f(x+h)+f(x))/h,lim[h→x](f(x+h)−f(x))/h,lim[h→0](f(x+h)−f(x))/h,lim[x→0](f(x+h)−f(x))/x,C,1,3,Use the difference quotient with h tending to zero.,"The first-principle formula is f′(x)=lim[h→0](f(x+h)−f(x))/h. B changes subtraction to addition, C uses the wrong limiting variable, and D uses the wrong limit target.
+Option A: uses lim[h→0](f(x+h)+f(x))/h instead of lim[h→0](f(x+h)−f(x))/h, so it applies the wrong formula or operation.
+Option B: uses lim[h→x](f(x+h)−f(x))/h instead of lim[h→0](f(x+h)−f(x))/h, so it applies the wrong formula or operation.
+Option D: uses lim[x→0](f(x+h)−f(x))/x instead of lim[h→0](f(x+h)−f(x))/h, so it applies the wrong formula or operation."

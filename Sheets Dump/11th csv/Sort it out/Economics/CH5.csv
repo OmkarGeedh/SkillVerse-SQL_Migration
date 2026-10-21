@@ -1,0 +1,93 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Factory manufacturing,B,1,3,Manufacturing goods in factories is industrial activity.
+2,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Small-scale industries,B,1,3,Small-scale industries belong to the industrial sector.
+3,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Crop cultivation,A,1,3,Crop cultivation is an agricultural activity.
+4,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Raw material processing,B,1,3,Processing raw materials is an industrial activity.
+5,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Large farmers,A,1,3,Large farmers belong to the agricultural sector.
+6,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Marginal farmers,A,1,3,Marginal farmers belong to the agricultural sector.
+7,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Goods manufacture,B,2,5,Manufacturing goods is the function of the industrial sector.
+8,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Rural industries,B,2,5,Rural industries form part of the industrial sector.
+9,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Fisheries,A,2,5,Fisheries is an allied agricultural activity.
+10,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Horticulture,A,2,5,Horticulture is included in allied agricultural activities.
+11,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Small farmers,A,1,3,Small farmers belong to the agricultural sector.
+12,Economics,Chapter 5: Rural Development in India,SORT-001,Rural Occupation,Agricultural Sector,Industrial Sector,Cottage industries,B,1,3,Cottage industries belong to the industrial sector.
+13,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Crop farming,B,2,5,Farming crops belongs to the agricultural sector.
+14,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Accounting services,A,1,3,Accounting is a service provided to businesses or consumers.
+15,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Plantation,B,1,3,Plantation is classified as an allied agricultural activity.
+16,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Forestry,B,1,3,Forestry is an allied agricultural activity.
+17,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Tourism,A,2,5,Tourism is included in the service sector.
+18,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Computer services,A,1,3,Computer services belong to the service sector.
+19,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Agriculture,B,1,3,Agriculture is the principal activity of the agricultural sector.
+20,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Livestock farming,B,2,5,Raising farm animals is an agricultural activity represented by dairy and allied work.
+21,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Transport operators,A,2,5,Transport operators are classified under the service sector.
+22,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Restaurants,A,1,3,Restaurants are included in the service sector.
+23,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Dairy,B,1,3,Dairy belongs to allied agricultural activities.
+24,Economics,Chapter 5: Rural Development in India,SORT-002,Rural Occupation,Service Sector,Agricultural Sector,Mechanic services,A,1,3,Mechanics provide services rather than agricultural output.
+25,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Cottage manufacturing,A,1,3,Cottage manufacturing belongs to the industrial sector.
+26,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Professional services,B,1,3,Professional work is included in the service sector.
+27,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Technical services,B,2,5,Technical services belong to the service sector.
+28,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Factory production,A,1,3,Factory production is an industrial activity.
+29,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Village industries,A,2,5,Village industries are industrial activities.
+30,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Transport services,B,2,5,Transport is included in the service sector.
+31,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Processing raw materials,A,2,5,Processing raw materials is a defining industrial activity.
+32,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Plumber services,B,1,3,Plumbers provide services to consumers.
+33,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Retail trade,B,1,3,Retailers are classified in the service sector.
+34,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Small-scale manufacturing,A,1,3,Small-scale manufacturing is industrial activity.
+35,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Material processing,A,1,3,Processing materials belongs to the industrial sector.
+36,Economics,Chapter 5: Rural Development in India,SORT-003,Rural Occupation,Industrial Sector,Service Sector,Wholesale trade,B,1,3,Wholesalers are classified in the service sector.
+37,Economics,Chapter 5: Rural Development in India,SORT-004,Agricultural Activity,Agriculture,Allied Activities,Forest management,B,2,5,Forestry is included in allied agricultural activities.
+38,Economics,Chapter 5: Rural Development in India,SORT-004,Agricultural Activity,Agriculture,Allied Activities,Small farmer,A,1,3,Small farmers are listed under agriculture.
+39,Economics,Chapter 5: Rural Development in India,SORT-004,Agricultural Activity,Agriculture,Allied Activities,Milk production,B,2,5,Dairy is an allied agricultural activity.
+40,Economics,Chapter 5: Rural Development in India,SORT-004,Agricultural Activity,Agriculture,Allied Activities,Cultivation,A,2,5,Cultivation is the core activity of agriculture.
+41,Economics,Chapter 5: Rural Development in India,SORT-004,Agricultural Activity,Agriculture,Allied Activities,Marginal farmer,A,1,3,Marginal farmers are listed under agriculture.
+42,Economics,Chapter 5: Rural Development in India,SORT-004,Agricultural Activity,Agriculture,Allied Activities,Fruit horticulture,B,2,5,Horticulture is an allied agricultural activity.
+43,Economics,Chapter 5: Rural Development in India,SORT-004,Agricultural Activity,Agriculture,Allied Activities,Large farmer,A,1,3,Large farmers are listed under agriculture.
+44,Economics,Chapter 5: Rural Development in India,SORT-004,Agricultural Activity,Agriculture,Allied Activities,Fish farming,B,1,3,Fisheries is an allied agricultural activity.
+45,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Agricultural equipment purchase,A,2,5,Agricultural equipment supports productive farming activity.
+46,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Fertilizer purchase,A,2,5,Fertilizers are inputs for agricultural production.
+47,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Marriage expenses,B,1,3,Marriage expenses are personal consumption unrelated to production.
+48,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Seed purchase,A,1,3,Seeds are used in agricultural production.
+49,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Ceremonial spending,B,2,5,Ceremonial spending is unrelated to agricultural production.
+50,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Land purchase,A,1,3,Buying land supports agricultural production.
+51,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Personal consumption,B,1,3,Personal consumption does not directly support agricultural production.
+52,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Social ceremonies,B,1,3,Social ceremonies are non-productive personal expenses.
+53,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Religious ceremonies,B,1,3,Religious ceremonies are personal expenses unrelated to agricultural production.
+54,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Tractor purchase,A,1,3,A tractor supports agricultural production.
+55,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Wedding expenditure,B,2,5,Wedding expenditure is a personal rather than productive expense.
+56,Economics,Chapter 5: Rural Development in India,SORT-005,Agricultural Loan Purpose,Productive,Unproductive,Canal digging,A,2,5,Digging canals improves agricultural production facilities.
+57,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Private traders,B,2,5,Traders can supply non-institutional agricultural credit.
+58,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Credit societies,A,2,5,Agricultural credit societies form part of institutional rural credit.
+59,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Commission agents,B,1,3,Commission agents are listed among private credit sources.
+60,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,NABARD,A,2,5,NABARD is an apex institution for agricultural and rural credit.
+61,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Friends,B,1,3,Borrowing from friends is non-institutional credit.
+62,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Commercial banks,A,1,3,Commercial banks are institutional agricultural credit sources.
+63,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Landlords,B,1,3,Landlords are private non-institutional credit sources.
+64,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Microfinance institutions,A,2,5,Microfinance institutions are included among institutional credit sources.
+65,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Regional rural banks,A,1,3,Regional rural banks are institutional lenders.
+66,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Relatives,B,1,3,Borrowing from relatives is non-institutional credit.
+67,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Co-operative banks,A,1,3,Co-operative banks provide institutional rural credit.
+68,Economics,Chapter 5: Rural Development in India,SORT-006,Agricultural Credit Source,Institutional Sources,Non-Institutional Sources,Moneylenders,B,1,3,Moneylenders are non-institutional rural credit sources.
+69,Economics,Chapter 5: Rural Development in India,SORT-007,Loan Duration,Short-Term Credit,Medium-Term Credit,4-year loan,B,2,5,A loan above two and up to five years is medium-term credit.
+70,Economics,Chapter 5: Rural Development in India,SORT-007,Loan Duration,Short-Term Credit,Medium-Term Credit,24-month loan,A,2,5,A loan of up to two years is short-term credit.
+71,Economics,Chapter 5: Rural Development in India,SORT-007,Loan Duration,Short-Term Credit,Medium-Term Credit,18-month loan,A,2,5,A loan of up to two years is short-term credit.
+72,Economics,Chapter 5: Rural Development in India,SORT-007,Loan Duration,Short-Term Credit,Medium-Term Credit,5-year loan,B,2,5,A loan above two and up to five years is medium-term credit.
+73,Economics,Chapter 5: Rural Development in India,SORT-007,Loan Duration,Short-Term Credit,Medium-Term Credit,12-month loan,A,1,3,A loan of up to two years is short-term credit.
+74,Economics,Chapter 5: Rural Development in India,SORT-007,Loan Duration,Short-Term Credit,Medium-Term Credit,30-month loan,B,3,10,A 30-month loan exceeds two years but not five years.
+75,Economics,Chapter 5: Rural Development in India,SORT-007,Loan Duration,Short-Term Credit,Medium-Term Credit,3-year loan,B,1,3,A loan above two and up to five years is medium-term credit.
+76,Economics,Chapter 5: Rural Development in India,SORT-007,Loan Duration,Short-Term Credit,Medium-Term Credit,6-month loan,A,1,3,A loan of up to two years is short-term credit.
+77,Economics,Chapter 5: Rural Development in India,SORT-008,Loan Duration,Long-Term Credit,Short-Term Credit,9-month loan,B,1,3,A loan not exceeding two years is short-term credit.
+78,Economics,Chapter 5: Rural Development in India,SORT-008,Loan Duration,Long-Term Credit,Short-Term Credit,8-year loan,A,2,5,A loan exceeding five years is long-term credit.
+79,Economics,Chapter 5: Rural Development in India,SORT-008,Loan Duration,Long-Term Credit,Short-Term Credit,10-year loan,A,1,3,A loan exceeding five years is long-term credit.
+80,Economics,Chapter 5: Rural Development in India,SORT-008,Loan Duration,Long-Term Credit,Short-Term Credit,15-month loan,B,2,5,A loan not exceeding two years is short-term credit.
+81,Economics,Chapter 5: Rural Development in India,SORT-008,Loan Duration,Long-Term Credit,Short-Term Credit,21-month loan,B,2,5,A loan not exceeding two years is short-term credit.
+82,Economics,Chapter 5: Rural Development in India,SORT-008,Loan Duration,Long-Term Credit,Short-Term Credit,6-year loan,A,1,3,A loan exceeding five years is long-term credit.
+83,Economics,Chapter 5: Rural Development in India,SORT-008,Loan Duration,Long-Term Credit,Short-Term Credit,7-year loan,A,2,5,A loan exceeding five years is long-term credit.
+84,Economics,Chapter 5: Rural Development in India,SORT-008,Loan Duration,Long-Term Credit,Short-Term Credit,12-month loan,B,1,3,A loan not exceeding two years is short-term credit.
+85,Economics,Chapter 5: Rural Development in India,SORT-009,Loan Duration,Medium-Term Credit,Long-Term Credit,72-month loan,B,2,5,A loan longer than five years is long-term credit.
+86,Economics,Chapter 5: Rural Development in India,SORT-009,Loan Duration,Medium-Term Credit,Long-Term Credit,48-month loan,A,2,5,A loan longer than two years and up to five years is medium-term credit.
+87,Economics,Chapter 5: Rural Development in India,SORT-009,Loan Duration,Medium-Term Credit,Long-Term Credit,36-month loan,A,2,5,A loan longer than two years and up to five years is medium-term credit.
+88,Economics,Chapter 5: Rural Development in India,SORT-009,Loan Duration,Medium-Term Credit,Long-Term Credit,96-month loan,B,2,5,A loan longer than five years is long-term credit.
+89,Economics,Chapter 5: Rural Development in India,SORT-009,Loan Duration,Medium-Term Credit,Long-Term Credit,120-month loan,B,2,5,A loan longer than five years is long-term credit.
+90,Economics,Chapter 5: Rural Development in India,SORT-009,Loan Duration,Medium-Term Credit,Long-Term Credit,42-month loan,A,2,5,A loan longer than two years and up to five years is medium-term credit.
+91,Economics,Chapter 5: Rural Development in India,SORT-009,Loan Duration,Medium-Term Credit,Long-Term Credit,54-month loan,A,2,5,A loan longer than two years and up to five years is medium-term credit.
+92,Economics,Chapter 5: Rural Development in India,SORT-009,Loan Duration,Medium-Term Credit,Long-Term Credit,84-month loan,B,2,5,A loan longer than five years is long-term credit.

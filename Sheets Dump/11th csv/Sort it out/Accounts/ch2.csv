@@ -1,0 +1,117 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Pune Municipal Corp. A/c,B,2,5,A corporation is treated as an artificial person.
+2,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Motor Car A/c,A,1,3,A motor car is a tangible business asset.
+3,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Cash A/c,A,1,3,Cash is a business asset represented by a real account.
+4,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Sunita's A/c,B,1,3,It records transactions relating to an individual person.
+5,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Mahesh's A/c,B,1,3,It records dealings with a named individual.
+6,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Copyright A/c,A,2,5,Copyright is an intangible asset.
+7,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Goodwill A/c,A,2,5,Goodwill is an intangible asset.
+8,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Stock of Goods A/c,A,2,5,Stock of goods is property owned by the business.
+9,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Prepaid Wages A/c,B,3,10,Prepaid items are representative personal accounts.
+10,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Outstanding Rent A/c,B,3,10,Outstanding items are treated as representative personal accounts.
+11,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Bank of India A/c,B,2,5,It represents an organization treated as an artificial person.
+12,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-001,Account Example,Real Account,Personal Account,Machinery A/c,A,1,3,Machinery is property owned by the business.
+13,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Bank of Maharashtra A/c,B,2,5,A bank is treated as an artificial person.
+14,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Commission Received A/c,A,2,5,Commission received is income.
+15,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Loan A/c,B,2,5,The loan account is classified as personal in the examples.
+16,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Radhika Sports Club A/c,B,2,5,An association is treated as an artificial person.
+17,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Loss by Fire A/c,A,1,3,Losses are recorded in nominal accounts.
+18,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Repairs A/c,A,1,3,Repairs are an expense.
+19,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Discount Received A/c,A,2,5,Discount received is a gain.
+20,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Outstanding Salary A/c,B,3,10,Outstanding items are representative personal accounts.
+21,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Income Received in Advance A/c,B,3,10,Income received in advance is a representative personal account.
+22,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Stationery A/c,A,1,3,Stationery is an expense.
+23,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Rohit's A/c,B,1,3,It records transactions with a named individual.
+24,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-002,Account Example,Nominal Account,Personal Account,Wages A/c,A,1,3,Wages are an expense.
+25,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Salary A/c,A,1,3,Salary is an expense.
+26,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Bad Debts A/c,A,2,5,Bad debts are treated as a loss.
+27,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Cash at Bank A/c,B,2,5,Cash at bank is a business asset.
+28,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Computer A/c,B,1,3,A computer is a tangible asset.
+29,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Audit Fees A/c,A,1,3,Audit fees are an expense.
+30,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Depreciation A/c,A,2,5,Depreciation is treated as an expense.
+31,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Sales A/c,A,2,5,Sales is recorded as income.
+32,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Patent A/c,B,2,5,A patent is an intangible asset.
+33,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Trademark A/c,B,2,5,A trademark is an intangible asset.
+34,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Interest Received A/c,A,1,3,Interest received is income.
+35,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Furniture A/c,B,1,3,Furniture is tangible property.
+36,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-003,Account Example,Nominal Account,Real Account,Building A/c,B,1,3,A building is tangible property.
+37,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Vaibhav's A/c,B,1,3,It relates to an individual human being.
+38,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Siddhivinayak Trust A/c,A,3,10,A trust is an organization rather than an individual.
+39,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Indian Railways A/c,A,3,10,It represents an organization rather than an individual.
+40,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Sunita's A/c,B,1,3,It relates to an individual human being.
+41,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Recreation Club A/c,A,2,5,A club is an association treated as an artificial person.
+42,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Rajesh's A/c,B,1,3,It relates to an individual human being.
+43,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Sumit's A/c,B,1,3,It relates to an individual human being.
+44,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Ashok's A/c,B,1,3,It relates to an individual human being.
+45,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,ABC & Co. A/c,A,2,5,A company is an organization created by law.
+46,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Pune Municipal Corp. A/c,A,2,5,A municipal corporation is an organization.
+47,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Bank of India A/c,A,2,5,A bank organization is treated as an artificial person.
+48,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-004,Personal Account Type,Artificial Person,Natural Person,Sushma's A/c,B,1,3,It relates to an individual human being.
+49,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-005,Real Account Type,Tangible Real Account,Intangible Real Account,Copyright A/c,B,2,5,Copyright is an intangible asset.
+50,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-005,Real Account Type,Tangible Real Account,Intangible Real Account,Computer A/c,A,1,3,A computer is a physical asset.
+51,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-005,Real Account Type,Tangible Real Account,Intangible Real Account,Machinery A/c,A,1,3,Machinery can be seen and touched.
+52,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-005,Real Account Type,Tangible Real Account,Intangible Real Account,Patent A/c,B,2,5,A patent is an intangible asset.
+53,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-005,Real Account Type,Tangible Real Account,Intangible Real Account,Goodwill A/c,B,2,5,Goodwill has monetary value but cannot be touched.
+54,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-005,Real Account Type,Tangible Real Account,Intangible Real Account,Trademark A/c,B,2,5,A trademark cannot be physically touched.
+55,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-005,Real Account Type,Tangible Real Account,Intangible Real Account,Motor Car A/c,A,1,3,A motor car can be seen and touched.
+56,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-005,Real Account Type,Tangible Real Account,Intangible Real Account,Stock of Goods A/c,A,1,3,Goods in stock are physical property.
+57,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Machinery A/c,A,1,3,Machinery is property owned by the business.
+58,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Building A/c,A,1,3,A building is a business asset.
+59,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Bills Payable,B,2,5,Bills payable are obligations of the business.
+60,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Bank Loan A/c,B,1,3,A bank loan is an amount owed.
+61,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Furniture A/c,A,1,3,Furniture is property owned by the business.
+62,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Sundry Debtors,A,2,5,Sundry debtors are amounts receivable by the business.
+63,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Rent Payable,B,2,5,Rent payable is an outstanding obligation.
+64,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Outstanding Expenses A/c,B,3,10,Outstanding expenses are classified as liabilities.
+65,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Bills Receivable,A,2,5,Bills receivable are classified as assets.
+66,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Bank Overdraft A/c,B,2,5,A bank overdraft is classified as a liability.
+67,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Sundry Creditors,B,1,3,Sundry creditors are amounts owed by the business.
+68,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-006,Modern Account Category,Assets,Liabilities,Goodwill A/c,A,2,5,Goodwill is listed as an asset.
+69,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Loss by Fire A/c,B,1,3,A loss by fire is a loss.
+70,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Printing & Stationery,B,2,5,Printing and stationery are expenses.
+71,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Commission Received A/c,A,1,3,Commission received is revenue.
+72,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Audit Fees A/c,B,1,3,Audit fees are an expense.
+73,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Interest Received A/c,A,1,3,Interest received is income.
+74,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Sales A/c,A,2,5,Sales is recorded as income.
+75,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Repairs & Maintenance,B,2,5,Repairs and maintenance are expenses.
+76,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Dividend Received A/c,A,1,3,Dividend received is income.
+77,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Discount Received A/c,A,2,5,Discount received is a gain.
+78,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Wages A/c,B,1,3,Wages are an expense.
+79,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Electricity Bill,B,1,3,An electricity bill is an expense.
+80,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-007,Modern Account Category,Revenues and Gains,Expenses and Losses,Rent Received A/c,A,1,3,Rent received is income.
+81,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Live Stock A/c,B,2,5,Livestock is listed among business assets.
+82,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Carriage A/c,A,2,5,Carriage is listed as expenditure.
+83,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Prepaid Rent A/c,B,3,10,Prepaid rent is a resource paid for in advance.
+84,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Freight A/c,A,2,5,Freight is listed as expenditure.
+85,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Bad Debts A/c,A,2,5,Bad debts are a loss.
+86,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Fixed Deposit A/c,B,2,5,A fixed deposit is classified as an asset.
+87,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Legal Expenses A/c,A,2,5,Legal expenses are expenditure.
+88,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Cash at Bank,B,1,3,Cash held at a bank is an asset.
+89,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Insurance Premium A/c,A,1,3,Insurance premium is an expense.
+90,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Computer A/c,B,1,3,A computer is property owned by the business.
+91,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Salary A/c,A,1,3,Salary is an expense.
+92,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-008,Modern Account Category,Expenses and Losses,Assets,Copyright A/c,B,2,5,Copyright is an intangible asset.
+93,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Motor Car A/c,B,1,3,A motor car is a business asset.
+94,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Land and Building,B,1,3,Land and buildings are business assets.
+95,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Discount Received,A,2,5,Discount received is a gain.
+96,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Rent Received A/c,A,1,3,Rent received is income.
+97,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Premises A/c,B,1,3,Premises are property owned by the business.
+98,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Sundry Debtors,B,2,5,Sundry debtors represent amounts receivable.
+99,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Dividend Received A/c,A,1,3,Dividend received is income.
+100,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Stock of Stationery,B,3,10,Stock of stationery is property held by the business.
+101,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Bills Receivable,B,2,5,Bills receivable are classified as assets.
+102,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Royalty A/c,A,2,5,Royalty is listed as income.
+103,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Commission Received A/c,A,1,3,Commission received is revenue.
+104,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-009,Modern Account Category,Revenues and Gains,Assets,Interest on Fixed Deposit,A,2,5,Interest on a fixed deposit is income.
+105,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Outstanding Expenses A/c,A,2,5,Outstanding expenses are obligations.
+106,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Bank Overdraft A/c,A,2,5,A bank overdraft is classified as a liability.
+107,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Electricity Bill,B,1,3,An electricity bill is an expense.
+108,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Outstanding Rent,A,2,5,Outstanding rent is an amount payable.
+109,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Loss by Fire A/c,B,1,3,A loss by fire is a loss.
+110,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Discount Allowed,B,2,5,Discount allowed is listed as expenditure.
+111,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Depreciation A/c,B,2,5,Depreciation is treated as an expense.
+112,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Bills Payable,A,2,5,Bills payable are amounts the business must pay.
+113,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Creditors A/c,A,1,3,Creditors are amounts owed by the business.
+114,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Wages A/c,B,1,3,Wages are an expense.
+115,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Audit Fees A/c,B,1,3,Audit fees are an expense.
+116,Accountancy,2 - Meaning and Fundamentals of Double Entry Book-keeping,SORT-010,Modern Account Category,Liabilities,Expenses and Losses,Bank Loan A/c,A,1,3,A bank loan is an obligation.

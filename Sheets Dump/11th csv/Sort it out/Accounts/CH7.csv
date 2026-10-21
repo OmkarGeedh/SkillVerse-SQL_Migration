@@ -1,0 +1,35 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Designs,B,3,10,Design rights are intangible assets whose value can diminish over time.
+2,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Trademarks,B,1,3,Trademarks are intangible rights affected by passage of time.
+3,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Computer,A,2,5,A computer is a physical asset subject to obsolescence.
+4,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Software,B,2,5,Software is an intangible asset subject to passage of time.
+5,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Machinery,A,1,3,Machinery is a physical fixed asset.
+6,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Patents,B,1,3,Patents are intangible rights that lose value over time.
+7,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Furniture,A,1,3,Furniture is a physical asset used in business.
+8,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Television,A,2,5,A television is a physical asset that may become obsolete.
+9,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Building,A,1,3,A building is a physical fixed asset.
+10,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Leases,B,2,5,Lease rights are intangible assets affected by time.
+11,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Copyrights,B,1,3,Copyrights are intangible rights with a useful life.
+12,Accountancy,7 - Depreciation,SORT-001,Asset,Tangible Assets,Intangible Assets,Trucks,A,1,3,Trucks are physical assets used in business.
+13,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Fire,A,3,10,Fire can damage fixed assets and cause impairment.
+14,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Floods,A,1,3,Floods can cause damage and loss of asset value.
+15,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Oil-wells,B,1,3,Oil-wells are wasting assets whose resources are depleted.
+16,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Mines,B,1,3,Mines are wasting assets reduced through depletion.
+17,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Earthquakes,A,1,3,Earthquakes can damage fixed assets and reduce their value.
+18,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Storms,A,1,3,Storms can cause impairment of fixed assets.
+19,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Cyclones,A,2,5,Cyclones are natural calamities that can damage assets.
+20,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Forests,B,1,3,Forests are wasting assets subject to depletion.
+21,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Quarries,B,2,5,Quarries are wasting assets that diminish through extraction.
+22,Accountancy,7 - Depreciation,SORT-002,Depreciation Example,Natural Calamities,Wasting Assets,Accidents,A,3,10,Accidents can impair fixed assets and reduce their value.
+23,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Nonzero closing value,B,2,5,The asset value cannot be reduced to zero by this method.
+24,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Opening balance basis,B,1,3,Depreciation is calculated on the opening asset balance.
+25,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Declining annual charge,B,1,3,The annual depreciation amount decreases over time.
+26,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Fixed annual charge,A,1,3,The annual depreciation amount remains constant.
+27,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Zero closing value,A,2,5,The asset value can be reduced to zero under this method.
+28,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Downward depreciation curve,B,2,5,The annual depreciation curve slopes downward.
+29,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Equal yearly amounts,A,1,3,The annual depreciation charge is the same each year.
+30,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Higher initial charges,B,3,10,Depreciation charges are higher in the earlier years.
+31,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Original cost basis,A,1,3,Annual depreciation is calculated on original asset cost.
+32,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Horizontal depreciation curve,A,2,5,A constant annual charge produces a horizontal depreciation curve.
+33,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Reducing balance basis,B,1,3,Depreciation is charged on the reduced balance of the asset.
+34,Accountancy,7 - Depreciation,SORT-003,Method Feature,Straight Line,Written Down Value,Constant cost percentage,A,3,10,A fixed percentage is applied to original cost each year.

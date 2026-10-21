@@ -1,0 +1,1171 @@
+S.No,Subject,Chapter,Concept/Based On,Question Type,Question,Option A,Option B,Option C,Option D,Correct Option,Difficulty,Points,Hint,Explanation
+1,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 4x − 6 < 2x + 18. What is the solution set when x is a natural number?,"{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}","{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}","{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}",x > 12,A,1,3,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+4x − 6 < 2x + 18
+2x < 24
+x < 12.
+Therefore, the correct answer is {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}.
+Option B: a boundary value was incorrectly included or excluded.
+Option C: a boundary value was incorrectly included or excluded.
+Option D: a boundary value was incorrectly included or excluded."
+2,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 7x − 5 < 3x + 19. What is the solution set when x is a whole number?,"{0, 1, 2, 3, 4}","{1, 2, 3, 4, 5}",x > 6,"{0, 1, 2, 3, 4, 5}",D,1,3,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+7x − 5 < 3x + 19
+4x < 24
+x < 6.
+Therefore, the correct answer is {0, 1, 2, 3, 4, 5}.
+Option A: a boundary value was incorrectly included or excluded.
+Option B: a boundary value was incorrectly included or excluded.
+Option C: a boundary value was incorrectly included or excluded."
+3,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 9x − 4 < 2x + 22. What is the solution set when x is a real number?,x > 3.7142857142857144,x < 4.714285714285714,x < 3.7142857142857144,x ≤ 3.7142857142857144,C,2,5,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+9x − 4 < 2x + 22
+7x < 26
+x < 3.7142857142857144.
+Therefore, the correct answer is x < 3.7142857142857144.
+Option A: a boundary value was incorrectly included or excluded.
+Option B: a boundary value was incorrectly included or excluded.
+Option D: a boundary value was incorrectly included or excluded."
+4,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 5x − 8 < 2x + 14. What is the solution set when x is a natural number?,x > 7.333333333333333,"{1, 2, 3, 4, 5, 6, 7}","{1, 2, 3, 4, 5, 6}","{0, 1, 2, 3, 4, 5, 6, 7}",B,1,3,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+5x − 8 < 2x + 14
+3x < 22
+x < 7.333333333333333.
+Therefore, the correct answer is {1, 2, 3, 4, 5, 6, 7}.
+Option A: a boundary value was incorrectly included or excluded.
+Option C: a boundary value was incorrectly included or excluded.
+Option D: a boundary value was incorrectly included or excluded."
+5,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 6x − 3 < 4x + 28. What is the solution set when x is a whole number?,"{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}","{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}","{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}",x > 15.5,A,1,3,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+6x − 3 < 4x + 28
+2x < 31
+x < 15.5.
+Therefore, the correct answer is {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}.
+Option B: a boundary value was incorrectly included or excluded.
+Option C: a boundary value was incorrectly included or excluded.
+Option D: a boundary value was incorrectly included or excluded."
+6,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 8x − 2 < 3x + 17. What is the solution set when x is a real number?,x ≤ 3.8,x > 3.8,x < 4.8,x < 3.8,D,2,5,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+8x − 2 < 3x + 17
+5x < 19
+x < 3.8.
+Therefore, the correct answer is x < 3.8.
+Option A: a boundary value was incorrectly included or excluded.
+Option B: a boundary value was incorrectly included or excluded.
+Option C: a boundary value was incorrectly included or excluded."
+7,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 11x − 5 < 2x + 25. What is the solution set when x is a natural number?,"{0, 1, 2, 3}",x > 3.3333333333333335,"{1, 2, 3}","{1, 2}",C,1,3,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+11x − 5 < 2x + 25
+9x < 30
+x < 3.3333333333333335.
+Therefore, the correct answer is {1, 2, 3}.
+Option A: a boundary value was incorrectly included or excluded.
+Option B: a boundary value was incorrectly included or excluded.
+Option D: a boundary value was incorrectly included or excluded."
+8,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 3x − 7 < 1x + 16. What is the solution set when x is a whole number?,x > 11.5,"{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}","{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}","{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}",B,1,3,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+3x − 7 < 1x + 16
+2x < 23
+x < 11.5.
+Therefore, the correct answer is {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}.
+Option A: a boundary value was incorrectly included or excluded.
+Option C: a boundary value was incorrectly included or excluded.
+Option D: a boundary value was incorrectly included or excluded."
+9,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 10x − 6 < 4x + 34. What is the solution set when x is a real number?,x < 6.666666666666667,x ≤ 6.666666666666667,x > 6.666666666666667,x < 7.666666666666667,A,2,5,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+10x − 6 < 4x + 34
+6x < 40
+x < 6.666666666666667.
+Therefore, the correct answer is x < 6.666666666666667.
+Option B: a boundary value was incorrectly included or excluded.
+Option C: a boundary value was incorrectly included or excluded.
+Option D: a boundary value was incorrectly included or excluded."
+10,Mathematics,8. Linear Inequations,Ex. 1,Solved-Example Variation,Solve 12x − 3 < 5x + 41. What is the solution set when x is a natural number?,"{1, 2, 3, 4, 5}","{0, 1, 2, 3, 4, 5, 6}",x > 6.285714285714286,"{1, 2, 3, 4, 5, 6}",D,1,3,"Collect the x-terms on one side, constants on the other, then divide by the coefficient of x.","Correct working:
+12x − 3 < 5x + 41
+7x < 44
+x < 6.285714285714286.
+Therefore, the correct answer is {1, 2, 3, 4, 5, 6}.
+Option A: a boundary value was incorrectly included or excluded.
+Option B: a boundary value was incorrectly included or excluded.
+Option C: a boundary value was incorrectly included or excluded."
+11,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 4)/(x + 2) > 1. Choose the correct solution set.,x < -2 or x > 6,-2 < x < 6,x ≤ -2 or x ≥ 6,x < 6 or x > -2,A,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−4)/(x+2)>1
+[(x−4)−1(x+2)]/(x+2)>0
+(1−1)x−6 over x+2 >0.
+The critical values are x=-2 and x=6; sign analysis gives x<-2 or x>6.
+Therefore, the correct answer is x < -2 or x > 6.
+Option B: a sign-interval error at the critical values.
+Option C: a sign-interval error at the critical values.
+Option D: a sign-interval error at the critical values."
+12,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 5)/(x + 1) > 2. Choose the correct solution set.,-1 < x < 7,x ≤ -1 or x ≥ 7,x < 7 or x > -1,x < -1 or x > 7,D,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−5)/(x+1)>2
+[(x−5)−2(x+1)]/(x+1)>0
+(1−2)x−7 over x+1 >0.
+The critical values are x=-1 and x=7; sign analysis gives x<-1 or x>7.
+Therefore, the correct answer is x < -1 or x > 7.
+Option A: a sign-interval error at the critical values.
+Option B: a sign-interval error at the critical values.
+Option C: a sign-interval error at the critical values."
+13,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 6)/(x + 3) > 1. Choose the correct solution set.,x ≤ -3 or x ≥ 9,x < 9 or x > -3,x < -3 or x > 9,-3 < x < 9,C,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−6)/(x+3)>1
+[(x−6)−1(x+3)]/(x+3)>0
+(1−1)x−9 over x+3 >0.
+The critical values are x=-3 and x=9; sign analysis gives x<-3 or x>9.
+Therefore, the correct answer is x < -3 or x > 9.
+Option A: a sign-interval error at the critical values.
+Option B: a sign-interval error at the critical values.
+Option D: a sign-interval error at the critical values."
+14,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 7)/(x + 2) > 2. Choose the correct solution set.,x < 11 or x > -2,x < -2 or x > 11,-2 < x < 11,x ≤ -2 or x ≥ 11,B,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−7)/(x+2)>2
+[(x−7)−2(x+2)]/(x+2)>0
+(1−2)x−11 over x+2 >0.
+The critical values are x=-2 and x=11; sign analysis gives x<-2 or x>11.
+Therefore, the correct answer is x < -2 or x > 11.
+Option A: a sign-interval error at the critical values.
+Option C: a sign-interval error at the critical values.
+Option D: a sign-interval error at the critical values."
+15,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 8)/(x + 1) > 3. Choose the correct solution set.,x < -1 or x > 11,-1 < x < 11,x ≤ -1 or x ≥ 11,x < 11 or x > -1,A,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−8)/(x+1)>3
+[(x−8)−3(x+1)]/(x+1)>0
+(1−3)x−11 over x+1 >0.
+The critical values are x=-1 and x=11; sign analysis gives x<-1 or x>11.
+Therefore, the correct answer is x < -1 or x > 11.
+Option B: a sign-interval error at the critical values.
+Option C: a sign-interval error at the critical values.
+Option D: a sign-interval error at the critical values."
+16,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 9)/(x + 4) > 1. Choose the correct solution set.,-4 < x < 13,x ≤ -4 or x ≥ 13,x < 13 or x > -4,x < -4 or x > 13,D,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−9)/(x+4)>1
+[(x−9)−1(x+4)]/(x+4)>0
+(1−1)x−13 over x+4 >0.
+The critical values are x=-4 and x=13; sign analysis gives x<-4 or x>13.
+Therefore, the correct answer is x < -4 or x > 13.
+Option A: a sign-interval error at the critical values.
+Option B: a sign-interval error at the critical values.
+Option C: a sign-interval error at the critical values."
+17,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 10)/(x + 3) > 2. Choose the correct solution set.,x ≤ -3 or x ≥ 16,x < 16 or x > -3,x < -3 or x > 16,-3 < x < 16,C,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−10)/(x+3)>2
+[(x−10)−2(x+3)]/(x+3)>0
+(1−2)x−16 over x+3 >0.
+The critical values are x=-3 and x=16; sign analysis gives x<-3 or x>16.
+Therefore, the correct answer is x < -3 or x > 16.
+Option A: a sign-interval error at the critical values.
+Option B: a sign-interval error at the critical values.
+Option D: a sign-interval error at the critical values."
+18,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 11)/(x + 2) > 3. Choose the correct solution set.,x < 17 or x > -2,x < -2 or x > 17,-2 < x < 17,x ≤ -2 or x ≥ 17,B,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−11)/(x+2)>3
+[(x−11)−3(x+2)]/(x+2)>0
+(1−3)x−17 over x+2 >0.
+The critical values are x=-2 and x=17; sign analysis gives x<-2 or x>17.
+Therefore, the correct answer is x < -2 or x > 17.
+Option A: a sign-interval error at the critical values.
+Option C: a sign-interval error at the critical values.
+Option D: a sign-interval error at the critical values."
+19,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 12)/(x + 5) > 1. Choose the correct solution set.,x < -5 or x > 17,-5 < x < 17,x ≤ -5 or x ≥ 17,x < 17 or x > -5,A,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−12)/(x+5)>1
+[(x−12)−1(x+5)]/(x+5)>0
+(1−1)x−17 over x+5 >0.
+The critical values are x=-5 and x=17; sign analysis gives x<-5 or x>17.
+Therefore, the correct answer is x < -5 or x > 17.
+Option B: a sign-interval error at the critical values.
+Option C: a sign-interval error at the critical values.
+Option D: a sign-interval error at the critical values."
+20,Mathematics,8. Linear Inequations,Ex. 2,Solved-Example Variation,Solve (x − 13)/(x + 4) > 2. Choose the correct solution set.,-4 < x < 21,x ≤ -4 or x ≥ 21,x < 21 or x > -4,x < -4 or x > 21,D,3,10,Bring everything to one side and use the sign of numerator and denominator around the critical values.,"Correct working:
+(x−13)/(x+4)>2
+[(x−13)−2(x+4)]/(x+4)>0
+(1−2)x−21 over x+4 >0.
+The critical values are x=-4 and x=21; sign analysis gives x<-4 or x>21.
+Therefore, the correct answer is x < -4 or x > 21.
+Option A: a sign-interval error at the critical values.
+Option B: a sign-interval error at the critical values.
+Option C: a sign-interval error at the critical values."
+21,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |3x − 2| ≤ 7.,-1.6666666666666667 ≤ x ≤ 3,-3 ≤ x ≤ 1.6666666666666667,-1.6666666666666667 < x < 3,x ≤ -1.6666666666666667 or x ≥ 3,A,1,3,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-7 ≤ 3x−2 ≤ 7
+-5 ≤ 3x ≤ 9
+-1.6666666666666667 ≤ x ≤ 3.
+Therefore, the correct answer is -1.6666666666666667 ≤ x ≤ 3.
+Option B: reversing an endpoint sign or changing ≤ to <.
+Option C: reversing an endpoint sign or changing ≤ to <.
+Option D: reversing an endpoint sign or changing ≤ to <."
+22,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |5x − 4| ≤ 9.,-2.6 ≤ x ≤ 1,-1 < x < 2.6,x ≤ -1 or x ≥ 2.6,-1 ≤ x ≤ 2.6,D,2,5,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-9 ≤ 5x−4 ≤ 9
+-5 ≤ 5x ≤ 13
+-1 ≤ x ≤ 2.6.
+Therefore, the correct answer is -1 ≤ x ≤ 2.6.
+Option A: reversing an endpoint sign or changing ≤ to <.
+Option B: reversing an endpoint sign or changing ≤ to <.
+Option C: reversing an endpoint sign or changing ≤ to <."
+23,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |2x − 3| ≤ 8.,-2.5 < x < 5.5,x ≤ -2.5 or x ≥ 5.5,-2.5 ≤ x ≤ 5.5,-5.5 ≤ x ≤ 2.5,C,1,3,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-8 ≤ 2x−3 ≤ 8
+-5 ≤ 2x ≤ 11
+-2.5 ≤ x ≤ 5.5.
+Therefore, the correct answer is -2.5 ≤ x ≤ 5.5.
+Option A: reversing an endpoint sign or changing ≤ to <.
+Option B: reversing an endpoint sign or changing ≤ to <.
+Option D: reversing an endpoint sign or changing ≤ to <."
+24,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |6x − 5| ≤ 11.,x ≤ -1 or x ≥ 2.6666666666666665,-1 ≤ x ≤ 2.6666666666666665,-2.6666666666666665 ≤ x ≤ 1,-1 < x < 2.6666666666666665,B,2,5,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-11 ≤ 6x−5 ≤ 11
+-6 ≤ 6x ≤ 16
+-1 ≤ x ≤ 2.6666666666666665.
+Therefore, the correct answer is -1 ≤ x ≤ 2.6666666666666665.
+Option A: reversing an endpoint sign or changing ≤ to <.
+Option C: reversing an endpoint sign or changing ≤ to <.
+Option D: reversing an endpoint sign or changing ≤ to <."
+25,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |7x − 2| ≤ 13.,-1.5714285714285714 ≤ x ≤ 2.142857142857143,-2.142857142857143 ≤ x ≤ 1.5714285714285714,-1.5714285714285714 < x < 2.142857142857143,x ≤ -1.5714285714285714 or x ≥ 2.142857142857143,A,2,5,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-13 ≤ 7x−2 ≤ 13
+-11 ≤ 7x ≤ 15
+-1.5714285714285714 ≤ x ≤ 2.142857142857143.
+Therefore, the correct answer is -1.5714285714285714 ≤ x ≤ 2.142857142857143.
+Option B: reversing an endpoint sign or changing ≤ to <.
+Option C: reversing an endpoint sign or changing ≤ to <.
+Option D: reversing an endpoint sign or changing ≤ to <."
+26,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |4x − 7| ≤ 10.,-4.25 ≤ x ≤ 0.75,-0.75 < x < 4.25,x ≤ -0.75 or x ≥ 4.25,-0.75 ≤ x ≤ 4.25,D,1,3,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-10 ≤ 4x−7 ≤ 10
+-3 ≤ 4x ≤ 17
+-0.75 ≤ x ≤ 4.25.
+Therefore, the correct answer is -0.75 ≤ x ≤ 4.25.
+Option A: reversing an endpoint sign or changing ≤ to <.
+Option B: reversing an endpoint sign or changing ≤ to <.
+Option C: reversing an endpoint sign or changing ≤ to <."
+27,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |8x − 3| ≤ 17.,-1.75 < x < 2.5,x ≤ -1.75 or x ≥ 2.5,-1.75 ≤ x ≤ 2.5,-2.5 ≤ x ≤ 1.75,C,2,5,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-17 ≤ 8x−3 ≤ 17
+-14 ≤ 8x ≤ 20
+-1.75 ≤ x ≤ 2.5.
+Therefore, the correct answer is -1.75 ≤ x ≤ 2.5.
+Option A: reversing an endpoint sign or changing ≤ to <.
+Option B: reversing an endpoint sign or changing ≤ to <.
+Option D: reversing an endpoint sign or changing ≤ to <."
+28,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |9x − 5| ≤ 14.,x ≤ -1 or x ≥ 2.111111111111111,-1 ≤ x ≤ 2.111111111111111,-2.111111111111111 ≤ x ≤ 1,-1 < x < 2.111111111111111,B,2,5,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-14 ≤ 9x−5 ≤ 14
+-9 ≤ 9x ≤ 19
+-1 ≤ x ≤ 2.111111111111111.
+Therefore, the correct answer is -1 ≤ x ≤ 2.111111111111111.
+Option A: reversing an endpoint sign or changing ≤ to <.
+Option C: reversing an endpoint sign or changing ≤ to <.
+Option D: reversing an endpoint sign or changing ≤ to <."
+29,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |10x − 4| ≤ 16.,-1.2 ≤ x ≤ 2,-2 ≤ x ≤ 1.2,-1.2 < x < 2,x ≤ -1.2 or x ≥ 2,A,2,5,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-16 ≤ 10x−4 ≤ 16
+-12 ≤ 10x ≤ 20
+-1.2 ≤ x ≤ 2.
+Therefore, the correct answer is -1.2 ≤ x ≤ 2.
+Option B: reversing an endpoint sign or changing ≤ to <.
+Option C: reversing an endpoint sign or changing ≤ to <.
+Option D: reversing an endpoint sign or changing ≤ to <."
+30,Mathematics,8. Linear Inequations,Ex. 3,Solved-Example Variation,Solve |11x − 6| ≤ 19.,-2.272727272727273 ≤ x ≤ 1.1818181818181819,-1.1818181818181819 < x < 2.272727272727273,x ≤ -1.1818181818181819 or x ≥ 2.272727272727273,-1.1818181818181819 ≤ x ≤ 2.272727272727273,D,2,5,Replace the absolute-value inequality by a double inequality between −c and c.,"Correct working:
+-19 ≤ 11x−6 ≤ 19
+-13 ≤ 11x ≤ 25
+-1.1818181818181819 ≤ x ≤ 2.272727272727273.
+Therefore, the correct answer is -1.1818181818181819 ≤ x ≤ 2.272727272727273.
+Option A: reversing an endpoint sign or changing ≤ to <.
+Option B: reversing an endpoint sign or changing ≤ to <.
+Option C: reversing an endpoint sign or changing ≤ to <."
+31,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 2 ≤ |x − 1| ≤ 4.,"[-3, -1] ∪ [3, 5]","[-1, 3]","(-3, 5)","(-∞, -1] ∪ [3, ∞)",A,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−1|≤4 gives -3≤x≤5; |x−1|≥2 gives x≤-1 or x≥3.
+Intersecting gives [-3,-1] ∪ [3,5].
+Therefore, the correct answer is [-3, -1] ∪ [3, 5].
+Option B: using only one side of the absolute-value condition.
+Option C: using only one side of the absolute-value condition.
+Option D: using only one side of the absolute-value condition."
+32,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 1 ≤ |x − 3| ≤ 6.,"[2, 4]","(-3, 9)","(-∞, 2] ∪ [4, ∞)","[-3, 2] ∪ [4, 9]",D,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−3|≤6 gives -3≤x≤9; |x−3|≥1 gives x≤2 or x≥4.
+Intersecting gives [-3,2] ∪ [4,9].
+Therefore, the correct answer is [-3, 2] ∪ [4, 9].
+Option A: using only one side of the absolute-value condition.
+Option B: using only one side of the absolute-value condition.
+Option C: using only one side of the absolute-value condition."
+33,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 2 ≤ |x − 4| ≤ 7.,"(-3, 11)","(-∞, 2] ∪ [6, ∞)","[-3, 2] ∪ [6, 11]","[2, 6]",C,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−4|≤7 gives -3≤x≤11; |x−4|≥2 gives x≤2 or x≥6.
+Intersecting gives [-3,2] ∪ [6,11].
+Therefore, the correct answer is [-3, 2] ∪ [6, 11].
+Option A: using only one side of the absolute-value condition.
+Option B: using only one side of the absolute-value condition.
+Option D: using only one side of the absolute-value condition."
+34,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 3 ≤ |x − 2| ≤ 8.,"(-∞, -1] ∪ [5, ∞)","[-6, -1] ∪ [5, 10]","[-1, 5]","(-6, 10)",B,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−2|≤8 gives -6≤x≤10; |x−2|≥3 gives x≤-1 or x≥5.
+Intersecting gives [-6,-1] ∪ [5,10].
+Therefore, the correct answer is [-6, -1] ∪ [5, 10].
+Option A: using only one side of the absolute-value condition.
+Option C: using only one side of the absolute-value condition.
+Option D: using only one side of the absolute-value condition."
+35,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 1 ≤ |x − 5| ≤ 9.,"[-4, 4] ∪ [6, 14]","[4, 6]","(-4, 14)","(-∞, 4] ∪ [6, ∞)",A,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−5|≤9 gives -4≤x≤14; |x−5|≥1 gives x≤4 or x≥6.
+Intersecting gives [-4,4] ∪ [6,14].
+Therefore, the correct answer is [-4, 4] ∪ [6, 14].
+Option B: using only one side of the absolute-value condition.
+Option C: using only one side of the absolute-value condition.
+Option D: using only one side of the absolute-value condition."
+36,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 2 ≤ |x − 3| ≤ 10.,"[1, 5]","(-7, 13)","(-∞, 1] ∪ [5, ∞)","[-7, 1] ∪ [5, 13]",D,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−3|≤10 gives -7≤x≤13; |x−3|≥2 gives x≤1 or x≥5.
+Intersecting gives [-7,1] ∪ [5,13].
+Therefore, the correct answer is [-7, 1] ∪ [5, 13].
+Option A: using only one side of the absolute-value condition.
+Option B: using only one side of the absolute-value condition.
+Option C: using only one side of the absolute-value condition."
+37,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 4 ≤ |x − 1| ≤ 6.,"(-5, 7)","(-∞, -3] ∪ [5, ∞)","[-5, -3] ∪ [5, 7]","[-3, 5]",C,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−1|≤6 gives -5≤x≤7; |x−1|≥4 gives x≤-3 or x≥5.
+Intersecting gives [-5,-3] ∪ [5,7].
+Therefore, the correct answer is [-5, -3] ∪ [5, 7].
+Option A: using only one side of the absolute-value condition.
+Option B: using only one side of the absolute-value condition.
+Option D: using only one side of the absolute-value condition."
+38,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 3 ≤ |x − 4| ≤ 11.,"(-∞, 1] ∪ [7, ∞)","[-7, 1] ∪ [7, 15]","[1, 7]","(-7, 15)",B,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−4|≤11 gives -7≤x≤15; |x−4|≥3 gives x≤1 or x≥7.
+Intersecting gives [-7,1] ∪ [7,15].
+Therefore, the correct answer is [-7, 1] ∪ [7, 15].
+Option A: using only one side of the absolute-value condition.
+Option C: using only one side of the absolute-value condition.
+Option D: using only one side of the absolute-value condition."
+39,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 1 ≤ |x − 2| ≤ 7.,"[-5, 1] ∪ [3, 9]","[1, 3]","(-5, 9)","(-∞, 1] ∪ [3, ∞)",A,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−2|≤7 gives -5≤x≤9; |x−2|≥1 gives x≤1 or x≥3.
+Intersecting gives [-5,1] ∪ [3,9].
+Therefore, the correct answer is [-5, 1] ∪ [3, 9].
+Option B: using only one side of the absolute-value condition.
+Option C: using only one side of the absolute-value condition.
+Option D: using only one side of the absolute-value condition."
+40,Mathematics,8. Linear Inequations,Ex. 4,Solved-Example Variation,Solve 2 ≤ |x − 5| ≤ 12.,"[3, 7]","(-7, 17)","(-∞, 3] ∪ [7, ∞)","[-7, 3] ∪ [7, 17]",D,2,5,"Solve the upper and lower absolute-value bounds separately, then take their intersection.","Correct working:
+|x−5|≤12 gives -7≤x≤17; |x−5|≥2 gives x≤3 or x≥7.
+Intersecting gives [-7,3] ∪ [7,17].
+Therefore, the correct answer is [-7, 3] ∪ [7, 17].
+Option A: using only one side of the absolute-value condition.
+Option B: using only one side of the absolute-value condition.
+Option C: using only one side of the absolute-value condition."
+41,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 25x + 4500 and revenue R(x) = 70x + 1800, where x is the number of units sold. How many units must be sold to earn a profit?",x > 60,x ≥ 60,x < 60,x > 61,A,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(70x+1800)−(25x+4500)=45x−2700.
+For profit, 45x−2700>0, so x>60.
+Therefore, the correct answer is x > 60.
+Option B: replacing the strict profit condition with the wrong boundary direction.
+Option C: replacing the strict profit condition with the wrong boundary direction.
+Option D: replacing the strict profit condition with the wrong boundary direction."
+42,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 18x + 3200 and revenue R(x) = 55x + 1400, where x is the number of units sold. How many units must be sold to earn a profit?",x ≥ 48.648648648648646,x < 48.648648648648646,x > 49.648648648648646,x > 48.648648648648646,D,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(55x+1400)−(18x+3200)=37x−1800.
+For profit, 37x−1800>0, so x>48.648648648648646.
+Therefore, the correct answer is x > 48.648648648648646.
+Option A: replacing the strict profit condition with the wrong boundary direction.
+Option B: replacing the strict profit condition with the wrong boundary direction.
+Option C: replacing the strict profit condition with the wrong boundary direction."
+43,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 30x + 5000 and revenue R(x) = 85x + 2100, where x is the number of units sold. How many units must be sold to earn a profit?",x < 52.72727272727273,x > 53.72727272727273,x > 52.72727272727273,x ≥ 52.72727272727273,C,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(85x+2100)−(30x+5000)=55x−2900.
+For profit, 55x−2900>0, so x>52.72727272727273.
+Therefore, the correct answer is x > 52.72727272727273.
+Option A: replacing the strict profit condition with the wrong boundary direction.
+Option B: replacing the strict profit condition with the wrong boundary direction.
+Option D: replacing the strict profit condition with the wrong boundary direction."
+44,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 22x + 3600 and revenue R(x) = 65x + 1600, where x is the number of units sold. How many units must be sold to earn a profit?",x > 47.51162790697674,x > 46.51162790697674,x ≥ 46.51162790697674,x < 46.51162790697674,B,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(65x+1600)−(22x+3600)=43x−2000.
+For profit, 43x−2000>0, so x>46.51162790697674.
+Therefore, the correct answer is x > 46.51162790697674.
+Option A: replacing the strict profit condition with the wrong boundary direction.
+Option C: replacing the strict profit condition with the wrong boundary direction.
+Option D: replacing the strict profit condition with the wrong boundary direction."
+45,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 15x + 2800 and revenue R(x) = 50x + 1200, where x is the number of units sold. How many units must be sold to earn a profit?",x > 45.714285714285715,x ≥ 45.714285714285715,x < 45.714285714285715,x > 46.714285714285715,A,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(50x+1200)−(15x+2800)=35x−1600.
+For profit, 35x−1600>0, so x>45.714285714285715.
+Therefore, the correct answer is x > 45.714285714285715.
+Option B: replacing the strict profit condition with the wrong boundary direction.
+Option C: replacing the strict profit condition with the wrong boundary direction.
+Option D: replacing the strict profit condition with the wrong boundary direction."
+46,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 28x + 4200 and revenue R(x) = 75x + 1900, where x is the number of units sold. How many units must be sold to earn a profit?",x ≥ 48.93617021276596,x < 48.93617021276596,x > 49.93617021276596,x > 48.93617021276596,D,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(75x+1900)−(28x+4200)=47x−2300.
+For profit, 47x−2300>0, so x>48.93617021276596.
+Therefore, the correct answer is x > 48.93617021276596.
+Option A: replacing the strict profit condition with the wrong boundary direction.
+Option B: replacing the strict profit condition with the wrong boundary direction.
+Option C: replacing the strict profit condition with the wrong boundary direction."
+47,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 35x + 6000 and revenue R(x) = 95x + 2400, where x is the number of units sold. How many units must be sold to earn a profit?",x < 60,x > 61,x > 60,x ≥ 60,C,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(95x+2400)−(35x+6000)=60x−3600.
+For profit, 60x−3600>0, so x>60.
+Therefore, the correct answer is x > 60.
+Option A: replacing the strict profit condition with the wrong boundary direction.
+Option B: replacing the strict profit condition with the wrong boundary direction.
+Option D: replacing the strict profit condition with the wrong boundary direction."
+48,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 20x + 3500 and revenue R(x) = 80x + 1700, where x is the number of units sold. How many units must be sold to earn a profit?",x > 31,x > 30,x ≥ 30,x < 30,B,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(80x+1700)−(20x+3500)=60x−1800.
+For profit, 60x−1800>0, so x>30.
+Therefore, the correct answer is x > 30.
+Option A: replacing the strict profit condition with the wrong boundary direction.
+Option C: replacing the strict profit condition with the wrong boundary direction.
+Option D: replacing the strict profit condition with the wrong boundary direction."
+49,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 26x + 3900 and revenue R(x) = 68x + 1500, where x is the number of units sold. How many units must be sold to earn a profit?",x > 57.142857142857146,x ≥ 57.142857142857146,x < 57.142857142857146,x > 58.142857142857146,A,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(68x+1500)−(26x+3900)=42x−2400.
+For profit, 42x−2400>0, so x>57.142857142857146.
+Therefore, the correct answer is x > 57.142857142857146.
+Option B: replacing the strict profit condition with the wrong boundary direction.
+Option C: replacing the strict profit condition with the wrong boundary direction.
+Option D: replacing the strict profit condition with the wrong boundary direction."
+50,Mathematics,8. Linear Inequations,Ex. 5,Solved-Example Variation,"A product has cost C(x) = 32x + 5200 and revenue R(x) = 90x + 2000, where x is the number of units sold. How many units must be sold to earn a profit?",x ≥ 55.172413793103445,x < 55.172413793103445,x > 56.172413793103445,x > 55.172413793103445,D,2,5,"Form Profit = Revenue − Cost, then impose Profit > 0.","Correct working:
+Profit=R−C=(90x+2000)−(32x+5200)=58x−3200.
+For profit, 58x−3200>0, so x>55.172413793103445.
+Therefore, the correct answer is x > 55.172413793103445.
+Option A: replacing the strict profit condition with the wrong boundary direction.
+Option B: replacing the strict profit condition with the wrong boundary direction.
+Option C: replacing the strict profit condition with the wrong boundary direction."
+51,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 8x + 4 < 5x + 19.,x < 5,x ≤ 5,x > 5,x < 6,A,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+3x < 15
+x < 5.
+Therefore, the correct answer is x < 5.
+Option B: using a non-strict boundary or reversing the inequality.
+Option C: using a non-strict boundary or reversing the inequality.
+Option D: using a non-strict boundary or reversing the inequality."
+52,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 9x + 2 < 4x + 20.,x ≤ 3.6,x > 3.6,x < 4.6,x < 3.6,D,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+5x < 18
+x < 3.6.
+Therefore, the correct answer is x < 3.6.
+Option A: using a non-strict boundary or reversing the inequality.
+Option B: using a non-strict boundary or reversing the inequality.
+Option C: using a non-strict boundary or reversing the inequality."
+53,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 10x + 3 < 6x + 27.,x > 6,x < 7,x < 6,x ≤ 6,C,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+4x < 24
+x < 6.
+Therefore, the correct answer is x < 6.
+Option A: using a non-strict boundary or reversing the inequality.
+Option B: using a non-strict boundary or reversing the inequality.
+Option D: using a non-strict boundary or reversing the inequality."
+54,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 11x + 5 < 7x + 29.,x < 7,x < 6,x ≤ 6,x > 6,B,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+4x < 24
+x < 6.
+Therefore, the correct answer is x < 6.
+Option A: using a non-strict boundary or reversing the inequality.
+Option C: using a non-strict boundary or reversing the inequality.
+Option D: using a non-strict boundary or reversing the inequality."
+55,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 12x + 1 < 8x + 31.,x < 7.5,x ≤ 7.5,x > 7.5,x < 8.5,A,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+4x < 30
+x < 7.5.
+Therefore, the correct answer is x < 7.5.
+Option B: using a non-strict boundary or reversing the inequality.
+Option C: using a non-strict boundary or reversing the inequality.
+Option D: using a non-strict boundary or reversing the inequality."
+56,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 13x + 4 < 9x + 34.,x ≤ 7.5,x > 7.5,x < 8.5,x < 7.5,D,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+4x < 30
+x < 7.5.
+Therefore, the correct answer is x < 7.5.
+Option A: using a non-strict boundary or reversing the inequality.
+Option B: using a non-strict boundary or reversing the inequality.
+Option C: using a non-strict boundary or reversing the inequality."
+57,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 14x + 2 < 10x + 38.,x > 9,x < 10,x < 9,x ≤ 9,C,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+4x < 36
+x < 9.
+Therefore, the correct answer is x < 9.
+Option A: using a non-strict boundary or reversing the inequality.
+Option B: using a non-strict boundary or reversing the inequality.
+Option D: using a non-strict boundary or reversing the inequality."
+58,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 15x + 6 < 11x + 41.,x < 9.75,x < 8.75,x ≤ 8.75,x > 8.75,B,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+4x < 35
+x < 8.75.
+Therefore, the correct answer is x < 8.75.
+Option A: using a non-strict boundary or reversing the inequality.
+Option C: using a non-strict boundary or reversing the inequality.
+Option D: using a non-strict boundary or reversing the inequality."
+59,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 16x + 3 < 12x + 45.,x < 10.5,x ≤ 10.5,x > 10.5,x < 11.5,A,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+4x < 42
+x < 10.5.
+Therefore, the correct answer is x < 10.5.
+Option B: using a non-strict boundary or reversing the inequality.
+Option C: using a non-strict boundary or reversing the inequality.
+Option D: using a non-strict boundary or reversing the inequality."
+60,Mathematics,8. Linear Inequations,Ex. 6,Solved-Example Variation,Solve 17x + 5 < 13x + 48.,x ≤ 10.75,x > 10.75,x < 11.75,x < 10.75,D,1,3,Move the x-terms to one side and constants to the other before dividing.,"Correct working:
+4x < 43
+x < 10.75.
+Therefore, the correct answer is x < 10.75.
+Option A: using a non-strict boundary or reversing the inequality.
+Option B: using a non-strict boundary or reversing the inequality.
+Option C: using a non-strict boundary or reversing the inequality."
+61,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (5x − 2)/2 ≥ (x + 3)/4 − 1.,x ≥ 0.3333333333333333,x > 0.3333333333333333,x ≤ 0.3333333333333333,x ≥ 1.3333333333333333,A,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 5x−2 over 2 ≥ (x+3−4)/4.
+Multiplying by 24>0: 4(5x−2) ≥ 2(x+3−4).
+Thus 18x ≥ 6, so x ≥ 0.3333333333333333.
+Therefore, the correct answer is x ≥ 0.3333333333333333.
+Option B: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option C: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option D: dropping the positive denominator factor or reversing a nonnegative multiplication."
+62,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (7x − 3)/2 ≥ (x + 2)/5 − 1.,x > 0.2727272727272727,x ≤ 0.2727272727272727,x ≥ 1.2727272727272727,x ≥ 0.2727272727272727,D,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 7x−3 over 2 ≥ (x+2−5)/5.
+Multiplying by 25>0: 5(7x−3) ≥ 2(x+2−5).
+Thus 33x ≥ 9, so x ≥ 0.2727272727272727.
+Therefore, the correct answer is x ≥ 0.2727272727272727.
+Option A: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option B: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option C: dropping the positive denominator factor or reversing a nonnegative multiplication."
+63,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (9x − 1)/2 ≥ (x + 4)/6 − 1.,x ≤ 0.038461538461538464,x ≥ 1.0384615384615385,x ≥ 0.038461538461538464,x > 0.038461538461538464,C,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 9x−1 over 2 ≥ (x+4−6)/6.
+Multiplying by 26>0: 6(9x−1) ≥ 2(x+4−6).
+Thus 52x ≥ 2, so x ≥ 0.038461538461538464.
+Therefore, the correct answer is x ≥ 0.038461538461538464.
+Option A: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option B: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option D: dropping the positive denominator factor or reversing a nonnegative multiplication."
+64,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (8x − 2)/2 ≥ (x + 5)/7 − 1.,x ≥ 1.1851851851851851,x ≥ 0.18518518518518517,x > 0.18518518518518517,x ≤ 0.18518518518518517,B,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 8x−2 over 2 ≥ (x+5−7)/7.
+Multiplying by 27>0: 7(8x−2) ≥ 2(x+5−7).
+Thus 54x ≥ 10, so x ≥ 0.18518518518518517.
+Therefore, the correct answer is x ≥ 0.18518518518518517.
+Option A: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option C: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option D: dropping the positive denominator factor or reversing a nonnegative multiplication."
+65,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (11x − 3)/2 ≥ (x + 6)/8 − 1.,x ≥ 0.23255813953488372,x > 0.23255813953488372,x ≤ 0.23255813953488372,x ≥ 1.2325581395348837,A,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 11x−3 over 2 ≥ (x+6−8)/8.
+Multiplying by 28>0: 8(11x−3) ≥ 2(x+6−8).
+Thus 86x ≥ 20, so x ≥ 0.23255813953488372.
+Therefore, the correct answer is x ≥ 0.23255813953488372.
+Option B: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option C: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option D: dropping the positive denominator factor or reversing a nonnegative multiplication."
+66,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (13x − 1)/2 ≥ (x + 7)/9 − 1.,x > 0.043478260869565216,x ≤ 0.043478260869565216,x ≥ 1.0434782608695652,x ≥ 0.043478260869565216,D,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 13x−1 over 2 ≥ (x+7−9)/9.
+Multiplying by 29>0: 9(13x−1) ≥ 2(x+7−9).
+Thus 115x ≥ 5, so x ≥ 0.043478260869565216.
+Therefore, the correct answer is x ≥ 0.043478260869565216.
+Option A: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option B: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option C: dropping the positive denominator factor or reversing a nonnegative multiplication."
+67,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (10x − 4)/2 ≥ (x + 3)/5 − 1.,x ≤ 0.3333333333333333,x ≥ 1.3333333333333333,x ≥ 0.3333333333333333,x > 0.3333333333333333,C,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 10x−4 over 2 ≥ (x+3−5)/5.
+Multiplying by 25>0: 5(10x−4) ≥ 2(x+3−5).
+Thus 48x ≥ 16, so x ≥ 0.3333333333333333.
+Therefore, the correct answer is x ≥ 0.3333333333333333.
+Option A: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option B: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option D: dropping the positive denominator factor or reversing a nonnegative multiplication."
+68,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (12x − 2)/2 ≥ (x + 5)/6 − 1.,x ≥ 1.1428571428571428,x ≥ 0.14285714285714285,x > 0.14285714285714285,x ≤ 0.14285714285714285,B,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 12x−2 over 2 ≥ (x+5−6)/6.
+Multiplying by 26>0: 6(12x−2) ≥ 2(x+5−6).
+Thus 70x ≥ 10, so x ≥ 0.14285714285714285.
+Therefore, the correct answer is x ≥ 0.14285714285714285.
+Option A: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option C: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option D: dropping the positive denominator factor or reversing a nonnegative multiplication."
+69,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (14x − 3)/2 ≥ (x + 4)/7 − 1.,x ≥ 0.15625,x > 0.15625,x ≤ 0.15625,x ≥ 1.15625,A,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 14x−3 over 2 ≥ (x+4−7)/7.
+Multiplying by 27>0: 7(14x−3) ≥ 2(x+4−7).
+Thus 96x ≥ 15, so x ≥ 0.15625.
+Therefore, the correct answer is x ≥ 0.15625.
+Option B: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option C: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option D: dropping the positive denominator factor or reversing a nonnegative multiplication."
+70,Mathematics,8. Linear Inequations,Ex. 7,Solved-Example Variation,Solve (15x − 1)/2 ≥ (x + 6)/8 − 1.,x > 0.03389830508474576,x ≤ 0.03389830508474576,x ≥ 1.0338983050847457,x ≥ 0.03389830508474576,D,2,5,Clear the positive denominators first; multiplying by a positive quantity does not reverse the inequality.,"Correct working:
+Subtracting/combining the right side gives 15x−1 over 2 ≥ (x+6−8)/8.
+Multiplying by 28>0: 8(15x−1) ≥ 2(x+6−8).
+Thus 118x ≥ 4, so x ≥ 0.03389830508474576.
+Therefore, the correct answer is x ≥ 0.03389830508474576.
+Option A: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option B: dropping the positive denominator factor or reversing a nonnegative multiplication.
+Option C: dropping the positive denominator factor or reversing a nonnegative multiplication."
+71,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 2 times its breadth. If its perimeter is at least 120 cm, what is the minimum possible breadth?",breadth ≥ 20 cm,breadth > 20 cm,breadth ≥ 10 cm,breadth ≤ 20 cm,A,1,3,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=2x.
+2(2x+x)≥120
+2(3)x≥120
+x≥20.
+Therefore, the correct answer is breadth ≥ 20 cm.
+Option B: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option C: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option D: using a strict inequality instead of 'at least' or mishandling the factor 2."
+72,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 4 times its breadth. If its perimeter is at least 180 cm, what is the minimum possible breadth?",breadth > 18 cm,breadth ≥ 9 cm,breadth ≤ 18 cm,breadth ≥ 18 cm,D,1,3,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=4x.
+2(4x+x)≥180
+2(5)x≥180
+x≥18.
+Therefore, the correct answer is breadth ≥ 18 cm.
+Option A: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option B: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option C: using a strict inequality instead of 'at least' or mishandling the factor 2."
+73,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 5 times its breadth. If its perimeter is at least 240 cm, what is the minimum possible breadth?",breadth ≥ 10 cm,breadth ≤ 20 cm,breadth ≥ 20 cm,breadth > 20 cm,C,1,3,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=5x.
+2(5x+x)≥240
+2(6)x≥240
+x≥20.
+Therefore, the correct answer is breadth ≥ 20 cm.
+Option A: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option B: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option D: using a strict inequality instead of 'at least' or mishandling the factor 2."
+74,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 3 times its breadth. If its perimeter is at least 200 cm, what is the minimum possible breadth?",breadth ≤ 25 cm,breadth ≥ 25 cm,breadth > 25 cm,breadth ≥ 12.5 cm,B,1,3,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=3x.
+2(3x+x)≥200
+2(4)x≥200
+x≥25.
+Therefore, the correct answer is breadth ≥ 25 cm.
+Option A: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option C: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option D: using a strict inequality instead of 'at least' or mishandling the factor 2."
+75,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 6 times its breadth. If its perimeter is at least 280 cm, what is the minimum possible breadth?",breadth ≥ 20 cm,breadth > 20 cm,breadth ≥ 10 cm,breadth ≤ 20 cm,A,2,5,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=6x.
+2(6x+x)≥280
+2(7)x≥280
+x≥20.
+Therefore, the correct answer is breadth ≥ 20 cm.
+Option B: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option C: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option D: using a strict inequality instead of 'at least' or mishandling the factor 2."
+76,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 7 times its breadth. If its perimeter is at least 320 cm, what is the minimum possible breadth?",breadth > 20 cm,breadth ≥ 10 cm,breadth ≤ 20 cm,breadth ≥ 20 cm,D,2,5,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=7x.
+2(7x+x)≥320
+2(8)x≥320
+x≥20.
+Therefore, the correct answer is breadth ≥ 20 cm.
+Option A: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option B: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option C: using a strict inequality instead of 'at least' or mishandling the factor 2."
+77,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 8 times its breadth. If its perimeter is at least 360 cm, what is the minimum possible breadth?",breadth ≥ 10 cm,breadth ≤ 20 cm,breadth ≥ 20 cm,breadth > 20 cm,C,2,5,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=8x.
+2(8x+x)≥360
+2(9)x≥360
+x≥20.
+Therefore, the correct answer is breadth ≥ 20 cm.
+Option A: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option B: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option D: using a strict inequality instead of 'at least' or mishandling the factor 2."
+78,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 9 times its breadth. If its perimeter is at least 400 cm, what is the minimum possible breadth?",breadth ≤ 20 cm,breadth ≥ 20 cm,breadth > 20 cm,breadth ≥ 10 cm,B,2,5,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=9x.
+2(9x+x)≥400
+2(10)x≥400
+x≥20.
+Therefore, the correct answer is breadth ≥ 20 cm.
+Option A: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option C: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option D: using a strict inequality instead of 'at least' or mishandling the factor 2."
+79,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 10 times its breadth. If its perimeter is at least 440 cm, what is the minimum possible breadth?",breadth ≥ 20 cm,breadth > 20 cm,breadth ≥ 10 cm,breadth ≤ 20 cm,A,2,5,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=10x.
+2(10x+x)≥440
+2(11)x≥440
+x≥20.
+Therefore, the correct answer is breadth ≥ 20 cm.
+Option B: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option C: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option D: using a strict inequality instead of 'at least' or mishandling the factor 2."
+80,Mathematics,8. Linear Inequations,Ex. 8,Solved-Example Variation,"The length of a rectangle is 11 times its breadth. If its perimeter is at least 480 cm, what is the minimum possible breadth?",breadth > 20 cm,breadth ≥ 10 cm,breadth ≤ 20 cm,breadth ≥ 20 cm,D,2,5,"Express length in terms of breadth, substitute in the perimeter formula, and use ≥ for 'at least'.","Correct working:
+Let breadth=x cm; length=11x.
+2(11x+x)≥480
+2(12)x≥480
+x≥20.
+Therefore, the correct answer is breadth ≥ 20 cm.
+Option A: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option B: using a strict inequality instead of 'at least' or mishandling the factor 2.
+Option C: using a strict inequality instead of 'at least' or mishandling the factor 2."
+81,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 4x − 12 ≥ 0, which graphical description is correct?",x ≥ 3; shade to the right of the vertical line x=3,x ≤ 3; shade left,x > 3; shade right,x ≥ 3; shade left,A,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+4x−12≥0 ⇒ 4x≥12 ⇒ x≥3.
+The boundary is x=3 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 3; shade to the right of the vertical line x=3.
+Option B: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option C: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option D: choosing the wrong side of the vertical boundary or omitting the included boundary."
+82,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 5x − 15 ≥ 0, which graphical description is correct?",x ≤ 3; shade left,x > 3; shade right,x ≥ 3; shade left,x ≥ 3; shade to the right of the vertical line x=3,D,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+5x−15≥0 ⇒ 5x≥15 ⇒ x≥3.
+The boundary is x=3 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 3; shade to the right of the vertical line x=3.
+Option A: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option B: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option C: choosing the wrong side of the vertical boundary or omitting the included boundary."
+83,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 6x − 24 ≥ 0, which graphical description is correct?",x > 4; shade right,x ≥ 4; shade left,x ≥ 4; shade to the right of the vertical line x=4,x ≤ 4; shade left,C,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+6x−24≥0 ⇒ 6x≥24 ⇒ x≥4.
+The boundary is x=4 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 4; shade to the right of the vertical line x=4.
+Option A: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option B: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option D: choosing the wrong side of the vertical boundary or omitting the included boundary."
+84,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 7x − 21 ≥ 0, which graphical description is correct?",x ≥ 3; shade left,x ≥ 3; shade to the right of the vertical line x=3,x ≤ 3; shade left,x > 3; shade right,B,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+7x−21≥0 ⇒ 7x≥21 ⇒ x≥3.
+The boundary is x=3 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 3; shade to the right of the vertical line x=3.
+Option A: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option C: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option D: choosing the wrong side of the vertical boundary or omitting the included boundary."
+85,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 8x − 40 ≥ 0, which graphical description is correct?",x ≥ 5; shade to the right of the vertical line x=5,x ≤ 5; shade left,x > 5; shade right,x ≥ 5; shade left,A,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+8x−40≥0 ⇒ 8x≥40 ⇒ x≥5.
+The boundary is x=5 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 5; shade to the right of the vertical line x=5.
+Option B: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option C: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option D: choosing the wrong side of the vertical boundary or omitting the included boundary."
+86,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 9x − 27 ≥ 0, which graphical description is correct?",x ≤ 3; shade left,x > 3; shade right,x ≥ 3; shade left,x ≥ 3; shade to the right of the vertical line x=3,D,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+9x−27≥0 ⇒ 9x≥27 ⇒ x≥3.
+The boundary is x=3 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 3; shade to the right of the vertical line x=3.
+Option A: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option B: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option C: choosing the wrong side of the vertical boundary or omitting the included boundary."
+87,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 10x − 50 ≥ 0, which graphical description is correct?",x > 5; shade right,x ≥ 5; shade left,x ≥ 5; shade to the right of the vertical line x=5,x ≤ 5; shade left,C,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+10x−50≥0 ⇒ 10x≥50 ⇒ x≥5.
+The boundary is x=5 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 5; shade to the right of the vertical line x=5.
+Option A: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option B: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option D: choosing the wrong side of the vertical boundary or omitting the included boundary."
+88,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 11x − 33 ≥ 0, which graphical description is correct?",x ≥ 3; shade left,x ≥ 3; shade to the right of the vertical line x=3,x ≤ 3; shade left,x > 3; shade right,B,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+11x−33≥0 ⇒ 11x≥33 ⇒ x≥3.
+The boundary is x=3 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 3; shade to the right of the vertical line x=3.
+Option A: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option C: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option D: choosing the wrong side of the vertical boundary or omitting the included boundary."
+89,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 12x − 36 ≥ 0, which graphical description is correct?",x ≥ 3; shade to the right of the vertical line x=3,x ≤ 3; shade left,x > 3; shade right,x ≥ 3; shade left,A,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+12x−36≥0 ⇒ 12x≥36 ⇒ x≥3.
+The boundary is x=3 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 3; shade to the right of the vertical line x=3.
+Option B: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option C: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option D: choosing the wrong side of the vertical boundary or omitting the included boundary."
+90,Mathematics,8. Linear Inequations,Ex. 11,Solved-Example Variation,"For the inequality 13x − 65 ≥ 0, which graphical description is correct?",x ≤ 5; shade left,x > 5; shade right,x ≥ 5; shade left,x ≥ 5; shade to the right of the vertical line x=5,D,2,5,"Solve the one-variable inequality first, then locate the corresponding vertical boundary.","Correct working:
+13x−65≥0 ⇒ 13x≥65 ⇒ x≥5.
+The boundary is x=5 and is included, so use a solid line; values to the right satisfy the inequality.
+Therefore, the correct answer is x ≥ 5; shade to the right of the vertical line x=5.
+Option A: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option B: choosing the wrong side of the vertical boundary or omitting the included boundary.
+Option C: choosing the wrong side of the vertical boundary or omitting the included boundary."
+91,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 4 in the Cartesian plane?,"Below y=4, excluding the line; use a dotted line","Above y=4, excluding the line","Below y=4, including the line","Above y=4, including the line",A,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=4. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<4 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=4, excluding the line; use a dotted line.
+Option B: using the wrong half-plane or treating a strict inequality as inclusive.
+Option C: using the wrong half-plane or treating a strict inequality as inclusive.
+Option D: using the wrong half-plane or treating a strict inequality as inclusive."
+92,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 6 in the Cartesian plane?,"Above y=6, excluding the line","Below y=6, including the line","Above y=6, including the line","Below y=6, excluding the line; use a dotted line",D,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=6. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<6 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=6, excluding the line; use a dotted line.
+Option A: using the wrong half-plane or treating a strict inequality as inclusive.
+Option B: using the wrong half-plane or treating a strict inequality as inclusive.
+Option C: using the wrong half-plane or treating a strict inequality as inclusive."
+93,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 8 in the Cartesian plane?,"Below y=8, including the line","Above y=8, including the line","Below y=8, excluding the line; use a dotted line","Above y=8, excluding the line",C,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=8. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<8 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=8, excluding the line; use a dotted line.
+Option A: using the wrong half-plane or treating a strict inequality as inclusive.
+Option B: using the wrong half-plane or treating a strict inequality as inclusive.
+Option D: using the wrong half-plane or treating a strict inequality as inclusive."
+94,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 9 in the Cartesian plane?,"Above y=9, including the line","Below y=9, excluding the line; use a dotted line","Above y=9, excluding the line","Below y=9, including the line",B,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=9. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<9 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=9, excluding the line; use a dotted line.
+Option A: using the wrong half-plane or treating a strict inequality as inclusive.
+Option C: using the wrong half-plane or treating a strict inequality as inclusive.
+Option D: using the wrong half-plane or treating a strict inequality as inclusive."
+95,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 11 in the Cartesian plane?,"Below y=11, excluding the line; use a dotted line","Above y=11, excluding the line","Below y=11, including the line","Above y=11, including the line",A,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=11. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<11 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=11, excluding the line; use a dotted line.
+Option B: using the wrong half-plane or treating a strict inequality as inclusive.
+Option C: using the wrong half-plane or treating a strict inequality as inclusive.
+Option D: using the wrong half-plane or treating a strict inequality as inclusive."
+96,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 13 in the Cartesian plane?,"Above y=13, excluding the line","Below y=13, including the line","Above y=13, including the line","Below y=13, excluding the line; use a dotted line",D,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=13. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<13 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=13, excluding the line; use a dotted line.
+Option A: using the wrong half-plane or treating a strict inequality as inclusive.
+Option B: using the wrong half-plane or treating a strict inequality as inclusive.
+Option C: using the wrong half-plane or treating a strict inequality as inclusive."
+97,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 15 in the Cartesian plane?,"Below y=15, including the line","Above y=15, including the line","Below y=15, excluding the line; use a dotted line","Above y=15, excluding the line",C,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=15. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<15 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=15, excluding the line; use a dotted line.
+Option A: using the wrong half-plane or treating a strict inequality as inclusive.
+Option B: using the wrong half-plane or treating a strict inequality as inclusive.
+Option D: using the wrong half-plane or treating a strict inequality as inclusive."
+98,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 17 in the Cartesian plane?,"Above y=17, including the line","Below y=17, excluding the line; use a dotted line","Above y=17, excluding the line","Below y=17, including the line",B,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=17. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<17 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=17, excluding the line; use a dotted line.
+Option A: using the wrong half-plane or treating a strict inequality as inclusive.
+Option C: using the wrong half-plane or treating a strict inequality as inclusive.
+Option D: using the wrong half-plane or treating a strict inequality as inclusive."
+99,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 19 in the Cartesian plane?,"Below y=19, excluding the line; use a dotted line","Above y=19, excluding the line","Below y=19, including the line","Above y=19, including the line",A,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=19. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<19 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=19, excluding the line; use a dotted line.
+Option B: using the wrong half-plane or treating a strict inequality as inclusive.
+Option C: using the wrong half-plane or treating a strict inequality as inclusive.
+Option D: using the wrong half-plane or treating a strict inequality as inclusive."
+100,Mathematics,8. Linear Inequations,Ex. 12,Solved-Example Variation,Which region represents the inequality y < 21 in the Cartesian plane?,"Above y=21, excluding the line","Below y=21, including the line","Above y=21, including the line","Below y=21, excluding the line; use a dotted line",D,1,3,"Draw y={k}, test a point such as (0,0), and remember that '<' excludes the boundary.","Correct working:
+The boundary is y=21. Since the inequality is strict (<), the boundary is excluded and is drawn dotted.
+Testing (0,0): 0<21 is true, so the region below the line is the solution region.
+Therefore, the correct answer is Below y=21, excluding the line; use a dotted line.
+Option A: using the wrong half-plane or treating a strict inequality as inclusive.
+Option B: using the wrong half-plane or treating a strict inequality as inclusive.
+Option C: using the wrong half-plane or treating a strict inequality as inclusive."
+101,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 2x + 3y > 7?,"the half-plane 2x+3y>7, excluding the line 2x+3y=7; dotted boundary","the half-plane containing (0,0), including the line","the half-plane 2x+3y<7, excluding the line","the half-plane 2x+3y>7, including the line",A,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 2x+3y=7. At (0,0), the left side is 0, so 0>7 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 2x+3y>7, excluding the line 2x+3y=7; dotted boundary.
+Option B: using the half-plane containing the origin or including a strict boundary.
+Option C: using the half-plane containing the origin or including a strict boundary.
+Option D: using the half-plane containing the origin or including a strict boundary."
+102,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 4x + 5y > 9?,"the half-plane containing (0,0), including the line","the half-plane 4x+5y<9, excluding the line","the half-plane 4x+5y>9, including the line","the half-plane 4x+5y>9, excluding the line 4x+5y=9; dotted boundary",D,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 4x+5y=9. At (0,0), the left side is 0, so 0>9 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 4x+5y>9, excluding the line 4x+5y=9; dotted boundary.
+Option A: using the half-plane containing the origin or including a strict boundary.
+Option B: using the half-plane containing the origin or including a strict boundary.
+Option C: using the half-plane containing the origin or including a strict boundary."
+103,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 3x + 6y > 10?,"the half-plane 3x+6y<10, excluding the line","the half-plane 3x+6y>10, including the line","the half-plane 3x+6y>10, excluding the line 3x+6y=10; dotted boundary","the half-plane containing (0,0), including the line",C,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 3x+6y=10. At (0,0), the left side is 0, so 0>10 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 3x+6y>10, excluding the line 3x+6y=10; dotted boundary.
+Option A: using the half-plane containing the origin or including a strict boundary.
+Option B: using the half-plane containing the origin or including a strict boundary.
+Option D: using the half-plane containing the origin or including a strict boundary."
+104,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 5x + 2y > 8?,"the half-plane 5x+2y>8, including the line","the half-plane 5x+2y>8, excluding the line 5x+2y=8; dotted boundary","the half-plane containing (0,0), including the line","the half-plane 5x+2y<8, excluding the line",B,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 5x+2y=8. At (0,0), the left side is 0, so 0>8 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 5x+2y>8, excluding the line 5x+2y=8; dotted boundary.
+Option A: using the half-plane containing the origin or including a strict boundary.
+Option C: using the half-plane containing the origin or including a strict boundary.
+Option D: using the half-plane containing the origin or including a strict boundary."
+105,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 6x + 4y > 13?,"the half-plane 6x+4y>13, excluding the line 6x+4y=13; dotted boundary","the half-plane containing (0,0), including the line","the half-plane 6x+4y<13, excluding the line","the half-plane 6x+4y>13, including the line",A,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 6x+4y=13. At (0,0), the left side is 0, so 0>13 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 6x+4y>13, excluding the line 6x+4y=13; dotted boundary.
+Option B: using the half-plane containing the origin or including a strict boundary.
+Option C: using the half-plane containing the origin or including a strict boundary.
+Option D: using the half-plane containing the origin or including a strict boundary."
+106,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 7x + 3y > 11?,"the half-plane containing (0,0), including the line","the half-plane 7x+3y<11, excluding the line","the half-plane 7x+3y>11, including the line","the half-plane 7x+3y>11, excluding the line 7x+3y=11; dotted boundary",D,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 7x+3y=11. At (0,0), the left side is 0, so 0>11 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 7x+3y>11, excluding the line 7x+3y=11; dotted boundary.
+Option A: using the half-plane containing the origin or including a strict boundary.
+Option B: using the half-plane containing the origin or including a strict boundary.
+Option C: using the half-plane containing the origin or including a strict boundary."
+107,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 8x + 5y > 17?,"the half-plane 8x+5y<17, excluding the line","the half-plane 8x+5y>17, including the line","the half-plane 8x+5y>17, excluding the line 8x+5y=17; dotted boundary","the half-plane containing (0,0), including the line",C,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 8x+5y=17. At (0,0), the left side is 0, so 0>17 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 8x+5y>17, excluding the line 8x+5y=17; dotted boundary.
+Option A: using the half-plane containing the origin or including a strict boundary.
+Option B: using the half-plane containing the origin or including a strict boundary.
+Option D: using the half-plane containing the origin or including a strict boundary."
+108,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 9x + 2y > 14?,"the half-plane 9x+2y>14, including the line","the half-plane 9x+2y>14, excluding the line 9x+2y=14; dotted boundary","the half-plane containing (0,0), including the line","the half-plane 9x+2y<14, excluding the line",B,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 9x+2y=14. At (0,0), the left side is 0, so 0>14 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 9x+2y>14, excluding the line 9x+2y=14; dotted boundary.
+Option A: using the half-plane containing the origin or including a strict boundary.
+Option C: using the half-plane containing the origin or including a strict boundary.
+Option D: using the half-plane containing the origin or including a strict boundary."
+109,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 10x + 3y > 16?,"the half-plane 10x+3y>16, excluding the line 10x+3y=16; dotted boundary","the half-plane containing (0,0), including the line","the half-plane 10x+3y<16, excluding the line","the half-plane 10x+3y>16, including the line",A,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 10x+3y=16. At (0,0), the left side is 0, so 0>16 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 10x+3y>16, excluding the line 10x+3y=16; dotted boundary.
+Option B: using the half-plane containing the origin or including a strict boundary.
+Option C: using the half-plane containing the origin or including a strict boundary.
+Option D: using the half-plane containing the origin or including a strict boundary."
+110,Mathematics,8. Linear Inequations,Ex. 13,Solved-Example Variation,Which graphical description correctly represents 11x + 4y > 19?,"the half-plane containing (0,0), including the line","the half-plane 11x+4y<19, excluding the line","the half-plane 11x+4y>19, including the line","the half-plane 11x+4y>19, excluding the line 11x+4y=19; dotted boundary",D,2,5,"Use the boundary line, test a point not on it, and use a dotted boundary for a strict inequality.","Correct working:
+The boundary is 11x+4y=19. At (0,0), the left side is 0, so 0>19 is false.
+Hence the solution is the opposite half-plane. Because '>' is strict, the boundary is dotted and excluded.
+Therefore, the correct answer is the half-plane 11x+4y>19, excluding the line 11x+4y=19; dotted boundary.
+Option A: using the half-plane containing the origin or including a strict boundary.
+Option B: using the half-plane containing the origin or including a strict boundary.
+Option C: using the half-plane containing the origin or including a strict boundary."
+111,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 3x + 2y ≤ 24, x ≥ 2, y ≥ 4, which description gives the common solution region?","the region satisfying 3x+2y≤24, x≥2, and y≥4",the region satisfying all three boundary lines only,"the region satisfying 3x+2y≥24, x≤2, y≤4","the region satisfying 3x+2y≤24, x≤2, y≤4",A,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 3x+2y=24, to the right of x=2, and above y=4.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 3x+2y≤24, x≥2, and y≥4.
+Option B: using the wrong side for one or more inequalities or omitting included boundaries.
+Option C: using the wrong side for one or more inequalities or omitting included boundaries.
+Option D: using the wrong side for one or more inequalities or omitting included boundaries."
+112,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 4x + 3y ≤ 36, x ≥ 3, y ≥ 2, which description gives the common solution region?",the region satisfying all three boundary lines only,"the region satisfying 4x+3y≥36, x≤3, y≤2","the region satisfying 4x+3y≤36, x≤3, y≤2","the region satisfying 4x+3y≤36, x≥3, and y≥2",D,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 4x+3y=36, to the right of x=3, and above y=2.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 4x+3y≤36, x≥3, and y≥2.
+Option A: using the wrong side for one or more inequalities or omitting included boundaries.
+Option B: using the wrong side for one or more inequalities or omitting included boundaries.
+Option C: using the wrong side for one or more inequalities or omitting included boundaries."
+113,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 5x + 2y ≤ 40, x ≥ 2, y ≥ 5, which description gives the common solution region?","the region satisfying 5x+2y≥40, x≤2, y≤5","the region satisfying 5x+2y≤40, x≤2, y≤5","the region satisfying 5x+2y≤40, x≥2, and y≥5",the region satisfying all three boundary lines only,C,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 5x+2y=40, to the right of x=2, and above y=5.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 5x+2y≤40, x≥2, and y≥5.
+Option A: using the wrong side for one or more inequalities or omitting included boundaries.
+Option B: using the wrong side for one or more inequalities or omitting included boundaries.
+Option D: using the wrong side for one or more inequalities or omitting included boundaries."
+114,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 6x + 4y ≤ 48, x ≥ 3, y ≥ 3, which description gives the common solution region?","the region satisfying 6x+4y≤48, x≤3, y≤3","the region satisfying 6x+4y≤48, x≥3, and y≥3",the region satisfying all three boundary lines only,"the region satisfying 6x+4y≥48, x≤3, y≤3",B,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 6x+4y=48, to the right of x=3, and above y=3.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 6x+4y≤48, x≥3, and y≥3.
+Option A: using the wrong side for one or more inequalities or omitting included boundaries.
+Option C: using the wrong side for one or more inequalities or omitting included boundaries.
+Option D: using the wrong side for one or more inequalities or omitting included boundaries."
+115,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 7x + 3y ≤ 42, x ≥ 2, y ≥ 4, which description gives the common solution region?","the region satisfying 7x+3y≤42, x≥2, and y≥4",the region satisfying all three boundary lines only,"the region satisfying 7x+3y≥42, x≤2, y≤4","the region satisfying 7x+3y≤42, x≤2, y≤4",A,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 7x+3y=42, to the right of x=2, and above y=4.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 7x+3y≤42, x≥2, and y≥4.
+Option B: using the wrong side for one or more inequalities or omitting included boundaries.
+Option C: using the wrong side for one or more inequalities or omitting included boundaries.
+Option D: using the wrong side for one or more inequalities or omitting included boundaries."
+116,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 8x + 5y ≤ 60, x ≥ 4, y ≥ 3, which description gives the common solution region?",the region satisfying all three boundary lines only,"the region satisfying 8x+5y≥60, x≤4, y≤3","the region satisfying 8x+5y≤60, x≤4, y≤3","the region satisfying 8x+5y≤60, x≥4, and y≥3",D,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 8x+5y=60, to the right of x=4, and above y=3.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 8x+5y≤60, x≥4, and y≥3.
+Option A: using the wrong side for one or more inequalities or omitting included boundaries.
+Option B: using the wrong side for one or more inequalities or omitting included boundaries.
+Option C: using the wrong side for one or more inequalities or omitting included boundaries."
+117,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 9x + 2y ≤ 54, x ≥ 3, y ≥ 5, which description gives the common solution region?","the region satisfying 9x+2y≥54, x≤3, y≤5","the region satisfying 9x+2y≤54, x≤3, y≤5","the region satisfying 9x+2y≤54, x≥3, and y≥5",the region satisfying all three boundary lines only,C,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 9x+2y=54, to the right of x=3, and above y=5.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 9x+2y≤54, x≥3, and y≥5.
+Option A: using the wrong side for one or more inequalities or omitting included boundaries.
+Option B: using the wrong side for one or more inequalities or omitting included boundaries.
+Option D: using the wrong side for one or more inequalities or omitting included boundaries."
+118,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 10x + 3y ≤ 70, x ≥ 2, y ≥ 6, which description gives the common solution region?","the region satisfying 10x+3y≤70, x≤2, y≤6","the region satisfying 10x+3y≤70, x≥2, and y≥6",the region satisfying all three boundary lines only,"the region satisfying 10x+3y≥70, x≤2, y≤6",B,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 10x+3y=70, to the right of x=2, and above y=6.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 10x+3y≤70, x≥2, and y≥6.
+Option A: using the wrong side for one or more inequalities or omitting included boundaries.
+Option C: using the wrong side for one or more inequalities or omitting included boundaries.
+Option D: using the wrong side for one or more inequalities or omitting included boundaries."
+119,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 11x + 4y ≤ 66, x ≥ 3, y ≥ 4, which description gives the common solution region?","the region satisfying 11x+4y≤66, x≥3, and y≥4",the region satisfying all three boundary lines only,"the region satisfying 11x+4y≥66, x≤3, y≤4","the region satisfying 11x+4y≤66, x≤3, y≤4",A,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 11x+4y=66, to the right of x=3, and above y=4.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 11x+4y≤66, x≥3, and y≥4.
+Option B: using the wrong side for one or more inequalities or omitting included boundaries.
+Option C: using the wrong side for one or more inequalities or omitting included boundaries.
+Option D: using the wrong side for one or more inequalities or omitting included boundaries."
+120,Mathematics,8. Linear Inequations,Ex. 14,Solved-Example Variation,"For the system 12x + 5y ≤ 84, x ≥ 4, y ≥ 5, which description gives the common solution region?",the region satisfying all three boundary lines only,"the region satisfying 12x+5y≥84, x≤4, y≤5","the region satisfying 12x+5y≤84, x≤4, y≤5","the region satisfying 12x+5y≤84, x≥4, and y≥5",D,2,5,Graph each inequality separately and take only the common shaded region.,"Correct working:
+Shade below 12x+5y=84, to the right of x=4, and above y=5.
+The common shaded intersection is the solution region, including all three boundary lines because all inequalities are non-strict.
+Therefore, the correct answer is the region satisfying 12x+5y≤84, x≥4, and y≥5.
+Option A: using the wrong side for one or more inequalities or omitting included boundaries.
+Option B: using the wrong side for one or more inequalities or omitting included boundaries.
+Option C: using the wrong side for one or more inequalities or omitting included boundaries."
+121,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 3x + 4y ≤ 36, x ≥ 0, y ≥ 0, which region is the graphical solution?","the first-quadrant region on or below 3x+4y=36, including the axes and the boundary line",the region above 3x+4y=36 in the first quadrant,the whole plane below the line,the first-quadrant region below the line but excluding the line,A,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+3x+4y≤36 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 3x+4y=36, including the axes and the boundary line.
+Option B: forgetting a non-negativity restriction or excluding the boundary.
+Option C: forgetting a non-negativity restriction or excluding the boundary.
+Option D: forgetting a non-negativity restriction or excluding the boundary."
+122,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 5x + 2y ≤ 40, x ≥ 0, y ≥ 0, which region is the graphical solution?",the region above 5x+2y=40 in the first quadrant,the whole plane below the line,the first-quadrant region below the line but excluding the line,"the first-quadrant region on or below 5x+2y=40, including the axes and the boundary line",D,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+5x+2y≤40 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 5x+2y=40, including the axes and the boundary line.
+Option A: forgetting a non-negativity restriction or excluding the boundary.
+Option B: forgetting a non-negativity restriction or excluding the boundary.
+Option C: forgetting a non-negativity restriction or excluding the boundary."
+123,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 4x + 7y ≤ 56, x ≥ 0, y ≥ 0, which region is the graphical solution?",the whole plane below the line,the first-quadrant region below the line but excluding the line,"the first-quadrant region on or below 4x+7y=56, including the axes and the boundary line",the region above 4x+7y=56 in the first quadrant,C,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+4x+7y≤56 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 4x+7y=56, including the axes and the boundary line.
+Option A: forgetting a non-negativity restriction or excluding the boundary.
+Option B: forgetting a non-negativity restriction or excluding the boundary.
+Option D: forgetting a non-negativity restriction or excluding the boundary."
+124,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 6x + 3y ≤ 48, x ≥ 0, y ≥ 0, which region is the graphical solution?",the first-quadrant region below the line but excluding the line,"the first-quadrant region on or below 6x+3y=48, including the axes and the boundary line",the region above 6x+3y=48 in the first quadrant,the whole plane below the line,B,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+6x+3y≤48 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 6x+3y=48, including the axes and the boundary line.
+Option A: forgetting a non-negativity restriction or excluding the boundary.
+Option C: forgetting a non-negativity restriction or excluding the boundary.
+Option D: forgetting a non-negativity restriction or excluding the boundary."
+125,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 7x + 5y ≤ 70, x ≥ 0, y ≥ 0, which region is the graphical solution?","the first-quadrant region on or below 7x+5y=70, including the axes and the boundary line",the region above 7x+5y=70 in the first quadrant,the whole plane below the line,the first-quadrant region below the line but excluding the line,A,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+7x+5y≤70 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 7x+5y=70, including the axes and the boundary line.
+Option B: forgetting a non-negativity restriction or excluding the boundary.
+Option C: forgetting a non-negativity restriction or excluding the boundary.
+Option D: forgetting a non-negativity restriction or excluding the boundary."
+126,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 8x + 3y ≤ 64, x ≥ 0, y ≥ 0, which region is the graphical solution?",the region above 8x+3y=64 in the first quadrant,the whole plane below the line,the first-quadrant region below the line but excluding the line,"the first-quadrant region on or below 8x+3y=64, including the axes and the boundary line",D,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+8x+3y≤64 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 8x+3y=64, including the axes and the boundary line.
+Option A: forgetting a non-negativity restriction or excluding the boundary.
+Option B: forgetting a non-negativity restriction or excluding the boundary.
+Option C: forgetting a non-negativity restriction or excluding the boundary."
+127,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 9x + 4y ≤ 72, x ≥ 0, y ≥ 0, which region is the graphical solution?",the whole plane below the line,the first-quadrant region below the line but excluding the line,"the first-quadrant region on or below 9x+4y=72, including the axes and the boundary line",the region above 9x+4y=72 in the first quadrant,C,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+9x+4y≤72 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 9x+4y=72, including the axes and the boundary line.
+Option A: forgetting a non-negativity restriction or excluding the boundary.
+Option B: forgetting a non-negativity restriction or excluding the boundary.
+Option D: forgetting a non-negativity restriction or excluding the boundary."
+128,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 10x + 5y ≤ 90, x ≥ 0, y ≥ 0, which region is the graphical solution?",the first-quadrant region below the line but excluding the line,"the first-quadrant region on or below 10x+5y=90, including the axes and the boundary line",the region above 10x+5y=90 in the first quadrant,the whole plane below the line,B,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+10x+5y≤90 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 10x+5y=90, including the axes and the boundary line.
+Option A: forgetting a non-negativity restriction or excluding the boundary.
+Option C: forgetting a non-negativity restriction or excluding the boundary.
+Option D: forgetting a non-negativity restriction or excluding the boundary."
+129,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 11x + 2y ≤ 66, x ≥ 0, y ≥ 0, which region is the graphical solution?","the first-quadrant region on or below 11x+2y=66, including the axes and the boundary line",the region above 11x+2y=66 in the first quadrant,the whole plane below the line,the first-quadrant region below the line but excluding the line,A,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+11x+2y≤66 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 11x+2y=66, including the axes and the boundary line.
+Option B: forgetting a non-negativity restriction or excluding the boundary.
+Option C: forgetting a non-negativity restriction or excluding the boundary.
+Option D: forgetting a non-negativity restriction or excluding the boundary."
+130,Mathematics,8. Linear Inequations,Ex. 15,Solved-Example Variation,"For 12x + 7y ≤ 84, x ≥ 0, y ≥ 0, which region is the graphical solution?",the region above 12x+7y=84 in the first quadrant,the whole plane below the line,the first-quadrant region below the line but excluding the line,"the first-quadrant region on or below 12x+7y=84, including the axes and the boundary line",D,2,5,Combine the half-plane from the linear inequality with x≥0 and y≥0.,"Correct working:
+12x+7y≤84 gives the half-plane on or below the boundary line containing (0,0).
+x≥0 and y≥0 restrict the region to the first quadrant. Since ≤ includes equality, both axes and the boundary line are included.
+Therefore, the correct answer is the first-quadrant region on or below 12x+7y=84, including the axes and the boundary line.
+Option A: forgetting a non-negativity restriction or excluding the boundary.
+Option B: forgetting a non-negativity restriction or excluding the boundary.
+Option C: forgetting a non-negativity restriction or excluding the boundary."
+131,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 1x + 3y ≤ 12, 2x + 1y ≤ 10, x ≥ 0, y ≥ 0?","the first-quadrant intersection satisfying 1x+3y≤12 and 2x+1y≤10, including both boundary lines",the first-quadrant region satisfying both inequalities with > instead of ≤,the region above both lines in the first quadrant,"the whole intersection of the two half-planes without x≥0,y≥0",A,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 1x+3y≤12 and 2x+1y≤10, including both boundary lines.
+Option B: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option C: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option D: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+132,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 2x + 3y ≤ 18, 3x + 1y ≤ 12, x ≥ 0, y ≥ 0?",the first-quadrant region satisfying both inequalities with > instead of ≤,the region above both lines in the first quadrant,"the whole intersection of the two half-planes without x≥0,y≥0","the first-quadrant intersection satisfying 2x+3y≤18 and 3x+1y≤12, including both boundary lines",D,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 2x+3y≤18 and 3x+1y≤12, including both boundary lines.
+Option A: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option B: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option C: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+133,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 3x + 1y ≤ 15, 1x + 2y ≤ 12, x ≥ 0, y ≥ 0?",the region above both lines in the first quadrant,"the whole intersection of the two half-planes without x≥0,y≥0","the first-quadrant intersection satisfying 3x+1y≤15 and 1x+2y≤12, including both boundary lines",the first-quadrant region satisfying both inequalities with > instead of ≤,C,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 3x+1y≤15 and 1x+2y≤12, including both boundary lines.
+Option A: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option B: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option D: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+134,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 4x + 3y ≤ 24, 2x + 1y ≤ 12, x ≥ 0, y ≥ 0?","the whole intersection of the two half-planes without x≥0,y≥0","the first-quadrant intersection satisfying 4x+3y≤24 and 2x+1y≤12, including both boundary lines",the first-quadrant region satisfying both inequalities with > instead of ≤,the region above both lines in the first quadrant,B,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 4x+3y≤24 and 2x+1y≤12, including both boundary lines.
+Option A: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option C: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option D: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+135,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 5x + 2y ≤ 20, 2x + 4y ≤ 18, x ≥ 0, y ≥ 0?","the first-quadrant intersection satisfying 5x+2y≤20 and 2x+4y≤18, including both boundary lines",the first-quadrant region satisfying both inequalities with > instead of ≤,the region above both lines in the first quadrant,"the whole intersection of the two half-planes without x≥0,y≥0",A,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 5x+2y≤20 and 2x+4y≤18, including both boundary lines.
+Option B: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option C: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option D: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+136,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 3x + 4y ≤ 24, 2x + 1y ≤ 10, x ≥ 0, y ≥ 0?",the first-quadrant region satisfying both inequalities with > instead of ≤,the region above both lines in the first quadrant,"the whole intersection of the two half-planes without x≥0,y≥0","the first-quadrant intersection satisfying 3x+4y≤24 and 2x+1y≤10, including both boundary lines",D,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 3x+4y≤24 and 2x+1y≤10, including both boundary lines.
+Option A: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option B: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option C: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+137,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 4x + 5y ≤ 30, 3x + 2y ≤ 15, x ≥ 0, y ≥ 0?",the region above both lines in the first quadrant,"the whole intersection of the two half-planes without x≥0,y≥0","the first-quadrant intersection satisfying 4x+5y≤30 and 3x+2y≤15, including both boundary lines",the first-quadrant region satisfying both inequalities with > instead of ≤,C,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 4x+5y≤30 and 3x+2y≤15, including both boundary lines.
+Option A: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option B: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option D: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+138,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 6x + 2y ≤ 24, 1x + 3y ≤ 15, x ≥ 0, y ≥ 0?","the whole intersection of the two half-planes without x≥0,y≥0","the first-quadrant intersection satisfying 6x+2y≤24 and 1x+3y≤15, including both boundary lines",the first-quadrant region satisfying both inequalities with > instead of ≤,the region above both lines in the first quadrant,B,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 6x+2y≤24 and 1x+3y≤15, including both boundary lines.
+Option A: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option C: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option D: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+139,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 5x + 4y ≤ 28, 2x + 3y ≤ 18, x ≥ 0, y ≥ 0?","the first-quadrant intersection satisfying 5x+4y≤28 and 2x+3y≤18, including both boundary lines",the first-quadrant region satisfying both inequalities with > instead of ≤,the region above both lines in the first quadrant,"the whole intersection of the two half-planes without x≥0,y≥0",A,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 5x+4y≤28 and 2x+3y≤18, including both boundary lines.
+Option B: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option C: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option D: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+140,Mathematics,8. Linear Inequations,Ex. 16,Solved-Example Variation,"Which graphical region solves 7x + 3y ≤ 35, 4x + 1y ≤ 20, x ≥ 0, y ≥ 0?",the first-quadrant region satisfying both inequalities with > instead of ≤,the region above both lines in the first quadrant,"the whole intersection of the two half-planes without x≥0,y≥0","the first-quadrant intersection satisfying 7x+3y≤35 and 4x+1y≤20, including both boundary lines",D,3,10,"Graph both boundary lines, shade the ≤ side of each, then intersect with the first quadrant.","Correct working:
+Each ≤ inequality gives the half-plane on or below its boundary line. x≥0,y≥0 restrict the graph to the first quadrant.
+The solution is the common intersection of these regions, with both boundary lines included.
+Therefore, the correct answer is the first-quadrant intersection satisfying 7x+3y≤35 and 4x+1y≤20, including both boundary lines.
+Option A: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option B: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions.
+Option C: reversing one inequality, shading the wrong side, or omitting first-quadrant restrictions."
+141,Mathematics,8. Linear Inequations,Definition of inequality,Concept Coverage,Which statement is an inequality?,7x + 2 = 9,4x − 1 < 6,3x + 2 = 0,5x − 4 = 1,B,1,3,"Look for one of the comparison symbols <, >, ≤, or ≥.","Correct working:
+An inequality uses <, >, ≤, or ≥. Thus 4x−1<6 is an inequality.
+Therefore, the correct answer is 4x − 1 < 6.
+Option A: Option A, C, and D use equality signs, so they are equations..
+Option C: Option A, C, and D use equality signs, so they are equations..
+Option D: Option A, C, and D use equality signs, so they are equations.."
+142,Mathematics,8. Linear Inequations,Linear inequality classification,Concept Coverage,Which is a linear inequality in two variables?,x² + y < 5,3x − 2y ≥ 7,xy < 4,x³ − y > 1,B,1,3,A linear expression has variables only to the first power and no products of variables.,"Correct working:
+3x−2y≥7 is linear in x and y; the other expressions contain a square, product, or cube.
+Therefore, the correct answer is 3x − 2y ≥ 7.
+Option A: Option A has x², Option C has xy, and Option D has x³..
+Option C: Option A has x², Option C has xy, and Option D has x³..
+Option D: Option A has x², Option C has xy, and Option D has x³.."
+143,Mathematics,8. Linear Inequations,Strict inequality,Concept Coverage,Which inequality is strict?,2x + y ≤ 8,4x − y ≥ 3,x + 5 > 9,7x + 2 ≤ 11,C,1,3,Strict inequalities use only < or >.,"Correct working:
+The symbol in x+5>9 is >, so it is strict.
+Therefore, the correct answer is x + 5 > 9.
+Option A: Options A, B, and D use ≤ or ≥, which are slack inequalities..
+Option B: Options A, B, and D use ≤ or ≥, which are slack inequalities..
+Option D: Options A, B, and D use ≤ or ≥, which are slack inequalities.."
+144,Mathematics,8. Linear Inequations,Slack inequality,Concept Coverage,Which inequality is slack?,x − 4 < 2,2x + 3y > 9,5x − y ≤ 6,7x + 1 > 0,C,1,3,Slack inequalities use ≤ or ≥.,"Correct working:
+5x−y≤6 contains ≤, so it is slack.
+Therefore, the correct answer is 5x − y ≤ 6.
+Option A: Options A, B, and D use strict symbols..
+Option B: Options A, B, and D use strict symbols..
+Option D: Options A, B, and D use strict symbols.."
+145,Mathematics,8. Linear Inequations,Solution of a linear inequality,Concept Coverage,"For 6x − 9 ≥ 0, which statement describes the solution set?",All real x less than 3/2,All real x greater than or equal to 3/2,Only x=3/2,No real x,B,1,3,Isolate x by moving the constant and dividing by a positive number.,"Correct working:
+6x−9≥0 ⇒ 6x≥9 ⇒ x≥3/2.
+Therefore, the correct answer is All real x greater than or equal to 3/2.
+Option A: Option A reverses the direction; Option C gives only the boundary; Option D ignores valid values..
+Option C: Option A reverses the direction; Option C gives only the boundary; Option D ignores valid values..
+Option D: Option A reverses the direction; Option C gives only the boundary; Option D ignores valid values.."
+146,Mathematics,8. Linear Inequations,Negative multiplication/division rule,Concept Coverage,What happens when both sides of an inequality are divided by a negative number?,The inequality sign stays unchanged,The inequality sign is reversed,Both sides become zero,The inequality becomes an equation,B,1,3,Recall the special rule for multiplication or division by a negative quantity.,"Correct working:
+Dividing both sides by a negative number reverses > to < or < to >, and similarly for ≥ and ≤.
+Therefore, the correct answer is The inequality sign is reversed.
+Option A: Option A ignores the sign-reversal rule; Options C and D do not follow from division by a negative number..
+Option C: Option A ignores the sign-reversal rule; Options C and D do not follow from division by a negative number..
+Option D: Option A ignores the sign-reversal rule; Options C and D do not follow from division by a negative number.."
+147,Mathematics,8. Linear Inequations,Number-line endpoint representation,Concept Coverage,Which number-line mark represents inclusion of an endpoint?,A hollow circle,A filled circle,A dotted vertical line,An arrow only,B,1,3,Use the mark associated with ≤ or ≥.,"Correct working:
+A filled circle indicates that the endpoint belongs to the solution set.
+Therefore, the correct answer is A filled circle.
+Option A: Option A represents exclusion; Options C and D are not the endpoint marker described by the rule..
+Option C: Option A represents exclusion; Options C and D are not the endpoint marker described by the rule..
+Option D: Option A represents exclusion; Options C and D are not the endpoint marker described by the rule.."
+148,Mathematics,8. Linear Inequations,Number-line graph,Concept Coverage,Which number-line representation is appropriate for x < 5?,Filled circle at 5 and shading right,Hollow circle at 5 and shading left,Filled circle at 5 and shading left,Hollow circle at 5 and shading right,B,1,3,The endpoint is excluded and values smaller than 5 are required.,"Correct working:
+Because x<5 is strict, use a hollow circle at 5; shade to the left.
+Therefore, the correct answer is Hollow circle at 5 and shading left.
+Option A: Option A includes 5 and points right; Option C includes 5; Option D points right instead of left..
+Option C: Option A includes 5 and points right; Option C includes 5; Option D points right instead of left..
+Option D: Option A includes 5 and points right; Option C includes 5; Option D points right instead of left.."
+149,Mathematics,8. Linear Inequations,Graph of two-variable inequality,Concept Coverage,"For 2x + 3y ≤ 12, what kind of graph represents the boundary?",A dotted line x=6,A solid line 2x+3y=12,A horizontal line y=12 only,No boundary line,B,1,3,Non-strict inequalities include their boundary.,"Correct working:
+The boundary equation is 2x+3y=12. Since ≤ includes equality, the boundary is drawn as a solid line.
+Therefore, the correct answer is A solid line 2x+3y=12.
+Option A: Option A changes the boundary; Option C ignores x; Option D omits the required boundary..
+Option C: Option A changes the boundary; Option C ignores x; Option D omits the required boundary..
+Option D: Option A changes the boundary; Option C ignores x; Option D omits the required boundary.."
+150,Mathematics,8. Linear Inequations,Strict boundary in two-variable graph,Concept Coverage,"For 4x − y > 8, how should the boundary be drawn?",Solid line because > includes equality,Dotted line because > excludes equality,A vertical line x=8,A horizontal line y=8,B,1,3,Strict inequalities exclude the boundary.,"Correct working:
+The boundary is 4x−y=8 and is drawn dotted because the inequality is strict.
+Therefore, the correct answer is Dotted line because > excludes equality.
+Option A: Option A treats > as inclusive; Options C and D use incorrect boundary equations..
+Option C: Option A treats > as inclusive; Options C and D use incorrect boundary equations..
+Option D: Option A treats > as inclusive; Options C and D use incorrect boundary equations.."
+151,Mathematics,8. Linear Inequations,Half plane,Concept Coverage,What is a half plane?,A set of points on a single point,One of the two regions into which a line divides the Cartesian plane,Only the first quadrant,The boundary line itself,B,1,3,Think about how a line partitions the plane.,"Correct working:
+A line divides the Cartesian plane into two regions, each called a half plane.
+Therefore, the correct answer is One of the two regions into which a line divides the Cartesian plane.
+Option A: Option A is a point; Option C is only one quadrant; Option D is only the boundary..
+Option C: Option A is a point; Option C is only one quadrant; Option D is only the boundary..
+Option D: Option A is a point; Option C is only one quadrant; Option D is only the boundary.."
+152,Mathematics,8. Linear Inequations,Test-point method,Concept Coverage,"To identify the half plane represented by an inequality, which test is sufficient?",Choose any point on the boundary,Choose a point not on the boundary and test it,Use only the x-intercept,Use only the y-intercept,B,1,3,The method uses a test point not lying on the boundary line.,"Correct working:
+A point not on the line is substituted into the inequality. The half plane containing a satisfying point is the solution half plane.
+Therefore, the correct answer is Choose a point not on the boundary and test it.
+Option A: Option A lies on the boundary and cannot distinguish the two sides; Options C and D are insufficient rules..
+Option C: Option A lies on the boundary and cannot distinguish the two sides; Options C and D are insufficient rules..
+Option D: Option A lies on the boundary and cannot distinguish the two sides; Options C and D are insufficient rules.."
+153,Mathematics,8. Linear Inequations,Boundary inclusion,Concept Coverage,"If an inequality is ax+by ≥ c, what is true of points on ax+by=c?",They are excluded,They are included,They are included only at the origin,They are included only in the first quadrant,B,1,3,The symbol ≥ includes equality.,"Correct working:
+For points on the boundary, ax+by=c, so the ≥ condition is satisfied. Hence the boundary is included.
+Therefore, the correct answer is They are included.
+Option A: Option A reverses inclusion; Options C and D add restrictions not given..
+Option C: Option A reverses inclusion; Options C and D add restrictions not given..
+Option D: Option A reverses inclusion; Options C and D add restrictions not given.."
+154,Mathematics,8. Linear Inequations,System of inequalities,Concept Coverage,What is the solution set of a system of two inequalities?,Points satisfying only the first inequality,Points satisfying only the second inequality,Points common to all inequalities,All points in the Cartesian plane,C,1,3,A system requires every inequality to be true simultaneously.,"Correct working:
+The solution set consists of points common to all individual solution sets.
+Therefore, the correct answer is Points common to all inequalities.
+Option A: Options A and B satisfy only one condition; Option D ignores both restrictions..
+Option B: Options A and B satisfy only one condition; Option D ignores both restrictions..
+Option D: Options A and B satisfy only one condition; Option D ignores both restrictions.."
+155,Mathematics,8. Linear Inequations,Bounded and unbounded intervals,Concept Coverage,Which interval is unbounded?,"[−2, 5]","(1, 4]","[7, ∞)","[0, 3]",C,1,3,An interval extending indefinitely has an infinity endpoint.,"Correct working:
+[7,∞) extends without an upper bound, so it is unbounded.
+Therefore, the correct answer is [7, ∞).
+Option A: The other three intervals have two finite endpoints and are bounded..
+Option B: The other three intervals have two finite endpoints and are bounded..
+Option D: The other three intervals have two finite endpoints and are bounded.."
+156,Mathematics,8. Linear Inequations,Sign rule for product,Concept Coverage,"If a,b are real and ab>0, what can be concluded?",a and b have opposite signs,a and b have the same sign,a=0 or b=0,Both must be positive,B,1,3,A positive product results when two nonzero real numbers have matching signs.,"Correct working:
+ab>0 means a and b have the same sign; both positive or both negative are possible.
+Therefore, the correct answer is a and b have the same sign.
+Option A: Option A gives the condition for a negative product; Option C contradicts positivity; Option D excludes the both-negative case..
+Option C: Option A gives the condition for a negative product; Option C contradicts positivity; Option D excludes the both-negative case..
+Option D: Option A gives the condition for a negative product; Option C contradicts positivity; Option D excludes the both-negative case.."
+157,Mathematics,8. Linear Inequations,Sign rule for quotient,Concept Coverage,"If a/b<0 for real a,b with b≠0, what follows?",a and b have the same sign,a and b have opposite signs,a=b,a and b are both positive,B,1,3,A negative quotient occurs when numerator and denominator have different signs.,"Correct working:
+a/b<0 implies a and b have opposite signs.
+Therefore, the correct answer is a and b have opposite signs.
+Option A: Option A is the positive-quotient condition; Options C and D are not required..
+Option C: Option A is the positive-quotient condition; Options C and D are not required..
+Option D: Option A is the positive-quotient condition; Options C and D are not required.."
+158,Mathematics,8. Linear Inequations,Absolute-value inequality,Concept Coverage,"For a>0, which is equivalent to |x|<a?",x≤−a or x≥a,−a<x<a,−a≤x≤a,x<−a or x>a,B,1,3,A strict absolute-value bound keeps x strictly between the two symmetric endpoints.,"Correct working:
+For positive a, |x|<a iff −a<x<a.
+Therefore, the correct answer is −a<x<a.
+Option A: Option A and D describe outside regions; Option C includes endpoints, corresponding to ≤..
+Option C: Option A and D describe outside regions; Option C includes endpoints, corresponding to ≤..
+Option D: Option A and D describe outside regions; Option C includes endpoints, corresponding to ≤.."
+159,Mathematics,8. Linear Inequations,Absolute-value inequality,Concept Coverage,"For a>0, which is equivalent to |x|≥a?",−a<x<a,−a≤x≤a,x≤−a or x≥a,−a<x≤a,C,1,3,A value whose absolute value is at least a lies at or beyond either endpoint.,"Correct working:
+For positive a, |x|≥a iff x≤−a or x≥a.
+Therefore, the correct answer is x≤−a or x≥a.
+Option A: Options A and D describe inside regions; Option B is the ≤ form..
+Option B: Options A and D describe inside regions; Option B is the ≤ form..
+Option D: Options A and D describe inside regions; Option B is the ≤ form.."
+160,Mathematics,8. Linear Inequations,Translating a word condition into an inequality,Concept Coverage,A quantity x represents a number of items purchased. Which condition correctly models spending at most Rs. 360 when each item costs Rs. 24?,24x>360,24x<360,24x≤360,24x≥360,C,1,3,At most means the total cannot exceed the stated amount.,"Correct working:
+At most Rs.360 means 24x≤360.
+Therefore, the correct answer is 24x≤360.
+Option A: Options A and D allow spending above the limit; Option B excludes the exact limit..
+Option B: Options A and D allow spending above the limit; Option B excludes the exact limit..
+Option D: Options A and D allow spending above the limit; Option B excludes the exact limit.."

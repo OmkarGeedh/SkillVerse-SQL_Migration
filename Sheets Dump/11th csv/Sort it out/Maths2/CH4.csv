@@ -1,0 +1,57 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-001,Data Description,Univariate,Bivariate,Income and expenditure,B,1,3,Income and expenditure are paired variables.
+2,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-001,Data Description,Univariate,Bivariate,Weights alone,A,1,3,Weight measured alone is one variable.
+3,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-001,Data Description,Univariate,Bivariate,Income alone,A,2,5,Income studied by itself forms univariate data.
+4,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-001,Data Description,Univariate,Bivariate,Heights alone,A,1,3,A single measurement of height involves one variable.
+5,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-001,Data Description,Univariate,Bivariate,Price and demand,B,2,5,Price and demand are two variables observed together.
+6,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-001,Data Description,Univariate,Bivariate,Height and weight,B,1,3,Height and weight are two variables studied together.
+7,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-001,Data Description,Univariate,Bivariate,Two subject marks,B,2,5,Marks in two subjects involve two variables.
+8,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-001,Data Description,Univariate,Bivariate,Single variable,A,1,3,A univariate distribution studies one variable.
+9,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-002,Frequency Description,Marginal,Conditional,Unrestricted frequency totals,A,3,10,Marginal frequencies are totals without fixing the other variable.
+10,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-002,Frequency Description,Marginal,Conditional,Specified weight group,B,2,5,Restricting observations to a weight group gives a conditional distribution.
+11,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-002,Frequency Description,Marginal,Conditional,All row totals,A,1,3,Row totals form a marginal frequency distribution.
+12,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-002,Frequency Description,Marginal,Conditional,One-variable totals,A,2,5,Marginal frequencies summarize one variable using its totals.
+13,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-002,Frequency Description,Marginal,Conditional,Given age group,B,2,5,Fixing an age group gives a conditional distribution.
+14,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-002,Frequency Description,Marginal,Conditional,All column totals,A,1,3,Column totals form a marginal frequency distribution.
+15,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-002,Frequency Description,Marginal,Conditional,Restricted income class,B,3,10,A distribution within a specified income class is conditional.
+16,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-002,Frequency Description,Marginal,Conditional,Fixed second variable,B,1,3,A conditional distribution fixes the value of the other variable.
+17,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-003,Variable Type,Numerical,Categorical,Household income,A,2,5,Income is recorded using numerical values.
+18,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-003,Variable Type,Numerical,Categorical,Mother tongue,B,1,3,Mother tongue takes non-numerical categories.
+19,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-003,Variable Type,Numerical,Categorical,Number sold,A,1,3,A count of items sold takes numerical values.
+20,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-003,Variable Type,Numerical,Categorical,Blood group,B,1,3,Blood group consists of non-numerical categories.
+21,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-003,Variable Type,Numerical,Categorical,Daily temperature,A,1,3,Temperature takes numerical values.
+22,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-003,Variable Type,Numerical,Categorical,Favourite sport,B,2,5,Favourite sport is a non-numerical category.
+23,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-003,Variable Type,Numerical,Categorical,Student height,A,1,3,Height is a numerical measurement.
+24,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-003,Variable Type,Numerical,Categorical,Food preference,B,2,5,Food preference identifies categories rather than numerical measurements.
+25,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-004,Frequency Description,Expected,Observed,"Row 4, column 9, total 12",A,2,5,Expected frequency is 4 × 9 ÷ 12 = 3.
+26,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-004,Frequency Description,Expected,Observed,Counted tally marks,B,1,3,Observed frequency is obtained by counting recorded observations.
+27,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-004,Frequency Description,Expected,Observed,Recorded cell count,B,1,3,An observed frequency counts cases in a table cell.
+28,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-004,Frequency Description,Expected,Observed,Measured category count,B,2,5,A count from collected data is an observed frequency.
+29,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-004,Frequency Description,Expected,Observed,Survey response count,B,2,5,Observed frequency is the actual count of responses.
+30,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-004,Frequency Description,Expected,Observed,"Row 6, column 8, total 12",A,2,5,Expected frequency is 6 × 8 ÷ 12 = 4.
+31,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-004,Frequency Description,Expected,Observed,Row × column ÷ total,A,2,5,"Expected frequency is row total multiplied by column total, divided by grand total."
+32,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-004,Frequency Description,Expected,Observed,"Row 8, column 6, total 12",A,2,5,Expected frequency is 8 × 6 ÷ 12 = 4.
+33,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-005,Table Feature,Row Total,Column Total,Sum down a column,B,1,3,A column total sums frequencies vertically.
+34,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-005,Table Feature,Row Total,Column Total,Fixed row category,A,2,5,A row total sums all cells of a fixed row category.
+35,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-005,Table Feature,Row Total,Column Total,Vertical cell sum,B,2,5,Adding frequencies vertically gives a column total.
+36,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-005,Table Feature,Row Total,Column Total,Fixed column category,B,2,5,A column total sums all cells of a fixed column category.
+37,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-005,Table Feature,Row Total,Column Total,Bottom frequency,B,1,3,The bottom row contains column totals.
+38,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-005,Table Feature,Row Total,Column Total,Sum across a row,A,1,3,A row total sums frequencies horizontally.
+39,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-005,Table Feature,Row Total,Column Total,Horizontal cell sum,A,2,5,Adding frequencies horizontally gives a row total.
+40,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-005,Table Feature,Row Total,Column Total,Rightmost frequency,A,1,3,The rightmost column contains row totals.
+41,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-006,Frequency Table,Bivariate,Univariate,Single measurement classes,B,2,5,Classes of just one measurement form a univariate distribution.
+42,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-006,Frequency Table,Bivariate,Univariate,Two-variable cross-tabulation,A,2,5,Cross-tabulation organizes the joint frequencies of two variables.
+43,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-006,Frequency Table,Bivariate,Univariate,Two-way frequency table,A,1,3,A bivariate frequency table cross-classifies two variables.
+44,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-006,Frequency Table,Bivariate,Univariate,Joint frequency cells,A,2,5,Joint frequencies record pairs of variable values.
+45,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-006,Frequency Table,Bivariate,Univariate,Paired observation cells,A,1,3,Bivariate cells count paired observations.
+46,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-006,Frequency Table,Bivariate,Univariate,Height frequency totals,B,2,5,A frequency distribution of height alone is univariate.
+47,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-006,Frequency Table,Bivariate,Univariate,Age frequency totals,B,2,5,A frequency distribution of age alone is univariate.
+48,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-006,Frequency Table,Bivariate,Univariate,One-variable frequency table,B,1,3,A univariate table shows frequencies of one variable.
+49,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-007,Distribution Feature,Conditional,Marginal,Given marks category,A,1,3,Fixing a marks category gives a conditional distribution.
+50,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-007,Distribution Feature,Conditional,Marginal,Totals by variable value,B,2,5,Marginal frequencies total observations at each variable value.
+51,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-007,Distribution Feature,Conditional,Marginal,Fixed expenditure band,A,2,5,A fixed expenditure band defines a conditional distribution.
+52,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-007,Distribution Feature,Conditional,Marginal,Bottom-row distribution,B,1,3,The bottom row of totals provides marginal frequencies.
+53,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-007,Distribution Feature,Conditional,Marginal,Right-column distribution,B,1,3,The rightmost column of totals provides marginal frequencies.
+54,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-007,Distribution Feature,Conditional,Marginal,Selected temperature range,A,2,5,Restricting temperature gives a conditional distribution of the other variable.
+55,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-007,Distribution Feature,Conditional,Marginal,Complete variable frequencies,B,2,5,Marginal frequencies include all observations for each value.
+56,Statistics,4. Bivariate Frequency Distribution and Chi Square Statistic,SORT-007,Distribution Feature,Conditional,Marginal,Specified second-variable value,A,3,10,Fixing the other variable defines conditional frequencies.

@@ -1,0 +1,75 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Downward straight-line trend,B,1,3,A falling straight line indicates perfect negative correlation.
+2,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Coefficient: -0.6,B,2,5,A coefficient of -0.6 indicates negative correlation.
+3,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Coefficient: -0.9,B,2,5,A coefficient of -0.9 indicates negative correlation.
+4,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Coefficient: 1,A,1,3,A coefficient of 1 indicates positive correlation.
+5,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Coefficient: 0.4,A,2,5,A coefficient of 0.4 indicates positive correlation.
+6,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Coefficient: -1,B,1,3,A coefficient of -1 indicates negative correlation.
+7,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Upward straight-line trend,A,1,3,A rising straight line indicates perfect positive correlation.
+8,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Coefficient: 0.9,A,2,5,A coefficient of 0.9 indicates positive correlation.
+9,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Coefficient: -0.4,B,2,5,A coefficient of -0.4 indicates negative correlation.
+10,Statistics,5. Correlation,SORT-001,Correlation Indicator,Positive Correlation,Negative Correlation,Coefficient: 0.6,A,2,5,A coefficient of 0.6 indicates positive correlation.
+11,Statistics,5. Correlation,SORT-002,Scatter Pattern,Positive Correlation,No Correlation,Horizontal scatter line,B,2,5,A horizontal scatter pattern has zero correlation.
+12,Statistics,5. Correlation,SORT-002,Scatter Pattern,Positive Correlation,No Correlation,Increasing linear pattern,A,1,3,A rising straight line indicates positive correlation.
+13,Statistics,5. Correlation,SORT-002,Scatter Pattern,Positive Correlation,No Correlation,Rising wide band,A,2,5,A rising wide band indicates weak positive correlation.
+14,Statistics,5. Correlation,SORT-002,Scatter Pattern,Positive Correlation,No Correlation,Random point cloud,B,2,5,A point cloud without a trend indicates no correlation.
+15,Statistics,5. Correlation,SORT-002,Scatter Pattern,Positive Correlation,No Correlation,Rising narrow band,A,1,3,A rising narrow band indicates strong positive correlation.
+16,Statistics,5. Correlation,SORT-002,Scatter Pattern,Positive Correlation,No Correlation,Vertical scatter line,B,3,10,A vertical scatter pattern is shown as zero correlation.
+17,Statistics,5. Correlation,SORT-002,Scatter Pattern,Positive Correlation,No Correlation,No trend line,B,1,3,An absence of trend indicates zero correlation.
+18,Statistics,5. Correlation,SORT-002,Scatter Pattern,Positive Correlation,No Correlation,Upward sloping points,A,1,3,Points trending upward indicate positive correlation.
+19,Statistics,5. Correlation,SORT-003,Scatter Pattern,Negative Correlation,No Correlation,Falling wide band,A,2,5,A falling wide band indicates weak negative correlation.
+20,Statistics,5. Correlation,SORT-003,Scatter Pattern,Negative Correlation,No Correlation,Decreasing linear pattern,A,1,3,A falling straight line indicates negative correlation.
+21,Statistics,5. Correlation,SORT-003,Scatter Pattern,Negative Correlation,No Correlation,No directional pattern,B,2,5,No upward or downward trend indicates zero correlation.
+22,Statistics,5. Correlation,SORT-003,Scatter Pattern,Negative Correlation,No Correlation,Zero association,B,1,3,Zero association corresponds to no correlation.
+23,Statistics,5. Correlation,SORT-003,Scatter Pattern,Negative Correlation,No Correlation,Downward sloping points,A,1,3,Points trending downward indicate negative correlation.
+24,Statistics,5. Correlation,SORT-003,Scatter Pattern,Negative Correlation,No Correlation,Falling narrow band,A,1,3,A falling narrow band indicates strong negative correlation.
+25,Statistics,5. Correlation,SORT-003,Scatter Pattern,Negative Correlation,No Correlation,Unpatterned point cluster,B,2,5,An unpatterned cluster indicates no correlation.
+26,Statistics,5. Correlation,SORT-003,Scatter Pattern,Negative Correlation,No Correlation,Scattered without trend,B,1,3,Points without a trend indicate no correlation.
+27,Statistics,5. Correlation,SORT-004,Correlation Strength,Moderate Positive,High Positive,Coefficient: 0.6,A,2,5,A coefficient of 0.6 indicates moderate positive correlation.
+28,Statistics,5. Correlation,SORT-004,Correlation Strength,Moderate Positive,High Positive,Coefficient: 0.95,B,2,5,A coefficient of 0.95 indicates high positive correlation.
+29,Statistics,5. Correlation,SORT-004,Correlation Strength,Moderate Positive,High Positive,Coefficient: 0.85,B,2,5,A coefficient of 0.85 indicates high positive correlation.
+30,Statistics,5. Correlation,SORT-004,Correlation Strength,Moderate Positive,High Positive,Coefficient: 0.7,A,2,5,A coefficient of 0.7 indicates moderate positive correlation.
+31,Statistics,5. Correlation,SORT-004,Correlation Strength,Moderate Positive,High Positive,Coefficient: 0.9,B,2,5,A coefficient of 0.9 indicates high positive correlation.
+32,Statistics,5. Correlation,SORT-004,Correlation Strength,Moderate Positive,High Positive,Coefficient: 0.4,A,2,5,A coefficient of 0.4 indicates moderate positive correlation.
+33,Statistics,5. Correlation,SORT-004,Correlation Strength,Moderate Positive,High Positive,Coefficient: 0.99,B,2,5,A coefficient of 0.99 indicates high positive correlation.
+34,Statistics,5. Correlation,SORT-004,Correlation Strength,Moderate Positive,High Positive,Coefficient: 0.5,A,2,5,A coefficient of 0.5 indicates moderate positive correlation.
+35,Statistics,5. Correlation,SORT-005,Correlation Strength,Moderate Positive,Poor Correlation,Coefficient: 0.1,B,2,5,A coefficient of 0.1 indicates poor correlation.
+36,Statistics,5. Correlation,SORT-005,Correlation Strength,Moderate Positive,Poor Correlation,Coefficient: 0.55,A,2,5,A coefficient of 0.55 indicates moderate positive correlation.
+37,Statistics,5. Correlation,SORT-005,Correlation Strength,Moderate Positive,Poor Correlation,Coefficient: -0.2,B,2,5,A coefficient of -0.2 indicates poor correlation.
+38,Statistics,5. Correlation,SORT-005,Correlation Strength,Moderate Positive,Poor Correlation,Coefficient: 0.2,B,2,5,A coefficient of 0.2 indicates poor correlation.
+39,Statistics,5. Correlation,SORT-005,Correlation Strength,Moderate Positive,Poor Correlation,Coefficient: -0.1,B,2,5,A coefficient of -0.1 indicates poor correlation.
+40,Statistics,5. Correlation,SORT-005,Correlation Strength,Moderate Positive,Poor Correlation,Coefficient: 0.35,A,2,5,A coefficient of 0.35 indicates moderate positive correlation.
+41,Statistics,5. Correlation,SORT-005,Correlation Strength,Moderate Positive,Poor Correlation,Coefficient: 0.75,A,2,5,A coefficient of 0.75 indicates moderate positive correlation.
+42,Statistics,5. Correlation,SORT-005,Correlation Strength,Moderate Positive,Poor Correlation,Coefficient: 0.45,A,2,5,A coefficient of 0.45 indicates moderate positive correlation.
+43,Statistics,5. Correlation,SORT-006,Correlation Case,Perfect Negative,Perfect Positive,Exactly rising straight line,B,1,3,All points on a rising straight line show perfect positive correlation.
+44,Statistics,5. Correlation,SORT-006,Correlation Case,Perfect Negative,Perfect Positive,Coefficient equals 3/3,B,2,5,"The coefficient is 1, indicating perfect positive correlation."
+45,Statistics,5. Correlation,SORT-006,Correlation Case,Perfect Negative,Perfect Positive,"One rises, other falls exactly",A,2,5,A perfectly falling straight-line relationship gives a coefficient of −1.
+46,Statistics,5. Correlation,SORT-006,Correlation Case,Perfect Negative,Perfect Positive,Exactly falling straight line,A,1,3,All points on a falling straight line show perfect negative correlation.
+47,Statistics,5. Correlation,SORT-006,Correlation Case,Perfect Negative,Perfect Positive,Coefficient equals 2/2,B,2,5,"The coefficient is 1, indicating perfect positive correlation."
+48,Statistics,5. Correlation,SORT-006,Correlation Case,Perfect Negative,Perfect Positive,Coefficient equals −2/2,A,2,5,"The coefficient is −1, indicating perfect negative correlation."
+49,Statistics,5. Correlation,SORT-006,Correlation Case,Perfect Negative,Perfect Positive,Both increase proportionally,B,2,5,A perfect rising straight-line relationship gives a coefficient of 1.
+50,Statistics,5. Correlation,SORT-006,Correlation Case,Perfect Negative,Perfect Positive,Coefficient equals −3/3,A,2,5,"The coefficient is −1, indicating perfect negative correlation."
+51,Statistics,5. Correlation,SORT-007,Statistical Property,Covariance,Correlation Coefficient,Normalized association measure,B,2,5,Correlation divides covariance by the product of standard deviations.
+52,Statistics,5. Correlation,SORT-007,Statistical Property,Covariance,Correlation Coefficient,Equals variance for identical variables,A,2,5,Covariance of a variable with itself equals its variance.
+53,Statistics,5. Correlation,SORT-007,Statistical Property,Covariance,Correlation Coefficient,Unchanged by positive rescaling,B,3,10,Positive rescaling does not change the correlation coefficient.
+54,Statistics,5. Correlation,SORT-007,Statistical Property,Covariance,Correlation Coefficient,Zero with constant,A,1,3,Covariance with a constant is zero.
+55,Statistics,5. Correlation,SORT-007,Statistical Property,Covariance,Correlation Coefficient,Joint variation measure,A,1,3,Covariance measures joint variation of two variables.
+56,Statistics,5. Correlation,SORT-007,Statistical Property,Covariance,Correlation Coefficient,Equals one for identical variables,B,2,5,Correlation of a variable with itself equals one.
+57,Statistics,5. Correlation,SORT-007,Statistical Property,Covariance,Correlation Coefficient,Bounded between −1 and 1,B,1,3,The correlation coefficient lies between −1 and 1.
+58,Statistics,5. Correlation,SORT-007,Statistical Property,Covariance,Correlation Coefficient,Affected by rescaling,A,2,5,Covariance changes when the variables are rescaled.
+59,Statistics,5. Correlation,SORT-008,Correlation Value,No Correlation,Positive Correlation,Coefficient: 0,A,1,3,A zero coefficient indicates no correlation.
+60,Statistics,5. Correlation,SORT-008,Correlation Value,No Correlation,Positive Correlation,Horizontal point alignment,A,2,5,Horizontal alignment is presented as zero correlation.
+61,Statistics,5. Correlation,SORT-008,Correlation Value,No Correlation,Positive Correlation,Coefficient: 0.7,B,2,5,A coefficient of 0.7 indicates positive correlation.
+62,Statistics,5. Correlation,SORT-008,Correlation Value,No Correlation,Positive Correlation,Coefficient: 0.3,B,2,5,A coefficient of 0.3 indicates positive correlation.
+63,Statistics,5. Correlation,SORT-008,Correlation Value,No Correlation,Positive Correlation,Coefficient: 0.2,B,2,5,A coefficient of 0.2 indicates positive correlation.
+64,Statistics,5. Correlation,SORT-008,Correlation Value,No Correlation,Positive Correlation,Vertical point alignment,A,2,5,Vertical alignment is presented as zero correlation.
+65,Statistics,5. Correlation,SORT-008,Correlation Value,No Correlation,Positive Correlation,Coefficient: 0.8,B,2,5,A coefficient of 0.8 indicates positive correlation.
+66,Statistics,5. Correlation,SORT-008,Correlation Value,No Correlation,Positive Correlation,No rising or falling trend,A,1,3,The absence of a trend indicates no correlation.
+67,Statistics,5. Correlation,SORT-009,Correlation Value,Negative Correlation,Positive Correlation,Coefficient: -0.3,A,2,5,A coefficient of -0.3 indicates negative correlation.
+68,Statistics,5. Correlation,SORT-009,Correlation Value,Negative Correlation,Positive Correlation,Coefficient: -0.5,A,2,5,A coefficient of -0.5 indicates negative correlation.
+69,Statistics,5. Correlation,SORT-009,Correlation Value,Negative Correlation,Positive Correlation,Coefficient: 0.5,B,2,5,A coefficient of 0.5 indicates positive correlation.
+70,Statistics,5. Correlation,SORT-009,Correlation Value,Negative Correlation,Positive Correlation,Coefficient: -0.8,A,2,5,A coefficient of -0.8 indicates negative correlation.
+71,Statistics,5. Correlation,SORT-009,Correlation Value,Negative Correlation,Positive Correlation,Coefficient: 0.7,B,2,5,A coefficient of 0.7 indicates positive correlation.
+72,Statistics,5. Correlation,SORT-009,Correlation Value,Negative Correlation,Positive Correlation,Coefficient: 0.3,B,2,5,A coefficient of 0.3 indicates positive correlation.
+73,Statistics,5. Correlation,SORT-009,Correlation Value,Negative Correlation,Positive Correlation,Coefficient: 0.8,B,2,5,A coefficient of 0.8 indicates positive correlation.
+74,Statistics,5. Correlation,SORT-009,Correlation Value,Negative Correlation,Positive Correlation,Coefficient: -0.7,A,2,5,A coefficient of -0.7 indicates negative correlation.

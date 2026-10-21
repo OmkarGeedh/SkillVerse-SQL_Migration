@@ -1,0 +1,47 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,Part-time membership,B,1,3,Its structure provides for part-time members.
+2,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,Advisory think tank,B,1,3,It serves as a policy advisory think tank.
+3,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,Member Secretary,A,1,3,Its structure included a Member Secretary.
+4,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,Restricted state role,A,2,5,States participated mainly through council and annual plan meetings.
+5,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,Established in 2015,B,1,3,It was established on 1st January 2015.
+6,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,Established in 1950,A,1,3,Created on 15th March 1950.
+7,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,Fund allocation powers,A,1,3,It possessed powers to allocate funds to ministries and states.
+8,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,Prime Minister-appointed CEO,B,2,5,Its CEO is appointed by the Prime Minister.
+9,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,No part-time members,A,2,5,Its structure made no provision for part-time members.
+10,Economics,Chapter 10: Economic Planning in India,SORT-001,Institutional Feature,Planning Commission,NITI Aayog,Greater state participation,B,2,5,It gives states a more significant role.
+11,Economics,Chapter 10: Economic Planning in India,SORT-002,12th Plan Target,Poverty and Employment,Economic Growth,10% manufacturing growth,B,1,3,Manufacturing growth was targeted at 10%.
+12,Economics,Chapter 10: Economic Planning in India,SORT-002,12th Plan Target,Poverty and Employment,Economic Growth,4% agricultural growth,B,1,3,Agriculture was targeted to grow at 4%.
+13,Economics,Chapter 10: Economic Planning in India,SORT-002,12th Plan Target,Poverty and Employment,Economic Growth,10% poverty reduction,A,1,3,The plan targeted a 10% reduction in the poverty head-count ratio.
+14,Economics,Chapter 10: Economic Planning in India,SORT-002,12th Plan Target,Poverty and Employment,Economic Growth,Higher state growth,B,2,5,Each state was expected to exceed its previous plan growth rate.
+15,Economics,Chapter 10: Economic Planning in India,SORT-002,12th Plan Target,Poverty and Employment,Economic Growth,50 million work opportunities,A,1,3,The plan targeted 50 million new non-farm work opportunities.
+16,Economics,Chapter 10: Economic Planning in India,SORT-002,12th Plan Target,Poverty and Employment,Economic Growth,Lower poverty head-count,A,2,5,The poverty target concerned reducing the head-count ratio.
+17,Economics,Chapter 10: Economic Planning in India,SORT-002,12th Plan Target,Poverty and Employment,Economic Growth,Non-farm job creation,A,2,5,Employment generation focused on new opportunities outside farming.
+18,Economics,Chapter 10: Economic Planning in India,SORT-002,12th Plan Target,Poverty and Employment,Economic Growth,8% real GDP growth,B,1,3,The real GDP growth target was 8%.
+19,Economics,Chapter 10: Economic Planning in India,SORT-003,12th Plan Target,Education,Health,Closing enrolment gaps,A,2,5,The plan sought to eliminate gender and social gaps in school enrolment.
+20,Economics,Chapter 10: Economic Planning in India,SORT-003,12th Plan Target,Education,Health,Half of NFHS-3 levels,B,3,10,The undernutrition reduction was measured against NFHS-3 levels.
+21,Economics,Chapter 10: Economic Planning in India,SORT-003,12th Plan Target,Education,Health,Skill development access,A,2,5,Higher education access was linked to skill development.
+22,Economics,Chapter 10: Economic Planning in India,SORT-003,12th Plan Target,Education,Health,Seven schooling years,A,1,3,The plan aimed to raise mean schooling to seven years.
+23,Economics,Chapter 10: Economic Planning in India,SORT-003,12th Plan Target,Education,Health,Fertility rate of 2.1,B,1,3,The plan targeted a total fertility rate of 2.1.
+24,Economics,Chapter 10: Economic Planning in India,SORT-003,12th Plan Target,Education,Health,Ages zero to three,B,2,5,The undernutrition target covered children aged zero to three.
+25,Economics,Chapter 10: Economic Planning in India,SORT-003,12th Plan Target,Education,Health,Reduced child undernutrition,B,1,3,The plan aimed to halve undernutrition among young children.
+26,Economics,Chapter 10: Economic Planning in India,SORT-003,12th Plan Target,Education,Health,Higher education access,A,1,3,The plan targeted better access to higher education.
+27,Economics,Chapter 10: Economic Planning in India,SORT-004,12th Plan Target,Service Delivery,Infrastructure,All-weather village roads,B,1,3,The plan aimed to connect all villages with all-weather roads.
+28,Economics,Chapter 10: Economic Planning in India,SORT-004,12th Plan Target,Service Delivery,Infrastructure,Direct cash transfers,A,1,3,Welfare beneficiaries were to receive subsidies through direct transfers.
+29,Economics,Chapter 10: Economic Planning in India,SORT-004,12th Plan Target,Service Delivery,Infrastructure,70% rural television density,B,2,5,Rural television density was targeted at 70%.
+30,Economics,Chapter 10: Economic Planning in India,SORT-004,12th Plan Target,Service Delivery,Infrastructure,Aadhaar-linked bank accounts,A,2,5,Direct benefit transfers used Aadhaar-linked bank accounts.
+31,Economics,Chapter 10: Economic Planning in India,SORT-004,12th Plan Target,Service Delivery,Infrastructure,Subsidy beneficiary transfers,A,2,5,Major subsidy beneficiaries were to shift to direct cash transfers.
+32,Economics,Chapter 10: Economic Planning in India,SORT-004,12th Plan Target,Service Delivery,Infrastructure,90% household banking access,A,1,3,Banking access was targeted for 90% of Indian households.
+33,Economics,Chapter 10: Economic Planning in India,SORT-004,12th Plan Target,Service Delivery,Infrastructure,9% infrastructure investment,B,1,3,Infrastructure investment was targeted at 9% of GDP.
+34,Economics,Chapter 10: Economic Planning in India,SORT-004,12th Plan Target,Service Delivery,Infrastructure,70% rural telephone density,B,2,5,Rural telephone density was targeted at 70%.
+35,Economics,Chapter 10: Economic Planning in India,SORT-005,NITI Structure,Governing Council,Regional Councils,Cross-region issues,B,1,3,Regional Councils handle issues affecting more than one region.
+36,Economics,Chapter 10: Economic Planning in India,SORT-005,NITI Structure,Governing Council,Regional Councils,Chief Ministers of states,A,1,3,The Governing Council comprises Chief Ministers of all states.
+37,Economics,Chapter 10: Economic Planning in India,SORT-005,NITI Structure,Governing Council,Regional Councils,Multi-state contingencies,B,1,3,Regional Councils address contingencies affecting more than one state.
+38,Economics,Chapter 10: Economic Planning in India,SORT-005,NITI Structure,Governing Council,Regional Councils,Specific regional problems,B,2,5,Regional Councils are formed to address specific regional issues.
+39,Economics,Chapter 10: Economic Planning in India,SORT-005,NITI Structure,Governing Council,Regional Councils,Union Territory Governors,A,1,3,The Governing Council includes Governors of Union Territories.
+40,Economics,Chapter 10: Economic Planning in India,SORT-005,NITI Structure,Governing Council,Regional Councils,All-state chief minister membership,A,2,5,All state Chief Ministers are included in the Governing Council.
+41,Economics,Chapter 10: Economic Planning in India,SORT-006,Institutional Feature,NITI Aayog,Planning Commission,Ex-officio minister members,A,2,5,Its framework includes nominated Union Council of Ministers members.
+42,Economics,Chapter 10: Economic Planning in India,SORT-006,Institutional Feature,NITI Aayog,Planning Commission,Framed state policies,B,1,3,It framed policies for states.
+43,Economics,Chapter 10: Economic Planning in India,SORT-006,Institutional Feature,NITI Aayog,Planning Commission,No policy-framing powers,A,2,5,It does not have powers to frame policies.
+44,Economics,Chapter 10: Economic Planning in India,SORT-006,Institutional Feature,NITI Aayog,Planning Commission,Vice-Chairperson post,A,1,3,Its organisational framework includes a Vice-Chairperson.
+45,Economics,Chapter 10: Economic Planning in India,SORT-006,Institutional Feature,NITI Aayog,Planning Commission,Project-linked funding,B,2,5,It linked allocation of funds to project approval.
+46,Economics,Chapter 10: Economic Planning in India,SORT-006,Institutional Feature,NITI Aayog,Planning Commission,Usual secretary appointment,B,2,5,Secretaries were appointed through the usual process.

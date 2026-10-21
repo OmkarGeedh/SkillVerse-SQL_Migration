@@ -1,0 +1,77 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,i⁶,A,3,10,"The sixth power of i equals negative one, a real number."
+2,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,i⁴,A,2,5,"The fourth power of i equals one, a real number."
+3,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,i⁵,B,3,10,"The fifth power of i equals i, an imaginary number."
+4,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,√(-9),B,2,5,"The square root of negative nine is 3i, an imaginary number."
+5,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,i³,B,2,5,"The third power of i equals negative i, an imaginary number."
+6,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,√(-4),B,2,5,"The square root of negative four is 2i, an imaginary number."
+7,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,0,A,2,5,"Zero has both real and imaginary parts equal to zero, so it is real."
+8,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,√9,A,2,5,"The square root of nine is three, a real number."
+9,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,3i,B,1,3,Three i has zero real part and a nonzero imaginary part.
+10,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,-4,A,1,3,"Negative four has zero imaginary component, so it is real."
+11,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,-2i,B,1,3,Negative two i has a nonzero imaginary coefficient.
+12,Mathematics,3. Complex Numbers,SORT-001,Number Classification,Real Numbers,Imaginary Numbers,7,A,1,3,"Seven has no imaginary component, so it is real."
+13,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,i¹⁰,B,3,10,"The tenth power of i is negative one, a real number."
+14,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,2i + i,A,2,5,"Adding imaginary terms gives 3i, an imaginary number."
+15,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,-√4,B,2,5,"Negative square root of four is negative two, a real number."
+16,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,i − 3i,A,2,5,"Subtracting imaginary terms gives negative 2i, an imaginary number."
+17,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,i⁹,A,3,10,"The ninth power of i is i, an imaginary number."
+18,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,√16,B,1,3,"The square root of sixteen is four, a real number."
+19,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,i⁸,B,2,5,"The eighth power of i is one, a real number."
+20,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,i⁷,A,2,5,"The seventh power of i is negative i, an imaginary number."
+21,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,2 + i⁴,B,3,10,"Since i to the fourth power is one, the result is real."
+22,Mathematics,3. Complex Numbers,SORT-002,Number Classification,Imaginary Numbers,Real Numbers,√(-16),A,2,5,"The square root of negative sixteen is 4i, an imaginary number."
+23,Mathematics,3. Complex Numbers,SORT-003,Number Classification,Real Numbers,Imaginary Numbers,5 + i²,A,2,5,"Since i squared is negative one, the result is four, which is real."
+24,Mathematics,3. Complex Numbers,SORT-003,Number Classification,Real Numbers,Imaginary Numbers,3i − i,B,2,5,"Subtracting i from 3i gives 2i, an imaginary number."
+25,Mathematics,3. Complex Numbers,SORT-003,Number Classification,Real Numbers,Imaginary Numbers,i² + i⁴,A,3,10,"Negative one plus one is zero, which is real."
+26,Mathematics,3. Complex Numbers,SORT-003,Number Classification,Real Numbers,Imaginary Numbers,i¹³,B,3,10,"The thirteenth power of i is i, an imaginary number."
+27,Mathematics,3. Complex Numbers,SORT-003,Number Classification,Real Numbers,Imaginary Numbers,i¹²,A,2,5,"The twelfth power of i is one, a real number."
+28,Mathematics,3. Complex Numbers,SORT-003,Number Classification,Real Numbers,Imaginary Numbers,i¹¹,B,2,5,"The eleventh power of i is negative i, an imaginary number."
+29,Mathematics,3. Complex Numbers,SORT-003,Number Classification,Real Numbers,Imaginary Numbers,i¹⁴,A,3,10,"The fourteenth power of i is negative one, a real number."
+30,Mathematics,3. Complex Numbers,SORT-003,Number Classification,Real Numbers,Imaginary Numbers,i + i⁴i,B,3,10,"Since i to the fourth power is one, the result is 2i."
+31,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² + 4x + 4 = 0,B,3,10,"The discriminant is zero, so the root is real."
+32,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² + 4x + 5 = 0,A,3,10,"The discriminant is negative, giving nonreal complex roots."
+33,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² + 4 = 0,A,1,3,"The roots are 2i and negative 2i, which are nonreal."
+34,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² + 2x + 2 = 0,A,2,5,"The discriminant is negative, giving nonreal complex roots."
+35,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² + 2x + 1 = 0,B,2,5,"The discriminant is zero, giving a repeated real root."
+36,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² − 9 = 0,B,1,3,"The roots are 3 and negative 3, both real."
+37,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² + 9 = 0,A,1,3,"The roots are 3i and negative 3i, which are nonreal."
+38,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² − 2x = 0,B,2,5,"The roots are zero and two, both real."
+39,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² − 2x + 2 = 0,A,2,5,"The discriminant is negative, giving nonreal complex roots."
+40,Mathematics,3. Complex Numbers,SORT-004,Quadratic Root Type,Complex Roots,Real Roots,x² − 4 = 0,B,1,3,"The roots are 2 and negative 2, both real."
+41,Mathematics,3. Complex Numbers,SORT-005,Quadratic Root Type,Real Roots,Complex Roots,x² + 3x + 2 = 0,A,2,5,"The discriminant is one, giving real roots."
+42,Mathematics,3. Complex Numbers,SORT-005,Quadratic Root Type,Real Roots,Complex Roots,x² − 4x + 3 = 0,A,2,5,"The discriminant is four, giving real roots."
+43,Mathematics,3. Complex Numbers,SORT-005,Quadratic Root Type,Real Roots,Complex Roots,x² = 0,A,1,3,"The only root is zero, which is real."
+44,Mathematics,3. Complex Numbers,SORT-005,Quadratic Root Type,Real Roots,Complex Roots,x² − 1 = 0,A,1,3,"The roots are one and negative one, both real."
+45,Mathematics,3. Complex Numbers,SORT-005,Quadratic Root Type,Real Roots,Complex Roots,x² + 3x + 3 = 0,B,2,5,"The discriminant is negative, giving nonreal complex roots."
+46,Mathematics,3. Complex Numbers,SORT-005,Quadratic Root Type,Real Roots,Complex Roots,x² + 2x + 5 = 0,B,2,5,"The discriminant is negative, giving nonreal complex roots."
+47,Mathematics,3. Complex Numbers,SORT-005,Quadratic Root Type,Real Roots,Complex Roots,x² + 1 = 0,B,1,3,"The roots are i and negative i, which are nonreal."
+48,Mathematics,3. Complex Numbers,SORT-005,Quadratic Root Type,Real Roots,Complex Roots,x² − 4x + 8 = 0,B,3,10,"The discriminant is negative, giving nonreal complex roots."
+49,Mathematics,3. Complex Numbers,SORT-006,Complex Number Component,Imaginary Part,Real Part,Horizontal coefficient,B,2,5,The component without i is the real part of a complex number.
+50,Mathematics,3. Complex Numbers,SORT-006,Complex Number Component,Imaginary Part,Real Part,Value −2 in 5−2i,A,2,5,"Negative two multiplies i, so it is the imaginary part."
+51,Mathematics,3. Complex Numbers,SORT-006,Complex Number Component,Imaginary Part,Real Part,Coefficient of i,A,1,3,The coefficient multiplying i is the imaginary part.
+52,Mathematics,3. Complex Numbers,SORT-006,Complex Number Component,Imaginary Part,Real Part,Value 3 in −2+3i,A,2,5,"Three multiplies i, so it is the imaginary part."
+53,Mathematics,3. Complex Numbers,SORT-006,Complex Number Component,Imaginary Part,Real Part,Value −2 in −2+3i,B,2,5,Negative two is the component without i.
+54,Mathematics,3. Complex Numbers,SORT-006,Complex Number Component,Imaginary Part,Real Part,Value 5 in 5−2i,B,2,5,Five is the coefficient of the non-imaginary term.
+55,Mathematics,3. Complex Numbers,SORT-006,Complex Number Component,Imaginary Part,Real Part,Value 2 in 3+2i,A,1,3,"Two multiplies i, so it is the imaginary part."
+56,Mathematics,3. Complex Numbers,SORT-006,Complex Number Component,Imaginary Part,Real Part,Constant in 3+2i,B,1,3,"Three is the component without i, so it is the real part."
+57,Mathematics,3. Complex Numbers,SORT-007,Complex Number Operation,Addition,Multiplication,Combine corresponding components,A,1,3,Addition combines the corresponding real and imaginary components.
+58,Mathematics,3. Complex Numbers,SORT-007,Complex Number Operation,Addition,Multiplication,Cross products contribute,B,2,5,Multiplication includes cross products in the imaginary component.
+59,Mathematics,3. Complex Numbers,SORT-007,Complex Number Operation,Addition,Multiplication,Imaginary coefficients add,A,1,3,Addition adds the imaginary coefficients.
+60,Mathematics,3. Complex Numbers,SORT-007,Complex Number Operation,Addition,Multiplication,Zero acts as identity,A,2,5,Adding zero leaves a complex number unchanged.
+61,Mathematics,3. Complex Numbers,SORT-007,Complex Number Operation,Addition,Multiplication,One acts as identity,B,1,3,Multiplying by one leaves a complex number unchanged.
+62,Mathematics,3. Complex Numbers,SORT-007,Complex Number Operation,Addition,Multiplication,Real components add,A,1,3,Addition adds the real components of two complex numbers.
+63,Mathematics,3. Complex Numbers,SORT-007,Complex Number Operation,Addition,Multiplication,Imaginary products change sign,B,2,5,Multiplying imaginary terms uses i squared equal to negative one.
+64,Mathematics,3. Complex Numbers,SORT-007,Complex Number Operation,Addition,Multiplication,Conjugate product nonnegative,B,3,10,Multiplying a number by its conjugate gives the sum of two squares.
+65,Mathematics,3. Complex Numbers,SORT-008,Conjugate Property,Imaginary Numbers,Real Numbers,Unchanged by conjugation,B,2,5,A real number remains unchanged under conjugation.
+66,Mathematics,3. Complex Numbers,SORT-008,Conjugate Property,Imaginary Numbers,Real Numbers,Negative of own conjugate,A,2,5,A number opposite to its conjugate has zero real part.
+67,Mathematics,3. Complex Numbers,SORT-008,Conjugate Property,Imaginary Numbers,Real Numbers,Equal to own conjugate,B,1,3,A complex number equal to its conjugate is real.
+68,Mathematics,3. Complex Numbers,SORT-008,Conjugate Property,Imaginary Numbers,Real Numbers,Zero imaginary coefficient,B,1,3,A zero imaginary coefficient makes a complex number real.
+69,Mathematics,3. Complex Numbers,SORT-008,Conjugate Property,Imaginary Numbers,Real Numbers,Opposite imaginary coefficients,A,3,10,A nonzero imaginary number and its conjugate have opposite imaginary coefficients.
+70,Mathematics,3. Complex Numbers,SORT-008,Conjugate Property,Imaginary Numbers,Real Numbers,Zero real coefficient,A,1,3,A nonzero complex number with zero real part is imaginary.
+71,Mathematics,3. Complex Numbers,SORT-009,Cube Root Property,Real Cube Root,Nonreal Cube Root,Unity itself,A,1,3,One is the real cube root of unity.
+72,Mathematics,3. Complex Numbers,SORT-009,Cube Root Property,Real Cube Root,Nonreal Cube Root,Positive imaginary component,B,2,5,One nonreal cube root of unity has a positive imaginary component.
+73,Mathematics,3. Complex Numbers,SORT-009,Cube Root Property,Real Cube Root,Nonreal Cube Root,Positive real root,A,2,5,The only real cube root of unity is positive one.
+74,Mathematics,3. Complex Numbers,SORT-009,Cube Root Property,Real Cube Root,Nonreal Cube Root,Negative imaginary component,B,2,5,One nonreal cube root of unity has a negative imaginary component.
+75,Mathematics,3. Complex Numbers,SORT-009,Cube Root Property,Real Cube Root,Nonreal Cube Root,Conjugate pair member,B,1,3,The two nonreal cube roots of unity form a conjugate pair.
+76,Mathematics,3. Complex Numbers,SORT-009,Cube Root Property,Real Cube Root,Nonreal Cube Root,Own complex conjugate,A,3,10,The real cube root one equals its own conjugate.

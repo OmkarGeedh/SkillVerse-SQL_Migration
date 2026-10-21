@@ -1,0 +1,30 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Bills Receivable,A,2,5,Bills receivable represent amounts due to the business.
+2,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Furniture and Fixtures,A,1,3,Furniture and fixtures are resources of the business.
+3,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Bank Overdraft,B,2,5,A bank overdraft is an amount owed to the bank.
+4,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Sundry Debtors,A,2,5,Amounts recoverable from debtors are assets.
+5,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Plant and Machinery,A,1,3,Plant and machinery are business assets.
+6,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Bank Loan,B,1,3,A bank loan is money borrowed and owed by the business.
+7,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Income Received in Advance,B,3,10,Income received in advance represents an obligation for a future period.
+8,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Bills Payable,B,1,3,Bills payable represent obligations of the business.
+9,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Cash at Bank,A,1,3,Money deposited in the business bank account is an asset.
+10,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Investments,A,2,5,Investments owned by the business are assets.
+11,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Stock in Trade,A,1,3,Stock held by the business is an asset.
+12,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Sundry Creditors,B,1,3,Amounts payable to creditors are liabilities.
+13,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Cash in Hand,A,1,3,Cash held by the business is an asset.
+14,Accountancy,10 - Single Entry System,SORT-001,Balance Sheet Item,Assets,Liabilities,Outstanding Expenses,B,2,5,Unpaid expenses are amounts owed by the business.
+15,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Interest on Investment,B,2,5,Interest on investment is income and increases profit.
+16,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Opening Capital,A,1,3,Opening capital is deducted when calculating profit from closing capital.
+17,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Interest on Bank Loan,A,2,5,Interest on a bank loan is an expense and reduces profit.
+18,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Interest on Drawings,B,2,5,Interest on drawings is income to the business and increases profit.
+19,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Overvaluation of Liabilities,B,3,10,Overstated liabilities require an upward adjustment to profit.
+20,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Bad Debts,A,1,3,Irrecoverable debts are losses deducted from profit.
+21,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Outstanding Income,B,2,5,Outstanding income is earned income and increases profit.
+22,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Depreciation,A,1,3,Depreciation is charged as an expense against profit.
+23,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Overvaluation of Assets,A,3,10,Overstated assets require a downward adjustment to profit.
+24,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Undervaluation of Liabilities,A,3,10,Understated liabilities require a downward adjustment to profit.
+25,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Drawings,B,1,3,Drawings are added back to closing capital when determining profit.
+26,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Additional Capital,A,1,3,Additional capital is deducted to exclude new owner contributions from profit.
+27,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Interest on Capital,A,2,5,Interest on capital is a business expense and reduces profit.
+28,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Prepaid Expenses,B,2,5,Prepaid expenses are added when adjusting profit.
+29,Accountancy,10 - Single Entry System,SORT-002,Profit Adjustment,Less,Add,Undervaluation of Assets,B,3,10,Understated assets require an upward adjustment to profit.

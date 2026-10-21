@@ -1,0 +1,102 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Joint family system,A,1,3,Shared financial responsibility in joint families contributes to high birth rates.
+2,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Disaster management,B,2,5,Disaster management mitigates disasters and reduces loss of life.
+3,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Improved medical facilities,B,1,3,Better medical facilities reduce deaths from diseases and epidemics.
+4,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Male-child preference,A,2,5,Preference for sons can lead parents to have more children.
+5,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Nutritious food,B,1,3,Nutritious diets reduce deaths associated with malnutrition.
+6,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Widespread poverty,A,1,3,Poverty can encourage larger families for perceived economic support.
+7,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Illiteracy,A,1,3,Illiteracy encourages attitudes associated with larger families and higher birth rates.
+8,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Lower maternal mortality,B,1,3,Fewer maternity-related deaths contribute to a lower death rate.
+9,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Universal marriage,A,2,5,Marriage treated as a social obligation contributes to high birth rates.
+10,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Early marriage,A,1,3,Marriage at a lower age contributes to a higher birth rate.
+11,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Lower infant mortality,B,1,3,Fewer infant deaths contribute to a lower death rate.
+12,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Disease eradication,B,2,5,Control of epidemic diseases helps lower the death rate.
+13,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Improved health care,B,1,3,Wider health-care provision helps reduce mortality.
+14,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Agricultural dependence,A,2,5,Dependence on family labour in agriculture encourages larger families.
+15,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Poor family-planning awareness,A,2,5,Lack of family-planning awareness contributes to higher birth rates.
+16,Economics,Chapter 6: Population in India,SORT-001,Population Factor,High Birth Rate,Low Death Rate,Better infant care,B,2,5,Better care for infants contributes to lower infant mortality.
+17,Economics,Chapter 6: Population in India,SORT-002,Population Control Measure,Social Measures,Economic Measures,Improved women’s status,A,1,3,Improving the status of women is a social measure for population control.
+18,Economics,Chapter 6: Population in India,SORT-002,Population Control Measure,Social Measures,Economic Measures,Higher marriage age,A,1,3,Raising the minimum marriage age is a social population-control measure.
+19,Economics,Chapter 6: Population in India,SORT-002,Population Control Measure,Social Measures,Economic Measures,Industrial expansion,B,1,3,Expansion of industry is an economic measure to control population growth.
+20,Economics,Chapter 6: Population in India,SORT-002,Population Control Measure,Social Measures,Economic Measures,Spread of education,A,1,3,Spreading education is a social measure for population control.
+21,Economics,Chapter 6: Population in India,SORT-002,Population Control Measure,Social Measures,Economic Measures,Employment creation,B,1,3,Creating jobs is an economic measure that raises living standards.
+22,Economics,Chapter 6: Population in India,SORT-002,Population Control Measure,Social Measures,Economic Measures,Poverty removal,B,1,3,Removing poverty is an economic measure to reduce population growth.
+23,Economics,Chapter 6: Population in India,SORT-002,Population Control Measure,Social Measures,Economic Measures,Equitable wealth distribution,B,2,5,Fairer distribution of wealth is an economic population-control measure.
+24,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Rapid mortality decline,B,1,3,Death rates fall rapidly in the second stage.
+25,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Economic development begins,B,2,5,The start of economic development indicates the second stage.
+26,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Mass illiteracy,A,2,5,Mass illiteracy is a condition associated with the first stage.
+27,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Industrialisation begins,B,1,3,The second stage begins with industrialisation.
+28,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Primitive economy,A,1,3,A primitive economy characterises the first stage.
+29,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,High population growth,B,1,3,The second stage experiences high population growth.
+30,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Population explosion,B,1,3,A high birth rate with falling mortality produces population explosion in the second stage.
+31,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Births remain high,B,1,3,Birth rates remain high during the second stage.
+32,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Pre-industrial society,A,1,3,The first stage is pre-industrial and primitive.
+33,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Scarce medical facilities,A,2,5,Lack of medical facilities is characteristic of the first stage.
+34,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,Widespread superstitions,A,2,5,Superstitions contribute to the low population growth of the first stage.
+35,Economics,Chapter 6: Population in India,SORT-003,Transition Feature,First Stage,Second Stage,High births and deaths,A,1,3,Both birth and death rates are very high in the first stage.
+36,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Scarce medical facilities,A,2,5,Lack of medical facilities is characteristic of the first stage.
+37,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Primitive economy,A,1,3,A primitive economy characterises the first stage.
+38,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Improved living standards,B,2,5,Greater consciousness about living standards characterises the third stage.
+39,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Mass illiteracy,A,2,5,Mass illiteracy is a condition associated with the first stage.
+40,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Both rates declining,B,1,3,Birth and death rates both tend to decline in the third stage.
+41,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Developed economies,B,1,3,Developed countries are in the third stage.
+42,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Pre-industrial society,A,1,3,The first stage is pre-industrial and primitive.
+43,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Widespread superstitions,A,2,5,Superstitions contribute to the low population growth of the first stage.
+44,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Widespread education,B,2,5,The spread of education accompanies the third stage.
+45,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,High births and deaths,A,1,3,Both birth and death rates are very high in the first stage.
+46,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Stable population,B,1,3,The third stage is associated with low or stable population growth.
+47,Economics,Chapter 6: Population in India,SORT-004,Transition Feature,First Stage,Third Stage,Rapid urbanisation,B,1,3,Rapid urbanisation characterises the third stage.
+48,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Improved living standards,B,2,5,Greater consciousness about living standards characterises the third stage.
+49,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Economic development begins,A,2,5,The start of economic development indicates the second stage.
+50,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Developed economies,B,1,3,Developed countries are in the third stage.
+51,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Widespread education,B,2,5,The spread of education accompanies the third stage.
+52,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,High population growth,A,1,3,The second stage experiences high population growth.
+53,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Population explosion,A,1,3,A high birth rate with falling mortality produces population explosion in the second stage.
+54,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Rapid urbanisation,B,1,3,Rapid urbanisation characterises the third stage.
+55,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Stable population,B,1,3,The third stage is associated with low or stable population growth.
+56,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Births remain high,A,1,3,Birth rates remain high during the second stage.
+57,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Both rates declining,B,1,3,Birth and death rates both tend to decline in the third stage.
+58,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Industrialisation begins,A,1,3,The second stage begins with industrialisation.
+59,Economics,Chapter 6: Population in India,SORT-005,Transition Feature,Second Stage,Third Stage,Rapid mortality decline,A,1,3,Death rates fall rapidly in the second stage.
+60,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Agricultural pressure,B,1,3,Population explosion increases pressure on agriculture.
+61,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Infrastructure pressure,B,1,3,Population explosion strains infrastructure and basic amenities.
+62,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Women’s empowerment,A,2,5,Improving women’s status is a social measure for population control.
+63,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Inflation,B,1,3,Inflation is listed as an effect of population explosion.
+64,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Minimum marriage age increase,A,2,5,Raising the minimum marriage age is a population-control measure.
+65,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Food supply imbalance,B,2,5,Population explosion creates an imbalance between food demand and supply.
+66,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Poverty alleviation,A,1,3,Poverty removal is a measure for checking population explosion.
+67,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Job opportunities,A,1,3,Employment opportunities help control population growth through economic improvement.
+68,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Land pressure,B,1,3,Population explosion increases pressure on land.
+69,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Environmental problems,B,1,3,Environmental problems are effects of population explosion.
+70,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Industrial-sector expansion,A,1,3,Industrial-sector expansion is an economic population-control measure.
+71,Economics,Chapter 6: Population in India,SORT-006,Population Concept,Control Measures,Population Effects,Income redistribution,A,2,5,Equitable distribution of income and wealth is an economic control measure.
+72,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Communicable disease control,A,1,3,Preventing and controlling communicable diseases is a policy objective.
+73,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Agricultural land pressure,B,2,5,Population explosion increases pressure on land and agriculture.
+74,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Stable population by 2045,A,1,3,The policy aims to achieve a stable population by 2045.
+75,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Infant mortality below 30,A,2,5,"The policy targets infant mortality below 30 per 1,000 live births."
+76,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Free schooling through 14,A,1,3,Free compulsory education through age 14 is a population-policy target.
+77,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Pressure on basic amenities,B,1,3,Population explosion places pressure on basic amenities.
+78,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Food demand imbalance,B,2,5,Population explosion creates an imbalance between food demand and supply.
+79,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Universal child immunisation,A,1,3,"Universal immunisation is a target of the National Population Policy, 2000."
+80,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Maternal mortality below 100,A,2,5,"The policy targets maternal mortality below 100 per 100,000 live births."
+81,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Social problems,B,1,3,Social problems are an effect of population explosion.
+82,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Low national income,B,1,3,Low national income is an effect of population explosion.
+83,Economics,Chapter 6: Population in India,SORT-007,Population Outcome,Policy Targets,Explosion Effects,Environmental degradation,B,2,5,Environmental problems arise from population explosion.
+84,Economics,Chapter 6: Population in India,SORT-008,Population Indicator,Death Rate,Birth Rate,Annual deaths,A,2,5,Death rate counts deaths occurring during a year.
+85,Economics,Chapter 6: Population in India,SORT-008,Population Indicator,Death Rate,Birth Rate,Fertility measure,B,1,3,Birth rate is also known as fertility rate.
+86,Economics,Chapter 6: Population in India,SORT-008,Population Indicator,Death Rate,Birth Rate,Higher childbearing frequency,B,2,5,More births raise the birth rate.
+87,Economics,Chapter 6: Population in India,SORT-008,Population Indicator,Death Rate,Birth Rate,Mortality measure,A,1,3,Death rate is also called mortality rate.
+88,Economics,Chapter 6: Population in India,SORT-008,Population Indicator,Death Rate,Birth Rate,Annual live births,B,2,5,Birth rate counts births occurring during a year.
+89,Economics,Chapter 6: Population in India,SORT-008,Population Indicator,Death Rate,Birth Rate,Deaths per thousand annually,A,1,3,Death rate measures annual deaths per thousand living people.
+90,Economics,Chapter 6: Population in India,SORT-008,Population Indicator,Death Rate,Birth Rate,Lower mortality frequency,A,2,5,Fewer deaths reduce the death rate.
+91,Economics,Chapter 6: Population in India,SORT-008,Population Indicator,Death Rate,Birth Rate,Births per thousand annually,B,1,3,Birth rate measures annual births per thousand living people.
+92,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,Stable final phase,B,2,5,The third demographic-transition stage has low or stable population growth.
+93,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,Falling birth and death rates,B,1,3,Demographic transition describes a shift from high to low birth and death rates.
+94,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,Three development stages,B,1,3,Demographic transition explains population change through three stages.
+95,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,Population grows geometrically,A,1,3,Malthus described population as increasing in geometric progression.
+96,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,Pre-industrial phase,B,2,5,The first demographic-transition stage is pre-industrial.
+97,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,High-growth middle phase,B,2,5,The second demographic-transition stage has high population growth.
+98,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,Positive natural checks,A,1,3,Malthus identified natural checks on excess population.
+99,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,Food grows arithmetically,A,1,3,Malthus described food supply as increasing in arithmetic progression.
+100,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,Late marriage restraint,A,2,5,Late marriage is a preventive check proposed by Malthus.
+101,Economics,Chapter 6: Population in India,SORT-009,Population Theory Feature,Malthusian Theory,Demographic Transition,Preventive checks,A,1,3,Malthus proposed preventive checks to address population imbalance.

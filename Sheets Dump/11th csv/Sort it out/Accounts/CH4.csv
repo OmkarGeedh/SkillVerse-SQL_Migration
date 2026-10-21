@@ -1,0 +1,37 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Accountancy,Ledger,SORT-001,Account Type,Personal Accounts,Real Accounts,Capital Account,A,2,5,The proprietor’s capital account relates to the person who invests in the business.
+2,Accountancy,Ledger,SORT-001,Account Type,Personal Accounts,Real Accounts,Cash Account,B,1,3,"Cash is an asset, so its account is a real account."
+3,Accountancy,Ledger,SORT-001,Account Type,Personal Accounts,Real Accounts,Furniture,B,1,3,Furniture is property owned by the business and falls under real accounts.
+4,Accountancy,Ledger,SORT-001,Account Type,Personal Accounts,Real Accounts,Debtors,A,1,3,Debtors are personal accounts representing parties who owe money to the business.
+5,Accountancy,Ledger,SORT-001,Account Type,Personal Accounts,Real Accounts,Customer Account,A,2,5,A customer account records transactions with a person or party.
+6,Accountancy,Ledger,SORT-001,Account Type,Personal Accounts,Real Accounts,Creditors,A,1,3,Creditors are personal accounts representing parties to whom the business owes money.
+7,Accountancy,Ledger,SORT-001,Account Type,Personal Accounts,Real Accounts,Furniture Account,B,1,3,Furniture represents a business asset and is treated as a real account.
+8,Accountancy,Ledger,SORT-001,Account Type,Personal Accounts,Real Accounts,Bank Account,B,2,5,The bank balance is treated as an asset account in this classification.
+9,Accountancy,Ledger,SORT-002,Account Type,Nominal Accounts,Personal Accounts,Supplier Account,B,2,5,A supplier account records transactions with a party.
+10,Accountancy,Ledger,SORT-002,Account Type,Nominal Accounts,Personal Accounts,Commission Account,A,2,5,Commission received is income and is recorded in a nominal account.
+11,Accountancy,Ledger,SORT-002,Account Type,Nominal Accounts,Personal Accounts,Salaries Account,A,1,3,Salaries are an expense and are recorded in a nominal account.
+12,Accountancy,Ledger,SORT-002,Account Type,Nominal Accounts,Personal Accounts,Rent Account,A,1,3,"Rent is an expense, so it is a nominal account."
+13,Accountancy,Ledger,SORT-002,Account Type,Nominal Accounts,Personal Accounts,Debtors,B,1,3,Debtors are personal accounts for parties who owe the business money.
+14,Accountancy,Ledger,SORT-002,Account Type,Nominal Accounts,Personal Accounts,Discount Allowed,A,2,5,Discount allowed is an expense or loss recorded in a nominal account.
+15,Accountancy,Ledger,SORT-002,Account Type,Nominal Accounts,Personal Accounts,Capital Account,B,2,5,Capital records the proprietor’s contribution and is a personal account.
+16,Accountancy,Ledger,SORT-002,Account Type,Nominal Accounts,Personal Accounts,Creditors,B,1,3,Creditors are personal accounts for parties owed money by the business.
+17,Accountancy,Ledger,SORT-003,Account Type,Real Accounts,Nominal Accounts,Bank Account,A,2,5,The bank balance is treated as an asset account in this classification.
+18,Accountancy,Ledger,SORT-003,Account Type,Real Accounts,Nominal Accounts,Salaries Account,B,1,3,Salaries are expenses recorded in a nominal account.
+19,Accountancy,Ledger,SORT-003,Account Type,Real Accounts,Nominal Accounts,Commission Account,B,2,5,Commission income is recorded in a nominal account.
+20,Accountancy,Ledger,SORT-003,Account Type,Real Accounts,Nominal Accounts,Rent Account,B,1,3,Rent is an expense and belongs to nominal accounts.
+21,Accountancy,Ledger,SORT-003,Account Type,Real Accounts,Nominal Accounts,Cash Account,A,1,3,"Cash is an asset, so its account is a real account."
+22,Accountancy,Ledger,SORT-003,Account Type,Real Accounts,Nominal Accounts,Furniture Account,A,1,3,Furniture is property owned by the business and is a real account.
+23,Accountancy,Ledger,SORT-003,Account Type,Real Accounts,Nominal Accounts,Sales Account,B,1,3,Sales is revenue and is recorded in a nominal account.
+24,Accountancy,Ledger,SORT-003,Account Type,Real Accounts,Nominal Accounts,Cash in Hand,A,2,5,Cash in hand is a business asset and belongs to real accounts.
+25,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Purchase Return,B,2,5,Purchase returns are credited and normally carry a credit balance.
+26,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Commission Account,B,2,5,Commission income is credited and normally has a credit balance.
+27,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Debtors,A,1,3,A debtor’s account generally has a debit balance when money is receivable.
+28,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Cash Account,A,1,3,Cash account normally carries a debit balance.
+29,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Creditors,B,1,3,A creditor’s account generally has a credit balance when money is payable.
+30,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Furniture Account,A,1,3,Furniture is an asset account and normally has a debit balance.
+31,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Advertisement Account,A,2,5,Advertisement is an expense and normally has a debit balance.
+32,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Printing Expenses,A,2,5,Printing expenses are expenses and normally have a debit balance.
+33,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Capital Account,B,1,3,Capital is shown as a credit balance.
+34,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Purchases Account,A,1,3,Purchases are recorded with a debit balance.
+35,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Sales Account,B,1,3,Sales normally carries a credit balance.
+36,Accountancy,Ledger,SORT-004,Ledger Account Balance,Debit Balance,Credit Balance,Discount Received,B,2,5,Discount received is income and normally has a credit balance.

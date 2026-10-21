@@ -1,0 +1,995 @@
+S.No,Subject,Chapter,Concept/Based On,Question Type,Question,Option A,Option B,Option C,Option D,Correct Option,Difficulty,Points,Hint,Explanation
+1,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and a standard die. Which set correctly represents its sample space?,"{(1,H), (2,H), (3,H), (4,H), (5,H), (6,H), (1,T), (2,T), (3,T), (4,T), (5,T), (6,T)}","{(H,1), (H,2), (H,3), (H,4), (H,5), (H,6)}","{(H,1), (H,2), (H,3), (H,4), (H,5), (H,6), (T,1), (T,2), (T,3), (T,4), (T,5), (T,6)}","{(H,1), (H,2), (H,3), (H,4), (H,5), (H,6), (T,1), (T,2), (T,3), (T,4), (T,5)}",C,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 6 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×6 ordered outcomes.
+
+Wrong-option checks: Option A: reverses the ordered positions of the coin and die; Option B: omits every outcome with T; Option D: omits one tail outcome"
+2,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and a four-sided die labeled 1–4. Which set correctly represents its sample space?,"{(H,1), (T,1)}","{(1,H), (1,T)}",14/13,"{(H,1)}",A,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 1 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×1 ordered outcomes.
+
+Wrong-option checks: Option B: reverses the ordered positions of the coin and die; Option C: results from an arithmetic or counting error; Option D: omits one tail outcome"
+3,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and a five-sided die labeled 1–5. Which set correctly represents its sample space?,"{(H,1), (T,1)}","{(H,1)}",1/6,"{(1,H), (1,T)}",A,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 1 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×1 ordered outcomes.
+
+Wrong-option checks: Option B: omits one tail outcome; Option C: results from an arithmetic or counting error; Option D: reverses the ordered positions of the coin and die"
+4,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and a three-sided die labeled 1–3. Which set correctly represents its sample space?,"{(1,H), (1,T)}","{(H,1)}",13/5,"{(H,1), (T,1)}",D,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 1 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×1 ordered outcomes.
+
+Wrong-option checks: Option A: reverses the ordered positions of the coin and die; Option B: omits one tail outcome; Option C: results from an arithmetic or counting error"
+5,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and an eight-sided die labeled 1–8. Which set correctly represents its sample space?,"{(H,1), (T,1)}","{(1,H), (1,T)}","{(H,1)}",2,A,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 1 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×1 ordered outcomes.
+
+Wrong-option checks: Option B: reverses the ordered positions of the coin and die; Option C: omits one tail outcome; Option D: results from an arithmetic or counting error"
+6,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and a seven-sided die labeled 1–7. Which set correctly represents its sample space?,"{(H,1), (T,1)}","{(H,1)}",2,"{(1,H), (1,T)}",A,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 1 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×1 ordered outcomes.
+
+Wrong-option checks: Option B: omits one tail outcome; Option C: results from an arithmetic or counting error; Option D: reverses the ordered positions of the coin and die"
+7,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and a ten-sided die labeled 1–10. Which set correctly represents its sample space?,"{(H,1), (T,1)}",3/4,"{(1,H), (1,T)}","{(H,1)}",A,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 1 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×1 ordered outcomes.
+
+Wrong-option checks: Option B: results from an arithmetic or counting error; Option C: reverses the ordered positions of the coin and die; Option D: omits one tail outcome"
+8,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and a six-sided die labeled 1–6. Which set correctly represents its sample space?,"{(1,H), (1,T)}","{(H,1)}",5/2,"{(H,1), (T,1)}",D,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 1 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×1 ordered outcomes.
+
+Wrong-option checks: Option A: reverses the ordered positions of the coin and die; Option B: omits one tail outcome; Option C: results from an arithmetic or counting error"
+9,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and a twelve-sided die labeled 1–12. Which set correctly represents its sample space?,3/4,"{(H,1)}","{(1,H), (1,T)}","{(H,1), (T,1)}",D,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 1 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×1 ordered outcomes.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option B: omits one tail outcome; Option C: reverses the ordered positions of the coin and die"
+10,Mathematics,7. Probability,Types of Events – Example 1,Solved-Example Variation,The experiment consists of tossing a coin and a nine-sided die labeled 1–9. Which set correctly represents its sample space?,"{(1,H), (1,T)}",9/7,"{(H,1), (T,1)}","{(H,1)}",C,1,3,List every possible coin result with every possible die result.,"1. There are 2 coin outcomes and 1 die outcomes.
+2. Pair each coin outcome with each die outcome, giving 2×1 ordered outcomes.
+
+Wrong-option checks: Option A: reverses the ordered positions of the coin and die; Option B: results from an arithmetic or counting error; Option D: omits one tail outcome"
+11,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by bus, train, or flight. After arriving, a local tour can be completed by metro or taxi. Which set lists all combined outcomes?","{(bus, bus), (bus, train), (train, bus), (train, train), (flight, bus), (flight, train)}","{(bus, metro), (bus, taxi), (train, metro), (train, taxi), (flight, metro), (flight, taxi)}","{(bus, metro), (bus, taxi), (train, metro), (train, taxi)}","{(bus, metro), (train, metro), (flight, metro)}",B,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option A: uses travel methods as if they were local-tour choices; Option C: omits all outcomes using the third travel method; Option D: omits the second local-tour choice for every route"
+12,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by car, train, or boat. After arriving, a local tour can be completed by bus or cab. Which set lists all combined outcomes?","{(car, bus), (car, cab), (train, bus), (train, cab)}","{(car, bus), (train, bus), (boat, bus)}","{(car, car), (car, train), (train, car), (train, train), (boat, car), (boat, train)}","{(car, bus), (car, cab), (train, bus), (train, cab), (boat, bus), (boat, cab)}",D,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option A: omits all outcomes using the third travel method; Option B: omits the second local-tour choice for every route; Option C: uses travel methods as if they were local-tour choices"
+13,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by bike, coach, or plane. After arriving, a local tour can be completed by tram or taxi. Which set lists all combined outcomes?","{(bike, tram), (coach, tram), (plane, tram)}","{(bike, bike), (bike, coach), (coach, bike), (coach, coach), (plane, bike), (plane, coach)}","{(bike, tram), (bike, taxi), (coach, tram), (coach, taxi)}","{(bike, tram), (bike, taxi), (coach, tram), (coach, taxi), (plane, tram), (plane, taxi)}",D,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option A: omits the second local-tour choice for every route; Option B: uses travel methods as if they were local-tour choices; Option C: omits all outcomes using the third travel method"
+14,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by ferry, train, or car. After arriving, a local tour can be completed by bus or rickshaw. Which set lists all combined outcomes?","{(ferry, bus), (ferry, rickshaw), (train, bus), (train, rickshaw)}","{(ferry, bus), (train, bus), (car, bus)}","{(ferry, bus), (ferry, rickshaw), (train, bus), (train, rickshaw), (car, bus), (car, rickshaw)}","{(ferry, ferry), (ferry, train), (train, ferry), (train, train), (car, ferry), (car, train)}",C,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option A: omits all outcomes using the third travel method; Option B: omits the second local-tour choice for every route; Option D: uses travel methods as if they were local-tour choices"
+15,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by van, bus, or flight. After arriving, a local tour can be completed by metro or cab. Which set lists all combined outcomes?","{(van, metro), (van, cab), (bus, metro), (bus, cab), (flight, metro), (flight, cab)}","{(van, van), (van, bus), (bus, van), (bus, bus), (flight, van), (flight, bus)}","{(van, metro), (bus, metro), (flight, metro)}","{(van, metro), (van, cab), (bus, metro), (bus, cab)}",A,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option B: uses travel methods as if they were local-tour choices; Option C: omits the second local-tour choice for every route; Option D: omits all outcomes using the third travel method"
+16,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by jeep, train, or ship. After arriving, a local tour can be completed by taxi or bus. Which set lists all combined outcomes?","{(jeep, jeep), (jeep, train), (train, jeep), (train, train), (ship, jeep), (ship, train)}","{(jeep, taxi), (train, taxi), (ship, taxi)}","{(jeep, taxi), (jeep, bus), (train, taxi), (train, bus)}","{(jeep, taxi), (jeep, bus), (train, taxi), (train, bus), (ship, taxi), (ship, bus)}",D,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option A: uses travel methods as if they were local-tour choices; Option B: omits the second local-tour choice for every route; Option C: omits all outcomes using the third travel method"
+17,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by car, flight, or ferry. After arriving, a local tour can be completed by tram or cab. Which set lists all combined outcomes?","{(car, tram), (car, cab), (flight, tram), (flight, cab)}","{(car, tram), (car, cab), (flight, tram), (flight, cab), (ferry, tram), (ferry, cab)}","{(car, tram), (flight, tram), (ferry, tram)}","{(car, car), (car, flight), (flight, car), (flight, flight), (ferry, car), (ferry, flight)}",B,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option A: omits all outcomes using the third travel method; Option C: omits the second local-tour choice for every route; Option D: uses travel methods as if they were local-tour choices"
+18,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by coach, car, or plane. After arriving, a local tour can be completed by bus or auto. Which set lists all combined outcomes?","{(coach, bus), (car, bus), (plane, bus)}","{(coach, bus), (coach, auto), (car, bus), (car, auto), (plane, bus), (plane, auto)}","{(coach, bus), (coach, auto), (car, bus), (car, auto)}","{(coach, coach), (coach, car), (car, coach), (car, car), (plane, coach), (plane, car)}",B,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option A: omits the second local-tour choice for every route; Option C: omits all outcomes using the third travel method; Option D: uses travel methods as if they were local-tour choices"
+19,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by train, boat, or van. After arriving, a local tour can be completed by metro or taxi. Which set lists all combined outcomes?","{(train, metro), (boat, metro), (van, metro)}","{(train, metro), (train, taxi), (boat, metro), (boat, taxi), (van, metro), (van, taxi)}","{(train, train), (train, boat), (boat, train), (boat, boat), (van, train), (van, boat)}","{(train, metro), (train, taxi), (boat, metro), (boat, taxi)}",B,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option A: omits the second local-tour choice for every route; Option C: uses travel methods as if they were local-tour choices; Option D: omits all outcomes using the third travel method"
+20,Mathematics,7. Probability,Types of Events – Example 2,Solved-Example Variation,"A traveler can reach a destination by bus, ship, or car. After arriving, a local tour can be completed by rickshaw or cab. Which set lists all combined outcomes?","{(bus, rickshaw), (bus, cab), (ship, rickshaw), (ship, cab)}","{(bus, rickshaw), (bus, cab), (ship, rickshaw), (ship, cab), (car, rickshaw), (car, cab)}","{(bus, bus), (bus, ship), (ship, bus), (ship, ship), (car, bus), (car, ship)}","{(bus, rickshaw), (ship, rickshaw), (car, rickshaw)}",B,1,3,Combine each first-stage choice with each second-stage choice.,"1. There are 3 first-stage choices and 2 second-stage choices.
+2. The combined outcomes are the six ordered pairs formed by taking each first-stage choice with each second-stage choice.
+
+Wrong-option checks: Option A: omits all outcomes using the third travel method; Option C: uses travel methods as if they were local-tour choices; Option D: omits the second local-tour choice for every route"
+21,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'at least two heads'. Which set is E?,"{HHH, HHT, HTH, THH}","{HTT, THT, TTH, TTT}",{},"{HHH, HHT, HTH, HTT}",A,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option B: uses the different condition 'at least two tails'; Option C: uses the different condition 'two heads or three heads'; Option D: selects the wrong number of outcomes without applying the stated condition"
+22,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'at most one head'. Which set is E?,1/7,"{HTT, THT, TTH, TTT}",{},"{HHH, HHT, HTH, HTT}",B,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option C: uses the different condition 'exactly two tails'; Option D: selects the wrong number of outcomes without applying the stated condition"
+23,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'exactly one tail'. Which set is E?,{},"{HHT, HTH, THH}","{HHH, HHT, HTH}","{HHH, HHT, HTH, THH}",B,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option A: uses the different condition 'one tail'; Option C: selects the wrong number of outcomes without applying the stated condition; Option D: uses the different condition 'at least two heads'"
+24,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'at least two tails'. Which set is E?,{},"{HHH, HHT, HTH, HTT}","{HTT, THT, TTH, TTT}","{HTT, THT, TTH}",C,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option A: uses the different condition 'two tails or three tails'; Option B: selects the wrong number of outcomes without applying the stated condition; Option D: uses the different condition 'exactly one head'"
+25,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'exactly two heads'. Which set is E?,"{HHT, HTH, THH}","{HTT, THT, TTH, TTT}",{},"{HHH, HHT, HTH}",A,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option B: uses the different condition 'at most one head'; Option C: uses the different condition 'two heads'; Option D: selects the wrong number of outcomes without applying the stated condition"
+26,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'at most one tail'. Which set is E?,{},"{HTT, THT, TTH, TTT}","{HHH, HHT, HTH, THH}","{HHH, HHT, HTH, HTT}",C,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option A: uses the different condition 'zero tails or one tail'; Option B: uses the different condition 'at least two tails'; Option D: selects the wrong number of outcomes without applying the stated condition"
+27,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'exactly one head'. Which set is E?,"{HTT, THT, TTH}","{HHH, HHT, HTH}","{HHH, HHT, HTH, THH}",{},A,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option B: selects the wrong number of outcomes without applying the stated condition; Option C: uses the different condition 'at least two heads'; Option D: uses the different condition 'one head'"
+28,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'all heads or all tails'. Which set is E?,"{HHH, TTT}","{HHT, HTH, THH}","{HHH, HHT}",{},A,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option B: uses the different condition 'exactly two heads'; Option C: selects the wrong number of outcomes without applying the stated condition; Option D: uses the different condition 'three heads or three tails'"
+29,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'at least one head'. Which set is E?,"{HHH, HHT, HTH, HTT, THH, THT, TTH}",12/7,1/15,{},A,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option B: results from an arithmetic or counting error; Option C: results from an arithmetic or counting error; Option D: uses the different condition 'no heads'"
+30,Mathematics,7. Probability,Types of Events – Example 3,Solved-Example Variation,Three fair coins are tossed. Let event E be defined as 'at least one tail'. Which set is E?,2/17,{},"{HHT, HTH, HTT, THH, THT, TTH, TTT}","{HHH, HHT, HTH, HTT, THH, THT, TTH}",C,2,5,Count heads in each of the eight outcomes.,"1. The sample space has eight ordered outcomes.
+2. Apply the stated head-count condition to each outcome.
+3. The listed outcomes are exactly those satisfying the condition.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option B: uses the different condition 'no tails'; Option D: selects the wrong number of outcomes without applying the stated condition"
+31,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.15, 0.25, and 0.6. Which conclusion follows from the probability axioms?",Invalid: sum=1,Invalid because one probability is below 0.5,Valid because each is ≤1,Valid: 0.15+0.25+0.6=1,D,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.15+0.25+0.6 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option A: checks or ignores the total incorrectly; Option B: incorrectly requires a probability to exceed 0.5; Option C: uses the individual bounds as if they were sufficient"
+32,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.22, 0.33, and 0.45. Which conclusion follows from the probability axioms?",Invalid: sum=1,Valid: 0.22+0.33+0.45=1,Invalid because one probability is below 0.5,Valid because each is ≤1,B,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.22+0.33+0.45 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option A: checks or ignores the total incorrectly; Option C: incorrectly requires a probability to exceed 0.5; Option D: uses the individual bounds as if they were sufficient"
+33,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.18, 0.27, and 0.55. Which conclusion follows from the probability axioms?",Invalid: sum=1,Valid because each is ≤1,Invalid because one probability is below 0.5,Valid: 0.18+0.27+0.55=1,D,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.18+0.27+0.55 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option A: checks or ignores the total incorrectly; Option B: uses the individual bounds as if they were sufficient; Option C: incorrectly requires a probability to exceed 0.5"
+34,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.31, 0.29, and 0.4. Which conclusion follows from the probability axioms?",Invalid because one probability is below 0.5,Invalid: sum=1,Valid: 0.31+0.29+0.4=1,Valid because each is ≤1,C,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.31+0.29+0.4 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option A: incorrectly requires a probability to exceed 0.5; Option B: checks or ignores the total incorrectly; Option D: uses the individual bounds as if they were sufficient"
+35,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.12, 0.38, and 0.5. Which conclusion follows from the probability axioms?",Valid: 0.12+0.38+0.5=1,Invalid: sum=1,Invalid because one probability is below 0.5,Valid because each is ≤1,A,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.12+0.38+0.5 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option B: checks or ignores the total incorrectly; Option C: incorrectly requires a probability to exceed 0.5; Option D: uses the individual bounds as if they were sufficient"
+36,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.26, 0.14, and 0.6. Which conclusion follows from the probability axioms?",Valid because each is ≤1,Invalid: sum=1,Invalid because one probability is below 0.5,Valid: 0.26+0.14+0.6=1,D,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.26+0.14+0.6 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option A: uses the individual bounds as if they were sufficient; Option B: checks or ignores the total incorrectly; Option C: incorrectly requires a probability to exceed 0.5"
+37,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.17, 0.43, and 0.4. Which conclusion follows from the probability axioms?",Invalid because one probability is below 0.5,Invalid: sum=1,Valid because each is ≤1,Valid: 0.17+0.43+0.4=1,D,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.17+0.43+0.4 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option A: incorrectly requires a probability to exceed 0.5; Option B: checks or ignores the total incorrectly; Option C: uses the individual bounds as if they were sufficient"
+38,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.24, 0.16, and 0.6. Which conclusion follows from the probability axioms?",Invalid: sum=1,Valid: 0.24+0.16+0.6=1,Valid because each is ≤1,Invalid because one probability is below 0.5,B,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.24+0.16+0.6 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option A: checks or ignores the total incorrectly; Option C: uses the individual bounds as if they were sufficient; Option D: incorrectly requires a probability to exceed 0.5"
+39,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.35, 0.25, and 0.4. Which conclusion follows from the probability axioms?",Invalid: sum=1,Invalid because one probability is below 0.5,Valid because each is ≤1,Valid: 0.35+0.25+0.4=1,D,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.35+0.25+0.4 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option A: checks or ignores the total incorrectly; Option B: incorrectly requires a probability to exceed 0.5; Option C: uses the individual bounds as if they were sufficient"
+40,Mathematics,7. Probability,Probability – Example 1,Solved-Example Variation,"Three mutually exclusive and exhaustive events have probabilities 0.08, 0.42, and 0.5. Which conclusion follows from the probability axioms?",Valid: 0.08+0.42+0.5=1,Invalid: sum=1,Invalid because one probability is below 0.5,Valid because each is ≤1,A,1,3,"For exhaustive mutually exclusive events, add their probabilities and check whether the total is 1.","1. Add the three probabilities: 0.08+0.42+0.5 = 1.
+2. The total is 1, so the assignment is valid.
+
+Wrong-option checks: Option B: checks or ignores the total incorrectly; Option C: incorrectly requires a probability to exceed 0.5; Option D: uses the individual bounds as if they were sufficient"
+41,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a multiple of 2?,1/3,1/2,5/6,3/5,B,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=3/6=1/2.
+
+Wrong-option checks: Option A: omits one favourable outcome; Option C: results from an arithmetic or counting error; Option D: uses 5 instead of the 6 possible die outcomes"
+42,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a multiple of 3?,2/5,1/3,1/6,2/3,B,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=2/6=1/3.
+
+Wrong-option checks: Option A: uses 5 instead of the 6 possible die outcomes; Option C: omits one favourable outcome; Option D: counts the non-favourable outcomes instead of favourable outcomes"
+43,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a prime number?,3/5,1/3,11/10,1/2,D,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=3/6=1/2.
+
+Wrong-option checks: Option A: uses 5 instead of the 6 possible die outcomes; Option B: omits one favourable outcome; Option C: results from an arithmetic or counting error"
+44,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a number greater than 4?,2/3,1/3,1/6,2/5,B,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=2/6=1/3.
+
+Wrong-option checks: Option A: counts the non-favourable outcomes instead of favourable outcomes; Option C: omits one favourable outcome; Option D: uses 5 instead of the 6 possible die outcomes"
+45,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a number less than 3?,1/3,2/3,2/5,1/6,A,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=2/6=1/3.
+
+Wrong-option checks: Option B: counts the non-favourable outcomes instead of favourable outcomes; Option C: uses 5 instead of the 6 possible die outcomes; Option D: omits one favourable outcome"
+46,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a odd number?,4/7,3/5,1/2,1/3,C,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=3/6=1/2.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option B: uses 5 instead of the 6 possible die outcomes; Option D: omits one favourable outcome"
+47,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a even number?,1/3,1/2,2/11,3/5,B,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=3/6=1/2.
+
+Wrong-option checks: Option A: omits one favourable outcome; Option C: results from an arithmetic or counting error; Option D: uses 5 instead of the 6 possible die outcomes"
+48,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a number divisible by 2 or 3?,1/3,1/2,4/5,2/3,D,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=4/6=2/3.
+
+Wrong-option checks: Option A: counts the non-favourable outcomes instead of favourable outcomes; Option B: omits one favourable outcome; Option C: uses 5 instead of the 6 possible die outcomes"
+49,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a perfect square?,2/5,1/3,2/3,1/6,B,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=2/6=1/3.
+
+Wrong-option checks: Option A: uses 5 instead of the 6 possible die outcomes; Option C: counts the non-favourable outcomes instead of favourable outcomes; Option D: omits one favourable outcome"
+50,Mathematics,7. Probability,Probability – Example 2,Solved-Example Variation,A fair standard die is thrown once. What is the probability of obtaining a number not exceeding 5?,5/6,1,1/6,2/3,A,1,3,Use P(A)=number of favourable outcomes ÷ total outcomes.,"1. The sample space has 6 outcomes.
+2. There are {len(fav)} favourable outcomes: {sorted(fav)}.
+3. P(A)=5/6=5/6.
+
+Wrong-option checks: Option B: uses 5 instead of the 6 possible die outcomes; Option C: counts the non-favourable outcomes instead of favourable outcomes; Option D: omits one favourable outcome"
+51,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a Ace or a Jack?,2/13,1/13,7/52,8/51,A,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option B: counts only one rank; Option C: misses one of the eight favourable cards; Option D: uses 51 as the total number of cards"
+52,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a King or a Jack?,8/51,2/13,1/13,7/52,B,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option A: uses 51 as the total number of cards; Option C: counts only one rank; Option D: misses one of the eight favourable cards"
+53,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a Queen or a Ace?,2/13,1/13,7/52,8/51,A,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option B: counts only one rank; Option C: misses one of the eight favourable cards; Option D: uses 51 as the total number of cards"
+54,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a King or a 10?,2/13,1/13,7/52,8/51,A,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option B: counts only one rank; Option C: misses one of the eight favourable cards; Option D: uses 51 as the total number of cards"
+55,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a Queen or a Jack?,7/52,1/13,2/13,8/51,C,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option A: misses one of the eight favourable cards; Option B: counts only one rank; Option D: uses 51 as the total number of cards"
+56,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a Ace or a 10?,2/13,8/51,7/52,1/13,A,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option B: uses 51 as the total number of cards; Option C: misses one of the eight favourable cards; Option D: counts only one rank"
+57,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a Jack or a 10?,1/13,7/52,2/13,8/51,C,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option A: counts only one rank; Option B: misses one of the eight favourable cards; Option D: uses 51 as the total number of cards"
+58,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a King or a 9?,1/13,2/13,8/51,7/52,B,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option A: counts only one rank; Option C: uses 51 as the total number of cards; Option D: misses one of the eight favourable cards"
+59,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a Queen or a 9?,2/13,1/13,8/51,7/52,A,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option B: counts only one rank; Option C: uses 51 as the total number of cards; Option D: misses one of the eight favourable cards"
+60,Mathematics,7. Probability,Probability – Example 3,Solved-Example Variation,One card is drawn at random from a standard 52-card pack. What is the probability that it is a Ace or a 9?,2/13,1/13,8/51,7/52,A,1,3,The two ranks are mutually exclusive; count four cards of each rank.,"1. There are 4 cards of each named rank.
+2. Thus favourable cards = 4+4 = 8.
+3. P=8/52=2/13.
+
+Wrong-option checks: Option B: counts only one rank; Option C: uses 51 as the total number of cards; Option D: misses one of the eight favourable cards"
+61,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.12, 0.18, 0.3, 0.4. Let A={a1, a2} and B={a2, a3}. Find P(B).",53/100,12/25,43/100,13/25,B,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.3.
+2. Add the probabilities of outcomes in B to get P(B)=0.48.
+3. P(A∩B)=0.18 and P(A∪B)=P(A)+P(B)-P(A∩B)=0.6.
+4. Therefore P(B)=0.48=12/25.
+
+Wrong-option checks: Option A: adds an unrelated 0.05 to the required probability; Option C: subtracts 0.05 from the required probability; Option D: uses the complement instead of the requested event"
+62,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.25, 0.15, 0.35, 0.25. Let A={a1, a3} and B={a2, a3, a4}. Find P(B).",4/5,1/4,3/4,7/10,C,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.6.
+2. Add the probabilities of outcomes in B to get P(B)=0.75.
+3. P(A∩B)=0.35 and P(A∪B)=P(A)+P(B)-P(A∩B)=1.
+4. Therefore P(B)=0.75=3/4.
+
+Wrong-option checks: Option A: adds an unrelated 0.05 to the required probability; Option B: uses the complement instead of the requested event; Option D: subtracts 0.05 from the required probability"
+63,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.1, 0.2, 0.25, 0.45. Let A={a1, a2} and B={a1, a3, a4}. Find P(A∪B).",1,21/20,0,19/20,A,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.3.
+2. Add the probabilities of outcomes in B to get P(B)=0.8.
+3. P(A∩B)=0.1 and P(A∪B)=P(A)+P(B)-P(A∩B)=1.
+4. Therefore P(A∪B)=1=1.
+
+Wrong-option checks: Option B: adds an unrelated 0.05 to the required probability; Option C: uses the complement instead of the requested event; Option D: subtracts 0.05 from the required probability"
+64,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.16, 0.24, 0.28, 0.32. Let A={a2, a4} and B={a1, a2, a3}. Find P(A').",39/100,49/100,14/25,11/25,D,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.56.
+2. Add the probabilities of outcomes in B to get P(B)=0.68.
+3. P(A∩B)=0.24 and P(A∪B)=P(A)+P(B)-P(A∩B)=1.
+4. Therefore P(A')=0.44=11/25.
+
+Wrong-option checks: Option A: subtracts 0.05 from the required probability; Option B: adds an unrelated 0.05 to the required probability; Option C: uses the complement instead of the requested event"
+65,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.14, 0.26, 0.22, 0.38. Let A={a1, a3} and B={a2, a3}. Find P(A∩B).",11/50,39/50,27/100,17/100,A,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.36.
+2. Add the probabilities of outcomes in B to get P(B)=0.48.
+3. P(A∩B)=0.22 and P(A∪B)=P(A)+P(B)-P(A∩B)=0.62.
+4. Therefore P(A∩B)=0.22=11/50.
+
+Wrong-option checks: Option B: uses the complement instead of the requested event; Option C: adds an unrelated 0.05 to the required probability; Option D: subtracts 0.05 from the required probability"
+66,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.21, 0.19, 0.27, 0.33. Let A={a1, a2} and B={a3, a4}. Find P(B).",3/5,11/20,2/5,13/20,A,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.4.
+2. Add the probabilities of outcomes in B to get P(B)=0.6.
+3. P(A∩B)=0 and P(A∪B)=P(A)+P(B)-P(A∩B)=1.
+4. Therefore P(B)=0.6=3/5.
+
+Wrong-option checks: Option B: subtracts 0.05 from the required probability; Option C: uses the complement instead of the requested event; Option D: adds an unrelated 0.05 to the required probability"
+67,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.13, 0.17, 0.31, 0.39. Let A={a3, a4} and B={a1, a3}. Find P(A).",3/4,3/10,13/20,7/10,D,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.7.
+2. Add the probabilities of outcomes in B to get P(B)=0.44.
+3. P(A∩B)=0.31 and P(A∪B)=P(A)+P(B)-P(A∩B)=0.83.
+4. Therefore P(A)=0.7=7/10.
+
+Wrong-option checks: Option A: adds an unrelated 0.05 to the required probability; Option B: uses the complement instead of the requested event; Option C: subtracts 0.05 from the required probability"
+68,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.28, 0.12, 0.3, 0.3. Let A={a1, a4} and B={a2, a3, a4}. Find P(A∩B).",1/4,7/10,3/10,7/20,C,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.58.
+2. Add the probabilities of outcomes in B to get P(B)=0.72.
+3. P(A∩B)=0.3 and P(A∪B)=P(A)+P(B)-P(A∩B)=1.
+4. Therefore P(A∩B)=0.3=3/10.
+
+Wrong-option checks: Option A: subtracts 0.05 from the required probability; Option B: uses the complement instead of the requested event; Option D: adds an unrelated 0.05 to the required probability"
+69,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.11, 0.29, 0.34, 0.26. Let A={a2, a3} and B={a1, a3, a4}. Find P(B).",33/50,19/25,29/100,71/100,D,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.63.
+2. Add the probabilities of outcomes in B to get P(B)=0.71.
+3. P(A∩B)=0.34 and P(A∪B)=P(A)+P(B)-P(A∩B)=1.
+4. Therefore P(B)=0.71=71/100.
+
+Wrong-option checks: Option A: subtracts 0.05 from the required probability; Option B: adds an unrelated 0.05 to the required probability; Option C: uses the complement instead of the requested event"
+70,Mathematics,7. Probability,Probability – Example 4,Solved-Example Variation,"A sample space has four outcomes a1,a2,a3,a4 with probabilities 0.23, 0.17, 0.26, 0.34. Let A={a1, a3} and B={a1, a2, a4}. Find P(A).",27/50,11/25,49/100,51/100,C,2,5,"Identify which outcomes belong to the required event, then add their probabilities.","1. Add the probabilities of outcomes in A to get P(A)=0.49.
+2. Add the probabilities of outcomes in B to get P(B)=0.74.
+3. P(A∩B)=0.23 and P(A∪B)=P(A)+P(B)-P(A∩B)=1.
+4. Therefore P(A)=0.49=49/100.
+
+Wrong-option checks: Option A: adds an unrelated 0.05 to the required probability; Option B: subtracts 0.05 from the required probability; Option D: uses the complement instead of the requested event"
+71,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 24 employees, 6 are graduates. If 3 employees are selected at random without replacement, what is the probability that all graduates are selected?",5/69,501/506,5/506,1/4,C,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(24,3) = 2024.
+2. Favourable selections = C(6,3) = 20.
+3. P = C(6,3)/C(24,3) = 5/506.
+
+Wrong-option checks: Option A: uses an incorrect total-selection count; Option B: uses the complement when the question asks for the stated event; Option D: uses the one-person graduate ratio instead of the k-person selection probability"
+72,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 18 employees, 5 are graduates. If 2 employees are selected at random without replacement, what is the probability that all graduates are selected?",5/9,143/153,5/18,10/153,D,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(18,2) = 153.
+2. Favourable selections = C(5,2) = 10.
+3. P = C(5,2)/C(18,2) = 10/153.
+
+Wrong-option checks: Option A: uses an incorrect total-selection count; Option B: uses the complement when the question asks for the stated event; Option C: uses the one-person graduate ratio instead of the k-person selection probability"
+73,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 25 employees, 7 are graduates. If 4 employees are selected at random without replacement, what is the probability that all graduates are selected?",7/25,2523/2530,7/2530,7/460,C,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(25,4) = 12650.
+2. Favourable selections = C(7,4) = 35.
+3. P = C(7,4)/C(25,4) = 7/2530.
+
+Wrong-option checks: Option A: uses the one-person graduate ratio instead of the k-person selection probability; Option B: uses the complement when the question asks for the stated event; Option D: uses an incorrect total-selection count"
+74,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 16 employees, 4 are graduates. If 3 employees are selected at random without replacement, what is the probability that at least one graduate are selected?",17/28,1/4,11/28,1/30,A,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(16,3) = 560.
+2. For at least one graduate, use the complement: select all 3 from the 12 non-graduates.
+3. P = 1 - C(12,3)/C(16,3) = 17/28.
+
+Wrong-option checks: Option B: uses the one-person graduate ratio instead of the k-person selection probability; Option C: uses the complement when the question asks for the stated event; Option D: uses an incorrect total-selection count"
+75,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 30 employees, 8 are graduates. If 2 employees are selected at random without replacement, what is the probability that all graduates are selected?",14/15,28/435,4/15,407/435,B,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(30,2) = 435.
+2. Favourable selections = C(8,2) = 28.
+3. P = C(8,2)/C(30,2) = 28/435.
+
+Wrong-option checks: Option A: uses an incorrect total-selection count; Option C: uses the one-person graduate ratio instead of the k-person selection probability; Option D: uses the complement when the question asks for the stated event"
+76,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 22 employees, 6 are graduates. If 4 employees are selected at random without replacement, what is the probability that all graduates are selected?",3/308,3/1463,3/11,1460/1463,B,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(22,4) = 7315.
+2. Favourable selections = C(6,4) = 15.
+3. P = C(6,4)/C(22,4) = 3/1463.
+
+Wrong-option checks: Option A: uses an incorrect total-selection count; Option C: uses the one-person graduate ratio instead of the k-person selection probability; Option D: uses the complement when the question asks for the stated event"
+77,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 28 employees, 7 are graduates. If 3 employees are selected at random without replacement, what is the probability that at least one graduate are selected?",1/4,95/234,5/54,139/234,D,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(28,3) = 3276.
+2. For at least one graduate, use the complement: select all 3 from the 21 non-graduates.
+3. P = 1 - C(21,3)/C(28,3) = 139/234.
+
+Wrong-option checks: Option A: uses the one-person graduate ratio instead of the k-person selection probability; Option B: uses the complement when the question asks for the stated event; Option C: uses an incorrect total-selection count"
+78,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 20 employees, 4 are graduates. If 2 employees are selected at random without replacement, what is the probability that all graduates are selected?",3/10,1/5,3/95,92/95,C,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(20,2) = 190.
+2. Favourable selections = C(4,2) = 6.
+3. P = C(4,2)/C(20,2) = 3/95.
+
+Wrong-option checks: Option A: uses an incorrect total-selection count; Option B: uses the one-person graduate ratio instead of the k-person selection probability; Option D: uses the complement when the question asks for the stated event"
+79,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 26 employees, 5 are graduates. If 3 employees are selected at random without replacement, what is the probability that all graduates are selected?",259/260,2/65,5/26,1/260,D,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(26,3) = 2600.
+2. Favourable selections = C(5,3) = 10.
+3. P = C(5,3)/C(26,3) = 1/260.
+
+Wrong-option checks: Option A: uses the complement when the question asks for the stated event; Option B: uses an incorrect total-selection count; Option C: uses the one-person graduate ratio instead of the k-person selection probability"
+80,Mathematics,7. Probability,Probability – Example 5,Solved-Example Variation,"From 32 employees, 9 are graduates. If 4 employees are selected at random without replacement, what is the probability that all graduates are selected?",63/17980,17917/17980,63/2480,9/32,A,2,5,"Count all equally likely k-person selections; for 'at least one', subtract the no-graduate case from 1.","1. Total selections = C(32,4) = 35960.
+2. Favourable selections = C(9,4) = 126.
+3. P = C(9,4)/C(32,4) = 63/17980.
+
+Wrong-option checks: Option B: uses the complement when the question asks for the stated event; Option C: uses an incorrect total-selection count; Option D: uses the one-person graduate ratio instead of the k-person selection probability"
+81,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word PLANE are arranged at random. What is the probability that the arrangement together?,17/3,2/5,1/5,1/10,B,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Treat P and E as one block: there are 4! arrangements, and the two letters can be ordered in 2 ways.
+3. Favourable arrangements = 48.
+4. Probability = favourable/total = 2/5.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option C: uses an unrelated 1/n probability; Option D: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed"
+82,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word BRICK are arranged at random. What is the probability that the arrangement begins with B and ends with K?,1/5,1/20,1,1/10,B,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Fix B in the first position and K in the last position; the remaining 3 letters can be arranged in 3! ways.
+3. Favourable arrangements = 6.
+4. Probability = favourable/total = 1/20.
+
+Wrong-option checks: Option A: uses an unrelated 1/n probability; Option C: results from an arithmetic or counting error; Option D: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed"
+83,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word MUSIC are arranged at random. What is the probability that the arrangement together?,2/5,4/5,1/5,1/10,A,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Treat M and C as one block: there are 4! arrangements, and the two letters can be ordered in 2 ways.
+3. Favourable arrangements = 48.
+4. Probability = favourable/total = 2/5.
+
+Wrong-option checks: Option B: results from an arithmetic or counting error; Option C: uses an unrelated 1/n probability; Option D: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed"
+84,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word TRAIN are arranged at random. What is the probability that the arrangement begins with T and ends with N?,1/5,1/10,19/5,1/20,D,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Fix T in the first position and N in the last position; the remaining 3 letters can be arranged in 3! ways.
+3. Favourable arrangements = 6.
+4. Probability = favourable/total = 1/20.
+
+Wrong-option checks: Option A: uses an unrelated 1/n probability; Option B: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed; Option C: results from an arithmetic or counting error"
+85,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word CLOUD are arranged at random. What is the probability that the arrangement together?,1/10,2/5,1/5,16/13,B,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Treat C and D as one block: there are 4! arrangements, and the two letters can be ordered in 2 ways.
+3. Favourable arrangements = 48.
+4. Probability = favourable/total = 2/5.
+
+Wrong-option checks: Option A: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed; Option C: uses an unrelated 1/n probability; Option D: results from an arithmetic or counting error"
+86,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word HEART are arranged at random. What is the probability that the arrangement begins with H and ends with T?,1/2,1/5,1/10,1/20,D,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Fix H in the first position and T in the last position; the remaining 3 letters can be arranged in 3! ways.
+3. Favourable arrangements = 6.
+4. Probability = favourable/total = 1/20.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option B: uses an unrelated 1/n probability; Option C: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed"
+87,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word GRAPE are arranged at random. What is the probability that the arrangement together?,1/10,1/5,2/5,1,C,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Treat G and E as one block: there are 4! arrangements, and the two letters can be ordered in 2 ways.
+3. Favourable arrangements = 48.
+4. Probability = favourable/total = 2/5.
+
+Wrong-option checks: Option A: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed; Option B: uses an unrelated 1/n probability; Option D: results from an arithmetic or counting error"
+88,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word LIGHT are arranged at random. What is the probability that the arrangement begins with L and ends with T?,1/20,1/5,10/3,1/10,A,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Fix L in the first position and T in the last position; the remaining 3 letters can be arranged in 3! ways.
+3. Favourable arrangements = 6.
+4. Probability = favourable/total = 1/20.
+
+Wrong-option checks: Option B: uses an unrelated 1/n probability; Option C: results from an arithmetic or counting error; Option D: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed"
+89,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word SHARE are arranged at random. What is the probability that the arrangement together?,2/5,17/13,1/10,1/5,A,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Treat S and E as one block: there are 4! arrangements, and the two letters can be ordered in 2 ways.
+3. Favourable arrangements = 48.
+4. Probability = favourable/total = 2/5.
+
+Wrong-option checks: Option B: results from an arithmetic or counting error; Option C: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed; Option D: uses an unrelated 1/n probability"
+90,Mathematics,7. Probability,Probability – Example 6,Solved-Example Variation,The letters of the word CROWN are arranged at random. What is the probability that the arrangement begins with C and ends with N?,1/10,1/5,1/20,1,C,2,5,For adjacent letters use a single block; for fixed first and last letters arrange only the middle positions.,"1. Total arrangements = 5! = 120.
+2. Fix C in the first position and N in the last position; the remaining 3 letters can be arranged in 3! ways.
+3. Favourable arrangements = 6.
+4. Probability = favourable/total = 1/20.
+
+Wrong-option checks: Option A: allows two orientations or uses an extra factor of 2 when only one endpoint order is allowed; Option B: uses an unrelated 1/n probability; Option D: results from an arithmetic or counting error"
+91,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 2 or by 3?,5/6,1/6,1/3,2/3,D,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 2; |A|=18.
+2. Let B be divisibility by 3; |B|=12.
+3. The overlap has |A∩B|=6 outcomes.
+4. P(A∪B)=(18+12−6)/36=2/3.
+
+Wrong-option checks: Option A: adds the two event probabilities without subtracting their overlap; Option B: reports only the intersection; Option C: takes the complement instead of the union"
+92,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 3 or by 5?,20/9,0,17/36,19/36,D,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 3; |A|=12.
+2. Let B be divisibility by 5; |B|=7.
+3. The overlap has |A∩B|=0 outcomes.
+4. P(A∪B)=(12+7−0)/36=19/36.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option B: reports only the intersection; Option C: takes the complement instead of the union"
+93,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 2 or by 4?,3/4,1/2,1/5,1/4,B,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 2; |A|=18.
+2. Let B be divisibility by 4; |B|=9.
+3. The overlap has |A∩B|=9 outcomes.
+4. P(A∪B)=(18+9−9)/36=1/2.
+
+Wrong-option checks: Option A: adds the two event probabilities without subtracting their overlap; Option C: results from an arithmetic or counting error; Option D: reports only the intersection"
+94,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 4 or by 5?,8/11,4/9,5/9,0,B,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 4; |A|=9.
+2. Let B be divisibility by 5; |B|=7.
+3. The overlap has |A∩B|=0 outcomes.
+4. P(A∪B)=(9+7−0)/36=4/9.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option C: takes the complement instead of the union; Option D: reports only the intersection"
+95,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 3 or by 6?,2/3,1/2,1/3,1/6,C,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 3; |A|=12.
+2. Let B be divisibility by 6; |B|=6.
+3. The overlap has |A∩B|=6 outcomes.
+4. P(A∪B)=(12+6−6)/36=1/3.
+
+Wrong-option checks: Option A: takes the complement instead of the union; Option B: adds the two event probabilities without subtracting their overlap; Option D: reports only the intersection"
+96,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 2 or by 5?,7/18,25/36,11/18,1/12,C,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 2; |A|=18.
+2. Let B be divisibility by 5; |B|=7.
+3. The overlap has |A∩B|=3 outcomes.
+4. P(A∪B)=(18+7−3)/36=11/18.
+
+Wrong-option checks: Option A: takes the complement instead of the union; Option B: adds the two event probabilities without subtracting their overlap; Option D: reports only the intersection"
+97,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 4 or by 6?,5/12,7/18,11/18,1/36,B,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 4; |A|=9.
+2. Let B be divisibility by 6; |B|=6.
+3. The overlap has |A∩B|=1 outcomes.
+4. P(A∪B)=(9+6−1)/36=7/18.
+
+Wrong-option checks: Option A: adds the two event probabilities without subtracting their overlap; Option C: takes the complement instead of the union; Option D: reports only the intersection"
+98,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 3 or by 4?,4/9,5/9,1/36,7/12,B,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 3; |A|=12.
+2. Let B be divisibility by 4; |B|=9.
+3. The overlap has |A∩B|=1 outcomes.
+4. P(A∪B)=(12+9−1)/36=5/9.
+
+Wrong-option checks: Option A: takes the complement instead of the union; Option C: reports only the intersection; Option D: adds the two event probabilities without subtracting their overlap"
+99,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 5 or by 6?,13/36,2/19,23/36,0,A,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 5; |A|=7.
+2. Let B be divisibility by 6; |B|=6.
+3. The overlap has |A∩B|=0 outcomes.
+4. P(A∪B)=(7+6−0)/36=13/36.
+
+Wrong-option checks: Option B: results from an arithmetic or counting error; Option C: takes the complement instead of the union; Option D: reports only the intersection"
+100,Mathematics,7. Probability,Addition Theorem – Example 1,Solved-Example Variation,Two fair dice are thrown together. What is the probability that the sum is divisible by 2 or by 6?,1/2,1/6,15/14,2/3,A,2,5,"Use P(A∪B)=P(A)+P(B)−P(A∩B), taking care not to double-count the overlap.","1. Let A be divisibility by 2; |A|=18.
+2. Let B be divisibility by 6; |B|=6.
+3. The overlap has |A∩B|=6 outcomes.
+4. P(A∪B)=(18+6−6)/36=1/2.
+
+Wrong-option checks: Option B: reports only the intersection; Option C: results from an arithmetic or counting error; Option D: adds the two event probabilities without subtracting their overlap"
+101,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=3/5, P(B)=1/4, and P(A∪B)=1/3. Find P(A∩B).",17/20,31/60,-4/15,3/20,B,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=3/5+1/4−1/3=31/60.
+
+Wrong-option checks: Option A: forgets to subtract the overlap; Option C: rearranges the addition theorem incorrectly; Option D: multiplies the probabilities instead of using the addition theorem"
+102,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=2/7, P(B)=3/8, and P(A∪B)=1/2. Find P(A∩B).",37/56,9/56,3/28,3/14,B,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=2/7+3/8−1/2=9/56.
+
+Wrong-option checks: Option A: forgets to subtract the overlap; Option C: multiplies the probabilities instead of using the addition theorem; Option D: rearranges the addition theorem incorrectly"
+103,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=5/8, P(B)=1/6, and P(A∪B)=2/3. Find P(A∩B).",19/24,5/48,1/8,1/24,C,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=5/8+1/6−2/3=1/8.
+
+Wrong-option checks: Option A: forgets to subtract the overlap; Option B: multiplies the probabilities instead of using the addition theorem; Option D: rearranges the addition theorem incorrectly"
+104,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=4/9, P(B)=2/5, and P(A∪B)=3/4. Find P(A∩B).",38/45,8/45,11/36,17/180,D,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=4/9+2/5−3/4=17/180.
+
+Wrong-option checks: Option A: forgets to subtract the overlap; Option B: multiplies the probabilities instead of using the addition theorem; Option C: rearranges the addition theorem incorrectly"
+105,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=7/10, P(B)=1/5, and P(A∪B)=4/5. Find P(A∩B).",1/10,7/50,9/10,12/23,A,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=7/10+1/5−4/5=1/10.
+
+Wrong-option checks: Option B: multiplies the probabilities instead of using the addition theorem; Option C: forgets to subtract the overlap; Option D: results from an arithmetic or counting error"
+106,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=3/8, P(B)=5/12, and P(A∪B)=2/3. Find P(A∩B).",5/32,19/24,1/8,7/24,C,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=3/8+5/12−2/3=1/8.
+
+Wrong-option checks: Option A: multiplies the probabilities instead of using the addition theorem; Option B: forgets to subtract the overlap; Option D: rearranges the addition theorem incorrectly"
+107,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=5/9, P(B)=1/3, and P(A∪B)=7/9. Find P(A∩B).",8/9,5/27,1/9,2/9,C,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=5/9+1/3−7/9=1/9.
+
+Wrong-option checks: Option A: forgets to subtract the overlap; Option B: multiplies the probabilities instead of using the addition theorem; Option D: rearranges the addition theorem incorrectly"
+108,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=2/5, P(B)=3/10, and P(A∪B)=1/2. Find P(A∩B).",1/10,3/25,7/10,1/5,D,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=2/5+3/10−1/2=1/5.
+
+Wrong-option checks: Option A: rearranges the addition theorem incorrectly; Option B: multiplies the probabilities instead of using the addition theorem; Option C: forgets to subtract the overlap"
+109,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=4/7, P(B)=2/9, and P(A∪B)=5/6. Find P(A∩B).",8/63,-5/126,50/63,11/42,B,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=4/7+2/9−5/6=-5/126.
+
+Wrong-option checks: Option A: multiplies the probabilities instead of using the addition theorem; Option C: forgets to subtract the overlap; Option D: rearranges the addition theorem incorrectly"
+110,Mathematics,7. Probability,Addition Theorem – Example 2,Solved-Example Variation,"For events A and B, P(A)=3/10, P(B)=1/4, and P(A∪B)=2/5. Find P(A∩B).",3/40,11/20,3/20,1/10,C,2,5,Rearrange the addition theorem to isolate the intersection probability.,"1. Use P(A∪B)=P(A)+P(B)−P(A∩B).
+2. P(A∩B)=3/10+1/4−2/5=3/20.
+
+Wrong-option checks: Option A: multiplies the probabilities instead of using the addition theorem; Option B: forgets to subtract the overlap; Option D: rearranges the addition theorem incorrectly"
+111,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is red, what is the probability that it is face?",4/13,10/13,3/26,3/13,D,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given red, the reduced sample space contains 26 cards.
+2. There are 6 favourable cards of the stated type within that reduced set.
+3. P=6/26=3/13.
+
+Wrong-option checks: Option A: counts two extra favourable cards; Option B: counts non-favourable cards within the reduced sample space; Option C: keeps the full 52-card sample space instead of the given color-restricted sample space"
+112,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is black, what is the probability that it is face?",3/26,3/13,4/13,10/13,B,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given black, the reduced sample space contains 26 cards.
+2. There are 6 favourable cards of the stated type within that reduced set.
+3. P=6/26=3/13.
+
+Wrong-option checks: Option A: keeps the full 52-card sample space instead of the given color-restricted sample space; Option C: counts two extra favourable cards; Option D: counts non-favourable cards within the reduced sample space"
+113,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is red, what is the probability that it is ace?",12/13,1/26,1/13,2/13,C,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given red, the reduced sample space contains 26 cards.
+2. There are 2 favourable cards of the stated type within that reduced set.
+3. P=2/26=1/13.
+
+Wrong-option checks: Option A: counts non-favourable cards within the reduced sample space; Option B: keeps the full 52-card sample space instead of the given color-restricted sample space; Option D: counts two extra favourable cards"
+114,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is black, what is the probability that it is ace?",2/13,12/13,1/13,1/26,C,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given black, the reduced sample space contains 26 cards.
+2. There are 2 favourable cards of the stated type within that reduced set.
+3. P=2/26=1/13.
+
+Wrong-option checks: Option A: counts two extra favourable cards; Option B: counts non-favourable cards within the reduced sample space; Option D: keeps the full 52-card sample space instead of the given color-restricted sample space"
+115,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is red, what is the probability that it is king?",1/26,1/13,2/13,12/13,B,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given red, the reduced sample space contains 26 cards.
+2. There are 2 favourable cards of the stated type within that reduced set.
+3. P=2/26=1/13.
+
+Wrong-option checks: Option A: keeps the full 52-card sample space instead of the given color-restricted sample space; Option C: counts two extra favourable cards; Option D: counts non-favourable cards within the reduced sample space"
+116,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is black, what is the probability that it is queen?",1/13,2/13,12/13,1/26,A,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given black, the reduced sample space contains 26 cards.
+2. There are 2 favourable cards of the stated type within that reduced set.
+3. P=2/26=1/13.
+
+Wrong-option checks: Option B: counts two extra favourable cards; Option C: counts non-favourable cards within the reduced sample space; Option D: keeps the full 52-card sample space instead of the given color-restricted sample space"
+117,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is red, what is the probability that it is jack?",1/13,2/13,12/13,1/26,A,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given red, the reduced sample space contains 26 cards.
+2. There are 2 favourable cards of the stated type within that reduced set.
+3. P=2/26=1/13.
+
+Wrong-option checks: Option B: counts two extra favourable cards; Option C: counts non-favourable cards within the reduced sample space; Option D: keeps the full 52-card sample space instead of the given color-restricted sample space"
+118,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is black, what is the probability that it is 10?",12/13,1/26,1/13,2/13,C,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given black, the reduced sample space contains 26 cards.
+2. There are 2 favourable cards of the stated type within that reduced set.
+3. P=2/26=1/13.
+
+Wrong-option checks: Option A: counts non-favourable cards within the reduced sample space; Option B: keeps the full 52-card sample space instead of the given color-restricted sample space; Option D: counts two extra favourable cards"
+119,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is red, what is the probability that it is heart-or-diamond?",1,1/2,14/13,0,A,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given red, the reduced sample space contains 26 cards.
+2. There are 26 favourable cards of the stated type within that reduced set.
+3. P=26/26=1.
+
+Wrong-option checks: Option B: keeps the full 52-card sample space instead of the given color-restricted sample space; Option C: counts two extra favourable cards; Option D: counts non-favourable cards within the reduced sample space"
+120,Mathematics,7. Probability,Conditional Probability – Introductory Example 1,Solved-Example Variation,"A card is drawn from a standard 52-card pack. Given that it is black, what is the probability that it is club-or-spade?",14/13,1,1/2,0,B,1,3,"Once the color is given, use only the 26 cards of that color as the reduced sample space.","1. Given black, the reduced sample space contains 26 cards.
+2. There are 26 favourable cards of the stated type within that reduced set.
+3. P=26/26=1.
+
+Wrong-option checks: Option A: counts two extra favourable cards; Option C: keeps the full 52-card sample space instead of the given color-restricted sample space; Option D: counts non-favourable cards within the reduced sample space"
+121,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is odd, what is the probability that the result is divisible by 3?",1/6,3,1/3,2/3,C,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is odd, the possible outcomes are [1, 3, 5].
+2. Among these, [3] satisfy the target condition.
+3. Conditional probability = 1/3=1/3.
+
+Wrong-option checks: Option A: uses all 6 die outcomes as the denominator; Option B: results from an arithmetic or counting error; Option D: uses the complement within the reduced sample space"
+122,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is even, what is the probability that the result is divisible by 3?",16/9,1/6,1/3,2/3,C,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is even, the possible outcomes are [2, 4, 6].
+2. Among these, [6] satisfy the target condition.
+3. Conditional probability = 1/3=1/3.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option B: uses all 6 die outcomes as the denominator; Option D: uses the complement within the reduced sample space"
+123,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is odd, what is the probability that the result is greater than 4?",2/3,1/3,1/6,11/24,B,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is odd, the possible outcomes are [1, 3, 5].
+2. Among these, [5] satisfy the target condition.
+3. Conditional probability = 1/3=1/3.
+
+Wrong-option checks: Option A: uses the complement within the reduced sample space; Option C: uses all 6 die outcomes as the denominator; Option D: results from an arithmetic or counting error"
+124,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is even, what is the probability that the result is less than 5?",2/7,2/3,10/23,1/3,B,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is even, the possible outcomes are [2, 4, 6].
+2. Among these, [2, 4] satisfy the target condition.
+3. Conditional probability = 2/3=2/3.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option C: results from an arithmetic or counting error; Option D: uses the complement within the reduced sample space"
+125,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is odd, what is the probability that the result is prime?",1/3,10/3,2/3,1/2,C,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is odd, the possible outcomes are [1, 3, 5].
+2. Among these, [3, 5] satisfy the target condition.
+3. Conditional probability = 2/3=2/3.
+
+Wrong-option checks: Option A: uses the complement within the reduced sample space; Option B: results from an arithmetic or counting error; Option D: uses all target outcomes rather than restricting to the given condition"
+126,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is even, what is the probability that the result is greater than 3?",12/7,1/3,2/3,1/2,C,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is even, the possible outcomes are [2, 4, 6].
+2. Among these, [4, 6] satisfy the target condition.
+3. Conditional probability = 2/3=2/3.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option B: uses the complement within the reduced sample space; Option D: uses all target outcomes rather than restricting to the given condition"
+127,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is odd, what is the probability that the result is less than 6?",5/6,1,0,1/2,B,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is odd, the possible outcomes are [1, 3, 5].
+2. Among these, [1, 3, 5] satisfy the target condition.
+3. Conditional probability = 3/3=1.
+
+Wrong-option checks: Option A: uses all target outcomes rather than restricting to the given condition; Option C: uses the complement within the reduced sample space; Option D: uses all 6 die outcomes as the denominator"
+128,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is even, what is the probability that the result is perfect square?",1/3,8/25,1/6,2/3,A,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is even, the possible outcomes are [2, 4, 6].
+2. Among these, [4] satisfy the target condition.
+3. Conditional probability = 1/3=1/3.
+
+Wrong-option checks: Option B: results from an arithmetic or counting error; Option C: uses all 6 die outcomes as the denominator; Option D: uses the complement within the reduced sample space"
+129,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is odd, what is the probability that the result is not 1?",5/6,15/23,1/3,2/3,D,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is odd, the possible outcomes are [1, 3, 5].
+2. Among these, [3, 5] satisfy the target condition.
+3. Conditional probability = 2/3=2/3.
+
+Wrong-option checks: Option A: uses all target outcomes rather than restricting to the given condition; Option B: results from an arithmetic or counting error; Option C: uses the complement within the reduced sample space"
+130,Mathematics,7. Probability,Conditional Probability – Introductory Example 2,Solved-Example Variation,"A fair die is thrown once. Given that the result is even, what is the probability that the result is not 6?",5/6,2/3,1/3,1/7,B,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is even, the possible outcomes are [2, 4, 6].
+2. Among these, [2, 4] satisfy the target condition.
+3. Conditional probability = 2/3=2/3.
+
+Wrong-option checks: Option A: uses all target outcomes rather than restricting to the given condition; Option C: uses the complement within the reduced sample space; Option D: results from an arithmetic or counting error"
+131,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is odd, find the probability that the number is less than 4.",1/2,1/3,6/7,2/3,D,1,3,"Use P(A|B)=P(A∩B)/P(B), or count favourable outcomes inside the reduced sample space.","1. Given odd, the reduced sample space has 3 outcomes.
+2. The outcomes satisfying both conditions are [1, 3]; there are 2.
+3. P=2/3=2/3.
+
+Wrong-option checks: Option A: uses all outcomes less than k without enforcing the given condition; Option B: uses the complement of the desired event; Option C: results from an arithmetic or counting error"
+132,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is odd, find the probability that the number is less than 5.",2/3,5/6,3/10,1/3,A,1,3,"Use P(A|B)=P(A∩B)/P(B), or count favourable outcomes inside the reduced sample space.","1. Given odd, the reduced sample space has 3 outcomes.
+2. The outcomes satisfying both conditions are [1, 3]; there are 2.
+3. P=2/3=2/3.
+
+Wrong-option checks: Option B: results from an arithmetic or counting error; Option C: results from an arithmetic or counting error; Option D: uses the complement of the desired event"
+133,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is even, find the probability that the number is less than 3.",2/3,7/9,1/3,1/6,C,1,3,"Use P(A|B)=P(A∩B)/P(B), or count favourable outcomes inside the reduced sample space.","1. Given even, the reduced sample space has 3 outcomes.
+2. The outcomes satisfying both conditions are [2]; there are 1.
+3. P=1/3=1/3.
+
+Wrong-option checks: Option A: uses the complement of the desired event; Option B: results from an arithmetic or counting error; Option D: uses 6 as the conditional denominator"
+134,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is even, find the probability that the number is less than 5.",1/3,2/3,7/11,4/5,B,1,3,"Use P(A|B)=P(A∩B)/P(B), or count favourable outcomes inside the reduced sample space.","1. Given even, the reduced sample space has 3 outcomes.
+2. The outcomes satisfying both conditions are [2, 4]; there are 2.
+3. P=2/3=2/3.
+
+Wrong-option checks: Option A: uses the complement of the desired event; Option C: results from an arithmetic or counting error; Option D: results from an arithmetic or counting error"
+135,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is odd, find the probability that the number is less than 6.",0,1/2,5/6,1,D,1,3,"Use P(A|B)=P(A∩B)/P(B), or count favourable outcomes inside the reduced sample space.","1. Given odd, the reduced sample space has 3 outcomes.
+2. The outcomes satisfying both conditions are [1, 3, 5]; there are 3.
+3. P=3/3=1.
+
+Wrong-option checks: Option A: uses the complement of the desired event; Option B: uses 6 as the conditional denominator; Option C: uses all outcomes less than k without enforcing the given condition"
+136,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is even, find the probability that the number is less than 4.",2/3,1/2,1/3,1/6,C,1,3,"Use P(A|B)=P(A∩B)/P(B), or count favourable outcomes inside the reduced sample space.","1. Given even, the reduced sample space has 3 outcomes.
+2. The outcomes satisfying both conditions are [2]; there are 1.
+3. P=1/3=1/3.
+
+Wrong-option checks: Option A: uses the complement of the desired event; Option B: uses all outcomes less than k without enforcing the given condition; Option D: uses 6 as the conditional denominator"
+137,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is odd, find the probability that the number is less than 2.",1/6,2/3,6/17,1/3,D,1,3,"Use P(A|B)=P(A∩B)/P(B), or count favourable outcomes inside the reduced sample space.","1. Given odd, the reduced sample space has 3 outcomes.
+2. The outcomes satisfying both conditions are [1]; there are 1.
+3. P=1/3=1/3.
+
+Wrong-option checks: Option A: uses all outcomes less than k without enforcing the given condition; Option B: uses the complement of the desired event; Option C: results from an arithmetic or counting error"
+138,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is even, find the probability that the number is less than 6.",5/6,1/3,1/11,2/3,D,1,3,"Use P(A|B)=P(A∩B)/P(B), or count favourable outcomes inside the reduced sample space.","1. Given even, the reduced sample space has 3 outcomes.
+2. The outcomes satisfying both conditions are [2, 4]; there are 2.
+3. P=2/3=2/3.
+
+Wrong-option checks: Option A: uses all outcomes less than k without enforcing the given condition; Option B: uses the complement of the desired event; Option C: results from an arithmetic or counting error"
+139,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is odd, find the probability that the number is less than 3.",2/3,1/3,3/2,1/6,B,1,3,"Use P(A|B)=P(A∩B)/P(B), or count favourable outcomes inside the reduced sample space.","1. Given odd, the reduced sample space has 3 outcomes.
+2. The outcomes satisfying both conditions are [1]; there are 1.
+3. P=1/3=1/3.
+
+Wrong-option checks: Option A: uses the complement of the desired event; Option C: results from an arithmetic or counting error; Option D: uses 6 as the conditional denominator"
+140,Mathematics,7. Probability,Conditional Probability – Formula Example 1,Solved-Example Variation,"A fair die is thrown. Given that the result is even, find the probability that the number is less than 2.",0,1/3,2/3,1/6,A,1,3,Restrict the sample space to outcomes satisfying the given condition.,"1. Given that the result is even, the reduced sample space is {2,4,6}.
+2. No outcome in this reduced sample space is less than 2.
+3. Therefore P(number<2 | even)=0.
+
+Wrong-option checks: Option B: uses one over the reduced sample space without recognizing that no even outcome is less than 2; Option C: counts two favourable even outcomes that do not satisfy the condition; Option D: uses one favourable outcome over all six die outcomes"
+141,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.2, P(B)=0.3, and P(B|A)=0.4. Find P(A∪B).",4/5,3/10,39/50,8/25,C,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.2=0.8.
+2. P(A∩B)=P(A)P(B|A)=0.8×0.4=0.32.
+3. P(A∪B)=P(A)+P(B)−P(A∩B)=39/50.
+
+Wrong-option checks: Option A: uses P(A) without applying the given conditional information; Option B: uses P(B) as the requested result; Option D: reports the intersection instead of conditioning on B"
+142,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.25, P(B)=0.6, and P(B|A)=0.5. Find P(A∪B).",3/5,39/40,3/8,3/4,B,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.25=0.75.
+2. P(A∩B)=P(A)P(B|A)=0.75×0.5=0.375.
+3. P(A∪B)=P(A)+P(B)−P(A∩B)=39/40.
+
+Wrong-option checks: Option A: uses P(B) as the requested result; Option C: reports the intersection instead of conditioning on B; Option D: uses P(A) without applying the given conditional information"
+143,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.35, P(B)=0.5, and P(B|A)=0.7. Find P(A|B).",13/20,91/100,91/200,1/2,B,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.35=0.65.
+2. P(A∩B)=P(A)P(B|A)=0.65×0.7=0.455.
+3. P(A|B)=P(A∩B)/P(B)=91/100.
+
+Wrong-option checks: Option A: uses P(A) without applying the given conditional information; Option C: reports the intersection instead of conditioning on B; Option D: uses P(B) as the requested result"
+144,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.4, P(B)=0.8, and P(B|A)=0.6. Find P(A∪B).",26/25,3/5,4/5,9/25,A,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.4=0.6.
+2. P(A∩B)=P(A)P(B|A)=0.6×0.6=0.36.
+3. P(A∪B)=P(A)+P(B)−P(A∩B)=26/25.
+
+Wrong-option checks: Option B: uses P(A) without applying the given conditional information; Option C: uses P(B) as the requested result; Option D: reports the intersection instead of conditioning on B"
+145,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.15, P(B)=0.4, and P(B|A)=0.25. Find P(A∪B).",83/80,17/80,17/20,2/5,A,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.15=0.85.
+2. P(A∩B)=P(A)P(B|A)=0.85×0.25=0.2125.
+3. P(A∪B)=P(A)+P(B)−P(A∩B)=83/80.
+
+Wrong-option checks: Option B: reports the intersection instead of conditioning on B; Option C: uses P(A) without applying the given conditional information; Option D: uses P(B) as the requested result"
+146,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.3, P(B)=0.5, and P(B|A)=0.2. Find P(A|B).",1/2,7/50,7/25,7/10,C,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.3=0.7.
+2. P(A∩B)=P(A)P(B|A)=0.7×0.2=0.14.
+3. P(A|B)=P(A∩B)/P(B)=7/25.
+
+Wrong-option checks: Option A: uses P(B) as the requested result; Option B: reports the intersection instead of conditioning on B; Option D: uses P(A) without applying the given conditional information"
+147,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.45, P(B)=0.6, and P(B|A)=0.5. Find P(A∪B).",11/20,7/8,11/40,3/5,B,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.45=0.55.
+2. P(A∩B)=P(A)P(B|A)=0.55×0.5=0.275.
+3. P(A∪B)=P(A)+P(B)−P(A∩B)=7/8.
+
+Wrong-option checks: Option A: uses P(A) without applying the given conditional information; Option C: reports the intersection instead of conditioning on B; Option D: uses P(B) as the requested result"
+148,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.18, P(B)=0.5, and P(B|A)=0.3. Find P(A|B).",1/2,41/50,123/500,123/250,D,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.18=0.82.
+2. P(A∩B)=P(A)P(B|A)=0.82×0.3=0.246.
+3. P(A|B)=P(A∩B)/P(B)=123/250.
+
+Wrong-option checks: Option A: uses P(B) as the requested result; Option B: uses P(A) without applying the given conditional information; Option C: reports the intersection instead of conditioning on B"
+149,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.28, P(B)=0.7, and P(B|A)=0.4. Find P(A|B).",7/10,18/25,36/125,162129586585337856/394064967394918375,D,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.28=0.72.
+2. P(A∩B)=P(A)P(B|A)=0.72×0.4=0.288.
+3. P(A|B)=P(A∩B)/P(B)=162129586585337856/394064967394918375.
+
+Wrong-option checks: Option A: uses P(B) as the requested result; Option B: uses P(A) without applying the given conditional information; Option C: reports the intersection instead of conditioning on B"
+150,Mathematics,7. Probability,Conditional Probability – Formula Example 2,Solved-Example Variation,"Suppose P(A')=0.32, P(B)=0.8, and P(B|A)=0.5. Find P(A∪B).",57/50,17/25,4/5,17/50,A,2,5,"First find P(A) from its complement, then find the intersection using the given conditional probability.","1. P(A)=1−0.32=0.68.
+2. P(A∩B)=P(A)P(B|A)=0.68×0.5=0.34.
+3. P(A∪B)=P(A)+P(B)−P(A∩B)=57/50.
+
+Wrong-option checks: Option B: uses P(A) without applying the given conditional information; Option C: uses P(B) as the requested result; Option D: reports the intersection instead of conditioning on B"
+151,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are kings?,15/7,1/221,1/169,4/663,B,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option C: treats the two draws as independent without replacement; Option D: does not reduce the number of target cards after the first draw"
+152,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are queens?,1/169,4/663,1/221,4/7,C,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option A: treats the two draws as independent without replacement; Option B: does not reduce the number of target cards after the first draw; Option D: results from an arithmetic or counting error"
+153,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are jacks?,4/663,1/221,1/169,17/16,B,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option A: does not reduce the number of target cards after the first draw; Option C: treats the two draws as independent without replacement; Option D: results from an arithmetic or counting error"
+154,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are tens?,4/663,1/169,17/20,1/221,D,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option A: does not reduce the number of target cards after the first draw; Option B: treats the two draws as independent without replacement; Option C: results from an arithmetic or counting error"
+155,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are aces?,1/169,4/663,1/5,1/221,D,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option A: treats the two draws as independent without replacement; Option B: does not reduce the number of target cards after the first draw; Option C: results from an arithmetic or counting error"
+156,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are nines?,4/663,1/169,1/221,17/14,C,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option A: does not reduce the number of target cards after the first draw; Option B: treats the two draws as independent without replacement; Option D: results from an arithmetic or counting error"
+157,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are eights?,13/6,1/169,1/221,4/663,C,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option A: results from an arithmetic or counting error; Option B: treats the two draws as independent without replacement; Option D: does not reduce the number of target cards after the first draw"
+158,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are sevens?,1/221,4/663,7/19,1/169,A,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option B: does not reduce the number of target cards after the first draw; Option C: results from an arithmetic or counting error; Option D: treats the two draws as independent without replacement"
+159,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are sixes?,1/221,4/663,19/2,1/169,A,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option B: does not reduce the number of target cards after the first draw; Option C: results from an arithmetic or counting error; Option D: treats the two draws as independent without replacement"
+160,Mathematics,7. Probability,Multiplication Theorem – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement from a standard 52-card pack. What is the probability that both cards are fives?,4/663,1/221,9/11,1/169,B,2,5,Multiply the probability of the first target card by the conditional probability of the second target card.,"1. First target card: 4/52.
+2. After one target card is removed, 3 target cards remain among 51 cards: 3/51.
+3. Multiply: (4/52)(3/51)=1/221.
+
+Wrong-option checks: Option A: does not reduce the number of target cards after the first draw; Option C: results from an arithmetic or counting error; Option D: treats the two draws as independent without replacement"
+161,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 5 black and 7 white balls. Two balls are drawn successively without replacement. What is the probability that the both black?,5/33,35/132,4/11,25/144,A,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. First black: 5/12.
+2. After one black is drawn, black remaining = 4 out of 11.
+3. P(both black)=(5/12)(4/11)=5/33.
+
+Wrong-option checks: Option B: counts only the case in which the first ball is white; Option C: uses only the conditional second-draw probability and omits the first-draw case; Option D: treats the draws as independent"
+162,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 3 black and 8 white balls. Two balls are drawn successively without replacement. What is the probability that the both black?,9/121,3/55,1/5,12/55,B,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. First black: 3/11.
+2. After one black is drawn, black remaining = 2 out of 10.
+3. P(both black)=(3/11)(2/10)=3/55.
+
+Wrong-option checks: Option A: treats the draws as independent; Option C: uses only the conditional second-draw probability and omits the first-draw case; Option D: counts only the case in which the first ball is white"
+163,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 6 black and 9 white balls. Two balls are drawn successively without replacement. What is the probability that the second ball black?,2/5,5/14,9/35,4/25,A,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. Case 1 (first white, then black): (9/15)(6/14).
+2. Case 2 (first black, then black): (6/15)(5/14).
+3. Add the two disjoint cases to get P(second black)=2/5.
+
+Wrong-option checks: Option B: uses only the conditional second-draw probability and omits the first-draw case; Option C: counts only the case in which the first ball is white; Option D: treats the draws as independent"
+164,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 4 black and 11 white balls. Two balls are drawn successively without replacement. What is the probability that the second ball black?,16/225,22/105,4/15,3/14,C,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. Case 1 (first white, then black): (11/15)(4/14).
+2. Case 2 (first black, then black): (4/15)(3/14).
+3. Add the two disjoint cases to get P(second black)=4/15.
+
+Wrong-option checks: Option A: treats the draws as independent; Option B: counts only the case in which the first ball is white; Option D: uses only the conditional second-draw probability and omits the first-draw case"
+165,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 7 black and 5 white balls. Two balls are drawn successively without replacement. What is the probability that the both black?,6/11,35/132,7/22,49/144,C,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. First black: 7/12.
+2. After one black is drawn, black remaining = 6 out of 11.
+3. P(both black)=(7/12)(6/11)=7/22.
+
+Wrong-option checks: Option A: uses only the conditional second-draw probability and omits the first-draw case; Option B: counts only the case in which the first ball is white; Option D: treats the draws as independent"
+166,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 2 black and 10 white balls. Two balls are drawn successively without replacement. What is the probability that the second ball black?,1/6,5/33,1/36,1/11,A,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. Case 1 (first white, then black): (10/12)(2/11).
+2. Case 2 (first black, then black): (2/12)(1/11).
+3. Add the two disjoint cases to get P(second black)=1/6.
+
+Wrong-option checks: Option B: counts only the case in which the first ball is white; Option C: treats the draws as independent; Option D: uses only the conditional second-draw probability and omits the first-draw case"
+167,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 8 black and 7 white balls. Two balls are drawn successively without replacement. What is the probability that the second ball black?,8/15,4/15,64/225,1/2,A,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. Case 1 (first white, then black): (7/15)(8/14).
+2. Case 2 (first black, then black): (8/15)(7/14).
+3. Add the two disjoint cases to get P(second black)=8/15.
+
+Wrong-option checks: Option B: counts only the case in which the first ball is white; Option C: treats the draws as independent; Option D: uses only the conditional second-draw probability and omits the first-draw case"
+168,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 5 black and 10 white balls. Two balls are drawn successively without replacement. What is the probability that the both black?,2/7,1/9,5/21,2/21,D,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. First black: 5/15.
+2. After one black is drawn, black remaining = 4 out of 14.
+3. P(both black)=(5/15)(4/14)=2/21.
+
+Wrong-option checks: Option A: uses only the conditional second-draw probability and omits the first-draw case; Option B: treats the draws as independent; Option C: counts only the case in which the first ball is white"
+169,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 6 black and 6 white balls. Two balls are drawn successively without replacement. What is the probability that the second ball black?,3/11,1/2,1/4,5/11,B,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. Case 1 (first white, then black): (6/12)(6/11).
+2. Case 2 (first black, then black): (6/12)(5/11).
+3. Add the two disjoint cases to get P(second black)=1/2.
+
+Wrong-option checks: Option A: counts only the case in which the first ball is white; Option C: treats the draws as independent; Option D: uses only the conditional second-draw probability and omits the first-draw case"
+170,Mathematics,7. Probability,Multiplication Theorem – Example 2,Solved-Example Variation,An urn contains 9 black and 4 white balls. Two balls are drawn successively without replacement. What is the probability that the both black?,81/169,2/3,3/13,6/13,D,2,5,"For two black balls multiply sequential probabilities; for 'second black', split into first-white and first-black cases.","1. First black: 9/13.
+2. After one black is drawn, black remaining = 8 out of 12.
+3. P(both black)=(9/13)(8/12)=6/13.
+
+Wrong-option checks: Option A: treats the draws as independent; Option B: uses only the conditional second-draw probability and omits the first-draw case; Option C: counts only the case in which the first ball is white"
+171,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another with replacement. Event A: the first card is a non-face red card. Event B: the second card is a face card. Which statement correctly tests independence?,P(B|A)=3/13=P(B),P(B|A)=0,P(B|A)=3/13≠P(B),P(B|A)=1,A,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=12/52=3/13.
+2. After A, P(B|A)=12/52=3/13.
+3. Since these are equal, the events are independent.
+
+Wrong-option checks: Option B: assumes a conditional probability of 0 without calculation; Option C: reverses the equality/inequality test; Option D: assumes a conditional probability of 1 without calculation"
+172,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement. Event A: the first card is a non-face black card. Event B: the second card is a face card. Which statement correctly tests independence?,P(B|A)=4/17≠P(B),P(B|A)=4/17=P(B),P(B|A)=0,P(B|A)=1,A,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=12/52=3/13.
+2. After A, P(B|A)=12/51=4/17.
+3. Since these are not equal, the events are not independent.
+
+Wrong-option checks: Option B: reverses the equality/inequality test; Option C: assumes a conditional probability of 0 without calculation; Option D: assumes a conditional probability of 1 without calculation"
+173,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another with replacement. Event A: the first card is a red ace. Event B: the second card is a face card. Which statement correctly tests independence?,P(B|A)=1,P(B|A)=3/13=P(B),P(B|A)=0,P(B|A)=3/13≠P(B),B,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=12/52=3/13.
+2. After A, P(B|A)=12/52=3/13.
+3. Since these are equal, the events are independent.
+
+Wrong-option checks: Option A: assumes a conditional probability of 1 without calculation; Option C: assumes a conditional probability of 0 without calculation; Option D: reverses the equality/inequality test"
+174,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement. Event A: the first card is a black ace. Event B: the second card is a face card. Which statement correctly tests independence?,P(B|A)=1,P(B|A)=4/17≠P(B),P(B|A)=4/17=P(B),P(B|A)=0,B,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=12/52=3/13.
+2. After A, P(B|A)=12/51=4/17.
+3. Since these are not equal, the events are not independent.
+
+Wrong-option checks: Option A: assumes a conditional probability of 1 without calculation; Option C: reverses the equality/inequality test; Option D: assumes a conditional probability of 0 without calculation"
+175,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another with replacement. Event A: the first card is a red 2. Event B: the second card is a king. Which statement correctly tests independence?,P(B|A)=1,P(B|A)=1/13≠P(B),P(B|A)=1/13=P(B),P(B|A)=0,C,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=4/52=1/13.
+2. After A, P(B|A)=4/52=1/13.
+3. Since these are equal, the events are independent.
+
+Wrong-option checks: Option A: assumes a conditional probability of 1 without calculation; Option B: reverses the equality/inequality test; Option D: assumes a conditional probability of 0 without calculation"
+176,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement. Event A: the first card is a black 3. Event B: the second card is a queen. Which statement correctly tests independence?,P(B|A)=4/51≠P(B),P(B|A)=0,P(B|A)=4/51=P(B),P(B|A)=1,A,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=4/52=1/13.
+2. After A, P(B|A)=4/51=4/51.
+3. Since these are not equal, the events are not independent.
+
+Wrong-option checks: Option B: assumes a conditional probability of 0 without calculation; Option C: reverses the equality/inequality test; Option D: assumes a conditional probability of 1 without calculation"
+177,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another with replacement. Event A: the first card is a red 4. Event B: the second card is a jack. Which statement correctly tests independence?,P(B|A)=1,P(B|A)=1/13=P(B),P(B|A)=1/13≠P(B),P(B|A)=0,B,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=4/52=1/13.
+2. After A, P(B|A)=4/52=1/13.
+3. Since these are equal, the events are independent.
+
+Wrong-option checks: Option A: assumes a conditional probability of 1 without calculation; Option C: reverses the equality/inequality test; Option D: assumes a conditional probability of 0 without calculation"
+178,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement. Event A: the first card is a black 5. Event B: the second card is a 10. Which statement correctly tests independence?,P(B|A)=0,P(B|A)=1,P(B|A)=4/51≠P(B),P(B|A)=4/51=P(B),C,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=4/52=1/13.
+2. After A, P(B|A)=4/51=4/51.
+3. Since these are not equal, the events are not independent.
+
+Wrong-option checks: Option A: assumes a conditional probability of 0 without calculation; Option B: assumes a conditional probability of 1 without calculation; Option D: reverses the equality/inequality test"
+179,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another with replacement. Event A: the first card is a red 6. Event B: the second card is a face card. Which statement correctly tests independence?,P(B|A)=3/13≠P(B),P(B|A)=1,P(B|A)=3/13=P(B),P(B|A)=0,C,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=12/52=3/13.
+2. After A, P(B|A)=12/52=3/13.
+3. Since these are equal, the events are independent.
+
+Wrong-option checks: Option A: reverses the equality/inequality test; Option B: assumes a conditional probability of 1 without calculation; Option D: assumes a conditional probability of 0 without calculation"
+180,Mathematics,7. Probability,Independent Events – Example 1,Solved-Example Variation,Two cards are drawn one after another without replacement. Event A: the first card is a black 7. Event B: the second card is an ace. Which statement correctly tests independence?,P(B|A)=4/51≠P(B),P(B|A)=4/51=P(B),P(B|A)=0,P(B|A)=1,A,2,5,Compare P(B|A) with P(B). Equality indicates independence.,"1. P(B)=4/52=1/13.
+2. After A, P(B|A)=4/51=4/51.
+3. Since these are not equal, the events are not independent.
+
+Wrong-option checks: Option B: reverses the equality/inequality test; Option C: assumes a conditional probability of 0 without calculation; Option D: assumes a conditional probability of 1 without calculation"
+181,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=2/5 and P(B)=3/7. Find P(A∩B).,19/70,5/8,6/35,29/35,C,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−2/5=3/5 and P(B')=1−3/7=4/7.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A∩B)=6/35.
+
+Wrong-option checks: Option A: uses the complement of the requested event; Option B: results from an arithmetic or counting error; Option D: adds probabilities without accounting for the intersection"
+182,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=3/8 and P(B)=5/9. Find P(A∩B').,67/72,5/6,5/24,1/6,D,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−3/8=5/8 and P(B')=1−5/9=4/9.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A∩B')=1/6.
+
+Wrong-option checks: Option A: adds probabilities without accounting for the intersection; Option B: uses the complement of the requested event; Option C: uses P(A)P(B) without adjusting for the requested complement"
+183,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=4/9 and P(B)=2/5. Find P(A'∩B).,7/9,38/45,8/45,2/9,D,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−4/9=5/9 and P(B')=1−2/5=3/5.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A'∩B)=2/9.
+
+Wrong-option checks: Option A: uses the complement of the requested event; Option B: adds probabilities without accounting for the intersection; Option C: uses P(A)P(B) without adjusting for the requested complement"
+184,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=5/6 and P(B)=3/10. Find P(A'∩B').,17/15,7/60,1/4,53/60,B,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−5/6=1/6 and P(B')=1−3/10=7/10.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A'∩B')=7/60.
+
+Wrong-option checks: Option A: adds probabilities without accounting for the intersection; Option C: uses P(A)P(B) without adjusting for the requested complement; Option D: uses the complement of the requested event"
+185,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=3/10 and P(B)=7/8. Find P(A∪B).,21/80,7/80,47/40,73/80,D,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−3/10=7/10 and P(B')=1−7/8=1/8.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A∪B)=73/80.
+
+Wrong-option checks: Option A: uses P(A)P(B) without adjusting for the requested complement; Option B: uses the complement of the requested event; Option C: adds probabilities without accounting for the intersection"
+186,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=7/10 and P(B)=4/7. Find P(A∩B).,3/5,2/5,89/70,9/11,B,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−7/10=3/10 and P(B')=1−4/7=3/7.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A∩B)=2/5.
+
+Wrong-option checks: Option A: uses the complement of the requested event; Option C: adds probabilities without accounting for the intersection; Option D: results from an arithmetic or counting error"
+187,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=2/3 and P(B)=3/5. Find P(A∩B').,2/5,4/15,11/15,19/15,B,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−2/3=1/3 and P(B')=1−3/5=2/5.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A∩B')=4/15.
+
+Wrong-option checks: Option A: uses P(A)P(B) without adjusting for the requested complement; Option C: uses the complement of the requested event; Option D: adds probabilities without accounting for the intersection"
+188,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=5/12 and P(B)=4/9. Find P(A'∩B).,7/27,20/27,31/36,5/27,A,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−5/12=7/12 and P(B')=1−4/9=5/9.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A'∩B)=7/27.
+
+Wrong-option checks: Option B: uses the complement of the requested event; Option C: adds probabilities without accounting for the intersection; Option D: uses P(A)P(B) without adjusting for the requested complement"
+189,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=7/9 and P(B)=5/8. Find P(A'∩B').,101/72,1/12,35/72,11/12,B,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−7/9=2/9 and P(B')=1−5/8=3/8.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A'∩B')=1/12.
+
+Wrong-option checks: Option A: adds probabilities without accounting for the intersection; Option C: uses P(A)P(B) without adjusting for the requested complement; Option D: uses the complement of the requested event"
+190,Mathematics,7. Probability,Independent Events – Example 2,Solved-Example Variation,A and B are independent with P(A)=3/7 and P(B)=2/3. Find P(A∪B).,23/21,4/21,17/21,2/7,C,2,5,Use independence to multiply the relevant event/complement probabilities; use the addition theorem for a union.,"1. P(A')=1−3/7=4/7 and P(B')=1−2/3=1/3.
+2. Use independence to multiply the appropriate probabilities.
+3. Therefore P(A∪B)=17/21.
+
+Wrong-option checks: Option A: adds probabilities without accounting for the intersection; Option B: uses the complement of the requested event; Option D: uses P(A)P(B) without adjusting for the requested complement"
+191,Mathematics,7. Probability,Complement,Concept Coverage,"For S={1,2,3,4,5,6} and A={1,3,5}, which is A'?","{1,3,5}",∅,"{2,4,6}","{1,2,3}",C,1,3,A' contains every sample-space element not in A.,"1. Remove 1,3,5 from S to leave 2,4,6.
+
+Wrong-option checks: Option A: gives A instead of its complement; Option B: incorrectly assumes every sample point belongs to A; Option D: removes only part of A"
+192,Mathematics,7. Probability,Union,Concept Coverage,"For A={1,2,4} and B={2,3,5}, what is A∪B?","{1,2,4}","{1,2,3,4,5}","{2,3,5}",{2},B,1,3,Union includes elements in A or B or both.,"1. Collect every distinct element appearing in either set.
+
+Wrong-option checks: Option A: gives only A; Option C: gives only B; Option D: gives only the intersection"
+193,Mathematics,7. Probability,Exhaustive events,Concept Coverage,"For S={1,2,3,4,5,6}, which pair is exhaustive?","A={1,3,5}, B={2,4}","A={1,2,3}, B={4,5,6}","A={2,4}, B={1,3}","A={1,2}, B={4,5}",B,1,3,Check whether the union of the two events equals S.,"1. The displayed pair covers all six sample points.
+
+Wrong-option checks: Option A: omits 6; Option C: omits 5 and 6; Option D: omits 3 and 6"
+194,Mathematics,7. Probability,Intersection,Concept Coverage,"For A={1,2,4} and B={2,3,4}, find A∩B.","{2,4}","{1,2,3,4}",{2},"{1,3}",A,1,3,Keep only elements common to both sets.,"1. 2 and 4 occur in both A and B.
+
+Wrong-option checks: Option B: takes the union rather than the intersection; Option C: misses the common element 4; Option D: selects elements appearing in only one set"
+195,Mathematics,7. Probability,Mutually exclusive,Concept Coverage,"For A={1,3,5} and B={2,4,6}, are A and B mutually exclusive?",No: A∪B=∅,Yes: A∪B=∅,Yes: A∩B=∅,No: A∩B=S,C,1,3,Mutual exclusivity requires an empty intersection.,"1. The two sets have no common element, so their intersection is empty.
+
+Wrong-option checks: Option A: confuses union with intersection; Option B: the union is actually S, not empty; Option D: reverses the condition"
+196,Mathematics,7. Probability,Exactly one event,Concept Coverage,"For events A and B, which expression represents occurrence of exactly one of them?",A∩B,(A'∩B)∪(A∩B'),A∪B,A'∩B',B,1,3,Exactly one means one occurs while the other does not.,"1. Combine A'∩B with A∩B'.
+
+Wrong-option checks: Option A: means both occur; Option C: also includes the case where both occur; Option D: means neither occurs"
+197,Mathematics,7. Probability,Neither event,Concept Coverage,Which expression represents neither A nor B occurring?,A∩B,A∪B,(A'∩B)∪(A∩B'),A'∩B',D,1,3,Neither means A does not occur and B does not occur.,"1. Intersect the two complements.
+
+Wrong-option checks: Option A: means both occur; Option B: means at least one occurs; Option C: means exactly one occurs"
+198,Mathematics,7. Probability,Probability bounds,Concept Coverage,Which value can be a probability?,7/5,−1/4,−2,3/8,D,1,3,A probability must lie between 0 and 1 inclusive.,"1. 3/8 is between 0 and 1.
+
+Wrong-option checks: Option A: is greater than 1; Option B: is negative; Option C: is negative"
+199,Mathematics,7. Probability,Impossible probability,Concept Coverage,What is P(∅) for an impossible event?,0,1,−1,1/2,A,1,3,Use the probability property for the null event.,"1. The null event has probability zero.
+
+Wrong-option checks: Option B: is the probability of the sure event; Option C: cannot be a probability; Option D: is not assigned to the impossible event here"
+200,Mathematics,7. Probability,Sure probability,Concept Coverage,What is P(S) for a sample space S?,1/2,−1,0,1,D,1,3,Use the property of the sure event.,"1. Every trial produces an outcome in S, so P(S)=1.
+
+Wrong-option checks: Option A: is not the sure-event probability; Option B: cannot be a probability; Option C: is for the impossible event"
+201,Mathematics,7. Probability,Complement probability,Concept Coverage,"If P(A)=7/12, find P(A').",7/12,1/12,5/12,5/7,C,1,3,Use P(A')=1−P(A).,"1. P(A')=1−7/12=5/12.
+
+Wrong-option checks: Option A: returns P(A) instead of its complement; Option B: subtracts 6/12 instead of 7/12; Option D: uses an unrelated ratio"
+202,Mathematics,7. Probability,Subset probability,Concept Coverage,"If A⊂B, which relation must hold?",P(A)=1−P(B),P(A)=P(B)+1,P(A)≥P(B),P(A)≤P(B),D,1,3,A smaller event cannot have greater probability than the event containing it.,"1. Since every outcome in A is also in B, P(A) cannot exceed P(B).
+
+Wrong-option checks: Option A: confuses subset relation with complementation; Option B: violates the probability bounds; Option C: reverses the monotonicity relation"
+203,Mathematics,7. Probability,Disjoint union probability,Concept Coverage,"If P(A)=2/9 and P(B)=1/3 and A,B are mutually exclusive, find P(A∪B).",1/9,2/27,5/9,1/3,C,1,3,For disjoint events add the two probabilities.,"1. P(A∪B)=2/9+1/3=5/9.
+
+Wrong-option checks: Option A: subtracts instead of adding; Option B: multiplies instead of adding; Option D: uses only P(B)"
+204,Mathematics,7. Probability,P(A∩B'),Concept Coverage,"If P(A)=5/8 and P(A∩B)=1/4, find P(A∩B').",3/8,7/8,5/8,1/4,A,1,3,Use P(A∩B')=P(A)−P(A∩B).,"1. 5/8−1/4=5/8−2/8=3/8.
+
+Wrong-option checks: Option B: adds the two quantities; Option C: returns P(A) without removing A∩B; Option D: returns the intersection instead of the remainder within A"
+205,Mathematics,7. Probability,Addition theorem,Concept Coverage,"If P(A)=3/10, P(B)=2/5 and P(A∩B)=1/10, find P(A∪B).",7/10,3/5,6/25,1/5,B,1,3,Subtract the overlap once after adding the two event probabilities.,"1. 3/10+2/5−1/10=3/5.
+
+Wrong-option checks: Option A: adds without subtracting the overlap; Option C: multiplies probabilities; Option D: subtracts too much"
+206,Mathematics,7. Probability,Conditional definition,Concept Coverage,"If P(B)≠0, which expression defines P(A|B)?",P(A∩B)/P(B),P(A)P(B),P(A)+P(B),P(A∩B)/P(A),A,1,3,The condition B becomes the denominator.,"1. Conditional probability is the intersection divided by the probability of the given condition.
+
+Wrong-option checks: Option B: is the independent-events product, not the definition; Option C: is not the conditional formula; Option D: defines P(B|A), not P(A|B)"
+207,Mathematics,7. Probability,Multiplication theorem,Concept Coverage,Which expression gives P(A∩B) in terms of P(A) and P(B|A)?,P(A)/P(B|A),P(A)P(B|A),P(A)+P(B|A),P(B)/P(A),B,1,3,Multiply the first-event probability by the conditional second-event probability.,"1. P(A∩B)=P(A)P(B|A).
+
+Wrong-option checks: Option A: divides instead of multiplying; Option C: adds instead of multiplying; Option D: reverses the ratio"
+208,Mathematics,7. Probability,Independent events,Concept Coverage,"If A and B are independent and P(A)=2/5, P(B)=3/7, find P(A∩B).",13/35,5/12,6/35,1/35,C,1,3,For independent events multiply P(A) and P(B).,"1. P(A∩B)=(2/5)(3/7)=6/35.
+
+Wrong-option checks: Option A: adds the probabilities; Option B: divides the probabilities; Option D: multiplies denominators but not numerators correctly"

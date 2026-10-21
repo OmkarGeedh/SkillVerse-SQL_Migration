@@ -1,0 +1,145 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→2, 2→3, 3→4",A,1,3,Each input has exactly one output.
+2,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→4, 2→4, 3→4",A,2,5,Repeated outputs are allowed when each input has one image.
+3,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→2, 1→3, 2→4",B,1,3,Input 1 has two different images.
+4,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→2, 2→3, 2→4",B,1,3,Input 2 has two different images.
+5,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→2, 2→2, 3→3",A,2,5,Every input has exactly one image.
+6,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→2, 2→1, 2→3, 3→4",B,3,10,Input 2 is associated with two outputs.
+7,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→2, 3→4 (2 missing)",B,2,5,Input 2 has no assigned image.
+8,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→3, 2→4 (3 missing)",B,2,5,Input 3 has no assigned image.
+9,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→1, 2→3, 3→3",A,2,5,Each input has a unique assigned output.
+10,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→1, 2→2, 3→2, 3→4",B,3,10,Input 3 has two distinct images.
+11,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→1, 2→1, 3→2",A,2,5,Different inputs may share an image.
+12,Mathematics,2. Functions,SORT-001,Mapping Relation,Function,Not Function,"1→3, 2→1, 3→2",A,1,3,Each input is associated with one output.
+13,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→3, 2→2, 3→2",A,2,5,Inputs 2 and 3 have the same image.
+14,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→2, 2→3, 3→4",B,1,3,All three inputs have distinct images.
+15,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→5, 2→3, 3→2",B,2,5,Every image is distinct.
+16,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→4, 2→2, 3→1",B,2,5,No two inputs share an image.
+17,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→4, 2→3, 3→4",A,1,3,Inputs 1 and 3 share an image.
+18,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→1, 2→3, 3→5",B,1,3,No image is repeated.
+19,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→3, 2→4, 3→3",A,2,5,Inputs 1 and 3 have the same image.
+20,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→2, 2→4, 3→1",B,2,5,Distinct inputs have distinct images.
+21,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→5, 2→5, 3→2",A,2,5,Two distinct inputs share output 5.
+22,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→2, 2→2, 3→4",A,1,3,Inputs 1 and 2 share an image.
+23,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→3, 2→4, 3→5",B,1,3,Different inputs have different outputs.
+24,Mathematics,2. Functions,SORT-002,Mapping Relation,Many-one,One-one,"1→1, 2→1, 3→1",A,2,5,All three inputs share one image.
+25,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"1,2,2 → {1,2,3}",B,2,5,At least one co-domain element has no pre-image.
+26,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"1,2,3 → {1,2,3}",A,1,3,Every co-domain element has a pre-image.
+27,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"1,3,2 → {1,2,3}",A,1,3,Every co-domain element has a pre-image.
+28,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"3,1,2 → {1,2,3}",A,1,3,Every co-domain element has a pre-image.
+29,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"1,3,3 → {1,2,3}",B,2,5,At least one co-domain element has no pre-image.
+30,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"1,1,2 → {1,2,3}",B,2,5,At least one co-domain element has no pre-image.
+31,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"2,3,1 → {1,2,3}",A,1,3,Every co-domain element has a pre-image.
+32,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"3,2,1 → {1,2,3}",A,1,3,Every co-domain element has a pre-image.
+33,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"2,1,3 → {1,2,3}",A,1,3,Every co-domain element has a pre-image.
+34,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"2,1,1 → {1,2,3}",B,2,5,At least one co-domain element has no pre-image.
+35,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"2,2,3 → {1,2,3}",B,2,5,At least one co-domain element has no pre-image.
+36,Mathematics,2. Functions,SORT-003,Outputs → Co-domain,Onto,Into,"3,3,1 → {1,2,3}",B,2,5,At least one co-domain element has no pre-image.
+37,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,2x+3,B,1,3,The linear graph has a positive slope.
+38,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,x−7,B,2,5,The linear graph has a positive slope.
+39,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,4x−2,B,1,3,The linear graph has a positive slope.
+40,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,4−x,A,2,5,The linear graph has a negative slope.
+41,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,7−4x,A,1,3,The linear graph has a negative slope.
+42,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,1−2x,A,1,3,The linear graph has a negative slope.
+43,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,3x−1,B,1,3,The linear graph has a positive slope.
+44,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,5x+1,B,1,3,The linear graph has a positive slope.
+45,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,x+4,B,2,5,The linear graph has a positive slope.
+46,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,−3x−1,A,1,3,The linear graph has a negative slope.
+47,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,−5x+2,A,1,3,The linear graph has a negative slope.
+48,Mathematics,2. Functions,SORT-004,Linear Rule,Decreasing,Increasing,−2x+3,A,1,3,The linear graph has a negative slope.
+49,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Horizontal graph extent,A,2,5,The horizontal extent gives the domain.
+50,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Pre-images,A,1,3,Pre-images belong to the domain.
+51,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Second ordered-pair components,B,2,5,Second components form the range.
+52,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Vertical graph extent,B,2,5,The vertical extent gives the range.
+53,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,First ordered-pair components,A,2,5,First components form the domain.
+54,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Input values,A,1,3,The domain consists of input values.
+55,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Values produced by rule,B,2,5,Attained values form the range.
+56,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Values substituted into rule,A,2,5,Permitted input values form the domain.
+57,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Images,B,1,3,Images form the range.
+58,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Independent variable values,A,2,5,The input variable determines the domain.
+59,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Function values attained,B,2,5,Actual function values make up the range.
+60,Mathematics,2. Functions,SORT-005,Function Feature,Domain,Range,Output values,B,1,3,The range consists of attained output values.
+61,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,3x−2,B,1,3,This expression is a polynomial in x.
+62,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,x/(x+2),A,2,5,This is a quotient of polynomials with a variable denominator.
+63,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,2/(x+1),A,2,5,This is a quotient of polynomials with a variable denominator.
+64,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,7−x³,B,1,3,This expression is a polynomial in x.
+65,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,3/(x−2),A,2,5,This is a quotient of polynomials with a variable denominator.
+66,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,x³−1,B,1,3,This expression is a polynomial in x.
+67,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,x²+3,B,1,3,This expression is a polynomial in x.
+68,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,1/x,A,2,5,This is a quotient of polynomials with a variable denominator.
+69,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,(x+1)/(x−3),A,2,5,This is a quotient of polynomials with a variable denominator.
+70,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,x⁴+2,B,1,3,This expression is a polynomial in x.
+71,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,4x²+x,B,1,3,This expression is a polynomial in x.
+72,Mathematics,2. Functions,SORT-006,Function Rule,Rational,Polynomial,4/(x²+1),A,2,5,This is a quotient of polynomials with a variable denominator.
+73,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,log₂(x),B,1,3,The variable is the argument of a logarithm.
+74,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,(1/2)ˣ,A,2,5,The variable is an exponent of a positive fixed base.
+75,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,3ˣ,A,1,3,The variable is an exponent of a positive fixed base.
+76,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,log₇(x),B,1,3,The variable is the argument of a logarithm.
+77,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,log₃(x),B,1,3,The variable is the argument of a logarithm.
+78,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,log₅(x),B,1,3,The variable is the argument of a logarithm.
+79,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,5ˣ,A,1,3,The variable is an exponent of a positive fixed base.
+80,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,(1/3)ˣ,A,2,5,The variable is an exponent of a positive fixed base.
+81,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,2ˣ,A,1,3,The variable is an exponent of a positive fixed base.
+82,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,ln(x),B,2,5,The variable is the argument of a logarithm.
+83,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,log₄(x),B,1,3,The variable is the argument of a logarithm.
+84,Mathematics,2. Functions,SORT-007,Function Rule,Exponential,Logarithmic,4ˣ,A,1,3,The variable is an exponent of a positive fixed base.
+85,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,5−x,B,1,3,The highest power of x is one.
+86,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,x²+2,A,1,3,The highest power of x is two.
+87,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,6x−2,B,1,3,The highest power of x is one.
+88,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,2x²−1,A,1,3,The highest power of x is two.
+89,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,5x²−2x,A,1,3,The highest power of x is two.
+90,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,4x²+3,A,1,3,The highest power of x is two.
+91,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,8−3x,B,1,3,The highest power of x is one.
+92,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,3x²+x,A,1,3,The highest power of x is two.
+93,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,3x−4,B,1,3,The highest power of x is one.
+94,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,x²−4x+1,A,1,3,The highest power of x is two.
+95,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,4x+7,B,1,3,The highest power of x is one.
+96,Mathematics,2. Functions,SORT-008,Function Rule,Quadratic,Linear,2x+1,B,1,3,The highest power of x is one.
+97,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,(−2)²,A,1,3,Squaring raises the input to the second power.
+98,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,4²,A,1,3,Squaring raises the input to the second power.
+99,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,(−4)²,A,1,3,Squaring raises the input to the second power.
+100,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,2³,B,1,3,Cubing raises the input to the third power.
+101,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,3³,B,1,3,Cubing raises the input to the third power.
+102,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,4³,B,1,3,Cubing raises the input to the third power.
+103,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,3²,A,1,3,Squaring raises the input to the second power.
+104,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,(−2)³,B,1,3,Cubing raises the input to the third power.
+105,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,(−1)³,B,1,3,Cubing raises the input to the third power.
+106,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,5²,A,1,3,Squaring raises the input to the second power.
+107,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,(−3)²,A,1,3,Squaring raises the input to the second power.
+108,Mathematics,2. Functions,SORT-009,Power Expression,Square,Cube,(−3)³,B,1,3,Cubing raises the input to the third power.
+109,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,No two inputs share output,B,1,3,Every input has a distinct image.
+110,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,Every target is reached,A,1,3,Every co-domain element is attained.
+111,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,Equal outputs imply equal inputs,B,2,5,Equal images must arise from the same input.
+112,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,No repeated image,B,1,3,An injective function has no repeated image.
+113,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,Entire target set covered,A,2,5,The range covers the whole co-domain.
+114,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,Input collisions forbidden,B,3,10,Two different inputs cannot share an image.
+115,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,No missing target values,A,2,5,All co-domain values are images.
+116,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,"Distinct inputs, distinct images",B,1,3,Distinct inputs having distinct images defines one-one.
+117,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,No unused target,A,1,3,Every co-domain element has a pre-image.
+118,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,Image set equals target set,A,2,5,The range equals the co-domain.
+119,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,Each target has a pre-image,A,1,3,Surjectivity requires every target to be attained.
+120,Mathematics,2. Functions,SORT-010,Function Property,Onto,One-one,Each image has at most one pre-image,B,2,5,An injective function cannot assign two inputs the same image.
+121,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→5, 2→8, 3→2",A,2,5,All inputs have distinct images.
+122,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→4, 2→6, 3→4",B,2,5,At least two inputs share an image.
+123,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→7, 2→3, 3→5",A,2,5,All inputs have distinct images.
+124,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→5, 2→5, 3→5",B,2,5,At least two inputs share an image.
+125,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→3, 2→7, 3→7",B,2,5,At least two inputs share an image.
+126,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→3, 2→7, 3→9",A,2,5,All inputs have distinct images.
+127,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→9, 2→6, 3→4",A,2,5,All inputs have distinct images.
+128,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→2, 2→2, 3→7",B,2,5,At least two inputs share an image.
+129,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→2, 2→5, 3→7",A,2,5,All inputs have distinct images.
+130,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→4, 2→6, 3→8",A,2,5,All inputs have distinct images.
+131,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→9, 2→6, 3→6",B,2,5,At least two inputs share an image.
+132,Mathematics,2. Functions,SORT-011,Mapping Relation,One-one,Many-one,"1→7, 2→3, 3→7",B,2,5,At least two inputs share an image.
+133,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"3,1,2 → {1,2,3}",B,2,5,"A bijection is one-one and onto, so its inverse exists."
+134,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"2,1,1 → {1,2,3}",A,2,5,Repeated images and an unused target prevent an inverse function.
+135,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"1,1,2 → {1,2,3}",A,2,5,Repeated images and an unused target prevent an inverse function.
+136,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"2,2,3 → {1,2,3}",A,2,5,Repeated images and an unused target prevent an inverse function.
+137,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"3,2,1 → {1,2,3}",B,2,5,"A bijection is one-one and onto, so its inverse exists."
+138,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"1,3,2 → {1,2,3}",B,2,5,"A bijection is one-one and onto, so its inverse exists."
+139,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"1,3,3 → {1,2,3}",A,2,5,Repeated images and an unused target prevent an inverse function.
+140,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"3,3,1 → {1,2,3}",A,2,5,Repeated images and an unused target prevent an inverse function.
+141,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"2,1,3 → {1,2,3}",B,2,5,"A bijection is one-one and onto, so its inverse exists."
+142,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"1,2,2 → {1,2,3}",A,2,5,Repeated images and an unused target prevent an inverse function.
+143,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"2,3,1 → {1,2,3}",B,2,5,"A bijection is one-one and onto, so its inverse exists."
+144,Mathematics,2. Functions,SORT-012,Outputs → Co-domain,No Inverse,Inverse Exists,"1,2,3 → {1,2,3}",B,2,5,"A bijection is one-one and onto, so its inverse exists."

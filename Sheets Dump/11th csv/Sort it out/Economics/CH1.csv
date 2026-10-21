@@ -1,0 +1,54 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,Household,A,1,3,A household is an individual economic unit.
+2,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,Worker,A,1,3,A worker is an individual unit studied in microeconomics.
+3,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,National income,B,1,3,National income measures aggregate income of the country.
+4,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,Total employment,B,1,3,Total employment concerns the entire economy.
+5,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,Individual wages,A,2,5,Individual wages concern particular workers.
+6,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,National output,B,2,5,National output covers production across the economy.
+7,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,Aggregate demand,B,1,3,Aggregate demand measures economy-wide demand.
+8,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,General price level,B,2,5,The general price level concerns prices across the economy.
+9,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,Industry,A,2,5,An individual industry is studied in microeconomics.
+10,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,Total savings,B,1,3,Total savings are an aggregate economic quantity.
+11,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,Individual prices,A,2,5,Individual prices concern specific commodities rather than economy-wide prices.
+12,Economics,Chapter 1: Basic Concepts in Economics,SORT-001,Economic Variable,Micro Economics,Macro Economics,Firm,A,1,3,A firm is an individual economic unit.
+13,Economics,Chapter 1: Basic Concepts in Economics,SORT-002,Type of Good,Economic Goods,Free Goods,TV,A,1,3,A television is a commodity that commands a price.
+14,Economics,Chapter 1: Basic Concepts in Economics,SORT-002,Type of Good,Economic Goods,Free Goods,Food,A,1,3,Food is an economic want for which a price is paid.
+15,Economics,Chapter 1: Basic Concepts in Economics,SORT-002,Type of Good,Economic Goods,Free Goods,Car,A,1,3,A car is a commodity that commands a price.
+16,Economics,Chapter 1: Basic Concepts in Economics,SORT-002,Type of Good,Economic Goods,Free Goods,River water,B,2,5,Water in a river can be used without monetary payment.
+17,Economics,Chapter 1: Basic Concepts in Economics,SORT-002,Type of Good,Economic Goods,Free Goods,Processed drinking water,A,2,5,Processed drinking water is supplied for a price.
+18,Economics,Chapter 1: Basic Concepts in Economics,SORT-002,Type of Good,Economic Goods,Free Goods,Sunshine,B,1,3,Sunshine is available without monetary payment.
+19,Economics,Chapter 1: Basic Concepts in Economics,SORT-002,Type of Good,Economic Goods,Free Goods,Oxygen cylinder,A,2,5,An oxygen cylinder is supplied as a priced good.
+20,Economics,Chapter 1: Basic Concepts in Economics,SORT-002,Type of Good,Economic Goods,Free Goods,Air,B,1,3,Air is available without monetary payment.
+21,Economics,Chapter 1: Basic Concepts in Economics,SORT-003,Production Resource,Natural Factor,Man-made Factor,Air,A,1,3,Air is a natural resource used in production.
+22,Economics,Chapter 1: Basic Concepts in Economics,SORT-003,Production Resource,Natural Factor,Man-made Factor,Equipment,B,2,5,Equipment is a created capital asset used for production.
+23,Economics,Chapter 1: Basic Concepts in Economics,SORT-003,Production Resource,Natural Factor,Man-made Factor,Technology,B,2,5,Technology is included among produced means of production.
+24,Economics,Chapter 1: Basic Concepts in Economics,SORT-003,Production Resource,Natural Factor,Man-made Factor,Water,A,1,3,Water is a natural factor of production.
+25,Economics,Chapter 1: Basic Concepts in Economics,SORT-003,Production Resource,Natural Factor,Man-made Factor,Factory building,B,1,3,A factory building is a produced means for further production.
+26,Economics,Chapter 1: Basic Concepts in Economics,SORT-003,Production Resource,Natural Factor,Man-made Factor,Machinery,B,1,3,Machinery is produced for further production.
+27,Economics,Chapter 1: Basic Concepts in Economics,SORT-003,Production Resource,Natural Factor,Man-made Factor,Minerals,A,1,3,Minerals are natural resources found below the earth’s surface.
+28,Economics,Chapter 1: Basic Concepts in Economics,SORT-003,Production Resource,Natural Factor,Man-made Factor,Soil,A,1,3,Soil is a natural resource on the earth’s surface.
+29,Economics,Chapter 1: Basic Concepts in Economics,SORT-003,Production Resource,Natural Factor,Man-made Factor,Wind,A,2,5,Wind is a natural resource found above the earth’s surface.
+30,Economics,Chapter 1: Basic Concepts in Economics,SORT-004,Economic Feature,Economic Development,Economic Growth,Qualitative,A,1,3,Economic development includes qualitative improvements.
+31,Economics,Chapter 1: Basic Concepts in Economics,SORT-004,Economic Feature,Economic Development,Economic Growth,Quality of life,A,2,5,Quality of human life is a measure of economic development.
+32,Economics,Chapter 1: Basic Concepts in Economics,SORT-004,Economic Feature,Economic Development,Economic Growth,Quantitative,B,1,3,Economic growth has a quantitative dimension.
+33,Economics,Chapter 1: Basic Concepts in Economics,SORT-004,Economic Feature,Economic Development,Economic Growth,Multidimensional,A,2,5,Economic development is a multidimensional concept.
+34,Economics,Chapter 1: Basic Concepts in Economics,SORT-004,Economic Feature,Economic Development,Economic Growth,Irreversible,A,3,10,Economic development is described as irreversible.
+35,Economics,Chapter 1: Basic Concepts in Economics,SORT-004,Economic Feature,Economic Development,Economic Growth,Reversible,B,3,10,Economic growth is described as reversible.
+36,Economics,Chapter 1: Basic Concepts in Economics,SORT-004,Economic Feature,Economic Development,Economic Growth,Per capita income,B,2,5,Per capita income is used to measure economic growth.
+37,Economics,Chapter 1: Basic Concepts in Economics,SORT-004,Economic Feature,Economic Development,Economic Growth,Unidimensional,B,2,5,Economic growth is described as a unidimensional concept.
+38,Economics,Chapter 1: Basic Concepts in Economics,SORT-005,Economic Resource,Wealth,Not Wealth,Refrigerator,A,1,3,A refrigerator has utility and can be transferred.
+39,Economics,Chapter 1: Basic Concepts in Economics,SORT-005,Economic Resource,Wealth,Not Wealth,Melodious voice,B,3,10,An inborn melodious voice cannot be transferred as a commodity.
+40,Economics,Chapter 1: Basic Concepts in Economics,SORT-005,Economic Resource,Wealth,Not Wealth,Vehicle,A,1,3,A vehicle is a transferable material commodity.
+41,Economics,Chapter 1: Basic Concepts in Economics,SORT-005,Economic Resource,Wealth,Not Wealth,Bag,A,2,5,A bag is external to the body and transferable.
+42,Economics,Chapter 1: Basic Concepts in Economics,SORT-005,Economic Resource,Wealth,Not Wealth,Efficiency,B,3,10,Inborn efficiency is not external or transferable.
+43,Economics,Chapter 1: Basic Concepts in Economics,SORT-005,Economic Resource,Wealth,Not Wealth,Beauty,B,2,5,Inborn beauty is neither external nor transferable.
+44,Economics,Chapter 1: Basic Concepts in Economics,SORT-005,Economic Resource,Wealth,Not Wealth,Jewellery,A,2,5,Jewellery is a transferable material commodity with market value.
+45,Economics,Chapter 1: Basic Concepts in Economics,SORT-005,Economic Resource,Wealth,Not Wealth,Furniture,A,1,3,Furniture has utility and is a transferable material good.
+46,Economics,Chapter 1: Basic Concepts in Economics,SORT-006,Type of Want,Comforts,Necessities,Education,B,2,5,Education is classified as a basic need of life.
+47,Economics,Chapter 1: Basic Concepts in Economics,SORT-006,Type of Want,Comforts,Necessities,Shelter,B,1,3,Shelter is a basic need of life.
+48,Economics,Chapter 1: Basic Concepts in Economics,SORT-006,Type of Want,Comforts,Necessities,Health,B,2,5,Health is classified as a basic need of life.
+49,Economics,Chapter 1: Basic Concepts in Economics,SORT-006,Type of Want,Comforts,Necessities,Pressure cooker,A,2,5,A pressure cooker is a comfort that makes life easier.
+50,Economics,Chapter 1: Basic Concepts in Economics,SORT-006,Type of Want,Comforts,Necessities,Clothing,B,1,3,Clothing is a basic need of life.
+51,Economics,Chapter 1: Basic Concepts in Economics,SORT-006,Type of Want,Comforts,Necessities,Food,B,1,3,Food is a basic need of life.
+52,Economics,Chapter 1: Basic Concepts in Economics,SORT-006,Type of Want,Comforts,Necessities,Mixer,A,1,3,A mixer is classified as a comfort.
+53,Economics,Chapter 1: Basic Concepts in Economics,SORT-006,Type of Want,Comforts,Necessities,Washing machine,A,1,3,A washing machine makes daily life more comfortable.

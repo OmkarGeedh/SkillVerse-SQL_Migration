@@ -1,0 +1,69 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Middle-half spread halved,B,3,10,Quartile deviation is half the spread between the two quartiles.
+2,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Half the interquartile spread,B,1,3,Quartile deviation is half the interquartile range.
+3,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Uses first and third quartiles,B,1,3,Quartile deviation is calculated from the first and third quartiles.
+4,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Affected by outliers,A,2,5,Extreme observations directly affect the range.
+5,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Highest class upper limit,A,2,5,The upper limit of the highest class identifies the largest value for range.
+6,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Reduces outlier effects,B,2,5,Quartile deviation reduces the influence of extreme observations.
+7,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Lowest class lower limit,A,2,5,The lower limit of the lowest class identifies the smallest value for range.
+8,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Uses both extremes,A,1,3,Range depends on the two extreme observations.
+9,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Suitable for open-end classes,B,2,5,Quartile deviation can be calculated for open-end class intervals.
+10,Statistics,2. Measures of Dispersion,SORT-001,Dispersion Feature,Range,Quartile Deviation,Largest minus smallest,A,1,3,Range is the difference between the largest and smallest observations.
+11,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,Variance 16 gives 4,A,2,5,The positive square root of variance 16 is 4.
+12,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,Original measurement units,A,2,5,Standard deviation is expressed in the original measurement units.
+13,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,Square of spread measure,B,2,5,Variance equals the square of standard deviation.
+14,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,Positive square root,A,1,3,Standard deviation is the positive square root of variance.
+15,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,Squared deviations averaged,B,1,3,Variance averages squared deviations from the arithmetic mean.
+16,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,Variance 25 gives 5,A,2,5,The positive square root of variance 25 is 5.
+17,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,Mean squared deviation,B,1,3,Variance is the arithmetic mean of squared deviations from the mean.
+18,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,SD 3 gives 9,B,2,5,Squaring standard deviation 3 gives variance 9.
+19,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,Squared measurement units,B,2,5,Variance has squared units of the original observations.
+20,Statistics,2. Measures of Dispersion,SORT-002,Dispersion Feature,Standard Deviation,Variance,Variance 36 gives 6,A,2,5,The positive square root of variance 36 is 6.
+21,Statistics,2. Measures of Dispersion,SORT-003,Dispersion Feature,Range,Variance,"8, 10, 12: spread 4",A,2,5,The largest value 12 minus the smallest 8 gives range 4.
+22,Statistics,2. Measures of Dispersion,SORT-003,Dispersion Feature,Range,Variance,Average of squared differences,B,2,5,Variance averages squared differences from the mean.
+23,Statistics,2. Measures of Dispersion,SORT-003,Dispersion Feature,Range,Variance,"2, 4, 6: result 8/3",B,3,10,Squared deviations total 8 and division by 3 gives variance 8/3.
+24,Statistics,2. Measures of Dispersion,SORT-003,Dispersion Feature,Range,Variance,Only two values used,A,1,3,Range uses only the largest and smallest observations.
+25,Statistics,2. Measures of Dispersion,SORT-003,Dispersion Feature,Range,Variance,All deviations considered,B,1,3,Variance considers deviations of all observations from the mean.
+26,Statistics,2. Measures of Dispersion,SORT-003,Dispersion Feature,Range,Variance,Difference of extremes,A,1,3,Range subtracts the smallest observation from the largest.
+27,Statistics,2. Measures of Dispersion,SORT-003,Dispersion Feature,Range,Variance,Maximum minus minimum,A,1,3,Range is maximum minus minimum.
+28,Statistics,2. Measures of Dispersion,SORT-003,Dispersion Feature,Range,Variance,Squared deviations from mean,B,1,3,Variance uses squared deviations from the arithmetic mean.
+29,Statistics,2. Measures of Dispersion,SORT-004,Dispersion Feature,Standard Deviation,Quartile Deviation,Only two quartiles,B,2,5,Quartile deviation depends on two quartile values.
+30,Statistics,2. Measures of Dispersion,SORT-004,Dispersion Feature,Standard Deviation,Quartile Deviation,Variance 49: result 7,A,2,5,"Standard deviation is the positive square root of 49, or 7."
+31,Statistics,2. Measures of Dispersion,SORT-004,Dispersion Feature,Standard Deviation,Quartile Deviation,Same units as observations,A,2,5,Standard deviation retains the observations’ units.
+32,Statistics,2. Measures of Dispersion,SORT-004,Dispersion Feature,Standard Deviation,Quartile Deviation,First and third quartiles,B,1,3,Quartile deviation uses the first and third quartiles.
+33,Statistics,2. Measures of Dispersion,SORT-004,Dispersion Feature,Standard Deviation,Quartile Deviation,Root of mean squared deviations,A,1,3,Standard deviation is the square root of mean squared deviations.
+34,Statistics,2. Measures of Dispersion,SORT-004,Dispersion Feature,Standard Deviation,Quartile Deviation,Quartiles 2 and 10: 4,B,2,5,Half the difference between 10 and 2 is 4.
+35,Statistics,2. Measures of Dispersion,SORT-004,Dispersion Feature,Standard Deviation,Quartile Deviation,All observations contribute,A,1,3,Standard deviation uses deviations of every observation.
+36,Statistics,2. Measures of Dispersion,SORT-004,Dispersion Feature,Standard Deviation,Quartile Deviation,Interquartile range halved,B,1,3,Quartile deviation is the interquartile range divided by two.
+37,Statistics,2. Measures of Dispersion,SORT-005,Dispersion Measure,Absolute Measures,Relative Measures,Spread as percentage of mean,B,2,5,Coefficient of variation expresses standard deviation relative to mean.
+38,Statistics,2. Measures of Dispersion,SORT-005,Dispersion Measure,Absolute Measures,Relative Measures,Variance,A,1,3,Variance measures absolute squared dispersion.
+39,Statistics,2. Measures of Dispersion,SORT-005,Dispersion Measure,Absolute Measures,Relative Measures,Quartile deviation,A,1,3,Quartile deviation is an absolute measure of dispersion.
+40,Statistics,2. Measures of Dispersion,SORT-005,Dispersion Measure,Absolute Measures,Relative Measures,Unit-independent comparison,B,2,5,Coefficient of variation is independent of measurement units.
+41,Statistics,2. Measures of Dispersion,SORT-005,Dispersion Measure,Absolute Measures,Relative Measures,Standard deviation,A,1,3,Standard deviation is an absolute measure expressed in data units.
+42,Statistics,2. Measures of Dispersion,SORT-005,Dispersion Measure,Absolute Measures,Relative Measures,Coefficient of variation,B,1,3,Coefficient of variation is a relative measure of dispersion.
+43,Statistics,2. Measures of Dispersion,SORT-005,Dispersion Measure,Absolute Measures,Relative Measures,Comparing different measurement units,B,3,10,Coefficient of variation permits comparison across different units.
+44,Statistics,2. Measures of Dispersion,SORT-005,Dispersion Measure,Absolute Measures,Relative Measures,Range,A,1,3,Range is an absolute measure of dispersion.
+45,Statistics,2. Measures of Dispersion,SORT-006,Variation Interpretation,More Variable,More Consistent,Larger coefficient of variation,A,1,3,A larger coefficient of variation indicates greater variability.
+46,Statistics,2. Measures of Dispersion,SORT-006,Variation Interpretation,More Variable,More Consistent,Smaller coefficient of variation,B,1,3,A smaller coefficient of variation indicates greater consistency.
+47,Statistics,2. Measures of Dispersion,SORT-006,Variation Interpretation,More Variable,More Consistent,"Mean 10, SD 4",A,2,5,"The coefficient of variation is 40%, indicating the more variable case."
+48,Statistics,2. Measures of Dispersion,SORT-006,Variation Interpretation,More Variable,More Consistent,More homogeneous distribution,B,1,3,A more homogeneous distribution has smaller relative variation.
+49,Statistics,2. Measures of Dispersion,SORT-006,Variation Interpretation,More Variable,More Consistent,"Mean 10, SD 1",B,2,5,"The coefficient of variation is 10%, indicating the more consistent case."
+50,Statistics,2. Measures of Dispersion,SORT-006,Variation Interpretation,More Variable,More Consistent,More heterogeneous distribution,A,1,3,A heterogeneous distribution has greater relative variation.
+51,Statistics,2. Measures of Dispersion,SORT-006,Variation Interpretation,More Variable,More Consistent,Less steady observations,A,2,5,Less steady observations indicate greater variability.
+52,Statistics,2. Measures of Dispersion,SORT-006,Variation Interpretation,More Variable,More Consistent,More compact distribution,B,1,3,A compact distribution is more consistent.
+53,Statistics,2. Measures of Dispersion,SORT-007,Transformation Property,Origin Change,Scale Change,Adding a fixed constant,A,1,3,Adding a constant changes origin without changing variance.
+54,Statistics,2. Measures of Dispersion,SORT-007,Transformation Property,Origin Change,Scale Change,Variance multiplied by 4,B,2,5,Doubling the scale multiplies variance by 4.
+55,Statistics,2. Measures of Dispersion,SORT-007,Transformation Property,Origin Change,Scale Change,Variance remains unchanged,A,2,5,Variance is independent of change of origin.
+56,Statistics,2. Measures of Dispersion,SORT-007,Transformation Property,Origin Change,Scale Change,Dividing by a nonzero constant,B,1,3,Division by a nonzero scale factor changes standard deviation.
+57,Statistics,2. Measures of Dispersion,SORT-007,Transformation Property,Origin Change,Scale Change,Multiplying observations by 2,B,2,5,Multiplying values by 2 multiplies standard deviation by 2.
+58,Statistics,2. Measures of Dispersion,SORT-007,Transformation Property,Origin Change,Scale Change,Subtracting a fixed constant,A,1,3,Subtracting a constant changes origin without changing standard deviation.
+59,Statistics,2. Measures of Dispersion,SORT-007,Transformation Property,Origin Change,Scale Change,Standard deviation doubled,B,2,5,Doubling the scale doubles standard deviation.
+60,Statistics,2. Measures of Dispersion,SORT-007,Transformation Property,Origin Change,Scale Change,Standard deviation unchanged,A,2,5,Standard deviation is independent of change of origin.
+61,Statistics,2. Measures of Dispersion,SORT-008,Dispersion Calculation,Quartile Deviation,Range,Quartiles 2 and 8,A,2,5,Quartile deviation is (8 minus 2) divided by 2.
+62,Statistics,2. Measures of Dispersion,SORT-008,Dispersion Calculation,Quartile Deviation,Range,"Largest 11, smallest 2",B,2,5,"Range is 11 minus 2, giving 9."
+63,Statistics,2. Measures of Dispersion,SORT-008,Dispersion Calculation,Quartile Deviation,Range,Quartiles 5 and 15,A,2,5,Quartile deviation is (15 minus 5) divided by 2.
+64,Statistics,2. Measures of Dispersion,SORT-008,Dispersion Calculation,Quartile Deviation,Range,"Largest 9, smallest 3",B,2,5,"Range is 9 minus 3, giving 6."
+65,Statistics,2. Measures of Dispersion,SORT-008,Dispersion Calculation,Quartile Deviation,Range,"Largest 18, smallest 8",B,2,5,"Range is 18 minus 8, giving 10."
+66,Statistics,2. Measures of Dispersion,SORT-008,Dispersion Calculation,Quartile Deviation,Range,Quartiles 4 and 12,A,2,5,Quartile deviation is (12 minus 4) divided by 2.
+67,Statistics,2. Measures of Dispersion,SORT-008,Dispersion Calculation,Quartile Deviation,Range,Quartiles 3 and 9,A,2,5,Quartile deviation is (9 minus 3) divided by 2.
+68,Statistics,2. Measures of Dispersion,SORT-008,Dispersion Calculation,Quartile Deviation,Range,"Largest 14, smallest 6",B,2,5,"Range is 14 minus 6, giving 8."

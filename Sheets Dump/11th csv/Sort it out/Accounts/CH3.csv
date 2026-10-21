@@ -1,0 +1,97 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Accountancy,3 Journal,SORT-001,Voucher Type,Internal Voucher,External Voucher,Cash memo,B,1,3,A cash memo received for a transaction is an external voucher.
+2,Accountancy,3 Journal,SORT-001,Voucher Type,Internal Voucher,External Voucher,Taxi fare,A,1,3,Taxi fare may use an internally prepared voucher when no outside receipt is available.
+3,Accountancy,3 Journal,SORT-001,Voucher Type,Internal Voucher,External Voucher,Debit note,B,2,5,A debit note is listed as an external voucher.
+4,Accountancy,3 Journal,SORT-001,Voucher Type,Internal Voucher,External Voucher,Auto fare,A,1,3,Auto fare may be recorded with an internally prepared voucher.
+5,Accountancy,3 Journal,SORT-001,Voucher Type,Internal Voucher,External Voucher,Bus fare,A,1,3,Bus fare may be supported by a voucher prepared within the business.
+6,Accountancy,3 Journal,SORT-001,Voucher Type,Internal Voucher,External Voucher,Tax invoice,B,1,3,A tax invoice received from a seller is generated outside the business.
+7,Accountancy,3 Journal,SORT-001,Voucher Type,Internal Voucher,External Voucher,Electricity receipt,B,2,5,A receipt for an electricity bill paid is received from an outside agency.
+8,Accountancy,3 Journal,SORT-001,Voucher Type,Internal Voucher,External Voucher,Credit note,B,2,5,A credit note is listed as an external voucher.
+9,Accountancy,3 Journal,SORT-002,Purchase Type,Credit Purchases,Cash Purchases,Cash payment,B,1,3,Payment made immediately for purchased goods is a cash purchase.
+10,Accountancy,3 Journal,SORT-002,Purchase Type,Credit Purchases,Cash Purchases,Paid immediately,B,1,3,Cash purchases involve payment to the seller immediately.
+11,Accountancy,3 Journal,SORT-002,Purchase Type,Credit Purchases,Cash Purchases,Future payment,A,1,3,Credit purchases allow payment to be made at a future date.
+12,Accountancy,3 Journal,SORT-002,Purchase Type,Credit Purchases,Cash Purchases,Deferred payment,A,2,5,A future payment arrangement fits credit purchases.
+13,Accountancy,3 Journal,SORT-002,Purchase Type,Credit Purchases,Cash Purchases,Supplier credit,A,2,5,A seller allowing time to pay makes the purchase a credit purchase.
+14,Accountancy,3 Journal,SORT-002,Purchase Type,Credit Purchases,Cash Purchases,Bank payment,B,2,5,Goods paid for immediately through the bank are cash purchases.
+15,Accountancy,3 Journal,SORT-002,Purchase Type,Credit Purchases,Cash Purchases,Goods on credit,A,1,3,Goods purchased with payment due later are credit purchases.
+16,Accountancy,3 Journal,SORT-002,Purchase Type,Credit Purchases,Cash Purchases,Payment later,A,1,3,A purchase payable later is a credit purchase.
+17,Accountancy,3 Journal,SORT-003,Sales Type,Credit Sales,Cash Sales,Paid at sale,B,2,5,Payment at the time goods are sold indicates cash sales.
+18,Accountancy,3 Journal,SORT-003,Sales Type,Credit Sales,Cash Sales,Customer owes,A,2,5,A customer owing payment after receiving goods indicates credit sales.
+19,Accountancy,3 Journal,SORT-003,Sales Type,Credit Sales,Cash Sales,Future collection,A,2,5,Payment collected later indicates a credit sale.
+20,Accountancy,3 Journal,SORT-003,Sales Type,Credit Sales,Cash Sales,Goods on credit,A,1,3,Goods sold with payment due later are credit sales.
+21,Accountancy,3 Journal,SORT-003,Sales Type,Credit Sales,Cash Sales,Cash received,B,1,3,Immediate receipt of money characterises cash sales.
+22,Accountancy,3 Journal,SORT-003,Sales Type,Credit Sales,Cash Sales,Immediate payment,B,1,3,A sale paid for immediately is a cash sale.
+23,Accountancy,3 Journal,SORT-003,Sales Type,Credit Sales,Cash Sales,Money received later,A,1,3,Credit sales involve receiving payment on a future date.
+24,Accountancy,3 Journal,SORT-003,Sales Type,Credit Sales,Cash Sales,Immediate receipt,B,1,3,Cash sales involve receiving money immediately.
+25,Accountancy,3 Journal,SORT-004,Discount Type,Cash Discount,Trade Discount,Not recorded,B,3,10,Trade discount is not recorded in the books of accounts.
+26,Accountancy,3 Journal,SORT-004,Discount Type,Cash Discount,Trade Discount,Purchase or sale,B,2,5,Trade discount is allowed at the time of purchase or sale.
+27,Accountancy,3 Journal,SORT-004,Discount Type,Cash Discount,Trade Discount,List price allowance,B,2,5,Trade discount is an allowance on the printed list price of goods.
+28,Accountancy,3 Journal,SORT-004,Discount Type,Cash Discount,Trade Discount,After trade discount,A,3,10,Cash discount is calculated after deducting trade discount.
+29,Accountancy,3 Journal,SORT-004,Discount Type,Cash Discount,Trade Discount,Printed price reduction,B,2,5,A reduction on the printed list price is a trade discount.
+30,Accountancy,3 Journal,SORT-004,Discount Type,Cash Discount,Trade Discount,Prompt payment,A,1,3,Cash discount is offered to encourage prompt payment.
+31,Accountancy,3 Journal,SORT-004,Discount Type,Cash Discount,Trade Discount,Payment concession,A,2,5,A concession for prompt payment is a cash discount.
+32,Accountancy,3 Journal,SORT-004,Discount Type,Cash Discount,Trade Discount,Recorded in books,A,2,5,Cash discount is recorded in the books of accounts.
+33,Accountancy,3 Journal,SORT-005,GST Account,Input GST,Output GST,Sale SGST,B,1,3,Output SGST is recorded on a taxable sale.
+34,Accountancy,3 Journal,SORT-005,GST Account,Input GST,Output GST,Sale CGST,B,1,3,Output CGST is recorded when GST applies to a sale.
+35,Accountancy,3 Journal,SORT-005,GST Account,Input GST,Output GST,Motor car sale tax,B,2,5,GST charged on a sold motor car is output GST.
+36,Accountancy,3 Journal,SORT-005,GST Account,Input GST,Output GST,Purchase CGST,A,1,3,Input CGST is recorded when GST applies to a purchase.
+37,Accountancy,3 Journal,SORT-005,GST Account,Input GST,Output GST,Furniture purchase tax,A,2,5,GST paid on purchased furniture is input GST.
+38,Accountancy,3 Journal,SORT-005,GST Account,Input GST,Output GST,Computer purchase tax,A,2,5,GST on a computer purchased is recorded as input GST.
+39,Accountancy,3 Journal,SORT-005,GST Account,Input GST,Output GST,Goods sold tax,B,2,5,GST charged on goods sold is output GST.
+40,Accountancy,3 Journal,SORT-005,GST Account,Input GST,Output GST,Purchase SGST,A,1,3,Input SGST is recorded on a taxable purchase.
+41,Accountancy,3 Journal,SORT-006,Journal Entry Type,Combined Entry,Simple Entry,Multiple credits,A,1,3,A combined entry may contain more than one credit.
+42,Accountancy,3 Journal,SORT-006,Journal Entry Type,Combined Entry,Simple Entry,Multiple debits,A,1,3,A combined entry may contain more than one debit.
+43,Accountancy,3 Journal,SORT-006,Journal Entry Type,Combined Entry,Simple Entry,Cash for goods,B,2,5,A purchase paid immediately can be recorded with two accounts.
+44,Accountancy,3 Journal,SORT-006,Journal Entry Type,Combined Entry,Simple Entry,Several accounts,A,2,5,A combined entry affects more than two accounts.
+45,Accountancy,3 Journal,SORT-006,Journal Entry Type,Combined Entry,Simple Entry,One debit one credit,B,1,3,A simple entry debits one account and credits another.
+46,Accountancy,3 Journal,SORT-006,Journal Entry Type,Combined Entry,Simple Entry,Debits and credits multiple,A,3,10,A combined entry can have multiple debit and credit accounts.
+47,Accountancy,3 Journal,SORT-006,Journal Entry Type,Combined Entry,Simple Entry,Two accounts affected,B,1,3,A simple journal entry affects only two accounts.
+48,Accountancy,3 Journal,SORT-006,Journal Entry Type,Combined Entry,Simple Entry,Rent paid,B,2,5,Rent paid in cash affects rent and cash accounts.
+49,Accountancy,3 Journal,SORT-007,Account Type,Real Account,Nominal Account,Cash account,A,1,3,Cash is classified as a real account.
+50,Accountancy,3 Journal,SORT-007,Account Type,Real Account,Nominal Account,Rent account,B,1,3,Rent is an expense and is classified as a nominal account.
+51,Accountancy,3 Journal,SORT-007,Account Type,Real Account,Nominal Account,Building account,A,1,3,Building is classified as a real account.
+52,Accountancy,3 Journal,SORT-007,Account Type,Real Account,Nominal Account,Loss by fire,B,2,5,Loss by fire is a loss and is classified as a nominal account.
+53,Accountancy,3 Journal,SORT-007,Account Type,Real Account,Nominal Account,Salary account,B,1,3,Salary is an expense and is classified as a nominal account.
+54,Accountancy,3 Journal,SORT-007,Account Type,Real Account,Nominal Account,Wages account,B,1,3,Wages are an expense and are classified as a nominal account.
+55,Accountancy,3 Journal,SORT-007,Account Type,Real Account,Nominal Account,Furniture account,A,1,3,Furniture is classified as a real account.
+56,Accountancy,3 Journal,SORT-007,Account Type,Real Account,Nominal Account,Computer account,A,1,3,Computer is classified as a real account.
+57,Accountancy,3 Journal,SORT-008,Goods Return,Sales Return,Purchase Return,Buyer sends goods back,A,2,5,Goods returned by the buyer to the seller are sales returns.
+58,Accountancy,3 Journal,SORT-008,Goods Return,Sales Return,Purchase Return,Customer returns goods,A,1,3,Sales return records goods returned by a customer to the seller.
+59,Accountancy,3 Journal,SORT-008,Goods Return,Sales Return,Purchase Return,Inferior goods returned,B,2,5,Goods of inferior quality returned to a supplier are purchase returns.
+60,Accountancy,3 Journal,SORT-008,Goods Return,Sales Return,Purchase Return,Sales return account,A,1,3,The sales return account records goods returned by customers.
+61,Accountancy,3 Journal,SORT-008,Goods Return,Sales Return,Purchase Return,Returned to supplier,B,1,3,Purchase return records goods returned by the business to its supplier.
+62,Accountancy,3 Journal,SORT-008,Goods Return,Sales Return,Purchase Return,Damaged goods returned,B,2,5,Goods damaged in transit and returned to the supplier are purchase returns.
+63,Accountancy,3 Journal,SORT-008,Goods Return,Sales Return,Purchase Return,Excess quantity returned,B,2,5,Excess goods returned to the supplier are purchase returns.
+64,Accountancy,3 Journal,SORT-008,Goods Return,Sales Return,Purchase Return,Return inward,A,1,3,Return inward is another name for sales return.
+65,Accountancy,3 Journal,SORT-009,Cheque Type,Bearer Cheque,Order Cheque,Bearer wording,A,1,3,A cheque payable to the bearer is a bearer cheque.
+66,Accountancy,3 Journal,SORT-009,Cheque Type,Bearer Cheque,Order Cheque,Specific person named,B,1,3,An order cheque is payable to a specific person or their order.
+67,Accountancy,3 Journal,SORT-009,Cheque Type,Bearer Cheque,Order Cheque,Holder at counter,A,2,5,A person holding a bearer cheque may present it at the bank counter.
+68,Accountancy,3 Journal,SORT-009,Cheque Type,Bearer Cheque,Order Cheque,Payment by order,B,2,5,An order cheque may be paid to the named person or someone ordered by them.
+69,Accountancy,3 Journal,SORT-009,Cheque Type,Bearer Cheque,Order Cheque,Bearer struck off,B,2,5,Striking off the word bearer makes the cheque an order cheque.
+70,Accountancy,3 Journal,SORT-009,Cheque Type,Bearer Cheque,Order Cheque,Bearer not struck off,A,2,5,A cheque payable to the bearer remains a bearer cheque.
+71,Accountancy,3 Journal,SORT-009,Cheque Type,Bearer Cheque,Order Cheque,Payment to holder,A,2,5,A bearer cheque can be paid to the person presenting it.
+72,Accountancy,3 Journal,SORT-009,Cheque Type,Bearer Cheque,Order Cheque,Named payee,B,1,3,An order cheque names the person to whom it is payable.
+73,Accountancy,3 Journal,SORT-010,GST Rate,Low Rated,Zero Rated,Milk,B,1,3,Milk is listed among zero-rated goods.
+74,Accountancy,3 Journal,SORT-010,GST Rate,Low Rated,Zero Rated,Food grains,B,1,3,Food grains are listed among zero-rated goods.
+75,Accountancy,3 Journal,SORT-010,GST Rate,Low Rated,Zero Rated,Tea,A,1,3,Tea is listed among low-rated goods.
+76,Accountancy,3 Journal,SORT-010,GST Rate,Low Rated,Zero Rated,Coffee,A,1,3,Coffee is listed among low-rated goods.
+77,Accountancy,3 Journal,SORT-010,GST Rate,Low Rated,Zero Rated,LPG cylinder,A,1,3,An LPG cylinder is listed among low-rated goods.
+78,Accountancy,3 Journal,SORT-010,GST Rate,Low Rated,Zero Rated,Vegetables,B,1,3,Vegetables are listed among zero-rated goods.
+79,Accountancy,3 Journal,SORT-010,GST Rate,Low Rated,Zero Rated,Fresh fruits,B,1,3,Fruits are listed among zero-rated goods.
+80,Accountancy,3 Journal,SORT-010,GST Rate,Low Rated,Zero Rated,Frozen vegetables,A,2,5,Frozen vegetables are listed among low-rated goods.
+81,Accountancy,3 Journal,SORT-011,GST Rate,Standard Rated 12%,Standard Rated 18%,Butter,A,1,3,Butter is listed in the 12% standard-rated category.
+82,Accountancy,3 Journal,SORT-011,GST Rate,Standard Rated 12%,Standard Rated 18%,Dry fruit,A,1,3,Dry fruit is listed in the 12% standard-rated category.
+83,Accountancy,3 Journal,SORT-011,GST Rate,Standard Rated 12%,Standard Rated 18%,Perfumes,B,1,3,Perfumes are listed in the 18% standard-rated category.
+84,Accountancy,3 Journal,SORT-011,GST Rate,Standard Rated 12%,Standard Rated 18%,Ghee,A,1,3,Ghee is listed in the 12% standard-rated category.
+85,Accountancy,3 Journal,SORT-011,GST Rate,Standard Rated 12%,Standard Rated 18%,Mobile phone,A,2,5,Mobile phones are listed in the 12% standard-rated category.
+86,Accountancy,3 Journal,SORT-011,GST Rate,Standard Rated 12%,Standard Rated 18%,Computer,B,2,5,Computers are listed in the 18% standard-rated category.
+87,Accountancy,3 Journal,SORT-011,GST Rate,Standard Rated 12%,Standard Rated 18%,Granite,B,1,3,Granite is listed in the 18% standard-rated category.
+88,Accountancy,3 Journal,SORT-011,GST Rate,Standard Rated 12%,Standard Rated 18%,Marble,B,1,3,Marble is listed in the 18% standard-rated category.
+89,Accountancy,3 Journal,SORT-012,GST Rate,Highly Rated 28%,Standard Rated 18%,Tobacco products,A,1,3,Tobacco products are listed in the 28% highly rated category.
+90,Accountancy,3 Journal,SORT-012,GST Rate,Highly Rated 28%,Standard Rated 18%,Courier services,B,2,5,Courier services are listed in the 18% standard-rated category.
+91,Accountancy,3 Journal,SORT-012,GST Rate,Highly Rated 28%,Standard Rated 18%,Luxury cars,A,1,3,Luxury cars are listed in the 28% highly rated category.
+92,Accountancy,3 Journal,SORT-012,GST Rate,Highly Rated 28%,Standard Rated 18%,Printer,B,1,3,Printers are listed in the 18% standard-rated category.
+93,Accountancy,3 Journal,SORT-012,GST Rate,Highly Rated 28%,Standard Rated 18%,Vacuum cleaner,A,1,3,Vacuum cleaners are listed in the 28% highly rated category.
+94,Accountancy,3 Journal,SORT-012,GST Rate,Highly Rated 28%,Standard Rated 18%,CCTV,B,1,3,CCTV equipment is listed in the 18% standard-rated category.
+95,Accountancy,3 Journal,SORT-012,GST Rate,Highly Rated 28%,Standard Rated 18%,Washing machine,A,1,3,Washing machines are listed in the 28% highly rated category.
+96,Accountancy,3 Journal,SORT-012,GST Rate,Highly Rated 28%,Standard Rated 18%,Monitor,B,1,3,Monitors are listed in the 18% standard-rated category.

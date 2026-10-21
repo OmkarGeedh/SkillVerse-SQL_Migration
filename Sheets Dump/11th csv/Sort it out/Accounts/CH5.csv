@@ -1,0 +1,91 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Cash sales,A,1,3,Cash sales bring money into the business.
+2,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Salary paid,B,1,3,Salary paid decreases cash.
+3,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Cash opening balance,A,2,5,Opening cash in hand appears on the receipt side.
+4,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Rent paid,B,1,3,Rent paid is recorded as a payment.
+5,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Interest received,A,1,3,Interest received is an inflow of money.
+6,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Capital introduced,A,2,5,Capital introduced in cash increases receipts.
+7,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Cash purchases,B,1,3,Cash purchases involve cash paid out.
+8,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Stationery purchased,B,2,5,Stationery bought for cash is recorded as a payment.
+9,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Commission received,A,1,3,Commission received increases cash.
+10,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Drawings in cash,B,3,10,Cash drawings reduce business cash.
+11,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Carriage paid,B,2,5,Carriage paid is a cash payment.
+12,Accountancy,5 - Subsidiary-Books,SORT-001,Cash Book Entry,Receipt Side,Payment Side,Dividend received,A,2,5,Dividend received increases cash.
+13,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Overdraft interest charged,A,2,5,Overdraft interest charged is a bank payment.
+14,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Customer direct deposit,B,2,5,A direct customer deposit increases the bank balance.
+15,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Insurance bank payment,A,2,5,Insurance paid by the bank reduces the bank balance.
+16,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Bank charges,A,1,3,Bank charges reduce the bank balance.
+17,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Crossed cheque received,B,1,3,A crossed cheque received increases the bank balance.
+18,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Cheque issued,A,1,3,A cheque issued reduces the bank balance.
+19,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Cheque received dishonoured,A,3,10,Dishonour of a cheque received reverses the bank receipt.
+20,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Dividend bank collection,B,2,5,Dividend collected by the bank increases the bank balance.
+21,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Loan account transfer out,A,3,10,Transfer to a loan account reduces the current account balance.
+22,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Cheque issued dishonoured,B,3,10,Dishonour of a cheque issued reverses the bank payment.
+23,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Bank interest allowed,B,2,5,Interest allowed by the bank increases the bank balance.
+24,Accountancy,5 - Subsidiary-Books,SORT-002,Bank Column Entry,Payment Side,Receipt Side,Loan account transfer in,B,3,10,Transfer from a loan account increases the current account balance.
+25,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Bank charges,B,2,5,Bank charges are entered in the bank column.
+26,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Customer direct deposit,B,3,10,A direct bank deposit is entered in the bank column.
+27,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Cheque issued,B,1,3,A cheque issued is entered in the bank column.
+28,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Cash purchases,A,1,3,Cash purchases are recorded in the cash column.
+29,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Cash sales,A,1,3,Cash sales are recorded in the cash column.
+30,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Crossed cheque received,B,1,3,A crossed cheque received is entered in the bank column.
+31,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Cash salary paid,A,1,3,Salary paid in cash affects the cash column.
+32,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Bearer cheque received,A,2,5,A bearer cheque received is treated as cash.
+33,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Cash drawings,A,2,5,Cash withdrawn for personal use affects the cash column.
+34,Accountancy,5 - Subsidiary-Books,SORT-003,Cash Book Entry,Cash Column,Bank Column,Bank interest allowed,B,2,5,Bank interest allowed is entered in the bank column.
+35,Accountancy,5 - Subsidiary-Books,SORT-004,Credit Goods Transaction,Sales Book,Purchase Book,Credit resale-goods sales,A,3,10,Goods held for resale and sold on credit enter the Sales Book.
+36,Accountancy,5 - Subsidiary-Books,SORT-004,Credit Goods Transaction,Sales Book,Purchase Book,Credit resale purchases,B,2,5,Goods purchased on credit for resale enter the Purchase Book.
+37,Accountancy,5 - Subsidiary-Books,SORT-004,Credit Goods Transaction,Sales Book,Purchase Book,Credit goods purchases,B,1,3,Goods bought on credit are entered in the Purchase Book.
+38,Accountancy,5 - Subsidiary-Books,SORT-004,Credit Goods Transaction,Sales Book,Purchase Book,Credit goods sales,A,1,3,Goods sold on credit are entered in the Sales Book.
+39,Accountancy,5 - Subsidiary-Books,SORT-004,Credit Goods Transaction,Sales Book,Purchase Book,Credit stock sales,A,2,5,Stock sold on credit is recorded in the Sales Book.
+40,Accountancy,5 - Subsidiary-Books,SORT-004,Credit Goods Transaction,Sales Book,Purchase Book,Credit raw-material purchases,B,3,10,Raw materials purchased on credit for manufacture enter the Purchase Book.
+41,Accountancy,5 - Subsidiary-Books,SORT-004,Credit Goods Transaction,Sales Book,Purchase Book,Credit merchandise sales,A,2,5,Merchandise sold on credit is recorded in the Sales Book.
+42,Accountancy,5 - Subsidiary-Books,SORT-004,Credit Goods Transaction,Sales Book,Purchase Book,Credit stock purchases,B,2,5,Stock purchased on credit is recorded in the Purchase Book.
+43,Accountancy,5 - Subsidiary-Books,SORT-005,Goods Return,Purchase Return Book,Sales Return Book,Purchase returns outward,A,2,5,Goods sent back to suppliers are returns outward.
+44,Accountancy,5 - Subsidiary-Books,SORT-005,Goods Return,Purchase Return Book,Sales Return Book,Defective purchases returned,A,2,5,Defective goods returned to suppliers are purchase returns.
+45,Accountancy,5 - Subsidiary-Books,SORT-005,Goods Return,Purchase Return Book,Sales Return Book,Credit purchases returned,A,1,3,Goods bought on credit and returned are purchase returns.
+46,Accountancy,5 - Subsidiary-Books,SORT-005,Goods Return,Purchase Return Book,Sales Return Book,Goods returned by customer,B,1,3,Goods returned by customers are sales returns.
+47,Accountancy,5 - Subsidiary-Books,SORT-005,Goods Return,Purchase Return Book,Sales Return Book,Damaged sales returned,B,2,5,Credit goods returned after damage in transit are sales returns.
+48,Accountancy,5 - Subsidiary-Books,SORT-005,Goods Return,Purchase Return Book,Sales Return Book,Sales returns inward,B,2,5,Goods received back from customers are returns inward.
+49,Accountancy,5 - Subsidiary-Books,SORT-005,Goods Return,Purchase Return Book,Sales Return Book,Goods returned to supplier,A,1,3,Goods returned to suppliers are purchase returns.
+50,Accountancy,5 - Subsidiary-Books,SORT-005,Goods Return,Purchase Return Book,Sales Return Book,Credit sales returned,B,1,3,Credit goods returned by buyers are sales returns.
+51,Accountancy,5 - Subsidiary-Books,SORT-006,Return Document,Credit Note,Debit Note,Return inward document,A,2,5,A credit note documents goods returned by a buyer.
+52,Accountancy,5 - Subsidiary-Books,SORT-006,Return Document,Credit Note,Debit Note,Original sent to supplier,B,3,10,The original debit note is sent to the supplier.
+53,Accountancy,5 - Subsidiary-Books,SORT-006,Return Document,Credit Note,Debit Note,Buyer return notice,B,1,3,The buyer prepares a debit note when returning goods.
+54,Accountancy,5 - Subsidiary-Books,SORT-006,Return Document,Credit Note,Debit Note,Customer account credited,A,2,5,A credit note indicates the returning customer account is credited.
+55,Accountancy,5 - Subsidiary-Books,SORT-006,Return Document,Credit Note,Debit Note,Return outward document,B,2,5,A debit note documents goods returned to a supplier.
+56,Accountancy,5 - Subsidiary-Books,SORT-006,Return Document,Credit Note,Debit Note,Note sent to buyer,A,3,10,The seller sends a credit note to the buyer.
+57,Accountancy,5 - Subsidiary-Books,SORT-006,Return Document,Credit Note,Debit Note,Supplier account debited,B,2,5,A debit note indicates the supplier account is debited.
+58,Accountancy,5 - Subsidiary-Books,SORT-006,Return Document,Credit Note,Debit Note,Seller return notice,A,1,3,The seller prepares a credit note on receiving returned goods.
+59,Accountancy,5 - Subsidiary-Books,SORT-007,Accounting Entry,Contra Entry,Journal Proper,Cash bank deposit,A,1,3,Depositing cash into bank affects both cash and bank accounts.
+60,Accountancy,5 - Subsidiary-Books,SORT-007,Accounting Entry,Contra Entry,Journal Proper,Bank to office cash,A,2,5,Withdrawing bank cash for office use is a contra entry.
+61,Accountancy,5 - Subsidiary-Books,SORT-007,Accounting Entry,Contra Entry,Journal Proper,Adjustment entry,B,1,3,Accrual adjustments are recorded in Journal Proper.
+62,Accountancy,5 - Subsidiary-Books,SORT-007,Accounting Entry,Contra Entry,Journal Proper,Earlier bearer cheque deposit,A,3,10,Depositing a previously received bearer cheque affects cash and bank.
+63,Accountancy,5 - Subsidiary-Books,SORT-007,Accounting Entry,Contra Entry,Journal Proper,Rectification entry,B,2,5,Errors are corrected through Journal Proper.
+64,Accountancy,5 - Subsidiary-Books,SORT-007,Accounting Entry,Contra Entry,Journal Proper,Office cash withdrawal,A,1,3,Cash withdrawn from bank for office use affects both accounts.
+65,Accountancy,5 - Subsidiary-Books,SORT-007,Accounting Entry,Contra Entry,Journal Proper,Opening entry,B,1,3,Opening balances are recorded in Journal Proper.
+66,Accountancy,5 - Subsidiary-Books,SORT-007,Accounting Entry,Contra Entry,Journal Proper,Closing entry,B,2,5,Closing transfers are recorded in Journal Proper.
+67,Accountancy,5 - Subsidiary-Books,SORT-008,Bank Account Feature,Savings Account,Current Account,Generally no interest,B,3,10,Current accounts generally do not earn interest.
+68,Accountancy,5 - Subsidiary-Books,SORT-008,Bank Account Feature,Savings Account,Current Account,Business banking,B,1,3,Current accounts are suitable for business transactions.
+69,Accountancy,5 - Subsidiary-Books,SORT-008,Bank Account Feature,Savings Account,Current Account,Regular income savings,A,2,5,Savings accounts suit people with regular income.
+70,Accountancy,5 - Subsidiary-Books,SORT-008,Bank Account Feature,Savings Account,Current Account,Unrestricted withdrawals,B,2,5,Current accounts do not restrict the number of withdrawals.
+71,Accountancy,5 - Subsidiary-Books,SORT-008,Bank Account Feature,Savings Account,Current Account,Prescribed interest,A,1,3,Savings accounts earn interest at a prescribed rate.
+72,Accountancy,5 - Subsidiary-Books,SORT-008,Bank Account Feature,Savings Account,Current Account,No overdraft facility,A,3,10,Savings accounts do not provide overdraft facility.
+73,Accountancy,5 - Subsidiary-Books,SORT-008,Bank Account Feature,Savings Account,Current Account,Overdraft facility,B,1,3,Overdraft facility is available on a current account.
+74,Accountancy,5 - Subsidiary-Books,SORT-008,Bank Account Feature,Savings Account,Current Account,Withdrawal restrictions,A,2,5,Savings accounts have restrictions on withdrawals.
+75,Accountancy,5 - Subsidiary-Books,SORT-009,Deposit Account Feature,Fixed Deposit,Recurring Deposit,One fixed deposit,A,1,3,A fixed deposit starts with a fixed sum.
+76,Accountancy,5 - Subsidiary-Books,SORT-009,Deposit Account Feature,Fixed Deposit,Recurring Deposit,Intermediate interest rate,B,3,10,Recurring deposits earn less interest than fixed deposits.
+77,Accountancy,5 - Subsidiary-Books,SORT-009,Deposit Account Feature,Fixed Deposit,Recurring Deposit,Fixed term placement,A,1,3,A fixed deposit holds money for a fixed period.
+78,Accountancy,5 - Subsidiary-Books,SORT-009,Deposit Account Feature,Fixed Deposit,Recurring Deposit,Higher deposit interest,A,3,10,Fixed deposits offer a higher rate than recurring deposits.
+79,Accountancy,5 - Subsidiary-Books,SORT-009,Deposit Account Feature,Fixed Deposit,Recurring Deposit,Single sum investment,A,2,5,A fixed amount is deposited in a fixed deposit account.
+80,Accountancy,5 - Subsidiary-Books,SORT-009,Deposit Account Feature,Fixed Deposit,Recurring Deposit,Monthly contributions,B,1,3,Recurring deposits involve deposits every month.
+81,Accountancy,5 - Subsidiary-Books,SORT-009,Deposit Account Feature,Fixed Deposit,Recurring Deposit,Fixed monthly instalments,B,1,3,Recurring deposits require fixed monthly deposits.
+82,Accountancy,5 - Subsidiary-Books,SORT-009,Deposit Account Feature,Fixed Deposit,Recurring Deposit,Decided monthly period,B,2,5,Recurring deposits continue monthly for a decided period.
+83,Accountancy,5 - Subsidiary-Books,SORT-010,Accounting Record,Journal Proper,Petty Cash Book,Bad debts written off,A,2,5,Writing off bad debts is recorded in Journal Proper.
+84,Accountancy,5 - Subsidiary-Books,SORT-010,Accounting Record,Journal Proper,Petty Cash Book,Office files,B,2,5,Small purchases of office files can be petty cash payments.
+85,Accountancy,5 - Subsidiary-Books,SORT-010,Accounting Record,Journal Proper,Petty Cash Book,Refreshment expense,B,1,3,Small refreshment payments are petty expenses.
+86,Accountancy,5 - Subsidiary-Books,SORT-010,Accounting Record,Journal Proper,Petty Cash Book,Goods given as charity,A,2,5,Goods distributed as charity are recorded in Journal Proper.
+87,Accountancy,5 - Subsidiary-Books,SORT-010,Accounting Record,Journal Proper,Petty Cash Book,Credit asset purchase,A,1,3,Assets bought on credit are recorded in Journal Proper.
+88,Accountancy,5 - Subsidiary-Books,SORT-010,Accounting Record,Journal Proper,Petty Cash Book,Goods withdrawn by proprietor,A,3,10,Withdrawal of goods by the proprietor is entered in Journal Proper.
+89,Accountancy,5 - Subsidiary-Books,SORT-010,Accounting Record,Journal Proper,Petty Cash Book,Postage expense,B,1,3,Small postage expenses are recorded in petty cash.
+90,Accountancy,5 - Subsidiary-Books,SORT-010,Accounting Record,Journal Proper,Petty Cash Book,Courier charges,B,2,5,Courier charges can be entered in petty cash.

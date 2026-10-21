@@ -1,0 +1,73 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,7. Probability,SORT-001,Experiment Description,Deterministic Experiment,Probabilistic Experiment,Calculating triangle area,A,1,3,Calculating the area from given measurements has a definite result.
+2,Mathematics,7. Probability,SORT-001,Experiment Description,Deterministic Experiment,Probabilistic Experiment,Fixed rectangle perimeter,A,2,5,Known side lengths determine a fixed perimeter.
+3,Mathematics,7. Probability,SORT-001,Experiment Description,Deterministic Experiment,Probabilistic Experiment,Area of given triangle,A,1,3,A given triangle has a calculable area with a predictable result.
+4,Mathematics,7. Probability,SORT-001,Experiment Description,Deterministic Experiment,Probabilistic Experiment,Throwing a die,B,1,3,The upper face of a thrown die is unpredictable.
+5,Mathematics,7. Probability,SORT-001,Experiment Description,Deterministic Experiment,Probabilistic Experiment,Tossing a coin,B,1,3,The outcome of a coin toss is not known beforehand.
+6,Mathematics,7. Probability,SORT-001,Experiment Description,Deterministic Experiment,Probabilistic Experiment,Known triangle dimensions,A,2,5,Given dimensions determine a predictable geometric result.
+7,Mathematics,7. Probability,SORT-001,Experiment Description,Deterministic Experiment,Probabilistic Experiment,Selecting students randomly,B,2,5,The selected group is not known before random selection.
+8,Mathematics,7. Probability,SORT-001,Experiment Description,Deterministic Experiment,Probabilistic Experiment,Drawing a shuffled card,B,2,5,The selected card is unpredictable before drawing.
+9,Mathematics,7. Probability,SORT-002,Event Description,Impossible Event,Sure Event,Coin shows head or tail,B,1,3,Every coin toss produces a head or a tail.
+10,Mathematics,7. Probability,SORT-002,Event Description,Impossible Event,Sure Event,Die result above 6,A,1,3,A standard die has no face numbered above 6.
+11,Mathematics,7. Probability,SORT-002,Event Description,Impossible Event,Sure Event,Die result above 0,B,1,3,All six die faces have positive numbers.
+12,Mathematics,7. Probability,SORT-002,Event Description,Impossible Event,Sure Event,Die result below 7,B,1,3,Every possible die result is less than 7.
+13,Mathematics,7. Probability,SORT-002,Event Description,Impossible Event,Sure Event,Die result equals 0,A,1,3,A standard die has no face numbered zero.
+14,Mathematics,7. Probability,SORT-002,Event Description,Impossible Event,Sure Event,Card red or black,B,1,3,Every card in the standard pack is red or black.
+15,Mathematics,7. Probability,SORT-002,Event Description,Impossible Event,Sure Event,Die result equals 7,A,1,3,A standard die has no face numbered 7.
+16,Mathematics,7. Probability,SORT-002,Event Description,Impossible Event,Sure Event,Die result below 1,A,1,3,No standard die face has a number below 1.
+17,Mathematics,7. Probability,SORT-003,Event Operation,Union,Intersection,All outcomes in either,A,2,5,Union collects outcomes from either of the two events.
+18,Mathematics,7. Probability,SORT-003,Event Operation,Union,Intersection,One or both occur,A,1,3,Union permits one event or simultaneous occurrence.
+19,Mathematics,7. Probability,SORT-003,Event Operation,Union,Intersection,Common outcomes only,B,1,3,Intersection consists of outcomes shared by both events.
+20,Mathematics,7. Probability,SORT-003,Event Operation,Union,Intersection,Shared subset of events,B,2,5,Intersection retains only outcomes common to the two events.
+21,Mathematics,7. Probability,SORT-003,Event Operation,Union,Intersection,At least one occurs,A,1,3,Union includes outcomes where either event or both occur.
+22,Mathematics,7. Probability,SORT-003,Event Operation,Union,Intersection,Both events occur,B,1,3,Intersection requires simultaneous occurrence of both events.
+23,Mathematics,7. Probability,SORT-003,Event Operation,Union,Intersection,Either event occurs,A,1,3,Union contains outcomes belonging to at least one event.
+24,Mathematics,7. Probability,SORT-003,Event Operation,Union,Intersection,Simultaneous occurrence,B,1,3,Intersection describes both events occurring together.
+25,Mathematics,7. Probability,SORT-004,Event Relationship,Mutually Exclusive Events,Exhaustive Events,Every result covered,B,1,3,Exhaustive events account for every possible result.
+26,Mathematics,7. Probability,SORT-004,Event Relationship,Mutually Exclusive Events,Exhaustive Events,Union equals entire space,B,2,5,Exhaustive events have the entire sample space as their union.
+27,Mathematics,7. Probability,SORT-004,Event Relationship,Mutually Exclusive Events,Exhaustive Events,Common outcomes absent,A,1,3,Mutually exclusive events have an empty intersection.
+28,Mathematics,7. Probability,SORT-004,Event Relationship,Mutually Exclusive Events,Exhaustive Events,No outcome left uncovered,B,1,3,Exhaustive events collectively include every sample point.
+29,Mathematics,7. Probability,SORT-004,Event Relationship,Mutually Exclusive Events,Exhaustive Events,No simultaneous occurrence,A,1,3,Mutually exclusive events cannot occur together in one trial.
+30,Mathematics,7. Probability,SORT-004,Event Relationship,Mutually Exclusive Events,Exhaustive Events,Combined events cover all,B,1,3,Exhaustive events have a union equal to the sample space.
+31,Mathematics,7. Probability,SORT-004,Event Relationship,Mutually Exclusive Events,Exhaustive Events,Disjoint event subsets,A,1,3,Mutually exclusive events are disjoint subsets of the sample space.
+32,Mathematics,7. Probability,SORT-004,Event Relationship,Mutually Exclusive Events,Exhaustive Events,One occurrence prevents other,A,2,5,Mutually exclusive events cannot occur simultaneously.
+33,Mathematics,7. Probability,SORT-005,Event Property,Complementary Event,Sure Event,All outcomes outside event,A,1,3,The complement consists of sample points not in the given event.
+34,Mathematics,7. Probability,SORT-005,Event Property,Complementary Event,Sure Event,Probability exactly one,B,1,3,A sure event has probability one.
+35,Mathematics,7. Probability,SORT-005,Event Property,Complementary Event,Sure Event,Event does not occur,A,1,3,The complement describes non-occurrence of the given event.
+36,Mathematics,7. Probability,SORT-005,Event Property,Complementary Event,Sure Event,No possible result excluded,B,2,5,A sure event includes all possible outcomes.
+37,Mathematics,7. Probability,SORT-005,Event Property,Complementary Event,Sure Event,Entire sample space occurs,B,1,3,The whole sample space represents a sure event.
+38,Mathematics,7. Probability,SORT-005,Event Property,Complementary Event,Sure Event,Probability one minus given,A,2,5,Complement probability equals one minus the event probability.
+39,Mathematics,7. Probability,SORT-005,Event Property,Complementary Event,Sure Event,Contains every sample point,B,1,3,A sure event includes the entire sample space.
+40,Mathematics,7. Probability,SORT-005,Event Property,Complementary Event,Sure Event,Remaining sample points,A,1,3,The complementary event contains precisely the outcomes excluded by the event.
+41,Mathematics,7. Probability,SORT-006,Event Relationship,Mutually Exclusive Events,Independent Events,Joint chance is product,B,2,5,"For independent events, the intersection probability is the product of individual probabilities."
+42,Mathematics,7. Probability,SORT-006,Event Relationship,Mutually Exclusive Events,Independent Events,Head and tail same toss,A,1,3,A single coin toss cannot produce both outcomes.
+43,Mathematics,7. Probability,SORT-006,Event Relationship,Mutually Exclusive Events,Independent Events,One chance stays unchanged,B,1,3,Independence means occurrence of one event does not change the other’s probability.
+44,Mathematics,7. Probability,SORT-006,Event Relationship,Mutually Exclusive Events,Independent Events,Replacement preserves chances,B,2,5,Replacing a drawn card preserves the next draw’s original chances.
+45,Mathematics,7. Probability,SORT-006,Event Relationship,Mutually Exclusive Events,Independent Events,Odd and even die result,A,1,3,A single die result cannot be both odd and even.
+46,Mathematics,7. Probability,SORT-006,Event Relationship,Mutually Exclusive Events,Independent Events,Empty intersection,A,2,5,Mutually exclusive events have no shared outcome.
+47,Mathematics,7. Probability,SORT-006,Event Relationship,Mutually Exclusive Events,Independent Events,King and queen same draw,A,1,3,One drawn card cannot simultaneously be a king and a queen.
+48,Mathematics,7. Probability,SORT-006,Event Relationship,Mutually Exclusive Events,Independent Events,Separate coin tosses,B,1,3,Separate coin tosses do not affect each other’s outcomes.
+49,Mathematics,7. Probability,SORT-007,Probability Rule,Addition Theorem,Multiplication Theorem,First chance times conditional,B,2,5,The multiplication theorem multiplies one event probability by a conditional probability.
+50,Mathematics,7. Probability,SORT-007,Probability Rule,Addition Theorem,Multiplication Theorem,Joint event probability,B,1,3,The multiplication theorem gives the probability of the intersection of events.
+51,Mathematics,7. Probability,SORT-007,Probability Rule,Addition Theorem,Multiplication Theorem,Subtract shared probability,A,2,5,The addition theorem subtracts intersection probability to avoid double counting.
+52,Mathematics,7. Probability,SORT-007,Probability Rule,Addition Theorem,Multiplication Theorem,Successive dependent draws,B,2,5,The multiplication theorem handles joint probabilities using conditional chances.
+53,Mathematics,7. Probability,SORT-007,Probability Rule,Addition Theorem,Multiplication Theorem,Chance of both,B,1,3,The multiplication theorem calculates the probability of simultaneous events.
+54,Mathematics,7. Probability,SORT-007,Probability Rule,Addition Theorem,Multiplication Theorem,Probability of either,A,1,3,The addition theorem evaluates the occurrence of at least one event.
+55,Mathematics,7. Probability,SORT-007,Probability Rule,Addition Theorem,Multiplication Theorem,Combine overlapping chances,A,2,5,The addition theorem accounts for the overlap when combining event probabilities.
+56,Mathematics,7. Probability,SORT-007,Probability Rule,Addition Theorem,Multiplication Theorem,Chance of at least one,A,1,3,The addition theorem finds the probability of the union of events.
+57,Mathematics,7. Probability,SORT-008,Probability Concept,Event,Sample Space,Getting at least one head,A,2,5,Getting at least one head defines an event in coin tossing.
+58,Mathematics,7. Probability,SORT-008,Probability Concept,Event,Sample Space,All six die faces,B,1,3,The six possible die faces together form the sample space.
+59,Mathematics,7. Probability,SORT-008,Probability Concept,Event,Sample Space,Subset of outcomes,A,1,3,An event is a subset of the sample space.
+60,Mathematics,7. Probability,SORT-008,Probability Concept,Event,Sample Space,Drawing a face card,A,1,3,Drawing a face card specifies an event from the card-drawing sample space.
+61,Mathematics,7. Probability,SORT-008,Probability Concept,Event,Sample Space,Complete outcome collection,B,1,3,A sample space contains all possible results of the experiment.
+62,Mathematics,7. Probability,SORT-008,Probability Concept,Event,Sample Space,Every coin toss result,B,1,3,The complete collection of possible toss results is the sample space.
+63,Mathematics,7. Probability,SORT-008,Probability Concept,Event,Sample Space,All possible results,B,1,3,The sample space is the set of every possible outcome.
+64,Mathematics,7. Probability,SORT-008,Probability Concept,Event,Sample Space,Only even die faces,A,1,3,The even die faces form an event within the sample space.
+65,Mathematics,7. Probability,SORT-009,Event Description,Simple Event,Impossible Event,Exactly one sample point,A,1,3,A simple event consists of a single sample point.
+66,Mathematics,7. Probability,SORT-009,Event Description,Simple Event,Impossible Event,No favourable outcome,B,1,3,An event with no possible outcome is impossible.
+67,Mathematics,7. Probability,SORT-009,Event Description,Simple Event,Impossible Event,Exactly one outcome,A,1,3,A one-outcome subset is an elementary event.
+68,Mathematics,7. Probability,SORT-009,Event Description,Simple Event,Impossible Event,Empty outcome subset,B,1,3,An impossible event contains no sample points.
+69,Mathematics,7. Probability,SORT-009,Event Description,Simple Event,Impossible Event,Negative die face,B,1,3,No standard die face has a negative number.
+70,Mathematics,7. Probability,SORT-009,Event Description,Simple Event,Impossible Event,Both coins tails,A,1,3,"For two tossed coins, both tails is one outcome."
+71,Mathematics,7. Probability,SORT-009,Event Description,Simple Event,Impossible Event,Die face numbered 9,B,1,3,No face of a standard die is numbered 9.
+72,Mathematics,7. Probability,SORT-009,Event Description,Simple Event,Impossible Event,Only die face 2,A,1,3,A single specified die face gives a one-element event.

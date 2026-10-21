@@ -1,0 +1,27 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Economics,Chapter 2: Money,SORT-001,Historical Money,Animal Money,Commodity Money,Animal skin,B,2,5,Animal skins were used as commodity money.
+2,Economics,Chapter 2: Money,SORT-001,Historical Money,Animal Money,Commodity Money,Goat,A,1,3,Goats were used as animal money.
+3,Economics,Chapter 2: Money,SORT-001,Historical Money,Animal Money,Commodity Money,Cow,A,1,3,Cows were used as animal money.
+4,Economics,Chapter 2: Money,SORT-001,Historical Money,Animal Money,Commodity Money,Grains,B,1,3,Grains served as commodity money.
+5,Economics,Chapter 2: Money,SORT-001,Historical Money,Animal Money,Commodity Money,Sheep,A,1,3,Sheep served as animal money in early exchange.
+6,Economics,Chapter 2: Money,SORT-001,Historical Money,Animal Money,Commodity Money,Shells,B,1,3,Shells were exchanged as commodity money.
+7,Economics,Chapter 2: Money,SORT-001,Historical Money,Animal Money,Commodity Money,Salt,B,2,5,Salt was a commodity used as money.
+8,Economics,Chapter 2: Money,SORT-001,Historical Money,Animal Money,Commodity Money,Feathers,B,2,5,Feathers were used as commodity money.
+9,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Rare articles,B,3,10,Rare articles were exchanged as commodity money.
+10,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Silver,A,1,3,Silver was used as metallic money.
+11,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Copper,A,1,3,Copper was used as metallic money.
+12,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Shells,B,1,3,Shells were a form of commodity money.
+13,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Stones,B,2,5,Stones were used as commodity money.
+14,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Tusk,B,2,5,Tusks were used as commodity money.
+15,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Gold,A,1,3,Gold is a durable metal used as metallic money.
+16,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Animal skin,B,1,3,Animal skins functioned as commodity money.
+17,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Aluminum,A,2,5,Aluminum was used as metallic money.
+18,Economics,Chapter 2: Money,SORT-002,Historical Money,Metallic Money,Commodity Money,Nickel,A,2,5,Nickel was used as metallic money.
+19,Economics,Chapter 2: Money,SORT-003,Payment Form,Plastic Money,Electronic Money,Digital wallet,B,1,3,Digital wallets store electronic monetary value.
+20,Economics,Chapter 2: Money,SORT-003,Payment Form,Plastic Money,Electronic Money,Debit card,A,1,3,Debit cards are a form of plastic money.
+21,Economics,Chapter 2: Money,SORT-003,Payment Form,Plastic Money,Electronic Money,Tablet,B,2,5,Tablets can be used to transfer electronic money.
+22,Economics,Chapter 2: Money,SORT-003,Payment Form,Plastic Money,Electronic Money,Plastic cards,A,2,5,Cards used for transactions represent plastic money.
+23,Economics,Chapter 2: Money,SORT-003,Payment Form,Plastic Money,Electronic Money,Credit card,A,1,3,Credit cards are a form of plastic money.
+24,Economics,Chapter 2: Money,SORT-003,Payment Form,Plastic Money,Electronic Money,Smart card,B,3,10,Smart cards can store electronic money.
+25,Economics,Chapter 2: Money,SORT-003,Payment Form,Plastic Money,Electronic Money,Computer,B,2,5,Computers can transfer electronic money.
+26,Economics,Chapter 2: Money,SORT-003,Payment Form,Plastic Money,Electronic Money,Mobile phone,B,2,5,Mobile phones can store and transfer electronic money.

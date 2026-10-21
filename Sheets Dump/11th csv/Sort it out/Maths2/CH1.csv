@@ -1,0 +1,55 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Statistics,1. Partition Values,SORT-001,Partition Feature,Quartiles,Deciles,"10% below, 90% above",B,2,5,The first decile leaves 10% of observations below it.
+2,Statistics,1. Partition Values,SORT-001,Partition Feature,Quartiles,Deciles,"30% below, 70% above",B,2,5,The third decile leaves 30% of observations below it.
+3,Statistics,1. Partition Values,SORT-001,Partition Feature,Quartiles,Deciles,Three internal dividing points,A,1,3,Four equal parts require three internal dividing points.
+4,Statistics,1. Partition Values,SORT-001,Partition Feature,Quartiles,Deciles,"75% below, 25% above",A,1,3,The third quartile leaves 75% of observations below it.
+5,Statistics,1. Partition Values,SORT-001,Partition Feature,Quartiles,Deciles,Nine internal dividing points,B,1,3,Ten equal parts require nine internal dividing points.
+6,Statistics,1. Partition Values,SORT-001,Partition Feature,Quartiles,Deciles,Ten equal data parts,B,1,3,Deciles divide ordered data into ten equal parts.
+7,Statistics,1. Partition Values,SORT-001,Partition Feature,Quartiles,Deciles,Four equal data parts,A,1,3,Quartiles divide ordered data into four equal parts.
+8,Statistics,1. Partition Values,SORT-001,Partition Feature,Quartiles,Deciles,"25% below, 75% above",A,1,3,The first quartile leaves 25% of observations below it.
+9,Statistics,1. Partition Values,SORT-002,Partition Feature,Quartiles,Percentiles,100 equal data parts,B,1,3,Percentiles divide ordered data into 100 equal parts.
+10,Statistics,1. Partition Values,SORT-002,Partition Feature,Quartiles,Percentiles,Four equal data parts,A,1,3,Quartiles divide ordered data into four equal parts.
+11,Statistics,1. Partition Values,SORT-002,Partition Feature,Quartiles,Percentiles,Three internal dividing points,A,1,3,Four equal parts require three internal dividing points.
+12,Statistics,1. Partition Values,SORT-002,Partition Feature,Quartiles,Percentiles,"75% below, 25% above",A,1,3,The third quartile leaves 75% of observations below it.
+13,Statistics,1. Partition Values,SORT-002,Partition Feature,Quartiles,Percentiles,"17% below, 83% above",B,2,5,The 17th percentile leaves 17% of observations below it.
+14,Statistics,1. Partition Values,SORT-002,Partition Feature,Quartiles,Percentiles,"25% below, 75% above",A,1,3,The first quartile leaves 25% of observations below it.
+15,Statistics,1. Partition Values,SORT-002,Partition Feature,Quartiles,Percentiles,"1% below, 99% above",B,2,5,The first percentile leaves 1% of observations below it.
+16,Statistics,1. Partition Values,SORT-002,Partition Feature,Quartiles,Percentiles,99 internal dividing points,B,1,3,One hundred equal parts require 99 internal dividing points.
+17,Statistics,1. Partition Values,SORT-003,Partition Feature,Deciles,Percentiles,100 equal data parts,B,1,3,Percentiles divide ordered data into 100 equal parts.
+18,Statistics,1. Partition Values,SORT-003,Partition Feature,Deciles,Percentiles,"17% below, 83% above",B,2,5,The 17th percentile leaves 17% of observations below it.
+19,Statistics,1. Partition Values,SORT-003,Partition Feature,Deciles,Percentiles,Nine internal dividing points,A,1,3,Ten equal parts require nine internal dividing points.
+20,Statistics,1. Partition Values,SORT-003,Partition Feature,Deciles,Percentiles,Ten equal data parts,A,1,3,Deciles divide ordered data into ten equal parts.
+21,Statistics,1. Partition Values,SORT-003,Partition Feature,Deciles,Percentiles,"1% below, 99% above",B,2,5,The first percentile leaves 1% of observations below it.
+22,Statistics,1. Partition Values,SORT-003,Partition Feature,Deciles,Percentiles,99 internal dividing points,B,1,3,One hundred equal parts require 99 internal dividing points.
+23,Statistics,1. Partition Values,SORT-003,Partition Feature,Deciles,Percentiles,"30% below, 70% above",A,2,5,The third decile leaves 30% of observations below it.
+24,Statistics,1. Partition Values,SORT-003,Partition Feature,Deciles,Percentiles,"10% below, 90% above",A,2,5,The first decile leaves 10% of observations below it.
+25,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Counts below each upper limit,B,2,5,A less than ogive counts observations below each upper class limit.
+26,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Last plotted cumulative total,B,3,10,The final less than cumulative frequency equals the total frequency.
+27,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Above-boundary cumulative totals,A,1,3,A more than ogive uses cumulative frequencies above lower boundaries.
+28,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Zero after last class,A,2,5,The more than cumulative frequency is zero after the last class.
+29,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Zero before first class,B,2,5,The less than cumulative frequency is zero before the first class.
+30,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,First plotted cumulative total,A,3,10,The initial more than cumulative frequency equals the total frequency.
+31,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Lower class boundaries,A,1,3,A more than ogive plots lower class boundaries on the horizontal axis.
+32,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Upper class boundaries,B,1,3,A less than ogive plots upper class boundaries on the horizontal axis.
+33,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Counts above each lower limit,A,2,5,A more than ogive counts observations above each lower class limit.
+34,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Below-boundary cumulative totals,B,1,3,A less than ogive uses cumulative frequencies below upper boundaries.
+35,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Accumulation from highest class,A,2,5,More than cumulative frequencies accumulate from the highest class.
+36,Statistics,1. Partition Values,SORT-004,Ogive Feature,More Than Ogive,Less Than Ogive,Accumulation from lowest class,B,2,5,Less than cumulative frequencies accumulate from the lowest class.
+37,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Neighbouring observed values,A,2,5,Interpolation for raw data uses neighbouring ordered observations.
+38,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Ordered individual observations,A,1,3,Raw-data partition positions are located among ordered individual observations.
+39,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Fractional-position interpolation,A,2,5,Raw-data partition values interpolate between consecutive observations when necessary.
+40,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Frequency of containing class,B,2,5,Grouped-data formulae use the frequency of the containing class.
+41,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Within-class interpolation,B,3,10,Grouped-data partition formulae interpolate within the selected class.
+42,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Locate containing class,B,2,5,Grouped partition values require locating the class containing the target observation.
+43,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Observation at ranked position,A,1,3,Raw-data partition values use the observation at the calculated position.
+44,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Uses observation count,A,2,5,Raw-data positional formulae use the number of observations.
+45,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Class boundary and width,B,1,3,Grouped-data partition formulae use the class boundary and class width.
+46,Statistics,1. Partition Values,SORT-005,Calculation Feature,Raw Data,Grouped Data,Preceding cumulative frequency,B,1,3,Grouped-data partition formulae use the preceding cumulative frequency.
+47,Statistics,1. Partition Values,SORT-006,Quartile Feature,Third Quartile,First Quartile,Boundary of bottom quarter,B,2,5,The first quartile marks the upper boundary of the lowest quarter.
+48,Statistics,1. Partition Values,SORT-006,Quartile Feature,Third Quartile,First Quartile,75% observations below,A,1,3,The third quartile has 75% of observations below it.
+49,Statistics,1. Partition Values,SORT-006,Quartile Feature,Third Quartile,First Quartile,Boundary of top quarter,A,2,5,The third quartile marks the lower boundary of the highest quarter.
+50,Statistics,1. Partition Values,SORT-006,Quartile Feature,Third Quartile,First Quartile,25% observations above,A,1,3,The third quartile has 25% of observations above it.
+51,Statistics,1. Partition Values,SORT-006,Quartile Feature,Third Quartile,First Quartile,First of three cutpoints,B,1,3,The first quartile is the first of the three quartile cutpoints.
+52,Statistics,1. Partition Values,SORT-006,Quartile Feature,Third Quartile,First Quartile,75% observations above,B,1,3,The first quartile has 75% of observations above it.
+53,Statistics,1. Partition Values,SORT-006,Quartile Feature,Third Quartile,First Quartile,Last of three cutpoints,A,1,3,The third quartile is the last of the three quartile cutpoints.
+54,Statistics,1. Partition Values,SORT-006,Quartile Feature,Third Quartile,First Quartile,25% observations below,B,1,3,The first quartile has 25% of observations below it.

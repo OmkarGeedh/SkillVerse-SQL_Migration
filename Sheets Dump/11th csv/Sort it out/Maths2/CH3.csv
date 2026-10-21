@@ -1,0 +1,79 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,Mean exceeds median,A,3,10,Positive skewness has mean greater than median.
+2,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,High lower-value frequencies,A,1,3,Concentration at lower values indicates positive skewness.
+3,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,Mode exceeds median,B,3,10,Negative skewness has mode greater than median.
+4,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,"Mean 10, mode 14",B,2,5,"Mean 10 is below mode 14, indicating negative skewness."
+5,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,"Mean 15, mode 13",A,2,5,"Mean 15 exceeds mode 13, indicating positive skewness."
+6,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,High higher-value frequencies,B,1,3,Concentration at higher values indicates negative skewness.
+7,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,"Mean 12, mode 9",A,2,5,"Mean 12 exceeds mode 9, indicating positive skewness."
+8,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,Longer left tail,B,1,3,A longer left tail indicates negative skewness.
+9,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,"Mean 8, mode 11",B,2,5,"Mean 8 is below mode 11, indicating negative skewness."
+10,Statistics,3. Skewness,SORT-001,Skewness Indicator,Positive Skewness,Negative Skewness,Longer right tail,A,1,3,A longer right tail indicates positive skewness.
+11,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,Pearsonian coefficient -0.2,A,2,5,A Pearsonian coefficient of -0.2 indicates negative skewness.
+12,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,Pearsonian coefficient +0.3,B,2,5,A Pearsonian coefficient of 0.3 indicates positive skewness.
+13,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,Median exceeds mode,B,3,10,Positive skewness has median greater than mode.
+14,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,Pearsonian coefficient -0.5,A,2,5,A Pearsonian coefficient of -0.5 indicates negative skewness.
+15,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,"Quartiles 2, 7, 9",A,2,5,Upper gap 2 and lower gap 5 indicate negative skewness.
+16,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,Pearsonian coefficient +0.6,B,2,5,A Pearsonian coefficient of 0.6 indicates positive skewness.
+17,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,"Quartiles 3, 5, 11",B,2,5,Upper gap 6 and lower gap 2 indicate positive skewness.
+18,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,"Quartiles 4, 10, 13",A,2,5,Upper gap 3 and lower gap 6 indicate negative skewness.
+19,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,"Quartiles 2, 6, 15",B,2,5,Upper gap 9 and lower gap 4 indicate positive skewness.
+20,Statistics,3. Skewness,SORT-002,Skewness Indicator,Negative Skewness,Positive Skewness,Median exceeds mean,A,3,10,Negative skewness has median greater than mean.
+21,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,"Mean 16, mode 12",A,2,5,"Mean 16 exceeds mode 12, indicating positive skewness."
+22,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,Longer higher-value tail,A,1,3,A longer tail towards higher values indicates positive skewness.
+23,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,"Mean 9, mode 9",B,2,5,"Mean and mode both equal 9, indicating zero skewness."
+24,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,"Quartiles 3, 7, 11",B,2,5,Upper gap 4 and lower gap 4 indicate zero skewness.
+25,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,"Mean 11, mode 8",A,2,5,"Mean 11 exceeds mode 8, indicating positive skewness."
+26,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,"Quartiles 2, 4, 10",A,2,5,Upper gap 6 and lower gap 2 indicate positive skewness.
+27,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,"Mean 7, mode 7",B,2,5,"Mean and mode both equal 7, indicating zero skewness."
+28,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,"Quartiles 1, 3, 8",A,2,5,Upper gap 5 and lower gap 2 indicate positive skewness.
+29,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,"Quartiles 4, 8, 12",B,2,5,Upper gap 4 and lower gap 4 indicate zero skewness.
+30,Statistics,3. Skewness,SORT-003,Skewness Indicator,Positive Skewness,Zero Skewness,Equal opposite frequencies,B,1,3,Equal frequencies equidistant from the mean indicate symmetry.
+31,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,Lower values more frequent,B,1,3,Higher frequencies at lower values indicate positive skewness.
+32,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,"Mean 6, mode 6",A,2,5,"Mean and mode both equal 6, indicating zero skewness."
+33,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,Bowley coefficient 0,A,2,5,A Bowley coefficient of 0 indicates zero skewness.
+34,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,Bowley coefficient +0.4,B,2,5,A Bowley coefficient of 0.4 indicates positive skewness.
+35,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,Mean equals median,A,3,10,A symmetric distribution has equal mean and median.
+36,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,Upper quartile gap larger,B,3,10,A larger upper quartile gap indicates positive skewness.
+37,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,Bowley coefficient +0.8,B,2,5,A Bowley coefficient of 0.8 indicates positive skewness.
+38,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,Equidistant quartiles,A,1,3,Equidistant quartiles indicate zero skewness.
+39,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,Bowley coefficient +0.2,B,2,5,A Bowley coefficient of 0.2 indicates positive skewness.
+40,Statistics,3. Skewness,SORT-004,Skewness Indicator,Zero Skewness,Positive Skewness,"Mean 13, mode 13",A,2,5,"Mean and mode both equal 13, indicating zero skewness."
+41,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,"Mean 12, mode 12",B,2,5,"Mean and mode both equal 12, indicating zero skewness."
+42,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,"Quartiles 2, 9, 12",A,2,5,Upper gap 3 and lower gap 7 indicate negative skewness.
+43,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,Mean median mode equal,B,3,10,"Equal mean, median and mode indicate zero skewness."
+44,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,"Quartiles 3, 6, 9",B,2,5,Upper gap 3 and lower gap 3 indicate zero skewness.
+45,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,"Mean 11, mode 15",A,2,5,"Mean 11 is below mode 15, indicating negative skewness."
+46,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,"Mean 8, mode 8",B,2,5,"Mean and mode both equal 8, indicating zero skewness."
+47,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,"Quartiles 5, 10, 15",B,2,5,Upper gap 5 and lower gap 5 indicate zero skewness.
+48,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,"Mean 5, mode 9",A,2,5,"Mean 5 is below mode 9, indicating negative skewness."
+49,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,Tail towards lower values,A,1,3,A tail extending towards lower values indicates negative skewness.
+50,Statistics,3. Skewness,SORT-005,Skewness Indicator,Negative Skewness,Zero Skewness,"Quartiles 1, 8, 10",A,2,5,Upper gap 2 and lower gap 7 indicate negative skewness.
+51,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,Pearsonian coefficient -0.7,B,2,5,A Pearsonian coefficient of -0.7 indicates negative skewness.
+52,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,Equal tail lengths,A,1,3,Symmetric distributions have balanced tails.
+53,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,Higher values more frequent,B,1,3,Concentration at higher values indicates negative skewness.
+54,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,Lower quartile gap larger,B,3,10,A larger lower quartile gap indicates negative skewness.
+55,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,Pearsonian coefficient -0.2,B,2,5,A Pearsonian coefficient of -0.2 indicates negative skewness.
+56,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,"Mean 14, mode 14",A,2,5,"Mean and mode both equal 14, indicating zero skewness."
+57,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,"Mean 17, mode 17",A,2,5,"Mean and mode both equal 17, indicating zero skewness."
+58,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,Pearsonian coefficient -0.4,B,2,5,A Pearsonian coefficient of -0.4 indicates negative skewness.
+59,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,Pearsonian coefficient 0,A,2,5,A Pearsonian coefficient of 0 indicates zero skewness.
+60,Statistics,3. Skewness,SORT-006,Skewness Indicator,Zero Skewness,Negative Skewness,Equal quartile gaps,A,3,10,Equal gaps around the median indicate zero skewness.
+61,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Alternative uses median,A,3,10,Pearsonian skewness can use mean and median when mode is indeterminate.
+62,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Divides by standard deviation,A,1,3,Pearsonian skewness uses standard deviation as its denominator.
+63,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Mean-mode difference numerator,A,1,3,Pearsonian skewness has mean minus mode in its numerator.
+64,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Uses three quartiles,B,1,3,Bowley skewness is calculated from the three quartiles.
+65,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Three times mean-median difference,A,3,10,Pearsonian skewness uses three times the mean-median difference when mode is indeterminate.
+66,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Uses mean and mode,A,1,3,Pearsonian skewness compares mean and mode relative to standard deviation.
+67,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Upper-lower quartile denominator,B,1,3,Bowley skewness has upper quartile minus lower quartile in its denominator.
+68,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Quartile-gap difference numerator,B,3,10,Bowley skewness compares the upper and lower quartile gaps.
+69,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Uses interquartile range,B,1,3,Bowley skewness uses the difference between upper and lower quartiles.
+70,Statistics,3. Skewness,SORT-007,Skewness Measure,Pearsonian,Bowley,Handles open-ended classes,B,1,3,Bowley skewness can be calculated with open-ended extreme classes.
+71,Statistics,3. Skewness,SORT-008,Skewness Measure,Bowley,Pearsonian,"Mean 12, mode 10, SD 2",B,2,5,Mean minus mode divided by standard deviation gives Pearsonian skewness.
+72,Statistics,3. Skewness,SORT-008,Skewness Measure,Bowley,Pearsonian,"Quartiles 2, 5, 9",A,2,5,Three quartiles determine Bowley skewness.
+73,Statistics,3. Skewness,SORT-008,Skewness Measure,Bowley,Pearsonian,"Mean 9, mode 9, SD 2",B,2,5,"Pearsonian skewness uses mean, mode and standard deviation."
+74,Statistics,3. Skewness,SORT-008,Skewness Measure,Bowley,Pearsonian,"Quartiles 4, 7, 12",A,2,5,Bowley skewness uses the positions of the three quartiles.
+75,Statistics,3. Skewness,SORT-008,Skewness Measure,Bowley,Pearsonian,"Quartiles 3, 6, 8",A,2,5,The quartile gaps determine Bowley skewness.
+76,Statistics,3. Skewness,SORT-008,Skewness Measure,Bowley,Pearsonian,"Quartiles 1, 4, 7",A,2,5,"Bowley skewness is based on lower, middle and upper quartiles."
+77,Statistics,3. Skewness,SORT-008,Skewness Measure,Bowley,Pearsonian,"Mean 8, mode 9, SD 1",B,2,5,"Mean, mode and standard deviation determine Pearsonian skewness."
+78,Statistics,3. Skewness,SORT-008,Skewness Measure,Bowley,Pearsonian,"Mean 10, median 9, SD 3",B,3,10,"Mean, median and standard deviation support the alternative Pearsonian formula."

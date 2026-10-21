@@ -1,0 +1,197 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,5 − x < 3,A,2,5,The less-than sign does not allow equality.
+2,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,x + 2 ≤ 7,B,1,3,The less-than-or-equal sign permits equality.
+3,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,3x > 12,A,1,3,The greater-than sign excludes equality.
+4,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,y − 4 ≤ 0,B,1,3,The boundary is included by the non-strict sign.
+5,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,2x + y > 5,A,2,5,The greater-than sign makes the inequality strict.
+6,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,2x + y ≥ 5,B,2,5,The greater-than-or-equal sign makes this slack.
+7,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,x + 2 < 7,A,1,3,The less-than sign makes this inequality strict.
+8,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,3x ≥ 12,B,1,3,The greater-than-or-equal sign includes equality.
+9,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,y − 4 < 0,A,1,3,The less-than sign excludes the boundary.
+10,Mathematics,8. Linear Inequations,SORT-001,Inequality,Strict inequalities,Slack inequalities,5 − x ≤ 3,B,2,5,The less-than-or-equal sign allows equality.
+11,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,6 − y ≥ 1,A,1,3,The greater-than-or-equal sign allows equality.
+12,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,x + 3y < 9,B,2,5,The less-than sign excludes the boundary.
+13,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,4x ≤ 2x + 6,A,3,10,The less-than-or-equal sign defines a slack inequality.
+14,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,x − y > −2,B,2,5,The greater-than sign excludes equality.
+15,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,x − y ≥ −2,A,2,5,The greater-than-or-equal sign includes the boundary.
+16,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,6 − y > 1,B,1,3,The greater-than sign makes the comparison strict.
+17,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,−2x ≥ 8,A,3,10,The greater-than-or-equal sign remains slack with negative coefficients.
+18,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,4x < 2x + 6,B,3,10,The less-than sign defines a strict inequality.
+19,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,x + 3y ≤ 9,A,2,5,The less-than-or-equal sign includes the boundary.
+20,Mathematics,8. Linear Inequations,SORT-002,Inequality,Slack inequalities,Strict inequalities,−2x > 8,B,3,10,The greater-than sign is strict even with a negative coefficient.
+21,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,5x ≤ 20,A,1,3,The variable has degree one.
+22,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,3x² − 2x < 5,B,2,5,The highest power of the variable is two.
+23,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,4y − x < 8,A,2,5,No variable is squared.
+24,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,2x² + x > 3,B,1,3,The expression contains a squared variable.
+25,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,x − y ≥ 4,A,1,3,Both variables occur to the first power.
+26,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,x² + 3x ≤ 7,B,2,5,The squared term makes this quadratic.
+27,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,3x + 2y > 6,A,2,5,Both variables have degree one.
+28,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,y² − y ≥ 1,B,2,5,The variable has degree two.
+29,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,2x + 3 < 9,A,1,3,The variable has degree one.
+30,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,x² − 4 ≤ 0,B,1,3,The highest variable power is two.
+31,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,7 − 2x ≥ 1,A,2,5,The highest variable power is one.
+32,Mathematics,8. Linear Inequations,SORT-003,Inequality,Linear inequalities,Quadratic inequalities,x² + 2 > 0,B,1,3,The squared variable makes the inequality quadratic.
+33,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,x + 3y ≥ 10,A,2,5,The inequality involves two variables.
+34,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,x + 4 > 0,B,1,3,Only one variable occurs.
+35,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,x + y < 8,A,1,3,The inequality involves x and y.
+36,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,3 − 2x < 1,B,2,5,The inequality involves x alone.
+37,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,2x − y ≥ 3,A,1,3,Two different variables appear.
+38,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,7x ≥ 14,B,1,3,Only x is variable.
+39,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,4x − 2y < 6,A,2,5,Both variables appear to the first power.
+40,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,2y − 3 ≤ 5,B,1,3,Only y is variable.
+41,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,3x + 4y ≤ 12,A,1,3,Both x and y are present.
+42,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,4y + 1 > 9,B,2,5,The inequality involves y alone.
+43,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,y − 5x > 0,A,2,5,The expression has two variables.
+44,Mathematics,8. Linear Inequations,SORT-004,Linear Inequality,Two variables,One variable,x − 8 ≤ −2,B,2,5,Only one variable appears.
+45,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"(1, 5)",A,1,3,Both endpoints are finite.
+46,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"(−∞, −1)",B,2,5,There is no finite lower bound.
+47,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"[2, 8]",A,1,3,Both endpoints bound the interval.
+48,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"(3, ∞)",B,1,3,The interval extends without an upper bound.
+49,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"[0, 4)",A,2,5,The interval has finite lower and upper bounds.
+50,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"[0, ∞)",B,1,3,There is no finite upper bound.
+51,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"(−3, 2]",A,2,5,The interval is limited at both ends.
+52,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"(−∞, ∞)",B,2,5,The interval is unbounded in both directions.
+53,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"[−2, 3]",A,1,3,Both endpoints are finite.
+54,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"(−∞, 2]",B,1,3,The interval extends without a lower bound.
+55,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"(−5, −1)",A,2,5,Both limits are finite.
+56,Mathematics,8. Linear Inequations,SORT-005,Solution Interval,Bounded intervals,Unbounded intervals,"[−4, ∞)",B,2,5,The interval extends indefinitely upward.
+57,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 1,A,1,3,Substituting 1 satisfies x < 4.
+58,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 9,B,2,5,Substituting 9 does not satisfy x < 4.
+59,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = -5,A,2,5,Substituting -5 satisfies x < 4.
+60,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 7,B,2,5,Substituting 7 does not satisfy x < 4.
+61,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 0,A,1,3,Substituting 0 satisfies x < 4.
+62,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 8,B,2,5,Substituting 8 does not satisfy x < 4.
+63,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 2,A,1,3,Substituting 2 satisfies x < 4.
+64,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 4,B,2,5,Substituting 4 does not satisfy x < 4.
+65,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = -2,A,1,3,Substituting -2 satisfies x < 4.
+66,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 5,B,2,5,Substituting 5 does not satisfy x < 4.
+67,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 3,A,1,3,Substituting 3 satisfies x < 4.
+68,Mathematics,8. Linear Inequations,SORT-006,Test x < 4,Solutions,Non-solutions,x = 6,B,2,5,Substituting 6 does not satisfy x < 4.
+69,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = 2,A,1,3,Substituting 2 satisfies x ≥ 2.
+70,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = -3,B,1,3,Substituting -3 does not satisfy x ≥ 2.
+71,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = 5,A,2,5,Substituting 5 satisfies x ≥ 2.
+72,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = -1,B,1,3,Substituting -1 does not satisfy x ≥ 2.
+73,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = 7,A,2,5,Substituting 7 satisfies x ≥ 2.
+74,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = -2,B,1,3,Substituting -2 does not satisfy x ≥ 2.
+75,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = 6,A,2,5,Substituting 6 satisfies x ≥ 2.
+76,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = 0,B,1,3,Substituting 0 does not satisfy x ≥ 2.
+77,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = 4,A,2,5,Substituting 4 satisfies x ≥ 2.
+78,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = 1,B,1,3,Substituting 1 does not satisfy x ≥ 2.
+79,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = 3,A,1,3,Substituting 3 satisfies x ≥ 2.
+80,Mathematics,8. Linear Inequations,SORT-007,Test x ≥ 2,Solutions,Non-solutions,x = -4,B,2,5,Substituting -4 does not satisfy x ≥ 2.
+81,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = -3,A,1,3,Substituting -3 satisfies x ≤ −1.
+82,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = 1,B,1,3,Substituting 1 does not satisfy x ≤ −1.
+83,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = -5,A,2,5,Substituting -5 satisfies x ≤ −1.
+84,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = 5,B,2,5,Substituting 5 does not satisfy x ≤ −1.
+85,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = -1,A,1,3,Substituting -1 satisfies x ≤ −1.
+86,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = 0,B,1,3,Substituting 0 does not satisfy x ≤ −1.
+87,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = -2,A,1,3,Substituting -2 satisfies x ≤ −1.
+88,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = 3,B,1,3,Substituting 3 does not satisfy x ≤ −1.
+89,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = -4,A,2,5,Substituting -4 satisfies x ≤ −1.
+90,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = 2,B,1,3,Substituting 2 does not satisfy x ≤ −1.
+91,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = -6,A,2,5,Substituting -6 satisfies x ≤ −1.
+92,Mathematics,8. Linear Inequations,SORT-008,Test x ≤ −1,Solutions,Non-solutions,x = 4,B,2,5,Substituting 4 does not satisfy x ≤ −1.
+93,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = 1,A,1,3,Substituting 1 satisfies x > 0.
+94,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = -1,B,1,3,Substituting -1 does not satisfy x > 0.
+95,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = 6,A,2,5,Substituting 6 satisfies x > 0.
+96,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = -2,B,1,3,Substituting -2 does not satisfy x > 0.
+97,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = 3,A,1,3,Substituting 3 satisfies x > 0.
+98,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = 0,B,1,3,Substituting 0 does not satisfy x > 0.
+99,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = 4,A,2,5,Substituting 4 satisfies x > 0.
+100,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = -5,B,2,5,Substituting -5 does not satisfy x > 0.
+101,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = 5,A,2,5,Substituting 5 satisfies x > 0.
+102,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = -3,B,1,3,Substituting -3 does not satisfy x > 0.
+103,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = 2,A,1,3,Substituting 2 satisfies x > 0.
+104,Mathematics,8. Linear Inequations,SORT-009,Test x > 0,Solutions,Non-solutions,x = -4,B,2,5,Substituting -4 does not satisfy x > 0.
+105,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(4, -2)",A,2,5,"The point satisfies x > 2, so it lies in the solution region."
+106,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(1, 1)",B,2,5,"The point fails x > 2, so it is outside the solution region."
+107,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(4, -1)",A,2,5,"The point satisfies x > 2, so it lies in the solution region."
+108,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(-3, 3)",B,2,5,"The point fails x > 2, so it is outside the solution region."
+109,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(3, -2)",A,2,5,"The point satisfies x > 2, so it lies in the solution region."
+110,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(0, -2)",B,2,5,"The point fails x > 2, so it is outside the solution region."
+111,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(3, 1)",A,2,5,"The point satisfies x > 2, so it lies in the solution region."
+112,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(-3, 0)",B,2,5,"The point fails x > 2, so it is outside the solution region."
+113,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(4, 0)",A,2,5,"The point satisfies x > 2, so it lies in the solution region."
+114,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(0, 3)",B,2,5,"The point fails x > 2, so it is outside the solution region."
+115,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(4, 4)",A,2,5,"The point satisfies x > 2, so it lies in the solution region."
+116,Mathematics,8. Linear Inequations,SORT-010,Point for x > 2,Solution region,Outside region,"(0, 1)",B,2,5,"The point fails x > 2, so it is outside the solution region."
+117,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(-2, 1)",A,2,5,"The point satisfies y < 3, so it lies in the solution region."
+118,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(-3, 4)",B,2,5,"The point fails y < 3, so it is outside the solution region."
+119,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(3, -1)",A,2,5,"The point satisfies y < 3, so it lies in the solution region."
+120,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(0, 4)",B,2,5,"The point fails y < 3, so it is outside the solution region."
+121,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(2, -2)",A,2,5,"The point satisfies y < 3, so it lies in the solution region."
+122,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(-1, 4)",B,2,5,"The point fails y < 3, so it is outside the solution region."
+123,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(3, 1)",A,2,5,"The point satisfies y < 3, so it lies in the solution region."
+124,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(3, 4)",B,2,5,"The point fails y < 3, so it is outside the solution region."
+125,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(-3, 1)",A,2,5,"The point satisfies y < 3, so it lies in the solution region."
+126,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(1, 4)",B,2,5,"The point fails y < 3, so it is outside the solution region."
+127,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(2, -3)",A,2,5,"The point satisfies y < 3, so it lies in the solution region."
+128,Mathematics,8. Linear Inequations,SORT-011,Point for y < 3,Solution region,Outside region,"(4, 4)",B,2,5,"The point fails y < 3, so it is outside the solution region."
+129,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(-2, 1)",A,2,5,"The point satisfies x ≤ 1, so it lies in the solution region."
+130,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(3, 1)",B,2,5,"The point fails x ≤ 1, so it is outside the solution region."
+131,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(-1, 4)",A,2,5,"The point satisfies x ≤ 1, so it lies in the solution region."
+132,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(3, 3)",B,2,5,"The point fails x ≤ 1, so it is outside the solution region."
+133,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(0, -2)",A,2,5,"The point satisfies x ≤ 1, so it lies in the solution region."
+134,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(4, 3)",B,2,5,"The point fails x ≤ 1, so it is outside the solution region."
+135,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(-3, -3)",A,2,5,"The point satisfies x ≤ 1, so it lies in the solution region."
+136,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(4, 1)",B,2,5,"The point fails x ≤ 1, so it is outside the solution region."
+137,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(-2, 0)",A,2,5,"The point satisfies x ≤ 1, so it lies in the solution region."
+138,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(2, -2)",B,2,5,"The point fails x ≤ 1, so it is outside the solution region."
+139,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(-2, -1)",A,2,5,"The point satisfies x ≤ 1, so it lies in the solution region."
+140,Mathematics,8. Linear Inequations,SORT-012,Point for x ≤ 1,Solution region,Outside region,"(4, -3)",B,2,5,"The point fails x ≤ 1, so it is outside the solution region."
+141,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(1, 0)",A,2,5,"The point satisfies y ≥ −1, so it lies in the solution region."
+142,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(3, -2)",B,2,5,"The point fails y ≥ −1, so it is outside the solution region."
+143,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(3, 3)",A,2,5,"The point satisfies y ≥ −1, so it lies in the solution region."
+144,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(0, -3)",B,2,5,"The point fails y ≥ −1, so it is outside the solution region."
+145,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(0, 1)",A,2,5,"The point satisfies y ≥ −1, so it lies in the solution region."
+146,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(2, -2)",B,2,5,"The point fails y ≥ −1, so it is outside the solution region."
+147,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(3, 4)",A,2,5,"The point satisfies y ≥ −1, so it lies in the solution region."
+148,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(0, -2)",B,2,5,"The point fails y ≥ −1, so it is outside the solution region."
+149,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(4, 4)",A,2,5,"The point satisfies y ≥ −1, so it lies in the solution region."
+150,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(1, -2)",B,2,5,"The point fails y ≥ −1, so it is outside the solution region."
+151,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(0, 3)",A,2,5,"The point satisfies y ≥ −1, so it lies in the solution region."
+152,Mathematics,8. Linear Inequations,SORT-013,Point for y ≥ −1,Solution region,Outside region,"(-2, -2)",B,2,5,"The point fails y ≥ −1, so it is outside the solution region."
+153,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,3 × 4,A,1,3,"Both factors are positive, so the product is positive."
+154,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,8 ÷ (−4),B,2,5,The quotient of opposite signs is negative.
+155,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,6 × 2,A,1,3,Both factors have the same sign.
+156,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,(−9) ÷ 3,B,2,5,The quotient has opposite-signed operands.
+157,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,(−3) × (−4),A,2,5,The factors share a negative sign.
+158,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,(−3) × 4,B,1,3,The factors have opposite signs.
+159,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,8 ÷ 2,A,1,3,The quotient of two positive numbers is positive.
+160,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,5 × (−2),B,1,3,The product of opposite signs is negative.
+161,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,(−8) ÷ (−2),A,2,5,The quotient of two negative numbers is positive.
+162,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,2 × (−5),B,1,3,The factors have opposite signs.
+163,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,(−2) × (−5),A,2,5,"Both factors are negative, so the product is positive."
+164,Mathematics,8. Linear Inequations,SORT-014,Product or Quotient,Positive result,Negative result,(−6) ÷ 2,B,2,5,The numerator and denominator have opposite signs.
+165,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Subtract 5 from both sides,A,1,3,Subtracting equally preserves the direction.
+166,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Divide both sides by −2,B,2,5,Negative division reverses the direction.
+167,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Multiply both sides by 2,A,1,3,Multiplying by a positive number preserves the direction.
+168,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Multiply both sides by −2,B,1,3,Multiplying by a negative number reverses the inequality direction.
+169,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Add 3 to both sides,A,1,3,Adding the same quantity preserves the inequality direction.
+170,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Divide both sides by −3,B,1,3,Dividing by a negative number reverses the direction.
+171,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Divide both sides by 4,A,1,3,Dividing by a positive number preserves the direction.
+172,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Multiply both sides by −1,B,1,3,Multiplication by negative one reverses the direction.
+173,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Divide both sides by 7,A,2,5,Dividing by a positive quantity preserves the direction.
+174,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Divide both sides by −5,B,1,3,Division by a negative number reverses the direction.
+175,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Add x to both sides,A,2,5,Adding the same expression preserves the direction.
+176,Mathematics,8. Linear Inequations,SORT-015,Inequality Operation,Direction unchanged,Direction reversed,Multiply both sides by −4,B,2,5,Negative multiplication reverses the direction.
+177,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Solid boundary line,A,1,3,A thick line indicates included boundary points.
+178,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Boundary points fail,B,2,5,A strict inequality excludes its boundary.
+179,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Endpoint belongs to set,A,1,3,An included endpoint is represented by a filled circle.
+180,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Endpoint omitted from set,B,1,3,An excluded endpoint is represented by a hollow circle.
+181,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Endpoint marked ●,A,2,5,The filled marker means the endpoint is included.
+182,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Dotted boundary line,B,1,3,A dotted line indicates excluded boundary points.
+183,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Filled endpoint marker,A,1,3,A filled circle indicates the endpoint belongs to the solution set.
+184,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Endpoint marked ○,B,2,5,The hollow marker means the endpoint is excluded.
+185,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Boundary points satisfy,A,2,5,A non-strict inequality allows boundary equality.
+186,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Equality forbidden,B,1,3,A strict inequality excludes equality.
+187,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Equality permitted,A,1,3,A non-strict inequality includes its boundary.
+188,Mathematics,8. Linear Inequations,SORT-016,Graphical Feature,Included boundary,Excluded boundary,Hollow endpoint marker,B,1,3,A hollow circle indicates the endpoint is excluded.
+189,Mathematics,8. Linear Inequations,SORT-017,Absolute Value Inequality,Between limits,Outside limits,|x − 2| < 4,A,2,5,The values lie between two finite limits.
+190,Mathematics,8. Linear Inequations,SORT-017,Absolute Value Inequality,Between limits,Outside limits,|x| ≥ 5,B,1,3,The values lie on or beyond the two limits.
+191,Mathematics,8. Linear Inequations,SORT-017,Absolute Value Inequality,Between limits,Outside limits,|x| ≤ 5,A,1,3,"The absolute value does not exceed the bound, giving a central interval."
+192,Mathematics,8. Linear Inequations,SORT-017,Absolute Value Inequality,Between limits,Outside limits,|x − 2| > 4,B,2,5,The solutions lie outside two finite limits.
+193,Mathematics,8. Linear Inequations,SORT-017,Absolute Value Inequality,Between limits,Outside limits,|2x| ≤ 8,A,2,5,The solutions lie in a bounded central interval.
+194,Mathematics,8. Linear Inequations,SORT-017,Absolute Value Inequality,Between limits,Outside limits,|2x| ≥ 8,B,2,5,The solutions extend outward in both directions.
+195,Mathematics,8. Linear Inequations,SORT-017,Absolute Value Inequality,Between limits,Outside limits,|x| < 3,A,1,3,"The absolute value is less than a positive bound, giving values between two limits."
+196,Mathematics,8. Linear Inequations,SORT-017,Absolute Value Inequality,Between limits,Outside limits,|x| > 3,B,1,3,"The absolute value exceeds the bound, giving two outer intervals."

@@ -1,0 +1,65 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,7. Limits,SORT-001,Approach Description,Left-hand Limit,Right-hand Limit,Values less than target,A,1,3,The left-hand approach takes values below the target.
+2,Mathematics,7. Limits,SORT-001,Approach Description,Left-hand Limit,Right-hand Limit,Approach from smaller values,A,1,3,Smaller nearby inputs determine the left-hand limit.
+3,Mathematics,7. Limits,SORT-001,Approach Description,Left-hand Limit,Right-hand Limit,Approach from larger values,B,1,3,Larger nearby inputs determine the right-hand limit.
+4,Mathematics,7. Limits,SORT-001,Approach Description,Left-hand Limit,Right-hand Limit,Increasing toward target,A,2,5,Inputs increasing toward the target from below describe a left-hand approach.
+5,Mathematics,7. Limits,SORT-001,Approach Description,Left-hand Limit,Right-hand Limit,Approach from below,A,1,3,A left-hand limit uses input values smaller than the approached value.
+6,Mathematics,7. Limits,SORT-001,Approach Description,Left-hand Limit,Right-hand Limit,Decreasing toward target,B,2,5,Inputs decreasing toward the target from above describe a right-hand approach.
+7,Mathematics,7. Limits,SORT-001,Approach Description,Left-hand Limit,Right-hand Limit,Approach from above,B,1,3,A right-hand limit uses input values greater than the approached value.
+8,Mathematics,7. Limits,SORT-001,Approach Description,Left-hand Limit,Right-hand Limit,Values greater than target,B,1,3,The right-hand approach takes values above the target.
+9,Mathematics,7. Limits,SORT-002,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 5, right 5",B,1,3,Both one-sided limits agree at 5.
+10,Mathematics,7. Limits,SORT-002,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 4, right −4",A,2,5,The two one-sided limits are unequal.
+11,Mathematics,7. Limits,SORT-002,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left −2, right 2",A,2,5,Opposite one-sided values do not agree.
+12,Mathematics,7. Limits,SORT-002,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left −1, right −1",B,2,5,The common one-sided limit is −1.
+13,Mathematics,7. Limits,SORT-002,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 0, right 0",B,1,3,Matching one-sided limits establish a limit of zero.
+14,Mathematics,7. Limits,SORT-002,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 0, right 1",A,1,3,Different left-hand and right-hand limits prevent existence.
+15,Mathematics,7. Limits,SORT-002,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 2, right 3",A,1,3,Unequal one-sided limits mean the two-sided limit does not exist.
+16,Mathematics,7. Limits,SORT-002,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 2, right 2",B,1,3,Equal one-sided limits give a limit of 2.
+17,Mathematics,7. Limits,SORT-003,Limit Evaluation Case,Direct Method,Factorization Method,lim x→2 (x²+1),A,2,5,The polynomial has a defined value at the approached point.
+18,Mathematics,7. Limits,SORT-003,Limit Evaluation Case,Direct Method,Factorization Method,lim x→4 (x²−16)/(x−4),B,2,5,The common linear factor cancels for nearby inputs.
+19,Mathematics,7. Limits,SORT-003,Limit Evaluation Case,Direct Method,Factorization Method,lim x→3 x²,A,1,3,A polynomial limit is obtained by substitution.
+20,Mathematics,7. Limits,SORT-003,Limit Evaluation Case,Direct Method,Factorization Method,lim x→1 (2x+1),A,1,3,Substitution directly evaluates this linear expression.
+21,Mathematics,7. Limits,SORT-003,Limit Evaluation Case,Direct Method,Factorization Method,lim x→2 (x²−4)/(x−2),B,2,5,A common factor cancels before substitution.
+22,Mathematics,7. Limits,SORT-003,Limit Evaluation Case,Direct Method,Factorization Method,lim x→3 (x²−9)/(x−3),B,2,5,Factoring the difference of squares removes the common factor.
+23,Mathematics,7. Limits,SORT-003,Limit Evaluation Case,Direct Method,Factorization Method,lim x→1 (x²−1)/(x−1),B,2,5,Factorization removes the zero denominator factor.
+24,Mathematics,7. Limits,SORT-003,Limit Evaluation Case,Direct Method,Factorization Method,lim x→2 (x+3),A,1,3,Direct substitution evaluates this polynomial limit.
+25,Mathematics,7. Limits,SORT-004,Limit Evaluation Case,Rationalization Method,Factorization Method,lim x→1 (x³−1)/(x−1),B,2,5,A polynomial factor cancels the vanishing denominator.
+26,Mathematics,7. Limits,SORT-004,Limit Evaluation Case,Rationalization Method,Factorization Method,lim x→3 (x²−9)/(x−3),B,1,3,The numerator factors to cancel x−3.
+27,Mathematics,7. Limits,SORT-004,Limit Evaluation Case,Rationalization Method,Factorization Method,lim x→0 (√(1+2x)−1)/x,A,3,10,The radical difference is simplified using its conjugate.
+28,Mathematics,7. Limits,SORT-004,Limit Evaluation Case,Rationalization Method,Factorization Method,lim x→0 (√(9+x)−3)/x,A,2,5,The conjugate removes the square-root expression.
+29,Mathematics,7. Limits,SORT-004,Limit Evaluation Case,Rationalization Method,Factorization Method,lim x→0 (√(1+x)−1)/x,A,2,5,Multiplication by the conjugate removes the radical difference.
+30,Mathematics,7. Limits,SORT-004,Limit Evaluation Case,Rationalization Method,Factorization Method,lim x→0 (√(4+x)−2)/x,A,2,5,Rationalizing the square-root difference simplifies the quotient.
+31,Mathematics,7. Limits,SORT-004,Limit Evaluation Case,Rationalization Method,Factorization Method,lim x→2 (x³−8)/(x−2),B,2,5,The difference of cubes contains the common factor x−2.
+32,Mathematics,7. Limits,SORT-004,Limit Evaluation Case,Rationalization Method,Factorization Method,lim x→2 (x²−4)/(x−2),B,1,3,The difference of squares permits cancellation.
+33,Mathematics,7. Limits,SORT-005,Limit Evaluation Case,Direct Method,Rationalization Method,lim x→2 (x+5),A,1,3,The linear expression is evaluated by direct substitution.
+34,Mathematics,7. Limits,SORT-005,Limit Evaluation Case,Direct Method,Rationalization Method,lim x→3 (2x−1),A,1,3,A linear function has a directly substitutable limit.
+35,Mathematics,7. Limits,SORT-005,Limit Evaluation Case,Direct Method,Rationalization Method,lim x→2 (x³+1),A,2,5,A polynomial limit equals its value at the target.
+36,Mathematics,7. Limits,SORT-005,Limit Evaluation Case,Direct Method,Rationalization Method,lim x→0 (√(1+2x)−1)/x,B,3,10,Conjugate multiplication simplifies the radical quotient.
+37,Mathematics,7. Limits,SORT-005,Limit Evaluation Case,Direct Method,Rationalization Method,lim x→1 (x²+2),A,1,3,Substitution works for a polynomial expression.
+38,Mathematics,7. Limits,SORT-005,Limit Evaluation Case,Direct Method,Rationalization Method,lim x→0 (√(1+x)−1)/x,B,2,5,The conjugate eliminates the square-root difference.
+39,Mathematics,7. Limits,SORT-005,Limit Evaluation Case,Direct Method,Rationalization Method,lim x→0 (√(4+x)−2)/x,B,2,5,The radical difference requires rationalization.
+40,Mathematics,7. Limits,SORT-005,Limit Evaluation Case,Direct Method,Rationalization Method,lim x→0 (√(9+x)−3)/x,B,2,5,Rationalization cancels the vanishing factor.
+41,Mathematics,7. Limits,SORT-006,Function Description,Logarithmic Functions,Exponential Functions,Logarithm of sum,A,2,5,A logarithm of an input expression remains logarithmic.
+42,Mathematics,7. Limits,SORT-006,Function Description,Logarithmic Functions,Exponential Functions,Variable in exponent,B,1,3,An exponential function places the variable in an exponent.
+43,Mathematics,7. Limits,SORT-006,Function Description,Logarithmic Functions,Exponential Functions,Log of nearby values,A,2,5,A logarithm applied to varying inputs is logarithmic.
+44,Mathematics,7. Limits,SORT-006,Function Description,Logarithmic Functions,Exponential Functions,Natural log expression,A,1,3,A natural logarithm is a logarithmic function.
+45,Mathematics,7. Limits,SORT-006,Function Description,Logarithmic Functions,Exponential Functions,Base raised to input,B,2,5,An exponential function raises a fixed base to a variable input.
+46,Mathematics,7. Limits,SORT-006,Function Description,Logarithmic Functions,Exponential Functions,Power with variable exponent,B,1,3,The variable occurs as an exponent in an exponential function.
+47,Mathematics,7. Limits,SORT-006,Function Description,Logarithmic Functions,Exponential Functions,Log of an input,A,1,3,A logarithmic function applies a logarithm to its input.
+48,Mathematics,7. Limits,SORT-006,Function Description,Logarithmic Functions,Exponential Functions,Growth by variable powers,B,2,5,Variable powers characterize exponential functions.
+49,Mathematics,7. Limits,SORT-007,Limit Evaluation Case,Direct Method,Factorization Method,lim x→3 (x²−1),A,1,3,Direct substitution works for polynomials.
+50,Mathematics,7. Limits,SORT-007,Limit Evaluation Case,Direct Method,Factorization Method,lim x→4 (x−2),A,1,3,Direct substitution evaluates a linear function.
+51,Mathematics,7. Limits,SORT-007,Limit Evaluation Case,Direct Method,Factorization Method,lim x→2 (x³−8)/(x−2),B,2,5,Factor the difference of cubes to cancel x−2.
+52,Mathematics,7. Limits,SORT-007,Limit Evaluation Case,Direct Method,Factorization Method,lim x→4 (x²−16)/(x−4),B,2,5,Factor the numerator and cancel x−4.
+53,Mathematics,7. Limits,SORT-007,Limit Evaluation Case,Direct Method,Factorization Method,lim x→5 (x²−25)/(x−5),B,2,5,Factor the difference of squares and cancel x−5.
+54,Mathematics,7. Limits,SORT-007,Limit Evaluation Case,Direct Method,Factorization Method,lim x→1 (x³−1)/(x−1),B,2,5,Factor the difference of cubes to cancel x−1.
+55,Mathematics,7. Limits,SORT-007,Limit Evaluation Case,Direct Method,Factorization Method,lim x→2 (3x+1),A,1,3,The expression is a polynomial with a direct limit.
+56,Mathematics,7. Limits,SORT-007,Limit Evaluation Case,Direct Method,Factorization Method,lim x→1 (x³+2),A,2,5,The polynomial can be evaluated at the approached point.
+57,Mathematics,7. Limits,SORT-008,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left −3, right −3",B,2,5,Matching negative one-sided limits establish existence.
+58,Mathematics,7. Limits,SORT-008,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 1, right 1",B,1,3,The two approaches agree at 1.
+59,Mathematics,7. Limits,SORT-008,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 6, right 6",B,1,3,The common one-sided value is 6.
+60,Mathematics,7. Limits,SORT-008,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 7, right 8",A,1,3,Unequal one-sided limits prevent a two-sided limit.
+61,Mathematics,7. Limits,SORT-008,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 6, right 5",A,1,3,The left and right limits do not match.
+62,Mathematics,7. Limits,SORT-008,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left −3, right 3",A,2,5,The one-sided limits differ in sign and value.
+63,Mathematics,7. Limits,SORT-008,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 1, right 0",A,1,3,Different one-sided values mean no two-sided limit.
+64,Mathematics,7. Limits,SORT-008,One-sided Limit Case,Limit Does Not Exist,Limit Exists,"Left 7, right 7",B,1,3,Both one-sided limits equal 7.

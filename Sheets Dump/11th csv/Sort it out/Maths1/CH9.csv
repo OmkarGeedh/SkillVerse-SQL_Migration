@@ -1,0 +1,93 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = 3x,B,1,3,The derivative is 3.
+2,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = x,B,1,3,The derivative of x is 1.
+3,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = x²,B,1,3,"The power rule gives derivative 2x, not identically zero."
+4,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = 1,A,1,3,A constant has derivative zero.
+5,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = 0,A,2,5,A constant has derivative zero.
+6,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = eˣ,B,2,5,The derivative of eˣ is eˣ.
+7,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = 2 − 2,A,2,5,"The expression simplifies to a constant, whose derivative is zero."
+8,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = −3,A,1,3,A constant has derivative zero.
+9,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = log x,B,2,5,The derivative of log x is 1/x.
+10,Mathematics,9. Differentiation,SORT-001,Function,Zero Derivative,Nonzero Derivative,f(x) = 8,A,1,3,A constant has derivative zero.
+11,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = x³,B,2,5,"At x = 1, the derivative 3x² is positive."
+12,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = 3x,B,1,3,The derivative is positive 3.
+13,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = −x²,A,1,3,"At x = 1, the derivative −2x is negative."
+14,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = x²,B,1,3,"At x = 1, the derivative 2x is positive."
+15,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = −3x,A,1,3,The derivative is negative 3.
+16,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = eˣ,B,2,5,The derivative eˣ is positive at x = 1.
+17,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = −x,A,1,3,The derivative is negative 1.
+18,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = −x³,A,2,5,"At x = 1, the derivative −3x² is negative."
+19,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = 1/x,A,2,5,"At x = 1, the derivative −1/x² is negative."
+20,Mathematics,9. Differentiation,SORT-002,Derivative at x = 1,Negative Derivative,Positive Derivative,f(x) = log x,B,2,5,"At x = 1, the derivative 1/x is positive."
+21,Mathematics,9. Differentiation,SORT-003,Differentiation Form,Sum Rule,Product Rule,x + 1/x,A,2,5,Added functions use the sum rule.
+22,Mathematics,9. Differentiation,SORT-003,Differentiation Form,Sum Rule,Product Rule,x²eˣ,B,2,5,A power multiplied by an exponential uses the product rule.
+23,Mathematics,9. Differentiation,SORT-003,Differentiation Form,Sum Rule,Product Rule,eˣ log x,B,2,5,Multiplication of two functions uses the product rule.
+24,Mathematics,9. Differentiation,SORT-003,Differentiation Form,Sum Rule,Product Rule,x³ + log x,A,2,5,Addition of functions uses the sum rule.
+25,Mathematics,9. Differentiation,SORT-003,Differentiation Form,Sum Rule,Product Rule,x² · x³,B,1,3,A product of functions uses the product rule.
+26,Mathematics,9. Differentiation,SORT-003,Differentiation Form,Sum Rule,Product Rule,x² + x,A,1,3,Separate added functions are differentiated termwise.
+27,Mathematics,9. Differentiation,SORT-003,Differentiation Form,Sum Rule,Product Rule,eˣ + x,A,1,3,The derivative of a sum is the sum of derivatives.
+28,Mathematics,9. Differentiation,SORT-003,Differentiation Form,Sum Rule,Product Rule,x log x,B,1,3,Two multiplied functions use the product rule.
+29,Mathematics,9. Differentiation,SORT-004,Differentiation Form,Quotient Rule,Product Rule,eˣ / x,A,2,5,A variable denominator calls for the quotient rule.
+30,Mathematics,9. Differentiation,SORT-004,Differentiation Form,Quotient Rule,Product Rule,eˣ · log x,B,2,5,The two factors are differentiated using the product rule.
+31,Mathematics,9. Differentiation,SORT-004,Differentiation Form,Quotient Rule,Product Rule,x³ · 3ˣ,B,2,5,Two variable factors use the product rule.
+32,Mathematics,9. Differentiation,SORT-004,Differentiation Form,Quotient Rule,Product Rule,x / log x,A,1,3,Division of functions uses the quotient rule.
+33,Mathematics,9. Differentiation,SORT-004,Differentiation Form,Quotient Rule,Product Rule,x² · eˣ,B,1,3,The factors require the product rule.
+34,Mathematics,9. Differentiation,SORT-004,Differentiation Form,Quotient Rule,Product Rule,x / (x + 3),A,2,5,The ratio can be differentiated by the quotient rule.
+35,Mathematics,9. Differentiation,SORT-004,Differentiation Form,Quotient Rule,Product Rule,x · log x,B,1,3,Multiplication of functions uses the product rule.
+36,Mathematics,9. Differentiation,SORT-004,Differentiation Form,Quotient Rule,Product Rule,log x / x,A,1,3,A ratio of functions uses the quotient rule.
+37,Mathematics,9. Differentiation,SORT-005,Function Family,Algebraic Functions,Exponential Functions,4ˣ,B,1,3,The variable is in the exponent.
+38,Mathematics,9. Differentiation,SORT-005,Function Family,Algebraic Functions,Exponential Functions,√x,A,1,3,A square-root function is algebraic.
+39,Mathematics,9. Differentiation,SORT-005,Function Family,Algebraic Functions,Exponential Functions,1/x²,A,2,5,A reciprocal power is algebraic.
+40,Mathematics,9. Differentiation,SORT-005,Function Family,Algebraic Functions,Exponential Functions,3ˣ,B,1,3,A constant base raised to x is exponential.
+41,Mathematics,9. Differentiation,SORT-005,Function Family,Algebraic Functions,Exponential Functions,x³ + x,A,1,3,A polynomial is algebraic.
+42,Mathematics,9. Differentiation,SORT-005,Function Family,Algebraic Functions,Exponential Functions,eˣ,B,1,3,The variable appears as an exponent.
+43,Mathematics,9. Differentiation,SORT-005,Function Family,Algebraic Functions,Exponential Functions,7ˣ,B,2,5,A constant base with variable exponent is exponential.
+44,Mathematics,9. Differentiation,SORT-005,Function Family,Algebraic Functions,Exponential Functions,x⁴,A,1,3,A power of x is an algebraic function.
+45,Mathematics,9. Differentiation,SORT-006,Function Family,Logarithmic Functions,Algebraic Functions,x⁵,B,1,3,A power function is algebraic.
+46,Mathematics,9. Differentiation,SORT-006,Function Family,Logarithmic Functions,Algebraic Functions,log x,A,1,3,The natural logarithm is a logarithmic function.
+47,Mathematics,9. Differentiation,SORT-006,Function Family,Logarithmic Functions,Algebraic Functions,x² + 2,B,2,5,A polynomial expression is algebraic.
+48,Mathematics,9. Differentiation,SORT-006,Function Family,Logarithmic Functions,Algebraic Functions,log(2x),A,2,5,The logarithm of an expression is logarithmic.
+49,Mathematics,9. Differentiation,SORT-006,Function Family,Logarithmic Functions,Algebraic Functions,log(x²),A,2,5,The logarithm of a power is logarithmic.
+50,Mathematics,9. Differentiation,SORT-006,Function Family,Logarithmic Functions,Algebraic Functions,1/x,B,1,3,A reciprocal function is algebraic.
+51,Mathematics,9. Differentiation,SORT-006,Function Family,Logarithmic Functions,Algebraic Functions,√x,B,1,3,The square root is an algebraic function.
+52,Mathematics,9. Differentiation,SORT-006,Function Family,Logarithmic Functions,Algebraic Functions,log(x + 1),A,2,5,A logarithm of a variable expression is logarithmic.
+53,Mathematics,9. Differentiation,SORT-007,Function Family,Exponential Functions,Logarithmic Functions,eˣ,A,1,3,The variable is an exponent.
+54,Mathematics,9. Differentiation,SORT-007,Function Family,Exponential Functions,Logarithmic Functions,log(x + 2),B,2,5,A logarithm is applied to the variable expression.
+55,Mathematics,9. Differentiation,SORT-007,Function Family,Exponential Functions,Logarithmic Functions,5ˣ,A,1,3,The variable occurs in the exponent.
+56,Mathematics,9. Differentiation,SORT-007,Function Family,Exponential Functions,Logarithmic Functions,log x,B,1,3,This is a logarithmic function.
+57,Mathematics,9. Differentiation,SORT-007,Function Family,Exponential Functions,Logarithmic Functions,log(3x),B,2,5,The expression applies a logarithm to 3x.
+58,Mathematics,9. Differentiation,SORT-007,Function Family,Exponential Functions,Logarithmic Functions,2ˣ,A,1,3,A fixed base raised to x is exponential.
+59,Mathematics,9. Differentiation,SORT-007,Function Family,Exponential Functions,Logarithmic Functions,log(x² + 1),B,3,10,The outer function is logarithmic.
+60,Mathematics,9. Differentiation,SORT-007,Function Family,Exponential Functions,Logarithmic Functions,3ˣ + 2ˣ,A,2,5,A sum of exponential terms remains an exponential expression.
+61,Mathematics,9. Differentiation,SORT-008,Economic Measure,Marginal Cost,Average Cost,"C = 12, x = 3",B,2,5,Average cost is 12 ÷ 3 = 4.
+62,Mathematics,9. Differentiation,SORT-008,Economic Measure,Marginal Cost,Average Cost,C(x) = 3x²,A,2,5,"Marginal cost is found by differentiating C(x), giving 6x."
+63,Mathematics,9. Differentiation,SORT-008,Economic Measure,Marginal Cost,Average Cost,"C = 20, x = 5",B,2,5,Average cost is 20 ÷ 5 = 4.
+64,Mathematics,9. Differentiation,SORT-008,Economic Measure,Marginal Cost,Average Cost,Cost change per unit,A,1,3,Marginal cost is the rate of change of cost with output.
+65,Mathematics,9. Differentiation,SORT-008,Economic Measure,Marginal Cost,Average Cost,C(x) = 5x,A,2,5,"Marginal cost is the derivative, which equals 5."
+66,Mathematics,9. Differentiation,SORT-008,Economic Measure,Marginal Cost,Average Cost,Total cost ÷ output,B,1,3,Average cost is total cost divided by quantity produced.
+67,Mathematics,9. Differentiation,SORT-008,Economic Measure,Marginal Cost,Average Cost,Cost per unit,B,1,3,Average cost divides total cost by output.
+68,Mathematics,9. Differentiation,SORT-008,Economic Measure,Marginal Cost,Average Cost,Derivative of total cost,A,1,3,Marginal cost is the derivative of the cost function.
+69,Mathematics,9. Differentiation,SORT-009,Economic Measure,Average Revenue,Marginal Revenue,Revenue per unit,A,1,3,Average revenue is total revenue divided by quantity demanded.
+70,Mathematics,9. Differentiation,SORT-009,Economic Measure,Average Revenue,Marginal Revenue,"R = 18, D = 3",A,2,5,Average revenue is 18 ÷ 3 = 6.
+71,Mathematics,9. Differentiation,SORT-009,Economic Measure,Average Revenue,Marginal Revenue,R(x) = 7x,B,2,5,Marginal revenue is the derivative 7.
+72,Mathematics,9. Differentiation,SORT-009,Economic Measure,Average Revenue,Marginal Revenue,Derivative of revenue,B,1,3,Marginal revenue is the derivative of the revenue function.
+73,Mathematics,9. Differentiation,SORT-009,Economic Measure,Average Revenue,Marginal Revenue,R(x) = 2x²,B,2,5,Marginal revenue is 4x after differentiation.
+74,Mathematics,9. Differentiation,SORT-009,Economic Measure,Average Revenue,Marginal Revenue,"R = 16, D = 4",A,2,5,Average revenue is 16 ÷ 4 = 4.
+75,Mathematics,9. Differentiation,SORT-009,Economic Measure,Average Revenue,Marginal Revenue,Revenue change per unit,B,1,3,Marginal revenue measures change in revenue per unit.
+76,Mathematics,9. Differentiation,SORT-009,Economic Measure,Average Revenue,Marginal Revenue,Total revenue ÷ demand,A,1,3,Average revenue equals revenue divided by demand.
+77,Mathematics,9. Differentiation,SORT-010,Economic Measure,Marginal Supply,Marginal Demand,S(p) = 4p,A,2,5,Its price derivative measures marginal supply.
+78,Mathematics,9. Differentiation,SORT-010,Economic Measure,Marginal Supply,Marginal Demand,D(p) = 3p,B,2,5,Its price derivative measures marginal demand.
+79,Mathematics,9. Differentiation,SORT-010,Economic Measure,Marginal Supply,Marginal Demand,Derivative of demand,B,1,3,Marginal demand is the rate of change of demand with price.
+80,Mathematics,9. Differentiation,SORT-010,Economic Measure,Marginal Supply,Marginal Demand,Demand change with price,B,1,3,Marginal demand differentiates demand with respect to price.
+81,Mathematics,9. Differentiation,SORT-010,Economic Measure,Marginal Supply,Marginal Demand,D(p) = p²,B,2,5,Differentiating demand with respect to price gives marginal demand.
+82,Mathematics,9. Differentiation,SORT-010,Economic Measure,Marginal Supply,Marginal Demand,Derivative of supply,A,1,3,Marginal supply is the rate of change of supply with price.
+83,Mathematics,9. Differentiation,SORT-010,Economic Measure,Marginal Supply,Marginal Demand,Supply change with price,A,1,3,Marginal supply differentiates supply with respect to price.
+84,Mathematics,9. Differentiation,SORT-010,Economic Measure,Marginal Supply,Marginal Demand,S(p) = p²,A,2,5,Differentiating supply with respect to price gives marginal supply.
+85,Mathematics,9. Differentiation,SORT-011,Economic Measure,Total Revenue,Total Profit,"Revenue 12, cost 7",B,2,5,Total profit is 12 − 7 = 5.
+86,Mathematics,9. Differentiation,SORT-011,Economic Measure,Total Revenue,Total Profit,Revenue minus cost,B,1,3,Total profit equals revenue less cost.
+87,Mathematics,9. Differentiation,SORT-011,Economic Measure,Total Revenue,Total Profit,"Price 5, demand 2",A,2,5,Total revenue is 5 × 2 = 10.
+88,Mathematics,9. Differentiation,SORT-011,Economic Measure,Total Revenue,Total Profit,Sales receipts,A,1,3,Revenue is received from selling goods.
+89,Mathematics,9. Differentiation,SORT-011,Economic Measure,Total Revenue,Total Profit,"Price 3, demand 4",A,2,5,Total revenue is 3 × 4 = 12.
+90,Mathematics,9. Differentiation,SORT-011,Economic Measure,Total Revenue,Total Profit,Receipts less expenses,B,1,3,Profit is the difference between revenue and cost.
+91,Mathematics,9. Differentiation,SORT-011,Economic Measure,Total Revenue,Total Profit,Price × demand,A,1,3,Total revenue is price multiplied by quantity demanded.
+92,Mathematics,9. Differentiation,SORT-011,Economic Measure,Total Revenue,Total Profit,"Revenue 9, cost 4",B,2,5,Total profit is 9 − 4 = 5.

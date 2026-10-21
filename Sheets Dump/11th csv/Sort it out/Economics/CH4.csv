@@ -1,0 +1,99 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Shrinking landholdings,A,1,3,Smaller landholdings reduce farm productivity.
+2,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Farmer indebtedness,A,1,3,Agricultural indebtedness is a financial problem faced by farmers.
+3,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Quality seed distribution,B,1,3,Supplying quality seeds supports agricultural development.
+4,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Pump electrification,B,1,3,Electrifying agricultural pumps improves farming infrastructure.
+5,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Adverse crop pattern,A,2,5,Adverse cropping patterns are an agricultural problem.
+6,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Agricultural financial assistance,B,1,3,Financial assistance helps meet agricultural requirements.
+7,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Horticultural training centres,B,2,5,Horticultural training centres support agricultural development.
+8,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Agro export zones,B,2,5,Agro export zones facilitate agricultural marketing.
+9,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Poor produce marketing,A,2,5,Lack of marketing facilities hinders agricultural activity.
+10,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Grading and packing,B,2,5,Grading and packing facilities improve produce distribution.
+11,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Inadequate irrigation,A,1,3,Insufficient irrigation is a constraint on farming.
+12,Economics,Chapter 4: The Economy of Maharashtra,SORT-001,Agricultural Condition,Agricultural Problems,Development Measures,Soil degradation,A,2,5,Excessive chemical use causes degradation of agricultural soil.
+13,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Entrepreneur motivation shortage,B,2,5,Lack of motivation among new entrepreneurs hinders industry.
+14,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Single window cell,A,1,3,A single window cell provides clearances to investors.
+15,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Space rent subsidies,A,2,5,Space rent subsidies support small industries at international exhibitions.
+16,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Export performance awards,A,1,3,Export performance awards encourage industrial participation.
+17,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Outdated technology,B,1,3,Lack of updated technology is an industrial problem.
+18,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Industrial cluster programme,A,2,5,"The industrial cluster programme develops small, medium and micro enterprises."
+19,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Weak infrastructure,B,1,3,Lack of infrastructural facilities hampers industry.
+20,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Special Economic Zones,A,1,3,Special Economic Zones are created to boost industrial growth.
+21,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Limited skill opportunities,B,2,5,Insufficient skill development opportunities hinder industry.
+22,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Government procedure delays,B,1,3,Delays in government procedures obstruct industrial development.
+23,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Investment information portal,A,2,5,Consolidated online investment information facilitates industrial investment.
+24,Economics,Chapter 4: The Economy of Maharashtra,SORT-002,Industrial Condition,Development Measures,Industrial Problems,Regional imbalance,B,2,5,Regional imbalance is a problem in industrial development.
+25,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Public health,B,1,3,Public health improves quality of human life.
+26,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Electricity generation,A,1,3,Electricity generation supports production and distribution.
+27,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Metro railway,A,2,5,Metro railways are transport infrastructure.
+28,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Road development,A,1,3,Roads form transport infrastructure for economic activity.
+29,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Sanitation,B,2,5,Sanitation improves human well-being and social infrastructure.
+30,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Literacy programmes,B,1,3,Literacy programmes develop human capabilities.
+31,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Rural electrification,A,1,3,Rural electrification develops energy infrastructure.
+32,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Communication networks,A,1,3,Communication is a component of economic infrastructure.
+33,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Port development,A,2,5,Ports facilitate transport and distribution.
+34,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Education,B,1,3,Education is a key component of social infrastructure.
+35,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Housing,B,1,3,Housing is part of social infrastructure.
+36,Economics,Chapter 4: The Economy of Maharashtra,SORT-003,Infrastructure Component,Economic Infrastructure,Social Infrastructure,Drinking water,B,2,5,Drinking water provision is social infrastructure.
+37,Economics,Chapter 4: The Economy of Maharashtra,SORT-004,Economic Activity,Industrial Sector,Agricultural Sector,Automobile production,A,1,3,Automobile production is a manufacturing activity.
+38,Economics,Chapter 4: The Economy of Maharashtra,SORT-004,Economic Activity,Industrial Sector,Agricultural Sector,Crop cultivation,B,1,3,Cultivation is an agricultural activity.
+39,Economics,Chapter 4: The Economy of Maharashtra,SORT-004,Economic Activity,Industrial Sector,Agricultural Sector,Farm produce,B,1,3,Farm produce originates from agricultural activity.
+40,Economics,Chapter 4: The Economy of Maharashtra,SORT-004,Economic Activity,Industrial Sector,Agricultural Sector,Farming,B,1,3,Farming belongs to agriculture.
+41,Economics,Chapter 4: The Economy of Maharashtra,SORT-004,Economic Activity,Industrial Sector,Agricultural Sector,Chemical manufacturing,A,2,5,Chemical production is an industrial activity.
+42,Economics,Chapter 4: The Economy of Maharashtra,SORT-004,Economic Activity,Industrial Sector,Agricultural Sector,Horticulture,B,2,5,Horticulture is supported as an agricultural activity.
+43,Economics,Chapter 4: The Economy of Maharashtra,SORT-004,Economic Activity,Industrial Sector,Agricultural Sector,Pharmaceutical manufacturing,A,2,5,Pharmaceutical production belongs to industry.
+44,Economics,Chapter 4: The Economy of Maharashtra,SORT-004,Economic Activity,Industrial Sector,Agricultural Sector,Textile production,A,1,3,Textile production is an industrial activity.
+45,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Chemical production,A,1,3,Chemical production belongs to industry.
+46,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Pharmaceutical production,A,2,5,Pharmaceutical production is industrial activity.
+47,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Cloud computing,B,2,5,Cloud computing is identified as a service-sector development area.
+48,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Textile manufacturing,A,1,3,Textile manufacturing is industrial production.
+49,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Insurance,B,1,3,Insurance is a service-sector activity.
+50,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Retail banking,B,1,3,Retail banking provides financial services.
+51,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Automobile production,A,1,3,Automobile production is part of industry.
+52,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Tourism,B,1,3,Tourism is included in the service sector.
+53,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Social services,B,2,5,Social services are included in the service sector.
+54,Economics,Chapter 4: The Economy of Maharashtra,SORT-005,Economic Activity,Industrial Sector,Service Sector,Food processing,A,2,5,Food processing is a manufacturing activity.
+55,Economics,Chapter 4: The Economy of Maharashtra,SORT-006,Economic Activity,Service Sector,Agricultural Sector,Farm produce,B,1,3,Farm produce comes from agriculture.
+56,Economics,Chapter 4: The Economy of Maharashtra,SORT-006,Economic Activity,Service Sector,Agricultural Sector,Insurance,A,1,3,Insurance is a service-sector activity.
+57,Economics,Chapter 4: The Economy of Maharashtra,SORT-006,Economic Activity,Service Sector,Agricultural Sector,Tourism,A,1,3,Tourism provides services to visitors.
+58,Economics,Chapter 4: The Economy of Maharashtra,SORT-006,Economic Activity,Service Sector,Agricultural Sector,Farming,B,1,3,Farming is the core agricultural activity.
+59,Economics,Chapter 4: The Economy of Maharashtra,SORT-006,Economic Activity,Service Sector,Agricultural Sector,Education services,A,2,5,Education is included among service-sector activities.
+60,Economics,Chapter 4: The Economy of Maharashtra,SORT-006,Economic Activity,Service Sector,Agricultural Sector,Retail banking,A,1,3,Retail banking is a service-sector activity.
+61,Economics,Chapter 4: The Economy of Maharashtra,SORT-006,Economic Activity,Service Sector,Agricultural Sector,Crop cultivation,B,1,3,Crop cultivation is agricultural activity.
+62,Economics,Chapter 4: The Economy of Maharashtra,SORT-006,Economic Activity,Service Sector,Agricultural Sector,Horticulture,B,2,5,Horticulture belongs to agricultural activity.
+63,Economics,Chapter 4: The Economy of Maharashtra,SORT-007,Health Facility,Primary Tier,Secondary Tier,Community Health Centres,A,2,5,Community Health Centres are in the primary health tier.
+64,Economics,Chapter 4: The Economy of Maharashtra,SORT-007,Health Facility,Primary Tier,Secondary Tier,Primary Health Centres,A,1,3,Primary Health Centres belong to the primary health tier.
+65,Economics,Chapter 4: The Economy of Maharashtra,SORT-007,Health Facility,Primary Tier,Secondary Tier,District hospitals,B,1,3,District hospitals are in the secondary health tier.
+66,Economics,Chapter 4: The Economy of Maharashtra,SORT-007,Health Facility,Primary Tier,Secondary Tier,Sub-district hospitals,B,1,3,Sub-district hospitals belong to the secondary health tier.
+67,Economics,Chapter 4: The Economy of Maharashtra,SORT-008,Health Facility,Tertiary Tier,Secondary Tier,District hospitals,B,1,3,District hospitals belong to secondary health infrastructure.
+68,Economics,Chapter 4: The Economy of Maharashtra,SORT-008,Health Facility,Tertiary Tier,Secondary Tier,Super-speciality hospitals,A,1,3,Super-speciality hospitals are tertiary health facilities.
+69,Economics,Chapter 4: The Economy of Maharashtra,SORT-008,Health Facility,Tertiary Tier,Secondary Tier,Sub-district hospitals,B,1,3,Sub-district hospitals form part of secondary health infrastructure.
+70,Economics,Chapter 4: The Economy of Maharashtra,SORT-008,Health Facility,Tertiary Tier,Secondary Tier,Medical colleges,A,2,5,Well-equipped medical colleges belong to the tertiary health tier.
+71,Economics,Chapter 4: The Economy of Maharashtra,SORT-009,Health Facility,Primary Tier,Tertiary Tier,Super-speciality hospitals,B,1,3,Super-speciality hospitals are tertiary-tier facilities.
+72,Economics,Chapter 4: The Economy of Maharashtra,SORT-009,Health Facility,Primary Tier,Tertiary Tier,Community Health Centres,A,2,5,Community Health Centres are primary-tier facilities.
+73,Economics,Chapter 4: The Economy of Maharashtra,SORT-009,Health Facility,Primary Tier,Tertiary Tier,Primary Health Centres,A,1,3,Primary Health Centres are primary-tier facilities.
+74,Economics,Chapter 4: The Economy of Maharashtra,SORT-009,Health Facility,Primary Tier,Tertiary Tier,Medical colleges,B,2,5,Well-equipped medical colleges are tertiary-tier facilities.
+75,Economics,Chapter 4: The Economy of Maharashtra,SORT-010,Service Activity,Hospitality,Tourism,Hotel industry,A,1,3,Hotels are part of the hospitality industry.
+76,Economics,Chapter 4: The Economy of Maharashtra,SORT-010,Service Activity,Hospitality,Tourism,Tourist transportation,A,2,5,Transportation catering to tourists is part of hospitality.
+77,Economics,Chapter 4: The Economy of Maharashtra,SORT-010,Service Activity,Hospitality,Tourism,Safaris,B,2,5,Safaris are included in tourism experiences.
+78,Economics,Chapter 4: The Economy of Maharashtra,SORT-010,Service Activity,Hospitality,Tourism,Food tourism,B,2,5,Food tourism is identified as a tourism experience.
+79,Economics,Chapter 4: The Economy of Maharashtra,SORT-010,Service Activity,Hospitality,Tourism,Village tourism,B,1,3,Village tourism is a form of tourism.
+80,Economics,Chapter 4: The Economy of Maharashtra,SORT-010,Service Activity,Hospitality,Tourism,Event management,A,2,5,Event management is included in hospitality.
+81,Economics,Chapter 4: The Economy of Maharashtra,SORT-010,Service Activity,Hospitality,Tourism,Restaurants,A,1,3,Restaurants provide hospitality services.
+82,Economics,Chapter 4: The Economy of Maharashtra,SORT-010,Service Activity,Hospitality,Tourism,Agro tourism,B,1,3,Agro tourism is a tourism experience.
+83,Economics,Chapter 4: The Economy of Maharashtra,SORT-011,Development Obstacle,Agricultural Problems,Industrial Problems,Agricultural indebtedness,A,1,3,Agricultural indebtedness is a farming-sector problem.
+84,Economics,Chapter 4: The Economy of Maharashtra,SORT-011,Development Obstacle,Agricultural Problems,Industrial Problems,Government procedure delays,B,1,3,Government procedure delays are an industrial obstacle.
+85,Economics,Chapter 4: The Economy of Maharashtra,SORT-011,Development Obstacle,Agricultural Problems,Industrial Problems,Soil degradation,A,1,3,Soil degradation results from excessive agricultural chemicals.
+86,Economics,Chapter 4: The Economy of Maharashtra,SORT-011,Development Obstacle,Agricultural Problems,Industrial Problems,Entrepreneur motivation shortage,B,2,5,Low motivation of new entrepreneurs obstructs industrial development.
+87,Economics,Chapter 4: The Economy of Maharashtra,SORT-011,Development Obstacle,Agricultural Problems,Industrial Problems,Shrinking landholdings,A,1,3,Shrinking landholdings reduce agricultural productivity.
+88,Economics,Chapter 4: The Economy of Maharashtra,SORT-011,Development Obstacle,Agricultural Problems,Industrial Problems,Regional imbalance,B,2,5,Regional imbalance is listed among industrial problems.
+89,Economics,Chapter 4: The Economy of Maharashtra,SORT-011,Development Obstacle,Agricultural Problems,Industrial Problems,Outdated technology,B,1,3,Lack of updated technology is an industrial problem.
+90,Economics,Chapter 4: The Economy of Maharashtra,SORT-011,Development Obstacle,Agricultural Problems,Industrial Problems,Adverse crop pattern,A,2,5,Adverse crop patterns are an agricultural constraint.
+91,Economics,Chapter 4: The Economy of Maharashtra,SORT-012,Development Initiative,Industrial Measures,Agricultural Measures,Quality seed distribution,B,1,3,Quality seed distribution supports agricultural development.
+92,Economics,Chapter 4: The Economy of Maharashtra,SORT-012,Development Initiative,Industrial Measures,Agricultural Measures,Agricultural pump electrification,B,1,3,Electrification of farm pumps supports agriculture.
+93,Economics,Chapter 4: The Economy of Maharashtra,SORT-012,Development Initiative,Industrial Measures,Agricultural Measures,Industrial cluster development,A,2,5,"Cluster development supports small, medium and micro enterprises."
+94,Economics,Chapter 4: The Economy of Maharashtra,SORT-012,Development Initiative,Industrial Measures,Agricultural Measures,Single window clearances,A,1,3,Single window clearances facilitate industrial investment.
+95,Economics,Chapter 4: The Economy of Maharashtra,SORT-012,Development Initiative,Industrial Measures,Agricultural Measures,Horticultural training centres,B,2,5,Horticultural training centres are an agricultural initiative.
+96,Economics,Chapter 4: The Economy of Maharashtra,SORT-012,Development Initiative,Industrial Measures,Agricultural Measures,Agro export zones,B,2,5,Agro export zones are an agricultural marketing measure.
+97,Economics,Chapter 4: The Economy of Maharashtra,SORT-012,Development Initiative,Industrial Measures,Agricultural Measures,Space rent subsidies,A,2,5,Space rent subsidies support small-scale industries.
+98,Economics,Chapter 4: The Economy of Maharashtra,SORT-012,Development Initiative,Industrial Measures,Agricultural Measures,Export performance awards,A,1,3,Export awards encourage industrial participation.

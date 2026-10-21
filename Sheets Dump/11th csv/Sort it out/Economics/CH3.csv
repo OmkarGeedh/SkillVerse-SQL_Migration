@@ -1,0 +1,25 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Economics,Chapter 3: Partition Values,SORT-001,Partition Value Property,Quartiles,Deciles,Nine dividing points,B,1,3,Deciles use nine dividing points.
+2,Economics,Chapter 3: Partition Values,SORT-001,Partition Value Property,Quartiles,Deciles,25% lower cutoff,A,2,5,The first quartile separates the lowest quarter of observations.
+3,Economics,Chapter 3: Partition Values,SORT-001,Partition Value Property,Quartiles,Deciles,75% lower cutoff,A,2,5,The third quartile separates the lowest three quarters of observations.
+4,Economics,Chapter 3: Partition Values,SORT-001,Partition Value Property,Quartiles,Deciles,Three dividing points,A,1,3,Quartiles use three dividing points.
+5,Economics,Chapter 3: Partition Values,SORT-001,Partition Value Property,Quartiles,Deciles,90% lower cutoff,B,3,10,The ninth decile separates the lowest nine tenths of observations.
+6,Economics,Chapter 3: Partition Values,SORT-001,Partition Value Property,Quartiles,Deciles,Ten equal data parts,B,1,3,Deciles divide ordered observations into ten equal parts.
+7,Economics,Chapter 3: Partition Values,SORT-001,Partition Value Property,Quartiles,Deciles,10% lower cutoff,B,2,5,The first decile separates the lowest tenth of observations.
+8,Economics,Chapter 3: Partition Values,SORT-001,Partition Value Property,Quartiles,Deciles,Four equal data parts,A,1,3,Quartiles divide ordered observations into four equal parts.
+9,Economics,Chapter 3: Partition Values,SORT-002,Partition Value Property,Percentiles,Quartiles,99% lower cutoff,A,3,10,The ninety-ninth percentile separates the lowest ninety-nine percent of observations.
+10,Economics,Chapter 3: Partition Values,SORT-002,Partition Value Property,Percentiles,Quartiles,Three dividing points,B,1,3,Quartiles use three dividing points.
+11,Economics,Chapter 3: Partition Values,SORT-002,Partition Value Property,Percentiles,Quartiles,Hundred equal data parts,A,1,3,Percentiles divide ordered observations into one hundred equal parts.
+12,Economics,Chapter 3: Partition Values,SORT-002,Partition Value Property,Percentiles,Quartiles,1% lower cutoff,A,2,5,The first percentile separates the lowest one percent of observations.
+13,Economics,Chapter 3: Partition Values,SORT-002,Partition Value Property,Percentiles,Quartiles,25% lower cutoff,B,2,5,The first quartile separates the lowest quarter of observations.
+14,Economics,Chapter 3: Partition Values,SORT-002,Partition Value Property,Percentiles,Quartiles,Ninety-nine dividing points,A,1,3,Percentiles use ninety-nine dividing points.
+15,Economics,Chapter 3: Partition Values,SORT-002,Partition Value Property,Percentiles,Quartiles,75% lower cutoff,B,2,5,The third quartile separates the lowest three quarters of observations.
+16,Economics,Chapter 3: Partition Values,SORT-002,Partition Value Property,Percentiles,Quartiles,Four equal data parts,B,1,3,Quartiles divide ordered observations into four equal parts.
+17,Economics,Chapter 3: Partition Values,SORT-003,Partition Value Property,Deciles,Percentiles,90% lower cutoff,A,3,10,The ninth decile separates the lowest nine tenths of observations.
+18,Economics,Chapter 3: Partition Values,SORT-003,Partition Value Property,Deciles,Percentiles,Hundred equal data parts,B,1,3,Percentiles divide ordered observations into one hundred equal parts.
+19,Economics,Chapter 3: Partition Values,SORT-003,Partition Value Property,Deciles,Percentiles,Nine dividing points,A,1,3,Deciles use nine dividing points.
+20,Economics,Chapter 3: Partition Values,SORT-003,Partition Value Property,Deciles,Percentiles,Ninety-nine dividing points,B,1,3,Percentiles use ninety-nine dividing points.
+21,Economics,Chapter 3: Partition Values,SORT-003,Partition Value Property,Deciles,Percentiles,Ten equal data parts,A,1,3,Deciles divide ordered observations into ten equal parts.
+22,Economics,Chapter 3: Partition Values,SORT-003,Partition Value Property,Deciles,Percentiles,99% lower cutoff,B,3,10,The ninety-ninth percentile separates the lowest ninety-nine percent of observations.
+23,Economics,Chapter 3: Partition Values,SORT-003,Partition Value Property,Deciles,Percentiles,10% lower cutoff,A,2,5,The first decile separates the lowest tenth of observations.
+24,Economics,Chapter 3: Partition Values,SORT-003,Partition Value Property,Deciles,Percentiles,1% lower cutoff,B,2,5,The first percentile separates the lowest one percent of observations.

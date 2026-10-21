@@ -1,0 +1,61 @@
+S.No,Subject,Chapter,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Points,Explanation
+1,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=⌊x⌋ at x=2,B,2,5,The floor function jumps at an integer.
+2,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=⌊x⌋ at x=3,B,2,5,The floor function has unequal one-sided limits at an integer.
+3,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=|x| at x=0,A,2,5,Both one-sided limits equal the function value zero.
+4,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=x³ at x=2,A,1,3,A positive integer power is continuous at every real input.
+5,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=7 at x=3,A,1,3,A constant function is continuous at every real input.
+6,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=⌊x⌋ at x=−1,B,3,10,The floor function jumps even at negative integers.
+7,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=⌊x⌋ at x=0,B,2,5,The floor function has unequal one-sided limits at zero.
+8,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=⌊x⌋ at x=4,B,2,5,The floor function has a jump at this integer.
+9,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=x² at x=0,A,1,3,A polynomial is continuous at every real input.
+10,Mathematics,8. Continuity,SORT-001,Function Case,Continuous,Discontinuous,f(x)=x+2 at x=1,A,1,3,A polynomial is continuous at every real input.
+11,Mathematics,8. Continuity,SORT-002,Function Case,Discontinuous,Continuous,f(x)=⌊x⌋ at x=5,A,2,5,A floor function has a jump at each integer.
+12,Mathematics,8. Continuity,SORT-002,Function Case,Discontinuous,Continuous,f(x)=5x−4 at x=2,B,2,5,A linear polynomial is continuous at every real input.
+13,Mathematics,8. Continuity,SORT-002,Function Case,Discontinuous,Continuous,f(x)=⌊x⌋ at x=−3,A,3,10,The floor function jumps at negative integers.
+14,Mathematics,8. Continuity,SORT-002,Function Case,Discontinuous,Continuous,f(x)=⌊x⌋ at x=1,A,1,3,The floor function jumps at one.
+15,Mathematics,8. Continuity,SORT-002,Function Case,Discontinuous,Continuous,f(x)=x²+2 at x=2,B,1,3,A polynomial is continuous at every real number.
+16,Mathematics,8. Continuity,SORT-002,Function Case,Discontinuous,Continuous,f(x)=⌊x⌋ at x=−2,A,2,5,The one-sided limits of the floor function differ at an integer.
+17,Mathematics,8. Continuity,SORT-002,Function Case,Discontinuous,Continuous,f(x)=x⁴ at x=−1,B,1,3,A positive integer power is continuous everywhere.
+18,Mathematics,8. Continuity,SORT-002,Function Case,Discontinuous,Continuous,f(x)=−3 at x=0,B,1,3,A constant function is continuous everywhere.
+19,Mathematics,8. Continuity,SORT-003,Approach Direction,Left-hand Limit,Right-hand Limit,Approach 5 via 5.1,B,2,5,The approaching input is greater than five.
+20,Mathematics,8. Continuity,SORT-003,Approach Direction,Left-hand Limit,Right-hand Limit,Approach 5 via 4.9,A,2,5,The approaching input is smaller than five.
+21,Mathematics,8. Continuity,SORT-003,Approach Direction,Left-hand Limit,Right-hand Limit,Approach 2 from below,A,1,3,Approaching from smaller inputs defines a left-hand limit.
+22,Mathematics,8. Continuity,SORT-003,Approach Direction,Left-hand Limit,Right-hand Limit,Approach 0 from negatives,A,1,3,Negative inputs approach zero from the left.
+23,Mathematics,8. Continuity,SORT-003,Approach Direction,Left-hand Limit,Right-hand Limit,Approach 2 from above,B,1,3,Approaching from larger inputs defines a right-hand limit.
+24,Mathematics,8. Continuity,SORT-003,Approach Direction,Left-hand Limit,Right-hand Limit,Approach −1 from below,A,2,5,Inputs less than negative one approach from the left.
+25,Mathematics,8. Continuity,SORT-003,Approach Direction,Left-hand Limit,Right-hand Limit,Approach 0 from positives,B,1,3,Positive inputs approach zero from the right.
+26,Mathematics,8. Continuity,SORT-003,Approach Direction,Left-hand Limit,Right-hand Limit,Approach −1 from above,B,2,5,Inputs greater than negative one approach from the right.
+27,Mathematics,8. Continuity,SORT-004,Approach Direction,Right-hand Limit,Left-hand Limit,Approach 0 via 0.1,A,2,5,Positive inputs approach zero from the right.
+28,Mathematics,8. Continuity,SORT-004,Approach Direction,Right-hand Limit,Left-hand Limit,Approach 1 from larger,A,1,3,Larger inputs approach a point from the right.
+29,Mathematics,8. Continuity,SORT-004,Approach Direction,Right-hand Limit,Left-hand Limit,Approach 1 from smaller,B,1,3,Smaller inputs approach a point from the left.
+30,Mathematics,8. Continuity,SORT-004,Approach Direction,Right-hand Limit,Left-hand Limit,Approach −2 via −2.1,B,3,10,Negative 2.1 is smaller than negative two.
+31,Mathematics,8. Continuity,SORT-004,Approach Direction,Right-hand Limit,Left-hand Limit,Approach −2 via −1.9,A,3,10,Negative 1.9 is greater than negative two.
+32,Mathematics,8. Continuity,SORT-004,Approach Direction,Right-hand Limit,Left-hand Limit,Approach 0 via −0.1,B,2,5,Negative inputs approach zero from the left.
+33,Mathematics,8. Continuity,SORT-004,Approach Direction,Right-hand Limit,Left-hand Limit,Approach 3 via 2.9,B,1,3,Inputs smaller than three approach from the left.
+34,Mathematics,8. Continuity,SORT-004,Approach Direction,Right-hand Limit,Left-hand Limit,Approach 3 via 3.1,A,1,3,Inputs larger than three approach from the right.
+35,Mathematics,8. Continuity,SORT-005,Interval Feature,Open Interval,Closed Interval,"Notation (−1, 3)",A,1,3,Parentheses mark an open interval.
+36,Mathematics,8. Continuity,SORT-005,Interval Feature,Open Interval,Closed Interval,Both endpoints included,B,1,3,A closed interval includes both endpoints.
+37,Mathematics,8. Continuity,SORT-005,Interval Feature,Open Interval,Closed Interval,"Notation [−1, 3]",B,1,3,Square brackets mark a closed interval.
+38,Mathematics,8. Continuity,SORT-005,Interval Feature,Open Interval,Closed Interval,Interior points only,A,2,5,An open interval consists of points strictly between its endpoints.
+39,Mathematics,8. Continuity,SORT-005,Interval Feature,Open Interval,Closed Interval,"Notation [2, 5]",B,1,3,Square brackets include both endpoints.
+40,Mathematics,8. Continuity,SORT-005,Interval Feature,Open Interval,Closed Interval,One-sided endpoint continuity,B,3,10,Continuity on a closed interval requires appropriate one-sided continuity at endpoints.
+41,Mathematics,8. Continuity,SORT-005,Interval Feature,Open Interval,Closed Interval,Neither endpoint included,A,1,3,An open interval excludes both endpoints.
+42,Mathematics,8. Continuity,SORT-005,Interval Feature,Open Interval,Closed Interval,"Notation (2, 5)",A,1,3,Parentheses exclude both endpoints.
+43,Mathematics,8. Continuity,SORT-006,Interval Feature,Closed Interval,Open Interval,Endpoints excluded,B,1,3,An open interval excludes its boundary points.
+44,Mathematics,8. Continuity,SORT-006,Interval Feature,Closed Interval,Open Interval,Right at a; left at b,A,3,10,A continuous closed interval requires right continuity at a and left continuity at b.
+45,Mathematics,8. Continuity,SORT-006,Interval Feature,Closed Interval,Open Interval,Continuity at interior points,B,2,5,Continuity on an open interval is checked at every interior point.
+46,Mathematics,8. Continuity,SORT-006,Interval Feature,Closed Interval,Open Interval,"Notation (0, 2)",B,1,3,Parentheses exclude the endpoints.
+47,Mathematics,8. Continuity,SORT-006,Interval Feature,Closed Interval,Open Interval,"Notation (3, 6)",B,1,3,Neither boundary point is included.
+48,Mathematics,8. Continuity,SORT-006,Interval Feature,Closed Interval,Open Interval,"Notation [0, 2]",A,1,3,Both square brackets include the endpoints.
+49,Mathematics,8. Continuity,SORT-006,Interval Feature,Closed Interval,Open Interval,Endpoints belong to domain,A,2,5,Both boundary points are included in a closed interval.
+50,Mathematics,8. Continuity,SORT-006,Interval Feature,Closed Interval,Open Interval,"Notation [3, 6]",A,1,3,Both endpoints belong to this interval.
+51,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,Graph jumps at point,B,1,3,A jump prevents continuity at that point.
+52,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,Defined value matches limit,A,2,5,Equality of the limit and the function value establishes continuity.
+53,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,Limit differs from value,B,2,5,Continuity fails when the limit does not equal the function value.
+54,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,Unequal one-sided limits,B,1,3,Unequal one-sided limits prevent the two-sided limit from existing.
+55,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,Matching one-sided limits,A,2,5,Equal one-sided limits are necessary for continuity when the value also matches.
+56,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,Zero change as h→0,A,3,10,Continuity requires the function-value difference to approach zero.
+57,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,Function value undefined,B,1,3,Continuity requires the function to be defined at the point.
+58,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,Limit equals function value,A,1,3,Continuity requires the limit to equal the defined function value.
+59,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,Graph has a hole,B,1,3,A hole indicates a failure of continuity at that point.
+60,Mathematics,8. Continuity,SORT-007,Continuity Condition,Continuous,Discontinuous,No break at point,A,1,3,A continuous graph has no break at the point.
