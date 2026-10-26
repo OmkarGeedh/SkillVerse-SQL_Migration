@@ -8,6 +8,9 @@
       "seeds/questions/accounting/sort_it_out.json",
       "seeds/questions/accounting/match_the_following.json"
     ],
-    "users": ["seeds/users/demo_user.json"]
+    "users": [
+      "seeds/users/demo_user.json",
+      "seeds/users/dummy_users.json"
+    ]
   }
 }

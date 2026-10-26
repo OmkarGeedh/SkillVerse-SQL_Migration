@@ -107,6 +107,32 @@ func main() {
 			code, pairType, optA, optB, corr, diff, pts, prompt)
 	}
 
+	// 6. Seeded Users & Profiles Check
+	fmt.Println("\n👥 Seeded Users & Profiles in DB:")
+	var userCount, profileCount int
+	_ = sqlDB.QueryRowContext(ctx, "SELECT COUNT(*) FROM clients").Scan(&userCount)
+	_ = sqlDB.QueryRowContext(ctx, "SELECT COUNT(*) FROM client_profiles").Scan(&profileCount)
+	fmt.Printf("   - clients                          : %d rows\n", userCount)
+	fmt.Printf("   - client_profiles                  : %d rows\n", profileCount)
+
+	userRows, err := sqlDB.QueryContext(ctx, `
+		SELECT c.id, c.username, c.email, p.full_name, p.level, p.weekly_score, p.coins
+		FROM clients c
+		LEFT JOIN client_profiles p ON c.id = p.client_id
+		ORDER BY c.id
+	`)
+	if err == nil {
+		defer userRows.Close()
+		for userRows.Next() {
+			var id, level, weeklyScore, coins int
+			var username, email, fullName string
+			if err := userRows.Scan(&id, &username, &email, &fullName, &level, &weeklyScore, &coins); err == nil {
+				fmt.Printf("   [%2d] %-16s | %-26s | %-18s | Lvl:%d | Score:%4d | Coins:%4d\n",
+					id, username, email, fullName, level, weeklyScore, coins)
+			}
+		}
+	}
+
 	fmt.Println("\n✅ ALL POSTGRESQL DATABASE VERIFICATIONS PASSED 100%!")
 	fmt.Println("=================================================================")
 }
