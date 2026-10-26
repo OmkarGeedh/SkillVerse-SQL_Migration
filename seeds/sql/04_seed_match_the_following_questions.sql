@@ -1,4 +1,4 @@
--- Seeds: Match The Following questions (25 items)
+-- Seeds: Match The Following questions (60 items)
 
 INSERT INTO match_the_following_questions (
     question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
@@ -524,4 +524,739 @@ INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
 ((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_025'), 2, 'One-sided Posting Error', 'Causes Trial Balance disagreement'),
 ((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_025'), 3, 'Compensating Error', 'Errors neutralize, Trial Balance agrees'),
 ((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_acc_025'), 4, 'Error of Principle', 'Capital/revenue mixup, Trial Balance agrees');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e01', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '24 + 15 = 39; 48 - 16 = 32; 37 + 22 = 59; 65 - 18 = 47.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e01');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e01'), 1, '24 + 15', '39'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e01'), 2, '48 - 16', '32'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e01'), 3, '37 + 22', '59'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e01'), 4, '65 - 18', '47');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e02', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '32 + 19 = 51; 76 - 23 = 53; 45 + 16 = 61; 92 - 35 = 57.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e02');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e02'), 1, '32 + 19', '51'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e02'), 2, '76 - 23', '53'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e02'), 3, '45 + 16', '61'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e02'), 4, '92 - 35', '57');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e03', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '29 + 25 = 54; 63 - 19 = 44; 52 + 17 = 69; 90 - 26 = 64.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e03');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e03'), 1, '29 + 25', '54'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e03'), 2, '63 - 19', '44'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e03'), 3, '52 + 17', '69'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e03'), 4, '90 - 26', '64');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e04', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '38 + 14 = 52; 82 - 27 = 55; 41 + 33 = 74; 77 - 34 = 43.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e04');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e04'), 1, '38 + 14', '52'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e04'), 2, '82 - 27', '55'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e04'), 3, '41 + 33', '74'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e04'), 4, '77 - 34', '43');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e05', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '46 + 18 = 64; 69 - 24 = 45; 28 + 37 = 65; 85 - 29 = 56.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e05');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e05'), 1, '46 + 18', '64'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e05'), 2, '69 - 24', '45'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e05'), 3, '28 + 37', '65'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e05'), 4, '85 - 29', '56');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e06', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '53 + 21 = 74; 71 - 32 = 39; 36 + 29 = 65; 94 - 38 = 56.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e06');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e06'), 1, '53 + 21', '74'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e06'), 2, '71 - 32', '39'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e06'), 3, '36 + 29', '65'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e06'), 4, '94 - 38', '56');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e07', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '19 + 35 = 54; 86 - 41 = 45; 47 + 26 = 73; 66 - 17 = 49.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e07');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e07'), 1, '19 + 35', '54'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e07'), 2, '86 - 41', '45'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e07'), 3, '47 + 26', '73'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e07'), 4, '66 - 17', '49');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e08', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '34 + 28 = 62; 95 - 37 = 58; 25 + 48 = 73; 73 - 26 = 47.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e08');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e08'), 1, '34 + 28', '62'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e08'), 2, '95 - 37', '58'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e08'), 3, '25 + 48', '73'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e08'), 4, '73 - 26', '47');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e09', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '42 + 29 = 71; 84 - 36 = 48; 39 + 33 = 72; 67 - 15 = 52.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e09');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e09'), 1, '42 + 29', '71'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e09'), 2, '84 - 36', '48'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e09'), 3, '39 + 33', '72'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e09'), 4, '67 - 15', '52');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e10', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '55 + 18 = 73; 79 - 28 = 51; 31 + 44 = 75; 91 - 45 = 46.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e10');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e10'), 1, '55 + 18', '73'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e10'), 2, '79 - 28', '51'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e10'), 3, '31 + 44', '75'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e10'), 4, '91 - 45', '46');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e11', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '27 + 36 = 63; 83 - 35 = 48; 49 + 24 = 73; 70 - 28 = 42.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e11');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e11'), 1, '27 + 36', '63'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e11'), 2, '83 - 35', '48'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e11'), 3, '49 + 24', '73'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e11'), 4, '70 - 28', '42');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e12', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '36 + 37 = 73; 92 - 44 = 48; 58 + 19 = 77; 64 - 25 = 39.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e12');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e12'), 1, '36 + 37', '73'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e12'), 2, '92 - 44', '48'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e12'), 3, '58 + 19', '77'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e12'), 4, '64 - 25', '39');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e13', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '44 + 27 = 71; 76 - 29 = 47; 23 + 58 = 81; 89 - 37 = 52.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e13');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e13'), 1, '44 + 27', '71'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e13'), 2, '76 - 29', '47'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e13'), 3, '23 + 58', '81'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e13'), 4, '89 - 37', '52');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e14', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '51 + 29 = 80; 87 - 39 = 48; 35 + 46 = 81; 68 - 34 = 34.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e14');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e14'), 1, '51 + 29', '80'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e14'), 2, '87 - 39', '48'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e14'), 3, '35 + 46', '81'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e14'), 4, '68 - 34', '34');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_e15', 'maths', 'Match each addition/subtraction problem with its correct numerical answer:', 25, 1, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '39 + 38 = 77; 93 - 46 = 47; 48 + 25 = 73; 75 - 38 = 37.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e15');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e15'), 1, '39 + 38', '77'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e15'), 2, '93 - 46', '47'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e15'), 3, '48 + 25', '73'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_e15'), 4, '75 - 38', '37');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m01', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '14 × 3 = 42; 25 × 2 = 50; 16 × 4 = 64; 18 × 5 = 90.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m01');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m01'), 1, '14 × 3', '42'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m01'), 2, '25 × 2', '50'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m01'), 3, '16 × 4', '64'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m01'), 4, '18 × 5', '90');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m02', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '12 × 6 = 72; 22 × 3 = 66; 15 × 5 = 75; 19 × 4 = 76.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m02');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m02'), 1, '12 × 6', '72'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m02'), 2, '22 × 3', '66'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m02'), 3, '15 × 5', '75'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m02'), 4, '19 × 4', '76');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m03', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '13 × 4 = 52; 24 × 3 = 72; 17 × 5 = 85; 28 × 2 = 56.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m03');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m03'), 1, '13 × 4', '52'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m03'), 2, '24 × 3', '72'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m03'), 3, '17 × 5', '85'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m03'), 4, '28 × 2', '56');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m04', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '15 × 4 = 60; 21 × 4 = 84; 14 × 5 = 70; 32 × 3 = 96.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m04');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m04'), 1, '15 × 4', '60'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m04'), 2, '21 × 4', '84'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m04'), 3, '14 × 5', '70'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m04'), 4, '32 × 3', '96');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m05', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '18 × 3 = 54; 26 × 2 = 52; 16 × 5 = 80; 23 × 4 = 92.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m05');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m05'), 1, '18 × 3', '54'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m05'), 2, '26 × 2', '52'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m05'), 3, '16 × 5', '80'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m05'), 4, '23 × 4', '92');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m06', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '19 × 3 = 57; 35 × 2 = 70; 14 × 6 = 84; 25 × 4 = 100.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m06');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m06'), 1, '19 × 3', '57'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m06'), 2, '35 × 2', '70'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m06'), 3, '14 × 6', '84'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m06'), 4, '25 × 4', '100');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m07', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '16 × 3 = 48; 27 × 2 = 54; 13 × 6 = 78; 22 × 5 = 110.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m07');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m07'), 1, '16 × 3', '48'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m07'), 2, '27 × 2', '54'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m07'), 3, '13 × 6', '78'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m07'), 4, '22 × 5', '110');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m08', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '17 × 4 = 68; 31 × 3 = 93; 15 × 6 = 90; 24 × 4 = 96.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m08');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m08'), 1, '17 × 4', '68'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m08'), 2, '31 × 3', '93'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m08'), 3, '15 × 6', '90'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m08'), 4, '24 × 4', '96');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m09', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '18 × 4 = 72; 28 × 3 = 84; 13 × 7 = 91; 35 × 3 = 105.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m09');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m09'), 1, '18 × 4', '72'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m09'), 2, '28 × 3', '84'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m09'), 3, '13 × 7', '91'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m09'), 4, '35 × 3', '105');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_m10', 'maths', 'Match each multiplication expression with its correct numerical answer:', 25, 2, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '19 × 5 = 95; 23 × 3 = 69; 16 × 6 = 96; 42 × 2 = 84.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m10');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m10'), 1, '19 × 5', '95'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m10'), 2, '23 × 3', '69'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m10'), 3, '16 × 6', '96'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_m10'), 4, '42 × 2', '84');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h01', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '96 ÷ 4 = 24; 125 ÷ 5 = 25; 230 + 145 = 375; 580 - 230 = 350.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h01');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h01'), 1, '96 ÷ 4', '24'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h01'), 2, '125 ÷ 5', '25'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h01'), 3, '230 + 145', '375'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h01'), 4, '580 - 230', '350');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h02', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '144 ÷ 6 = 24; 180 ÷ 9 = 20; 340 + 185 = 525; 690 - 275 = 415.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h02');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h02'), 1, '144 ÷ 6', '24'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h02'), 2, '180 ÷ 9', '20'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h02'), 3, '340 + 185', '525'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h02'), 4, '690 - 275', '415');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h03', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '112 ÷ 8 = 14; 175 ÷ 7 = 25; 415 + 165 = 580; 740 - 315 = 425.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h03');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h03'), 1, '112 ÷ 8', '14'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h03'), 2, '175 ÷ 7', '25'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h03'), 3, '415 + 165', '580'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h03'), 4, '740 - 315', '425');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h04', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '108 ÷ 9 = 12; 168 ÷ 6 = 28; 275 + 250 = 525; 820 - 395 = 425.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h04');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h04'), 1, '108 ÷ 9', '12'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h04'), 2, '168 ÷ 6', '28'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h04'), 3, '275 + 250', '525'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h04'), 4, '820 - 395', '425');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h05', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '132 ÷ 6 = 22; 150 ÷ 5 = 30; 380 + 245 = 625; 650 - 285 = 365.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h05');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h05'), 1, '132 ÷ 6', '22'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h05'), 2, '150 ÷ 5', '30'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h05'), 3, '380 + 245', '625'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h05'), 4, '650 - 285', '365');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h06', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '126 ÷ 7 = 18; 192 ÷ 8 = 24; 450 + 175 = 625; 710 - 290 = 420.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h06');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h06'), 1, '126 ÷ 7', '18'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h06'), 2, '192 ÷ 8', '24'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h06'), 3, '450 + 175', '625'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h06'), 4, '710 - 290', '420');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h07', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '135 ÷ 9 = 15; 160 ÷ 5 = 32; 325 + 295 = 620; 850 - 380 = 470.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h07');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h07'), 1, '135 ÷ 9', '15'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h07'), 2, '160 ÷ 5', '32'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h07'), 3, '325 + 295', '620'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h07'), 4, '850 - 380', '470');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h08', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '117 ÷ 9 = 13; 184 ÷ 8 = 23; 490 + 160 = 650; 900 - 425 = 475.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h08');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h08'), 1, '117 ÷ 9', '13'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h08'), 2, '184 ÷ 8', '23'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h08'), 3, '490 + 160', '650'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h08'), 4, '900 - 425', '475');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h09', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '156 ÷ 6 = 26; 140 ÷ 4 = 35; 260 + 355 = 615; 780 - 345 = 435.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h09');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h09'), 1, '156 ÷ 6', '26'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h09'), 2, '140 ÷ 4', '35'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h09'), 3, '260 + 355', '615'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h09'), 4, '780 - 345', '435');
+
+INSERT INTO match_the_following_questions (
+    question_code, topic_id, prompt, time_limit_sec, difficulty, points, hint, explanation
+) VALUES (
+    'mtf_mat_h10', 'maths', 'Match each arithmetic expression with its correct numerical answer:', 25, 3, 40, 'Solve each arithmetic operation individually, then pair with the matching solution.', '128 ÷ 8 = 16; 162 ÷ 9 = 18; 515 + 225 = 740; 860 - 415 = 445.'
+) ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    time_limit_sec = EXCLUDED.time_limit_sec,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+DELETE FROM match_pairs WHERE question_id IN (SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h10');
+INSERT INTO match_pairs (question_id, pair_order, left_text, right_text) VALUES
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h10'), 1, '128 ÷ 8', '16'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h10'), 2, '162 ÷ 9', '18'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h10'), 3, '515 + 225', '740'),
+((SELECT id FROM match_the_following_questions WHERE question_code = 'mtf_mat_h10'), 4, '860 - 415', '445');
 

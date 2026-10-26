@@ -1,4 +1,4 @@
--- Seeds: MCQ questions (100 items)
+-- Seeds: MCQ questions (135 items)
 
 INSERT INTO mcq_questions (
     question_code, question_type, topic_id, prompt,
@@ -524,6 +524,201 @@ INSERT INTO mcq_questions (
     '100', 'mcq', 'accounting', 'When capital is introduced in cash, the entry is:',
     'Cash A/c Dr. To Capital A/c', 'Capital A/c Dr. To Cash A/c', 'Purchases A/c Dr. To Cash A/c', 'Cash A/c Dr. To Sales A/c',
     'a', 3, 20, 'Cash asset increases on debit; owner''s equity increases on credit.', 'When capital is brought in cash, the journal entry is: Cash A/c Dr. (Debit what comes in) To Capital A/c (Credit the giver / increase in equity).'
+)
+ON CONFLICT (question_code) DO UPDATE SET
+    question_type = EXCLUDED.question_type,
+    topic_id = EXCLUDED.topic_id,
+    prompt = EXCLUDED.prompt,
+    option_a = EXCLUDED.option_a,
+    option_b = EXCLUDED.option_b,
+    option_c = EXCLUDED.option_c,
+    option_d = EXCLUDED.option_d,
+    correct_option = EXCLUDED.correct_option,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+INSERT INTO mcq_questions (
+    question_code, question_type, topic_id, prompt,
+    option_a, option_b, option_c, option_d,
+    correct_option, difficulty, points, hint, explanation
+) VALUES
+(
+    'mcq_mat_e01', 'mcq', 'maths', 'What is 24 + 35?',
+    '39', '49', '59', '69',
+    'c', 1, 10, 'Add tens first (20 + 30 = 50), then units (4 + 5 = 9).', '24 + 35 = 59. Add tens first (20 + 30 = 50), then units (4 + 5 = 9).'
+),
+(
+    'mcq_mat_e02', 'mcq', 'maths', 'What is 47 + 28?',
+    '73', '66', '75', '95',
+    'c', 1, 10, 'Round 28 to 30: 47 + 30 = 77, then subtract 2 to get 75.', '47 + 28 = 75. Round 28 to 30: 47 + 30 = 77, then subtract 2 to get 75.'
+),
+(
+    'mcq_mat_e03', 'mcq', 'maths', 'What is 63 - 29?',
+    '33', '45', '44', '34',
+    'd', 1, 10, 'Subtract 30 first: 63 - 30 = 33, then add 1 back = 34.', '63 - 29 = 34. Subtract 30 first: 63 - 30 = 33, then add 1 back = 34.'
+),
+(
+    'mcq_mat_e04', 'mcq', 'maths', 'What is 85 - 37?',
+    '57', '48', '43', '28',
+    'b', 1, 10, 'Break down 37 into 35 and 2: 85 - 35 = 50, then 50 - 2 = 48.', '85 - 37 = 48. Break down 37 into 35 and 2: 85 - 35 = 50, then 50 - 2 = 48.'
+),
+(
+    'mcq_mat_e05', 'mcq', 'maths', 'What is 56 + 19?',
+    '75', '66', '86', '95',
+    'a', 1, 10, 'Add 20 first: 56 + 20 = 76, then subtract 1 to get 75.', '56 + 19 = 75. Add 20 first: 56 + 20 = 76, then subtract 1 to get 75.'
+),
+(
+    'mcq_mat_e06', 'mcq', 'maths', 'What is 92 - 45?',
+    '27', '48', '36', '47',
+    'd', 1, 10, '92 - 40 = 52, then 52 - 5 = 47.', '92 - 45 = 47. 92 - 40 = 52, then 52 - 5 = 47.'
+),
+(
+    'mcq_mat_e07', 'mcq', 'maths', 'What is 38 + 44?',
+    '87', '92', '71', '82',
+    'd', 1, 10, '38 + 40 = 78, then 78 + 4 = 82.', '38 + 44 = 82. 38 + 40 = 78, then 78 + 4 = 82.'
+),
+(
+    'mcq_mat_e08', 'mcq', 'maths', 'What is 71 - 28?',
+    '48', '42', '43', '33',
+    'c', 1, 10, 'Subtract 30 to get 41, then add 2 back = 43.', '71 - 28 = 43. Subtract 30 to get 41, then add 2 back = 43.'
+),
+(
+    'mcq_mat_e09', 'mcq', 'maths', 'What is 53 + 39?',
+    '92', '87', '102', '82',
+    'a', 1, 10, '53 + 40 = 93, then 93 - 1 = 92.', '53 + 39 = 92. 53 + 40 = 93, then 93 - 1 = 92.'
+),
+(
+    'mcq_mat_e10', 'mcq', 'maths', 'What is 84 - 56?',
+    '28', '38', '18', '33',
+    'a', 1, 10, '84 - 50 = 34, then 34 - 6 = 28.', '84 - 56 = 28. 84 - 50 = 34, then 34 - 6 = 28.'
+),
+(
+    'mcq_mat_e11', 'mcq', 'maths', 'What is 29 + 67?',
+    '101', '94', '96', '98',
+    'c', 1, 10, 'Round 29 to 30: 30 + 67 = 97, then 97 - 1 = 96.', '29 + 67 = 96. Round 29 to 30: 30 + 67 = 97, then 97 - 1 = 96.'
+),
+(
+    'mcq_mat_e12', 'mcq', 'maths', 'What is 65 - 38?',
+    '7', '27', '22', '38',
+    'b', 1, 10, '65 - 40 = 25, then 25 + 2 = 27.', '65 - 38 = 27. 65 - 40 = 25, then 25 + 2 = 27.'
+),
+(
+    'mcq_mat_e13', 'mcq', 'maths', 'What is 46 + 48?',
+    '74', '94', '96', '95',
+    'b', 1, 10, 'Double 46 is 92, then add 2 more to reach 48 = 94.', '46 + 48 = 94. Double 46 is 92, then add 2 more to reach 48 = 94.'
+),
+(
+    'mcq_mat_e14', 'mcq', 'maths', 'What is 90 - 34?',
+    '45', '56', '66', '76',
+    'b', 1, 10, '90 - 30 = 60, then 60 - 4 = 56.', '90 - 34 = 56. 90 - 30 = 60, then 60 - 4 = 56.'
+),
+(
+    'mcq_mat_e15', 'mcq', 'maths', 'What is 37 + 55?',
+    '90', '83', '93', '92',
+    'd', 1, 10, '37 + 50 = 87, then 87 + 5 = 92.', '37 + 55 = 92. 37 + 50 = 87, then 87 + 5 = 92.'
+),
+(
+    'mcq_mat_m01', 'mcq', 'maths', 'Evaluate: 14 × 6',
+    '104', '84', '82', '86',
+    'b', 2, 10, '10 × 6 = 60, and 4 × 6 = 24. 60 + 24 = 84.', '14 × 6 = 84. 10 × 6 = 60, and 4 × 6 = 24. 60 + 24 = 84.'
+),
+(
+    'mcq_mat_m02', 'mcq', 'maths', 'Evaluate: 23 × 4',
+    '97', '103', '87', '92',
+    'd', 2, 10, '20 × 4 = 80, and 3 × 4 = 12. 80 + 12 = 92.', '23 × 4 = 92. 20 × 4 = 80, and 3 × 4 = 12. 80 + 12 = 92.'
+),
+(
+    'mcq_mat_m03', 'mcq', 'maths', 'Evaluate: 18 × 5',
+    '110', '89', '90', '101',
+    'c', 2, 10, 'Multiply by 10 and halve it: (18 × 10) / 2 = 180 / 2 = 90.', '18 × 5 = 90. Multiply by 10 and halve it: (18 × 10) / 2 = 180 / 2 = 90.'
+),
+(
+    'mcq_mat_m04', 'mcq', 'maths', 'Evaluate: 32 × 3',
+    '91', '95', '96', '107',
+    'c', 2, 10, '30 × 3 = 90, and 2 × 3 = 6. 90 + 6 = 96.', '32 × 3 = 96. 30 × 3 = 90, and 2 × 3 = 6. 90 + 6 = 96.'
+),
+(
+    'mcq_mat_m05', 'mcq', 'maths', 'Evaluate: 16 × 7',
+    '107', '102', '103', '112',
+    'd', 2, 10, '10 × 7 = 70, and 6 × 7 = 42. 70 + 42 = 112.', '16 × 7 = 112. 10 × 7 = 70, and 6 × 7 = 42. 70 + 42 = 112.'
+),
+(
+    'mcq_mat_m06', 'mcq', 'maths', 'Evaluate: 25 × 6',
+    '151', '150', '170', '141',
+    'b', 2, 10, '25 × 4 = 100, plus another 25 × 2 = 50. Total = 150.', '25 × 6 = 150. 25 × 4 = 100, plus another 25 × 2 = 50. Total = 150.'
+),
+(
+    'mcq_mat_m07', 'mcq', 'maths', 'Evaluate: 19 × 4',
+    '75', '96', '56', '76',
+    'd', 2, 10, '20 × 4 = 80, minus 1 × 4 = 4. 80 - 4 = 76.', '19 × 4 = 76. 20 × 4 = 80, minus 1 × 4 = 4. 80 - 4 = 76.'
+),
+(
+    'mcq_mat_m08', 'mcq', 'maths', 'Evaluate: 42 × 3',
+    '117', '137', '121', '126',
+    'd', 2, 10, '40 × 3 = 120, plus 2 × 3 = 6. 120 + 6 = 126.', '42 × 3 = 126. 40 × 3 = 120, plus 2 × 3 = 6. 120 + 6 = 126.'
+),
+(
+    'mcq_mat_m09', 'mcq', 'maths', 'Evaluate: 28 × 5',
+    '140', '149', '145', '131',
+    'a', 2, 10, 'Half of 28 is 14, multiply by 10 = 140.', '28 × 5 = 140. Half of 28 is 14, multiply by 10 = 140.'
+),
+(
+    'mcq_mat_m10', 'mcq', 'maths', 'Evaluate: 36 × 4',
+    '135', '144', '133', '155',
+    'b', 2, 10, 'Double 36 is 72, double 72 is 144.', '36 × 4 = 144. Double 36 is 72, double 72 is 144.'
+),
+(
+    'mcq_mat_h01', 'mcq', 'maths', 'Solve: 96 ÷ 6',
+    '14', '25', '18', '16',
+    'd', 3, 10, '90 ÷ 6 = 15, and 6 ÷ 6 = 1. 15 + 1 = 16.', '96 ÷ 6 = 16. 90 ÷ 6 = 15, and 6 ÷ 6 = 1. 15 + 1 = 16.'
+),
+(
+    'mcq_mat_h02', 'mcq', 'maths', 'Solve: 144 ÷ 8',
+    '16', '38', '18', '8',
+    'c', 3, 10, 'Halve three times: 144 -> 72 -> 36 -> 18.', '144 ÷ 8 = 18. Halve three times: 144 -> 72 -> 36 -> 18.'
+),
+(
+    'mcq_mat_h03', 'mcq', 'maths', 'Solve: 135 ÷ 9',
+    '35', '24', '15', '25',
+    'c', 3, 10, '90 ÷ 9 = 10, and 45 ÷ 9 = 5. 10 + 5 = 15.', '135 ÷ 9 = 15. 90 ÷ 9 = 10, and 45 ÷ 9 = 5. 10 + 5 = 15.'
+),
+(
+    'mcq_mat_h04', 'mcq', 'maths', 'Solve: 112 ÷ 7',
+    '16', '5', '27', '11',
+    'a', 3, 10, '70 ÷ 7 = 10, and 42 ÷ 7 = 6. 10 + 6 = 16.', '112 ÷ 7 = 16. 70 ÷ 7 = 10, and 42 ÷ 7 = 6. 10 + 6 = 16.'
+),
+(
+    'mcq_mat_h05', 'mcq', 'maths', 'Solve: 168 ÷ 4',
+    '41', '31', '42', '32',
+    'c', 3, 10, '160 ÷ 4 = 40, and 8 ÷ 4 = 2. 40 + 2 = 42.', '168 ÷ 4 = 42. 160 ÷ 4 = 40, and 8 ÷ 4 = 2. 40 + 2 = 42.'
+),
+(
+    'mcq_mat_h06', 'mcq', 'maths', 'Solve: 348 + 275',
+    '624', '632', '623', '614',
+    'c', 3, 10, '348 + 200 = 548, 548 + 70 = 618, 618 + 5 = 623.', '348 + 275 = 623. 348 + 200 = 548, 548 + 70 = 618, 618 + 5 = 623.'
+),
+(
+    'mcq_mat_h07', 'mcq', 'maths', 'Solve: 724 - 386',
+    '336', '348', '338', '343',
+    'c', 3, 10, '724 - 300 = 424, 424 - 80 = 344, 344 - 6 = 338.', '724 - 386 = 338. 724 - 300 = 424, 424 - 80 = 344, 344 - 6 = 338.'
+),
+(
+    'mcq_mat_h08', 'mcq', 'maths', 'Solve: 467 + 389',
+    '847', '851', '856', '845',
+    'c', 3, 10, '467 + 400 = 867, then 867 - 11 = 856.', '467 + 389 = 856. 467 + 400 = 867, then 867 - 11 = 856.'
+),
+(
+    'mcq_mat_h09', 'mcq', 'maths', 'Solve: 852 - 478',
+    '383', '385', '369', '374',
+    'd', 3, 10, '852 - 500 = 352, then add back 22 = 374.', '852 - 478 = 374. 852 - 500 = 352, then add back 22 = 374.'
+),
+(
+    'mcq_mat_h10', 'mcq', 'maths', 'Solve: 583 + 249',
+    '832', '831', '827', '843',
+    'a', 3, 10, '583 + 250 = 833, then 833 - 1 = 832.', '583 + 249 = 832. 583 + 250 = 833, then 833 - 1 = 832.'
 )
 ON CONFLICT (question_code) DO UPDATE SET
     question_type = EXCLUDED.question_type,

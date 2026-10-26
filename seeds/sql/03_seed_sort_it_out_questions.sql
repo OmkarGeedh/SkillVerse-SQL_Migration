@@ -1,4 +1,4 @@
--- Seeds: Sort It Out questions (230 items)
+-- Seeds: Sort It Out questions (265 items)
 
 INSERT INTO sort_it_out_questions (
     question_code, topic_id, pair_type, prompt,
@@ -991,6 +991,163 @@ INSERT INTO sort_it_out_questions (
 (
     'sio_acc_ch1_s010_08', 'accounting', 'profit_loss', 'Expenses exceed income',
     'Profit', 'Loss', 'b', 2, 5, NULL, 'When expenses exceed income, the business incurs a loss.'
+),
+(
+    'sio_mat_e01', 'maths', 'even_odd', '34 + 28',
+    'Even', 'Odd', 'a', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '34 + 28 = 62, which is Even. Parity rule: Even + Even = Even (34 + 28 = 62).'
+),
+(
+    'sio_mat_e02', 'maths', 'even_odd', '45 + 18',
+    'Even', 'Odd', 'b', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '45 + 18 = 63, which is Odd. Parity rule: Odd + Even = Odd (45 + 18 = 63).'
+),
+(
+    'sio_mat_e03', 'maths', 'even_odd', '76 - 32',
+    'Even', 'Odd', 'a', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '76 - 32 = 44, which is Even. Parity rule: Even - Even = Even (76 - 32 = 44).'
+),
+(
+    'sio_mat_e04', 'maths', 'even_odd', '87 - 42',
+    'Even', 'Odd', 'b', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '87 - 42 = 45, which is Odd. Parity rule: Odd - Even = Odd (87 - 42 = 45).'
+),
+(
+    'sio_mat_e05', 'maths', 'even_odd', '53 + 29',
+    'Even', 'Odd', 'a', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '53 + 29 = 82, which is Even. Parity rule: Odd + Odd = Even (53 + 29 = 82).'
+),
+(
+    'sio_mat_e06', 'maths', 'even_odd', '68 - 25',
+    'Even', 'Odd', 'b', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '68 - 25 = 43, which is Odd. Parity rule: Even - Odd = Odd (68 - 25 = 43).'
+),
+(
+    'sio_mat_e07', 'maths', 'even_odd', '26 + 44',
+    'Even', 'Odd', 'a', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '26 + 44 = 70, which is Even. Parity rule: Even + Even = Even (26 + 44 = 70).'
+),
+(
+    'sio_mat_e08', 'maths', 'even_odd', '91 - 34',
+    'Even', 'Odd', 'b', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '91 - 34 = 57, which is Odd. Parity rule: Odd - Even = Odd (91 - 34 = 57).'
+),
+(
+    'sio_mat_e09', 'maths', 'even_odd', '42 + 36',
+    'Even', 'Odd', 'a', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '42 + 36 = 78, which is Even. Parity rule: Even + Even = Even (42 + 36 = 78).'
+),
+(
+    'sio_mat_e10', 'maths', 'even_odd', '73 - 28',
+    'Even', 'Odd', 'b', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '73 - 28 = 45, which is Odd. Parity rule: Odd - Even = Odd (73 - 28 = 45).'
+),
+(
+    'sio_mat_e11', 'maths', 'even_odd', '58 + 26',
+    'Even', 'Odd', 'a', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '58 + 26 = 84, which is Even. Parity rule: Even + Even = Even (58 + 26 = 84).'
+),
+(
+    'sio_mat_e12', 'maths', 'even_odd', '85 - 32',
+    'Even', 'Odd', 'b', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '85 - 32 = 53, which is Odd. Parity rule: Odd - Even = Odd (85 - 32 = 53).'
+),
+(
+    'sio_mat_e13', 'maths', 'even_odd', '37 + 49',
+    'Even', 'Odd', 'a', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '37 + 49 = 86, which is Even. Parity rule: Odd + Odd = Even (37 + 49 = 86).'
+),
+(
+    'sio_mat_e14', 'maths', 'even_odd', '64 - 17',
+    'Even', 'Odd', 'b', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '64 - 17 = 47, which is Odd. Parity rule: Even - Odd = Odd (64 - 17 = 47).'
+),
+(
+    'sio_mat_e15', 'maths', 'even_odd', '48 + 32',
+    'Even', 'Odd', 'a', 1, 10, 'Check the last digits or use parity rules (Even/Odd).', '48 + 32 = 80, which is Even. Parity rule: Even + Even = Even (48 + 32 = 80).'
+),
+(
+    'sio_mat_m01', 'maths', 'even_odd', '14 × 5',
+    'Even', 'Odd', 'a', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '14 × 5 = 70, which is Even. Parity rule: Even × Odd = Even (14 × 5 = 70).'
+),
+(
+    'sio_mat_m02', 'maths', 'even_odd', '17 × 3',
+    'Even', 'Odd', 'b', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '17 × 3 = 51, which is Odd. Parity rule: Odd × Odd = Odd (17 × 3 = 51).'
+),
+(
+    'sio_mat_m03', 'maths', 'even_odd', '22 × 4',
+    'Even', 'Odd', 'a', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '22 × 4 = 88, which is Even. Parity rule: Even × Even = Even (22 × 4 = 88).'
+),
+(
+    'sio_mat_m04', 'maths', 'even_odd', '25 × 3',
+    'Even', 'Odd', 'b', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '25 × 3 = 75, which is Odd. Parity rule: Odd × Odd = Odd (25 × 3 = 75).'
+),
+(
+    'sio_mat_m05', 'maths', 'even_odd', '18 × 6',
+    'Even', 'Odd', 'a', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '18 × 6 = 108, which is Even. Parity rule: Even × Even = Even (18 × 6 = 108).'
+)
+ON CONFLICT (question_code) DO UPDATE SET
+    topic_id = EXCLUDED.topic_id,
+    pair_type = EXCLUDED.pair_type,
+    prompt = EXCLUDED.prompt,
+    option_a = EXCLUDED.option_a,
+    option_b = EXCLUDED.option_b,
+    correct_option = EXCLUDED.correct_option,
+    difficulty = EXCLUDED.difficulty,
+    points = EXCLUDED.points,
+    hint = EXCLUDED.hint,
+    explanation = EXCLUDED.explanation,
+    updated_at = CURRENT_TIMESTAMP;
+
+INSERT INTO sort_it_out_questions (
+    question_code, topic_id, pair_type, prompt,
+    option_a, option_b, correct_option, difficulty, points, hint, explanation
+) VALUES
+(
+    'sio_mat_m06', 'maths', 'even_odd', '19 × 5',
+    'Even', 'Odd', 'b', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '19 × 5 = 95, which is Odd. Parity rule: Odd × Odd = Odd (19 × 5 = 95).'
+),
+(
+    'sio_mat_m07', 'maths', 'even_odd', '32 × 4',
+    'Even', 'Odd', 'a', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '32 × 4 = 128, which is Even. Parity rule: Even × Even = Even (32 × 4 = 128).'
+),
+(
+    'sio_mat_m08', 'maths', 'even_odd', '27 × 3',
+    'Even', 'Odd', 'b', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '27 × 3 = 81, which is Odd. Parity rule: Odd × Odd = Odd (27 × 3 = 81).'
+),
+(
+    'sio_mat_m09', 'maths', 'even_odd', '16 × 7',
+    'Even', 'Odd', 'a', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '16 × 7 = 112, which is Even. Parity rule: Even × Odd = Even (16 × 7 = 112).'
+),
+(
+    'sio_mat_m10', 'maths', 'even_odd', '23 × 5',
+    'Even', 'Odd', 'b', 2, 10, 'Check the last digits or use parity rules (Even/Odd).', '23 × 5 = 115, which is Odd. Parity rule: Odd × Odd = Odd (23 × 5 = 115).'
+),
+(
+    'sio_mat_h01', 'maths', 'even_odd', '120 ÷ 5',
+    'Even', 'Odd', 'a', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '120 ÷ 5 = 24, which is Even. Parity rule: 120 ÷ 5 = 24 (Even).'
+),
+(
+    'sio_mat_h02', 'maths', 'even_odd', '135 ÷ 9',
+    'Even', 'Odd', 'b', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '135 ÷ 9 = 15, which is Odd. Parity rule: 135 ÷ 9 = 15 (Odd).'
+),
+(
+    'sio_mat_h03', 'maths', 'even_odd', '144 ÷ 6',
+    'Even', 'Odd', 'a', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '144 ÷ 6 = 24, which is Even. Parity rule: 144 ÷ 6 = 24 (Even).'
+),
+(
+    'sio_mat_h04', 'maths', 'even_odd', '117 ÷ 9',
+    'Even', 'Odd', 'b', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '117 ÷ 9 = 13, which is Odd. Parity rule: 117 ÷ 9 = 13 (Odd).'
+),
+(
+    'sio_mat_h05', 'maths', 'even_odd', '168 ÷ 8',
+    'Even', 'Odd', 'b', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '168 ÷ 8 = 21, which is Odd. Parity rule: 168 ÷ 8 = 21 (Odd).'
+),
+(
+    'sio_mat_h06', 'maths', 'even_odd', '342 + 216',
+    'Even', 'Odd', 'a', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '342 + 216 = 558, which is Even. Parity rule: Even + Even = Even (342 + 216 = 558).'
+),
+(
+    'sio_mat_h07', 'maths', 'even_odd', '579 - 234',
+    'Even', 'Odd', 'b', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '579 - 234 = 345, which is Odd. Parity rule: Odd - Even = Odd (579 - 234 = 345).'
+),
+(
+    'sio_mat_h08', 'maths', 'even_odd', '468 + 154',
+    'Even', 'Odd', 'a', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '468 + 154 = 622, which is Even. Parity rule: Even + Even = Even (468 + 154 = 622).'
+),
+(
+    'sio_mat_h09', 'maths', 'even_odd', '785 - 342',
+    'Even', 'Odd', 'b', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '785 - 342 = 443, which is Odd. Parity rule: Odd - Even = Odd (785 - 342 = 443).'
+),
+(
+    'sio_mat_h10', 'maths', 'even_odd', '624 - 188',
+    'Even', 'Odd', 'a', 3, 10, 'Check the last digits or use parity rules (Even/Odd).', '624 - 188 = 436, which is Even. Parity rule: Even - Even = Even (624 - 188 = 436).'
 )
 ON CONFLICT (question_code) DO UPDATE SET
     topic_id = EXCLUDED.topic_id,
