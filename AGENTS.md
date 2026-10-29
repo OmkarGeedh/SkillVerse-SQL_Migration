@@ -72,6 +72,7 @@ Rules:
 - `user_question_history.question_code` has no FK on purpose (history survives retired questions).
 - Seed files use `MERGE … WHEN NOT MATCHED BY SOURCE` (needs PostgreSQL ≥ 17): rows removed from a subject's CSVs are deleted, unchanged rows are not rewritten. Catalog merge never deletes.
 - Local Docker uses `postgres:18-alpine` with the volume at `/var/lib/postgresql`. An old PG16 volume is incompatible: `docker compose down -v` first.
+- `docker compose` substitutes `DB_URL` from this repo's `.env` (Neon), so `docker compose run migrator` targets Neon unless you override `DB_URL`. For local work pass `-db postgresql://skillverse:skillverse_secrets@127.0.0.1:<POSTGRES_PORT>/gamifiedapp?sslmode=disable`.
 
 ## Code layout
 - `cmd/db` — CLI (`import`, `seed`, `migrate up|down|version|drop|reset`)
