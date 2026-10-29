@@ -2,6 +2,7 @@ package csvimport
 
 import (
 	"bytes"
+	"encoding/json"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -20,8 +21,8 @@ type File struct {
 }
 
 // Render produces one catalog file plus one file per game per subject. Each content
-// file is a set of MERGE statements: insert new rows, update only changed rows, and
-// delete rows of that subject that are no longer in the CSVs.
+// file is one MERGE: insert new rows, update only changed rows, and delete rows of
+// that subject that are no longer in the CSVs.
 func Render(d *Dataset) []File {
 	files := []File{{Name: "10_catalog.sql", Content: renderCatalog(d)}}
 	for _, s := range d.Subjects {
@@ -40,14 +41,14 @@ func Render(d *Dataset) []File {
 		if len(sets) > 0 {
 			files = append(files, File{"40_sort_it_out_" + s.Code + ".sql", renderSort(s, sets)})
 		}
-		var boards []Board
-		for _, b := range d.Boards {
-			if b.Subject == s.Code {
-				boards = append(boards, b)
+		var pairs []Pair
+		for _, p := range d.Pairs {
+			if p.Subject == s.Code {
+				pairs = append(pairs, p)
 			}
 		}
-		if len(boards) > 0 {
-			files = append(files, File{"50_match_" + s.Code + ".sql", renderMatch(s, boards)})
+		if len(pairs) > 0 {
+			files = append(files, File{"50_match_" + s.Code + ".sql", renderMatch(s, pairs)})
 		}
 	}
 	return files
@@ -127,27 +128,26 @@ func header(b *strings.Builder, desc string) {
 
 func renderCatalog(d *Dataset) string {
 	var b strings.Builder
-	header(&b, fmt.Sprintf("%d subjects, %d chapters. Upsert only: removing a chapter here never cascades into content.", len(d.Subjects), len(d.Chapters)))
+	header(&b, fmt.Sprintf("%d subjects, %d chapters. Upsert only: never deletes a subject (that would cascade into content).", len(d.Subjects), len(d.Chapters)))
 
+	cols := []string{"short_code", "grade", "name", "sort_order", "chapters"}
 	var rows []string
 	for _, s := range d.Subjects {
-		rows = append(rows, tuple(lit(s.Code), lit(s.Short), num(s.Grade), lit(s.Name), num(s.SortOrder)))
+		chapters := map[string]string{}
+		for _, c := range d.Chapters {
+			if c.Subject == s.Code {
+				chapters[strconv.Itoa(c.No)] = c.Title
+			}
+		}
+		js, _ := json.Marshal(chapters)
+		rows = append(rows, tuple(lit(s.Code), lit(s.Short), num(s.Grade), lit(s.Name), num(s.SortOrder), lit(string(js))+"::jsonb"))
 	}
-	b.WriteString("MERGE INTO subjects AS t\nUSING (VALUES\n" + strings.Join(rows, ",\n") +
-		"\n) AS s (code, short_code, grade, name, sort_order)\nON t.code = s.code\n" +
-		"WHEN MATCHED AND (t.short_code, t.grade, t.name, t.sort_order) IS DISTINCT FROM (s.short_code, s.grade, s.name, s.sort_order) THEN\n" +
-		"    UPDATE SET short_code = s.short_code, grade = s.grade, name = s.name, sort_order = s.sort_order\n" +
-		"WHEN NOT MATCHED THEN\n    INSERT (code, short_code, grade, name, sort_order) VALUES (s.code, s.short_code, s.grade, s.name, s.sort_order);\n\n")
-
-	rows = rows[:0]
-	for _, c := range d.Chapters {
-		rows = append(rows, tuple(lit(c.Subject), num(c.No), lit(c.Title)))
-	}
-	b.WriteString("MERGE INTO chapters AS t\nUSING (\n    SELECT sub.id AS subject_id, v.chapter_no, v.title\n    FROM (VALUES\n" +
-		strings.Join(rows, ",\n") + "\n    ) AS v (subject, chapter_no, title)\n    JOIN subjects sub ON sub.code = v.subject\n) AS s\n" +
-		"ON t.subject_id = s.subject_id AND t.chapter_no = s.chapter_no\n" +
-		"WHEN MATCHED AND t.title IS DISTINCT FROM s.title THEN\n    UPDATE SET title = s.title\n" +
-		"WHEN NOT MATCHED THEN\n    INSERT (subject_id, chapter_no, title) VALUES (s.subject_id, s.chapter_no, s.title);\n")
+	writeMerge(&b, mergeSpec{
+		table:  "subjects",
+		key:    "code",
+		source: "    SELECT * FROM (VALUES\n" + strings.Join(rows, ",\n") + "\n    ) AS v (code, " + strings.Join(cols, ", ") + ")",
+		cols:   cols,
+	})
 	return b.String()
 }
 
@@ -156,96 +156,57 @@ func renderChoice(s Subject, qs []Question, table string, nOpts int) string {
 	header(&b, fmt.Sprintf("%s: %d questions for subject %s.", table, len(qs), s.Code))
 
 	optCols := []string{"option_a", "option_b", "option_c", "option_d"}[:nOpts]
-	cols := append(append([]string{"prompt"}, optCols...), "correct_option", "difficulty", "points", "hint", "explanation")
+	cols := append(append([]string{"chapter_no", "prompt"}, optCols...), "correct_option", "difficulty", "hint", "explanation")
 	rows := make([]string, 0, len(qs))
 	for _, q := range qs {
 		vals := []string{lit(q.Code), num(q.Chapter), lit(q.Prompt)}
 		for _, o := range q.Options {
 			vals = append(vals, lit(o))
 		}
-		vals = append(vals, lit(q.Correct), num(q.Difficulty), num(q.Points), nullable(q.Hint), nullable(q.Explanation))
+		vals = append(vals, lit(q.Correct), num(q.Difficulty), nullable(q.Hint), nullable(q.Explanation))
 		rows = append(rows, tuple(vals...))
 	}
-	writeMerge(&b, mergeSpec{
-		table:     table,
-		key:       "question_code",
-		source:    sourceByChapter(s, rows, append([]string{"question_code", "chapter_no"}, cols...), "v.question_code, c.id AS chapter_id, "+prefixed("v.", cols)),
-		cols:      append([]string{"chapter_id"}, cols...),
-		ownedRows: "t.chapter_id IN (" + subjectChapters(s) + ")",
-	})
+	writeSubjectMerge(&b, s, table, cols, rows)
 	return b.String()
 }
 
 func renderSort(s Subject, sets []SortSet) string {
 	var b strings.Builder
-	items := 0
+	var rows []string
 	for _, x := range sets {
-		items += len(x.Items)
-	}
-	header(&b, fmt.Sprintf("sort_it_out_sets/items: %d sets, %d items for subject %s.", len(sets), items, s.Code))
-
-	setCols := []string{"item_type", "bucket_a", "bucket_b"}
-	var setRows, itemRows []string
-	for _, x := range sets {
-		setRows = append(setRows, tuple(lit(x.Code), num(x.Chapter), lit(x.ItemType), lit(x.BucketA), lit(x.BucketB)))
 		for _, it := range x.Items {
-			itemRows = append(itemRows, tuple(lit(it.Code), lit(x.Code), lit(it.Prompt), lit(it.Correct), num(it.Difficulty), num(it.Points), nullable(it.Explanation)))
+			rows = append(rows, tuple(lit(it.Code), num(x.Chapter), lit(x.Code), lit(x.ItemType), lit(x.BucketA), lit(x.BucketB),
+				lit(it.Prompt), lit(it.Correct), num(it.Difficulty), nullable(it.Explanation)))
 		}
 	}
-	writeMerge(&b, mergeSpec{
-		table:     "sort_it_out_sets",
-		key:       "set_code",
-		source:    sourceByChapter(s, setRows, append([]string{"set_code", "chapter_no"}, setCols...), "v.set_code, c.id AS chapter_id, "+prefixed("v.", setCols)),
-		cols:      append([]string{"chapter_id"}, setCols...),
-		ownedRows: "t.chapter_id IN (" + subjectChapters(s) + ")",
-	})
-	b.WriteString("\n")
-
-	itemCols := []string{"prompt", "correct_bucket", "difficulty", "points", "explanation"}
-	writeMerge(&b, mergeSpec{
-		table: "sort_it_out_items",
-		key:   "question_code",
-		source: "    SELECT v.question_code, st.id AS set_id, " + prefixed("v.", itemCols) + "\n    FROM (VALUES\n" + strings.Join(itemRows, ",\n") +
-			"\n    ) AS v (question_code, set_code, " + strings.Join(itemCols, ", ") + ")\n    JOIN sort_it_out_sets st ON st.set_code = v.set_code",
-		cols:      append([]string{"set_id"}, itemCols...),
-		ownedRows: "t.set_id IN (SELECT st.id FROM sort_it_out_sets st WHERE st.chapter_id IN (" + subjectChapters(s) + "))",
-	})
+	header(&b, fmt.Sprintf("sort_it_out_questions: %d sets, %d items for subject %s.", len(sets), len(rows), s.Code))
+	cols := []string{"chapter_no", "set_code", "item_type", "bucket_a", "bucket_b", "prompt", "correct_bucket", "difficulty", "explanation"}
+	writeSubjectMerge(&b, s, "sort_it_out_questions", cols, rows)
 	return b.String()
 }
 
-func renderMatch(s Subject, boards []Board) string {
+func renderMatch(s Subject, pairs []Pair) string {
 	var b strings.Builder
-	pairs := 0
-	for _, x := range boards {
-		pairs += len(x.Pairs)
+	header(&b, fmt.Sprintf("match_pairs: %d pairs for subject %s.", len(pairs), s.Code))
+	rows := make([]string, 0, len(pairs))
+	for _, p := range pairs {
+		rows = append(rows, tuple(lit(p.Code), num(p.Chapter), lit(p.Left), lit(p.Right), num(p.Difficulty)))
 	}
-	header(&b, fmt.Sprintf("match_boards/pairs: %d boards, %d pairs for subject %s.", len(boards), pairs, s.Code))
-
-	cols := []string{"prompt", "difficulty", "points", "hint", "explanation"}
-	var boardRows, pairRows []string
-	for _, x := range boards {
-		boardRows = append(boardRows, tuple(lit(x.Code), num(x.Chapter), lit(x.Prompt), num(x.Difficulty), num(x.Points), nullable(x.Hint), nullable(x.Explanation)))
-		for i, p := range x.Pairs {
-			pairRows = append(pairRows, tuple(lit(x.Code), num(i+1), lit(p.Left), lit(p.Right)))
-		}
-	}
-	writeMerge(&b, mergeSpec{
-		table:     "match_boards",
-		key:       "question_code",
-		source:    sourceByChapter(s, boardRows, append([]string{"question_code", "chapter_no"}, cols...), "v.question_code, c.id AS chapter_id, "+prefixed("v.", cols)),
-		cols:      append([]string{"chapter_id"}, cols...),
-		ownedRows: "t.chapter_id IN (" + subjectChapters(s) + ")",
-	})
-	b.WriteString("\n")
-
-	b.WriteString("MERGE INTO match_pairs AS t\nUSING (\n    SELECT mb.id AS board_id, v.pair_order, v.left_text, v.right_text\n    FROM (VALUES\n" +
-		strings.Join(pairRows, ",\n") + "\n    ) AS v (question_code, pair_order, left_text, right_text)\n    JOIN match_boards mb ON mb.question_code = v.question_code\n) AS s\n" +
-		"ON t.board_id = s.board_id AND t.pair_order = s.pair_order\n" +
-		"WHEN MATCHED AND (t.left_text, t.right_text) IS DISTINCT FROM (s.left_text, s.right_text) THEN\n" +
-		"    UPDATE SET left_text = s.left_text, right_text = s.right_text\n" +
-		"WHEN NOT MATCHED THEN\n    INSERT (board_id, pair_order, left_text, right_text) VALUES (s.board_id, s.pair_order, s.left_text, s.right_text)\n" +
-		"WHEN NOT MATCHED BY SOURCE AND t.board_id IN (SELECT mb.id FROM match_boards mb WHERE mb.chapter_id IN (" + subjectChapters(s) + ")) THEN\n    DELETE;\n")
+	writeSubjectMerge(&b, s, "match_pairs", []string{"chapter_no", "left_text", "right_text", "difficulty"}, rows)
 	return b.String()
+}
+
+// writeSubjectMerge merges one subject's rows (question_code + cols) into a content
+// table; the file owns exactly the rows of that subject.
+func writeSubjectMerge(b *strings.Builder, s Subject, table string, cols, rows []string) {
+	writeMerge(b, mergeSpec{
+		table: table,
+		key:   "question_code",
+		source: "    SELECT v.question_code, " + lit(s.Code) + " AS subject, " + prefixed("v.", cols) + "\n    FROM (VALUES\n" +
+			strings.Join(rows, ",\n") + "\n    ) AS v (question_code, " + strings.Join(cols, ", ") + ")",
+		cols:      append([]string{"subject"}, cols...),
+		ownedRows: "t.subject = " + lit(s.Code),
+	})
 }
 
 type mergeSpec struct {
@@ -253,7 +214,7 @@ type mergeSpec struct {
 	key       string
 	source    string   // SELECT producing key + cols
 	cols      []string // non-key columns
-	ownedRows string   // condition on target rows this file is authoritative for
+	ownedRows string   // target rows this file is authoritative for; "" = never delete
 }
 
 func writeMerge(b *strings.Builder, m mergeSpec) {
@@ -265,18 +226,12 @@ func writeMerge(b *strings.Builder, m mergeSpec) {
 	fmt.Fprintf(b, "WHEN MATCHED AND (%s) IS DISTINCT FROM (%s) THEN\n    UPDATE SET %s\n",
 		prefixed("t.", m.cols), prefixed("s.", m.cols), strings.Join(set, ", "))
 	all := append([]string{m.key}, m.cols...)
-	fmt.Fprintf(b, "WHEN NOT MATCHED THEN\n    INSERT (%s) VALUES (%s)\n", strings.Join(all, ", "), prefixed("s.", all))
-	fmt.Fprintf(b, "WHEN NOT MATCHED BY SOURCE AND %s THEN\n    DELETE;\n", m.ownedRows)
-}
-
-func sourceByChapter(s Subject, rows []string, valueCols []string, selectList string) string {
-	return "    SELECT " + selectList + "\n    FROM (VALUES\n" + strings.Join(rows, ",\n") +
-		"\n    ) AS v (" + strings.Join(valueCols, ", ") + ")\n" +
-		"    JOIN chapters c ON c.chapter_no = v.chapter_no\n    JOIN subjects sub ON sub.id = c.subject_id AND sub.code = " + lit(s.Code)
-}
-
-func subjectChapters(s Subject) string {
-	return "SELECT c.id FROM chapters c JOIN subjects sub ON sub.id = c.subject_id WHERE sub.code = " + lit(s.Code)
+	fmt.Fprintf(b, "WHEN NOT MATCHED THEN\n    INSERT (%s) VALUES (%s)", strings.Join(all, ", "), prefixed("s.", all))
+	if m.ownedRows == "" {
+		b.WriteString(";\n")
+		return
+	}
+	fmt.Fprintf(b, "\nWHEN NOT MATCHED BY SOURCE AND %s THEN\n    DELETE;\n", m.ownedRows)
 }
 
 func prefixed(p string, cols []string) string {

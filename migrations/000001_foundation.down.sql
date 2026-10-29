@@ -1,5 +1,4 @@
 DROP DOMAIN IF EXISTS question_code_t;
 DROP DOMAIN IF EXISTS nonblank_t;
-DROP DOMAIN IF EXISTS points_t;
 DROP DOMAIN IF EXISTS difficulty_t;
 DROP DOMAIN IF EXISTS game_mode_t;

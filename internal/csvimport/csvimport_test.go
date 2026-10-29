@@ -42,8 +42,9 @@ func fixture(t *testing.T) string {
 		"S.No,Board ID,Prompt,Left,Right,Difficulty,Points,Hint,Explanation\n"+
 			"1,MTF-001,Match sets,{},Empty,1,40,,\n"+
 			"2,MTF-001,Match sets,N,Naturals,1,40,,\n"+
-			"3,MTF-002,Ambiguous,A,X,1,40,,\n"+
-			"4,MTF-002,Ambiguous,B,X,1,40,,\n")
+			"3,MTF-002,Same right,A,X,1,40,,\n"+
+			"4,MTF-002,Same right,B,X,1,40,,\n"+
+			"5,MTF-003,Repeat,{},Empty,1,40,,\n")
 	return root
 }
 
@@ -75,11 +76,11 @@ func TestLoad(t *testing.T) {
 		t.Errorf("unexpected sort item %+v", it)
 	}
 
-	if len(ds.Boards) != 1 || ds.Boards[0].Code != "mth11a-01-mf-0001" || len(ds.Boards[0].Pairs) != 2 {
-		t.Errorf("unexpected boards %+v", ds.Boards)
+	if len(ds.Pairs) != 4 || ds.Pairs[0].Code != "mth11a-01-mf-0001" || ds.Pairs[3].Right != "X" {
+		t.Errorf("unexpected pairs %+v", ds.Pairs)
 	}
 
-	// dup options, bad letter, inconsistent set buckets, ambiguous board
+	// dup options, bad letter, inconsistent set buckets, repeated match pair
 	if len(ds.Warnings) != 4 {
 		t.Errorf("warnings = %d, want 4: %v", len(ds.Warnings), ds.Warnings)
 	}
@@ -145,7 +146,7 @@ func TestRenderAndWrite(t *testing.T) {
 		}
 	}
 	mcq := names["20_mcq_maths1.sql"]
-	for _, want := range []string{"'It''s the 5th term?'", "WHEN NOT MATCHED BY SOURCE", "IS DISTINCT FROM", "sub.code = 'maths1'"} {
+	for _, want := range []string{"'It''s the 5th term?'", "WHEN NOT MATCHED BY SOURCE", "IS DISTINCT FROM", "t.subject = 'maths1'"} {
 		if !strings.Contains(mcq, want) {
 			t.Errorf("mcq sql missing %q", want)
 		}

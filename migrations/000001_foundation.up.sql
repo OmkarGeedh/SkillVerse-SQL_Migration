@@ -6,9 +6,6 @@ CREATE DOMAIN game_mode_t AS text
 CREATE DOMAIN difficulty_t AS smallint
     CHECK (VALUE BETWEEN 1 AND 3);
 
-CREATE DOMAIN points_t AS smallint
-    CHECK (VALUE > 0);
-
 CREATE DOMAIN nonblank_t AS text
     CHECK (btrim(VALUE) <> '');
 

@@ -53,8 +53,8 @@ func runImport(args []string) {
 	for _, w := range ds.Warnings {
 		log.Printf("skipped %s", w)
 	}
-	log.Printf("loaded %d subjects, %d chapters | mcq %d | sudden_death %d | sort_it_out %d sets / %d items | match %d boards | %d rows skipped",
-		len(ds.Subjects), len(ds.Chapters), len(ds.MCQ), len(ds.SuddenDeath), len(ds.SortSets), ds.SortItemCount(), len(ds.Boards), len(ds.Warnings))
+	log.Printf("loaded %d subjects, %d chapters | mcq %d | sudden_death %d | sort_it_out %d sets / %d items | match %d pairs | %d rows skipped",
+		len(ds.Subjects), len(ds.Chapters), len(ds.MCQ), len(ds.SuddenDeath), len(ds.SortSets), ds.SortItemCount(), len(ds.Pairs), len(ds.Warnings))
 
 	changed, err := csvimport.Write(*out, csvimport.Render(ds), *check)
 	if err != nil {

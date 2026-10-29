@@ -70,12 +70,28 @@ func MigrateUp(ctx context.Context, db *sql.DB, migrationsDir string) (int, erro
 	}
 
 	var upFiles []string
+	onDisk := map[string]bool{}
 	for _, e := range entries {
 		if !e.IsDir() && strings.HasSuffix(e.Name(), ".up.sql") {
 			upFiles = append(upFiles, e.Name())
+			onDisk[e.Name()] = true
 		}
 	}
 	sort.Strings(upFiles)
+
+	// Migrations get squashed while the project is pre-release. A database that applied
+	// files which no longer exist has an older schema that cannot be migrated forward.
+	var unknown []string
+	for v := range applied {
+		if !onDisk[v] {
+			unknown = append(unknown, v)
+		}
+	}
+	if len(unknown) > 0 {
+		sort.Strings(unknown)
+		return 0, fmt.Errorf("database has applied migrations that are not in %s (%s): the schema was squashed; "+
+			"rebuild it with `game-db migrate reset` (drops all data) and then `game-db seed`", migrationsDir, strings.Join(unknown, ", "))
+	}
 
 	if len(upFiles) == 0 {
 		log.Println("No .up.sql migrations found.")

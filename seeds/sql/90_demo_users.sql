@@ -12,42 +12,34 @@ VALUES
     ('tanvi_deshmukh', 'tanvi.deshmukh@example.com', '+1-555-0208', 'Tanvi Deshmukh', 'avatar_master', 'Grade 12', 'State Board', '["Accounting", "Finance"]', 1850, 260, 1980, 7, 18, 25, 2680),
     ('aditya_verma', 'aditya.verma@example.com', '+1-555-0209', 'Aditya Verma', 'avatar_tactician', 'Grade 11', 'ICSE', '["Accounting", "Business Studies"]', 540, 75, 410, 3, 4, 9, 810),
     ('meera_nair', 'meera.nair@example.com', '+1-555-0210', 'Meera Nair', 'avatar_legend', 'Grade 12', 'CBSE', '["Accounting", "Economics", "Commerce"]', 2400, 350, 2650, 8, 21, 30, 3400)
-),
-c AS (
-    INSERT INTO clients (username, email, phone, password, status)
-    SELECT username, email, phone, '$2a$12$FDChY3DB1CCaXYANYZi1iegRKal5QXEZFTQfsavE6D4MHDl1ZKw2C', 'active' FROM u
-    ON CONFLICT (email) DO UPDATE SET
-        username = EXCLUDED.username,
-        phone = EXCLUDED.phone,
-        password = EXCLUDED.password,
-        status = EXCLUDED.status,
-        updated_at = now()
-    RETURNING id, email
-),
-p AS (
-    INSERT INTO client_profiles (
-        client_id, uuid, full_name, avatar_id, class, board, subjects, is_onboarded,
-        coins, gems, experience, level, current_streak, highest_streak, last_active_date, weekly_score
-    )
-    SELECT c.id, gen_random_uuid()::text, u.full_name, u.avatar_id, u.class, u.board, u.subjects, true,
-           u.coins, u.gems, u.experience, u.level, u.current_streak, u.highest_streak, CURRENT_DATE, u.weekly_score
-    FROM u JOIN c USING (email)
-    ON CONFLICT (client_id) DO UPDATE SET
-        full_name = EXCLUDED.full_name,
-        avatar_id = EXCLUDED.avatar_id,
-        class = EXCLUDED.class,
-        board = EXCLUDED.board,
-        subjects = EXCLUDED.subjects,
-        coins = EXCLUDED.coins,
-        gems = EXCLUDED.gems,
-        experience = EXCLUDED.experience,
-        level = EXCLUDED.level,
-        current_streak = EXCLUDED.current_streak,
-        highest_streak = EXCLUDED.highest_streak,
-        weekly_score = EXCLUDED.weekly_score,
-        updated_at = now()
 )
-INSERT INTO client_streak_activities (client_id, activity_date)
-SELECT c.id, to_char(CURRENT_DATE - d, 'YYYY-MM-DD')
-FROM c CROSS JOIN generate_series(0, 2) AS d
-ON CONFLICT (client_id, activity_date) DO NOTHING;
+INSERT INTO clients (
+    username, email, phone, password, status,
+    full_name, avatar_id, class, board, subjects, is_onboarded,
+    coins, gems, experience, level, weekly_score,
+    current_streak, highest_streak, last_active_date, active_days
+)
+SELECT username, email, phone, '$2a$12$FDChY3DB1CCaXYANYZi1iegRKal5QXEZFTQfsavE6D4MHDl1ZKw2C', 'active',
+       full_name, avatar_id, class, board, subjects, true,
+       coins, gems, experience, level, weekly_score,
+       current_streak, highest_streak, CURRENT_DATE,
+       ARRAY[CURRENT_DATE - 2, CURRENT_DATE - 1, CURRENT_DATE]
+FROM u
+ON CONFLICT (email) DO UPDATE SET
+    username = EXCLUDED.username,
+    phone = EXCLUDED.phone,
+    password = EXCLUDED.password,
+    status = EXCLUDED.status,
+    full_name = EXCLUDED.full_name,
+    avatar_id = EXCLUDED.avatar_id,
+    class = EXCLUDED.class,
+    board = EXCLUDED.board,
+    subjects = EXCLUDED.subjects,
+    coins = EXCLUDED.coins,
+    gems = EXCLUDED.gems,
+    experience = EXCLUDED.experience,
+    level = EXCLUDED.level,
+    weekly_score = EXCLUDED.weekly_score,
+    current_streak = EXCLUDED.current_streak,
+    highest_streak = EXCLUDED.highest_streak,
+    updated_at = now();

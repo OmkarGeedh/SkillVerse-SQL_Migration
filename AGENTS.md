@@ -38,39 +38,40 @@ DB URL comes from `DB_URL` / `DATABASE_URL` (env or `.env`, which is gitignored)
 ### CSV columns (header names matched case/space/punctuation-insensitively; extra columns ignored)
 | Game | Required columns |
 |---|---|
-| MCQ | S.No, Question, Option A–D, Correct Option (A–D), Difficulty, Points, Hint, Explanation |
-| Sudden Death | S.No, Question, Option A, Option B, Correct Option (A/B), Difficulty, Points, Hint, Explanation |
-| Sort it out | S.No, Set ID (`SORT-001`), Item Type, Bucket A, Bucket B, Item, Correct Bucket (A/B), Difficulty, Points, Explanation |
-| Match the Following | S.No, Board ID (`MTF-001`), Prompt, Left, Right, Difficulty, Points, Hint, Explanation — one row per pair |
+| MCQ | S.No, Question, Option A–D, Correct Option (A–D), Difficulty, Hint, Explanation |
+| Sudden Death | S.No, Question, Option A, Option B, Correct Option (A/B), Difficulty, Hint, Explanation |
+| Sort it out | S.No, Set ID (`SORT-001`), Item Type, Bucket A, Bucket B, Item, Correct Bucket (A/B), Difficulty, Explanation |
+| Match the Following | S.No, Left, Right, Difficulty — one row per pair |
 
-Difficulty 1–3, Points 1–1000. Options (and a board's Left values and Right values) must be non-blank and unique.
+Difficulty 1–3. Options must be non-blank and unique. `Points` is ignored (scoring is fixed in the backend, `docs/points_calculation.md`). Match `Board ID`/`Prompt`/`Hint`/`Explanation` are ignored: the backend shuffles a chapter's pairs into boards of 4 each game and titles them "<subject> · <chapter>".
 
 ### Unclean data policy
 - Structural problems (unknown folder/chapter, missing columns, duplicate chapter file) **fail** the import.
-- Bad rows (blank/duplicate options, bad letter, duplicate S.No, inconsistent set/board fields, ambiguous board) are **skipped** and printed as `file:line: reason`.
+- Bad rows (blank/duplicate options, bad letter, duplicate S.No, inconsistent set fields, repeated match pair) are **skipped** and printed as `file:line: reason`.
 - Do not edit source CSVs without the user's permission. Record skipped rows in `Bug Reports/` (see `DQ-BUG-2026-10-002`).
 
 ### Question codes (stable across re-imports, ≤ 20 chars, `question_code_t` domain)
 `<short_code>-<chapter 2d>-<tag>-<n 4d>` where n is the row's S.No (Board ID number for boards).
-Tags: `mcq`, `sd` (sudden death), `so` (sort item), `mf` (match board). Sort sets: `<short>-<ch>-set-<nnn>`.
+Tags: `mcq`, `sd` (sudden death), `so` (sort item), `mf` (match pair). Sort sets: `<short>-<ch>-set-<nnn>`.
 Example: `acc11-04-mcq-0012`, `mth11b-07-so-0103`. Renumbering S.No changes codes (history keeps old codes).
 
-## Schema (migrations/, squashed 2026-10-29; data loss accepted then)
+## Schema (migrations/, squashed again 2026-10-29; data loss accepted)
+9 tables, no surrogate ids on content: every question row carries `subject` + `chapter_no` and is keyed by `question_code`.
+
 | Migration | Contents |
 |---|---|
-| 000001_foundation | domains: `game_mode_t`, `difficulty_t` (1–3), `points_t` (>0), `nonblank_t`, `question_code_t` (varchar(20), `^[a-z0-9-]+$`) |
-| 000002_accounts | `clients`, `client_profiles`, `client_streak_activities`, `wallet_ledger` (uuidv7 ids). Columns mirror backend GORM models — change both together |
-| 000003_catalog | `subjects` (code, short_code, grade, name, sort_order), `chapters` (subject_id, chapter_no, title) |
-| 000004_game_content | `mcq_questions`, `sudden_death_questions`, `sort_it_out_sets` + `sort_it_out_items`, `match_boards` + `match_pairs`. All FK to `chapters`; no empty/unused columns; `(chapter_id) INCLUDE (question_code)` indexes |
-| 000005_read_views | `v_mcq_questions`, `v_sudden_death_questions`, `v_sort_it_out_questions`, `v_match_boards`, `v_content_counts` — what the backend reads (`topic_id` = `subjects.code`, `pair_type` = sort `set_code`) |
-| 000006_gameplay | `user_question_history`, `leaderboard_game_results` (backend no longer AutoMigrates it) |
+| 000001_foundation | domains: `game_mode_t`, `difficulty_t` (1–3), `nonblank_t`, `question_code_t` (varchar(20), `^[a-z0-9-]+$`) |
+| 000002_players | `clients` = login + profile + balances + streak (`active_days date[]`, last 31 days; `uuid` = public id via `uuidv7()`), `wallet_ledger` (uuidv7 ids). Columns mirror backend `Client`/`Profile` models (both map to `clients`) — change both together |
+| 000003_content | `subjects` (PK `code` = API topic_id; `chapters jsonb` `{"4": "Ledger"}`), `mcq_questions`, `sudden_death_questions`, `sort_it_out_questions` (one row per item; `set_code` groups a game), `match_pairs` (one row per pair; boards are dealt by the backend), view `v_content_counts` |
+| 000004_gameplay | `user_question_history` (PK `session_id, question_code`; Match logs one row per pair), `leaderboard_game_results` (PK `session_id`) |
 
 Rules:
 - Migrations are schema only. Never put content in a migration.
-- New change = new `00000N_name.up.sql` + `.down.sql`. Don't edit applied migrations (the migrator tracks filenames in `schema_migrations`).
-- Backend reads content **through the views**. If you change a content table, keep the view columns stable or update `GamifiedQuizApp_digitalHQ/internal/models/game_model.go` + `internal/repo/game_repo.go`.
+- New change = new `00000N_name.up.sql` + `.down.sql`. Don't edit applied migrations (the migrator tracks filenames in `schema_migrations`). `migrate up` refuses to run on a database that applied files no longer on disk (a squash) and tells you to `migrate reset`.
+- Content tables are read by the backend directly (`internal/models/game_model.go` maps the columns); keep column names stable or update `internal/models` + `internal/repo/game_repo.go`.
+- `chapter_no` validity is enforced by the importer (chapter must exist in `catalog/chapters.csv`), not by a foreign key.
 - `user_question_history.question_code` has no FK on purpose (history survives retired questions).
-- Seed files use `MERGE … WHEN NOT MATCHED BY SOURCE` (needs PostgreSQL ≥ 17): rows removed from a subject's CSVs are deleted, unchanged rows are not rewritten. Catalog merge never deletes.
+- Seed files use `MERGE … WHEN NOT MATCHED BY SOURCE AND t.subject = …` (needs PostgreSQL ≥ 17): rows removed from a subject's CSVs are deleted, unchanged rows are not rewritten. The catalog merge never deletes.
 - Local Docker uses `postgres:18-alpine` with the volume at `/var/lib/postgresql`. An old PG16 volume is incompatible: `docker compose down -v` first.
 - `docker compose` substitutes `DB_URL` from this repo's `.env` (Neon), so `docker compose run migrator` targets Neon unless you override `DB_URL`. For local work pass `-db postgresql://skillverse:skillverse_secrets@127.0.0.1:<POSTGRES_PORT>/gamifiedapp?sslmode=disable`.
 

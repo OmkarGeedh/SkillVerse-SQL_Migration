@@ -31,10 +31,10 @@ var gameFolders = map[string]string{
 
 // Columns each game's CSV must carry (normalized header names). Extra columns are ignored.
 var requiredColumns = map[string][]string{
-	GameMCQ:         {"sno", "question", "optiona", "optionb", "optionc", "optiond", "correctoption", "difficulty", "points", "hint", "explanation"},
-	GameSuddenDeath: {"sno", "question", "optiona", "optionb", "correctoption", "difficulty", "points", "hint", "explanation"},
-	GameSortItOut:   {"sno", "setid", "itemtype", "bucketa", "bucketb", "item", "correctbucket", "difficulty", "points", "explanation"},
-	GameMatch:       {"sno", "boardid", "prompt", "left", "right", "difficulty", "points", "hint", "explanation"},
+	GameMCQ:         {"sno", "question", "optiona", "optionb", "optionc", "optiond", "correctoption", "difficulty", "hint", "explanation"},
+	GameSuddenDeath: {"sno", "question", "optiona", "optionb", "correctoption", "difficulty", "hint", "explanation"},
+	GameSortItOut:   {"sno", "setid", "itemtype", "bucketa", "bucketb", "item", "correctbucket", "difficulty", "explanation"},
+	GameMatch:       {"sno", "left", "right", "difficulty"},
 }
 
 type Subject struct {
@@ -61,7 +61,6 @@ type Question struct {
 	Options     []string
 	Correct     string
 	Difficulty  int
-	Points      int
 	Hint        string
 	Explanation string
 }
@@ -81,25 +80,18 @@ type SortItem struct {
 	Prompt      string
 	Correct     string
 	Difficulty  int
-	Points      int
 	Explanation string
 }
 
-type Board struct {
-	Code        string
-	Subject     string
-	Chapter     int
-	Prompt      string
-	Difficulty  int
-	Points      int
-	Hint        string
-	Explanation string
-	Pairs       []Pair
-}
-
+// Pair is one Match the Following left/right pair. The backend deals a chapter's pairs
+// into boards at game time, so the CSV's Board ID/Prompt/Hint/Explanation are ignored.
 type Pair struct {
-	Left  string
-	Right string
+	Code       string
+	Subject    string
+	Chapter    int
+	Left       string
+	Right      string
+	Difficulty int
 }
 
 type Dataset struct {
@@ -108,7 +100,7 @@ type Dataset struct {
 	MCQ         []Question
 	SuddenDeath []Question
 	SortSets    []SortSet
-	Boards      []Board
+	Pairs       []Pair
 	// Warnings lists rows skipped because their content is invalid (file:line: reason).
 	Warnings []string
 }
@@ -274,7 +266,7 @@ func parseQuestion(t *table, r row, nOpts int) (parsedQuestion, string) {
 	if q.Correct, problem = parseLetter(t.get(r, "correctoption"), nOpts, "Correct Option"); problem != "" {
 		return q, problem
 	}
-	if q.Difficulty, q.Points, problem = parseScoring(t, r); problem != "" {
+	if q.Difficulty, problem = parseDifficulty(t, r); problem != "" {
 		return q, problem
 	}
 	q.Hint, q.Explanation = t.get(r, "hint"), t.get(r, "explanation")
@@ -314,7 +306,7 @@ func (d *Dataset) loadSortItOut(t *table, subj Subject, ch int, warn func(int, s
 			item.Correct, problem = parseLetter(t.get(r, "correctbucket"), 2, "Correct Bucket")
 		}
 		if problem == "" {
-			item.Difficulty, item.Points, problem = parseScoring(t, r)
+			item.Difficulty, problem = parseDifficulty(t, r)
 		}
 		set := sets[setNo]
 		if problem == "" && set != nil && (set.ItemType != itemType || set.BucketA != a || set.BucketB != b) {
@@ -346,77 +338,32 @@ func (d *Dataset) loadSortItOut(t *table, subj Subject, ch int, warn func(int, s
 }
 
 func (d *Dataset) loadMatch(t *table, subj Subject, ch int, warn func(int, string, ...any)) {
-	type draft struct {
-		board Board
-		line  int
-		bad   string
-	}
-	boards := map[int]*draft{}
-	var order []int
-	seen := map[int]bool{}
+	seenSNo := map[int]bool{}
+	seenPair := map[string]bool{}
 	for _, r := range t.rows {
 		sno, problem := parseSNo(t.get(r, "sno"))
-		if problem == "" && seen[sno] {
+		if problem == "" && seenSNo[sno] {
 			problem = fmt.Sprintf("duplicate S.No %d", sno)
 		}
-		boardNo := 0
-		if m := trailingNumber.FindStringSubmatch(t.get(r, "boardid")); m != nil {
-			boardNo, _ = strconv.Atoi(m[1])
+		p := Pair{Left: t.get(r, "left"), Right: t.get(r, "right")}
+		if problem == "" {
+			problem = checkOptions([]string{p.Left, p.Right})
 		}
-		if problem == "" && (boardNo < 1 || boardNo > 9999) {
-			problem = fmt.Sprintf("Board ID %q must end with a number 1-9999", t.get(r, "boardid"))
-		}
-		pair := Pair{Left: t.get(r, "left"), Right: t.get(r, "right")}
-		if problem == "" && (pair.Left == "" || pair.Right == "") {
-			problem = "blank Left/Right"
-		}
-		b := Board{Prompt: t.get(r, "prompt"), Hint: t.get(r, "hint"), Explanation: t.get(r, "explanation")}
-		if problem == "" && b.Prompt == "" {
-			problem = "blank Prompt"
+		key := strings.ToLower(p.Left + "\x00" + p.Right)
+		if problem == "" && seenPair[key] {
+			problem = "duplicate Left/Right pair"
 		}
 		if problem == "" {
-			b.Difficulty, b.Points, problem = parseScoring(t, r)
+			p.Difficulty, problem = parseDifficulty(t, r)
 		}
 		if problem != "" {
 			warn(r.line, "%s", problem)
-			if dr := boards[boardNo]; dr != nil {
-				dr.bad = "contains an invalid row"
-			}
 			continue
 		}
-		seen[sno] = true
-		dr := boards[boardNo]
-		if dr == nil {
-			b.Code = fmt.Sprintf("%s-%02d-mf-%04d", subj.Short, ch, boardNo)
-			b.Subject, b.Chapter = subj.Code, ch
-			dr = &draft{board: b, line: r.line}
-			boards[boardNo] = dr
-			order = append(order, boardNo)
-		} else if dr.board.Prompt != b.Prompt || dr.board.Difficulty != b.Difficulty || dr.board.Points != b.Points ||
-			dr.board.Hint != b.Hint || dr.board.Explanation != b.Explanation {
-			dr.bad = fmt.Sprintf("line %d: Prompt/Difficulty/Points/Hint/Explanation differ from the board's first row", r.line)
-		}
-		dr.board.Pairs = append(dr.board.Pairs, pair)
-	}
-	for _, n := range order {
-		dr := boards[n]
-		if dr.bad == "" && len(dr.board.Pairs) < 2 {
-			dr.bad = "needs at least 2 pairs"
-		}
-		if dr.bad == "" {
-			lefts, rights := make([]string, 0, len(dr.board.Pairs)), make([]string, 0, len(dr.board.Pairs))
-			for _, p := range dr.board.Pairs {
-				lefts, rights = append(lefts, p.Left), append(rights, p.Right)
-			}
-			if checkOptions(lefts) != "" || checkOptions(rights) != "" {
-				dr.bad = "Left and Right values must each be unique within a board"
-			}
-		}
-		if dr.bad != "" {
-			warn(dr.line, "board %d skipped: %s", n, dr.bad)
-			continue
-		}
-		d.Boards = append(d.Boards, dr.board)
+		seenSNo[sno], seenPair[key] = true, true
+		p.Code = fmt.Sprintf("%s-%02d-mf-%04d", subj.Short, ch, sno)
+		p.Subject, p.Chapter = subj.Code, ch
+		d.Pairs = append(d.Pairs, p)
 	}
 }
 
@@ -436,16 +383,12 @@ func parseLetter(s string, nOpts int, col string) (string, string) {
 	return l, ""
 }
 
-func parseScoring(t *table, r row) (int, int, string) {
+func parseDifficulty(t *table, r row) (int, string) {
 	diff, err := strconv.Atoi(t.get(r, "difficulty"))
 	if err != nil || diff < 1 || diff > 3 {
-		return 0, 0, fmt.Sprintf("Difficulty %q must be 1, 2 or 3", t.get(r, "difficulty"))
+		return 0, fmt.Sprintf("Difficulty %q must be 1, 2 or 3", t.get(r, "difficulty"))
 	}
-	pts, err := strconv.Atoi(t.get(r, "points"))
-	if err != nil || pts < 1 || pts > 1000 {
-		return 0, 0, fmt.Sprintf("Points %q must be 1-1000", t.get(r, "points"))
-	}
-	return diff, pts, ""
+	return diff, ""
 }
 
 // checkOptions requires every value to be non-blank and distinct (case-insensitive).
@@ -508,7 +451,7 @@ func (d *Dataset) sortAll() {
 	sort.Slice(d.MCQ, byCode(func(i int) (string, string) { return d.MCQ[i].Subject, d.MCQ[i].Code }))
 	sort.Slice(d.SuddenDeath, byCode(func(i int) (string, string) { return d.SuddenDeath[i].Subject, d.SuddenDeath[i].Code }))
 	sort.Slice(d.SortSets, byCode(func(i int) (string, string) { return d.SortSets[i].Subject, d.SortSets[i].Code }))
-	sort.Slice(d.Boards, byCode(func(i int) (string, string) { return d.Boards[i].Subject, d.Boards[i].Code }))
+	sort.Slice(d.Pairs, byCode(func(i int) (string, string) { return d.Pairs[i].Subject, d.Pairs[i].Code }))
 }
 
 func (d *Dataset) checkUniqueCodes() error {
@@ -535,8 +478,8 @@ func (d *Dataset) checkUniqueCodes() error {
 			add(it.Code)
 		}
 	}
-	for _, b := range d.Boards {
-		add(b.Code)
+	for _, p := range d.Pairs {
+		add(p.Code)
 	}
 	if len(dups) > 0 {
 		return fmt.Errorf("invalid question codes: %s", strings.Join(dups, ", "))
