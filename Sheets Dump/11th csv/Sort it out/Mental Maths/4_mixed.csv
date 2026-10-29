@@ -1,0 +1,1201 @@
+﻿S.No,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Explanation
+1,SORT-001,Statement,False,True,21 - 18 + 12 = 15,B,1,21 - 18 + 12 = 15
+2,SORT-001,Statement,False,True,9 + 15 - 9 = 15,B,1,9 + 15 - 9 = 15
+3,SORT-001,Statement,False,True,21 - 11 + 1 = 9,A,1,21 - 11 + 1 = 11
+4,SORT-001,Statement,False,True,13 + 14 - 6 = 11,A,1,13 + 14 - 6 = 21
+5,SORT-001,Statement,False,True,7 + 15 - 18 = 2,A,1,7 + 15 - 18 = 4
+6,SORT-001,Statement,False,True,11 + 12 - 1 = 22,B,1,11 + 12 - 1 = 22
+7,SORT-001,Statement,False,True,16 - 16 + 15 = 17,A,1,16 - 16 + 15 = 15
+8,SORT-001,Statement,False,True,13 + 2 - 7 = 8,B,1,13 + 2 - 7 = 8
+9,SORT-001,Statement,False,True,25 - 20 + 1 = 16,A,1,25 - 20 + 1 = 6
+10,SORT-001,Statement,False,True,9 + 13 - 22 = 10,A,1,9 + 13 - 22 = 0
+11,SORT-001,Statement,False,True,22 - 10 + 9 = 21,B,1,22 - 10 + 9 = 21
+12,SORT-001,Statement,False,True,6 + 8 - 9 = 5,B,1,6 + 8 - 9 = 5
+13,SORT-002,Expression,Below 20,Above 20,26 - 1,B,1,26 - 1 = 25
+14,SORT-002,Expression,Below 20,Above 20,63 - 3,B,1,63 - 3 = 60
+15,SORT-002,Expression,Below 20,Above 20,67 - 6,B,1,67 - 6 = 61
+16,SORT-002,Expression,Below 20,Above 20,13 - 13,A,1,13 - 13 = 0
+17,SORT-002,Expression,Below 20,Above 20,17 - 11,A,1,17 - 11 = 6
+18,SORT-002,Expression,Below 20,Above 20,20 - 5,A,1,20 - 5 = 15
+19,SORT-002,Expression,Below 20,Above 20,27 - 2,B,1,27 - 2 = 25
+20,SORT-002,Expression,Below 20,Above 20,28 - 2,B,1,28 - 2 = 26
+21,SORT-002,Expression,Below 20,Above 20,87 - 6,B,1,87 - 6 = 81
+22,SORT-002,Expression,Below 20,Above 20,14 - 9,A,1,14 - 9 = 5
+23,SORT-002,Expression,Below 20,Above 20,15 - 1,A,1,15 - 1 = 14
+24,SORT-002,Expression,Below 20,Above 20,19 - 4,A,1,19 - 4 = 15
+25,SORT-003,Statement,False,True,24 ÷ 3 = 8,B,1,24 ÷ 3 = 8
+26,SORT-003,Statement,False,True,16 ÷ 4 = 14,A,1,16 ÷ 4 = 4
+27,SORT-003,Statement,False,True,28 ÷ 7 = 4,B,1,28 ÷ 7 = 4
+28,SORT-003,Statement,False,True,36 ÷ 2 = 8,A,1,36 ÷ 2 = 18
+29,SORT-003,Statement,False,True,56 ÷ 8 = 7,B,1,56 ÷ 8 = 7
+30,SORT-003,Statement,False,True,56 ÷ 7 = 10,A,1,56 ÷ 7 = 8
+31,SORT-003,Statement,False,True,100 ÷ 2 = 50,B,1,100 ÷ 2 = 50
+32,SORT-003,Statement,False,True,72 ÷ 8 = 9,B,1,72 ÷ 8 = 9
+33,SORT-003,Statement,False,True,21 ÷ 7 = 1,A,1,21 ÷ 7 = 3
+34,SORT-003,Statement,False,True,10 ÷ 5 = 2,B,1,10 ÷ 5 = 2
+35,SORT-003,Statement,False,True,86 ÷ 2 = 41,A,1,86 ÷ 2 = 43
+36,SORT-003,Statement,False,True,20 ÷ 5 = 2,A,1,20 ÷ 5 = 4
+37,SORT-004,Statement,False,True,7 × 8 = 66,A,1,7 × 8 = 56
+38,SORT-004,Statement,False,True,5 × 6 = 30,B,1,5 × 6 = 30
+39,SORT-004,Statement,False,True,8 × 7 = 48,A,1,8 × 7 = 56
+40,SORT-004,Statement,False,True,4 × 3 = 16,A,1,4 × 3 = 12
+41,SORT-004,Statement,False,True,2 × 2 = 4,B,1,2 × 2 = 4
+42,SORT-004,Statement,False,True,10 × 5 = 50,B,1,10 × 5 = 50
+43,SORT-004,Statement,False,True,9 × 2 = 8,A,1,9 × 2 = 18
+44,SORT-004,Statement,False,True,4 × 4 = 16,B,1,4 × 4 = 16
+45,SORT-004,Statement,False,True,6 × 2 = 22,A,1,6 × 2 = 12
+46,SORT-004,Statement,False,True,2 × 4 = 8,B,1,2 × 4 = 8
+47,SORT-004,Statement,False,True,10 × 7 = 70,B,1,10 × 7 = 70
+48,SORT-004,Statement,False,True,9 × 6 = 64,A,1,9 × 6 = 54
+49,SORT-005,Expression,Odd,Even,40 ÷ 5,B,1,40 ÷ 5 = 8
+50,SORT-005,Expression,Odd,Even,48 ÷ 6,B,1,48 ÷ 6 = 8
+51,SORT-005,Expression,Odd,Even,80 ÷ 10,B,1,80 ÷ 10 = 8
+52,SORT-005,Expression,Odd,Even,45 ÷ 5,A,1,45 ÷ 5 = 9
+53,SORT-005,Expression,Odd,Even,68 ÷ 2,B,1,68 ÷ 2 = 34
+54,SORT-005,Expression,Odd,Even,10 ÷ 10,A,1,10 ÷ 10 = 1
+55,SORT-005,Expression,Odd,Even,24 ÷ 6,B,1,24 ÷ 6 = 4
+56,SORT-005,Expression,Odd,Even,27 ÷ 9,A,1,27 ÷ 9 = 3
+57,SORT-005,Expression,Odd,Even,90 ÷ 2,A,1,90 ÷ 2 = 45
+58,SORT-005,Expression,Odd,Even,70 ÷ 2,A,1,70 ÷ 2 = 35
+59,SORT-005,Expression,Odd,Even,48 ÷ 8,B,1,48 ÷ 8 = 6
+60,SORT-005,Expression,Odd,Even,82 ÷ 2,A,1,82 ÷ 2 = 41
+61,SORT-006,Statement,True,False,34 + 5 = 41,B,1,34 + 5 = 39
+62,SORT-006,Statement,True,False,53 + 1 = 54,A,1,53 + 1 = 54
+63,SORT-006,Statement,True,False,10 + 60 = 72,B,1,10 + 60 = 70
+64,SORT-006,Statement,True,False,41 + 7 = 50,B,1,41 + 7 = 48
+65,SORT-006,Statement,True,False,75 + 1 = 76,A,1,75 + 1 = 76
+66,SORT-006,Statement,True,False,42 + 3 = 45,A,1,42 + 3 = 45
+67,SORT-006,Statement,True,False,40 + 4 = 34,B,1,40 + 4 = 44
+68,SORT-006,Statement,True,False,66 + 2 = 68,A,1,66 + 2 = 68
+69,SORT-006,Statement,True,False,34 + 4 = 40,B,1,34 + 4 = 38
+70,SORT-006,Statement,True,False,10 + 70 = 80,A,1,10 + 70 = 80
+71,SORT-006,Statement,True,False,71 + 4 = 75,A,1,71 + 4 = 75
+72,SORT-006,Statement,True,False,53 + 6 = 49,B,1,53 + 6 = 59
+73,SORT-007,Statement,False,True,2 + 10 = 12,B,1,2 + 10 = 12
+74,SORT-007,Statement,False,True,21 + 6 = 37,A,1,21 + 6 = 27
+75,SORT-007,Statement,False,True,44 + 1 = 45,B,1,44 + 1 = 45
+76,SORT-007,Statement,False,True,44 + 5 = 49,B,1,44 + 5 = 49
+77,SORT-007,Statement,False,True,70 + 10 = 80,B,1,70 + 10 = 80
+78,SORT-007,Statement,False,True,40 + 3 = 45,A,1,40 + 3 = 43
+79,SORT-007,Statement,False,True,1 + 11 = 14,A,1,1 + 11 = 12
+80,SORT-007,Statement,False,True,66 + 3 = 59,A,1,66 + 3 = 69
+81,SORT-007,Statement,False,True,1 + 4 = 5,B,1,1 + 4 = 5
+82,SORT-007,Statement,False,True,51 + 8 = 61,A,1,51 + 8 = 59
+83,SORT-007,Statement,False,True,70 + 20 = 88,A,1,70 + 20 = 90
+84,SORT-007,Statement,False,True,32 + 4 = 36,B,1,32 + 4 = 36
+85,SORT-008,Expression,Below 50,Above 50,8 × 10,B,1,8 × 10 = 80
+86,SORT-008,Expression,Below 50,Above 50,2 × 8,A,1,2 × 8 = 16
+87,SORT-008,Expression,Below 50,Above 50,10 × 10,B,1,10 × 10 = 100
+88,SORT-008,Expression,Below 50,Above 50,6 × 6,A,1,6 × 6 = 36
+89,SORT-008,Expression,Below 50,Above 50,9 × 5,A,1,9 × 5 = 45
+90,SORT-008,Expression,Below 50,Above 50,10 × 6,B,1,10 × 6 = 60
+91,SORT-008,Expression,Below 50,Above 50,7 × 6,A,1,7 × 6 = 42
+92,SORT-008,Expression,Below 50,Above 50,6 × 10,B,1,6 × 10 = 60
+93,SORT-008,Expression,Below 50,Above 50,5 × 5,A,1,5 × 5 = 25
+94,SORT-008,Expression,Below 50,Above 50,9 × 10,B,1,9 × 10 = 90
+95,SORT-008,Expression,Below 50,Above 50,7 × 9,B,1,7 × 9 = 63
+96,SORT-008,Expression,Below 50,Above 50,3 × 6,A,1,3 × 6 = 18
+97,SORT-009,Expression,Odd,Even,17 - 16,A,1,17 - 16 = 1
+98,SORT-009,Expression,Odd,Even,59 - 9,B,1,59 - 9 = 50
+99,SORT-009,Expression,Odd,Even,26 - 2,B,1,26 - 2 = 24
+100,SORT-009,Expression,Odd,Even,38 - 8,B,1,38 - 8 = 30
+101,SORT-009,Expression,Odd,Even,13 - 10,A,1,13 - 10 = 3
+102,SORT-009,Expression,Odd,Even,73 - 3,B,1,73 - 3 = 70
+103,SORT-009,Expression,Odd,Even,58 - 7,A,1,58 - 7 = 51
+104,SORT-009,Expression,Odd,Even,40 - 1,A,1,40 - 1 = 39
+105,SORT-009,Expression,Odd,Even,63 - 1,B,1,63 - 1 = 62
+106,SORT-009,Expression,Odd,Even,20 - 13,A,1,20 - 13 = 7
+107,SORT-009,Expression,Odd,Even,53 - 3,B,1,53 - 3 = 50
+108,SORT-009,Expression,Odd,Even,89 - 4,A,1,89 - 4 = 85
+109,SORT-010,Expression,Odd,Even,8 × 6,B,1,8 × 6 = 48
+110,SORT-010,Expression,Odd,Even,3 × 3,A,1,3 × 3 = 9
+111,SORT-010,Expression,Odd,Even,8 × 4,B,1,8 × 4 = 32
+112,SORT-010,Expression,Odd,Even,5 × 7,A,1,5 × 7 = 35
+113,SORT-010,Expression,Odd,Even,3 × 2,B,1,3 × 2 = 6
+114,SORT-010,Expression,Odd,Even,5 × 3,A,1,5 × 3 = 15
+115,SORT-010,Expression,Odd,Even,3 × 9,A,1,3 × 9 = 27
+116,SORT-010,Expression,Odd,Even,5 × 4,B,1,5 × 4 = 20
+117,SORT-010,Expression,Odd,Even,5 × 9,A,1,5 × 9 = 45
+118,SORT-010,Expression,Odd,Even,5 × 10,B,1,5 × 10 = 50
+119,SORT-010,Expression,Odd,Even,7 × 5,A,1,7 × 5 = 35
+120,SORT-010,Expression,Odd,Even,4 × 10,B,1,4 × 10 = 40
+121,SORT-011,Statement,True,False,7 × 4 = 28,A,1,7 × 4 = 28
+122,SORT-011,Statement,True,False,6 × 7 = 40,B,1,6 × 7 = 42
+123,SORT-011,Statement,True,False,10 × 8 = 80,A,1,10 × 8 = 80
+124,SORT-011,Statement,True,False,3 × 7 = 21,A,1,3 × 7 = 21
+125,SORT-011,Statement,True,False,7 × 2 = 24,B,1,7 × 2 = 14
+126,SORT-011,Statement,True,False,9 × 8 = 72,A,1,9 × 8 = 72
+127,SORT-011,Statement,True,False,6 × 9 = 64,B,1,6 × 9 = 54
+128,SORT-011,Statement,True,False,10 × 3 = 30,A,1,10 × 3 = 30
+129,SORT-011,Statement,True,False,8 × 5 = 40,A,1,8 × 5 = 40
+130,SORT-011,Statement,True,False,6 × 3 = 28,B,1,6 × 3 = 18
+131,SORT-011,Statement,True,False,8 × 9 = 82,B,1,8 × 9 = 72
+132,SORT-011,Statement,True,False,8 × 8 = 84,B,1,8 × 8 = 64
+133,SORT-012,Statement,False,True,20 - 15 + 19 = 14,A,1,20 - 15 + 19 = 24
+134,SORT-012,Statement,False,True,16 - 3 + 10 = 23,B,1,16 - 3 + 10 = 23
+135,SORT-012,Statement,False,True,2 + 15 - 1 = 6,A,1,2 + 15 - 1 = 16
+136,SORT-012,Statement,False,True,10 + 2 - 9 = 3,B,1,10 + 2 - 9 = 3
+137,SORT-012,Statement,False,True,5 - 5 + 25 = 25,B,1,5 - 5 + 25 = 25
+138,SORT-012,Statement,False,True,21 - 5 + 12 = 28,B,1,21 - 5 + 12 = 28
+139,SORT-012,Statement,False,True,18 - 17 + 7 = 10,A,1,18 - 17 + 7 = 8
+140,SORT-012,Statement,False,True,11 + 10 - 15 = 6,B,1,11 + 10 - 15 = 6
+141,SORT-012,Statement,False,True,8 + 2 - 4 = 4,A,1,8 + 2 - 4 = 6
+142,SORT-012,Statement,False,True,15 - 6 + 18 = 37,A,1,15 - 6 + 18 = 27
+143,SORT-012,Statement,False,True,7 + 4 - 9 = 12,A,1,7 + 4 - 9 = 2
+144,SORT-012,Statement,False,True,22 - 7 + 5 = 20,B,1,22 - 7 + 5 = 20
+145,SORT-013,Statement,False,True,30 + 9 = 39,B,1,30 + 9 = 39
+146,SORT-013,Statement,False,True,73 + 2 = 77,A,1,73 + 2 = 75
+147,SORT-013,Statement,False,True,1 + 18 = 21,A,1,1 + 18 = 19
+148,SORT-013,Statement,False,True,81 + 8 = 89,B,1,81 + 8 = 89
+149,SORT-013,Statement,False,True,34 + 2 = 36,B,1,34 + 2 = 36
+150,SORT-013,Statement,False,True,83 + 2 = 95,A,1,83 + 2 = 85
+151,SORT-013,Statement,False,True,86 + 3 = 89,B,1,86 + 3 = 89
+152,SORT-013,Statement,False,True,3 + 10 = 23,A,1,3 + 10 = 13
+153,SORT-013,Statement,False,True,81 + 7 = 90,A,1,81 + 7 = 88
+154,SORT-013,Statement,False,True,3 + 12 = 5,A,1,3 + 12 = 15
+155,SORT-013,Statement,False,True,2 + 11 = 13,B,1,2 + 11 = 13
+156,SORT-013,Statement,False,True,20 + 70 = 90,B,1,20 + 70 = 90
+157,SORT-014,Expression,Even,Odd,9 + 3 - 4,A,1,9 + 3 - 4 = 8
+158,SORT-014,Expression,Even,Odd,15 - 1 + 7,B,1,15 - 1 + 7 = 21
+159,SORT-014,Expression,Even,Odd,25 - 13 + 9,B,1,25 - 13 + 9 = 21
+160,SORT-014,Expression,Even,Odd,18 - 13 + 23,A,1,18 - 13 + 23 = 28
+161,SORT-014,Expression,Even,Odd,12 + 12 - 7,B,1,12 + 12 - 7 = 17
+162,SORT-014,Expression,Even,Odd,5 + 2 - 3,A,1,5 + 2 - 3 = 4
+163,SORT-014,Expression,Even,Odd,9 - 3 + 9,B,1,9 - 3 + 9 = 15
+164,SORT-014,Expression,Even,Odd,4 + 3 - 2,B,1,4 + 3 - 2 = 5
+165,SORT-014,Expression,Even,Odd,12 - 5 + 4,B,1,12 - 5 + 4 = 11
+166,SORT-014,Expression,Even,Odd,9 - 4 + 3,A,1,9 - 4 + 3 = 8
+167,SORT-014,Expression,Even,Odd,9 + 12 - 7,A,1,9 + 12 - 7 = 14
+168,SORT-014,Expression,Even,Odd,4 + 7 - 7,A,1,4 + 7 - 7 = 4
+169,SORT-015,Expression,Even,Odd,66 + 1,B,1,66 + 1 = 67
+170,SORT-015,Expression,Even,Odd,20 + 80,A,1,20 + 80 = 100
+171,SORT-015,Expression,Even,Odd,63 + 6,B,1,63 + 6 = 69
+172,SORT-015,Expression,Even,Odd,3 + 9,A,1,3 + 9 = 12
+173,SORT-015,Expression,Even,Odd,55 + 3,A,1,55 + 3 = 58
+174,SORT-015,Expression,Even,Odd,32 + 7,B,1,32 + 7 = 39
+175,SORT-015,Expression,Even,Odd,74 + 4,A,1,74 + 4 = 78
+176,SORT-015,Expression,Even,Odd,64 + 5,B,1,64 + 5 = 69
+177,SORT-015,Expression,Even,Odd,25 + 2,B,1,25 + 2 = 27
+178,SORT-015,Expression,Even,Odd,71 + 3,A,1,71 + 3 = 74
+179,SORT-015,Expression,Even,Odd,85 + 1,A,1,85 + 1 = 86
+180,SORT-015,Expression,Even,Odd,52 + 3,B,1,52 + 3 = 55
+181,SORT-016,Number,Multiples of 2,Multiples of 5,22,A,1,22 = 2 × 11
+182,SORT-016,Number,Multiples of 2,Multiples of 5,45,B,1,45 = 5 × 9
+183,SORT-016,Number,Multiples of 2,Multiples of 5,35,B,1,35 = 5 × 7
+184,SORT-016,Number,Multiples of 2,Multiples of 5,28,A,1,28 = 2 × 14
+185,SORT-016,Number,Multiples of 2,Multiples of 5,8,A,1,8 = 2 × 4
+186,SORT-016,Number,Multiples of 2,Multiples of 5,5,B,1,5 = 5 × 1
+187,SORT-016,Number,Multiples of 2,Multiples of 5,52,A,1,52 = 2 × 26
+188,SORT-016,Number,Multiples of 2,Multiples of 5,46,A,1,46 = 2 × 23
+189,SORT-016,Number,Multiples of 2,Multiples of 5,26,A,1,26 = 2 × 13
+190,SORT-016,Number,Multiples of 2,Multiples of 5,55,B,1,55 = 5 × 11
+191,SORT-016,Number,Multiples of 2,Multiples of 5,25,B,1,25 = 5 × 5
+192,SORT-016,Number,Multiples of 2,Multiples of 5,15,B,1,15 = 5 × 3
+193,SORT-017,Number,Multiples of 3,Multiples of 5,21,A,1,21 = 3 × 7
+194,SORT-017,Number,Multiples of 3,Multiples of 5,35,B,1,35 = 5 × 7
+195,SORT-017,Number,Multiples of 3,Multiples of 5,33,A,1,33 = 3 × 11
+196,SORT-017,Number,Multiples of 3,Multiples of 5,39,A,1,39 = 3 × 13
+197,SORT-017,Number,Multiples of 3,Multiples of 5,10,B,1,10 = 5 × 2
+198,SORT-017,Number,Multiples of 3,Multiples of 5,25,B,1,25 = 5 × 5
+199,SORT-017,Number,Multiples of 3,Multiples of 5,55,B,1,55 = 5 × 11
+200,SORT-017,Number,Multiples of 3,Multiples of 5,51,A,1,51 = 3 × 17
+201,SORT-017,Number,Multiples of 3,Multiples of 5,40,B,1,40 = 5 × 8
+202,SORT-017,Number,Multiples of 3,Multiples of 5,50,B,1,50 = 5 × 10
+203,SORT-017,Number,Multiples of 3,Multiples of 5,12,A,1,12 = 3 × 4
+204,SORT-017,Number,Multiples of 3,Multiples of 5,48,A,1,48 = 3 × 16
+205,SORT-018,Expression,Above 50,Below 50,64 - 4,A,1,64 - 4 = 60
+206,SORT-018,Expression,Above 50,Below 50,41 - 1,B,1,41 - 1 = 40
+207,SORT-018,Expression,Above 50,Below 50,86 - 2,A,1,86 - 2 = 84
+208,SORT-018,Expression,Above 50,Below 50,13 - 11,B,1,13 - 11 = 2
+209,SORT-018,Expression,Above 50,Below 50,12 - 9,B,1,12 - 9 = 3
+210,SORT-018,Expression,Above 50,Below 50,67 - 4,A,1,67 - 4 = 63
+211,SORT-018,Expression,Above 50,Below 50,46 - 1,B,1,46 - 1 = 45
+212,SORT-018,Expression,Above 50,Below 50,59 - 3,A,1,59 - 3 = 56
+213,SORT-018,Expression,Above 50,Below 50,37 - 5,B,1,37 - 5 = 32
+214,SORT-018,Expression,Above 50,Below 50,95 - 2,A,1,95 - 2 = 93
+215,SORT-018,Expression,Above 50,Below 50,49 - 9,B,1,49 - 9 = 40
+216,SORT-018,Expression,Above 50,Below 50,96 - 6,A,1,96 - 6 = 90
+217,SORT-019,Number,Multiples of 5,Multiples of 2,16,B,1,16 = 2 × 8
+218,SORT-019,Number,Multiples of 5,Multiples of 2,45,A,1,45 = 5 × 9
+219,SORT-019,Number,Multiples of 5,Multiples of 2,55,A,1,55 = 5 × 11
+220,SORT-019,Number,Multiples of 5,Multiples of 2,15,A,1,15 = 5 × 3
+221,SORT-019,Number,Multiples of 5,Multiples of 2,44,B,1,44 = 2 × 22
+222,SORT-019,Number,Multiples of 5,Multiples of 2,8,B,1,8 = 2 × 4
+223,SORT-019,Number,Multiples of 5,Multiples of 2,22,B,1,22 = 2 × 11
+224,SORT-019,Number,Multiples of 5,Multiples of 2,5,A,1,5 = 5 × 1
+225,SORT-019,Number,Multiples of 5,Multiples of 2,25,A,1,25 = 5 × 5
+226,SORT-019,Number,Multiples of 5,Multiples of 2,46,B,1,46 = 2 × 23
+227,SORT-019,Number,Multiples of 5,Multiples of 2,35,A,1,35 = 5 × 7
+228,SORT-019,Number,Multiples of 5,Multiples of 2,54,B,1,54 = 2 × 27
+229,SORT-020,Expression,Odd,Even,9 - 5,B,1,9 - 5 = 4
+230,SORT-020,Expression,Odd,Even,94 - 1,A,1,94 - 1 = 93
+231,SORT-020,Expression,Odd,Even,60 - 10,B,1,60 - 10 = 50
+232,SORT-020,Expression,Odd,Even,20 - 9,A,1,20 - 9 = 11
+233,SORT-020,Expression,Odd,Even,78 - 1,A,1,78 - 1 = 77
+234,SORT-020,Expression,Odd,Even,8 - 6,B,1,8 - 6 = 2
+235,SORT-020,Expression,Odd,Even,20 - 8,B,1,20 - 8 = 12
+236,SORT-020,Expression,Odd,Even,47 - 6,A,1,47 - 6 = 41
+237,SORT-020,Expression,Odd,Even,16 - 12,B,1,16 - 12 = 4
+238,SORT-020,Expression,Odd,Even,39 - 3,B,1,39 - 3 = 36
+239,SORT-020,Expression,Odd,Even,20 - 7,A,1,20 - 7 = 13
+240,SORT-020,Expression,Odd,Even,55 - 4,A,1,55 - 4 = 51
+241,SORT-021,Expression,Above 20,Below 20,28 ÷ 2,B,1,28 ÷ 2 = 14
+242,SORT-021,Expression,Above 20,Below 20,52 ÷ 2,A,1,52 ÷ 2 = 26
+243,SORT-021,Expression,Above 20,Below 20,90 ÷ 10,B,1,90 ÷ 10 = 9
+244,SORT-021,Expression,Above 20,Below 20,62 ÷ 2,A,1,62 ÷ 2 = 31
+245,SORT-021,Expression,Above 20,Below 20,58 ÷ 2,A,1,58 ÷ 2 = 29
+246,SORT-021,Expression,Above 20,Below 20,49 ÷ 7,B,1,49 ÷ 7 = 7
+247,SORT-021,Expression,Above 20,Below 20,92 ÷ 2,A,1,92 ÷ 2 = 46
+248,SORT-021,Expression,Above 20,Below 20,90 ÷ 9,B,1,90 ÷ 9 = 10
+249,SORT-021,Expression,Above 20,Below 20,50 ÷ 10,B,1,50 ÷ 10 = 5
+250,SORT-021,Expression,Above 20,Below 20,30 ÷ 2,B,1,30 ÷ 2 = 15
+251,SORT-021,Expression,Above 20,Below 20,84 ÷ 2,A,1,84 ÷ 2 = 42
+252,SORT-021,Expression,Above 20,Below 20,50 ÷ 2,A,1,50 ÷ 2 = 25
+253,SORT-022,Statement,False,True,12 - 3 = 9,B,1,12 - 3 = 9
+254,SORT-022,Statement,False,True,80 - 80 = 20,A,1,80 - 80 = 0
+255,SORT-022,Statement,False,True,39 - 5 = 14,A,1,39 - 5 = 34
+256,SORT-022,Statement,False,True,10 - 3 = 7,B,1,10 - 3 = 7
+257,SORT-022,Statement,False,True,70 - 1 = 69,B,1,70 - 1 = 69
+258,SORT-022,Statement,False,True,12 - 4 = 10,A,1,12 - 4 = 8
+259,SORT-022,Statement,False,True,14 - 2 = 12,B,1,14 - 2 = 12
+260,SORT-022,Statement,False,True,80 - 30 = 52,A,1,80 - 30 = 50
+261,SORT-022,Statement,False,True,9 - 3 = 6,B,1,9 - 3 = 6
+262,SORT-022,Statement,False,True,11 - 3 = 8,B,1,11 - 3 = 8
+263,SORT-022,Statement,False,True,64 - 3 = 71,A,1,64 - 3 = 61
+264,SORT-022,Statement,False,True,88 - 8 = 70,A,1,88 - 8 = 80
+265,SORT-023,Statement,True,False,26 ÷ 2 = 15,B,1,26 ÷ 2 = 13
+266,SORT-023,Statement,True,False,32 ÷ 4 = 8,A,1,32 ÷ 4 = 8
+267,SORT-023,Statement,True,False,10 ÷ 2 = 7,B,1,10 ÷ 2 = 5
+268,SORT-023,Statement,True,False,45 ÷ 9 = 7,B,1,45 ÷ 9 = 5
+269,SORT-023,Statement,True,False,16 ÷ 2 = 8,A,1,16 ÷ 2 = 8
+270,SORT-023,Statement,True,False,35 ÷ 5 = 7,A,1,35 ÷ 5 = 7
+271,SORT-023,Statement,True,False,30 ÷ 10 = 13,B,1,30 ÷ 10 = 3
+272,SORT-023,Statement,True,False,98 ÷ 2 = 39,B,1,98 ÷ 2 = 49
+273,SORT-023,Statement,True,False,18 ÷ 3 = 6,A,1,18 ÷ 3 = 6
+274,SORT-023,Statement,True,False,4 ÷ 2 = 4,B,1,4 ÷ 2 = 2
+275,SORT-023,Statement,True,False,25 ÷ 5 = 5,A,1,25 ÷ 5 = 5
+276,SORT-023,Statement,True,False,16 ÷ 8 = 2,A,1,16 ÷ 8 = 2
+277,SORT-024,Statement,True,False,9 - 7 = 22,B,1,9 - 7 = 2
+278,SORT-024,Statement,True,False,5 - 5 = 10,B,1,5 - 5 = 0
+279,SORT-024,Statement,True,False,29 - 1 = 28,A,1,29 - 1 = 28
+280,SORT-024,Statement,True,False,52 - 1 = 41,B,1,52 - 1 = 51
+281,SORT-024,Statement,True,False,35 - 3 = 22,B,1,35 - 3 = 32
+282,SORT-024,Statement,True,False,66 - 4 = 62,A,1,66 - 4 = 62
+283,SORT-024,Statement,True,False,67 - 5 = 60,B,1,67 - 5 = 62
+284,SORT-024,Statement,True,False,17 - 8 = 9,A,1,17 - 8 = 9
+285,SORT-024,Statement,True,False,70 - 60 = 20,B,1,70 - 60 = 10
+286,SORT-024,Statement,True,False,57 - 3 = 54,A,1,57 - 3 = 54
+287,SORT-024,Statement,True,False,74 - 3 = 71,A,1,74 - 3 = 71
+288,SORT-024,Statement,True,False,56 - 2 = 54,A,1,56 - 2 = 54
+289,SORT-025,Number,Multiples of 5,Multiples of 2,25,A,1,25 = 5 × 5
+290,SORT-025,Number,Multiples of 5,Multiples of 2,22,B,1,22 = 2 × 11
+291,SORT-025,Number,Multiples of 5,Multiples of 2,55,A,1,55 = 5 × 11
+292,SORT-025,Number,Multiples of 5,Multiples of 2,38,B,1,38 = 2 × 19
+293,SORT-025,Number,Multiples of 5,Multiples of 2,5,A,1,5 = 5 × 1
+294,SORT-025,Number,Multiples of 5,Multiples of 2,15,A,1,15 = 5 × 3
+295,SORT-025,Number,Multiples of 5,Multiples of 2,24,B,1,24 = 2 × 12
+296,SORT-025,Number,Multiples of 5,Multiples of 2,45,A,1,45 = 5 × 9
+297,SORT-025,Number,Multiples of 5,Multiples of 2,6,B,1,6 = 2 × 3
+298,SORT-025,Number,Multiples of 5,Multiples of 2,46,B,1,46 = 2 × 23
+299,SORT-025,Number,Multiples of 5,Multiples of 2,32,B,1,32 = 2 × 16
+300,SORT-025,Number,Multiples of 5,Multiples of 2,35,A,1,35 = 5 × 7
+301,SORT-026,Expression,Below 20,Above 20,8 + 13 - 17,A,1,8 + 13 - 17 = 4
+302,SORT-026,Expression,Below 20,Above 20,12 - 4 + 20,B,1,12 - 4 + 20 = 28
+303,SORT-026,Expression,Below 20,Above 20,9 - 8 + 14,A,1,9 - 8 + 14 = 15
+304,SORT-026,Expression,Below 20,Above 20,9 + 11 - 14,A,1,9 + 11 - 14 = 6
+305,SORT-026,Expression,Below 20,Above 20,24 - 21 + 12,A,1,24 - 21 + 12 = 15
+306,SORT-026,Expression,Below 20,Above 20,5 - 3 + 28,B,1,5 - 3 + 28 = 30
+307,SORT-026,Expression,Below 20,Above 20,24 - 1 + 5,B,1,24 - 1 + 5 = 28
+308,SORT-026,Expression,Below 20,Above 20,15 - 9 + 19,B,1,15 - 9 + 19 = 25
+309,SORT-026,Expression,Below 20,Above 20,3 + 4 - 4,A,1,3 + 4 - 4 = 3
+310,SORT-026,Expression,Below 20,Above 20,14 - 5 + 16,B,1,14 - 5 + 16 = 25
+311,SORT-026,Expression,Below 20,Above 20,23 - 13 + 15,B,1,23 - 13 + 15 = 25
+312,SORT-026,Expression,Below 20,Above 20,19 - 14 + 9,A,1,19 - 14 + 9 = 14
+313,SORT-027,Number,Multiples of 3,Multiples of 5,5,B,1,5 = 5 × 1
+314,SORT-027,Number,Multiples of 3,Multiples of 5,10,B,1,10 = 5 × 2
+315,SORT-027,Number,Multiples of 3,Multiples of 5,9,A,1,9 = 3 × 3
+316,SORT-027,Number,Multiples of 3,Multiples of 5,12,A,1,12 = 3 × 4
+317,SORT-027,Number,Multiples of 3,Multiples of 5,50,B,1,50 = 5 × 10
+318,SORT-027,Number,Multiples of 3,Multiples of 5,33,A,1,33 = 3 × 11
+319,SORT-027,Number,Multiples of 3,Multiples of 5,6,A,1,6 = 3 × 2
+320,SORT-027,Number,Multiples of 3,Multiples of 5,25,B,1,25 = 5 × 5
+321,SORT-027,Number,Multiples of 3,Multiples of 5,40,B,1,40 = 5 × 8
+322,SORT-027,Number,Multiples of 3,Multiples of 5,55,B,1,55 = 5 × 11
+323,SORT-027,Number,Multiples of 3,Multiples of 5,21,A,1,21 = 3 × 7
+324,SORT-027,Number,Multiples of 3,Multiples of 5,24,A,1,24 = 3 × 8
+325,SORT-028,Statement,True,False,8 × 2 = 14,B,1,8 × 2 = 16
+326,SORT-028,Statement,True,False,10 × 9 = 90,A,1,10 × 9 = 90
+327,SORT-028,Statement,True,False,2 × 9 = 20,B,1,2 × 9 = 18
+328,SORT-028,Statement,True,False,7 × 3 = 21,A,1,7 × 3 = 21
+329,SORT-028,Statement,True,False,6 × 8 = 38,B,1,6 × 8 = 48
+330,SORT-028,Statement,True,False,2 × 10 = 22,B,1,2 × 10 = 20
+331,SORT-028,Statement,True,False,2 × 3 = 6,A,1,2 × 3 = 6
+332,SORT-028,Statement,True,False,3 × 8 = 22,B,1,3 × 8 = 24
+333,SORT-028,Statement,True,False,7 × 10 = 70,A,1,7 × 10 = 70
+334,SORT-028,Statement,True,False,6 × 5 = 50,B,1,6 × 5 = 30
+335,SORT-028,Statement,True,False,2 × 7 = 14,A,1,2 × 7 = 14
+336,SORT-028,Statement,True,False,8 × 3 = 24,A,1,8 × 3 = 24
+337,SORT-029,Expression,Above 20,Below 20,2 + 7,B,1,2 + 7 = 9
+338,SORT-029,Expression,Above 20,Below 20,24 + 1,A,1,24 + 1 = 25
+339,SORT-029,Expression,Above 20,Below 20,2 + 12,B,1,2 + 12 = 14
+340,SORT-029,Expression,Above 20,Below 20,3 + 4,B,1,3 + 4 = 7
+341,SORT-029,Expression,Above 20,Below 20,24 + 2,A,1,24 + 2 = 26
+342,SORT-029,Expression,Above 20,Below 20,80 + 10,A,1,80 + 10 = 90
+343,SORT-029,Expression,Above 20,Below 20,5 + 9,B,1,5 + 9 = 14
+344,SORT-029,Expression,Above 20,Below 20,3 + 3,B,1,3 + 3 = 6
+345,SORT-029,Expression,Above 20,Below 20,26 + 3,A,1,26 + 3 = 29
+346,SORT-029,Expression,Above 20,Below 20,73 + 6,A,1,73 + 6 = 79
+347,SORT-029,Expression,Above 20,Below 20,20 + 5,A,1,20 + 5 = 25
+348,SORT-029,Expression,Above 20,Below 20,1 + 13,B,1,1 + 13 = 14
+349,SORT-030,Expression,Even,Odd,22 + 6,A,1,22 + 6 = 28
+350,SORT-030,Expression,Even,Odd,50 + 20,A,1,50 + 20 = 70
+351,SORT-030,Expression,Even,Odd,78 + 1,B,1,78 + 1 = 79
+352,SORT-030,Expression,Even,Odd,4 + 7,B,1,4 + 7 = 11
+353,SORT-030,Expression,Even,Odd,62 + 7,B,1,62 + 7 = 69
+354,SORT-030,Expression,Even,Odd,1 + 17,A,1,1 + 17 = 18
+355,SORT-030,Expression,Even,Odd,61 + 8,B,1,61 + 8 = 69
+356,SORT-030,Expression,Even,Odd,37 + 1,A,1,37 + 1 = 38
+357,SORT-030,Expression,Even,Odd,36 + 3,B,1,36 + 3 = 39
+358,SORT-030,Expression,Even,Odd,40 + 2,A,1,40 + 2 = 42
+359,SORT-030,Expression,Even,Odd,37 + 2,B,1,37 + 2 = 39
+360,SORT-030,Expression,Even,Odd,50 + 4,A,1,50 + 4 = 54
+361,SORT-031,Statement,False,True,76 ÷ 2 = 28,A,1,76 ÷ 2 = 38
+362,SORT-031,Statement,False,True,50 ÷ 5 = 8,A,1,50 ÷ 5 = 10
+363,SORT-031,Statement,False,True,80 ÷ 8 = 10,B,1,80 ÷ 8 = 10
+364,SORT-031,Statement,False,True,21 ÷ 3 = 17,A,1,21 ÷ 3 = 7
+365,SORT-031,Statement,False,True,42 ÷ 6 = 7,B,1,42 ÷ 6 = 7
+366,SORT-031,Statement,False,True,56 ÷ 2 = 28,B,1,56 ÷ 2 = 28
+367,SORT-031,Statement,False,True,32 ÷ 2 = 18,A,1,32 ÷ 2 = 16
+368,SORT-031,Statement,False,True,64 ÷ 2 = 42,A,1,64 ÷ 2 = 32
+369,SORT-031,Statement,False,True,36 ÷ 4 = 7,A,1,36 ÷ 4 = 9
+370,SORT-031,Statement,False,True,24 ÷ 8 = 3,B,1,24 ÷ 8 = 3
+371,SORT-031,Statement,False,True,12 ÷ 2 = 6,B,1,12 ÷ 2 = 6
+372,SORT-031,Statement,False,True,24 ÷ 4 = 6,B,1,24 ÷ 4 = 6
+373,SORT-032,Expression,Below 20,Above 20,75 + 2,B,1,75 + 2 = 77
+374,SORT-032,Expression,Below 20,Above 20,1 + 12,A,1,1 + 12 = 13
+375,SORT-032,Expression,Below 20,Above 20,6 + 7,A,1,6 + 7 = 13
+376,SORT-032,Expression,Below 20,Above 20,22 + 3,B,1,22 + 3 = 25
+377,SORT-032,Expression,Below 20,Above 20,25 + 1,B,1,25 + 1 = 26
+378,SORT-032,Expression,Below 20,Above 20,5 + 10,A,1,5 + 10 = 15
+379,SORT-032,Expression,Below 20,Above 20,7 + 8,A,1,7 + 8 = 15
+380,SORT-032,Expression,Below 20,Above 20,7 + 7,A,1,7 + 7 = 14
+381,SORT-032,Expression,Below 20,Above 20,20 + 6,B,1,20 + 6 = 26
+382,SORT-032,Expression,Below 20,Above 20,60 + 1,B,1,60 + 1 = 61
+383,SORT-032,Expression,Below 20,Above 20,2 + 8,A,1,2 + 8 = 10
+384,SORT-032,Expression,Below 20,Above 20,61 + 6,B,1,61 + 6 = 67
+385,SORT-033,Number,Multiples of 5,Multiples of 3,33,B,1,33 = 3 × 11
+386,SORT-033,Number,Multiples of 5,Multiples of 3,21,B,1,21 = 3 × 7
+387,SORT-033,Number,Multiples of 5,Multiples of 3,48,B,1,48 = 3 × 16
+388,SORT-033,Number,Multiples of 5,Multiples of 3,50,A,1,50 = 5 × 10
+389,SORT-033,Number,Multiples of 5,Multiples of 3,5,A,1,5 = 5 × 1
+390,SORT-033,Number,Multiples of 5,Multiples of 3,9,B,1,9 = 3 × 3
+391,SORT-033,Number,Multiples of 5,Multiples of 3,51,B,1,51 = 3 × 17
+392,SORT-033,Number,Multiples of 5,Multiples of 3,25,A,1,25 = 5 × 5
+393,SORT-033,Number,Multiples of 5,Multiples of 3,35,A,1,35 = 5 × 7
+394,SORT-033,Number,Multiples of 5,Multiples of 3,12,B,1,12 = 3 × 4
+395,SORT-033,Number,Multiples of 5,Multiples of 3,10,A,1,10 = 5 × 2
+396,SORT-033,Number,Multiples of 5,Multiples of 3,55,A,1,55 = 5 × 11
+397,SORT-034,Statement,False,True,73 - 1 = 72,B,1,73 - 1 = 72
+398,SORT-034,Statement,False,True,80 - 40 = 60,A,1,80 - 40 = 40
+399,SORT-034,Statement,False,True,19 - 14 = 7,A,1,19 - 14 = 5
+400,SORT-034,Statement,False,True,94 - 2 = 92,B,1,94 - 2 = 92
+401,SORT-034,Statement,False,True,73 - 2 = 61,A,1,73 - 2 = 71
+402,SORT-034,Statement,False,True,88 - 5 = 83,B,1,88 - 5 = 83
+403,SORT-034,Statement,False,True,90 - 30 = 60,B,1,90 - 30 = 60
+404,SORT-034,Statement,False,True,65 - 4 = 63,A,1,65 - 4 = 61
+405,SORT-034,Statement,False,True,99 - 3 = 96,B,1,99 - 3 = 96
+406,SORT-034,Statement,False,True,59 - 6 = 43,A,1,59 - 6 = 53
+407,SORT-034,Statement,False,True,34 - 4 = 30,B,1,34 - 4 = 30
+408,SORT-034,Statement,False,True,18 - 13 = 15,A,1,18 - 13 = 5
+409,SORT-035,Number,Multiples of 7,Multiples of 3,28,A,2,28 = 7 × 4
+410,SORT-035,Number,Multiples of 7,Multiples of 3,60,B,2,60 = 3 × 20
+411,SORT-035,Number,Multiples of 7,Multiples of 3,18,B,2,18 = 3 × 6
+412,SORT-035,Number,Multiples of 7,Multiples of 3,93,B,2,93 = 3 × 31
+413,SORT-035,Number,Multiples of 7,Multiples of 3,56,A,2,56 = 7 × 8
+414,SORT-035,Number,Multiples of 7,Multiples of 3,66,B,2,66 = 3 × 22
+415,SORT-035,Number,Multiples of 7,Multiples of 3,14,A,2,14 = 7 × 2
+416,SORT-035,Number,Multiples of 7,Multiples of 3,7,A,2,7 = 7 × 1
+417,SORT-035,Number,Multiples of 7,Multiples of 3,75,B,2,75 = 3 × 25
+418,SORT-035,Number,Multiples of 7,Multiples of 3,70,A,2,70 = 7 × 10
+419,SORT-035,Number,Multiples of 7,Multiples of 3,98,A,2,98 = 7 × 14
+420,SORT-035,Number,Multiples of 7,Multiples of 3,96,B,2,96 = 3 × 32
+421,SORT-036,Statement,True,False,941 - 100 = 861,B,2,941 - 100 = 841
+422,SORT-036,Statement,True,False,947 - 100 = 837,B,2,947 - 100 = 847
+423,SORT-036,Statement,True,False,420 - 40 = 380,A,2,420 - 40 = 380
+424,SORT-036,Statement,True,False,61 - 27 = 34,A,2,61 - 27 = 34
+425,SORT-036,Statement,True,False,284 - 50 = 234,A,2,284 - 50 = 234
+426,SORT-036,Statement,True,False,232 - 40 = 190,B,2,232 - 40 = 192
+427,SORT-036,Statement,True,False,80 - 43 = 37,A,2,80 - 43 = 37
+428,SORT-036,Statement,True,False,235 - 30 = 205,A,2,235 - 30 = 205
+429,SORT-036,Statement,True,False,611 - 50 = 541,B,2,611 - 50 = 561
+430,SORT-036,Statement,True,False,44 - 26 = 38,B,2,44 - 26 = 18
+431,SORT-036,Statement,True,False,865 - 40 = 815,B,2,865 - 40 = 825
+432,SORT-036,Statement,True,False,100 - 79 = 21,A,2,100 - 79 = 21
+433,SORT-037,Expression,Odd,Even,62 - 37,A,2,62 - 37 = 25
+434,SORT-037,Expression,Odd,Even,849 - 20,A,2,849 - 20 = 829
+435,SORT-037,Expression,Odd,Even,100 - 76,B,2,100 - 76 = 24
+436,SORT-037,Expression,Odd,Even,715 - 10,A,2,715 - 10 = 705
+437,SORT-037,Expression,Odd,Even,41 - 17,B,2,41 - 17 = 24
+438,SORT-037,Expression,Odd,Even,60 - 19,A,2,60 - 19 = 41
+439,SORT-037,Expression,Odd,Even,938 - 20,B,2,938 - 20 = 918
+440,SORT-037,Expression,Odd,Even,663 - 10,A,2,663 - 10 = 653
+441,SORT-037,Expression,Odd,Even,680 - 50,B,2,680 - 50 = 630
+442,SORT-037,Expression,Odd,Even,244 - 50,B,2,244 - 50 = 194
+443,SORT-037,Expression,Odd,Even,221 - 30,A,2,221 - 30 = 191
+444,SORT-037,Expression,Odd,Even,324 - 30,B,2,324 - 30 = 294
+445,SORT-038,Expression,Even,Odd,17 + 10 × 9,B,2,17 + 10 × 9 = 107
+446,SORT-038,Expression,Even,Odd,7 + 9 × 5,A,2,7 + 9 × 5 = 52
+447,SORT-038,Expression,Even,Odd,3 + 10 × 9,B,2,3 + 10 × 9 = 93
+448,SORT-038,Expression,Even,Odd,4 + 3 × 6,A,2,4 + 3 × 6 = 22
+449,SORT-038,Expression,Even,Odd,13 + 7 × 2,B,2,13 + 7 × 2 = 27
+450,SORT-038,Expression,Even,Odd,9 + 10 × 10,B,2,9 + 10 × 10 = 109
+451,SORT-038,Expression,Even,Odd,16 + 7 × 8,A,2,16 + 7 × 8 = 72
+452,SORT-038,Expression,Even,Odd,4 + 5 × 11,B,2,4 + 5 × 11 = 59
+453,SORT-038,Expression,Even,Odd,20 + 9 × 2,A,2,20 + 9 × 2 = 38
+454,SORT-038,Expression,Even,Odd,4 + 7 × 12,A,2,4 + 7 × 12 = 88
+455,SORT-038,Expression,Even,Odd,18 + 3 × 3,B,2,18 + 3 × 3 = 27
+456,SORT-038,Expression,Even,Odd,5 + 9 × 7,A,2,5 + 9 × 7 = 68
+457,SORT-039,Number,Multiples of 4,Multiples of 3,15,B,2,15 = 3 × 5
+458,SORT-039,Number,Multiples of 4,Multiples of 3,39,B,2,39 = 3 × 13
+459,SORT-039,Number,Multiples of 4,Multiples of 3,20,A,2,20 = 4 × 5
+460,SORT-039,Number,Multiples of 4,Multiples of 3,63,B,2,63 = 3 × 21
+461,SORT-039,Number,Multiples of 4,Multiples of 3,3,B,2,3 = 3 × 1
+462,SORT-039,Number,Multiples of 4,Multiples of 3,80,A,2,80 = 4 × 20
+463,SORT-039,Number,Multiples of 4,Multiples of 3,4,A,2,4 = 4 × 1
+464,SORT-039,Number,Multiples of 4,Multiples of 3,88,A,2,88 = 4 × 22
+465,SORT-039,Number,Multiples of 4,Multiples of 3,42,B,2,42 = 3 × 14
+466,SORT-039,Number,Multiples of 4,Multiples of 3,52,A,2,52 = 4 × 13
+467,SORT-039,Number,Multiples of 4,Multiples of 3,75,B,2,75 = 3 × 25
+468,SORT-039,Number,Multiples of 4,Multiples of 3,32,A,2,32 = 4 × 8
+469,SORT-040,Statement,False,True,5 × 2 = 10,B,2,5 × 2 = 10
+470,SORT-040,Statement,False,True,52 × 9 = 458,A,2,52 × 9 = 468
+471,SORT-040,Statement,False,True,72 × 4 = 288,B,2,72 × 4 = 288
+472,SORT-040,Statement,False,True,97 × 7 = 679,B,2,97 × 7 = 679
+473,SORT-040,Statement,False,True,47 × 3 = 41,A,2,47 × 3 = 141
+474,SORT-040,Statement,False,True,89 × 8 = 812,A,2,89 × 8 = 712
+475,SORT-040,Statement,False,True,19 × 6 = 114,B,2,19 × 6 = 114
+476,SORT-040,Statement,False,True,70 × 6 = 420,B,2,70 × 6 = 420
+477,SORT-040,Statement,False,True,41 × 10 = 412,A,2,41 × 10 = 410
+478,SORT-040,Statement,False,True,70 × 9 = 620,A,2,70 × 9 = 630
+479,SORT-040,Statement,False,True,91 × 5 = 455,B,2,91 × 5 = 455
+480,SORT-040,Statement,False,True,34 × 10 = 360,A,2,34 × 10 = 340
+481,SORT-041,Expression,Odd,Even,465 - 50,A,2,465 - 50 = 415
+482,SORT-041,Expression,Odd,Even,42 - 18,B,2,42 - 18 = 24
+483,SORT-041,Expression,Odd,Even,646 - 20,B,2,646 - 20 = 626
+484,SORT-041,Expression,Odd,Even,209 - 20,A,2,209 - 20 = 189
+485,SORT-041,Expression,Odd,Even,792 - 50,B,2,792 - 50 = 742
+486,SORT-041,Expression,Odd,Even,85 - 49,B,2,85 - 49 = 36
+487,SORT-041,Expression,Odd,Even,811 - 200,A,2,811 - 200 = 611
+488,SORT-041,Expression,Odd,Even,234 - 40,B,2,234 - 40 = 194
+489,SORT-041,Expression,Odd,Even,507 - 50,A,2,507 - 50 = 457
+490,SORT-041,Expression,Odd,Even,590 - 100,B,2,590 - 100 = 490
+491,SORT-041,Expression,Odd,Even,80 - 21,A,2,80 - 21 = 59
+492,SORT-041,Expression,Odd,Even,443 - 100,A,2,443 - 100 = 343
+493,SORT-042,Statement,True,False,319 + 200 = 519,A,2,319 + 200 = 519
+494,SORT-042,Statement,True,False,46 + 56 = 104,B,2,46 + 56 = 102
+495,SORT-042,Statement,True,False,280 + 200 = 480,A,2,280 + 200 = 480
+496,SORT-042,Statement,True,False,347 + 40 = 387,A,2,347 + 40 = 387
+497,SORT-042,Statement,True,False,76 + 96 = 172,A,2,76 + 96 = 172
+498,SORT-042,Statement,True,False,465 + 20 = 495,B,2,465 + 20 = 485
+499,SORT-042,Statement,True,False,39 + 41 = 80,A,2,39 + 41 = 80
+500,SORT-042,Statement,True,False,193 + 10 = 201,B,2,193 + 10 = 203
+501,SORT-042,Statement,True,False,278 + 20 = 298,A,2,278 + 20 = 298
+502,SORT-042,Statement,True,False,416 + 10 = 428,B,2,416 + 10 = 426
+503,SORT-042,Statement,True,False,446 + 50 = 494,B,2,446 + 50 = 496
+504,SORT-042,Statement,True,False,27 + 47 = 64,B,2,27 + 47 = 74
+505,SORT-043,Number,Multiples of 4,Multiples of 5,56,A,2,56 = 4 × 14
+506,SORT-043,Number,Multiples of 4,Multiples of 5,72,A,2,72 = 4 × 18
+507,SORT-043,Number,Multiples of 4,Multiples of 5,45,B,2,45 = 5 × 9
+508,SORT-043,Number,Multiples of 4,Multiples of 5,70,B,2,70 = 5 × 14
+509,SORT-043,Number,Multiples of 4,Multiples of 5,44,A,2,44 = 4 × 11
+510,SORT-043,Number,Multiples of 4,Multiples of 5,32,A,2,32 = 4 × 8
+511,SORT-043,Number,Multiples of 4,Multiples of 5,75,B,2,75 = 5 × 15
+512,SORT-043,Number,Multiples of 4,Multiples of 5,35,B,2,35 = 5 × 7
+513,SORT-043,Number,Multiples of 4,Multiples of 5,8,A,2,8 = 4 × 2
+514,SORT-043,Number,Multiples of 4,Multiples of 5,95,B,2,95 = 5 × 19
+515,SORT-043,Number,Multiples of 4,Multiples of 5,5,B,2,5 = 5 × 1
+516,SORT-043,Number,Multiples of 4,Multiples of 5,76,A,2,76 = 4 × 19
+517,SORT-044,Expression,Below 50,Above 50,280 ÷ 5,B,2,280 ÷ 5 = 56
+518,SORT-044,Expression,Below 50,Above 50,175 ÷ 5,A,2,175 ÷ 5 = 35
+519,SORT-044,Expression,Below 50,Above 50,470 ÷ 5,B,2,470 ÷ 5 = 94
+520,SORT-044,Expression,Below 50,Above 50,252 ÷ 9,A,2,252 ÷ 9 = 28
+521,SORT-044,Expression,Below 50,Above 50,168 ÷ 8,A,2,168 ÷ 8 = 21
+522,SORT-044,Expression,Below 50,Above 50,375 ÷ 5,B,2,375 ÷ 5 = 75
+523,SORT-044,Expression,Below 50,Above 50,88 ÷ 4,A,2,88 ÷ 4 = 22
+524,SORT-044,Expression,Below 50,Above 50,330 ÷ 5,B,2,330 ÷ 5 = 66
+525,SORT-044,Expression,Below 50,Above 50,275 ÷ 5,B,2,275 ÷ 5 = 55
+526,SORT-044,Expression,Below 50,Above 50,195 ÷ 5,A,2,195 ÷ 5 = 39
+527,SORT-044,Expression,Below 50,Above 50,122 ÷ 2,B,2,122 ÷ 2 = 61
+528,SORT-044,Expression,Below 50,Above 50,220 ÷ 5,A,2,220 ÷ 5 = 44
+529,SORT-045,Number,Multiples of 4,Multiples of 5,95,B,2,95 = 5 × 19
+530,SORT-045,Number,Multiples of 4,Multiples of 5,44,A,2,44 = 4 × 11
+531,SORT-045,Number,Multiples of 4,Multiples of 5,35,B,2,35 = 5 × 7
+532,SORT-045,Number,Multiples of 4,Multiples of 5,75,B,2,75 = 5 × 15
+533,SORT-045,Number,Multiples of 4,Multiples of 5,48,A,2,48 = 4 × 12
+534,SORT-045,Number,Multiples of 4,Multiples of 5,10,B,2,10 = 5 × 2
+535,SORT-045,Number,Multiples of 4,Multiples of 5,5,B,2,5 = 5 × 1
+536,SORT-045,Number,Multiples of 4,Multiples of 5,88,A,2,88 = 4 × 22
+537,SORT-045,Number,Multiples of 4,Multiples of 5,92,A,2,92 = 4 × 23
+538,SORT-045,Number,Multiples of 4,Multiples of 5,45,B,2,45 = 5 × 9
+539,SORT-045,Number,Multiples of 4,Multiples of 5,56,A,2,56 = 4 × 14
+540,SORT-045,Number,Multiples of 4,Multiples of 5,4,A,2,4 = 4 × 1
+541,SORT-046,Expression,Odd,Even,15 ÷ 5,A,2,15 ÷ 5 = 3
+542,SORT-046,Expression,Odd,Even,88 ÷ 11,B,2,88 ÷ 11 = 8
+543,SORT-046,Expression,Odd,Even,108 ÷ 6,B,2,108 ÷ 6 = 18
+544,SORT-046,Expression,Odd,Even,150 ÷ 6,A,2,150 ÷ 6 = 25
+545,SORT-046,Expression,Odd,Even,142 ÷ 2,A,2,142 ÷ 2 = 71
+546,SORT-046,Expression,Odd,Even,99 ÷ 11,A,2,99 ÷ 11 = 9
+547,SORT-046,Expression,Odd,Even,132 ÷ 2,B,2,132 ÷ 2 = 66
+548,SORT-046,Expression,Odd,Even,132 ÷ 11,B,2,132 ÷ 11 = 12
+549,SORT-046,Expression,Odd,Even,160 ÷ 5,B,2,160 ÷ 5 = 32
+550,SORT-046,Expression,Odd,Even,63 ÷ 9,A,2,63 ÷ 9 = 7
+551,SORT-046,Expression,Odd,Even,290 ÷ 5,B,2,290 ÷ 5 = 58
+552,SORT-046,Expression,Odd,Even,232 ÷ 8,A,2,232 ÷ 8 = 29
+553,SORT-047,Statement,False,True,57 × 9 = 613,A,2,57 × 9 = 513
+554,SORT-047,Statement,False,True,14 × 9 = 128,A,2,14 × 9 = 126
+555,SORT-047,Statement,False,True,22 × 10 = 220,B,2,22 × 10 = 220
+556,SORT-047,Statement,False,True,64 × 6 = 384,B,2,64 × 6 = 384
+557,SORT-047,Statement,False,True,5 × 11 = 155,A,2,5 × 11 = 55
+558,SORT-047,Statement,False,True,60 × 7 = 420,B,2,60 × 7 = 420
+559,SORT-047,Statement,False,True,92 × 3 = 376,A,2,92 × 3 = 276
+560,SORT-047,Statement,False,True,36 × 2 = 72,B,2,36 × 2 = 72
+561,SORT-047,Statement,False,True,7 × 7 = 49,B,2,7 × 7 = 49
+562,SORT-047,Statement,False,True,45 × 6 = 270,B,2,45 × 6 = 270
+563,SORT-047,Statement,False,True,63 × 8 = 604,A,2,63 × 8 = 504
+564,SORT-047,Statement,False,True,74 × 6 = 446,A,2,74 × 6 = 444
+565,SORT-048,Statement,False,True,2 + 11 × 11 = 121,A,2,2 + 11 × 11 = 123
+566,SORT-048,Statement,False,True,5 + 4 × 3 = 17,B,2,5 + 4 × 3 = 17
+567,SORT-048,Statement,False,True,15 + 2 × 5 = 25,B,2,15 + 2 × 5 = 25
+568,SORT-048,Statement,False,True,14 + 12 × 3 = 52,A,2,14 + 12 × 3 = 50
+569,SORT-048,Statement,False,True,12 + 12 × 4 = 62,A,2,12 + 12 × 4 = 60
+570,SORT-048,Statement,False,True,12 + 8 × 11 = 102,A,2,12 + 8 × 11 = 100
+571,SORT-048,Statement,False,True,8 + 4 × 6 = 32,B,2,8 + 4 × 6 = 32
+572,SORT-048,Statement,False,True,17 + 2 × 8 = 35,A,2,17 + 2 × 8 = 33
+573,SORT-048,Statement,False,True,15 + 12 × 6 = 87,B,2,15 + 12 × 6 = 87
+574,SORT-048,Statement,False,True,19 + 5 × 2 = 31,A,2,19 + 5 × 2 = 29
+575,SORT-048,Statement,False,True,19 + 4 × 9 = 55,B,2,19 + 4 × 9 = 55
+576,SORT-048,Statement,False,True,2 + 8 × 9 = 74,B,2,2 + 8 × 9 = 74
+577,SORT-049,Statement,True,False,86 × 10 = 860,A,2,86 × 10 = 860
+578,SORT-049,Statement,True,False,21 × 4 = 86,B,2,21 × 4 = 84
+579,SORT-049,Statement,True,False,71 × 4 = 284,A,2,71 × 4 = 284
+580,SORT-049,Statement,True,False,40 × 3 = 118,B,2,40 × 3 = 120
+581,SORT-049,Statement,True,False,32 × 9 = 288,A,2,32 × 9 = 288
+582,SORT-049,Statement,True,False,20 × 10 = 200,A,2,20 × 10 = 200
+583,SORT-049,Statement,True,False,96 × 6 = 672,B,2,96 × 6 = 576
+584,SORT-049,Statement,True,False,97 × 3 = 191,B,2,97 × 3 = 291
+585,SORT-049,Statement,True,False,18 × 8 = 44,B,2,18 × 8 = 144
+586,SORT-049,Statement,True,False,95 × 2 = 190,A,2,95 × 2 = 190
+587,SORT-049,Statement,True,False,50 × 2 = 100,A,2,50 × 2 = 100
+588,SORT-049,Statement,True,False,28 × 2 = 58,B,2,28 × 2 = 56
+589,SORT-050,Number,Multiples of 4,Multiples of 3,90,B,2,90 = 3 × 30
+590,SORT-050,Number,Multiples of 4,Multiples of 3,4,A,2,4 = 4 × 1
+591,SORT-050,Number,Multiples of 4,Multiples of 3,81,B,2,81 = 3 × 27
+592,SORT-050,Number,Multiples of 4,Multiples of 3,8,A,2,8 = 4 × 2
+593,SORT-050,Number,Multiples of 4,Multiples of 3,39,B,2,39 = 3 × 13
+594,SORT-050,Number,Multiples of 4,Multiples of 3,87,B,2,87 = 3 × 29
+595,SORT-050,Number,Multiples of 4,Multiples of 3,42,B,2,42 = 3 × 14
+596,SORT-050,Number,Multiples of 4,Multiples of 3,40,A,2,40 = 4 × 10
+597,SORT-050,Number,Multiples of 4,Multiples of 3,93,B,2,93 = 3 × 31
+598,SORT-050,Number,Multiples of 4,Multiples of 3,32,A,2,32 = 4 × 8
+599,SORT-050,Number,Multiples of 4,Multiples of 3,76,A,2,76 = 4 × 19
+600,SORT-050,Number,Multiples of 4,Multiples of 3,56,A,2,56 = 4 × 14
+601,SORT-051,Statement,False,True,752 - 20 = 742,A,2,752 - 20 = 732
+602,SORT-051,Statement,False,True,836 - 10 = 836,A,2,836 - 10 = 826
+603,SORT-051,Statement,False,True,421 - 20 = 401,B,2,421 - 20 = 401
+604,SORT-051,Statement,False,True,714 - 50 = 664,B,2,714 - 50 = 664
+605,SORT-051,Statement,False,True,666 - 40 = 636,A,2,666 - 40 = 626
+606,SORT-051,Statement,False,True,60 - 51 = 9,B,2,60 - 51 = 9
+607,SORT-051,Statement,False,True,86 - 78 = 8,B,2,86 - 78 = 8
+608,SORT-051,Statement,False,True,736 - 50 = 684,A,2,736 - 50 = 686
+609,SORT-051,Statement,False,True,91 - 74 = 17,B,2,91 - 74 = 17
+610,SORT-051,Statement,False,True,52 - 23 = 29,B,2,52 - 23 = 29
+611,SORT-051,Statement,False,True,340 - 50 = 288,A,2,340 - 50 = 290
+612,SORT-051,Statement,False,True,866 - 200 = 656,A,2,866 - 200 = 666
+613,SORT-052,Statement,False,True,60 ÷ 12 = 7,A,2,60 ÷ 12 = 5
+614,SORT-052,Statement,False,True,161 ÷ 7 = 23,B,2,161 ÷ 7 = 23
+615,SORT-052,Statement,False,True,192 ÷ 2 = 106,A,2,192 ÷ 2 = 96
+616,SORT-052,Statement,False,True,99 ÷ 9 = 21,A,2,99 ÷ 9 = 11
+617,SORT-052,Statement,False,True,385 ÷ 5 = 77,B,2,385 ÷ 5 = 77
+618,SORT-052,Statement,False,True,176 ÷ 8 = 22,B,2,176 ÷ 8 = 22
+619,SORT-052,Statement,False,True,340 ÷ 5 = 68,B,2,340 ÷ 5 = 68
+620,SORT-052,Statement,False,True,72 ÷ 6 = 14,A,2,72 ÷ 6 = 12
+621,SORT-052,Statement,False,True,455 ÷ 5 = 89,A,2,455 ÷ 5 = 91
+622,SORT-052,Statement,False,True,215 ÷ 5 = 45,A,2,215 ÷ 5 = 43
+623,SORT-052,Statement,False,True,95 ÷ 5 = 19,B,2,95 ÷ 5 = 19
+624,SORT-052,Statement,False,True,128 ÷ 2 = 64,B,2,128 ÷ 2 = 64
+625,SORT-053,Statement,True,False,6 + 10 × 7 = 74,B,2,6 + 10 × 7 = 76
+626,SORT-053,Statement,True,False,11 + 8 × 5 = 53,B,2,11 + 8 × 5 = 51
+627,SORT-053,Statement,True,False,50% × 270 = 135,A,2,50% × 270 = 135
+628,SORT-053,Statement,True,False,8 + 6 × 5 = 38,A,2,8 + 6 × 5 = 38
+629,SORT-053,Statement,True,False,9 + 10 × 4 = 49,A,2,9 + 10 × 4 = 49
+630,SORT-053,Statement,True,False,3 + 8 × 3 = 33,B,2,3 + 8 × 3 = 27
+631,SORT-053,Statement,True,False,14 + 12 × 7 = 96,B,2,14 + 12 × 7 = 98
+632,SORT-053,Statement,True,False,19 + 12 × 9 = 127,A,2,19 + 12 × 9 = 127
+633,SORT-053,Statement,True,False,7 + 9 × 3 = 34,A,2,7 + 9 × 3 = 34
+634,SORT-053,Statement,True,False,3 + 10 × 6 = 61,B,2,3 + 10 × 6 = 63
+635,SORT-053,Statement,True,False,7 + 10 × 5 = 57,A,2,7 + 10 × 5 = 57
+636,SORT-053,Statement,True,False,7 + 7 × 6 = 51,B,2,7 + 7 × 6 = 49
+637,SORT-054,Expression,Below 200,Above 200,341 - 200,A,2,341 - 200 = 141
+638,SORT-054,Expression,Below 200,Above 200,520 - 200,B,2,520 - 200 = 320
+639,SORT-054,Expression,Below 200,Above 200,340 - 100,B,2,340 - 100 = 240
+640,SORT-054,Expression,Below 200,Above 200,80 - 72,A,2,80 - 72 = 8
+641,SORT-054,Expression,Below 200,Above 200,259 - 100,A,2,259 - 100 = 159
+642,SORT-054,Expression,Below 200,Above 200,50 - 33,A,2,50 - 33 = 17
+643,SORT-054,Expression,Below 200,Above 200,439 - 10,B,2,439 - 10 = 429
+644,SORT-054,Expression,Below 200,Above 200,81 - 23,A,2,81 - 23 = 58
+645,SORT-054,Expression,Below 200,Above 200,933 - 30,B,2,933 - 30 = 903
+646,SORT-054,Expression,Below 200,Above 200,201 - 30,A,2,201 - 30 = 171
+647,SORT-054,Expression,Below 200,Above 200,263 - 30,B,2,263 - 30 = 233
+648,SORT-054,Expression,Below 200,Above 200,358 - 100,B,2,358 - 100 = 258
+649,SORT-055,Expression,Above 500,Below 500,94 × 9,A,2,94 × 9 = 846
+650,SORT-055,Expression,Above 500,Below 500,57 × 7,B,2,57 × 7 = 399
+651,SORT-055,Expression,Above 500,Below 500,83 × 7,A,2,83 × 7 = 581
+652,SORT-055,Expression,Above 500,Below 500,142 × 5,A,2,142 × 5 = 710
+653,SORT-055,Expression,Above 500,Below 500,46 × 10,B,2,46 × 10 = 460
+654,SORT-055,Expression,Above 500,Below 500,132 × 5,A,2,132 × 5 = 660
+655,SORT-055,Expression,Above 500,Below 500,81 × 8,A,2,81 × 8 = 648
+656,SORT-055,Expression,Above 500,Below 500,58 × 8,B,2,58 × 8 = 464
+657,SORT-055,Expression,Above 500,Below 500,20 × 4,B,2,20 × 4 = 80
+658,SORT-055,Expression,Above 500,Below 500,18 × 2,B,2,18 × 2 = 36
+659,SORT-055,Expression,Above 500,Below 500,92 × 6,A,2,92 × 6 = 552
+660,SORT-055,Expression,Above 500,Below 500,32 × 8,B,2,32 × 8 = 256
+661,SORT-056,Statement,True,False,263 + 30 = 293,A,2,263 + 30 = 293
+662,SORT-056,Statement,True,False,52 + 79 = 131,A,2,52 + 79 = 131
+663,SORT-056,Statement,True,False,89 + 46 = 135,A,2,89 + 46 = 135
+664,SORT-056,Statement,True,False,390 + 30 = 418,B,2,390 + 30 = 420
+665,SORT-056,Statement,True,False,99 + 39 = 128,B,2,99 + 39 = 138
+666,SORT-056,Statement,True,False,145 + 200 = 345,A,2,145 + 200 = 345
+667,SORT-056,Statement,True,False,106 + 200 = 304,B,2,106 + 200 = 306
+668,SORT-056,Statement,True,False,491 + 200 = 693,B,2,491 + 200 = 691
+669,SORT-056,Statement,True,False,343 + 10 = 343,B,2,343 + 10 = 353
+670,SORT-056,Statement,True,False,304 + 10 = 314,A,2,304 + 10 = 314
+671,SORT-056,Statement,True,False,675 + 30 = 715,B,2,675 + 30 = 705
+672,SORT-056,Statement,True,False,56 + 98 = 154,A,2,56 + 98 = 154
+673,SORT-057,Number,Multiples of 5,Multiples of 4,35,A,2,35 = 5 × 7
+674,SORT-057,Number,Multiples of 5,Multiples of 4,75,A,2,75 = 5 × 15
+675,SORT-057,Number,Multiples of 5,Multiples of 4,52,B,2,52 = 4 × 13
+676,SORT-057,Number,Multiples of 5,Multiples of 4,64,B,2,64 = 4 × 16
+677,SORT-057,Number,Multiples of 5,Multiples of 4,95,A,2,95 = 5 × 19
+678,SORT-057,Number,Multiples of 5,Multiples of 4,32,B,2,32 = 4 × 8
+679,SORT-057,Number,Multiples of 5,Multiples of 4,68,B,2,68 = 4 × 17
+680,SORT-057,Number,Multiples of 5,Multiples of 4,30,A,2,30 = 5 × 6
+681,SORT-057,Number,Multiples of 5,Multiples of 4,88,B,2,88 = 4 × 22
+682,SORT-057,Number,Multiples of 5,Multiples of 4,56,B,2,56 = 4 × 14
+683,SORT-057,Number,Multiples of 5,Multiples of 4,65,A,2,65 = 5 × 13
+684,SORT-057,Number,Multiples of 5,Multiples of 4,85,A,2,85 = 5 × 17
+685,SORT-058,Statement,False,True,203 ÷ 7 = 19,A,2,203 ÷ 7 = 29
+686,SORT-058,Statement,False,True,132 ÷ 6 = 24,A,2,132 ÷ 6 = 22
+687,SORT-058,Statement,False,True,305 ÷ 5 = 61,B,2,305 ÷ 5 = 61
+688,SORT-058,Statement,False,True,176 ÷ 2 = 86,A,2,176 ÷ 2 = 88
+689,SORT-058,Statement,False,True,144 ÷ 9 = 16,B,2,144 ÷ 9 = 16
+690,SORT-058,Statement,False,True,234 ÷ 9 = 26,B,2,234 ÷ 9 = 26
+691,SORT-058,Statement,False,True,108 ÷ 9 = 2,A,2,108 ÷ 9 = 12
+692,SORT-058,Statement,False,True,44 ÷ 11 = 4,B,2,44 ÷ 11 = 4
+693,SORT-058,Statement,False,True,15 ÷ 3 = 5,B,2,15 ÷ 3 = 5
+694,SORT-058,Statement,False,True,20 ÷ 2 = 10,B,2,20 ÷ 2 = 10
+695,SORT-058,Statement,False,True,33 ÷ 3 = 21,A,2,33 ÷ 3 = 11
+696,SORT-058,Statement,False,True,485 ÷ 5 = 107,A,2,485 ÷ 5 = 97
+697,SORT-059,Expression,Above 50,Below 50,872 - 10,A,2,872 - 10 = 862
+698,SORT-059,Expression,Above 50,Below 50,83 - 26,A,2,83 - 26 = 57
+699,SORT-059,Expression,Above 50,Below 50,80 - 51,B,2,80 - 51 = 29
+700,SORT-059,Expression,Above 50,Below 50,94 - 49,B,2,94 - 49 = 45
+701,SORT-059,Expression,Above 50,Below 50,81 - 17,A,2,81 - 17 = 64
+702,SORT-059,Expression,Above 50,Below 50,93 - 54,B,2,93 - 54 = 39
+703,SORT-059,Expression,Above 50,Below 50,100 - 78,B,2,100 - 78 = 22
+704,SORT-059,Expression,Above 50,Below 50,443 - 20,A,2,443 - 20 = 423
+705,SORT-059,Expression,Above 50,Below 50,86 - 27,A,2,86 - 27 = 59
+706,SORT-059,Expression,Above 50,Below 50,946 - 30,A,2,946 - 30 = 916
+707,SORT-059,Expression,Above 50,Below 50,63 - 24,B,2,63 - 24 = 39
+708,SORT-059,Expression,Above 50,Below 50,82 - 73,B,2,82 - 73 = 9
+709,SORT-060,Expression,Below 500,Above 500,99 + 64,A,2,99 + 64 = 163
+710,SORT-060,Expression,Below 500,Above 500,46 + 28,A,2,46 + 28 = 74
+711,SORT-060,Expression,Below 500,Above 500,712 + 20,B,2,712 + 20 = 732
+712,SORT-060,Expression,Below 500,Above 500,428 + 20,A,2,428 + 20 = 448
+713,SORT-060,Expression,Below 500,Above 500,500 + 40,B,2,500 + 40 = 540
+714,SORT-060,Expression,Below 500,Above 500,359 + 20,A,2,359 + 20 = 379
+715,SORT-060,Expression,Below 500,Above 500,528 + 20,B,2,528 + 20 = 548
+716,SORT-060,Expression,Below 500,Above 500,548 + 200,B,2,548 + 200 = 748
+717,SORT-060,Expression,Below 500,Above 500,322 + 30,A,2,322 + 30 = 352
+718,SORT-060,Expression,Below 500,Above 500,93 + 87,A,2,93 + 87 = 180
+719,SORT-060,Expression,Below 500,Above 500,542 + 30,B,2,542 + 30 = 572
+720,SORT-060,Expression,Below 500,Above 500,836 + 100,B,2,836 + 100 = 936
+721,SORT-061,Statement,True,False,306 - 20 = 266,B,2,306 - 20 = 286
+722,SORT-061,Statement,True,False,361 - 200 = 161,A,2,361 - 200 = 161
+723,SORT-061,Statement,True,False,612 - 20 = 582,B,2,612 - 20 = 592
+724,SORT-061,Statement,True,False,508 - 10 = 498,A,2,508 - 10 = 498
+725,SORT-061,Statement,True,False,526 - 40 = 486,A,2,526 - 40 = 486
+726,SORT-061,Statement,True,False,742 - 10 = 732,A,2,742 - 10 = 732
+727,SORT-061,Statement,True,False,41 - 25 = 26,B,2,41 - 25 = 16
+728,SORT-061,Statement,True,False,251 - 200 = 41,B,2,251 - 200 = 51
+729,SORT-061,Statement,True,False,577 - 40 = 539,B,2,577 - 40 = 537
+730,SORT-061,Statement,True,False,239 - 20 = 219,A,2,239 - 20 = 219
+731,SORT-061,Statement,True,False,762 - 100 = 642,B,2,762 - 100 = 662
+732,SORT-061,Statement,True,False,917 - 100 = 817,A,2,917 - 100 = 817
+733,SORT-062,Expression,Above 50,Below 50,18 + 12 × 6,A,2,18 + 12 × 6 = 90
+734,SORT-062,Expression,Above 50,Below 50,8 + 3 × 10,B,2,8 + 3 × 10 = 38
+735,SORT-062,Expression,Above 50,Below 50,5 + 9 × 8,A,2,5 + 9 × 8 = 77
+736,SORT-062,Expression,Above 50,Below 50,11 + 6 × 5,B,2,11 + 6 × 5 = 41
+737,SORT-062,Expression,Above 50,Below 50,5 + 9 × 6,A,2,5 + 9 × 6 = 59
+738,SORT-062,Expression,Above 50,Below 50,14 + 2 × 6,B,2,14 + 2 × 6 = 26
+739,SORT-062,Expression,Above 50,Below 50,10 + 8 × 7,A,2,10 + 8 × 7 = 66
+740,SORT-062,Expression,Above 50,Below 50,11 + 3 × 4,B,2,11 + 3 × 4 = 23
+741,SORT-062,Expression,Above 50,Below 50,3 + 2 × 2,B,2,3 + 2 × 2 = 7
+742,SORT-062,Expression,Above 50,Below 50,10% × 430,B,2,10% × 430 = 43
+743,SORT-062,Expression,Above 50,Below 50,19 + 11 × 4,A,2,19 + 11 × 4 = 63
+744,SORT-062,Expression,Above 50,Below 50,13 + 9 × 5,A,2,13 + 9 × 5 = 58
+745,SORT-063,Statement,True,False,86 + 98 = 174,B,2,86 + 98 = 184
+746,SORT-063,Statement,True,False,353 + 30 = 393,B,2,353 + 30 = 383
+747,SORT-063,Statement,True,False,53 + 87 = 130,B,2,53 + 87 = 140
+748,SORT-063,Statement,True,False,140 + 100 = 240,A,2,140 + 100 = 240
+749,SORT-063,Statement,True,False,144 + 20 = 164,A,2,144 + 20 = 164
+750,SORT-063,Statement,True,False,153 + 200 = 351,B,2,153 + 200 = 353
+751,SORT-063,Statement,True,False,722 + 30 = 750,B,2,722 + 30 = 752
+752,SORT-063,Statement,True,False,39 + 89 = 128,A,2,39 + 89 = 128
+753,SORT-063,Statement,True,False,391 + 50 = 441,A,2,391 + 50 = 441
+754,SORT-063,Statement,True,False,58 + 57 = 125,B,2,58 + 57 = 115
+755,SORT-063,Statement,True,False,467 + 50 = 517,A,2,467 + 50 = 517
+756,SORT-063,Statement,True,False,47 + 56 = 103,A,2,47 + 56 = 103
+757,SORT-064,Number,Multiples of 3,Multiples of 4,4,B,2,4 = 4 × 1
+758,SORT-064,Number,Multiples of 3,Multiples of 4,57,A,2,57 = 3 × 19
+759,SORT-064,Number,Multiples of 3,Multiples of 4,40,B,2,40 = 4 × 10
+760,SORT-064,Number,Multiples of 3,Multiples of 4,56,B,2,56 = 4 × 14
+761,SORT-064,Number,Multiples of 3,Multiples of 4,16,B,2,16 = 4 × 4
+762,SORT-064,Number,Multiples of 3,Multiples of 4,39,A,2,39 = 3 × 13
+763,SORT-064,Number,Multiples of 3,Multiples of 4,45,A,2,45 = 3 × 15
+764,SORT-064,Number,Multiples of 3,Multiples of 4,32,B,2,32 = 4 × 8
+765,SORT-064,Number,Multiples of 3,Multiples of 4,15,A,2,15 = 3 × 5
+766,SORT-064,Number,Multiples of 3,Multiples of 4,21,A,2,21 = 3 × 7
+767,SORT-064,Number,Multiples of 3,Multiples of 4,51,A,2,51 = 3 × 17
+768,SORT-064,Number,Multiples of 3,Multiples of 4,68,B,2,68 = 4 × 17
+769,SORT-065,Statement,False,True,90 ÷ 3 = 28,A,2,90 ÷ 3 = 30
+770,SORT-065,Statement,False,True,224 ÷ 8 = 38,A,2,224 ÷ 8 = 28
+771,SORT-065,Statement,False,True,350 ÷ 5 = 70,B,2,350 ÷ 5 = 70
+772,SORT-065,Statement,False,True,365 ÷ 5 = 73,B,2,365 ÷ 5 = 73
+773,SORT-065,Statement,False,True,395 ÷ 5 = 79,B,2,395 ÷ 5 = 79
+774,SORT-065,Statement,False,True,69 ÷ 3 = 13,A,2,69 ÷ 3 = 23
+775,SORT-065,Statement,False,True,110 ÷ 11 = 8,A,2,110 ÷ 11 = 10
+776,SORT-065,Statement,False,True,44 ÷ 4 = 11,B,2,44 ÷ 4 = 11
+777,SORT-065,Statement,False,True,108 ÷ 12 = 9,B,2,108 ÷ 12 = 9
+778,SORT-065,Statement,False,True,80 ÷ 4 = 22,A,2,80 ÷ 4 = 20
+779,SORT-065,Statement,False,True,133 ÷ 7 = 19,B,2,133 ÷ 7 = 19
+780,SORT-065,Statement,False,True,135 ÷ 5 = 37,A,2,135 ÷ 5 = 27
+781,SORT-066,Expression,Even,Odd,38 × 7,A,2,38 × 7 = 266
+782,SORT-066,Expression,Even,Odd,27 × 4,A,2,27 × 4 = 108
+783,SORT-066,Expression,Even,Odd,53 × 9,B,2,53 × 9 = 477
+784,SORT-066,Expression,Even,Odd,37 × 7,B,2,37 × 7 = 259
+785,SORT-066,Expression,Even,Odd,33 × 8,A,2,33 × 8 = 264
+786,SORT-066,Expression,Even,Odd,26 × 7,A,2,26 × 7 = 182
+787,SORT-066,Expression,Even,Odd,3 × 12,A,2,3 × 12 = 36
+788,SORT-066,Expression,Even,Odd,9 × 9,B,2,9 × 9 = 81
+789,SORT-066,Expression,Even,Odd,65 × 2,A,2,65 × 2 = 130
+790,SORT-066,Expression,Even,Odd,17 × 5,B,2,17 × 5 = 85
+791,SORT-066,Expression,Even,Odd,35 × 9,B,2,35 × 9 = 315
+792,SORT-066,Expression,Even,Odd,11 × 3,B,2,11 × 3 = 33
+793,SORT-067,Expression,Even,Odd,570 + 100,A,2,570 + 100 = 670
+794,SORT-067,Expression,Even,Odd,78 + 77,B,2,78 + 77 = 155
+795,SORT-067,Expression,Even,Odd,95 + 37,A,2,95 + 37 = 132
+796,SORT-067,Expression,Even,Odd,26 + 68,A,2,26 + 68 = 94
+797,SORT-067,Expression,Even,Odd,673 + 50,B,2,673 + 50 = 723
+798,SORT-067,Expression,Even,Odd,673 + 200,B,2,673 + 200 = 873
+799,SORT-067,Expression,Even,Odd,516 + 30,A,2,516 + 30 = 546
+800,SORT-067,Expression,Even,Odd,726 + 30,A,2,726 + 30 = 756
+801,SORT-067,Expression,Even,Odd,307 + 100,B,2,307 + 100 = 407
+802,SORT-067,Expression,Even,Odd,98 + 35,B,2,98 + 35 = 133
+803,SORT-067,Expression,Even,Odd,839 + 50,B,2,839 + 50 = 889
+804,SORT-067,Expression,Even,Odd,68 + 38,A,2,68 + 38 = 106
+805,SORT-068,Expression,Below 100,Above 100,39 + 55,A,2,39 + 55 = 94
+806,SORT-068,Expression,Below 100,Above 100,46 + 46,A,2,46 + 46 = 92
+807,SORT-068,Expression,Below 100,Above 100,58 + 33,A,2,58 + 33 = 91
+808,SORT-068,Expression,Below 100,Above 100,96 + 78,B,2,96 + 78 = 174
+809,SORT-068,Expression,Below 100,Above 100,27 + 33,A,2,27 + 33 = 60
+810,SORT-068,Expression,Below 100,Above 100,104 + 20,B,2,104 + 20 = 124
+811,SORT-068,Expression,Below 100,Above 100,97 + 28,B,2,97 + 28 = 125
+812,SORT-068,Expression,Below 100,Above 100,29 + 45,A,2,29 + 45 = 74
+813,SORT-068,Expression,Below 100,Above 100,92 + 89,B,2,92 + 89 = 181
+814,SORT-068,Expression,Below 100,Above 100,38 + 23,A,2,38 + 23 = 61
+815,SORT-068,Expression,Below 100,Above 100,422 + 100,B,2,422 + 100 = 522
+816,SORT-068,Expression,Below 100,Above 100,49 + 59,B,2,49 + 59 = 108
+817,SORT-069,Expression,Even,Odd,331 + 50,B,2,331 + 50 = 381
+818,SORT-069,Expression,Even,Odd,824 + 10,A,2,824 + 10 = 834
+819,SORT-069,Expression,Even,Odd,246 + 20,A,2,246 + 20 = 266
+820,SORT-069,Expression,Even,Odd,98 + 23,B,2,98 + 23 = 121
+821,SORT-069,Expression,Even,Odd,24 + 29,B,2,24 + 29 = 53
+822,SORT-069,Expression,Even,Odd,340 + 200,A,2,340 + 200 = 540
+823,SORT-069,Expression,Even,Odd,98 + 53,B,2,98 + 53 = 151
+824,SORT-069,Expression,Even,Odd,378 + 10,A,2,378 + 10 = 388
+825,SORT-069,Expression,Even,Odd,709 + 40,B,2,709 + 40 = 749
+826,SORT-069,Expression,Even,Odd,708 + 200,A,2,708 + 200 = 908
+827,SORT-069,Expression,Even,Odd,527 + 50,B,2,527 + 50 = 577
+828,SORT-069,Expression,Even,Odd,408 + 10,A,2,408 + 10 = 418
+829,SORT-070,Number,Multiples of 3,Multiples of 7,33,A,2,33 = 3 × 11
+830,SORT-070,Number,Multiples of 3,Multiples of 7,28,B,2,28 = 7 × 4
+831,SORT-070,Number,Multiples of 3,Multiples of 7,87,A,2,87 = 3 × 29
+832,SORT-070,Number,Multiples of 3,Multiples of 7,72,A,2,72 = 3 × 24
+833,SORT-070,Number,Multiples of 3,Multiples of 7,14,B,2,14 = 7 × 2
+834,SORT-070,Number,Multiples of 3,Multiples of 7,70,B,2,70 = 7 × 10
+835,SORT-070,Number,Multiples of 3,Multiples of 7,49,B,2,49 = 7 × 7
+836,SORT-070,Number,Multiples of 3,Multiples of 7,3,A,2,3 = 3 × 1
+837,SORT-070,Number,Multiples of 3,Multiples of 7,35,B,2,35 = 7 × 5
+838,SORT-070,Number,Multiples of 3,Multiples of 7,7,B,2,7 = 7 × 1
+839,SORT-070,Number,Multiples of 3,Multiples of 7,51,A,2,51 = 3 × 17
+840,SORT-070,Number,Multiples of 3,Multiples of 7,18,A,2,18 = 3 × 6
+841,SORT-071,Statement,False,True,544 + 432 = 966,A,3,544 + 432 = 976
+842,SORT-071,Statement,False,True,822 + 371 = 1183,A,3,822 + 371 = 1193
+843,SORT-071,Statement,False,True,862 + 855 = 1707,A,3,862 + 855 = 1717
+844,SORT-071,Statement,False,True,256 + 465 = 721,B,3,256 + 465 = 721
+845,SORT-071,Statement,False,True,372 + 209 = 581,B,3,372 + 209 = 581
+846,SORT-071,Statement,False,True,305 + 502 = 807,B,3,305 + 502 = 807
+847,SORT-071,Statement,False,True,218 + 237 = 465,A,3,218 + 237 = 455
+848,SORT-071,Statement,False,True,226 + 463 = 689,B,3,226 + 463 = 689
+849,SORT-071,Statement,False,True,571 + 128 = 699,B,3,571 + 128 = 699
+850,SORT-071,Statement,False,True,448 + 311 = 749,A,3,448 + 311 = 759
+851,SORT-071,Statement,False,True,843 + 873 = 1726,A,3,843 + 873 = 1716
+852,SORT-071,Statement,False,True,252 + 263 = 515,B,3,252 + 263 = 515
+853,SORT-072,Number,Multiples of 8,Multiples of 9,136,A,3,136 = 8 × 17
+854,SORT-072,Number,Multiples of 8,Multiples of 9,27,B,3,27 = 9 × 3
+855,SORT-072,Number,Multiples of 8,Multiples of 9,128,A,3,128 = 8 × 16
+856,SORT-072,Number,Multiples of 8,Multiples of 9,32,A,3,32 = 8 × 4
+857,SORT-072,Number,Multiples of 8,Multiples of 9,88,A,3,88 = 8 × 11
+858,SORT-072,Number,Multiples of 8,Multiples of 9,90,B,3,90 = 9 × 10
+859,SORT-072,Number,Multiples of 8,Multiples of 9,135,B,3,135 = 9 × 15
+860,SORT-072,Number,Multiples of 8,Multiples of 9,126,B,3,126 = 9 × 14
+861,SORT-072,Number,Multiples of 8,Multiples of 9,24,A,3,24 = 8 × 3
+862,SORT-072,Number,Multiples of 8,Multiples of 9,108,B,3,108 = 9 × 12
+863,SORT-072,Number,Multiples of 8,Multiples of 9,120,A,3,120 = 8 × 15
+864,SORT-072,Number,Multiples of 8,Multiples of 9,18,B,3,18 = 9 × 2
+865,SORT-073,Expression,Odd,Even,760 ÷ 8,A,3,760 ÷ 8 = 95
+866,SORT-073,Expression,Odd,Even,2072 ÷ 7,B,3,2072 ÷ 7 = 296
+867,SORT-073,Expression,Odd,Even,852 ÷ 4,A,3,852 ÷ 4 = 213
+868,SORT-073,Expression,Odd,Even,1778 ÷ 7,B,3,1778 ÷ 7 = 254
+869,SORT-073,Expression,Odd,Even,1645 ÷ 7,A,3,1645 ÷ 7 = 235
+870,SORT-073,Expression,Odd,Even,1650 ÷ 50,A,3,1650 ÷ 50 = 33
+871,SORT-073,Expression,Odd,Even,128 ÷ 4,B,3,128 ÷ 4 = 32
+872,SORT-073,Expression,Odd,Even,531 ÷ 3,A,3,531 ÷ 3 = 177
+873,SORT-073,Expression,Odd,Even,1296 ÷ 8,B,3,1296 ÷ 8 = 162
+874,SORT-073,Expression,Odd,Even,686 ÷ 7,B,3,686 ÷ 7 = 98
+875,SORT-073,Expression,Odd,Even,420 ÷ 7,B,3,420 ÷ 7 = 60
+876,SORT-073,Expression,Odd,Even,2488 ÷ 8,A,3,2488 ÷ 8 = 311
+877,SORT-074,Statement,True,False,168 + 519 = 689,B,3,168 + 519 = 687
+878,SORT-074,Statement,True,False,796 + 896 = 1692,A,3,796 + 896 = 1692
+879,SORT-074,Statement,True,False,174 + 736 = 912,B,3,174 + 736 = 910
+880,SORT-074,Statement,True,False,194 + 293 = 485,B,3,194 + 293 = 487
+881,SORT-074,Statement,True,False,236 + 604 = 840,A,3,236 + 604 = 840
+882,SORT-074,Statement,True,False,642 + 223 = 865,A,3,642 + 223 = 865
+883,SORT-074,Statement,True,False,349 + 201 = 548,B,3,349 + 201 = 550
+884,SORT-074,Statement,True,False,347 + 328 = 673,B,3,347 + 328 = 675
+885,SORT-074,Statement,True,False,614 + 734 = 1348,A,3,614 + 734 = 1348
+886,SORT-074,Statement,True,False,156 + 125 = 281,A,3,156 + 125 = 281
+887,SORT-074,Statement,True,False,880 + 352 = 1232,A,3,880 + 352 = 1232
+888,SORT-074,Statement,True,False,150 + 865 = 1017,B,3,150 + 865 = 1015
+889,SORT-075,Expression,Below 500,Above 500,176 + 295,A,3,176 + 295 = 471
+890,SORT-075,Expression,Below 500,Above 500,239 + 80,A,3,239 + 80 = 319
+891,SORT-075,Expression,Below 500,Above 500,352 + 86,A,3,352 + 86 = 438
+892,SORT-075,Expression,Below 500,Above 500,817 + 180,B,3,817 + 180 = 997
+893,SORT-075,Expression,Below 500,Above 500,256 + 311,B,3,256 + 311 = 567
+894,SORT-075,Expression,Below 500,Above 500,200 + 252,A,3,200 + 252 = 452
+895,SORT-075,Expression,Below 500,Above 500,208 + 413,B,3,208 + 413 = 621
+896,SORT-075,Expression,Below 500,Above 500,219 + 483,B,3,219 + 483 = 702
+897,SORT-075,Expression,Below 500,Above 500,377 + 78,A,3,377 + 78 = 455
+898,SORT-075,Expression,Below 500,Above 500,532 + 553,B,3,532 + 553 = 1085
+899,SORT-075,Expression,Below 500,Above 500,169 + 370,B,3,169 + 370 = 539
+900,SORT-075,Expression,Below 500,Above 500,180 + 78,A,3,180 + 78 = 258
+901,SORT-076,Number,Multiples of 7,Multiples of 6,28,A,3,28 = 7 × 4
+902,SORT-076,Number,Multiples of 7,Multiples of 6,112,A,3,112 = 7 × 16
+903,SORT-076,Number,Multiples of 7,Multiples of 6,6,B,3,6 = 6 × 1
+904,SORT-076,Number,Multiples of 7,Multiples of 6,140,A,3,140 = 7 × 20
+905,SORT-076,Number,Multiples of 7,Multiples of 6,72,B,3,72 = 6 × 12
+906,SORT-076,Number,Multiples of 7,Multiples of 6,7,A,3,7 = 7 × 1
+907,SORT-076,Number,Multiples of 7,Multiples of 6,98,A,3,98 = 7 × 14
+908,SORT-076,Number,Multiples of 7,Multiples of 6,12,B,3,12 = 6 × 2
+909,SORT-076,Number,Multiples of 7,Multiples of 6,102,B,3,102 = 6 × 17
+910,SORT-076,Number,Multiples of 7,Multiples of 6,105,A,3,105 = 7 × 15
+911,SORT-076,Number,Multiples of 7,Multiples of 6,30,B,3,30 = 6 × 5
+912,SORT-076,Number,Multiples of 7,Multiples of 6,120,B,3,120 = 6 × 20
+913,SORT-077,Statement,False,True,8 + 9 × 11 = 107,B,3,8 + 9 × 11 = 107
+914,SORT-077,Statement,False,True,10 + 3 × 3 = 29,A,3,10 + 3 × 3 = 19
+915,SORT-077,Statement,False,True,13 + 11 × 7 = 100,A,3,13 + 11 × 7 = 90
+916,SORT-077,Statement,False,True,16 + 6 × 8 = 54,A,3,16 + 6 × 8 = 64
+917,SORT-077,Statement,False,True,24 + 6 × 11 = 90,B,3,24 + 6 × 11 = 90
+918,SORT-077,Statement,False,True,19 + 4 × 4 = 45,A,3,19 + 4 × 4 = 35
+919,SORT-077,Statement,False,True,4 + 5 × 5 = 29,B,3,4 + 5 × 5 = 29
+920,SORT-077,Statement,False,True,4 + 4 × 8 = 46,A,3,4 + 4 × 8 = 36
+921,SORT-077,Statement,False,True,9 + 7 × 9 = 72,B,3,9 + 7 × 9 = 72
+922,SORT-077,Statement,False,True,11 + 6 × 7 = 53,B,3,11 + 6 × 7 = 53
+923,SORT-077,Statement,False,True,16 + 6 × 5 = 46,B,3,16 + 6 × 5 = 46
+924,SORT-077,Statement,False,True,12 + 10 × 6 = 82,A,3,12 + 10 × 6 = 72
+925,SORT-078,Statement,False,True,642 - 391 = 261,A,3,642 - 391 = 251
+926,SORT-078,Statement,False,True,845 - 556 = 289,B,3,845 - 556 = 289
+927,SORT-078,Statement,False,True,587 - 254 = 331,A,3,587 - 254 = 333
+928,SORT-078,Statement,False,True,550 - 187 = 363,B,3,550 - 187 = 363
+929,SORT-078,Statement,False,True,515 - 360 = 155,B,3,515 - 360 = 155
+930,SORT-078,Statement,False,True,842 - 687 = 155,B,3,842 - 687 = 155
+931,SORT-078,Statement,False,True,843 - 393 = 460,A,3,843 - 393 = 450
+932,SORT-078,Statement,False,True,1000 - 774 = 226,B,3,1000 - 774 = 226
+933,SORT-078,Statement,False,True,909 - 186 = 703,A,3,909 - 186 = 723
+934,SORT-078,Statement,False,True,931 - 299 = 652,A,3,931 - 299 = 632
+935,SORT-078,Statement,False,True,491 - 236 = 265,A,3,491 - 236 = 255
+936,SORT-078,Statement,False,True,877 - 706 = 171,B,3,877 - 706 = 171
+937,SORT-079,Expression,Odd,Even,429 × 4,B,3,429 × 4 = 1716
+938,SORT-079,Expression,Odd,Even,205 × 5,A,3,205 × 5 = 1025
+939,SORT-079,Expression,Odd,Even,405 × 5,A,3,405 × 5 = 2025
+940,SORT-079,Expression,Odd,Even,75 × 25,A,3,75 × 25 = 1875
+941,SORT-079,Expression,Odd,Even,238 × 8,B,3,238 × 8 = 1904
+942,SORT-079,Expression,Odd,Even,58 × 25,B,3,58 × 25 = 1450
+943,SORT-079,Expression,Odd,Even,17 × 11,A,3,17 × 11 = 187
+944,SORT-079,Expression,Odd,Even,268 × 5,B,3,268 × 5 = 1340
+945,SORT-079,Expression,Odd,Even,367 × 5,A,3,367 × 5 = 1835
+946,SORT-079,Expression,Odd,Even,275 × 5,A,3,275 × 5 = 1375
+947,SORT-079,Expression,Odd,Even,112 × 4,B,3,112 × 4 = 448
+948,SORT-079,Expression,Odd,Even,355 × 4,B,3,355 × 4 = 1420
+949,SORT-080,Statement,False,True,1332 ÷ 4 = 335,A,3,1332 ÷ 4 = 333
+950,SORT-080,Statement,False,True,695 ÷ 5 = 139,B,3,695 ÷ 5 = 139
+951,SORT-080,Statement,False,True,2640 ÷ 6 = 442,A,3,2640 ÷ 6 = 440
+952,SORT-080,Statement,False,True,351 ÷ 9 = 49,A,3,351 ÷ 9 = 39
+953,SORT-080,Statement,False,True,1038 ÷ 6 = 173,B,3,1038 ÷ 6 = 173
+954,SORT-080,Statement,False,True,2628 ÷ 9 = 290,A,3,2628 ÷ 9 = 292
+955,SORT-080,Statement,False,True,3690 ÷ 9 = 400,A,3,3690 ÷ 9 = 410
+956,SORT-080,Statement,False,True,820 ÷ 4 = 205,B,3,820 ÷ 4 = 205
+957,SORT-080,Statement,False,True,3411 ÷ 9 = 377,A,3,3411 ÷ 9 = 379
+958,SORT-080,Statement,False,True,539 ÷ 7 = 77,B,3,539 ÷ 7 = 77
+959,SORT-080,Statement,False,True,280 ÷ 7 = 40,B,3,280 ÷ 7 = 40
+960,SORT-080,Statement,False,True,72 ÷ 12 = 6,B,3,72 ÷ 12 = 6
+961,SORT-081,Statement,False,True,348 × 5 = 1740,B,3,348 × 5 = 1740
+962,SORT-081,Statement,False,True,297 × 2 = 584,A,3,297 × 2 = 594
+963,SORT-081,Statement,False,True,196 × 2 = 392,B,3,196 × 2 = 392
+964,SORT-081,Statement,False,True,220 × 4 = 880,B,3,220 × 4 = 880
+965,SORT-081,Statement,False,True,127 × 5 = 625,A,3,127 × 5 = 635
+966,SORT-081,Statement,False,True,94 × 15 = 1410,B,3,94 × 15 = 1410
+967,SORT-081,Statement,False,True,198 × 5 = 1010,A,3,198 × 5 = 990
+968,SORT-081,Statement,False,True,213 × 4 = 852,B,3,213 × 4 = 852
+969,SORT-081,Statement,False,True,391 × 2 = 792,A,3,391 × 2 = 782
+970,SORT-081,Statement,False,True,62 × 11 = 692,A,3,62 × 11 = 682
+971,SORT-081,Statement,False,True,21 × 12 = 252,B,3,21 × 12 = 252
+972,SORT-081,Statement,False,True,141 × 8 = 1148,A,3,141 × 8 = 1128
+973,SORT-082,Expression,Below 500,Above 500,216 × 2,A,3,216 × 2 = 432
+974,SORT-082,Expression,Below 500,Above 500,44 × 12,B,3,44 × 12 = 528
+975,SORT-082,Expression,Below 500,Above 500,86 × 25,B,3,86 × 25 = 2150
+976,SORT-082,Expression,Below 500,Above 500,296 × 8,B,3,296 × 8 = 2368
+977,SORT-082,Expression,Below 500,Above 500,179 × 2,A,3,179 × 2 = 358
+978,SORT-082,Expression,Below 500,Above 500,14 × 11,A,3,14 × 11 = 154
+979,SORT-082,Expression,Below 500,Above 500,129 × 5,B,3,129 × 5 = 645
+980,SORT-082,Expression,Below 500,Above 500,122 × 5,B,3,122 × 5 = 610
+981,SORT-082,Expression,Below 500,Above 500,198 × 2,A,3,198 × 2 = 396
+982,SORT-082,Expression,Below 500,Above 500,12 × 9,A,3,12 × 9 = 108
+983,SORT-082,Expression,Below 500,Above 500,11 × 11,A,3,11 × 11 = 121
+984,SORT-082,Expression,Below 500,Above 500,487 × 5,B,3,487 × 5 = 2435
+985,SORT-083,Statement,False,True,420 ÷ 4 = 105,B,3,420 ÷ 4 = 105
+986,SORT-083,Statement,False,True,2652 ÷ 6 = 440,A,3,2652 ÷ 6 = 442
+987,SORT-083,Statement,False,True,1526 ÷ 7 = 228,A,3,1526 ÷ 7 = 218
+988,SORT-083,Statement,False,True,2154 ÷ 6 = 357,A,3,2154 ÷ 6 = 359
+989,SORT-083,Statement,False,True,380 ÷ 4 = 95,B,3,380 ÷ 4 = 95
+990,SORT-083,Statement,False,True,300 ÷ 25 = 14,A,3,300 ÷ 25 = 12
+991,SORT-083,Statement,False,True,492 ÷ 6 = 82,B,3,492 ÷ 6 = 82
+992,SORT-083,Statement,False,True,2601 ÷ 9 = 289,B,3,2601 ÷ 9 = 289
+993,SORT-083,Statement,False,True,1504 ÷ 4 = 378,A,3,1504 ÷ 4 = 376
+994,SORT-083,Statement,False,True,350 ÷ 10 = 35,B,3,350 ÷ 10 = 35
+995,SORT-083,Statement,False,True,2640 ÷ 8 = 332,A,3,2640 ÷ 8 = 330
+996,SORT-083,Statement,False,True,608 ÷ 2 = 304,B,3,608 ÷ 2 = 304
+997,SORT-084,Statement,False,True,9 + 3 × 6 = 27,B,3,9 + 3 × 6 = 27
+998,SORT-084,Statement,False,True,4 + 5 × 2 = 14,B,3,4 + 5 × 2 = 14
+999,SORT-084,Statement,False,True,11 + 4 × 2 = 29,A,3,11 + 4 × 2 = 19
+1000,SORT-084,Statement,False,True,17 + 6 × 10 = 87,A,3,17 + 6 × 10 = 77
+1001,SORT-084,Statement,False,True,2 + 7 × 3 = 23,B,3,2 + 7 × 3 = 23
+1002,SORT-084,Statement,False,True,19 + 2 × 9 = 27,A,3,19 + 2 × 9 = 37
+1003,SORT-084,Statement,False,True,13 + 7 × 6 = 45,A,3,13 + 7 × 6 = 55
+1004,SORT-084,Statement,False,True,75% × 440 = 350,A,3,75% × 440 = 330
+1005,SORT-084,Statement,False,True,3 + 11 × 5 = 58,B,3,3 + 11 × 5 = 58
+1006,SORT-084,Statement,False,True,9 + 2 × 9 = 37,A,3,9 + 2 × 9 = 27
+1007,SORT-084,Statement,False,True,75% × 1900 = 1425,B,3,75% × 1900 = 1425
+1008,SORT-084,Statement,False,True,7 + 4 × 7 = 35,B,3,7 + 4 × 7 = 35
+1009,SORT-085,Statement,True,False,252 × 2 = 502,B,3,252 × 2 = 504
+1010,SORT-085,Statement,True,False,199 × 2 = 396,B,3,199 × 2 = 398
+1011,SORT-085,Statement,True,False,214 × 2 = 430,B,3,214 × 2 = 428
+1012,SORT-085,Statement,True,False,44 × 15 = 660,A,3,44 × 15 = 660
+1013,SORT-085,Statement,True,False,46 × 15 = 690,A,3,46 × 15 = 690
+1014,SORT-085,Statement,True,False,40 × 25 = 1100,B,3,40 × 25 = 1000
+1015,SORT-085,Statement,True,False,121 × 8 = 968,A,3,121 × 8 = 968
+1016,SORT-085,Statement,True,False,49 × 12 = 588,A,3,49 × 12 = 588
+1017,SORT-085,Statement,True,False,87 × 25 = 2175,A,3,87 × 25 = 2175
+1018,SORT-085,Statement,True,False,166 × 2 = 334,B,3,166 × 2 = 332
+1019,SORT-085,Statement,True,False,289 × 8 = 2332,B,3,289 × 8 = 2312
+1020,SORT-085,Statement,True,False,337 × 4 = 1348,A,3,337 × 4 = 1348
+1021,SORT-086,Expression,Above 500,Below 500,595 - 203,B,3,595 - 203 = 392
+1022,SORT-086,Expression,Above 500,Below 500,1000 - 221,A,3,1000 - 221 = 779
+1023,SORT-086,Expression,Above 500,Below 500,560 - 110,B,3,560 - 110 = 450
+1024,SORT-086,Expression,Above 500,Below 500,975 - 375,A,3,975 - 375 = 600
+1025,SORT-086,Expression,Above 500,Below 500,1000 - 133,A,3,1000 - 133 = 867
+1026,SORT-086,Expression,Above 500,Below 500,537 - 479,B,3,537 - 479 = 58
+1027,SORT-086,Expression,Above 500,Below 500,760 - 199,A,3,760 - 199 = 561
+1028,SORT-086,Expression,Above 500,Below 500,1000 - 56,A,3,1000 - 56 = 944
+1029,SORT-086,Expression,Above 500,Below 500,848 - 387,B,3,848 - 387 = 461
+1030,SORT-086,Expression,Above 500,Below 500,1000 - 460,A,3,1000 - 460 = 540
+1031,SORT-086,Expression,Above 500,Below 500,763 - 620,B,3,763 - 620 = 143
+1032,SORT-086,Expression,Above 500,Below 500,768 - 688,B,3,768 - 688 = 80
+1033,SORT-087,Expression,Even,Odd,340 + 654,A,3,340 + 654 = 994
+1034,SORT-087,Expression,Even,Odd,347 + 624,B,3,347 + 624 = 971
+1035,SORT-087,Expression,Even,Odd,645 + 368,B,3,645 + 368 = 1013
+1036,SORT-087,Expression,Even,Odd,894 + 386,A,3,894 + 386 = 1280
+1037,SORT-087,Expression,Even,Odd,188 + 197,B,3,188 + 197 = 385
+1038,SORT-087,Expression,Even,Odd,789 + 354,B,3,789 + 354 = 1143
+1039,SORT-087,Expression,Even,Odd,730 + 209,B,3,730 + 209 = 939
+1040,SORT-087,Expression,Even,Odd,531 + 781,A,3,531 + 781 = 1312
+1041,SORT-087,Expression,Even,Odd,406 + 647,B,3,406 + 647 = 1053
+1042,SORT-087,Expression,Even,Odd,381 + 331,A,3,381 + 331 = 712
+1043,SORT-087,Expression,Even,Odd,807 + 537,A,3,807 + 537 = 1344
+1044,SORT-087,Expression,Even,Odd,754 + 130,A,3,754 + 130 = 884
+1045,SORT-088,Statement,False,True,543 + 279 = 812,A,3,543 + 279 = 822
+1046,SORT-088,Statement,False,True,786 + 749 = 1535,B,3,786 + 749 = 1535
+1047,SORT-088,Statement,False,True,602 + 450 = 1052,B,3,602 + 450 = 1052
+1048,SORT-088,Statement,False,True,228 + 547 = 773,A,3,228 + 547 = 775
+1049,SORT-088,Statement,False,True,327 + 115 = 442,B,3,327 + 115 = 442
+1050,SORT-088,Statement,False,True,203 + 798 = 1003,A,3,203 + 798 = 1001
+1051,SORT-088,Statement,False,True,430 + 250 = 680,B,3,430 + 250 = 680
+1052,SORT-088,Statement,False,True,389 + 466 = 853,A,3,389 + 466 = 855
+1053,SORT-088,Statement,False,True,171 + 171 = 342,B,3,171 + 171 = 342
+1054,SORT-088,Statement,False,True,514 + 189 = 703,B,3,514 + 189 = 703
+1055,SORT-088,Statement,False,True,568 + 666 = 1232,A,3,568 + 666 = 1234
+1056,SORT-088,Statement,False,True,512 + 748 = 1270,A,3,512 + 748 = 1260
+1057,SORT-089,Expression,Even,Odd,621 + 591,A,3,621 + 591 = 1212
+1058,SORT-089,Expression,Even,Odd,393 + 611,A,3,393 + 611 = 1004
+1059,SORT-089,Expression,Even,Odd,601 + 831,A,3,601 + 831 = 1432
+1060,SORT-089,Expression,Even,Odd,607 + 98,B,3,607 + 98 = 705
+1061,SORT-089,Expression,Even,Odd,328 + 78,A,3,328 + 78 = 406
+1062,SORT-089,Expression,Even,Odd,598 + 333,B,3,598 + 333 = 931
+1063,SORT-089,Expression,Even,Odd,166 + 472,A,3,166 + 472 = 638
+1064,SORT-089,Expression,Even,Odd,176 + 845,B,3,176 + 845 = 1021
+1065,SORT-089,Expression,Even,Odd,260 + 702,A,3,260 + 702 = 962
+1066,SORT-089,Expression,Even,Odd,533 + 280,B,3,533 + 280 = 813
+1067,SORT-089,Expression,Even,Odd,550 + 643,B,3,550 + 643 = 1193
+1068,SORT-089,Expression,Even,Odd,483 + 476,B,3,483 + 476 = 959
+1069,SORT-090,Expression,Above 200,Below 200,1764 ÷ 7,A,3,1764 ÷ 7 = 252
+1070,SORT-090,Expression,Above 200,Below 200,550 ÷ 50,B,3,550 ÷ 50 = 11
+1071,SORT-090,Expression,Above 200,Below 200,666 ÷ 9,B,3,666 ÷ 9 = 74
+1072,SORT-090,Expression,Above 200,Below 200,1440 ÷ 4,A,3,1440 ÷ 4 = 360
+1073,SORT-090,Expression,Above 200,Below 200,540 ÷ 2,A,3,540 ÷ 2 = 270
+1074,SORT-090,Expression,Above 200,Below 200,5800 ÷ 100,B,3,5800 ÷ 100 = 58
+1075,SORT-090,Expression,Above 200,Below 200,444 ÷ 2,A,3,444 ÷ 2 = 222
+1076,SORT-090,Expression,Above 200,Below 200,996 ÷ 4,A,3,996 ÷ 4 = 249
+1077,SORT-090,Expression,Above 200,Below 200,987 ÷ 7,B,3,987 ÷ 7 = 141
+1078,SORT-090,Expression,Above 200,Below 200,2240 ÷ 5,A,3,2240 ÷ 5 = 448
+1079,SORT-090,Expression,Above 200,Below 200,790 ÷ 5,B,3,790 ÷ 5 = 158
+1080,SORT-090,Expression,Above 200,Below 200,298 ÷ 2,B,3,298 ÷ 2 = 149
+1081,SORT-091,Expression,Odd,Even,4 + 8 × 4,B,3,4 + 8 × 4 = 36
+1082,SORT-091,Expression,Odd,Even,15 + 10 × 5,A,3,15 + 10 × 5 = 65
+1083,SORT-091,Expression,Odd,Even,18 + 6 × 2,B,3,18 + 6 × 2 = 30
+1084,SORT-091,Expression,Odd,Even,11 + 11 × 3,B,3,11 + 11 × 3 = 44
+1085,SORT-091,Expression,Odd,Even,25% × 820,A,3,25% × 820 = 205
+1086,SORT-091,Expression,Odd,Even,4 + 3 × 9,A,3,4 + 3 × 9 = 31
+1087,SORT-091,Expression,Odd,Even,16 + 9 × 12,B,3,16 + 9 × 12 = 124
+1088,SORT-091,Expression,Odd,Even,3 + 4 × 11,A,3,3 + 4 × 11 = 47
+1089,SORT-091,Expression,Odd,Even,3 + 9 × 12,A,3,3 + 9 × 12 = 111
+1090,SORT-091,Expression,Odd,Even,25% × 1460,A,3,25% × 1460 = 365
+1091,SORT-091,Expression,Odd,Even,14 + 10 × 7,B,3,14 + 10 × 7 = 84
+1092,SORT-091,Expression,Odd,Even,12 + 12 × 12,B,3,12 + 12 × 12 = 156
+1093,SORT-092,Expression,Above 200,Below 200,25% × 1840,A,3,25% × 1840 = 460
+1094,SORT-092,Expression,Above 200,Below 200,20% × 1160,A,3,20% × 1160 = 232
+1095,SORT-092,Expression,Above 200,Below 200,22 + 5 × 8,B,3,22 + 5 × 8 = 62
+1096,SORT-092,Expression,Above 200,Below 200,25% × 1240,A,3,25% × 1240 = 310
+1097,SORT-092,Expression,Above 200,Below 200,21 + 12 × 2,B,3,21 + 12 × 2 = 45
+1098,SORT-092,Expression,Above 200,Below 200,20% × 1140,A,3,20% × 1140 = 228
+1099,SORT-092,Expression,Above 200,Below 200,6 + 7 × 5,B,3,6 + 7 × 5 = 41
+1100,SORT-092,Expression,Above 200,Below 200,20% × 1220,A,3,20% × 1220 = 244
+1101,SORT-092,Expression,Above 200,Below 200,25% × 660,B,3,25% × 660 = 165
+1102,SORT-092,Expression,Above 200,Below 200,25% × 1880,A,3,25% × 1880 = 470
+1103,SORT-092,Expression,Above 200,Below 200,16 + 12 × 12,B,3,16 + 12 × 12 = 160
+1104,SORT-092,Expression,Above 200,Below 200,25% × 720,B,3,25% × 720 = 180
+1105,SORT-093,Number,Multiples of 6,Multiples of 7,14,B,3,14 = 7 × 2
+1106,SORT-093,Number,Multiples of 6,Multiples of 7,112,B,3,112 = 7 × 16
+1107,SORT-093,Number,Multiples of 6,Multiples of 7,24,A,3,24 = 6 × 4
+1108,SORT-093,Number,Multiples of 6,Multiples of 7,138,A,3,138 = 6 × 23
+1109,SORT-093,Number,Multiples of 6,Multiples of 7,7,B,3,7 = 7 × 1
+1110,SORT-093,Number,Multiples of 6,Multiples of 7,90,A,3,90 = 6 × 15
+1111,SORT-093,Number,Multiples of 6,Multiples of 7,96,A,3,96 = 6 × 16
+1112,SORT-093,Number,Multiples of 6,Multiples of 7,150,A,3,150 = 6 × 25
+1113,SORT-093,Number,Multiples of 6,Multiples of 7,147,B,3,147 = 7 × 21
+1114,SORT-093,Number,Multiples of 6,Multiples of 7,98,B,3,98 = 7 × 14
+1115,SORT-093,Number,Multiples of 6,Multiples of 7,28,B,3,28 = 7 × 4
+1116,SORT-093,Number,Multiples of 6,Multiples of 7,114,A,3,114 = 6 × 19
+1117,SORT-094,Expression,Even,Odd,737 - 566,B,3,737 - 566 = 171
+1118,SORT-094,Expression,Even,Odd,819 - 324,B,3,819 - 324 = 495
+1119,SORT-094,Expression,Even,Odd,991 - 214,B,3,991 - 214 = 777
+1120,SORT-094,Expression,Even,Odd,1000 - 176,A,3,1000 - 176 = 824
+1121,SORT-094,Expression,Even,Odd,938 - 143,B,3,938 - 143 = 795
+1122,SORT-094,Expression,Even,Odd,921 - 362,B,3,921 - 362 = 559
+1123,SORT-094,Expression,Even,Odd,406 - 220,A,3,406 - 220 = 186
+1124,SORT-094,Expression,Even,Odd,743 - 735,A,3,743 - 735 = 8
+1125,SORT-094,Expression,Even,Odd,996 - 690,A,3,996 - 690 = 306
+1126,SORT-094,Expression,Even,Odd,746 - 65,B,3,746 - 65 = 681
+1127,SORT-094,Expression,Even,Odd,405 - 261,A,3,405 - 261 = 144
+1128,SORT-094,Expression,Even,Odd,798 - 748,A,3,798 - 748 = 50
+1129,SORT-095,Number,Multiples of 7,Multiples of 9,119,A,3,119 = 7 × 17
+1130,SORT-095,Number,Multiples of 7,Multiples of 9,144,B,3,144 = 9 × 16
+1131,SORT-095,Number,Multiples of 7,Multiples of 9,49,A,3,49 = 7 × 7
+1132,SORT-095,Number,Multiples of 7,Multiples of 9,18,B,3,18 = 9 × 2
+1133,SORT-095,Number,Multiples of 7,Multiples of 9,133,A,3,133 = 7 × 19
+1134,SORT-095,Number,Multiples of 7,Multiples of 9,99,B,3,99 = 9 × 11
+1135,SORT-095,Number,Multiples of 7,Multiples of 9,140,A,3,140 = 7 × 20
+1136,SORT-095,Number,Multiples of 7,Multiples of 9,135,B,3,135 = 9 × 15
+1137,SORT-095,Number,Multiples of 7,Multiples of 9,77,A,3,77 = 7 × 11
+1138,SORT-095,Number,Multiples of 7,Multiples of 9,7,A,3,7 = 7 × 1
+1139,SORT-095,Number,Multiples of 7,Multiples of 9,90,B,3,90 = 9 × 10
+1140,SORT-095,Number,Multiples of 7,Multiples of 9,117,B,3,117 = 9 × 13
+1141,SORT-096,Expression,Below 1000,Above 1000,540 + 686,B,3,540 + 686 = 1226
+1142,SORT-096,Expression,Below 1000,Above 1000,356 + 217,A,3,356 + 217 = 573
+1143,SORT-096,Expression,Below 1000,Above 1000,313 + 651,A,3,313 + 651 = 964
+1144,SORT-096,Expression,Below 1000,Above 1000,279 + 509,A,3,279 + 509 = 788
+1145,SORT-096,Expression,Below 1000,Above 1000,769 + 519,B,3,769 + 519 = 1288
+1146,SORT-096,Expression,Below 1000,Above 1000,378 + 854,B,3,378 + 854 = 1232
+1147,SORT-096,Expression,Below 1000,Above 1000,387 + 149,A,3,387 + 149 = 536
+1148,SORT-096,Expression,Below 1000,Above 1000,728 + 359,B,3,728 + 359 = 1087
+1149,SORT-096,Expression,Below 1000,Above 1000,782 + 176,A,3,782 + 176 = 958
+1150,SORT-096,Expression,Below 1000,Above 1000,733 + 325,B,3,733 + 325 = 1058
+1151,SORT-096,Expression,Below 1000,Above 1000,878 + 593,B,3,878 + 593 = 1471
+1152,SORT-096,Expression,Below 1000,Above 1000,590 + 85,A,3,590 + 85 = 675
+1153,SORT-097,Statement,True,False,822 - 623 = 179,B,3,822 - 623 = 199
+1154,SORT-097,Statement,True,False,537 - 195 = 342,A,3,537 - 195 = 342
+1155,SORT-097,Statement,True,False,1000 - 125 = 885,B,3,1000 - 125 = 875
+1156,SORT-097,Statement,True,False,427 - 206 = 221,A,3,427 - 206 = 221
+1157,SORT-097,Statement,True,False,426 - 120 = 308,B,3,426 - 120 = 306
+1158,SORT-097,Statement,True,False,904 - 557 = 347,A,3,904 - 557 = 347
+1159,SORT-097,Statement,True,False,1000 - 105 = 885,B,3,1000 - 105 = 895
+1160,SORT-097,Statement,True,False,430 - 236 = 194,A,3,430 - 236 = 194
+1161,SORT-097,Statement,True,False,604 - 307 = 303,B,3,604 - 307 = 297
+1162,SORT-097,Statement,True,False,1000 - 86 = 914,A,3,1000 - 86 = 914
+1163,SORT-097,Statement,True,False,502 - 440 = 52,B,3,502 - 440 = 62
+1164,SORT-097,Statement,True,False,475 - 292 = 183,A,3,475 - 292 = 183
+1165,SORT-098,Statement,False,True,982 - 337 = 645,B,3,982 - 337 = 645
+1166,SORT-098,Statement,False,True,440 - 249 = 211,A,3,440 - 249 = 191
+1167,SORT-098,Statement,False,True,454 - 97 = 377,A,3,454 - 97 = 357
+1168,SORT-098,Statement,False,True,1000 - 132 = 868,B,3,1000 - 132 = 868
+1169,SORT-098,Statement,False,True,572 - 181 = 391,B,3,572 - 181 = 391
+1170,SORT-098,Statement,False,True,528 - 222 = 326,A,3,528 - 222 = 306
+1171,SORT-098,Statement,False,True,729 - 479 = 250,B,3,729 - 479 = 250
+1172,SORT-098,Statement,False,True,669 - 659 = 10,B,3,669 - 659 = 10
+1173,SORT-098,Statement,False,True,609 - 574 = 35,B,3,609 - 574 = 35
+1174,SORT-098,Statement,False,True,734 - 414 = 340,A,3,734 - 414 = 320
+1175,SORT-098,Statement,False,True,911 - 877 = 44,A,3,911 - 877 = 34
+1176,SORT-098,Statement,False,True,674 - 237 = 427,A,3,674 - 237 = 437
+1177,SORT-099,Number,Multiples of 8,Multiples of 7,147,B,3,147 = 7 × 21
+1178,SORT-099,Number,Multiples of 8,Multiples of 7,64,A,3,64 = 8 × 8
+1179,SORT-099,Number,Multiples of 8,Multiples of 7,126,B,3,126 = 7 × 18
+1180,SORT-099,Number,Multiples of 8,Multiples of 7,28,B,3,28 = 7 × 4
+1181,SORT-099,Number,Multiples of 8,Multiples of 7,104,A,3,104 = 8 × 13
+1182,SORT-099,Number,Multiples of 8,Multiples of 7,120,A,3,120 = 8 × 15
+1183,SORT-099,Number,Multiples of 8,Multiples of 7,49,B,3,49 = 7 × 7
+1184,SORT-099,Number,Multiples of 8,Multiples of 7,77,B,3,77 = 7 × 11
+1185,SORT-099,Number,Multiples of 8,Multiples of 7,80,A,3,80 = 8 × 10
+1186,SORT-099,Number,Multiples of 8,Multiples of 7,40,A,3,40 = 8 × 5
+1187,SORT-099,Number,Multiples of 8,Multiples of 7,140,B,3,140 = 7 × 20
+1188,SORT-099,Number,Multiples of 8,Multiples of 7,16,A,3,16 = 8 × 2
+1189,SORT-100,Number,Multiples of 8,Multiples of 7,21,B,3,21 = 7 × 3
+1190,SORT-100,Number,Multiples of 8,Multiples of 7,28,B,3,28 = 7 × 4
+1191,SORT-100,Number,Multiples of 8,Multiples of 7,91,B,3,91 = 7 × 13
+1192,SORT-100,Number,Multiples of 8,Multiples of 7,72,A,3,72 = 8 × 9
+1193,SORT-100,Number,Multiples of 8,Multiples of 7,98,B,3,98 = 7 × 14
+1194,SORT-100,Number,Multiples of 8,Multiples of 7,14,B,3,14 = 7 × 2
+1195,SORT-100,Number,Multiples of 8,Multiples of 7,64,A,3,64 = 8 × 8
+1196,SORT-100,Number,Multiples of 8,Multiples of 7,120,A,3,120 = 8 × 15
+1197,SORT-100,Number,Multiples of 8,Multiples of 7,136,A,3,136 = 8 × 17
+1198,SORT-100,Number,Multiples of 8,Multiples of 7,63,B,3,63 = 7 × 9
+1199,SORT-100,Number,Multiples of 8,Multiples of 7,96,A,3,96 = 8 × 12
+1200,SORT-100,Number,Multiples of 8,Multiples of 7,24,A,3,24 = 8 × 3
