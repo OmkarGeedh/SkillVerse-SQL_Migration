@@ -17,13 +17,12 @@ INSERT INTO clients (
     username, email, phone, password, status,
     full_name, avatar_id, class, board, subjects, is_onboarded,
     coins, gems, experience, level, weekly_score,
-    current_streak, highest_streak, last_active_date, active_days
+    current_streak, highest_streak, last_active_date
 )
 SELECT username, email, phone, '$2a$12$FDChY3DB1CCaXYANYZi1iegRKal5QXEZFTQfsavE6D4MHDl1ZKw2C', 'active',
        full_name, avatar_id, class, board, subjects, true,
        coins, gems, experience, level, weekly_score,
-       current_streak, highest_streak, CURRENT_DATE,
-       ARRAY[CURRENT_DATE - 2, CURRENT_DATE - 1, CURRENT_DATE]
+       current_streak, highest_streak, CURRENT_DATE
 FROM u
 ON CONFLICT (email) DO UPDATE SET
     username = EXCLUDED.username,
@@ -43,3 +42,10 @@ ON CONFLICT (email) DO UPDATE SET
     current_streak = EXCLUDED.current_streak,
     highest_streak = EXCLUDED.highest_streak,
     updated_at = now();
+
+-- Last three days played, for the streak strip.
+INSERT INTO client_activity_days (client_id, day)
+SELECT c.id, CURRENT_DATE - d
+FROM clients c CROSS JOIN generate_series(0, 2) AS d
+WHERE c.email LIKE '%@example.com'
+ON CONFLICT DO NOTHING;

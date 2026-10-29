@@ -2,7 +2,6 @@ package csvimport
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -128,19 +127,12 @@ func header(b *strings.Builder, desc string) {
 
 func renderCatalog(d *Dataset) string {
 	var b strings.Builder
-	header(&b, fmt.Sprintf("%d subjects, %d chapters. Upsert only: never deletes a subject (that would cascade into content).", len(d.Subjects), len(d.Chapters)))
+	header(&b, fmt.Sprintf("%d subjects, %d chapters. Upsert only: never deletes (that would cascade into content).", len(d.Subjects), len(d.Chapters)))
 
-	cols := []string{"short_code", "grade", "name", "sort_order", "chapters"}
+	cols := []string{"short_code", "grade", "name", "sort_order"}
 	var rows []string
 	for _, s := range d.Subjects {
-		chapters := map[string]string{}
-		for _, c := range d.Chapters {
-			if c.Subject == s.Code {
-				chapters[strconv.Itoa(c.No)] = c.Title
-			}
-		}
-		js, _ := json.Marshal(chapters)
-		rows = append(rows, tuple(lit(s.Code), lit(s.Short), num(s.Grade), lit(s.Name), num(s.SortOrder), lit(string(js))+"::jsonb"))
+		rows = append(rows, tuple(lit(s.Code), lit(s.Short), num(s.Grade), lit(s.Name), num(s.SortOrder)))
 	}
 	writeMerge(&b, mergeSpec{
 		table:  "subjects",
@@ -148,6 +140,16 @@ func renderCatalog(d *Dataset) string {
 		source: "    SELECT * FROM (VALUES\n" + strings.Join(rows, ",\n") + "\n    ) AS v (code, " + strings.Join(cols, ", ") + ")",
 		cols:   cols,
 	})
+	b.WriteString("\n")
+
+	rows = rows[:0]
+	for _, c := range d.Chapters {
+		rows = append(rows, tuple(lit(c.Subject), num(c.No), lit(c.Title)))
+	}
+	b.WriteString("MERGE INTO chapters AS t\nUSING (\n    SELECT * FROM (VALUES\n" + strings.Join(rows, ",\n") +
+		"\n    ) AS v (subject, chapter_no, title)\n) AS s\nON t.subject = s.subject AND t.chapter_no = s.chapter_no\n" +
+		"WHEN MATCHED AND t.title IS DISTINCT FROM s.title THEN\n    UPDATE SET title = s.title\n" +
+		"WHEN NOT MATCHED THEN\n    INSERT (subject, chapter_no, title) VALUES (s.subject, s.chapter_no, s.title);\n")
 	return b.String()
 }
 
