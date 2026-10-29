@@ -1,4 +1,4 @@
-.PHONY: build test fmt fmt-check import import-check seed migrate-up migrate-down migrate-version reset docker-build docker-up docker-down
+.PHONY: build test fmt fmt-check import import-check mental-maths seed migrate-up migrate-down migrate-version reset docker-build docker-up docker-down
 
 DB_BIN := ./bin/game-db
 
@@ -21,6 +21,10 @@ import:
 
 import-check:
 	go run ./cmd/db import -check
+
+# Regenerate the arithmetic CSVs, then run `make import`
+mental-maths:
+	go run ./cmd/db gen-mental-maths
 
 seed:
 	go run ./cmd/db seed

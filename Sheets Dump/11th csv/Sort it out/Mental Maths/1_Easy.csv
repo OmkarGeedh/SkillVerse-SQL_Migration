@@ -1,0 +1,325 @@
+S.No,Set ID,Item Type,Bucket A,Bucket B,Item,Correct Bucket,Difficulty,Explanation
+1,SORT-001,Statement,True,False,1 + 1 = 2,A,1,1 + 1 = 2
+2,SORT-001,Statement,True,False,1 + 2 = 4,B,1,1 + 2 = 3
+3,SORT-001,Statement,True,False,1 + 3 = 4,A,1,1 + 3 = 4
+4,SORT-001,Statement,True,False,1 + 4 = 4,B,1,1 + 4 = 5
+5,SORT-001,Statement,True,False,1 + 5 = 6,A,1,1 + 5 = 6
+6,SORT-001,Statement,True,False,1 + 6 = 9,B,1,1 + 6 = 7
+7,SORT-001,Statement,True,False,1 + 7 = 8,A,1,1 + 7 = 8
+8,SORT-001,Statement,True,False,1 + 8 = 7,B,1,1 + 8 = 9
+9,SORT-001,Statement,True,False,1 + 9 = 10,A,1,1 + 9 = 10
+10,SORT-001,Statement,True,False,2 + 1 = 2,B,1,2 + 1 = 3
+11,SORT-001,Statement,True,False,2 + 2 = 4,A,1,2 + 2 = 4
+12,SORT-001,Statement,True,False,2 + 3 = 3,B,1,2 + 3 = 5
+13,SORT-001,Statement,True,False,2 + 4 = 6,A,1,2 + 4 = 6
+14,SORT-001,Statement,True,False,2 + 5 = 5,B,1,2 + 5 = 7
+15,SORT-001,Statement,True,False,2 + 6 = 8,A,1,2 + 6 = 8
+16,SORT-001,Statement,True,False,2 + 7 = 7,B,1,2 + 7 = 9
+17,SORT-001,Statement,True,False,2 + 8 = 10,A,1,2 + 8 = 10
+18,SORT-001,Statement,True,False,2 + 9 = 12,B,1,2 + 9 = 11
+19,SORT-001,Statement,True,False,3 + 1 = 4,A,1,3 + 1 = 4
+20,SORT-001,Statement,True,False,3 + 2 = 3,B,1,3 + 2 = 5
+21,SORT-001,Statement,True,False,3 + 3 = 6,A,1,3 + 3 = 6
+22,SORT-001,Statement,True,False,3 + 4 = 9,B,1,3 + 4 = 7
+23,SORT-001,Statement,True,False,3 + 5 = 8,A,1,3 + 5 = 8
+24,SORT-001,Statement,True,False,3 + 6 = 11,B,1,3 + 6 = 9
+25,SORT-001,Statement,True,False,3 + 7 = 10,A,1,3 + 7 = 10
+26,SORT-001,Statement,True,False,3 + 8 = 12,B,1,3 + 8 = 11
+27,SORT-001,Statement,True,False,3 + 9 = 12,A,1,3 + 9 = 12
+28,SORT-001,Statement,True,False,4 + 1 = 6,B,1,4 + 1 = 5
+29,SORT-001,Statement,True,False,4 + 2 = 6,A,1,4 + 2 = 6
+30,SORT-001,Statement,True,False,4 + 3 = 6,B,1,4 + 3 = 7
+31,SORT-001,Statement,True,False,4 + 4 = 8,A,1,4 + 4 = 8
+32,SORT-001,Statement,True,False,4 + 5 = 8,B,1,4 + 5 = 9
+33,SORT-001,Statement,True,False,4 + 6 = 10,A,1,4 + 6 = 10
+34,SORT-001,Statement,True,False,4 + 7 = 10,B,1,4 + 7 = 11
+35,SORT-001,Statement,True,False,4 + 8 = 12,A,1,4 + 8 = 12
+36,SORT-001,Statement,True,False,4 + 9 = 15,B,1,4 + 9 = 13
+37,SORT-001,Statement,True,False,5 + 1 = 6,A,1,5 + 1 = 6
+38,SORT-001,Statement,True,False,5 + 2 = 9,B,1,5 + 2 = 7
+39,SORT-001,Statement,True,False,5 + 3 = 8,A,1,5 + 3 = 8
+40,SORT-001,Statement,True,False,5 + 4 = 7,B,1,5 + 4 = 9
+41,SORT-001,Statement,True,False,5 + 5 = 10,A,1,5 + 5 = 10
+42,SORT-001,Statement,True,False,5 + 6 = 9,B,1,5 + 6 = 11
+43,SORT-001,Statement,True,False,5 + 7 = 12,A,1,5 + 7 = 12
+44,SORT-001,Statement,True,False,5 + 8 = 14,B,1,5 + 8 = 13
+45,SORT-001,Statement,True,False,5 + 9 = 14,A,1,5 + 9 = 14
+46,SORT-001,Statement,True,False,6 + 1 = 5,B,1,6 + 1 = 7
+47,SORT-001,Statement,True,False,6 + 2 = 8,A,1,6 + 2 = 8
+48,SORT-001,Statement,True,False,6 + 3 = 11,B,1,6 + 3 = 9
+49,SORT-001,Statement,True,False,6 + 4 = 10,A,1,6 + 4 = 10
+50,SORT-001,Statement,True,False,6 + 5 = 10,B,1,6 + 5 = 11
+51,SORT-001,Statement,True,False,6 + 6 = 12,A,1,6 + 6 = 12
+52,SORT-001,Statement,True,False,6 + 7 = 12,B,1,6 + 7 = 13
+53,SORT-001,Statement,True,False,6 + 8 = 14,A,1,6 + 8 = 14
+54,SORT-001,Statement,True,False,6 + 9 = 13,B,1,6 + 9 = 15
+55,SORT-001,Statement,True,False,7 + 1 = 8,A,1,7 + 1 = 8
+56,SORT-001,Statement,True,False,7 + 2 = 8,B,1,7 + 2 = 9
+57,SORT-001,Statement,True,False,7 + 3 = 10,A,1,7 + 3 = 10
+58,SORT-001,Statement,True,False,7 + 4 = 10,B,1,7 + 4 = 11
+59,SORT-001,Statement,True,False,7 + 5 = 12,A,1,7 + 5 = 12
+60,SORT-001,Statement,True,False,7 + 6 = 14,B,1,7 + 6 = 13
+61,SORT-001,Statement,True,False,7 + 7 = 14,A,1,7 + 7 = 14
+62,SORT-001,Statement,True,False,7 + 8 = 13,B,1,7 + 8 = 15
+63,SORT-001,Statement,True,False,7 + 9 = 16,A,1,7 + 9 = 16
+64,SORT-001,Statement,True,False,8 + 1 = 10,B,1,8 + 1 = 9
+65,SORT-001,Statement,True,False,8 + 2 = 10,A,1,8 + 2 = 10
+66,SORT-001,Statement,True,False,8 + 3 = 13,B,1,8 + 3 = 11
+67,SORT-001,Statement,True,False,8 + 4 = 12,A,1,8 + 4 = 12
+68,SORT-001,Statement,True,False,8 + 5 = 15,B,1,8 + 5 = 13
+69,SORT-001,Statement,True,False,8 + 6 = 14,A,1,8 + 6 = 14
+70,SORT-001,Statement,True,False,8 + 7 = 14,B,1,8 + 7 = 15
+71,SORT-001,Statement,True,False,8 + 8 = 16,A,1,8 + 8 = 16
+72,SORT-001,Statement,True,False,8 + 9 = 15,B,1,8 + 9 = 17
+73,SORT-001,Statement,True,False,9 + 1 = 10,A,1,9 + 1 = 10
+74,SORT-001,Statement,True,False,9 + 2 = 12,B,1,9 + 2 = 11
+75,SORT-001,Statement,True,False,9 + 3 = 12,A,1,9 + 3 = 12
+76,SORT-001,Statement,True,False,9 + 4 = 11,B,1,9 + 4 = 13
+77,SORT-001,Statement,True,False,9 + 5 = 14,A,1,9 + 5 = 14
+78,SORT-001,Statement,True,False,9 + 6 = 13,B,1,9 + 6 = 15
+79,SORT-001,Statement,True,False,9 + 7 = 16,A,1,9 + 7 = 16
+80,SORT-001,Statement,True,False,9 + 8 = 16,B,1,9 + 8 = 17
+81,SORT-001,Statement,True,False,9 + 9 = 18,A,1,9 + 9 = 18
+82,SORT-001,Statement,True,False,2 - 1 = 2,B,1,2 - 1 = 1
+83,SORT-001,Statement,True,False,3 - 2 = 1,A,1,3 - 2 = 1
+84,SORT-001,Statement,True,False,4 - 3 = 11,B,1,4 - 3 = 1
+85,SORT-001,Statement,True,False,5 - 4 = 1,A,1,5 - 4 = 1
+86,SORT-001,Statement,True,False,6 - 5 = 0,B,1,6 - 5 = 1
+87,SORT-001,Statement,True,False,7 - 6 = 1,A,1,7 - 6 = 1
+88,SORT-001,Statement,True,False,8 - 7 = 2,B,1,8 - 7 = 1
+89,SORT-001,Statement,True,False,9 - 8 = 1,A,1,9 - 8 = 1
+90,SORT-001,Statement,True,False,10 - 9 = 3,B,1,10 - 9 = 1
+91,SORT-001,Statement,True,False,3 - 1 = 2,A,1,3 - 1 = 2
+92,SORT-001,Statement,True,False,4 - 2 = 0,B,1,4 - 2 = 2
+93,SORT-001,Statement,True,False,5 - 3 = 2,A,1,5 - 3 = 2
+94,SORT-001,Statement,True,False,6 - 4 = 3,B,1,6 - 4 = 2
+95,SORT-001,Statement,True,False,7 - 5 = 2,A,1,7 - 5 = 2
+96,SORT-001,Statement,True,False,8 - 6 = 0,B,1,8 - 6 = 2
+97,SORT-001,Statement,True,False,9 - 7 = 2,A,1,9 - 7 = 2
+98,SORT-001,Statement,True,False,10 - 8 = 0,B,1,10 - 8 = 2
+99,SORT-001,Statement,True,False,11 - 9 = 2,A,1,11 - 9 = 2
+100,SORT-001,Statement,True,False,4 - 1 = 2,B,1,4 - 1 = 3
+101,SORT-001,Statement,True,False,5 - 2 = 3,A,1,5 - 2 = 3
+102,SORT-001,Statement,True,False,6 - 3 = 1,B,1,6 - 3 = 3
+103,SORT-001,Statement,True,False,7 - 4 = 3,A,1,7 - 4 = 3
+104,SORT-001,Statement,True,False,8 - 5 = 2,B,1,8 - 5 = 3
+105,SORT-001,Statement,True,False,9 - 6 = 3,A,1,9 - 6 = 3
+106,SORT-001,Statement,True,False,10 - 7 = 4,B,1,10 - 7 = 3
+107,SORT-001,Statement,True,False,11 - 8 = 3,A,1,11 - 8 = 3
+108,SORT-001,Statement,True,False,12 - 9 = 1,B,1,12 - 9 = 3
+109,SORT-001,Statement,True,False,5 - 1 = 4,A,1,5 - 1 = 4
+110,SORT-001,Statement,True,False,6 - 2 = 3,B,1,6 - 2 = 4
+111,SORT-001,Statement,True,False,7 - 3 = 4,A,1,7 - 3 = 4
+112,SORT-001,Statement,True,False,8 - 4 = 6,B,1,8 - 4 = 4
+113,SORT-001,Statement,True,False,9 - 5 = 4,A,1,9 - 5 = 4
+114,SORT-001,Statement,True,False,10 - 6 = 3,B,1,10 - 6 = 4
+115,SORT-001,Statement,True,False,11 - 7 = 4,A,1,11 - 7 = 4
+116,SORT-001,Statement,True,False,12 - 8 = 3,B,1,12 - 8 = 4
+117,SORT-001,Statement,True,False,13 - 9 = 4,A,1,13 - 9 = 4
+118,SORT-001,Statement,True,False,6 - 1 = 4,B,1,6 - 1 = 5
+119,SORT-001,Statement,True,False,7 - 2 = 5,A,1,7 - 2 = 5
+120,SORT-001,Statement,True,False,8 - 3 = 6,B,1,8 - 3 = 5
+121,SORT-001,Statement,True,False,9 - 4 = 5,A,1,9 - 4 = 5
+122,SORT-001,Statement,True,False,10 - 5 = 3,B,1,10 - 5 = 5
+123,SORT-001,Statement,True,False,11 - 6 = 5,A,1,11 - 6 = 5
+124,SORT-001,Statement,True,False,12 - 7 = 4,B,1,12 - 7 = 5
+125,SORT-001,Statement,True,False,13 - 8 = 5,A,1,13 - 8 = 5
+126,SORT-001,Statement,True,False,14 - 9 = 7,B,1,14 - 9 = 5
+127,SORT-001,Statement,True,False,7 - 1 = 6,A,1,7 - 1 = 6
+128,SORT-001,Statement,True,False,8 - 2 = 4,B,1,8 - 2 = 6
+129,SORT-001,Statement,True,False,9 - 3 = 6,A,1,9 - 3 = 6
+130,SORT-001,Statement,True,False,10 - 4 = 8,B,1,10 - 4 = 6
+131,SORT-001,Statement,True,False,11 - 5 = 6,A,1,11 - 5 = 6
+132,SORT-001,Statement,True,False,12 - 6 = 7,B,1,12 - 6 = 6
+133,SORT-001,Statement,True,False,13 - 7 = 6,A,1,13 - 7 = 6
+134,SORT-001,Statement,True,False,14 - 8 = 7,B,1,14 - 8 = 6
+135,SORT-001,Statement,True,False,15 - 9 = 6,A,1,15 - 9 = 6
+136,SORT-001,Statement,True,False,8 - 1 = 8,B,1,8 - 1 = 7
+137,SORT-001,Statement,True,False,9 - 2 = 7,A,1,9 - 2 = 7
+138,SORT-001,Statement,True,False,10 - 3 = 6,B,1,10 - 3 = 7
+139,SORT-001,Statement,True,False,11 - 4 = 7,A,1,11 - 4 = 7
+140,SORT-001,Statement,True,False,12 - 5 = 8,B,1,12 - 5 = 7
+141,SORT-001,Statement,True,False,13 - 6 = 7,A,1,13 - 6 = 7
+142,SORT-001,Statement,True,False,14 - 7 = 8,B,1,14 - 7 = 7
+143,SORT-001,Statement,True,False,15 - 8 = 7,A,1,15 - 8 = 7
+144,SORT-001,Statement,True,False,16 - 9 = 5,B,1,16 - 9 = 7
+145,SORT-001,Statement,True,False,9 - 1 = 8,A,1,9 - 1 = 8
+146,SORT-001,Statement,True,False,10 - 2 = 10,B,1,10 - 2 = 8
+147,SORT-001,Statement,True,False,11 - 3 = 8,A,1,11 - 3 = 8
+148,SORT-001,Statement,True,False,12 - 4 = 7,B,1,12 - 4 = 8
+149,SORT-001,Statement,True,False,13 - 5 = 8,A,1,13 - 5 = 8
+150,SORT-001,Statement,True,False,14 - 6 = 6,B,1,14 - 6 = 8
+151,SORT-001,Statement,True,False,15 - 7 = 8,A,1,15 - 7 = 8
+152,SORT-001,Statement,True,False,16 - 8 = 7,B,1,16 - 8 = 8
+153,SORT-001,Statement,True,False,17 - 9 = 8,A,1,17 - 9 = 8
+154,SORT-001,Statement,True,False,10 - 1 = 7,B,1,10 - 1 = 9
+155,SORT-001,Statement,True,False,11 - 2 = 9,A,1,11 - 2 = 9
+156,SORT-001,Statement,True,False,12 - 3 = 10,B,1,12 - 3 = 9
+157,SORT-001,Statement,True,False,13 - 4 = 9,A,1,13 - 4 = 9
+158,SORT-001,Statement,True,False,14 - 5 = 7,B,1,14 - 5 = 9
+159,SORT-001,Statement,True,False,15 - 6 = 9,A,1,15 - 6 = 9
+160,SORT-001,Statement,True,False,16 - 7 = 8,B,1,16 - 7 = 9
+161,SORT-001,Statement,True,False,17 - 8 = 9,A,1,17 - 8 = 9
+162,SORT-001,Statement,True,False,18 - 9 = 10,B,1,18 - 9 = 9
+163,SORT-002,Answer,Even,Odd,1 + 1,A,1,1 + 1 = 2
+164,SORT-002,Answer,Even,Odd,1 + 2,B,1,1 + 2 = 3
+165,SORT-002,Answer,Even,Odd,1 + 3,A,1,1 + 3 = 4
+166,SORT-002,Answer,Even,Odd,1 + 4,B,1,1 + 4 = 5
+167,SORT-002,Answer,Even,Odd,1 + 5,A,1,1 + 5 = 6
+168,SORT-002,Answer,Even,Odd,1 + 6,B,1,1 + 6 = 7
+169,SORT-002,Answer,Even,Odd,1 + 7,A,1,1 + 7 = 8
+170,SORT-002,Answer,Even,Odd,1 + 8,B,1,1 + 8 = 9
+171,SORT-002,Answer,Even,Odd,1 + 9,A,1,1 + 9 = 10
+172,SORT-002,Answer,Even,Odd,2 + 1,B,1,2 + 1 = 3
+173,SORT-002,Answer,Even,Odd,2 + 2,A,1,2 + 2 = 4
+174,SORT-002,Answer,Even,Odd,2 + 3,B,1,2 + 3 = 5
+175,SORT-002,Answer,Even,Odd,2 + 4,A,1,2 + 4 = 6
+176,SORT-002,Answer,Even,Odd,2 + 5,B,1,2 + 5 = 7
+177,SORT-002,Answer,Even,Odd,2 + 6,A,1,2 + 6 = 8
+178,SORT-002,Answer,Even,Odd,2 + 7,B,1,2 + 7 = 9
+179,SORT-002,Answer,Even,Odd,2 + 8,A,1,2 + 8 = 10
+180,SORT-002,Answer,Even,Odd,2 + 9,B,1,2 + 9 = 11
+181,SORT-002,Answer,Even,Odd,3 + 1,A,1,3 + 1 = 4
+182,SORT-002,Answer,Even,Odd,3 + 2,B,1,3 + 2 = 5
+183,SORT-002,Answer,Even,Odd,3 + 3,A,1,3 + 3 = 6
+184,SORT-002,Answer,Even,Odd,3 + 4,B,1,3 + 4 = 7
+185,SORT-002,Answer,Even,Odd,3 + 5,A,1,3 + 5 = 8
+186,SORT-002,Answer,Even,Odd,3 + 6,B,1,3 + 6 = 9
+187,SORT-002,Answer,Even,Odd,3 + 7,A,1,3 + 7 = 10
+188,SORT-002,Answer,Even,Odd,3 + 8,B,1,3 + 8 = 11
+189,SORT-002,Answer,Even,Odd,3 + 9,A,1,3 + 9 = 12
+190,SORT-002,Answer,Even,Odd,4 + 1,B,1,4 + 1 = 5
+191,SORT-002,Answer,Even,Odd,4 + 2,A,1,4 + 2 = 6
+192,SORT-002,Answer,Even,Odd,4 + 3,B,1,4 + 3 = 7
+193,SORT-002,Answer,Even,Odd,4 + 4,A,1,4 + 4 = 8
+194,SORT-002,Answer,Even,Odd,4 + 5,B,1,4 + 5 = 9
+195,SORT-002,Answer,Even,Odd,4 + 6,A,1,4 + 6 = 10
+196,SORT-002,Answer,Even,Odd,4 + 7,B,1,4 + 7 = 11
+197,SORT-002,Answer,Even,Odd,4 + 8,A,1,4 + 8 = 12
+198,SORT-002,Answer,Even,Odd,4 + 9,B,1,4 + 9 = 13
+199,SORT-002,Answer,Even,Odd,5 + 1,A,1,5 + 1 = 6
+200,SORT-002,Answer,Even,Odd,5 + 2,B,1,5 + 2 = 7
+201,SORT-002,Answer,Even,Odd,5 + 3,A,1,5 + 3 = 8
+202,SORT-002,Answer,Even,Odd,5 + 4,B,1,5 + 4 = 9
+203,SORT-002,Answer,Even,Odd,5 + 5,A,1,5 + 5 = 10
+204,SORT-002,Answer,Even,Odd,5 + 6,B,1,5 + 6 = 11
+205,SORT-002,Answer,Even,Odd,5 + 7,A,1,5 + 7 = 12
+206,SORT-002,Answer,Even,Odd,5 + 8,B,1,5 + 8 = 13
+207,SORT-002,Answer,Even,Odd,5 + 9,A,1,5 + 9 = 14
+208,SORT-002,Answer,Even,Odd,6 + 1,B,1,6 + 1 = 7
+209,SORT-002,Answer,Even,Odd,6 + 2,A,1,6 + 2 = 8
+210,SORT-002,Answer,Even,Odd,6 + 3,B,1,6 + 3 = 9
+211,SORT-002,Answer,Even,Odd,6 + 4,A,1,6 + 4 = 10
+212,SORT-002,Answer,Even,Odd,6 + 5,B,1,6 + 5 = 11
+213,SORT-002,Answer,Even,Odd,6 + 6,A,1,6 + 6 = 12
+214,SORT-002,Answer,Even,Odd,6 + 7,B,1,6 + 7 = 13
+215,SORT-002,Answer,Even,Odd,6 + 8,A,1,6 + 8 = 14
+216,SORT-002,Answer,Even,Odd,6 + 9,B,1,6 + 9 = 15
+217,SORT-002,Answer,Even,Odd,7 + 1,A,1,7 + 1 = 8
+218,SORT-002,Answer,Even,Odd,7 + 2,B,1,7 + 2 = 9
+219,SORT-002,Answer,Even,Odd,7 + 3,A,1,7 + 3 = 10
+220,SORT-002,Answer,Even,Odd,7 + 4,B,1,7 + 4 = 11
+221,SORT-002,Answer,Even,Odd,7 + 5,A,1,7 + 5 = 12
+222,SORT-002,Answer,Even,Odd,7 + 6,B,1,7 + 6 = 13
+223,SORT-002,Answer,Even,Odd,7 + 7,A,1,7 + 7 = 14
+224,SORT-002,Answer,Even,Odd,7 + 8,B,1,7 + 8 = 15
+225,SORT-002,Answer,Even,Odd,7 + 9,A,1,7 + 9 = 16
+226,SORT-002,Answer,Even,Odd,8 + 1,B,1,8 + 1 = 9
+227,SORT-002,Answer,Even,Odd,8 + 2,A,1,8 + 2 = 10
+228,SORT-002,Answer,Even,Odd,8 + 3,B,1,8 + 3 = 11
+229,SORT-002,Answer,Even,Odd,8 + 4,A,1,8 + 4 = 12
+230,SORT-002,Answer,Even,Odd,8 + 5,B,1,8 + 5 = 13
+231,SORT-002,Answer,Even,Odd,8 + 6,A,1,8 + 6 = 14
+232,SORT-002,Answer,Even,Odd,8 + 7,B,1,8 + 7 = 15
+233,SORT-002,Answer,Even,Odd,8 + 8,A,1,8 + 8 = 16
+234,SORT-002,Answer,Even,Odd,8 + 9,B,1,8 + 9 = 17
+235,SORT-002,Answer,Even,Odd,9 + 1,A,1,9 + 1 = 10
+236,SORT-002,Answer,Even,Odd,9 + 2,B,1,9 + 2 = 11
+237,SORT-002,Answer,Even,Odd,9 + 3,A,1,9 + 3 = 12
+238,SORT-002,Answer,Even,Odd,9 + 4,B,1,9 + 4 = 13
+239,SORT-002,Answer,Even,Odd,9 + 5,A,1,9 + 5 = 14
+240,SORT-002,Answer,Even,Odd,9 + 6,B,1,9 + 6 = 15
+241,SORT-002,Answer,Even,Odd,9 + 7,A,1,9 + 7 = 16
+242,SORT-002,Answer,Even,Odd,9 + 8,B,1,9 + 8 = 17
+243,SORT-002,Answer,Even,Odd,9 + 9,A,1,9 + 9 = 18
+244,SORT-002,Answer,Even,Odd,2 - 1,B,1,2 - 1 = 1
+245,SORT-002,Answer,Even,Odd,3 - 2,B,1,3 - 2 = 1
+246,SORT-002,Answer,Even,Odd,4 - 3,B,1,4 - 3 = 1
+247,SORT-002,Answer,Even,Odd,5 - 4,B,1,5 - 4 = 1
+248,SORT-002,Answer,Even,Odd,6 - 5,B,1,6 - 5 = 1
+249,SORT-002,Answer,Even,Odd,7 - 6,B,1,7 - 6 = 1
+250,SORT-002,Answer,Even,Odd,8 - 7,B,1,8 - 7 = 1
+251,SORT-002,Answer,Even,Odd,9 - 8,B,1,9 - 8 = 1
+252,SORT-002,Answer,Even,Odd,10 - 9,B,1,10 - 9 = 1
+253,SORT-002,Answer,Even,Odd,3 - 1,A,1,3 - 1 = 2
+254,SORT-002,Answer,Even,Odd,4 - 2,A,1,4 - 2 = 2
+255,SORT-002,Answer,Even,Odd,5 - 3,A,1,5 - 3 = 2
+256,SORT-002,Answer,Even,Odd,6 - 4,A,1,6 - 4 = 2
+257,SORT-002,Answer,Even,Odd,7 - 5,A,1,7 - 5 = 2
+258,SORT-002,Answer,Even,Odd,8 - 6,A,1,8 - 6 = 2
+259,SORT-002,Answer,Even,Odd,9 - 7,A,1,9 - 7 = 2
+260,SORT-002,Answer,Even,Odd,10 - 8,A,1,10 - 8 = 2
+261,SORT-002,Answer,Even,Odd,11 - 9,A,1,11 - 9 = 2
+262,SORT-002,Answer,Even,Odd,4 - 1,B,1,4 - 1 = 3
+263,SORT-002,Answer,Even,Odd,5 - 2,B,1,5 - 2 = 3
+264,SORT-002,Answer,Even,Odd,6 - 3,B,1,6 - 3 = 3
+265,SORT-002,Answer,Even,Odd,7 - 4,B,1,7 - 4 = 3
+266,SORT-002,Answer,Even,Odd,8 - 5,B,1,8 - 5 = 3
+267,SORT-002,Answer,Even,Odd,9 - 6,B,1,9 - 6 = 3
+268,SORT-002,Answer,Even,Odd,10 - 7,B,1,10 - 7 = 3
+269,SORT-002,Answer,Even,Odd,11 - 8,B,1,11 - 8 = 3
+270,SORT-002,Answer,Even,Odd,12 - 9,B,1,12 - 9 = 3
+271,SORT-002,Answer,Even,Odd,5 - 1,A,1,5 - 1 = 4
+272,SORT-002,Answer,Even,Odd,6 - 2,A,1,6 - 2 = 4
+273,SORT-002,Answer,Even,Odd,7 - 3,A,1,7 - 3 = 4
+274,SORT-002,Answer,Even,Odd,8 - 4,A,1,8 - 4 = 4
+275,SORT-002,Answer,Even,Odd,9 - 5,A,1,9 - 5 = 4
+276,SORT-002,Answer,Even,Odd,10 - 6,A,1,10 - 6 = 4
+277,SORT-002,Answer,Even,Odd,11 - 7,A,1,11 - 7 = 4
+278,SORT-002,Answer,Even,Odd,12 - 8,A,1,12 - 8 = 4
+279,SORT-002,Answer,Even,Odd,13 - 9,A,1,13 - 9 = 4
+280,SORT-002,Answer,Even,Odd,6 - 1,B,1,6 - 1 = 5
+281,SORT-002,Answer,Even,Odd,7 - 2,B,1,7 - 2 = 5
+282,SORT-002,Answer,Even,Odd,8 - 3,B,1,8 - 3 = 5
+283,SORT-002,Answer,Even,Odd,9 - 4,B,1,9 - 4 = 5
+284,SORT-002,Answer,Even,Odd,10 - 5,B,1,10 - 5 = 5
+285,SORT-002,Answer,Even,Odd,11 - 6,B,1,11 - 6 = 5
+286,SORT-002,Answer,Even,Odd,12 - 7,B,1,12 - 7 = 5
+287,SORT-002,Answer,Even,Odd,13 - 8,B,1,13 - 8 = 5
+288,SORT-002,Answer,Even,Odd,14 - 9,B,1,14 - 9 = 5
+289,SORT-002,Answer,Even,Odd,7 - 1,A,1,7 - 1 = 6
+290,SORT-002,Answer,Even,Odd,8 - 2,A,1,8 - 2 = 6
+291,SORT-002,Answer,Even,Odd,9 - 3,A,1,9 - 3 = 6
+292,SORT-002,Answer,Even,Odd,10 - 4,A,1,10 - 4 = 6
+293,SORT-002,Answer,Even,Odd,11 - 5,A,1,11 - 5 = 6
+294,SORT-002,Answer,Even,Odd,12 - 6,A,1,12 - 6 = 6
+295,SORT-002,Answer,Even,Odd,13 - 7,A,1,13 - 7 = 6
+296,SORT-002,Answer,Even,Odd,14 - 8,A,1,14 - 8 = 6
+297,SORT-002,Answer,Even,Odd,15 - 9,A,1,15 - 9 = 6
+298,SORT-002,Answer,Even,Odd,8 - 1,B,1,8 - 1 = 7
+299,SORT-002,Answer,Even,Odd,9 - 2,B,1,9 - 2 = 7
+300,SORT-002,Answer,Even,Odd,10 - 3,B,1,10 - 3 = 7
+301,SORT-002,Answer,Even,Odd,11 - 4,B,1,11 - 4 = 7
+302,SORT-002,Answer,Even,Odd,12 - 5,B,1,12 - 5 = 7
+303,SORT-002,Answer,Even,Odd,13 - 6,B,1,13 - 6 = 7
+304,SORT-002,Answer,Even,Odd,14 - 7,B,1,14 - 7 = 7
+305,SORT-002,Answer,Even,Odd,15 - 8,B,1,15 - 8 = 7
+306,SORT-002,Answer,Even,Odd,16 - 9,B,1,16 - 9 = 7
+307,SORT-002,Answer,Even,Odd,9 - 1,A,1,9 - 1 = 8
+308,SORT-002,Answer,Even,Odd,10 - 2,A,1,10 - 2 = 8
+309,SORT-002,Answer,Even,Odd,11 - 3,A,1,11 - 3 = 8
+310,SORT-002,Answer,Even,Odd,12 - 4,A,1,12 - 4 = 8
+311,SORT-002,Answer,Even,Odd,13 - 5,A,1,13 - 5 = 8
+312,SORT-002,Answer,Even,Odd,14 - 6,A,1,14 - 6 = 8
+313,SORT-002,Answer,Even,Odd,15 - 7,A,1,15 - 7 = 8
+314,SORT-002,Answer,Even,Odd,16 - 8,A,1,16 - 8 = 8
+315,SORT-002,Answer,Even,Odd,17 - 9,A,1,17 - 9 = 8
+316,SORT-002,Answer,Even,Odd,10 - 1,B,1,10 - 1 = 9
+317,SORT-002,Answer,Even,Odd,11 - 2,B,1,11 - 2 = 9
+318,SORT-002,Answer,Even,Odd,12 - 3,B,1,12 - 3 = 9
+319,SORT-002,Answer,Even,Odd,13 - 4,B,1,13 - 4 = 9
+320,SORT-002,Answer,Even,Odd,14 - 5,B,1,14 - 5 = 9
+321,SORT-002,Answer,Even,Odd,15 - 6,B,1,15 - 6 = 9
+322,SORT-002,Answer,Even,Odd,16 - 7,B,1,16 - 7 = 9
+323,SORT-002,Answer,Even,Odd,17 - 8,B,1,17 - 8 = 9
+324,SORT-002,Answer,Even,Odd,18 - 9,B,1,18 - 9 = 9

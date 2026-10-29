@@ -13,6 +13,7 @@ import (
 	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/config"
 	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/csvimport"
 	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/db"
+	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/mentalmaths"
 	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/migrator"
 	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/seeder"
 )
@@ -26,6 +27,12 @@ func main() {
 	switch os.Args[1] {
 	case "import":
 		runImport(os.Args[2:])
+	case "gen-mental-maths":
+		files, err := mentalmaths.Write(filepath.Join(findDir("Sheets Dump"), "11th csv"))
+		if err != nil {
+			log.Fatalf("gen-mental-maths failed: %v", err)
+		}
+		log.Printf("wrote %d Mental Maths CSVs; run `game-db import` next", len(files))
 	case "seed":
 		runSeed(os.Args[2:])
 	case "migrate":
@@ -147,6 +154,8 @@ func usage() {
 
   game-db import [-sheets "Sheets Dump"] [-out seeds/sql] [-check]
       Validate content CSVs and (re)generate seeds/sql/*.sql. -check fails on drift.
+  game-db gen-mental-maths
+      Regenerate the Mental Maths CSVs (Sheets Dump/11th csv/<game>/Mental Maths/).
   game-db seed [-dir seeds/sql] [-db <url>]
       Apply every seeds/sql/*.sql file (idempotent MERGE).
   game-db migrate up|down|version|drop|reset [-dir migrations] [-db <url>]
