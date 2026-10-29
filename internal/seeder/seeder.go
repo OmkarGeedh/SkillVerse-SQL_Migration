@@ -1,3 +1,4 @@
+// Package seeder applies the SQL files in seeds/sql to PostgreSQL.
 package seeder
 
 import (
@@ -12,94 +13,41 @@ import (
 	"time"
 )
 
-// ApplySeeds executes seed operations against the database.
-// format can be "all", "sql", or "json". Default is "all".
-func ApplySeeds(ctx context.Context, db *sql.DB, seedsDir string, format string) error {
-	log.Printf("==> Starting seed process (format: %s)...\n", format)
-	startTime := time.Now()
-
-	// Always validate seeds first
-	valRes, err := ValidateSeeds(seedsDir)
+// Apply runs every *.sql file in dir in lexical order, each in its own transaction.
+func Apply(ctx context.Context, db *sql.DB, dir string) error {
+	entries, err := os.ReadDir(dir)
 	if err != nil {
-		return fmt.Errorf("seed validation failed: %w (errors: %s)", err, strings.Join(valRes.Errors, "; "))
+		return fmt.Errorf("reading seed dir %s: %w", dir, err)
 	}
-	log.Printf("==> Seed validation passed (%d topics, %d chapters, %d questions, %d users).\n",
-		valRes.TotalTopics, valRes.TotalChapters, valRes.TotalQuestions, valRes.TotalUsers)
-
-	// Ensure SQL exports are up to date
-	sqlDir := filepath.Join(seedsDir, "sql")
-	migFile := filepath.Join(filepath.Dir(seedsDir), "migrations", "000005_seed_mcq_questions.up.sql")
-	if err := ExportSQL(seedsDir, sqlDir, migFile); err != nil {
-		log.Printf("Warning: SQL export during seed encountered: %v\n", err)
-	}
-
-	if format == "json" {
-		if err := applyJSONSeeds(ctx, db, seedsDir); err != nil {
-			return err
-		}
-	} else {
-		// "sql" or "all" - run sql scripts in seeds/sql/
-		if err := applySQLSeeds(ctx, db, sqlDir); err != nil {
-			return err
-		}
-	}
-
-	log.Printf("==> Seed process completed successfully in %v.\n", time.Since(startTime))
-	return nil
-}
-
-func applySQLSeeds(ctx context.Context, db *sql.DB, sqlDir string) error {
-	entries, err := os.ReadDir(sqlDir)
-	if err != nil {
-		return fmt.Errorf("failed reading sql seed dir %s: %w", sqlDir, err)
-	}
-
-	var sqlFiles []string
+	var files []string
 	for _, e := range entries {
 		if !e.IsDir() && strings.HasSuffix(e.Name(), ".sql") {
-			sqlFiles = append(sqlFiles, e.Name())
+			files = append(files, e.Name())
 		}
 	}
-	sort.Strings(sqlFiles)
-
-	if len(sqlFiles) == 0 {
-		return fmt.Errorf("no .sql seed files found in %s", sqlDir)
+	sort.Strings(files)
+	if len(files) == 0 {
+		return fmt.Errorf("no .sql seed files in %s (run `game-db import` first)", dir)
 	}
 
-	for _, file := range sqlFiles {
-		filePath := filepath.Join(sqlDir, file)
-		content, err := os.ReadFile(filePath)
+	for _, name := range files {
+		content, err := os.ReadFile(filepath.Join(dir, name))
 		if err != nil {
-			return fmt.Errorf("failed reading seed script %s: %w", file, err)
+			return err
 		}
-
-		sqlContent := strings.TrimSpace(string(content))
-		if sqlContent == "" {
-			continue
-		}
-
-		log.Printf("==> Executing SQL seed: %s\n", file)
+		start := time.Now()
 		tx, err := db.BeginTx(ctx, nil)
 		if err != nil {
-			return fmt.Errorf("failed beginning tx for %s: %w", file, err)
+			return fmt.Errorf("%s: begin: %w", name, err)
 		}
-
-		if _, err := tx.ExecContext(ctx, sqlContent); err != nil {
-			tx.Rollback()
-			return fmt.Errorf("failed executing %s: %w", file, err)
+		if _, err := tx.ExecContext(ctx, string(content)); err != nil {
+			_ = tx.Rollback()
+			return fmt.Errorf("%s: %w", name, err)
 		}
-
 		if err := tx.Commit(); err != nil {
-			return fmt.Errorf("failed committing %s: %w", file, err)
+			return fmt.Errorf("%s: commit: %w", name, err)
 		}
-		log.Printf("==> Successfully executed: %s\n", file)
+		log.Printf("seeded %-32s (%v)", name, time.Since(start).Round(time.Millisecond))
 	}
-
 	return nil
-}
-
-func applyJSONSeeds(ctx context.Context, db *sql.DB, seedsDir string) error {
-	// Re-use SQL exporter output or execute direct parameterized batch
-	sqlDir := filepath.Join(seedsDir, "sql")
-	return applySQLSeeds(ctx, db, sqlDir)
 }

@@ -14,17 +14,17 @@ RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o /bin/game-db ./cmd/db
 # Stage 2: Minimal runtime image
 FROM alpine:3.20
 
-RUN apk add --no-cache ca-certificates postgresql-client python3 tzdata bash
+RUN apk add --no-cache ca-certificates tzdata bash
 
 WORKDIR /app
 
 COPY --from=builder /bin/game-db /app/game-db
 COPY migrations /app/migrations
-COPY seeds /app/seeds
+COPY seeds/sql /app/seeds/sql
 COPY docker-entrypoint.sh /app/docker-entrypoint.sh
 RUN chmod +x /app/docker-entrypoint.sh
 
 ENV DB_URL=""
 
 ENTRYPOINT ["/app/docker-entrypoint.sh"]
-CMD ["sync-and-migrate"]
+CMD ["sync"]

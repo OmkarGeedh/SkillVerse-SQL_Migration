@@ -1,36 +1,84 @@
-# AGENTS.md - SkillVerse-SQL_Migration
+# AGENTS.md — SkillVerse-SQL_Migration
 
-PostgreSQL schema migration, data engineering ETL pipeline, and data quality repository for the SkillVerse platform.
+Owns the PostgreSQL schema and all game content for the SkillVerse backend
+(`../GamifiedQuizApp_digitalHQ`). One path only: **CSV → generated SQL → database**.
 
-## Architecture
+```
+Sheets Dump/ (CSV, the only content source)
+   └─ game-db import ──► seeds/sql/*.sql (generated, committed)
+                              └─ game-db seed ──► PostgreSQL
+migrations/*.sql (schema only) ── game-db migrate up ──► PostgreSQL
+```
 
-- **`cmd/db/`**: CLI tool (`game-db`). Commands: `pipeline run`, `dq`, `profile`, `export`, `migrate`, `seed`.
-- **`internal/pipeline/`**: ETL pipeline orchestrator, CSV/Sheets parser, batch upsert loader, and audit logger (`data_pipeline_runs`).
-- **`internal/quality/`**: Data Quality & Contracts testing suite (uniqueness, not-null, enum domains, option integrity).
-- **`internal/profile/`**: Statistical profiler (difficulty distribution, word/char length, hint/explanation coverage).
-- **`migrations/`**: Sequenced migrations (`000001` - `000008`+) with paired `.up.sql` and `.down.sql`.
-- **`seeds/`**: Authoring JSON files (`manifest.json`, `questions/`, `users/`).
-- **`seeds/sql/`**: Auto-generated idempotent SQL seed scripts compiled from JSON.
-- **`Sheets Dump/`**: CSV exports for Google Sheets & Excel content authoring workflows.
-- **`docs/`**: [`DATA_ARCHITECTURE.md`](docs/DATA_ARCHITECTURE.md), [`DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md), [`DATA_CONTRACTS.md`](docs/DATA_CONTRACTS.md).
+## Commands
 
-## Rules & Invariants
+```bash
+make test            # go test -race ./...
+make import          # validate CSVs, regenerate seeds/sql
+make import-check    # fail if seeds/sql is stale (CI runs this)
+make migrate-up      # apply pending migrations
+make seed            # apply seeds/sql (idempotent; safe to rerun)
+make reset           # DROP SCHEMA public CASCADE + migrate up + seed  (destroys all data)
+make docker-up       # local postgres:18 + migrate + seed
+```
+DB URL comes from `DB_URL` / `DATABASE_URL` (env or `.env`, which is gitignored). Dev/staging is Neon (PostgreSQL 18).
 
-1. **Data Quality Gate**: Always run `make dq` to ensure all questions conform to data contracts before merging or deploying.
-2. **Strict Multi-Artifact Synchronization (ALWAYS Keep All in Sync)**: Any data addition, update, or ingestion must atomically keep all layers synchronized:
-   - **Raw Source CSVs**: Located in `Sheets Dump/`.
-   - **JSON Catalogs**: Updated in `seeds/questions/`.
-   - **Compiled SQL Seeds**: Synchronized in `seeds/sql/` via `make seed-export-sql`.
-   - **Sequenced Migrations**: Idempotent `.up.sql` and `.down.sql` in `migrations/`.
-   - **Live Database**: Applied via `make migrate-up`.
-   - **Master Export & Tests**: Refreshed via `make export-csv` (`questions_master.csv`) and count assertions updated in `internal/seeder/seeder_test.go`.
-   Never leave any single layer stale, uncompiled, or unapplied.
-3. **Idempotence & Lineage**: All migrations and batch loads must be idempotent. Pipeline executions write audit entries into `data_pipeline_runs`.
-4. **PostgreSQL as Source of Truth**: Migrations and pipelines target PostgreSQL directly (`make migrate-up`, `make pipeline-run`). Do not duplicate files into backend application code.
-5. **Column Length Invariants**:
-   - `question_code`: Must be **strictly <= 20 characters** across all question tables and `user_question_history` (e.g. `sio_acc_ch1_s001_01`).
-   - `pair_type`: Must be **strictly <= 32 characters** in `sort_it_out_questions`.
-6. **Bug Reporting & Unclean Data Policy**:
-   - Always generate a Bug Report artifact for all unclean, malformed, or incomplete data encountered in raw datasets/Sheets dumps (e.g. missing `Hint` columns, invalid types, malformed options).
-   - If unclean data can be cleaned, transformed, or corrected, **always ask for user permission before editing the data**.
-7. **Seed Test Maintenance**: Whenever new seed questions are added, update the expected count assertion in `internal/seeder/seeder_test.go` and verify with `go test ./...`.
+## Adding or changing content
+
+1. Drop/edit CSVs under `Sheets Dump/<grade dir>/<game dir>/<subject folder>/<chapter file>.csv`.
+   - grade dir starts with the grade number: `11th csv`
+   - game dir: `MCQ`, `Sudden Death`, `Sort it out`, `Match the Following` (case/spaces ignored)
+   - subject folder must match `folder` in `Sheets Dump/catalog/subjects.csv` (case/spaces ignored, so `Maths 1` = `Maths1`)
+   - chapter from file name: leading `<n>_` (`4_Ledger.csv`) or `CH<n>` (`11th_Accounts_CH4.csv`); must exist in `catalog/chapters.csv`
+   - one file per game/subject/chapter
+2. New subject or chapter → add a row to `catalog/subjects.csv` / `catalog/chapters.csv`. Chapter titles live **only** there; `Subject`/`Chapter` text columns in content CSVs are ignored (they are inconsistent).
+3. `make import` → read the "skipped" lines → `make test` → `make seed`. Commit CSVs and `seeds/sql` together.
+4. Never hand-edit files that start with `-- Code generated by game-db import`. `seeds/sql/90_demo_users.sql` is hand-written (password `secretpassword123`, login `player@example.com`).
+
+### CSV columns (header names matched case/space/punctuation-insensitively; extra columns ignored)
+| Game | Required columns |
+|---|---|
+| MCQ | S.No, Question, Option A–D, Correct Option (A–D), Difficulty, Points, Hint, Explanation |
+| Sudden Death | S.No, Question, Option A, Option B, Correct Option (A/B), Difficulty, Points, Hint, Explanation |
+| Sort it out | S.No, Set ID (`SORT-001`), Item Type, Bucket A, Bucket B, Item, Correct Bucket (A/B), Difficulty, Points, Explanation |
+| Match the Following | S.No, Board ID (`MTF-001`), Prompt, Left, Right, Difficulty, Points, Hint, Explanation — one row per pair |
+
+Difficulty 1–3, Points 1–1000. Options (and a board's Left values and Right values) must be non-blank and unique.
+
+### Unclean data policy
+- Structural problems (unknown folder/chapter, missing columns, duplicate chapter file) **fail** the import.
+- Bad rows (blank/duplicate options, bad letter, duplicate S.No, inconsistent set/board fields, ambiguous board) are **skipped** and printed as `file:line: reason`.
+- Do not edit source CSVs without the user's permission. Record skipped rows in `Bug Reports/` (see `DQ-BUG-2026-10-002`).
+
+### Question codes (stable across re-imports, ≤ 20 chars, `question_code_t` domain)
+`<short_code>-<chapter 2d>-<tag>-<n 4d>` where n is the row's S.No (Board ID number for boards).
+Tags: `mcq`, `sd` (sudden death), `so` (sort item), `mf` (match board). Sort sets: `<short>-<ch>-set-<nnn>`.
+Example: `acc11-04-mcq-0012`, `mth11b-07-so-0103`. Renumbering S.No changes codes (history keeps old codes).
+
+## Schema (migrations/, squashed 2026-10-29; data loss accepted then)
+| Migration | Contents |
+|---|---|
+| 000001_foundation | domains: `game_mode_t`, `difficulty_t` (1–3), `points_t` (>0), `nonblank_t`, `question_code_t` (varchar(20), `^[a-z0-9-]+$`) |
+| 000002_accounts | `clients`, `client_profiles`, `client_streak_activities`, `wallet_ledger` (uuidv7 ids). Columns mirror backend GORM models — change both together |
+| 000003_catalog | `subjects` (code, short_code, grade, name, sort_order), `chapters` (subject_id, chapter_no, title) |
+| 000004_game_content | `mcq_questions`, `sudden_death_questions`, `sort_it_out_sets` + `sort_it_out_items`, `match_boards` + `match_pairs`. All FK to `chapters`; no empty/unused columns; `(chapter_id) INCLUDE (question_code)` indexes |
+| 000005_read_views | `v_mcq_questions`, `v_sudden_death_questions`, `v_sort_it_out_questions`, `v_match_boards`, `v_content_counts` — what the backend reads (`topic_id` = `subjects.code`, `pair_type` = sort `set_code`) |
+| 000006_gameplay | `user_question_history`, `leaderboard_game_results` (backend no longer AutoMigrates it) |
+
+Rules:
+- Migrations are schema only. Never put content in a migration.
+- New change = new `00000N_name.up.sql` + `.down.sql`. Don't edit applied migrations (the migrator tracks filenames in `schema_migrations`).
+- Backend reads content **through the views**. If you change a content table, keep the view columns stable or update `GamifiedQuizApp_digitalHQ/internal/models/game_model.go` + `internal/repo/game_repo.go`.
+- `user_question_history.question_code` has no FK on purpose (history survives retired questions).
+- Seed files use `MERGE … WHEN NOT MATCHED BY SOURCE` (needs PostgreSQL ≥ 17): rows removed from a subject's CSVs are deleted, unchanged rows are not rewritten. Catalog merge never deletes.
+- Local Docker uses `postgres:18-alpine` with the volume at `/var/lib/postgresql`. An old PG16 volume is incompatible: `docker compose down -v` first.
+
+## Code layout
+- `cmd/db` — CLI (`import`, `seed`, `migrate up|down|version|drop|reset`)
+- `internal/csvimport` — CSV loading/validation (`load.go`) and SQL rendering + drift check (`render.go`)
+- `internal/seeder` — applies `seeds/sql/*.sql`, one transaction per file
+- `internal/migrator` — migration runner; `internal/db`, `internal/config` — connection/env
+
+## Repo rules
+- Never `git push`; the user reviews and pushes. Stage paths explicitly.
+- Pushing to `main` triggers `.github/workflows/database-deploy.yml` (test → import -check → migrate up → seed on the `production` DB secret).

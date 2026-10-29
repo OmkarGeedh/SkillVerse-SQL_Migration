@@ -37,11 +37,8 @@ jobs:
       - name: Build database CLI
         run: go build -o bin/game-db ./cmd/db
 
-      - name: Validate seed data
-        run: ./bin/game-db seed validate
-
-      - name: Run Data Quality Suite (DQ Gate)
-        run: ./bin/game-db dq
+      - name: Verify generated seeds match the CSVs
+        run: ./bin/game-db import -check
 
       - name: Verify database connection secret is present
         run: |
@@ -57,7 +54,7 @@ jobs:
         env:
           DB_URL: ${{ secrets.DATABASE_URL || secrets.DB_URL }}
 
-      - name: Upsert game content and initial seed
-        run: ./bin/game-db seed -format all
+      - name: Upsert game content and demo users
+        run: ./bin/game-db seed
         env:
           DB_URL: ${{ secrets.DATABASE_URL || secrets.DB_URL }}

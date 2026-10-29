@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   validate:
-    name: Validate Go, Migrations and Seeds
+    name: Validate Go, CSV content and generated seeds
     runs-on: ubuntu-latest
 
     steps:
@@ -25,51 +25,10 @@ jobs:
           cache: true
 
       - name: Check Go formatting
-        run: |
-          files=$(gofmt -l $(find cmd internal -name '*.go'))
-          if [ -n "$files" ]; then
-            echo "Unformatted Go files:"
-            echo "$files"
-            exit 1
-          fi
-
-      - name: Download dependencies
-        run: go mod download
+        run: make fmt-check
 
       - name: Run tests
         run: go test -race ./...
 
-      - name: Build database CLI
-        run: go build -o /tmp/game-db ./cmd/db
-
-      - name: Validate seeds (CLI validator)
-        run: /tmp/game-db seed validate
-
-      - name: Run Data Quality Suite (DQ Gate)
-        run: /tmp/game-db dq
-
-      - name: Generate Dataset Profile & Metrics
-        run: /tmp/game-db profile
-
-      - name: Validate seed export to SQL
-        run: /tmp/game-db seed export-sql
-
-      - name: Verify JSON and SQL seeds are in sync
-        run: |
-          if [ -n "$(git status --porcelain seeds/sql migrations/000005_seed_mcq_questions.up.sql)" ]; then
-            echo "Error: SQL seeds are out of sync with JSON seeds. Run 'make seed-export-sql' and commit."
-            git diff seeds/sql migrations/000005_seed_mcq_questions.up.sql
-            exit 1
-          fi
-
-      - name: Validate raw JSON syntax with jq
-        shell: bash
-        run: |
-          set -euo pipefail
-          count=0
-          while IFS= read -r -d '' file; do
-            jq empty "$file"
-            echo "Valid JSON: $file"
-            count=$((count + 1))
-          done < <(find seeds -type f -name '*.json' -print0)
-          echo "Validated $count JSON files."
+      - name: Validate CSVs and verify seeds/sql is up to date
+        run: go run ./cmd/db import -check

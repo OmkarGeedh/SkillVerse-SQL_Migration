@@ -1,324 +1,141 @@
+// Command game-db converts content CSVs to SQL seeds and manages the PostgreSQL schema.
 package main
 
 import (
 	"context"
+	"database/sql"
 	"flag"
 	"fmt"
 	"log"
 	"os"
 	"path/filepath"
-	"strings"
-	"time"
 
 	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/config"
+	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/csvimport"
 	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/db"
 	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/migrator"
-	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/pipeline"
-	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/profile"
-	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/quality"
 	"github.com/OmkarGeedh/SkillVerse-SQL_Migration/internal/seeder"
 )
 
 func main() {
+	log.SetFlags(0)
 	if len(os.Args) < 2 {
 		usage()
 		os.Exit(2)
 	}
-
-	command := os.Args[1]
-
-	switch command {
-	case "pipeline":
-		handlePipeline(os.Args[2:])
-	case "dq", "test":
-		handleDataQuality(os.Args[2:])
-	case "profile", "stats":
-		handleProfile(os.Args[2:])
-	case "export":
-		handleExport(os.Args[2:])
-	case "migrate":
-		handleMigrate(os.Args[2:])
+	switch os.Args[1] {
+	case "import":
+		runImport(os.Args[2:])
 	case "seed":
-		handleSeed(os.Args[2:])
+		runSeed(os.Args[2:])
+	case "migrate":
+		runMigrate(os.Args[2:])
 	case "help", "-h", "--help":
 		usage()
 	default:
-		fmt.Fprintf(os.Stderr, "Unknown command: %s\n\n", command)
+		fmt.Fprintf(os.Stderr, "unknown command %q\n\n", os.Args[1])
 		usage()
 		os.Exit(2)
 	}
 }
 
-func handlePipeline(args []string) {
-	fs := flag.NewFlagSet("pipeline", flag.ExitOnError)
-	dbFlag := fs.String("db", "", "PostgreSQL connection string (or DB_URL / DATABASE_URL env)")
-	seedsFlag := fs.String("seeds", findDir("seeds"), "Path to seeds directory")
-	sheetsFlag := fs.String("sheets", findDir("Sheets Dump"), "Path to Sheets Dump CSV directory")
-	strictFlag := fs.Bool("strict", true, "Fail pipeline if Data Quality tests fail")
+func runImport(args []string) {
+	fs := flag.NewFlagSet("import", flag.ExitOnError)
+	sheets := fs.String("sheets", findDir("Sheets Dump"), "content CSV root")
+	out := fs.String("out", filepath.Join(findDir("seeds"), "sql"), "generated SQL directory")
+	check := fs.Bool("check", false, "fail if generated SQL is out of date instead of writing it")
 	_ = fs.Parse(args)
 
-	startTime := time.Now()
-	runID := fmt.Sprintf("run_%d", startTime.Unix())
-
-	log.Printf("==> [ETL] Starting SkillVerse Data Pipeline (Run ID: %s)\n", runID)
-
-	// Step 1: Extract
-	log.Printf("==> [Extract] Ingesting source files from %s and %s...\n", *seedsFlag, *sheetsFlag)
-	questions, users, err := pipeline.ExtractAllSources(*seedsFlag, *sheetsFlag)
+	ds, err := csvimport.Load(*sheets)
 	if err != nil {
-		log.Fatalf("❌ [Extract] Failed extracting data: %v\n", err)
+		log.Fatalf("import failed: %v", err)
 	}
-	log.Printf("==> [Extract] Extracted %d questions and %d demo users.\n", len(questions), len(users))
-
-	// Step 2: Quality & Transformation Gate
-	log.Printf("==> [Transform/DQ] Running Data Quality validation suite...\n")
-	dqReport := quality.RunDataQualitySuite(questions, users)
-	quality.PrintReportToStdout(dqReport)
-
-	if dqReport.Failed > 0 && *strictFlag {
-		log.Fatalf("❌ [DQ Gate] Aborting pipeline: %d data quality checks failed (strict mode active).\n", dqReport.Failed)
+	for _, w := range ds.Warnings {
+		log.Printf("skipped %s", w)
 	}
+	log.Printf("loaded %d subjects, %d chapters | mcq %d | sudden_death %d | sort_it_out %d sets / %d items | match %d boards | %d rows skipped",
+		len(ds.Subjects), len(ds.Chapters), len(ds.MCQ), len(ds.SuddenDeath), len(ds.SortSets), ds.SortItemCount(), len(ds.Boards), len(ds.Warnings))
 
-	checksum := pipeline.ComputeChecksum(questions)
-	log.Printf("==> [Transform] Dataset SHA-256 Checksum: %s\n", checksum)
-
-	// Step 3: Load into PostgreSQL
-	connStr := config.LoadDatabaseURL(*dbFlag)
-	if connStr == "" {
-		fmt.Fprintln(os.Stderr, "Error: database URL required to load data. Set DB_URL or DATABASE_URL, or pass -db flag.")
-		os.Exit(1)
-	}
-
-	sqlDB, err := db.Connect(connStr)
+	changed, err := csvimport.Write(*out, csvimport.Render(ds), *check)
 	if err != nil {
-		log.Fatalf("❌ [Load] Database connection failed: %v\n", err)
+		log.Fatalf("writing SQL: %v", err)
 	}
-	defer sqlDB.Close()
-
-	ctx := context.Background()
-
-	log.Printf("==> [Load] Loading %d questions into PostgreSQL...\n", len(questions))
-	upserted, err := pipeline.LoadQuestionsBatch(ctx, sqlDB, questions)
-	if err != nil {
-		duration := time.Since(startTime)
-		_ = pipeline.LogPipelineRun(ctx, sqlDB, &pipeline.PipelineRunSummary{
-			RunID:            runID,
-			PipelineName:     "skillverse_questions_etl",
-			SourceType:       "hybrid_json_csv",
-			RecordsProcessed: len(questions),
-			RecordsUpserted:  upserted,
-			Checksum:         checksum,
-			Duration:         duration,
-			Status:           "FAILED",
-			ErrorMessage:     err.Error(),
-		})
-		log.Fatalf("❌ [Load] Failed upserting questions: %v\n", err)
-	}
-
-	duration := time.Since(startTime)
-
-	// Step 4: Audit & Lineage Logging
-	_ = pipeline.LogPipelineRun(ctx, sqlDB, &pipeline.PipelineRunSummary{
-		RunID:            runID,
-		PipelineName:     "skillverse_questions_etl",
-		SourceType:       "hybrid_json_csv",
-		RecordsProcessed: len(questions),
-		RecordsUpserted:  upserted,
-		Checksum:         checksum,
-		Duration:         duration,
-		Status:           "SUCCESS",
-	})
-
-	log.Printf("✅ [Pipeline Complete] Processed %d records | Upserted %d rows | Elapsed: %v\n",
-		len(questions), upserted, duration)
-	log.Printf("   Audit record written to PostgreSQL table: data_pipeline_runs\n")
-}
-
-func handleDataQuality(args []string) {
-	fs := flag.NewFlagSet("dq", flag.ExitOnError)
-	seedsFlag := fs.String("seeds", findDir("seeds"), "Path to seeds directory")
-	sheetsFlag := fs.String("sheets", findDir("Sheets Dump"), "Path to Sheets Dump CSV directory")
-	_ = fs.Parse(args)
-
-	questions, users, err := pipeline.ExtractAllSources(*seedsFlag, *sheetsFlag)
-	if err != nil {
-		log.Fatalf("Failed loading sources for DQ check: %v\n", err)
-	}
-
-	report := quality.RunDataQualitySuite(questions, users)
-	quality.PrintReportToStdout(report)
-
-	if report.Failed > 0 {
-		os.Exit(1)
-	}
-}
-
-func handleProfile(args []string) {
-	fs := flag.NewFlagSet("profile", flag.ExitOnError)
-	seedsFlag := fs.String("seeds", findDir("seeds"), "Path to seeds directory")
-	sheetsFlag := fs.String("sheets", findDir("Sheets Dump"), "Path to Sheets Dump CSV directory")
-	_ = fs.Parse(args)
-
-	questions, _, err := pipeline.ExtractAllSources(*seedsFlag, *sheetsFlag)
-	if err != nil {
-		log.Fatalf("Failed loading sources for profiling: %v\n", err)
-	}
-
-	prof := profile.ProfileQuestions(questions)
-	profile.PrintProfileToStdout(prof)
-}
-
-func handleExport(args []string) {
-	fs := flag.NewFlagSet("export", flag.ExitOnError)
-	formatFlag := fs.String("format", "sql", "Export format: sql or csv")
-	seedsFlag := fs.String("seeds", findDir("seeds"), "Path to seeds directory")
-	sheetsFlag := fs.String("sheets", findDir("Sheets Dump"), "Path to Sheets Dump CSV directory")
-	sqlDirFlag := fs.String("sql", filepath.Join(findDir("seeds"), "sql"), "Output directory for SQL seeds")
-	migFlag := fs.String("mig", filepath.Join(findDir("migrations"), "000005_seed_mcq_questions.up.sql"), "Output path for migration file")
-	outCSVFlag := fs.String("out", filepath.Join(findDir("Sheets Dump"), "questions_master.csv"), "Output CSV path")
-	_ = fs.Parse(args)
-
-	switch strings.ToLower(*formatFlag) {
-	case "csv":
-		questions, _, err := pipeline.ExtractAllSources(*seedsFlag, *sheetsFlag)
-		if err != nil {
-			log.Fatalf("Failed loading sources: %v\n", err)
-		}
-		if err := pipeline.ExportToCSV(questions, *outCSVFlag); err != nil {
-			log.Fatalf("Failed exporting to CSV: %v\n", err)
-		}
-		fmt.Printf("✅ Exported %d questions to CSV: %s\n", len(questions), *outCSVFlag)
-	case "sql":
-		if err := seeder.ExportSQL(*seedsFlag, *sqlDirFlag, *migFlag); err != nil {
-			log.Fatalf("Export to SQL failed: %v\n", err)
-		}
-		fmt.Printf("✅ Exported JSON seeds to SQL scripts in %s\n", *sqlDirFlag)
-		if *migFlag != "" {
-			fmt.Printf("✅ Generated migration seed file: %s\n", *migFlag)
-		}
+	switch {
+	case *check && len(changed) > 0:
+		log.Fatalf("seeds out of date, run `make import`: %v", changed)
+	case len(changed) == 0:
+		log.Printf("%s is up to date", *out)
 	default:
-		log.Fatalf("Unknown export format: %s (supported: sql, csv)\n", *formatFlag)
+		log.Printf("wrote %s: %v", *out, changed)
 	}
 }
 
-func handleMigrate(args []string) {
+func runSeed(args []string) {
+	fs := flag.NewFlagSet("seed", flag.ExitOnError)
+	dbURL := fs.String("db", "", "PostgreSQL URL (default DB_URL / DATABASE_URL)")
+	dir := fs.String("dir", filepath.Join(findDir("seeds"), "sql"), "seed SQL directory")
+	_ = fs.Parse(args)
+
+	conn := connect(*dbURL)
+	defer conn.Close()
+	if err := seeder.Apply(context.Background(), conn, *dir); err != nil {
+		log.Fatalf("seed failed: %v", err)
+	}
+}
+
+func runMigrate(args []string) {
 	if len(args) == 0 {
-		fmt.Fprintln(os.Stderr, "Error: migrate sub-command required (up, down, version)")
 		usage()
 		os.Exit(2)
 	}
-
-	subCmd := args[0]
-	fs := flag.NewFlagSet("migrate "+subCmd, flag.ExitOnError)
-	dbFlag := fs.String("db", "", "PostgreSQL connection string (or DB_URL / DATABASE_URL env)")
-	dirFlag := fs.String("dir", findDir("migrations"), "Path to migrations directory")
+	sub := args[0]
+	fs := flag.NewFlagSet("migrate "+sub, flag.ExitOnError)
+	dbURL := fs.String("db", "", "PostgreSQL URL (default DB_URL / DATABASE_URL)")
+	dir := fs.String("dir", findDir("migrations"), "migrations directory")
 	_ = fs.Parse(args[1:])
 
-	connStr := config.LoadDatabaseURL(*dbFlag)
-	if connStr == "" {
-		fmt.Fprintln(os.Stderr, "Error: database URL required. Set DB_URL or DATABASE_URL, or pass -db flag.")
-		os.Exit(1)
-	}
-
-	sqlDB, err := db.Connect(connStr)
-	if err != nil {
-		log.Fatalf("Database connection failed: %v\n", err)
-	}
-	defer sqlDB.Close()
-
+	conn := connect(*dbURL)
+	defer conn.Close()
 	ctx := context.Background()
 
-	switch subCmd {
+	var err error
+	switch sub {
 	case "up":
-		if _, err := migrator.MigrateUp(ctx, sqlDB, *dirFlag); err != nil {
-			log.Fatalf("Migrate up failed: %v\n", err)
-		}
+		_, err = migrator.MigrateUp(ctx, conn, *dir)
 	case "down":
-		if err := migrator.MigrateDown(ctx, sqlDB, *dirFlag); err != nil {
-			log.Fatalf("Migrate down failed: %v\n", err)
-		}
+		err = migrator.MigrateDown(ctx, conn, *dir)
 	case "version", "status":
-		if err := migrator.MigrateVersion(ctx, sqlDB, *dirFlag); err != nil {
-			log.Fatalf("Migrate version failed: %v\n", err)
-		}
-	case "drop", "clean":
-		if err := migrator.MigrateDropAll(ctx, sqlDB); err != nil {
-			log.Fatalf("Migrate drop failed: %v\n", err)
-		}
+		err = migrator.MigrateVersion(ctx, conn, *dir)
+	case "drop":
+		err = migrator.MigrateDropAll(ctx, conn)
 	case "reset":
-		if err := migrator.MigrateDropAll(ctx, sqlDB); err != nil {
-			log.Fatalf("Migrate reset (drop) failed: %v\n", err)
-		}
-		if _, err := migrator.MigrateUp(ctx, sqlDB, *dirFlag); err != nil {
-			log.Fatalf("Migrate reset (up) failed: %v\n", err)
+		if err = migrator.MigrateDropAll(ctx, conn); err == nil {
+			_, err = migrator.MigrateUp(ctx, conn, *dir)
 		}
 	default:
-		fmt.Fprintf(os.Stderr, "Unknown migrate sub-command: %s\n", subCmd)
+		fmt.Fprintf(os.Stderr, "unknown migrate sub-command %q\n", sub)
 		os.Exit(2)
+	}
+	if err != nil {
+		log.Fatalf("migrate %s failed: %v", sub, err)
 	}
 }
 
-func handleSeed(args []string) {
-	if len(args) > 0 && args[0] == "validate" {
-		fs := flag.NewFlagSet("seed validate", flag.ExitOnError)
-		seedsFlag := fs.String("seeds", findDir("seeds"), "Path to seeds directory")
-		_ = fs.Parse(args[1:])
-
-		res, err := seeder.ValidateSeeds(*seedsFlag)
-		if err != nil {
-			fmt.Fprintf(os.Stderr, "❌ Seed validation failed:\n")
-			for _, e := range res.Errors {
-				fmt.Fprintf(os.Stderr, "  - %s\n", e)
-			}
-			os.Exit(1)
-		}
-
-		fmt.Printf("✅ Seed validation passed successfully!\n")
-		fmt.Printf("   JSON files: %d | SQL files: %d\n", res.TotalJSONFiles, res.TotalSQLFiles)
-		fmt.Printf("   Topics: %d | Chapters: %d | Questions: %d | Users: %d\n",
-			res.TotalTopics, res.TotalChapters, res.TotalQuestions, res.TotalUsers)
-		return
+func connect(explicit string) *sql.DB {
+	url := config.LoadDatabaseURL(explicit)
+	if url == "" {
+		log.Fatal("database URL required: set DB_URL or DATABASE_URL, or pass -db")
 	}
-
-	if len(args) > 0 && (args[0] == "export-sql" || args[0] == "export") {
-		handleExport(args[1:])
-		return
-	}
-
-	// Default seed execution against DB
-	fs := flag.NewFlagSet("seed", flag.ExitOnError)
-	dbFlag := fs.String("db", "", "PostgreSQL connection string (or DB_URL / DATABASE_URL env)")
-	seedsFlag := fs.String("seeds", findDir("seeds"), "Path to seeds directory")
-	formatFlag := fs.String("format", "all", "Seed format to apply: all, sql, json")
-	_ = fs.Parse(args)
-
-	connStr := config.LoadDatabaseURL(*dbFlag)
-	if connStr == "" {
-		fmt.Fprintln(os.Stderr, "Error: database URL required. Set DB_URL or DATABASE_URL, or pass -db flag.")
-		os.Exit(1)
-	}
-
-	sqlDB, err := db.Connect(connStr)
+	conn, err := db.Connect(url)
 	if err != nil {
-		log.Fatalf("Database connection failed: %v\n", err)
+		log.Fatalf("database connection failed: %v", err)
 	}
-	defer sqlDB.Close()
-
-	ctx := context.Background()
-	if err := seeder.ApplySeeds(ctx, sqlDB, *seedsFlag, strings.ToLower(*formatFlag)); err != nil {
-		log.Fatalf("Seeding failed: %v\n", err)
-	}
+	return conn
 }
 
 func findDir(target string) string {
-	candidates := []string{
-		target,
-		"./" + target,
-		"../" + target,
-		filepath.Join(".", target),
-	}
-	for _, c := range candidates {
-		if stat, err := os.Stat(c); err == nil && stat.IsDir() {
+	for _, c := range []string{target, filepath.Join("..", target)} {
+		if st, err := os.Stat(c); err == nil && st.IsDir() {
 			return c
 		}
 	}
@@ -326,29 +143,15 @@ func findDir(target string) string {
 }
 
 func usage() {
-	fmt.Fprintln(os.Stderr, "SkillVerse Data Engineering CLI (game-db)")
-	fmt.Fprintln(os.Stderr, "")
-	fmt.Fprintln(os.Stderr, "Usage:")
-	fmt.Fprintln(os.Stderr, "  # Data Pipeline (ETL & Lineage)")
-	fmt.Fprintln(os.Stderr, "  game-db pipeline run [-seeds <dir>] [-sheets <dir>] [-db <url>]")
-	fmt.Fprintln(os.Stderr, "")
-	fmt.Fprintln(os.Stderr, "  # Data Quality & Profiling")
-	fmt.Fprintln(os.Stderr, "  game-db dq [-seeds <dir>] [-sheets <dir>]")
-	fmt.Fprintln(os.Stderr, "  game-db profile [-seeds <dir>] [-sheets <dir>]")
-	fmt.Fprintln(os.Stderr, "")
-	fmt.Fprintln(os.Stderr, "  # Data Export")
-	fmt.Fprintln(os.Stderr, "  game-db export -format <sql|csv> [-out <path>]")
-	fmt.Fprintln(os.Stderr, "")
-	fmt.Fprintln(os.Stderr, "  # Database Schema Migrations")
-	fmt.Fprintln(os.Stderr, "  game-db migrate up [-dir <path>] [-db <url>]")
-	fmt.Fprintln(os.Stderr, "  game-db migrate down [-dir <path>] [-db <url>]")
-	fmt.Fprintln(os.Stderr, "  game-db migrate version [-dir <path>] [-db <url>]")
-	fmt.Fprintln(os.Stderr, "")
-	fmt.Fprintln(os.Stderr, "  # Backward-Compatible Seeds")
-	fmt.Fprintln(os.Stderr, "  game-db seed validate [-seeds <path>]")
-	fmt.Fprintln(os.Stderr, "  game-db seed export-sql [-seeds <path>] [-sql <path>]")
-	fmt.Fprintln(os.Stderr, "  game-db seed [-seeds <path>] [-format all|sql|json] [-db <url>]")
-	fmt.Fprintln(os.Stderr, "")
-	fmt.Fprintln(os.Stderr, "Environment variables:")
-	fmt.Fprintln(os.Stderr, "  DB_URL or DATABASE_URL : PostgreSQL connection string")
+	fmt.Fprint(os.Stderr, `game-db - SkillVerse content & schema tool
+
+  game-db import [-sheets "Sheets Dump"] [-out seeds/sql] [-check]
+      Validate content CSVs and (re)generate seeds/sql/*.sql. -check fails on drift.
+  game-db seed [-dir seeds/sql] [-db <url>]
+      Apply every seeds/sql/*.sql file (idempotent MERGE).
+  game-db migrate up|down|version|drop|reset [-dir migrations] [-db <url>]
+      Schema migrations. drop/reset destroy ALL data in the public schema.
+
+Env: DB_URL or DATABASE_URL
+`)
 }

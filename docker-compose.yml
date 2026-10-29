@@ -7,14 +7,12 @@ services:
     restart: "no"
     environment:
       - DB_URL=${DB_URL:-postgresql://skillverse:skillverse_secrets@postgres:5432/gamifiedapp?sslmode=disable}
-    volumes:
-      - ../GamifiedQuizApp_digitalHQ:/backend
     depends_on:
       postgres:
         condition: service_healthy
 
   postgres:
-    image: postgres:16-alpine
+    image: postgres:18-alpine
     container_name: skillverse_db
     restart: unless-stopped
     environment:
@@ -24,7 +22,7 @@ services:
     ports:
       - "${POSTGRES_PORT:-5432}:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-skillverse} -d ${POSTGRES_DB:-gamifiedapp}"]
       interval: 5s
